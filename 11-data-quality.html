@@ -244,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <li class="sidebar-item">
 <div class="sidebar-item-container">
 <a class="sidebar-item-text sidebar-link" href="./05-kazoku-rank.html">
-<span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></span></a>
+<span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s outcome variable)</span></span></a>
 </div>
 </li>
 <li class="sidebar-item">
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 <ul class="collapse">
 <li><a class="nav-link" data-scroll-target="#sendai-mislabel-兵卒-18913-was-actually-卒族-demographics" href="#sendai-mislabel-兵卒-18913-was-actually-卒族-demographics" id="toc-sendai-mislabel-兵卒-18913-was-actually-卒族-demographics"><span class="header-section-number">21.2.1</span> Sendai mislabel — “<ruby>兵卒<rt>へいそつ</rt></ruby> 18,913” was actually <ruby>卒族<rt>そつぞく</rt></ruby> demographics</a></li>
 <li><a class="nav-link" data-scroll-target="#tosa-人口-896808-column-stack-ocr-error-from-satsuma" href="#tosa-人口-896808-column-stack-ocr-error-from-satsuma" id="toc-tosa-人口-896808-column-stack-ocr-error-from-satsuma"><span class="header-section-number">21.2.2</span> Tosa <ruby>人口<rt>じんこう</rt></ruby> = 896,808 — column-stack OCR error from Satsuma</a></li>
-<li><a class="nav-link" data-scroll-target="#saga-wholly-absent-from-hi-vol.-2-t7t9" href="#saga-wholly-absent-from-hi-vol.-2-t7t9" id="toc-saga-wholly-absent-from-hi-vol.-2-t7t9"><span class="header-section-number">21.2.3</span> Saga — wholly absent from HI vol. 2 T7–T9</a></li>
+<li><a class="nav-link" data-scroll-target="#saga-wholly-absent-from-hansei-ichiran-vol.-2-t7t9" href="#saga-wholly-absent-from-hansei-ichiran-vol.-2-t7t9" id="toc-saga-wholly-absent-from-hansei-ichiran-vol.-2-t7t9"><span class="header-section-number">21.2.3</span> Saga — wholly absent from Hansei Ichiran vol. 2 T7–T9</a></li>
 <li><a class="nav-link" data-scroll-target="#stacked-page-contamination-four-confirmed-cases" href="#stacked-page-contamination-four-confirmed-cases" id="toc-stacked-page-contamination-four-confirmed-cases"><span class="header-section-number">21.2.4</span> Stacked-page contamination — four confirmed cases</a></li>
 <li><a class="nav-link" data-scroll-target="#akita-ravina-a1-typo-confirmed" href="#akita-ravina-a1-typo-confirmed" id="toc-akita-ravina-a1-typo-confirmed"><span class="header-section-number">21.2.5</span> Akita Ravina A1 typo confirmed</a></li>
 <li><a class="nav-link" data-scroll-target="#four-domain-category-reclassifications" href="#four-domain-category-reclassifications" id="toc-four-domain-category-reclassifications"><span class="header-section-number">21.2.6</span> Four domain-category reclassifications</a></li>
@@ -523,19 +523,19 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level4" data-number="21.1.2.3" id="c-the-tosa-satsuma-column-stack">
 <h4 class="anchored" data-anchor-id="c-the-tosa-satsuma-column-stack" data-number="21.1.2.3"><span class="header-section-number">21.1.2.3</span> 2c — The Tosa-Satsuma column-stack</h4>
-<p>The most-historically-instructive contamination wasn’t caught by either intra-HI audit because it involves an <strong>external primary source</strong>. Tosa’s <code>hi_jinkou</code> value of 896,808 is essentially identical to Satsuma’s <code>population_tokei_shushi</code> value of 896,817 — a column-stack OCR error in the Tōkei Shūshi tabulation pipeline. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
-<p>A cross-source contamination audit (HI versus primary-source) would catch this pattern systematically; the current dataset handles the Tosa case as a documented one-off correction.</p>
+<p>The most-historically-instructive contamination wasn’t caught by either intra-Hansei Ichiran audit because it involves an <strong>external primary source</strong>. Tosa’s <code>hi_jinkou</code> value of 896,808 is essentially identical to Satsuma’s <code>population_tokei_shushi</code> value of 896,817 — a column-stack OCR error in the Tōkei Shūshi tabulation pipeline. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
+<p>A cross-source contamination audit (Hansei Ichiran versus primary-source) would catch this pattern systematically; the current dataset handles the Tosa case as a documented one-off correction.</p>
 </section>
 </section>
 <section class="level3" data-number="21.1.3" id="layer-3-ravina-replication-audit">
 <h3 class="anchored" data-anchor-id="layer-3-ravina-replication-audit" data-number="21.1.3"><span class="header-section-number">21.1.3</span> Layer 3 — Ravina replication audit</h3>
-<p>Mark Ravina’s <em>Land and Lordship in Early Modern Japan</em> (1999) Appendix Table A1 provides per-domain ratios (kusadaka / commoner, retainers per 100 commoners, gendaka / commoner, retainers per 1,000 koku, gendaka / kusadaka) for roughly 227 domains. The dataset computes the same ratios both from <strong>HI directly</strong> and from <strong>primary sources</strong> (Ōkuma + Meiji Shiyō + Tōkei Shūshi), and audits the deltas against Ravina.</p>
+<p>Mark Ravina’s <em>Land and Lordship in Early Modern Japan</em> (1999) Appendix Table A1 provides per-domain ratios (kusadaka / commoner, retainers per 100 commoners, gendaka / commoner, retainers per 1,000 koku, gendaka / kusadaka) for roughly 227 domains. The dataset computes the same ratios both from <strong>Hansei Ichiran directly</strong> and from <strong>primary sources</strong> (Ōkuma + Meiji Shiyō + Tōkei Shūshi), and audits the deltas against Ravina.</p>
 <p>State after final pass (all 227 Ravina rows merged):</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Match category</th>
-<th style="text-align: right;">HI-derived</th>
+<th style="text-align: right;">Hansei Ichiran-derived</th>
 <th style="text-align: right;">Primary-derived</th>
 </tr>
 </thead>
@@ -567,7 +567,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>The primary-derived ratios match Ravina substantially better than the HI-derived ratios (173 clean matches against 78). This reflects that Ravina himself worked from the same primary sources the dataset now cites — Meiji Shiyō and the Ōkuma papers — rather than from HI directly. The 12 primary-derived divergent cases were individually diagnosed. The notable finding: <strong>Akita’s <em>gendaka_per_commoner</em> = 0.049 in Ravina is a confirmed decimal-place typo</strong> (should be 0.49 per the primary-derived value).</p>
+<p>The primary-derived ratios match Ravina substantially better than the Hansei Ichiran-derived ratios (173 clean matches against 78). This reflects that Ravina himself worked from the same primary sources the dataset now cites — Meiji Shiyō and the Ōkuma papers — rather than from Hansei Ichiran directly. The 12 primary-derived divergent cases were individually diagnosed. The notable finding: <strong>Akita’s <em>gendaka_per_commoner</em> = 0.049 in Ravina is a confirmed decimal-place typo</strong> (should be 0.49 per the primary-derived value).</p>
 </section>
 <section class="level3" data-number="21.1.4" id="layer-4-the-honest-medium-tracker">
 <h3 class="anchored" data-anchor-id="layer-4-the-honest-medium-tracker" data-number="21.1.4"><span class="header-section-number">21.1.4</span> Layer 4 — The honest-medium tracker</h3>
@@ -682,7 +682,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Source illegible</td>
 <td style="text-align: right;">6</td>
-<td>Original ink in the 1870 print is too faded. No re-OCR can fix this; would require a different physical copy of HI.</td>
+<td>Original ink in the 1870 print is too faded. No re-OCR can fix this; would require a different physical copy of Hansei Ichiran.</td>
 </tr>
 </tbody>
 </table>
@@ -714,11 +714,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level3" data-number="21.2.2" id="tosa-人口-896808-column-stack-ocr-error-from-satsuma">
 <h3 class="anchored" data-anchor-id="tosa-人口-896808-column-stack-ocr-error-from-satsuma" data-number="21.2.2"><span class="header-section-number">21.2.2</span> Tosa <ruby>人口<rt>じんこう</rt></ruby> = 896,808 — column-stack OCR error from Satsuma</h3>
-<p>Tosa’s HI population value of 896,808 is an OCR column-stack error — it is identical (within 9 persons) to Satsuma’s primary-source population, indicating the tabulation pipeline mis-aligned a column. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
+<p>Tosa’s Hansei Ichiran population value of 896,808 is an OCR column-stack error — it is identical (within 9 persons) to Satsuma’s primary-source population, indicating the tabulation pipeline mis-aligned a column. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
 </section>
-<section class="level3" data-number="21.2.3" id="saga-wholly-absent-from-hi-vol.-2-t7t9">
-<h3 class="anchored" data-anchor-id="saga-wholly-absent-from-hi-vol.-2-t7t9" data-number="21.2.3"><span class="header-section-number">21.2.3</span> Saga — wholly absent from HI vol. 2 T7–T9</h3>
-<p>Saga (<ruby>佐嘉藩<rt>さがはん</rt></ruby>) appears in HI vol. 2 T6 but has <strong>no T7 / T8 / T9 entries</strong> — the standard military and fiscal-detail tables don’t include Saga. This is a source-level gap, not an extraction failure. The pipeline handles this via <code>SOURCE_GAP</code> marker rows; Saga’s military details come from a published-source supplement (<ruby>藤野保<rt>ふじのたもつ</rt></ruby> 2010, Beasley 1972 — see the <a href="./02-walkthrough-saga.html">Saga walkthrough</a>).</p>
+<section class="level3" data-number="21.2.3" id="saga-wholly-absent-from-hansei-ichiran-vol.-2-t7t9">
+<h3 class="anchored" data-anchor-id="saga-wholly-absent-from-hansei-ichiran-vol.-2-t7t9" data-number="21.2.3"><span class="header-section-number">21.2.3</span> Saga — wholly absent from Hansei Ichiran vol. 2 T7–T9</h3>
+<p>Saga (<ruby>佐嘉藩<rt>さがはん</rt></ruby>) appears in Hansei Ichiran vol. 2 T6 but has <strong>no T7 / T8 / T9 entries</strong> — the standard military and fiscal-detail tables don’t include Saga. This is a source-level gap, not an extraction failure. The pipeline handles this via <code>SOURCE_GAP</code> marker rows; Saga’s military details come from a published-source supplement (<ruby>藤野保<rt>ふじのたもつ</rt></ruby> 2010, Beasley 1972 — see the <a href="./02-walkthrough-saga.html">Saga walkthrough</a>).</p>
 </section>
 <section class="level3" data-number="21.2.4" id="stacked-page-contamination-four-confirmed-cases">
 <h3 class="anchored" data-anchor-id="stacked-page-contamination-four-confirmed-cases" data-number="21.2.4"><span class="header-section-number">21.2.4</span> Stacked-page contamination — four confirmed cases</h3>
@@ -797,18 +797,18 @@ ul.task-list li input[type="checkbox"] {
 <td>Meiji Shiyō + Ōkuma + Tōkei Shūshi</td>
 </tr>
 <tr class="odd">
-<td>Population (HI direct)</td>
+<td>Population (Hansei Ichiran direct)</td>
 <td>77%</td>
-<td>Direct from HI</td>
+<td>Direct from Hansei Ichiran</td>
 </tr>
 <tr class="even">
-<td>Military details (HI)</td>
+<td>Military details (Hansei Ichiran)</td>
 <td>56% troops, 16% warships</td>
-<td>Sparse by HI’s construction; the four focal domains have published-source supplements</td>
+<td>Sparse by Hansei Ichiran’s construction; the four focal domains have published-source supplements</td>
 </tr>
 </tbody>
 </table>
-<p>The 96–100 percent coverage on every analytically critical column is the working summary of the data-quality work. The remaining gaps are documented and either structural (HI’s military coverage was always sparse) or specific (the four missing kazoku rank rows are real historical exclusion events, not transcription failures).</p>
+<p>The 96–100 percent coverage on every analytically critical column is the working summary of the data-quality work. The remaining gaps are documented and either structural (Hansei Ichiran’s military coverage was always sparse) or specific (the four missing kazoku rank rows are real historical exclusion events, not transcription failures).</p>
 </section>
 <section class="level2" data-number="21.4" id="what-the-audit-framework-establishes">
 <h2 class="anchored" data-anchor-id="what-the-audit-framework-establishes" data-number="21.4"><span class="header-section-number">21.4</span> What the audit framework establishes</h2>

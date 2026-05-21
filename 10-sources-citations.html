@@ -244,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <li class="sidebar-item">
 <div class="sidebar-item-container">
 <a class="sidebar-item-text sidebar-link" href="./05-kazoku-rank.html">
-<span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></span></a>
+<span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s outcome variable)</span></span></a>
 </div>
 </li>
 <li class="sidebar-item">
@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="family-1-hansei-ichiran-1870-the-primary-record" data-number="20.1.1"><span class="header-section-number">20.1.1</span> Family 1 — Hansei Ichiran 1870 (the primary record)</h3>
 <p>The book itself: <ruby>藩制一覧<rt>はんせいいちらん</rt></ruby> (Hansei Ichiran), 1870, two volumes, surveyed and compiled by the early Meiji government. <strong>Every <code>hi_*</code> column in the analytic dataset derives from this source</strong>, traced through per-domain extracted chunks.</p>
 <p>Citation form: <em>Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>), 1870, vol. N, table N, page N. Compiled by the Meiji-government survey of daimyo administrative returns.</em></p>
-<p>The exact page reference for any HI-derived value is preserved in the dataset’s master extraction record (one row per per-domain per-field extraction, with the source crop / page noted). When a paper table cites a specific HI number, this row-level audit trail establishes precisely where in the original document the value lives.</p>
+<p>The exact page reference for any Hansei Ichiran-derived value is preserved in the dataset’s master extraction record (one row per per-domain per-field extraction, with the source crop / page noted). When a paper table cites a specific Hansei Ichiran number, this row-level audit trail establishes precisely where in the original document the value lives.</p>
 <p>Volume / table mapping:</p>
 <ul>
 <li><strong>Vol. 1</strong> (tables T1–T5): identifier, revenue, and population tables for most domains</li>
@@ -378,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level3" data-number="20.1.2" id="family-2-government-primary-documents-paper-citable">
 <h3 class="anchored" data-anchor-id="family-2-government-primary-documents-paper-citable" data-number="20.1.2"><span class="header-section-number">20.1.2</span> Family 2 — Government primary documents (paper-citable)</h3>
-<p>Three contemporaneous government compilations that overlap with HI on population and revenue, plus the official ennoblement gazettes:</p>
+<p>Three contemporaneous government compilations that overlap with Hansei Ichiran on population and revenue, plus the official ennoblement gazettes:</p>
 <section class="level4" data-number="20.1.2.1" id="明治史要-meiji-shiyō">
 <h4 class="anchored" data-anchor-id="明治史要-meiji-shiyō" data-number="20.1.2.1"><span class="header-section-number">20.1.2.1</span> <ruby>明治史要<rt>めいじしよう</rt></ruby> (Meiji Shiyō)</h4>
 <p>Compiled by the <strong><ruby>修史局<rt>しゅうしきょく</rt></ruby> (Bureau of Historiography)</strong>. The standard early-Meiji compendium of administrative data: domain populations, household counts, kokudaka, basic fiscal indicators. Backs the <code>population_meiji_shiyo</code> and <code>households_meiji_shiyo</code> columns.</p>
@@ -704,7 +704,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Ravina 1999, Appendix A1 (with the Akita gendaka typo noted explicitly)</td>
 </tr>
 <tr class="even">
-<td><code>kokudaka_iv</code> (composite IV)</td>
+<td><code>kokudaka_iv</code> (composite — the paper’s main predictor)</td>
 <td>Underlying source per <code>kokudaka_iv_source</code> column</td>
 </tr>
 <tr class="odd">
