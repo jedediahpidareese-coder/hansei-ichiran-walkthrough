@@ -72,43 +72,57 @@ body {
 }
 
 /* ---------- Ruby / furigana ---------- */
+/* Use the browser's native ruby positioning — rt above the base text.   */
+/* Do NOT set `display` or `transform` on rt; that breaks ruby semantics. */
 
 ruby {
   ruby-position: over;
   ruby-align: center;
-  /* Tighten the gap between base text and ruby annotation */
-  line-height: 1.85;
 }
 
 rt {
-  font-size: 0.52em;
+  font-size: 0.55em;
   font-family: var(--font-jp);
   font-weight: 400;
   letter-spacing: -0.02em;
   color: var(--ink-soft);
-  /* Exclude the ruby reading from copy-paste */
+  /* Exclude the kana reading from copy-paste of the base text */
   user-select: none;
   -webkit-user-select: none;
-  /* Slightly nudge readings down toward the base text */
-  transform: translateY(0.15em);
-  display: inline-block;
 }
 
-/* Headings: keep ruby readings discreet so they don't dominate the heading typography */
-h1 rt, h2 rt, h3 rt, h4 rt, .hero-title rt, .tile-title rt {
+/* Body containers need extra line-height to make vertical room for the */
+/* ruby annotation above the base text. Without this, ruby on a line    */
+/* visually crowds the line above it.                                    */
+p, li, td, th, blockquote,
+.callout-body, .callout-body p,
+.tile-desc, .hero-subtitle, .source-citation,
+.domain-glossary {
+  line-height: 1.9;
+}
+
+/* Headings: small, faint reading so it doesn't dominate the heading */
+h1 rt, h1.title rt, h2 rt, h3 rt, h4 rt, .hero-title rt, .tile-title rt {
   font-size: 0.42em;
   color: var(--ink-faint);
-  transform: translateY(0.2em);
+}
+h1, h1.title, h2, h3, h4, .hero-title, .tile-title {
+  line-height: 1.5;
 }
 
-/* Tables: smaller still — ruby in narrow cells can wrap awkwardly */
+/* Tables: smaller still — narrow cells make ruby cramped otherwise */
 td rt, th rt {
   font-size: 0.5em;
 }
 
-/* Don't add ruby gap inside callout headers (compact line height) */
-.callout-header ruby, .sidebar ruby, nav ruby {
-  line-height: inherit;
+/* Sidebar / breadcrumbs / nav: ruby needs some breathing room here too */
+.sidebar .menu-text, .sidebar-item-text,
+nav.quarto-page-breadcrumbs li,
+.quarto-secondary-nav-title {
+  line-height: 1.85;
+}
+.sidebar rt, nav rt, .breadcrumb rt {
+  font-size: 0.48em;
 }
 
 /* ---------- Typography hierarchy ---------- */
