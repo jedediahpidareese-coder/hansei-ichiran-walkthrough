@@ -360,9 +360,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The dataset cites <strong>Hansei Ichiran and published academic sources only</strong>. Two ancillary materials are used as <em>finders</em> and <em>cross-validators</em> but are <strong>never cited</strong>:</p>
+<p>The dataset cites <strong><ruby>藩制一覧<rt>はんせいいちらん</rt></ruby> (Hansei Ichiran, “Overview of Han Institutions”) and published academic sources only</strong>. Two ancillary materials are used as <em>finders</em> and <em>cross-validators</em> but are <strong>never cited</strong>:</p>
 <ul>
-<li><strong>Japanese Wikipedia</strong> — used to locate primary-source candidates and to cross-check disputed cases. When a Wikipedia article references Meiji Shiyō or <ruby>浅見<rt>あさみ</rt></ruby> 1994, that underlying source is what gets cited.</li>
+<li><strong>Japanese Wikipedia</strong> — used to locate primary-source candidates and to cross-check disputed cases. When a Wikipedia article references <ruby>明治史要<rt>めいじしよう</rt></ruby> (Meiji Shiyō, “Outline of Meiji History”) or <ruby>浅見<rt>あさみ</rt></ruby> 1994, that underlying source is what gets cited.</li>
 <li><strong>A bakumatsu-era domain-listing website</strong> — used to seed initial values for <code>domain_category</code> and <code>last_lord</code>. Retained as an internal cross-validation layer only.</li>
 </ul>
 <p>Any value that entered the dataset through one of those two channels has been re-cited to a published source before being used in any analytic claim.</p>
@@ -387,21 +387,21 @@ ul.task-list li input[type="checkbox"] {
 <p>Three contemporaneous government compilations that overlap with Hansei Ichiran on population and revenue, plus the official ennoblement gazettes:</p>
 <section class="level4" data-number="21.1.2.1" id="明治史要-meiji-shiyō">
 <h4 class="anchored" data-anchor-id="明治史要-meiji-shiyō" data-number="21.1.2.1"><span class="header-section-number">21.1.2.1</span> <ruby>明治史要<rt>めいじしよう</rt></ruby> (Meiji Shiyō)</h4>
-<p>Compiled by the <strong><ruby>修史局<rt>しゅうしきょく</rt></ruby> (Bureau of Historiography)</strong>. The standard early-Meiji compendium of administrative data: domain populations, household counts, <em>kokudaka</em>, basic fiscal indicators. Backs the <code>population_meiji_shiyo</code> and <code>households_meiji_shiyo</code> columns.</p>
+<p>Compiled by the <strong><ruby>修史局<rt>しゅうしきょく</rt></ruby> (Shūshikyoku, “Bureau of Historiography”) (Bureau of Historiography)</strong>. The standard early-Meiji compendium of administrative data: domain populations, household counts, <em>kokudaka</em>, basic fiscal indicators. Backs the <code>population_meiji_shiyo</code> and <code>households_meiji_shiyo</code> columns.</p>
 <p>Citation form: <em><ruby>明治史要<rt>めいじしよう</rt></ruby> (Meiji Shiyō), Bureau of Historiography (<ruby>修史局<rt>しゅうしきょく</rt></ruby>), early Meiji compendium.</em></p>
 </section>
-<section class="level4" data-number="21.1.2.2" id="大隈重信関係資料府藩県石高人口表">
-<h4 class="anchored" data-anchor-id="大隈重信関係資料府藩県石高人口表" data-number="21.1.2.2"><span class="header-section-number">21.1.2.2</span> <ruby>大隈重信<rt>おおくましげのぶ</rt></ruby><ruby>関係資料<rt>かんけいしりょう</rt></ruby>「<ruby>府藩県石高人口表<rt>ふはんけんこくだかじんこうひょう</rt></ruby>」</h4>
+<section class="level4" data-number="21.1.2.2" id="大隈重信関係資料-ōkuma-shigenobu-kankei-shiryō-ōkuma-shigenobu-papers府藩県石高人口表-fu-han-ken-kokudaka-jinkō-hyō-prefecture-domain-county-kokudaka-and-population-table">
+<h4 class="anchored" data-anchor-id="大隈重信関係資料-ōkuma-shigenobu-kankei-shiryō-ōkuma-shigenobu-papers府藩県石高人口表-fu-han-ken-kokudaka-jinkō-hyō-prefecture-domain-county-kokudaka-and-population-table" data-number="21.1.2.2"><span class="header-section-number">21.1.2.2</span> <ruby>大隈重信<rt>おおくましげのぶ</rt></ruby><ruby>関係資料<rt>かんけいしりょう</rt></ruby> (Ōkuma Shigenobu kankei shiryō, “Ōkuma Shigenobu Papers”)「<ruby>府藩県石高人口表<rt>ふはんけんこくだかじんこうひょう</rt></ruby> (Fu-han-ken kokudaka jinkō-hyō, “Prefecture-Domain-County Kokudaka and Population Table”)」</h4>
 <p>Held in the <strong>Ōkuma Shigenobu papers (<ruby>大隈重信<rt>おおくましげのぶ</rt></ruby><ruby>関係資料<rt>かんけいしりょう</rt></ruby>)</strong> at the Waseda University Library. The “<ruby>府藩県石高人口表<rt>ふはんけんこくだかじんこうひょう</rt></ruby>” is a contemporary tabulation of administrative-unit <em>kokudaka</em> and population. Backs the <code>population_okuma</code> and <code>uchidaka_okuma_koku</code> columns.</p>
 <p>Citation form: <em>「<ruby>府藩県石高人口表<rt>ふはんけんこくだかじんこうひょう</rt></ruby>」, <ruby>大隈重信<rt>おおくましげのぶ</rt></ruby><ruby>関係資料<rt>かんけいしりょう</rt></ruby>, Ōkuma Shigenobu papers, Waseda University Library archival collection.</em></p>
 </section>
-<section class="level4" data-number="21.1.2.3" id="統計集誌-tōkei-shūshi-人員表">
-<h4 class="anchored" data-anchor-id="統計集誌-tōkei-shūshi-人員表" data-number="21.1.2.3"><span class="header-section-number">21.1.2.3</span> <ruby>統計集誌<rt>とうけいしゅうし</rt></ruby> (Tōkei Shūshi) “<ruby>人員表<rt>じんいんひょう</rt></ruby>”</h4>
+<section class="level4" data-number="21.1.2.3" id="統計集誌-tōkei-shūshi-statistical-journal-人員表-jinin-hyōpersonnel-table">
+<h4 class="anchored" data-anchor-id="統計集誌-tōkei-shūshi-statistical-journal-人員表-jinin-hyōpersonnel-table" data-number="21.1.2.3"><span class="header-section-number">21.1.2.3</span> <ruby>統計集誌<rt>とうけいしゅうし</rt></ruby> (Tōkei Shūshi, “Statistical Journal”) “<ruby>人員表<rt>じんいんひょう</rt></ruby> (Jin’in-hyō,”Personnel Table”)”</h4>
 <p>Compiled by <strong><ruby>呉文聡<rt>くれぶんそう</rt></ruby></strong> from <ruby>野村文夫<rt>のむらふみお</rt></ruby>’s materials, published in <em>Tōkei Shūshi</em> (the early-Meiji statistical journal). Backs the <code>population_tokei_shushi</code> column.</p>
 <p>Citation form: <em><ruby>統計集誌<rt>とうけいしゅうし</rt></ruby> (Tōkei Shūshi), <ruby>人員表<rt>じんいんひょう</rt></ruby>, compiled by <ruby>呉文聡<rt>くれぶんそう</rt></ruby> from <ruby>野村文夫<rt>のむらふみお</rt></ruby> materials.</em></p>
 </section>
-<section class="level4" data-number="21.1.2.4" id="官報-第307号-1884-07-08-primary-ennoblement-gazette-daimyō-sekke-摂家-cohort">
-<h4 class="anchored" data-anchor-id="官報-第307号-1884-07-08-primary-ennoblement-gazette-daimyō-sekke-摂家-cohort" data-number="21.1.2.4"><span class="header-section-number">21.1.2.4</span> <ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08) — primary ennoblement gazette (<em>daimyō</em> / <em>sekke</em> (<ruby>摂家<rt>せっけ</rt></ruby>) cohort)</h4>
+<section class="level4" data-number="21.1.2.4" id="官報-kanpō-official-gazette-第307号-1884-07-08-primary-ennoblement-gazette-daimyō-sekke-摂家-cohort">
+<h4 class="anchored" data-anchor-id="官報-kanpō-official-gazette-第307号-1884-07-08-primary-ennoblement-gazette-daimyō-sekke-摂家-cohort" data-number="21.1.2.4"><span class="header-section-number">21.1.2.4</span> <ruby>官報<rt>かんぽう</rt></ruby> (Kanpō, “Official Gazette”) 第307号 (1884-07-08) — primary ennoblement gazette (<em>daimyō</em> / <em>sekke</em> (<ruby>摂家<rt>せっけ</rt></ruby>) cohort)</h4>
 <p>The <strong>government gazette</strong> that recorded the <strong>1884-07-07 ennoblement decree</strong> — the original <ruby>公侯伯子男<rt>こうこうはくしだん</rt></ruby> (prince / marquess / count / viscount / baron) rank assignments. Available via <strong>NDL Digital Collections</strong> (pid <code>2943511</code>). This is the <em>primary record</em> underlying every <code>kazoku_rank_actual</code> value, with a small number of late-cohort exceptions handled by Kanpō #308.</p>
 <p>Citation form: <em><ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08), NDL pid 2943511.</em></p>
 </section>
@@ -414,8 +414,8 @@ ul.task-list li input[type="checkbox"] {
 <section class="level3" data-number="21.1.3" id="family-3-scholarly-synthesis-paper-citable">
 <h3 class="anchored" data-anchor-id="family-3-scholarly-synthesis-paper-citable" data-number="21.1.3"><span class="header-section-number">21.1.3</span> Family 3 — Scholarly synthesis (paper-citable)</h3>
 <p>Secondary scholarly works treated <em>not</em> as the original record but as the synthesis-and-interpretation layer between the primary documents and the dataset’s coded values.</p>
-<section class="level4" data-number="21.1.3.1" id="浅見雅男華族誕生-名誉と体面の明治リブロポート-1994">
-<h4 class="anchored" data-anchor-id="浅見雅男華族誕生-名誉と体面の明治リブロポート-1994" data-number="21.1.3.1"><span class="header-section-number">21.1.3.1</span> <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby>』(<ruby>リブロポート<rt>りぶろぽーと</rt></ruby> 1994)</h4>
+<section class="level4" data-number="21.1.3.1" id="浅見雅男華族誕生-kazoku-tanjō-birth-of-the-peerage-名誉と体面の明治-kazoku-tanjō-meiyo-to-taimen-no-meiji-birth-of-the-peerage-honor-and-reputation-in-meijiリブロポート-1994">
+<h4 class="anchored" data-anchor-id="浅見雅男華族誕生-kazoku-tanjō-birth-of-the-peerage-名誉と体面の明治-kazoku-tanjō-meiyo-to-taimen-no-meiji-birth-of-the-peerage-honor-and-reputation-in-meijiリブロポート-1994" data-number="21.1.3.1"><span class="header-section-number">21.1.3.1</span> <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> (Kazoku tanjō, “Birth of the Peerage”) <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby> (Kazoku tanjō: meiyo to taimen no Meiji, “Birth of the Peerage: Honor and Reputation in Meiji”)』(<ruby>リブロポート<rt>りぶろぽーと</rt></ruby> 1994)</h4>
 <p>The single most-important scholarly source for the dataset’s central <em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>)-rank variables. Asami’s work:</p>
 <ol type="1">
 <li><strong>Reconstructs the 1884 <em>kazoku</em>-rei threshold rule</strong> with sufficient detail that the <em>genmai</em> (<ruby>現米<rt>げんまい</rt></ruby>)-based mechanical-expected rank (<code>kazoku_rank_expected_genmai</code>) can be computed for every domain.</li>
@@ -440,23 +440,23 @@ ul.task-list li input[type="checkbox"] {
 <p>A military-history reference with detailed coverage of the <em>Boshin War</em> (<ruby>戊辰戦争<rt>ぼしんせんそう</rt></ruby>) combatants. Used for Boshin alignment citations on the major-domain combatants (the focal four plus the Northern Alliance core: Aizu / <ruby>斗南<rt>となみ</rt></ruby>, Sendai, Yonezawa, Shōnai, Nagaoka, Nihonmatsu, Morioka, Kuwana). Backs ten <code>boshin_alignment_source</code> rows.</p>
 <p>Citation form: <em>Esposito, Gabriele. The </em>Boshin War* 1868–69. Osprey Men-at-Arms 530, Osprey Publishing (2020).*</p>
 </section>
-<section class="level4" data-number="21.1.3.4" id="工藤威奥羽列藩同盟の基礎的研究岩田書院-2002">
-<h4 class="anchored" data-anchor-id="工藤威奥羽列藩同盟の基礎的研究岩田書院-2002" data-number="21.1.3.4"><span class="header-section-number">21.1.3.4</span> <ruby>工藤威<rt>くどうたけし</rt></ruby>『<ruby>奥羽列藩同盟<rt>おううれっぱんどうめい</rt></ruby>の<ruby>基礎的研究<rt>きそてきけんきゅう</rt></ruby>』(<ruby>岩田書院<rt>いわたしょいん</rt></ruby> 2002)</h4>
+<section class="level4" data-number="21.1.3.4" id="工藤威奥羽列藩同盟の基礎的研究-ōu-reppan-dōmei-no-kisoteki-kenkyū-basic-research-on-the-northern-alliance岩田書院-2002">
+<h4 class="anchored" data-anchor-id="工藤威奥羽列藩同盟の基礎的研究-ōu-reppan-dōmei-no-kisoteki-kenkyū-basic-research-on-the-northern-alliance岩田書院-2002" data-number="21.1.3.4"><span class="header-section-number">21.1.3.4</span> <ruby>工藤威<rt>くどうたけし</rt></ruby>『<ruby>奥羽列藩同盟<rt>おううれっぱんどうめい</rt></ruby>の<ruby>基礎的研究<rt>きそてきけんきゅう</rt></ruby> (Ōu reppan dōmei no kisoteki kenkyū, “Basic Research on the Northern Alliance”)』(<ruby>岩田書院<rt>いわたしょいん</rt></ruby> 2002)</h4>
 <p>The standard Japanese-language academic monograph on the <strong><ruby>奥羽越列藩同盟<rt>おううえつれっぱんどうめい</rt></ruby> (Ōuetsu Reppan Dōmei)</strong> — the Northern Alliance of bakumatsu domains that resisted the imperial advance after Toba-Fushimi. Backs the Boshin alignment citations for the twelve OREP combatants plus the nine OREP defectors who switched sides mid-war, and supplied the corrections to several Northern-Alliance roster mis-classifications.</p>
 <p>Citation form: <em><ruby>工藤威<rt>くどうたけし</rt></ruby>『<ruby>奥羽列藩同盟<rt>おううれっぱんどうめい</rt></ruby>の<ruby>基礎的研究<rt>きそてきけんきゅう</rt></ruby>』<ruby>岩田書院<rt>いわたしょいん</rt></ruby> (2002).</em></p>
 </section>
-<section class="level4" data-number="21.1.3.5" id="児玉幸多-ed.-藩史総覧新人物往来社-1977">
-<h4 class="anchored" data-anchor-id="児玉幸多-ed.-藩史総覧新人物往来社-1977" data-number="21.1.3.5"><span class="header-section-number">21.1.3.5</span> <ruby>児玉幸多<rt>こだまこうた</rt></ruby> ed. 『<ruby>藩史総覧<rt>はんしそうらん</rt></ruby>』<ruby>新人物往来社<rt>しんじんぶつおうらいしゃ</rt></ruby> (1977)</h4>
+<section class="level4" data-number="21.1.3.5" id="児玉幸多-ed.-藩史総覧-hanshi-sōran-comprehensive-survey-of-han-history新人物往来社-1977">
+<h4 class="anchored" data-anchor-id="児玉幸多-ed.-藩史総覧-hanshi-sōran-comprehensive-survey-of-han-history新人物往来社-1977" data-number="21.1.3.5"><span class="header-section-number">21.1.3.5</span> <ruby>児玉幸多<rt>こだまこうた</rt></ruby> ed. 『<ruby>藩史総覧<rt>はんしそうらん</rt></ruby> (Hanshi sōran, “Comprehensive Survey of Han History”)』<ruby>新人物往来社<rt>しんじんぶつおうらいしゃ</rt></ruby> (1977)</h4>
 <p>The canonical Japanese-language han-classification compendium. The principal source for <code>domain_category</code> (<em>shinpan</em> / <em>fudai</em> / <em>tozama</em> / <em>sankyō</em> / <em>tenryō</em> (<ruby>天領<rt>てんりょう</rt></ruby>)). Establishes formal category designations for all roughly 300 domains.</p>
 <p>Citation form: <em><ruby>児玉幸多<rt>こだまこうた</rt></ruby> 編『<ruby>藩史総覧<rt>はんしそうらん</rt></ruby>』<ruby>新人物往来社<rt>しんじんぶつおうらいしゃ</rt></ruby> (1977).</em></p>
 </section>
-<section class="level4" data-number="21.1.3.6" id="国史大辞典-yoshikawa-kōbunkan-19791997">
-<h4 class="anchored" data-anchor-id="国史大辞典-yoshikawa-kōbunkan-19791997" data-number="21.1.3.6"><span class="header-section-number">21.1.3.6</span> <ruby>国史大辞典<rt>こくしだいじてん</rt></ruby> (Yoshikawa Kōbunkan, 1979–1997)</h4>
+<section class="level4" data-number="21.1.3.6" id="国史大辞典-kokushi-daijiten-great-dictionary-of-national-history-yoshikawa-kōbunkan-19791997">
+<h4 class="anchored" data-anchor-id="国史大辞典-kokushi-daijiten-great-dictionary-of-national-history-yoshikawa-kōbunkan-19791997" data-number="21.1.3.6"><span class="header-section-number">21.1.3.6</span> <ruby>国史大辞典<rt>こくしだいじてん</rt></ruby> (Kokushi daijiten, “Great Dictionary of National History”) (Yoshikawa Kōbunkan, 1979–1997)</h4>
 <p>The standard Japanese-language reference dictionary. Used as the secondary verification layer for individual house histories, <em>daimyō</em> biographies, and domain administrative changes. Not typically cited per row, but listed in the paper bibliography as the underlying reference framework.</p>
 <p>Citation form: <em><ruby>国史大辞典<rt>こくしだいじてん</rt></ruby> (Yoshikawa Kōbunkan, 1979–1997 edition).</em></p>
 </section>
-<section class="level4" data-number="21.1.3.7" id="華族大鑑刊行会-編華族大鑑1990">
-<h4 class="anchored" data-anchor-id="華族大鑑刊行会-編華族大鑑1990" data-number="21.1.3.7"><span class="header-section-number">21.1.3.7</span> <ruby>華族大鑑刊行会<rt>かぞくたいかんかんこうかい</rt></ruby> 編『<ruby>華族大鑑<rt>かぞくたいかん</rt></ruby>』(1990)</h4>
+<section class="level4" data-number="21.1.3.7" id="華族大鑑-kazoku-taikan-compendium-of-the-peerage刊行会-編華族大鑑1990">
+<h4 class="anchored" data-anchor-id="華族大鑑-kazoku-taikan-compendium-of-the-peerage刊行会-編華族大鑑1990" data-number="21.1.3.7"><span class="header-section-number">21.1.3.7</span> <ruby>華族大鑑<rt>かぞくたいかん</rt></ruby> (Kazoku taikan, “Compendium of the Peerage”)刊行会 編『<ruby>華族大鑑<rt>かぞくたいかん</rt></ruby>』(1990)</h4>
 <p>The dedicated reference for the 1884 prince-rank (<ruby>公爵<rt>こうしゃく</rt></ruby>) ennoblements specifically — used for the three prince cases in the dataset (Shimazu / Satsuma, Mōri / Chōshū, Tokugawa / Shizuoka) and as a supplementary citation alongside Asami for several marquess cases.</p>
 <p>Citation form: <em><ruby>華族大鑑刊行会<rt>かぞくたいかんかんこうかい</rt></ruby> 編『<ruby>華族大鑑<rt>かぞくたいかん</rt></ruby>』(1990).</em></p>
 </section>
@@ -465,9 +465,9 @@ ul.task-list li input[type="checkbox"] {
 <p>A modern general-reader-facing book on the <em>kazoku</em> system as a whole. Used for several small viscount-tier <code>kazoku_rank_source</code> rows where the family didn’t appear in Asami’s main tables.</p>
 <p>Citation form: <em><ruby>小田部雄次<rt>おたべゆうじ</rt></ruby>『</em>kazoku* <ruby>近代日本貴族の虚像と実像<rt>きんだいにほんきぞくのきょぞうとじつぞう</rt></ruby>』<ruby>中公新書<rt>ちゅうこうしんしょ</rt></ruby> (2006).*</p>
 </section>
-<section class="level4" data-number="21.1.3.9" id="松田敬之華族爵位請願人名辞典吉川弘文館-2015">
-<h4 class="anchored" data-anchor-id="松田敬之華族爵位請願人名辞典吉川弘文館-2015" data-number="21.1.3.9"><span class="header-section-number">21.1.3.9</span> <ruby>松田敬之<rt>まつだたかゆき</rt></ruby>『〈<ruby>華族爵位<rt>かぞくしゃくい</rt></ruby>〉<ruby>請願人名辞典<rt>せいがんじんめいじてん</rt></ruby>』<ruby>吉川弘文館<rt>よしかわこうぶんかん</rt></ruby> (2015)</h4>
-<p>Definitive on the <strong>1884 exclusions</strong> — <em>daimyō</em> families that were <em>not</em> ennobled because of the <em>kaieki</em> (<em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>), confiscation) or similar disqualifying events. Backs the documented exclusion of <ruby>堀江藩<rt>ほりえはん</rt></ruby> (<ruby>大沢家<rt>おおさわけ</rt></ruby>, <ruby>万石事件<rt>まんごくじけん</rt></ruby> 1871) and the verification of <ruby>牟原藩<rt>むはらはん</rt></ruby> (resolved as an OCR misreading of <ruby>半原藩<rt>はんばらはん</rt></ruby>). Three of the four <code>kazoku_rank_actual</code> exclusion rows are documented per Matsuda 2015.</p>
+<section class="level4" data-number="21.1.3.9" id="松田敬之華族爵位請願人名辞典-kazoku-shakui-seigan-jinmei-jiten-dictionary-of-peerage-title-petitioners吉川弘文館-2015">
+<h4 class="anchored" data-anchor-id="松田敬之華族爵位請願人名辞典-kazoku-shakui-seigan-jinmei-jiten-dictionary-of-peerage-title-petitioners吉川弘文館-2015" data-number="21.1.3.9"><span class="header-section-number">21.1.3.9</span> <ruby>松田敬之<rt>まつだたかゆき</rt></ruby>『〈<ruby>華族爵位<rt>かぞくしゃくい</rt></ruby>〉<ruby>請願人名辞典<rt>せいがんじんめいじてん</rt></ruby> (Kazoku shakui seigan jinmei jiten, “Dictionary of Peerage-Title Petitioners”)』<ruby>吉川弘文館<rt>よしかわこうぶんかん</rt></ruby> (2015)</h4>
+<p>Definitive on the <strong>1884 exclusions</strong> — <em>daimyō</em> families that were <em>not</em> ennobled because of the <em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>, confiscation) or similar disqualifying events. Backs the documented exclusion of <ruby>堀江藩<rt>ほりえはん</rt></ruby> (<ruby>大沢家<rt>おおさわけ</rt></ruby>, <ruby>万石事件<rt>まんごくじけん</rt></ruby> 1871) and the verification of <ruby>牟原藩<rt>むはらはん</rt></ruby> (resolved as an OCR misreading of <ruby>半原藩<rt>はんばらはん</rt></ruby>). Three of the four <code>kazoku_rank_actual</code> exclusion rows are documented per Matsuda 2015.</p>
 <p>Citation form: <em><ruby>松田敬之<rt>まつだたかゆき</rt></ruby>『〈<ruby>華族爵位<rt>かぞくしゃくい</rt></ruby>〉<ruby>請願人名辞典<rt>せいがんじんめいじてん</rt></ruby>』<ruby>吉川弘文館<rt>よしかわこうぶんかん</rt></ruby> (2015).</em></p>
 </section>
 <section class="level4" data-number="21.1.3.10" id="mark-ravina.-land-and-lordship-in-early-modern-japan.-stanford-university-press-1999">
@@ -639,7 +639,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Reclassifications (4 rows)</td>
-<td>Beasley 1972 p. xii + <ruby>中川<rt>なかがわ</rt></ruby> 学『<ruby>松平<rt>まつだいら</rt></ruby>氏<ruby>由緒書<rt>ゆいしょがき</rt></ruby>』1989 (for Kuwana)</td>
+<td>Beasley 1972 p. xii + <ruby>中川<rt>なかがわ</rt></ruby> 学『<ruby>松平<rt>まつだいら</rt></ruby>氏<ruby>由緒書<rt>ゆいしょがき</rt></ruby> (Matsudaira-shi yuishogaki, “Matsudaira Lineage Records”)』1989 (for Kuwana)</td>
 <td style="text-align: right;">4</td>
 </tr>
 <tr class="odd">
