@@ -354,34 +354,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level2" data-number="2.2" id="whats-in-the-book">
 <h2 class="anchored" data-anchor-id="whats-in-the-book" data-number="2.2"><span class="header-section-number">2.2</span> What’s in the book</h2>
-<p>Hansei Ichiran is two volumes, ~1,000 pages each, totaling 2,000+ printed pages of dense vertical-script Japanese. The structure:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%"/>
-<col style="width: 33%"/>
-<col style="width: 33%"/>
-</colgroup>
-<thead>
-<tr class="header">
-<th>Volume</th>
-<th>Tables</th>
-<th>Contents</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Vol. 1</strong></td>
-<td>T1–T5</td>
-<td>Fiscal + demographic data per domain: kokudaka (revenue assessment), tax receipts, household counts, population breakdowns, status-class composition</td>
-</tr>
-<tr class="even">
-<td><strong>Vol. 2</strong></td>
-<td>T6–T9</td>
-<td>Military and administrative data: troop strength, officer rosters, warships, artillery, internal governance structure</td>
-</tr>
-</tbody>
-</table>
-<p>Each domain typically gets one to four pages depending on its size.</p>
+<p>Hansei Ichiran is two volumes, roughly 1,000 pages each, totaling 2,000-plus printed pages of dense vertical-script Japanese. Within each volume, every domain gets an entry of one to four pages (depending on its size) in a standardised column format that makes the same data fields directly comparable across domains.</p>
+<p>The two volumes cover complementary subjects:</p>
+<ul>
+<li><p><strong>Volume 1 — fiscal and demographic data.</strong> For each domain: the revenue assessment in its several variants (<ruby>草高<rt>くさだか</rt></ruby> / <ruby>表高<rt>おもてだか</rt></ruby> / <ruby>内高<rt>うちだか</rt></ruby> / <ruby>現米<rt>げんまい</rt></ruby>, all explained later), tax receipts, total population and household counts, and the breakdown of households into samurai (<ruby>士族<rt>しぞく</rt></ruby>), foot-rank retainers (<ruby>卒族<rt>そつぞく</rt></ruby>), commoners (<ruby>平民<rt>へいみん</rt></ruby>), and religious establishments.</p></li>
+<li><p><strong>Volume 2 — military and administrative data.</strong> For each domain: troop strength (infantry, cavalry, riflemen, artillery), the number of warships if any, and a roster of administrative officials (the appointed governor, senior councilors, junior councilors).</p></li>
+</ul>
+<p>The two volumes are each sub-divided internally into several numbered sub-tables that group entries by domain size for printing convenience; that internal numbering has no analytic significance and the data fields are consistent within each volume. So when the walkthrough cites “Hansei Ichiran vol. 1” or “vol. 2”, that’s all the structural detail the reader needs.</p>
 </section>
 <section class="level2" data-number="2.3" id="what-the-printed-page-looks-like">
 <h2 class="anchored" data-anchor-id="what-the-printed-page-looks-like" data-number="2.3"><span class="header-section-number">2.3</span> What the printed page looks like</h2>
@@ -399,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-2-contents callout-collapse collapse" id="callout-2">
 <div class="callout-body-container callout-body">
-<p>Saga (<ruby>佐嘉藩<rt>さがはん</rt></ruby>, modern <ruby>佐賀藩<rt>さがはん</rt></ruby>) appears in vol. 2 table 6 but is <strong>completely absent from vol. 2 tables 7–9</strong> — the standard military rosters. The project handles this with a <code>SOURCE_GAP</code> marker. For Saga’s military data, the project uses <ruby>藤野保<rt>ふじのたもつ</rt></ruby> (2010) as a supplement instead.</p>
+<p>Saga (<ruby>佐嘉藩<rt>さがはん</rt></ruby>, modern <ruby>佐賀藩<rt>さがはん</rt></ruby>) has a Volume 1 fiscal entry but is <strong>completely absent from Volume 2’s military rosters</strong> — the standard tables of troop strength, officer rosters, and warships that every other major domain has. This is a gap in the source itself, not an extraction failure, and the dataset substitutes <ruby>藤野保<rt>ふじのたもつ</rt></ruby> (2010) as a published-source supplement for Saga’s military data.</p>
 </div>
 </div>
 </div>
