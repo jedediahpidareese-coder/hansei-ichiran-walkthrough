@@ -710,6 +710,17 @@
     ]
   },
   {
+    "objectID": "03-the-287-domains.html#map-kokudaka-石高-across-all-287-domains",
+    "href": "03-the-287-domains.html#map-kokudaka-石高-across-all-287-domains",
+    "title": "13  The 287 domains",
+    "section": "",
+    "text": "NoteWhy so much of the map is blank white\n\n\n\nThe base map draws only the 206 daimyō-domain polygons in the 1664 Harvard CHGIS shapefile. Roughly a quarter of Edo-period Japan was not a daimyō domain — it was land the Tokugawa shogunate held directly (tenryō 天領), land held by the shogun’s bannermen (hatamoto 旗本), or temple / shrine / imperial-court land. None of that has a daimyō, so none of it is in a 287-domain dataset, and it shows as blank white. The large white expanse through central Honshū (around Kōfu and Hida) is mostly shogunal tenryō. See the territorial-changes chapter for the full explanation, including the white-vs-grey distinction.",
+    "crumbs": [
+      "The Dataset",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>The 287 domains</span>"
+    ]
+  },
+  {
     "objectID": "03-the-287-domains.html#how-to-read-the-map",
     "href": "03-the-287-domains.html#how-to-read-the-map",
     "title": "13  The 287 domains",
@@ -787,11 +798,22 @@
     ]
   },
   {
+    "objectID": "03b-territorial-changes-1664-1871.html#what-the-blank-white-space-on-the-maps-means",
+    "href": "03b-territorial-changes-1664-1871.html#what-the-blank-white-space-on-the-maps-means",
+    "title": "14  1664 → 1871: how stable were domain boundaries?",
+    "section": "14.4 What the blank white space on the maps means",
+    "text": "14.4 What the blank white space on the maps means\nA reader looking at any of the choropleth maps notices that large stretches of Japan — especially through central Honshū around Kōfu and Hida — are left blank white, with no polygon at all. This is not missing data. It is land that was not a daimyō domain.\nThe base map contains polygons only for the 206 daimyō domains the 1664 shapefile captures. Roughly a quarter of Edo-period Japan, measured by assessed yield, was not daimyō domain and therefore has no polygon to draw:\n\n天領 (tenryō) — land administered directly by the Tokugawa shogunate, about 4 million koku, scattered nationwide but concentrated around Edo, Kyoto, Osaka, Nagasaki, the mining districts, and — most visibly on the map — the provinces of Kai (the Kōfu basin) and Hida. The large white expanse through central Honshū is mostly tenryō.\n旗本 (hatamoto) holdings — fiefs of the shogun’s direct bannermen, about 3 million koku, densely packed across the Kantō and Tōkai plains. Each individual hatamoto fief sat below the 10,000-koku threshold that defined a daimyō, so none of them counts as a “domain.”\n寺社領 / 公家領 — temple, shrine, and imperial-court lands, smaller and concentrated around Kyoto and Nara.\n\nNone of that land is in a 287-domain dataset, by definition — the paper is about daimyō, and these lands had no daimyō. So they correctly show as white.\nA second, smaller contributor: the 1664 shapefile has 206 polygons but the dataset has 287 domains. The ~117 domains without a 1664 polygon (small post-Boshin creations, sub-han, the landless sankyō) cannot be drawn, and contribute some additional white space where their territory would be.\n\n\n\n\n\n\nNoteWhite vs grey — they mean different things\n\n\n\n\nWhite = not a daimyō domain (shogunal tenryō, hatamoto land, temple / court land, or an unmapped small domain). No polygon exists.\nGrey = this is a daimyō domain with a polygon, but it has no value for the specific variable the map is colouring.\n\nThe white space is a feature of the historical map, not a defect in the data. It shows at a glance how much of Japan the shogunate and its direct vassals controlled — the daimyō domains, for all their political weight, were a patchwork around a large shogunal core.",
+    "crumbs": [
+      "The Dataset",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>1664 → 1871: how stable were domain boundaries?</span>"
+    ]
+  },
+  {
     "objectID": "03b-territorial-changes-1664-1871.html#implications-for-the-maps",
     "href": "03b-territorial-changes-1664-1871.html#implications-for-the-maps",
     "title": "14  1664 → 1871: how stable were domain boundaries?",
-    "section": "14.4 Implications for the maps",
-    "text": "14.4 Implications for the maps\n\nPolygons are 1664 vintage — used as a geographic approximation of the 1870 stable territory\nReduced post-Boshin cases (~6 domains) have polygons larger than their 1870 actual territory; documented above\nRenamed cases (~10 domains) match correctly via alias lookup; no territorial issue\nPost-Boshin-created domains (~5) reuse the parent’s polygon with the size-mismatch caveat\nFor statistical analysis, the polygons don’t enter — only the data values do, and those are 1870-correct\nFor visual interpretation, the dominant pattern (Kyushu = pro-Restoration coalition, Tōhoku = Northern Alliance, etc.) is unaffected by these approximations; only the size-scale on a few specific reduced-territory cases is misleading\n\n\n\n\n\n\n\nNoteA better basemap would help\n\n\n\nIf a future contributor finds (or builds) an 1870-era daimyō polygon shapefile — capturing the post-Boshin reductions correctly — it could be swapped in directly. The map-build script is parameterised on the polygon input directory; replacing those files with an 1870-era equivalent would automatically refresh all maps. The data side would not need to change.\nKnown candidate: the CHGIS V6 dataset has Meiji-era prefecture polygons, but not 1870 daimyō polygons specifically. The Stanford Spatial History Project also has some Edo-era GIS data. Neither has been integrated yet.\n\n\n\nPolygon source: Harvard China Historical GIS (CHGIS) 1664 daimyō shapefile. Territorial reduction details: 工藤威『Ōu reppan dōmei no kisoteki kenkyū』(岩田書院 2002) for OREP members; Lebra (1993) and Asami (1994) for the rank-vs-territory distinction; per-domain JP Wikipedia articles for individual rename / transfer specifics. Haihan-chiken 1871: Beasley (1972) Ch. XII; 「haihan chikenの詔書」, dajōkan-fu, 1871-07-14 (lunar).",
+    "section": "14.5 Implications for the maps",
+    "text": "14.5 Implications for the maps\n\nPolygons are 1664 vintage — used as a geographic approximation of the 1870 stable territory\nReduced post-Boshin cases (~6 domains) have polygons larger than their 1870 actual territory; documented above\nRenamed cases (~10 domains) match correctly via alias lookup; no territorial issue\nPost-Boshin-created domains (~5) reuse the parent’s polygon with the size-mismatch caveat\nFor statistical analysis, the polygons don’t enter — only the data values do, and those are 1870-correct\nFor visual interpretation, the dominant pattern (Kyushu = pro-Restoration coalition, Tōhoku = Northern Alliance, etc.) is unaffected by these approximations; only the size-scale on a few specific reduced-territory cases is misleading\n\n\n\n\n\n\n\nNoteA better basemap would help\n\n\n\nIf a future contributor finds (or builds) an 1870-era daimyō polygon shapefile — capturing the post-Boshin reductions correctly — it could be swapped in directly. The map-build script is parameterised on the polygon input directory; replacing those files with an 1870-era equivalent would automatically refresh all maps. The data side would not need to change.\nKnown candidate: the CHGIS V6 dataset has Meiji-era prefecture polygons, but not 1870 daimyō polygons specifically. The Stanford Spatial History Project also has some Edo-era GIS data. Neither has been integrated yet.\n\n\n\nPolygon source: Harvard China Historical GIS (CHGIS) 1664 daimyō shapefile. Territorial reduction details: 工藤威『Ōu reppan dōmei no kisoteki kenkyū』(岩田書院 2002) for OREP members; Lebra (1993) and Asami (1994) for the rank-vs-territory distinction; per-domain JP Wikipedia articles for individual rename / transfer specifics. Haihan-chiken 1871: Beasley (1972) Ch. XII; 「haihan chikenの詔書」, dajōkan-fu, 1871-07-14 (lunar).",
     "crumbs": [
       "The Dataset",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>1664 → 1871: how stable were domain boundaries?</span>"
