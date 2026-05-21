@@ -645,12 +645,14 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>A better basemap would help
+<span class="screen-reader-only">Note</span>Could the shogunate land be drawn in, instead of left white?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If a future contributor finds (or builds) an <strong>1870-era <em>daimyō</em> polygon shapefile</strong> — capturing the post-Boshin reductions correctly — it could be swapped in directly. The map-build script is parameterised on the polygon input directory; replacing those files with an 1870-era equivalent would automatically refresh all maps. The data side would not need to change.</p>
-<p>Known candidate: the <strong>CHGIS V6</strong> dataset has Meiji-era prefecture polygons, but not 1870 <em>daimyō</em> polygons specifically. The Stanford Spatial History Project also has some Edo-era GIS data. Neither has been integrated yet.</p>
+<p>Not easily, and the reason is historically substantive. Shogunal land (<em>shihaisho</em> 支配所 in the period; <em>tenryō</em> <ruby>天領<rt>てんりょう</rt></ruby> is the Meiji-era retronym) was <strong>not contiguous territory</strong>. Unlike a daimyō domain — a mostly-connected block — shogunal land was a scatter of individual villages and districts across the whole country, and <em>hatamoto</em> bannermen holdings were more fragmented still. There is no clean polygon to draw, because the thing itself was not a clean polygon.</p>
+<p>The CHGIS daimyō shapefile this project uses is, by design, <strong>daimyō-only</strong> — its documentation lists a single topic, “dmyo.” It has no shogunal-land layer, and the same is true of the other off-the-shelf historical-Japan GIS products.</p>
+<p>A correct delineation of shogunal land has to be built <strong>from the village level up</strong>. Two near-comprehensive shogunal land surveys exist — one for 1664, one for ca. 1868 (the 旧高旧領取調帳, <em>Kyūdaka kyūryō torishirabe-chō</em>) — and the standard approach is to geocode every village in one of those surveys and colour it by holder type. The 1664 survey was mapped this way by Nishioka &amp; Hattori (1956) and by Drixler (2015). The ongoing <strong>Digital Atlas of Tokugawa Japan</strong> (Fabian Drixler, Yale) is reconstructing the entire territorial structure village-by-village; its geospatial output is promised as a free web resource but is not yet a downloadable shapefile.</p>
+<p>So: drawing the shogunate’s land would be a genuine GIS project (acquire or build village-level holder data, then aggregate), not a drop-in basemap swap. For this walkthrough the white space, explained above, is the honest and standard treatment — it accurately reads as “the non-daimyō remainder.” Separately, CHGIS does have 1828 and 1869 daimyō snapshots (this project used only the 1664 one); swapping in the 1869 snapshot would improve the <em>daimyō</em> side, capturing post-Boshin reductions, without addressing the shogunal land.</p>
 </div>
 </div>
 <div class="source-citation">
