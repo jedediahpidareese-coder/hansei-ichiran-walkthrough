@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>17&nbsp; Kazoku rank (the paper’s DV) – Hansei Ichiran — A Visual Walkthrough</title>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8"/>
+<meta content="quarto-1.9.37" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>17  Kazoku rank (the paper’s DV) – Hansei Ichiran — A Visual Walkthrough</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,27 +21,25 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
-
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./06-boshin-alignment.html" rel="next">
-<link href="./04-variables.html" rel="prev">
+<meta content="./" name="quarto:offset"/>
+<link href="./06-boshin-alignment.html" rel="next"/>
+<link href="./04-variables.html" rel="prev"/>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet"/>
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" id="quarto-text-highlighting-styles" rel="stylesheet"/>
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-235c08cb5b033873ea93d52324f14478.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/>
+<link append-hash="true" data-mode="light" href="site_libs/bootstrap/bootstrap-235c08cb5b033873ea93d52324f14478.min.css" id="quarto-bootstrap" rel="stylesheet"/>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -73,290 +68,272 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-
-
-<link rel="stylesheet" href="styles.css">
+<link href="styles.css" rel="stylesheet"/>
 </head>
-
 <body class="nav-sidebar docked quarto-light">
-
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-kazoku-rank.html">The Paper’s Variables</a></li><li class="breadcrumb-item"><a href="./05-kazoku-rank.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Kazoku rank (the paper’s DV)</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+<header class="headroom fixed-top" id="quarto-header">
+<nav class="quarto-secondary-nav">
+<div class="container-fluid d-flex">
+<button aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" class="quarto-btn-toggle btn" data-bs-target=".quarto-sidebar-collapse-item" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }" role="button" type="button">
+<i class="bi bi-layout-text-sidebar-reverse"></i>
+</button>
+<nav aria-label="breadcrumb" class="quarto-page-breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-kazoku-rank.html">The Paper’s Variables</a></li><li class="breadcrumb-item"><a href="./05-kazoku-rank.html"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></a></li></ol></nav>
+<a aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" class="flex-grow-1" data-bs-target=".quarto-sidebar-collapse-item" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }" role="navigation">
+</a>
+<button aria-label="Search" class="btn quarto-search-button" onclick="window.quartoOpenSearch();" type="button">
+<i class="bi bi-search"></i>
+</button>
+</div>
+</nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div class="quarto-container page-columns page-rows-contents page-layout-article" id="quarto-content">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Hansei Ichiran — A Visual Walkthrough</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span></a>
-  </div>
+<nav class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" id="quarto-sidebar">
+<div class="pt-lg-2 mt-2 text-left sidebar-header">
+<div class="sidebar-title mb-0 py-0">
+<a href="./">Hansei Ichiran — A Visual Walkthrough</a>
+</div>
+</div>
+<div class="mt-2 flex-shrink-0 align-items-center">
+<div class="sidebar-search">
+<div class="" id="quarto-search" title="Search"></div>
+</div>
+</div>
+<div class="sidebar-menu-container">
+<ul class="list-unstyled mt-1">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./index.html">
+<span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Welcome</span></span></a>
+</div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Background</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./01-what-is-hi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is Hansei Ichiran?</span></span></a>
-  </div>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">Background</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-1">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./01-what-is-hi.html">
+<span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">What is Hansei Ichiran?</span></span></a>
+</div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Domain walkthroughs</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02-walkthrough-saga.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">A walkthrough of one domain: Saga (佐嘉藩 / Hizen)</span></span></a>
-  </div>
+</ul>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02b-walkthrough-satsuma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Walkthrough: Satsuma (薩摩藩 / 鹿児島藩)</span></span></a>
-  </div>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-2" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">Domain walkthroughs</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-2" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-2">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02-walkthrough-saga.html">
+<span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">A walkthrough of one domain: Saga (<ruby>佐嘉藩<rt>さがはん</rt></ruby> / Hizen)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02c-walkthrough-choshu.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Walkthrough: Chōshū (長州藩 / 山口藩 / 萩藩)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02b-walkthrough-satsuma.html">
+<span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Walkthrough: Satsuma (<ruby>薩摩藩<rt>さつまはん</rt></ruby> / <ruby>鹿児島藩<rt>かごしまはん</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02d-walkthrough-tosa.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Walkthrough: Tosa (土佐藩 / 高知藩)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02c-walkthrough-choshu.html">
+<span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">Walkthrough: Chōshū (<ruby>長州藩<rt>ちょうしゅうはん</rt></ruby> / <ruby>山口藩<rt>やまぐちはん</rt></ruby> / 萩<ruby>藩<rt>はん</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02e-walkthrough-kaga.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Walkthrough: Kaga (加賀藩 / 金沢藩)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02d-walkthrough-tosa.html">
+<span class="menu-text"><span class="chapter-number">6</span>  <span class="chapter-title">Walkthrough: Tosa (<ruby>土佐藩<rt>とさはん</rt></ruby> / <ruby>高知藩<rt>こうちはん</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02f-walkthrough-aizu-sendai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Walkthrough: Aizu (会津 / 斗南) + Sendai (仙台)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02e-walkthrough-kaga.html">
+<span class="menu-text"><span class="chapter-number">7</span>  <span class="chapter-title">Walkthrough: Kaga (<ruby>加賀藩<rt>かがはん</rt></ruby> / <ruby>金沢藩<rt>かなざわはん</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02g-walkthrough-orep-defectors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Walkthrough: Northern Alliance defectors (Kubota, Hirosaki, Matsumae)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02f-walkthrough-aizu-sendai.html">
+<span class="menu-text"><span class="chapter-number">8</span>  <span class="chapter-title">Walkthrough: Aizu (<ruby>会津<rt>あいづ</rt></ruby> / <ruby>斗南<rt>となみ</rt></ruby>) + Sendai (<ruby>仙台<rt>せんだい</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02h-walkthrough-sankyo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Walkthrough: Tokugawa sankyō (一橋 + 田安 + 清水)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02g-walkthrough-orep-defectors.html">
+<span class="menu-text"><span class="chapter-number">9</span>  <span class="chapter-title">Walkthrough: Northern Alliance defectors (Kubota, Hirosaki, Matsumae)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02i-walkthrough-restoration-upgrades.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Walkthrough: The 5 small-domain Restoration-service upgrades</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02h-walkthrough-sankyo.html">
+<span class="menu-text"><span class="chapter-number">10</span>  <span class="chapter-title">Walkthrough: Tokugawa sankyō (<ruby>一橋<rt>ひとつばし</rt></ruby> + <ruby>田安<rt>たやす</rt></ruby> + <ruby>清水<rt>しみず</rt></ruby>)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02j-walkthrough-shinpan-cluster.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Walkthrough: The 29 親藩 (Tokugawa cadet) houses</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02i-walkthrough-restoration-upgrades.html">
+<span class="menu-text"><span class="chapter-number">11</span>  <span class="chapter-title">Walkthrough: The 5 small-domain Restoration-service upgrades</span></span></a>
+</div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">The Dataset</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./03-the-287-domains.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">The 287 domains</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./02j-walkthrough-shinpan-cluster.html">
+<span class="menu-text"><span class="chapter-number">12</span>  <span class="chapter-title">Walkthrough: The 29 <ruby>親藩<rt>しんぱん</rt></ruby> (Tokugawa cadet) houses</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./03b-territorial-changes-1664-1871.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">1664 → 1871: how stable were domain boundaries?</span></span></a>
-  </div>
+</ul>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./03c-shinpan-fudai-tozama.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">親藩 / 譜代 / 外様 — the Tokugawa political classification</span></span></a>
-  </div>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-3" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">The Dataset</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-3" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-3">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./03-the-287-domains.html">
+<span class="menu-text"><span class="chapter-number">13</span>  <span class="chapter-title">The 287 domains</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./04-variables.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">The variables</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./03b-territorial-changes-1664-1871.html">
+<span class="menu-text"><span class="chapter-number">14</span>  <span class="chapter-title">1664 → 1871: how stable were domain boundaries?</span></span></a>
+</div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">The Paper’s Variables</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./05-kazoku-rank.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Kazoku rank (the paper’s DV)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./03c-shinpan-fudai-tozama.html">
+<span class="menu-text"><span class="chapter-number">15</span>  <span class="chapter-title"><ruby>親藩<rt>しんぱん</rt></ruby> / <ruby>譜代<rt>ふだい</rt></ruby> / <ruby>外様<rt>とざま</rt></ruby> — the Tokugawa political classification</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./06-boshin-alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Boshin alignment (the paper’s treatment variable)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./04-variables.html">
+<span class="menu-text"><span class="chapter-number">16</span>  <span class="chapter-title">The variables</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./07-19-deviations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">The 19 paper-relevant deviations</span></span></a>
-  </div>
+</ul>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">Methodology</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./10-sources-citations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
-  </div>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-4" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">The Paper’s Variables</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-4" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-4">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link active" href="./05-kazoku-rank.html">
+<span class="menu-text"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></span></a>
+</div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./06-boshin-alignment.html">
+<span class="menu-text"><span class="chapter-number">18</span>  <span class="chapter-title">Boshin alignment (the paper’s treatment variable)</span></span></a>
+</div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">Interactive</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
-  </div>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./07-19-deviations.html">
+<span class="menu-text"><span class="chapter-number">19</span>  <span class="chapter-title">The 19 paper-relevant deviations</span></span></a>
+</div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./08-bibliography.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bibliography</span></a>
-  </div>
+</ul>
 </li>
-    </ul>
-    </div>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-5" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">Methodology</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-5" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-5">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./10-sources-citations.html">
+<span class="menu-text"><span class="chapter-number">20</span>  <span class="chapter-title">Sources and citations</span></span></a>
+</div>
+</li>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./11-data-quality.html">
+<span class="menu-text"><span class="chapter-number">21</span>  <span class="chapter-title">Data quality and the audit framework</span></span></a>
+</div>
+</li>
+</ul>
+</li>
+<li class="sidebar-item sidebar-item-section">
+<div class="sidebar-item-container">
+<a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-6" data-bs-toggle="collapse" role="navigation">
+<span class="menu-text">Interactive</span></a>
+<a aria-expanded="true" aria-label="Toggle section" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-6" data-bs-toggle="collapse" role="navigation">
+<i class="bi bi-chevron-right ms-2"></i>
+</a>
+</div>
+<ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-6">
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./09-interactive-map.html">
+<span class="menu-text"><span class="chapter-number">22</span>  <span class="chapter-title">Interactive map (prototype)</span></span></a>
+</div>
+</li>
+</ul>
+</li>
+<li class="sidebar-item">
+<div class="sidebar-item-container">
+<a class="sidebar-item-text sidebar-link" href="./08-bibliography.html">
+<span class="menu-text">Bibliography</span></a>
+</div>
+</li>
+</ul>
+</div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div class="quarto-sidebar-collapse-item" data-bs-target=".quarto-sidebar-collapse-item" data-bs-toggle="collapse" id="quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#what-is-the-kazoku-system" id="toc-what-is-the-kazoku-system" class="nav-link active" data-scroll-target="#what-is-the-kazoku-system"><span class="header-section-number">17.1</span> What is the kazoku system?</a></li>
-  <li><a href="#the-threshold-rule" id="toc-the-threshold-rule" class="nav-link" data-scroll-target="#the-threshold-rule"><span class="header-section-number">17.2</span> The threshold rule</a></li>
-  <li><a href="#the-plot-twist-現米-genmai-not-草高" id="toc-the-plot-twist-現米-genmai-not-草高" class="nav-link" data-scroll-target="#the-plot-twist-現米-genmai-not-草高"><span class="header-section-number">17.3</span> The plot twist: 現米 (genmai), not 草高</a></li>
-  <li><a href="#map-1884-kazoku-rank" id="toc-map-1884-kazoku-rank" class="nav-link" data-scroll-target="#map-1884-kazoku-rank"><span class="header-section-number">17.4</span> Map: 1884 kazoku rank</a></li>
-  <li><a href="#how-to-read-this-map" id="toc-how-to-read-this-map" class="nav-link" data-scroll-target="#how-to-read-this-map"><span class="header-section-number">17.5</span> How to read this map</a></li>
-  <li><a href="#cite-the-data-this-way" id="toc-cite-the-data-this-way" class="nav-link" data-scroll-target="#cite-the-data-this-way"><span class="header-section-number">17.6</span> Cite the data this way</a></li>
-  </ul>
+<div class="sidebar margin-sidebar" id="quarto-margin-sidebar">
+<nav class="toc-active" id="TOC" role="doc-toc">
+<h2 id="toc-title">Table of contents</h2>
+<ul>
+<li><a class="nav-link active" data-scroll-target="#what-is-the-kazoku-system" href="#what-is-the-kazoku-system" id="toc-what-is-the-kazoku-system"><span class="header-section-number">17.1</span> What is the kazoku system?</a></li>
+<li><a class="nav-link" data-scroll-target="#the-threshold-rule" href="#the-threshold-rule" id="toc-the-threshold-rule"><span class="header-section-number">17.2</span> The threshold rule</a></li>
+<li><a class="nav-link" data-scroll-target="#the-plot-twist-現米-genmai-not-草高" href="#the-plot-twist-現米-genmai-not-草高" id="toc-the-plot-twist-現米-genmai-not-草高"><span class="header-section-number">17.3</span> The plot twist: <ruby>現米<rt>げんまい</rt></ruby> (genmai), not <ruby>草高<rt>くさだか</rt></ruby></a></li>
+<li><a class="nav-link" data-scroll-target="#map-1884-kazoku-rank" href="#map-1884-kazoku-rank" id="toc-map-1884-kazoku-rank"><span class="header-section-number">17.4</span> Map: 1884 kazoku rank</a></li>
+<li><a class="nav-link" data-scroll-target="#how-to-read-this-map" href="#how-to-read-this-map" id="toc-how-to-read-this-map"><span class="header-section-number">17.5</span> How to read this map</a></li>
+<li><a class="nav-link" data-scroll-target="#cite-the-data-this-way" href="#cite-the-data-this-way" id="toc-cite-the-data-this-way"><span class="header-section-number">17.6</span> Cite the data this way</a></li>
+</ul>
 </nav>
-    </div>
+</div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-kazoku-rank.html">The Paper’s Variables</a></li><li class="breadcrumb-item"><a href="./05-kazoku-rank.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Kazoku rank (the paper’s DV)</span></a></li></ol></nav>
+<header class="quarto-title-block default" id="title-block-header"><nav aria-label="breadcrumb" class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-kazoku-rank.html">The Paper’s Variables</a></li><li class="breadcrumb-item"><a href="./05-kazoku-rank.html"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Kazoku rank (the paper’s DV)</span></h1>
+<h1 class="title"><span class="chapter-number">17</span>  <span class="chapter-title">Kazoku rank (the paper’s DV)</span></h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+</div>
 </header>
-
-
 <p>The paper’s dependent variable is the <strong>kazoku peerage rank</strong> each former daimyo family received in 1884.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -368,7 +345,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The 1884 kazoku ennoblement awarded peerage ranks to <strong>individuals heading daimyo families</strong> — not to domains. Domains (藩) had already been abolished in 1871 by haihan chiken (廃藩置県), three years after the Restoration and thirteen years before the Kazoku Law was promulgated. So when this chapter says “Tosa received marquess,” the literal claim is: <em>Yamauchi Toyonori (山内豊範), the head of the Yamauchi family that had ruled Tosa domain in 1870, received marquess rank from the Imperial Court in 1884.</em></p>
+<p>The 1884 kazoku ennoblement awarded peerage ranks to <strong>individuals heading daimyo families</strong> — not to domains. Domains (<ruby>藩<rt>はん</rt></ruby>) had already been abolished in 1871 by haihan chiken (<ruby>廃藩置県<rt>はいはんちけん</rt></ruby>), three years after the Restoration and thirteen years before the Kazoku Law was promulgated. So when this chapter says “Tosa received marquess,” the literal claim is: <em>Yamauchi Toyonori (<ruby>山内<rt>やまうち</rt></ruby><ruby>豊範<rt>とよのり</rt></ruby>), the head of the Yamauchi family that had ruled Tosa domain in 1870, received marquess rank from the Imperial Court in 1884.</em></p>
 <p>A useful temporal sequence to keep in mind:</p>
 <pre><code>1870 — Hansei Ichiran surveys 287 daimyo domains
        │  Each domain has a ruling family (Yamauchi for Tosa, Shimazu for Satsuma, ...)
@@ -385,9 +362,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Why we map by domain anyway</strong>: each polygon on the map is a 1870 domain (a place); the <em>colour</em> shows the rank awarded in 1884 to the family that ruled that domain in 1870. The domain is just a useful spatial unit for displaying which families got which ranks. Click any polygon in the <a href="./09-interactive-map.html">interactive map</a> to see the actual recipient name.</p>
 </div>
 </div>
-<section id="what-is-the-kazoku-system" class="level2" data-number="17.1">
-<h2 data-number="17.1" class="anchored" data-anchor-id="what-is-the-kazoku-system"><span class="header-section-number">17.1</span> What is the kazoku system?</h2>
-<p>In <strong>1884</strong>, sixteen years after the Restoration, the Meiji government formalized a Western-style peerage. The <strong>華族令 (<em>Kazoku-rei</em>, “Kazoku Law”)</strong> of 1884-07-07 created five tiers, calqued on the British system but with Japanese vocabulary:</p>
+<section class="level2" data-number="17.1" id="what-is-the-kazoku-system">
+<h2 class="anchored" data-anchor-id="what-is-the-kazoku-system" data-number="17.1"><span class="header-section-number">17.1</span> What is the kazoku system?</h2>
+<p>In <strong>1884</strong>, sixteen years after the Restoration, the Meiji government formalized a Western-style peerage. The <strong><ruby>華族令<rt>かぞくれい</rt></ruby> (<em>Kazoku-rei</em>, “Kazoku Law”)</strong> of 1884-07-07 created five tiers, calqued on the British system but with Japanese vocabulary:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -401,35 +378,35 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td><strong>Prince/Duke</strong></td>
-<td>公爵</td>
+<td><ruby>公爵<rt>こうしゃく</rt></ruby></td>
 <td><em>kōshaku</em></td>
 <td>Prince/Duke</td>
 <td style="text-align: right;">3</td>
 </tr>
 <tr class="even">
 <td><strong>Marquess</strong></td>
-<td>侯爵</td>
+<td><ruby>侯爵<rt>こうしゃく</rt></ruby></td>
 <td><em>kōshaku</em> (different kanji)</td>
 <td>Marquess</td>
 <td style="text-align: right;">15</td>
 </tr>
 <tr class="odd">
 <td><strong>Count</strong></td>
-<td>伯爵</td>
+<td><ruby>伯爵<rt>はくしゃく</rt></ruby></td>
 <td><em>hakushaku</em></td>
 <td>Count/Earl</td>
 <td style="text-align: right;">35</td>
 </tr>
 <tr class="even">
 <td><strong>Viscount</strong></td>
-<td>子爵</td>
+<td><ruby>子爵<rt>ししゃく</rt></ruby></td>
 <td><em>shishaku</em></td>
 <td>Viscount</td>
 <td style="text-align: right;">222</td>
 </tr>
 <tr class="odd">
 <td><strong>Baron</strong></td>
-<td>男爵</td>
+<td><ruby>男爵<rt>だんしゃく</rt></ruby></td>
 <td><em>danshaku</em></td>
 <td>Baron</td>
 <td style="text-align: right;">9</td>
@@ -443,17 +420,17 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Two different 公爵 / 侯爵
+<span class="screen-reader-only">Tip</span>Two different <ruby>公爵<rt>こうしゃく</rt></ruby> / <ruby>侯爵<rt>こうしゃく</rt></ruby>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Both prince (公爵) and marquess (侯爵) are romanized <em>kōshaku</em> — they sound the same but use different kanji. They are different ranks. Context disambiguates.</p>
+<p>Both prince (<ruby>公爵<rt>こうしゃく</rt></ruby>) and marquess (<ruby>侯爵<rt>こうしゃく</rt></ruby>) are romanized <em>kōshaku</em> — they sound the same but use different kanji. They are different ranks. Context disambiguates.</p>
 </div>
 </div>
 </section>
-<section id="the-threshold-rule" class="level2" data-number="17.2">
-<h2 data-number="17.2" class="anchored" data-anchor-id="the-threshold-rule"><span class="header-section-number">17.2</span> The threshold rule</h2>
-<p>The 1884 law itself was vague about how ranks would be assigned. The 叙爵内規 (<em>jōshaku naiki</em>, internal assignment rules) made it explicit and quantitative:</p>
+<section class="level2" data-number="17.2" id="the-threshold-rule">
+<h2 class="anchored" data-anchor-id="the-threshold-rule" data-number="17.2"><span class="header-section-number">17.2</span> The threshold rule</h2>
+<p>The 1884 law itself was vague about how ranks would be assigned. The <ruby>叙爵内規<rt>じょしゃくないき</rt></ruby> (<em>jōshaku naiki</em>, internal assignment rules) made it explicit and quantitative:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -481,54 +458,51 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>So most daimyo were assigned mechanically: large → marquess, medium → count, small → viscount.</p>
-<p><strong>Prince</strong> was reserved for: - The Tokugawa main line (徳川宗家) — symbolic - The five <strong>Sekke kuge</strong> court houses (近衛, 鷹司, 九条, 一条, 二条) - <strong>Shimazu (Satsuma)</strong> and <strong>Mōri (Chōshū)</strong> — explicit Restoration rewards - A handful of later upgrades (e.g., Itō Hirobumi, 1907)</p>
+<p><strong>Prince</strong> was reserved for: - The Tokugawa main line (<ruby>徳川<rt>とくがわ</rt></ruby><ruby>宗家<rt>そうけ</rt></ruby>) — symbolic - The five <strong>Sekke kuge</strong> court houses (<ruby>近衛<rt>このえ</rt></ruby>, <ruby>鷹司<rt>たかつかさ</rt></ruby>, <ruby>九条<rt>くじょう</rt></ruby>, <ruby>一条<rt>いちじょう</rt></ruby>, <ruby>二条<rt>にじょう</rt></ruby>) - <strong>Shimazu (Satsuma)</strong> and <strong>Mōri (Chōshū)</strong> — explicit Restoration rewards - A handful of later upgrades (e.g., Itō Hirobumi, 1907)</p>
 </section>
-<section id="the-plot-twist-現米-genmai-not-草高" class="level2" data-number="17.3">
-<h2 data-number="17.3" class="anchored" data-anchor-id="the-plot-twist-現米-genmai-not-草高"><span class="header-section-number">17.3</span> The plot twist: 現米 (genmai), not 草高</h2>
+<section class="level2" data-number="17.3" id="the-plot-twist-現米-genmai-not-草高">
+<h2 class="anchored" data-anchor-id="the-plot-twist-現米-genmai-not-草高" data-number="17.3"><span class="header-section-number">17.3</span> The plot twist: <ruby>現米<rt>げんまい</rt></ruby> (genmai), not <ruby>草高<rt>くさだか</rt></ruby></h2>
 <p>Here’s a methodological wrinkle that’s <em>paper-critical</em>:</p>
-<p>The threshold rule above is usually quoted with <strong>草高 (sōdaka)</strong> — the nominal yield assessment. The famous “Sendai (Date) was demoted from marquess to count as a Boshin punishment” framing follows from this: Sendai’s 草高 was ~620,000 koku (well into marquess territory), but the family got count, so it must have been punishment.</p>
-<p><strong>Asami (1994) argues this is wrong.</strong> The threshold was actually applied to <strong>現米 (genmai)</strong> — the post-Meiji-2 tax-reported actual rice flow, which is much lower than 草高 for most domains.</p>
-<p>Sendai’s 現米 was ~67,740 koku — squarely in count range. <strong>By the genmai rule, Sendai’s rank is mechanical, not punishment.</strong></p>
+<p>The threshold rule above is usually quoted with <strong><ruby>草高<rt>くさだか</rt></ruby> (sōdaka)</strong> — the nominal yield assessment. The famous “Sendai (Date) was demoted from marquess to count as a Boshin punishment” framing follows from this: Sendai’s <ruby>草高<rt>くさだか</rt></ruby> was ~620,000 koku (well into marquess territory), but the family got count, so it must have been punishment.</p>
+<p><strong>Asami (1994) argues this is wrong.</strong> The threshold was actually applied to <strong><ruby>現米<rt>げんまい</rt></ruby> (genmai)</strong> — the post-Meiji-2 tax-reported actual rice flow, which is much lower than <ruby>草高<rt>くさだか</rt></ruby> for most domains.</p>
+<p>Sendai’s <ruby>現米<rt>げんまい</rt></ruby> was ~67,740 koku — squarely in count range. <strong>By the genmai rule, Sendai’s rank is mechanical, not punishment.</strong></p>
 <p>This matters because once you apply the genmai rule, <strong>only 19 domains</strong> show real deviations. Those 19 are the paper’s core sample — the cases where Boshin/Restoration loyalty actually mattered for rank. See <a href="./07-19-deviations.html">The 19 Deviations</a>.</p>
 </section>
-<section id="map-1884-kazoku-rank" class="level2" data-number="17.4">
-<h2 data-number="17.4" class="anchored" data-anchor-id="map-1884-kazoku-rank"><span class="header-section-number">17.4</span> Map: 1884 kazoku rank</h2>
-<div id="fig-kazoku" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section class="level2" data-number="17.4" id="map-1884-kazoku-rank">
+<h2 class="anchored" data-anchor-id="map-1884-kazoku-rank" data-number="17.4"><span class="header-section-number">17.4</span> Map: 1884 kazoku rank</h2>
+<div class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" id="fig-kazoku">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-kazoku-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/04_kazoku_rank_1884.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+<img class="img-fluid quarto-figure quarto-figure-center figure-img" src="figures/04_kazoku_rank_1884.png"/>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kazoku-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;17.1: Kazoku Peerage Rank Awarded, 1884. Each colored polygon is a daimyo domain. Prince (dark purple) = 3 cases (Satsuma, Chōshū, Tokugawa main). Marquess (light purple) = 15 cases. Count (orange) = 35 cases. Viscount (light grey, visually de-emphasized because so common) = 222 cases. Baron (brown) = 9 cases (former 付家老 baishin elevated at Restoration).
+Figure 17.1: Kazoku Peerage Rank Awarded, 1884. Each colored polygon is a daimyo domain. Prince (dark purple) = 3 cases (Satsuma, Chōshū, Tokugawa main). Marquess (light purple) = 15 cases. Count (orange) = 35 cases. Viscount (light grey, visually de-emphasized because so common) = 222 cases. Baron (brown) = 9 cases (former <ruby>付家老<rt>つけがろう</rt></ruby> baishin elevated at Restoration).
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="how-to-read-this-map" class="level2" data-number="17.5">
-<h2 data-number="17.5" class="anchored" data-anchor-id="how-to-read-this-map"><span class="header-section-number">17.5</span> How to read this map</h2>
+<section class="level2" data-number="17.5" id="how-to-read-this-map">
+<h2 class="anchored" data-anchor-id="how-to-read-this-map" data-number="17.5"><span class="header-section-number">17.5</span> How to read this map</h2>
 <p>A few key patterns to notice:</p>
 <ul>
 <li>The <strong>purple cluster in Kyushu</strong> (Satsuma, Chōshū at the western Honshu tip) shows the Restoration coalition that got prince/marquess upgrades.</li>
 <li>The <strong>orange (count) cluster in the north</strong> — Sendai, Yonezawa, Morioka, Aizu/Tonami area — these are mostly Northern Alliance domains that stayed at count rank.</li>
 <li><strong>Light purple (marquess) is scattered</strong> — large tozama domains (Kaga, Tosa, Hizen, Kumamoto, Hiroshima, Okayama, Fukuoka, Tokushima, Akita) and the sanke (Owari, Kii, Mito).</li>
 <li><strong>Viscount is everywhere small</strong> — the 222 small-medium domains who passed the threshold but weren’t significant enough for count.</li>
-<li><strong>Brown (baron) is just 9 cases</strong> — former 付家老 (<em>tsukegarō</em>, “attached elders”) who served as vassals of larger domains pre-Restoration and were elevated to independent-daimyo status at the Restoration. Their barony reflects this lower pre-Restoration standing.</li>
+<li><strong>Brown (baron) is just 9 cases</strong> — former <ruby>付家老<rt>つけがろう</rt></ruby> (<em>tsukegarō</em>, “attached elders”) who served as vassals of larger domains pre-Restoration and were elevated to independent-daimyo status at the Restoration. Their barony reflects this lower pre-Restoration standing.</li>
 </ul>
 </section>
-<section id="cite-the-data-this-way" class="level2" data-number="17.6">
-<h2 data-number="17.6" class="anchored" data-anchor-id="cite-the-data-this-way"><span class="header-section-number">17.6</span> Cite the data this way</h2>
+<section class="level2" data-number="17.6" id="cite-the-data-this-way">
+<h2 class="anchored" data-anchor-id="cite-the-data-this-way" data-number="17.6"><span class="header-section-number">17.6</span> Cite the data this way</h2>
 <p>For a regression of the 1884 kazoku rank on kokudaka, control variables, and Boshin alignment:</p>
 <ul>
-<li><strong>DV citation</strong>: 浅見雅男『華族誕生 名誉と体面の明治』リブロポート (1994), with 官報 第307号 (1884-07-08) as the primary government gazette (available via NDL Digital Collections, pid 2943511).</li>
-<li><strong>Methodological note</strong>: Following Asami (1994), the ‘expected’ rank is computed from 現米 (genmai), not 表高 (omotedaka). That change reduces the number of apparent deviations from 93 (by the kokudaka rule) to 19, isolating the cases where Boshin and Restoration loyalty actually mattered.</li>
+<li><strong>DV citation</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby>』<ruby>リブロポート<rt>りぶろぽーと</rt></ruby> (1994), with <ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08) as the primary government gazette (available via NDL Digital Collections, pid 2943511).</li>
+<li><strong>Methodological note</strong>: Following Asami (1994), the ‘expected’ rank is computed from <ruby>現米<rt>げんまい</rt></ruby> (genmai), not <ruby>表高<rt>おもてだか</rt></ruby> (omotedaka). That change reduces the number of apparent deviations from 93 (by the kokudaka rule) to 19, isolating the cases where Boshin and Restoration loyalty actually mattered.</li>
 </ul>
 <div class="source-citation">
-<p><strong>Citation chain</strong>: 浅見雅男『華族誕生』(1994) backs 94% of the rank assignments. 華族大鑑刊行会編『華族大鑑』(1990) is the primary scholarly source for the 20 princes. 官報 第307号 (1884-07-08) is the primary government gazette. Small-domain edge cases additionally cite 小田部雄次『華族』(2006), 森岡浩 (2012), 松田敬之 (2015).</p>
+<p><strong>Citation chain</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby>』(1994) backs 94% of the rank assignments. <ruby>華族大鑑刊行会<rt>かぞくたいかんかんこうかい</rt></ruby>編『<ruby>華族大鑑<rt>かぞくたいかん</rt></ruby>』(1990) is the primary scholarly source for the 20 princes. <ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08) is the primary government gazette. Small-domain edge cases additionally cite <ruby>小田部雄次<rt>おたべゆうじ</rt></ruby>『<ruby>華族<rt>かぞく</rt></ruby>』(2006), <ruby>森岡浩<rt>もりおかひろし</rt></ruby> (2012), <ruby>松田敬之<rt>まつだたかゆき</rt></ruby> (2015).</p>
 </div>
-
-
 </section>
-
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -931,21 +905,17 @@ Figure&nbsp;17.1: Kazoku Peerage Rank Awarded, 1884. Each colored polygon is a d
   });
   </script>
 <nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./04-variables.html" class="pagination-link" aria-label="The variables">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">The variables</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./06-boshin-alignment.html" class="pagination-link" aria-label="Boshin alignment (the paper's treatment variable)">
-        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Boshin alignment (the paper’s treatment variable)</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
+<div class="nav-page nav-page-previous">
+<a aria-label="The variables" class="pagination-link" href="./04-variables.html">
+<i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>  <span class="chapter-title">The variables</span></span>
+</a>
+</div>
+<div class="nav-page nav-page-next">
+<a aria-label="Boshin alignment (the paper's treatment variable)" class="pagination-link" href="./06-boshin-alignment.html">
+<span class="nav-page-text"><span class="chapter-number">18</span>  <span class="chapter-title">Boshin alignment (the paper’s treatment variable)</span></span> <i class="bi bi-arrow-right-short"></i>
+</a>
+</div>
 </nav>
 </div> <!-- /content -->
-
-
-
-
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

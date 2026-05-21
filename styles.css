@@ -71,6 +71,46 @@ body {
   font-family: var(--font-jp);
 }
 
+/* ---------- Ruby / furigana ---------- */
+
+ruby {
+  ruby-position: over;
+  ruby-align: center;
+  /* Tighten the gap between base text and ruby annotation */
+  line-height: 1.85;
+}
+
+rt {
+  font-size: 0.52em;
+  font-family: var(--font-jp);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--ink-soft);
+  /* Exclude the ruby reading from copy-paste */
+  user-select: none;
+  -webkit-user-select: none;
+  /* Slightly nudge readings down toward the base text */
+  transform: translateY(0.15em);
+  display: inline-block;
+}
+
+/* Headings: keep ruby readings discreet so they don't dominate the heading typography */
+h1 rt, h2 rt, h3 rt, h4 rt, .hero-title rt, .tile-title rt {
+  font-size: 0.42em;
+  color: var(--ink-faint);
+  transform: translateY(0.2em);
+}
+
+/* Tables: smaller still — ruby in narrow cells can wrap awkwardly */
+td rt, th rt {
+  font-size: 0.5em;
+}
+
+/* Don't add ruby gap inside callout headers (compact line height) */
+.callout-header ruby, .sidebar ruby, nav ruby {
+  line-height: inherit;
+}
+
 /* ---------- Typography hierarchy ---------- */
 
 h1, h2, h3, h4, h5, h6 {
