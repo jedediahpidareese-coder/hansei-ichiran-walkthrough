@@ -343,7 +343,16 @@ ul.task-list li input[type="checkbox"] {
 <section class="level2" data-number="13.1" id="map-kokudaka-石高-across-all-287-domains">
 <h2 class="anchored" data-anchor-id="map-kokudaka-石高-across-all-287-domains" data-number="13.1"><span class="header-section-number">13.1</span> Map: <em>kokudaka</em> (<ruby>石高<rt>こくだか</rt></ruby>) across all 287 domains</h2>
 <p>The map below shows each domain colored by its <strong><em>kokudaka</em></strong> — the revenue assessment in koku of rice. This is the paper’s main predictor variable.</p>
-<p><img alt="Domain kokudaka, 1870 — the composite kokudaka value mapped on the daimyō-domain base map. Color uses a log scale because revenues range from ~10,000 koku (smallest viscount-tier domains) to ~1.4 million koku (Kaga, the largest). Grey polygons = a daimyō domain with no kokudaka value. Blank white = land that was not a daimyō domain (shogunal tenryō, hatamoto holdings, temple / court land)." class="img-fluid" src="figures/01_kokudaka_iv.png"/>{#fig-<em>kokudaka</em> fig-align=“center”}</p>
+<div class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" id="fig-kokudaka">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-kokudaka-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img class="img-fluid quarto-figure quarto-figure-center figure-img" src="figures/01_kokudaka_iv.png"/>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kokudaka-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure 13.1: Domain <em>kokudaka</em>, 1870 — the composite <em>kokudaka</em> value mapped on the daimyō-domain base map. Color uses a log scale because revenues range from ~10,000 koku (smallest viscount-tier domains) to ~1.4 million koku (Kaga, the largest). Grey polygons = a daimyō domain with no <em>kokudaka</em> value. Blank white = land that was not a daimyō domain (shogunal <em>tenryō</em>, <em>hatamoto</em> holdings, temple / court land).
+</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -412,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Tokugawa-cadet (<em>shinpan</em> (<ruby>親藩<rt>しんぱん</rt></ruby>))</td>
 <td style="text-align: right;">29</td>
-<td>Per <ruby>児玉幸多<rt>こだまこうた</rt></ruby>『<em>Hanshi sōran</em>』(1977)</td>
+<td>Per <ruby>児玉幸多<rt>こだまこうた</rt></ruby>『<ruby>藩史総覧<rt>はんしそうらん</rt></ruby> (Hanshi sōran, “Comprehensive Survey of Han History”)』(1977)</td>
 </tr>
 <tr class="odd">
 <td>Hereditary vassal (<em>fudai</em> (<ruby>譜代<rt>ふだい</rt></ruby>))</td>
@@ -456,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><em>tenryō</em> (<ruby>天領<rt>てんりょう</rt></ruby>) — <em>bakufu</em> direct lands. These were governed by <em>daikan</em> (intendants), not <em>daimyō</em>. They became Meiji prefectures directly. The project includes one symbolic entry (<ruby>大山領<rt>だいせんりょう</rt></ruby> = the Daisen-ji temple territory) for documentation but excludes them from analysis.</li>
 <li><strong><em>kuge</em></strong> — <em>kuge</em> (<ruby>公家<rt>くげ</rt></ruby>), court nobility. Became <em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>) in 1884 but on a different track (without revenue or military). The outcome variable (<em>kazoku</em> rank) is restricted to former-<em>daimyō</em> lines.</li>
-<li><strong><em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>) cases</strong> — 3 families excluded from the 1884 <em>kazoku</em> roster entirely: <ruby>大沢家<rt>おおさわけ</rt></ruby> (<ruby>堀江藩<rt>ほりえはん</rt></ruby>, falsified land report) and <ruby>林家<rt>はやしけ</rt></ruby> (<ruby>請西<rt>じょうざい</rt></ruby><ruby>藩<rt>はん</rt></ruby>, fled-<em>shōgun</em> (<ruby>将軍<rt>しょうぐん</rt></ruby>)). These appear in the dataset as documented exclusions.</li>
+<li><strong><em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>) cases</strong> — a few <em>daimyō</em> houses were struck from the 1884 <em>kazoku</em> roster after a confiscation, e.g. <ruby>大沢家<rt>おおさわけ</rt></ruby> (<ruby>堀江藩<rt>ほりえはん</rt></ruby>, falsified land report) and <ruby>林家<rt>はやしけ</rt></ruby> (<ruby>請西<rt>じょうざい</rt></ruby><ruby>藩<rt>はん</rt></ruby>, fled-<em>shōgun</em> (<ruby>将軍<rt>しょうぐん</rt></ruby>)). The houses that are rows in the dataset carry a documented exclusion in place of a rank.</li>
 </ul>
 <div class="source-citation">
 <p><strong>Map source</strong>: Domain polygons from Harvard CHGIS 1664 <em>daimyō</em> shapefile (an approximation — 1664 boundaries were generally stable through 1870 but some small domains changed). <em>kokudaka</em> data: Hansei Ichiran (1870) with primary-source fallback (Ōkuma papers, Meiji Shiyō). Per-column citation in <code>data_provenance.md</code>.</p>

@@ -322,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
 <nav class="toc-active" id="TOC" role="doc-toc">
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li><a class="nav-link active" data-scroll-target="#what-this-prototype-demonstrates" href="#what-this-prototype-demonstrates" id="toc-what-this-prototype-demonstrates"><span class="header-section-number">23.1</span> What this prototype demonstrates</a></li>
+<li><a class="nav-link active" data-scroll-target="#what-the-map-can-do" href="#what-the-map-can-do" id="toc-what-the-map-can-do"><span class="header-section-number">23.1</span> What the map can do</a></li>
 </ul>
 </nav>
 </div>
@@ -356,9 +356,10 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><strong>Other controls:</strong></p>
 <ul>
-<li><strong>EN / <ruby>日本語<rt>にほんご</rt></ruby> toggle</strong> (top-right, separate from layer control): switches all popup contents + legend text between English and Japanese</li>
+<li><strong>Jump-to-domain search</strong> (top-left corner): type a domain name — romanized or kanji — and the map flies straight to it</li>
+<li><strong>EN / <ruby>日本語<rt>にほんご</rt></ruby> toggle</strong> (bottom-right corner): switches all popup contents + legend text between English and Japanese</li>
 <li><strong>Hover</strong> any polygon for a quick tooltip</li>
-<li><strong>Click</strong> any polygon for a full data card showing: the family that ruled it, the 1884 rank recipient (with citation), all the <em>kokudaka</em>/population/military/Boshin values, and sources for each</li>
+<li><strong>Click</strong> any polygon for a full data card showing: the family that ruled it, the 1884 rank recipient (with citation), all the <em>kokudaka</em>/population/military/Boshin values, sources for each, and — for the four <ruby>薩長土肥<rt>さっちょうどひ</rt></ruby> focal domains — links out to the scholarly literature</li>
 <li><strong>Pan + zoom</strong> with mouse or trackpad</li>
 </ul>
 </div>
@@ -413,22 +414,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-<section class="level2" data-number="23.1" id="what-this-prototype-demonstrates">
-<h2 class="anchored" data-anchor-id="what-this-prototype-demonstrates" data-number="23.1"><span class="header-section-number">23.1</span> What this prototype demonstrates</h2>
-<p>This is a <strong>proof of concept</strong> for a more polished interactive presentation. The current version:</p>
+<section class="level2" data-number="23.1" id="what-the-map-can-do">
+<h2 class="anchored" data-anchor-id="what-the-map-can-do" data-number="23.1"><span class="header-section-number">23.1</span> What the map can do</h2>
+<p>The map is a single self-contained HTML file — it works offline, needs no server, and embeds in this walkthrough as readily as it opens on its own. It offers:</p>
 <ul>
-<li>✅ Click any of 287 domains for full data card</li>
-<li>✅ All sources cited per row</li>
-<li>✅ Static HTML — works offline, no server, self-contained file (~2 MB)</li>
-<li>✅ Embedded in the Quarto walkthrough as well as standalone</li>
+<li><strong>Five colour layers</strong> — 1884 <em>kazoku</em> rank, <em>kokudaka</em>, Boshin alignment, Tokugawa-era category, and the 19 genmai-rule deviations — switched from the layer control in the top-right corner.</li>
+<li><strong>A jump-to-domain search box</strong> (top-left) — type a domain in romanized or kanji form to fly straight to it.</li>
+<li><strong>An EN / <ruby>日本語<rt>にほんご</rt></ruby> toggle</strong> — switches every popup and the legend between English and Japanese.</li>
+<li><strong>Click-through data cards</strong> — every one of the 287 domains opens a full card: the ruling family, the 1884 rank recipient, revenue, demographics, military, Boshin alignment, the rank-deviation diagnostic, and a per-row source list. The four <ruby>薩長土肥<rt>さっちょうどひ</rt></ruby> focal domains also link out to their walkthrough chapters and key scholarly works.</li>
 </ul>
-<p>The next steps for a paper-grade version would be:</p>
-<ul>
-<li>Layer toggles for different variables (<em>kokudaka</em>, retainer density, military, etc.)</li>
-<li>Search box for jumping to a specific domain</li>
-<li>English / Japanese language toggle for the popup contents</li>
-<li>Linked references to the actual scholarly literature for each domain (especially the focal-4)</li>
-</ul>
+<p>Every value in a popup is the same data as the static choropleth maps elsewhere in the walkthrough — the interactive map simply lets you query it domain by domain.</p>
 <div class="source-citation">
 <p><strong>Implementation</strong>: Folium 0.20 (a Python wrapper for Leaflet.js). Polygon source: Harvard CHGIS 1664 <em>daimyō</em> shapefile. Data: <code>analytic_wide.csv</code> (287 × 107). Output: a self-contained HTML map (<code>interactive_map.html</code>).</p>
 </div>

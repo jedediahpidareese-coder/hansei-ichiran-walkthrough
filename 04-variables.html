@@ -371,8 +371,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong><em>kokudaka</em> (<ruby>石高<rt>こくだか</rt></ruby>) (revenue base)</strong></td>
-<td>The various revenue assessments — <em>sōdaka</em> (<ruby>草高<rt>くさだか</rt></ruby>), <em>omotedaka</em> (<ruby>表高<rt>おもてだか</rt></ruby>), <em>naidaka</em> (<ruby>内高<rt>うちだか</rt></ruby>), <em>gōdaka</em> (<ruby>合高<rt>ごうだか</rt></ruby>), <em>gendaka</em> (<ruby>現高<rt>げんだか</rt></ruby>)</td>
-<td style="text-align: right;">14</td>
+<td>The various revenue assessments — <em>sōdaka</em> (<ruby>草高<rt>くさだか</rt></ruby>), <em>omotedaka</em> (<ruby>表高<rt>おもてだか</rt></ruby>), <em>naidaka</em> (<ruby>内高<rt>うちだか</rt></ruby>), <em>gōdaka</em> (<ruby>合高<rt>ごうだか</rt></ruby>), <em>gendaka</em> (<ruby>現高<rt>げんだか</rt></ruby>) — plus the composite predictor and its cross-source variants</td>
+<td style="text-align: right;">15</td>
 <td>Hansei Ichiran (1870)</td>
 </tr>
 <tr class="odd">
@@ -407,18 +407,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>Diagnostics</strong></td>
-<td>Confidence flags, completeness scores, divergence metrics</td>
-<td style="text-align: right;">5</td>
+<td>Confidence flags, completeness scores, divergence metrics, extraction notes</td>
+<td style="text-align: right;">6</td>
 <td>Internal</td>
 </tr>
 <tr class="odd">
 <td><strong>Classification (paper controls)</strong></td>
-<td>Domain category (<em>shinpan</em> (<ruby>親藩<rt>しんぱん</rt></ruby>)/<em>fudai</em> (<ruby>譜代<rt>ふだい</rt></ruby>)/<em>tozama</em> (<ruby>外様<rt>とざま</rt></ruby>)), Boshin alignment, <em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>) rank</td>
-<td style="text-align: right;">14</td>
+<td>Domain category (<em>shinpan</em> (<ruby>親藩<rt>しんぱん</rt></ruby>)/<em>fudai</em> (<ruby>譜代<rt>ふだい</rt></ruby>)/<em>tozama</em> (<ruby>外様<rt>とざま</rt></ruby>)), Boshin alignment, <em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>) rank, and their per-row source columns</td>
+<td style="text-align: right;">15</td>
 <td>Multiple — see the rank-assignment chapters</td>
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The several <em>kokudaka</em> — and which one the paper uses
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A reader can reasonably ask why the revenue row lists five fields. They belong to two families:</p>
+<ul>
+<li><strong>Assessed yield</strong> — what the land was <em>rated to produce</em>. The Tokugawa cadastral surveys rated every domain in koku, and <em>Hansei Ichiran</em> reports that rating in several variants. The two that matter conceptually are <em>omotedaka</em> (<ruby>表高<rt>おもてだか</rt></ruby>) — the “face” figure registered with the shogunate, frozen at early-1600s levels, which fixed a domain’s rank, precedence, and military obligation — and <em>naidaka</em> (<ruby>内高<rt>うちだか</rt></ruby>), the domain’s <em>own</em> internal figure from its later surveys, which by the 1860s usually ran well above the official <em>omotedaka</em>. <em>Sōdaka</em> (<ruby>草高<rt>くさだか</rt></ruby>), <em>gōdaka</em> (<ruby>合高<rt>ごうだか</rt></ruby> — gross plus reclaimed new fields), and <em>gendaka</em> (<ruby>現高<rt>げんだか</rt></ruby>) are further variants of this assessed-capacity number.</li>
+<li><strong>Actual rice</strong> — <em>genmai</em> (<ruby>現米<rt>げんまい</rt></ruby>): the rice that actually flowed as tax in 1869. Because a domain taxed only a fraction of its assessed yield, <em>genmai</em> runs far below any assessed figure.</li>
+</ul>
+<p><strong>The paper uses both, for different jobs.</strong> The composite <em>kokudaka</em> (<code>kokudaka_iv</code>), drawn from the assessed-yield family, is the paper’s predictor — its measure of a domain’s size and revenue base. <em>Genmai</em> is used only to compute the <em>expected</em> 1884 peerage rank under the Asami (1994) threshold rule. They are not competing measures of one quantity.</p>
+<p>The gap between the official <em>omotedaka</em> and a domain’s real productive base is a standard theme of early-modern Japanese fiscal history (see Ravina 1999). The <em>kokudaka</em>-versus-<em>genmai</em> question as it bears on the peerage is the Asami-versus-Lebra debate walked through in <a href="./05-kazoku-rank.html">the <em>kazoku</em>-rank chapter</a> and <a href="./07-19-deviations.html">the 19-deviations chapter</a>.</p>
+</div>
+</div>
 </section>
 <section class="level2" data-number="16.2" id="the-most-important-columns-for-the-paper">
 <h2 class="anchored" data-anchor-id="the-most-important-columns-for-the-paper" data-number="16.2"><span class="header-section-number">16.2</span> The most important columns for the paper</h2>
@@ -438,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Coverage</strong>: 284/287 (3 documented exclusions)</li>
 <li><strong>Distribution</strong>: 3 prince, 15 marquess, 35 count, 222 viscount, 9 baron</li>
-<li><strong>Citation chain</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<em>Kazoku tanjō</em>』(1994) + <em>Kanpō</em> 第307号 (1884) + <em>Kazoku taikan</em>刊行会編 (1990) for princes</li>
+<li><strong>Citation chain</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby> (Kazoku tanjō: meiyo to taimen no Meiji, “Birth of the Peerage: Honor and Reputation in Meiji”)』(1994) + <em>Kanpō</em> 第307号 (1884) + <ruby>華族大鑑刊行会<rt>かぞくたいかんかんこうかい</rt></ruby>編『<ruby>華族大鑑<rt>かぞくたいかん</rt></ruby> (Kazoku taikan, “Compendium of the Peerage”)』(1990) for princes</li>
 <li>See the <a href="./05-kazoku-rank.html"><em>kazoku</em> Rank chapter</a> for the full story.</li>
 </ul>
 </section>

@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Honest-medium tracker</strong>: started at 141 flagged rows; reduced through successive cleanup passes to <strong>22 rows</strong>, all of which are structural source-level limits that no further OCR work can resolve.</li>
 <li><strong>Within-domain sanity-check flags</strong>: started at 37; reduced to <strong>26</strong> after six confirmed corrections plus one alias-rule regression fix.</li>
 <li><strong>Cross-page contamination audits</strong>: 4 cases confirmed and fixed; a fuzzy near-match audit found 8 candidates, all benign.</li>
-<li><strong>Citation coverage on paper-critical variables</strong>: 100 percent on the three paper controls (<em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>) rank, Boshin alignment, domain category); 98.6 percent on <code>kazoku_rank_actual</code> (the 4 missing values are documented exclusions, not data gaps).</li>
+<li><strong>Citation coverage on paper-critical variables</strong>: 100 percent on the three paper controls (<em>kazoku</em> (<ruby>華族<rt>かぞく</rt></ruby>) rank, Boshin alignment, domain category); 99 percent on <code>kazoku_rank_actual</code> (the 3 missing values are documented exclusions, not data gaps).</li>
 </ul>
 <p>The paper-critical variables are all paper-ready. The remaining medium-confidence rows affect tail-end fiscal precision and hyper-specific demographic sub-counts that aren’t used in any paper table or regression.</p>
 </div>
@@ -611,7 +611,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Second pass</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: right;">128</td>
 <td>Multi-domain batch — OCR, relabelling, copy-paste fixes</td>
 </tr>
@@ -667,12 +667,12 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Sub-koku precision</td>
-<td style="text-align: right;">9</td>
+<td style="text-align: right;">4</td>
 <td>Sub-koku decimals (升 / 合 / 勺 / 才) below current crop resolution. The integer is correct; the tail digit is ambiguous between e.g. 二 and 三. Affects 4th decimal place only.</td>
 </tr>
 <tr class="even">
 <td>Unit ambiguity</td>
-<td style="text-align: right;">8</td>
+<td style="text-align: right;">4</td>
 <td>Compound Edo-era monetary units (gold <ruby>兩<rt>りょう</rt></ruby> / 分 / 朱, silver <ruby>貫<rt>かん</rt></ruby> / <ruby>匁<rt>もんめ</rt></ruby>, copper 文). OCR captures the digits but loses which unit each digit belongs to.</td>
 </tr>
 <tr class="odd">
@@ -682,12 +682,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Needs higher resolution</td>
-<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
 <td>Value is on the page; key characters can’t be discriminated at current resolution. Would resolve with higher-resolution re-photography at NDL.</td>
 </tr>
 <tr class="odd">
 <td>Source illegible</td>
-<td style="text-align: right;">6</td>
+<td style="text-align: right;">5</td>
 <td>Original ink in the 1870 print is too faded. No re-OCR can fix this; would require a different physical copy of Hansei Ichiran.</td>
 </tr>
 </tbody>
@@ -749,8 +749,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="five-boshin-alignment-reclassifications" data-number="22.2.7"><span class="header-section-number">22.2.7</span> Five Boshin alignment reclassifications</h3>
 <p>Also from the re-sourcing pass:</p>
 <ul>
-<li><ruby>守山藩<rt>もりやまはん</rt></ruby>, <ruby>館藩<rt>たてはん</rt></ruby> (= <ruby>松前<rt>まつまえ</rt></ruby>): originally coded pro-<em>bakufu</em> (<ruby>幕府<rt>ばくふ</rt></ruby>) → corrected to <strong>anti-<em>bakufu</em></strong> (both are OREP defectors per <ruby>工藤威<rt>くどうたけし</rt></ruby> 2002)</li>
-<li><ruby>村上藩<rt>むらかみはん</rt></ruby>, <ruby>村松藩<rt>むらまつはん</rt></ruby>: originally coded anti-<em>bakufu</em> → corrected to <strong>pro-<em>bakufu</em></strong> (both are OREP combatants per <ruby>工藤威<rt>くどうたけし</rt></ruby> 2002)</li>
+<li><ruby>守山藩<rt>もりやまはん</rt></ruby>, <ruby>館藩<rt>たてはん</rt></ruby> (= <ruby>松前<rt>まつまえ</rt></ruby>): originally coded pro-<em>bakufu</em> (<ruby>幕府<rt>ばくふ</rt></ruby>) → corrected to <strong>anti-<em>bakufu</em></strong> (both are Northern Alliance defectors per <ruby>工藤威<rt>くどうたけし</rt></ruby> 2002)</li>
+<li><ruby>村上藩<rt>むらかみはん</rt></ruby>, <ruby>村松藩<rt>むらまつはん</rt></ruby>: originally coded anti-<em>bakufu</em> → corrected to <strong>pro-<em>bakufu</em></strong> (both are Northern Alliance combatants per <ruby>工藤威<rt>くどうたけし</rt></ruby> 2002)</li>
 <li><ruby>淀藩<rt>よどはん</rt></ruby>: originally coded neutral → corrected to <strong>anti-<em>bakufu</em></strong> (castle-gate refusal at Toba-Fushimi 1868-01-28)</li>
 </ul>
 </section>
@@ -779,8 +779,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Dependent variable: <code>kazoku_rank_actual</code></td>
-<td>98.6%</td>
-<td>4 missing values are documented exclusions (<em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>), temple-land, etc.) — not data gaps</td>
+<td>99%</td>
+<td>3 missing values are documented exclusions (<em>kaieki</em> (<ruby>改易<rt>かいえき</rt></ruby>), temple-land, etc.) — not data gaps</td>
 </tr>
 <tr class="odd">
 <td>Control: <code>domain_category</code></td>
