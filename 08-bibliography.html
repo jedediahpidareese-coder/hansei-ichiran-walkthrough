@@ -281,13 +281,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./10-sources-citations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
   </div>
 </li>
       </ul>
@@ -355,11 +355,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page aggregates every published source the dataset draws on. For per-row citations, see the matching source columns in the project’s analytic table.</p>
+<p>This page aggregates every published source the dataset draws on. For per-row citations, see the matching source columns in the analytic table.</p>
 <section id="primary-sources" class="level2">
 <h2 class="anchored" data-anchor-id="primary-sources">Primary sources</h2>
-<p><strong>Hansei Ichiran (藩制一覧)</strong>. 1870. Two-volume government survey of all daimyo domains, compiled in the immediate pre-haihan-chiken period. National Diet Library Digital Collections. — <em>The project’s primary han-level source for every HI-derived field.</em></p>
-<p><strong>官報 第307号 (Kanpō #307)</strong>. 1884-07-08. The Imperial government gazette publishing the 1884-07-07 kazoku ennoblement decree + initial 509-house roster. NDL Digital Collections pid 2943511. Downloaded locally to <code>outputs/ndl_kanpo_307/</code>. — <em>Primary citation for the 1884 kazoku rank.</em></p>
+<p><strong>Hansei Ichiran (藩制一覧)</strong>. 1870. Two-volume government survey of all daimyo domains, compiled in the immediate pre-<em>haihan-chiken</em> period. National Diet Library Digital Collections. — <em>The primary han-level source underlying every HI-derived field.</em></p>
+<p><strong>官報 第307号 (Kanpō #307)</strong>. 1884-07-08. The Imperial government gazette publishing the 1884-07-07 kazoku ennoblement decree and initial 509-house roster. NDL Digital Collections, pid 2943511. — <em>Primary citation for the 1884 kazoku rank.</em></p>
 <p><strong>官報 第308号 (Kanpō #308)</strong>. 1884-07-09. Continuation of the same gazette with the late-cohort ennoblements (kuge, etc.). NDL pid 2943512.</p>
 <p><strong>明治史要 (Meiji Shiyō)</strong>. 1870s. Compendium compiled by the Bureau of Historiography (修史局). — <em>Primary source for the Meiji Shiyō population, household-count, and status-class breakdown fields.</em></p>
 <p><strong>大隈重信関係資料「府藩県石高人員表」 (Ōkuma Shigenobu papers — Fu-Han-Ken Kokudaka Jin’in-hyō)</strong>. Waseda University Library archival. — <em>Primary source for the Ōkuma uchidaka and population fields.</em></p>
@@ -392,17 +392,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-sources-not-citable-but-documented" class="level2">
 <h2 class="anchored" data-anchor-id="data-sources-not-citable-but-documented">Data sources (not citable but documented)</h2>
 <p><strong>Harvard CHGIS 1664 daimyo shapefile</strong>. — <em>Used for the map polygons (approximation, since 1664 boundaries were generally stable through 1870).</em></p>
-<p><strong>bakumatsu.org web scrape</strong> (<code>han_dataset_work/data/bakumatsu_online.csv</code>). — <em>Originally used as a finder for Tokugawa-era category, Boshin alignment, and last-lord identity. NOT directly citable for the paper; values cross-validated against Beasley 1972, 工藤 2002, 児玉 ed.&nbsp;1977 etc.</em></p>
-<p><strong>Wikipedia 府藩県三治制 scrape</strong> (<code>han_dataset_work/data/wiki_fuhanken.csv</code>). — <em>Web-scraped Japanese Wikipedia 府藩県三治制 article. NOT directly citable; the article’s underlying primary sources (Meiji Shiyō / Ōkuma / Tōkei Shūshi) are what the project actually cites for each field.</em></p>
+<p><strong>bakumatsu.org web scrape</strong>. — <em>Originally used as a finder for Tokugawa-era category, Boshin alignment, and last-lord identity. Not directly citable; values were cross-validated against Beasley 1972, 工藤 2002, 児玉 ed.&nbsp;1977 and similar academic sources before being used in any analytic claim.</em></p>
+<p><strong>Wikipedia 府藩県三治制 scrape</strong>. — <em>A web-scraped extract of the Japanese Wikipedia 府藩県三治制 article. Not directly citable; the article’s underlying primary sources (Meiji Shiyō, Ōkuma papers, Tōkei Shūshi) are the actual citations for each field.</em></p>
 </section>
 <section id="see-also" class="level2">
 <h2 class="anchored" data-anchor-id="see-also">See also</h2>
 <ul>
-<li><strong><code>data_provenance.md</code></strong> — per-column citation guidance (single source of truth)</li>
-<li><strong><code>honest_medium_tracker_summary.md</code></strong> — documented dataset limits (22 medium-confidence cells, all structural source-level)</li>
-<li><strong><code>paper_descriptive_tables.md</code></strong> — paper-ready summary stats + cross-tabs</li>
-<li><strong><code>RESUME_HERE.md</code></strong> — complete session history + state</li>
+<li><strong><code>data_provenance.md</code></strong> — per-column citation guidance, the single source of truth for which source backs which column.</li>
+<li><strong><code>honest_medium_tracker_summary.md</code></strong> — documented dataset limits (the 22 remaining medium-confidence cells, all structural source-level).</li>
 </ul>
+<p>Both companion files will be released alongside the dataset.</p>
 
 
 </section>

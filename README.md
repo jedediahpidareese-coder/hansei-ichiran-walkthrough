@@ -4,14 +4,14 @@
 
 A 23-chapter Quarto book covering the 287 daimyo domains in the *Hansei Ichiran* (藩制一覧, 1870) — the early-Meiji Japanese government's administrative survey of every domain.
 
-This site is the companion to the Reese (Creighton) & Crego (Texas Tech) comparative-history paper on Meiji-Qing fiscal modernisation (in progress; target April 2026 PCT). The walkthrough explains:
+This site is the companion to a comparative-history paper on Meiji–Qing fiscal modernisation by Reese (Creighton) and Crego (Texas Tech). The walkthrough explains:
 
-- What Hansei Ichiran is and how the project transcribed it
-- 10 focal-domain walkthroughs (Saga, Satsuma, Chōshū, Tosa, Kaga, Aizu–Sendai, OREP defectors, Sankyō, Restoration upgrades, the 親藩 cluster)
-- The dataset of 287 domains × 107 columns
+- What Hansei Ichiran is and how it was transcribed
+- Ten focal-domain walkthroughs (Saga, Satsuma, Chōshū, Tosa, Kaga, Aizu–Sendai, OREP defectors, Sankyō, Restoration upgrades, the 親藩 cluster)
+- The resulting dataset of 287 domains × 107 columns
 - The paper's central variables (kazoku rank, Boshin alignment, the 19 deviation cases)
-- Sources & citations methodology
-- The data-quality / audit framework
+- Sources and citations methodology
+- The data-quality and audit framework
 
 ## Features
 
@@ -25,9 +25,9 @@ The Quarto source files (`.qmd`) live in a separate working research repo and ar
 
 ## Citing this work
 
-If you use any of the content, please cite the working paper:
+If you use any of the content, please cite the accompanying paper:
 
-> Reese, J., & Crego, D. (in progress). *Meiji–Qing fiscal modernisation: a comparative analysis*. Working paper.
+> Reese, J., & Crego, D. *Meiji–Qing fiscal modernisation: a comparative analysis*. Forthcoming.
 
 ## Authors
 

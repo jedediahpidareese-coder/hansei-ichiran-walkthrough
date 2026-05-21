@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>20&nbsp; Data quality — what we audited, and what’s still uncertain – Hansei Ichiran — A Visual Walkthrough</title>
+<title>20&nbsp; Data quality and the audit framework – Hansei Ichiran — A Visual Walkthrough</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -282,13 +282,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./10-sources-citations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
   </div>
 </li>
       </ul>
@@ -328,32 +328,32 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#the-four-audit-layers" id="toc-the-four-audit-layers" class="nav-link active" data-scroll-target="#the-four-audit-layers"><span class="header-section-number">20.1</span> The four audit layers</a>
   <ul class="collapse">
-  <li><a href="#layer-1-within-domain-ratio-sanity-sanity_check_audit.py" id="toc-layer-1-within-domain-ratio-sanity-sanity_check_audit.py" class="nav-link" data-scroll-target="#layer-1-within-domain-ratio-sanity-sanity_check_audit.py"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity (<code>sanity_check_audit.py</code>)</a></li>
+  <li><a href="#layer-1-within-domain-ratio-sanity" id="toc-layer-1-within-domain-ratio-sanity" class="nav-link" data-scroll-target="#layer-1-within-domain-ratio-sanity"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity</a></li>
   <li><a href="#layer-2-cross-page-contamination-audits" id="toc-layer-2-cross-page-contamination-audits" class="nav-link" data-scroll-target="#layer-2-cross-page-contamination-audits"><span class="header-section-number">20.1.2</span> Layer 2 — Cross-page contamination audits</a></li>
-  <li><a href="#layer-3-ravina-replication-audit-ravina_replication_audit.csv" id="toc-layer-3-ravina-replication-audit-ravina_replication_audit.csv" class="nav-link" data-scroll-target="#layer-3-ravina-replication-audit-ravina_replication_audit.csv"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit (<code>ravina_replication_audit.csv</code>)</a></li>
-  <li><a href="#layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" id="toc-layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" class="nav-link" data-scroll-target="#layer-4-the-honest-medium-tracker-honest_medium_tracker.csv"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker (<code>honest_medium_tracker.csv</code>)</a></li>
+  <li><a href="#layer-3-ravina-replication-audit" id="toc-layer-3-ravina-replication-audit" class="nav-link" data-scroll-target="#layer-3-ravina-replication-audit"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit</a></li>
+  <li><a href="#layer-4-the-honest-medium-tracker" id="toc-layer-4-the-honest-medium-tracker" class="nav-link" data-scroll-target="#layer-4-the-honest-medium-tracker"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker</a></li>
   </ul></li>
-  <li><a href="#high-impact-specific-fixes-documented" id="toc-high-impact-specific-fixes-documented" class="nav-link" data-scroll-target="#high-impact-specific-fixes-documented"><span class="header-section-number">20.2</span> High-impact specific fixes documented</a>
+  <li><a href="#high-impact-specific-fixes" id="toc-high-impact-specific-fixes" class="nav-link" data-scroll-target="#high-impact-specific-fixes"><span class="header-section-number">20.2</span> High-impact specific fixes</a>
   <ul class="collapse">
-  <li><a href="#sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" id="toc-sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" class="nav-link" data-scroll-target="#sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” actually 卒族 demographics (Phase M)</a></li>
+  <li><a href="#sendai-mislabel-兵卒-18913-was-actually-卒族-demographics" id="toc-sendai-mislabel-兵卒-18913-was-actually-卒族-demographics" class="nav-link" data-scroll-target="#sendai-mislabel-兵卒-18913-was-actually-卒族-demographics"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” was actually 卒族 demographics</a></li>
   <li><a href="#tosa-人口-896808-column-stack-ocr-error-from-satsuma" id="toc-tosa-人口-896808-column-stack-ocr-error-from-satsuma" class="nav-link" data-scroll-target="#tosa-人口-896808-column-stack-ocr-error-from-satsuma"><span class="header-section-number">20.2.2</span> Tosa 人口 = 896,808 — column-stack OCR error from Satsuma</a></li>
-  <li><a href="#saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" id="toc-saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" class="nav-link" data-scroll-target="#saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9"><span class="header-section-number">20.2.3</span> Saga SOURCE_GAP — wholly absent from HI vol.&nbsp;2 T7-T9</a></li>
-  <li><a href="#stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" id="toc-stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" class="nav-link" data-scroll-target="#stacked-page-contamination-4-confirmed-cases-per-audit-layer-2"><span class="header-section-number">20.2.4</span> Stacked-page contamination — 4 confirmed cases (per audit Layer 2)</a></li>
+  <li><a href="#saga-wholly-absent-from-hi-vol.-2-t7t9" id="toc-saga-wholly-absent-from-hi-vol.-2-t7t9" class="nav-link" data-scroll-target="#saga-wholly-absent-from-hi-vol.-2-t7t9"><span class="header-section-number">20.2.3</span> Saga — wholly absent from HI vol.&nbsp;2 T7–T9</a></li>
+  <li><a href="#stacked-page-contamination-four-confirmed-cases" id="toc-stacked-page-contamination-four-confirmed-cases" class="nav-link" data-scroll-target="#stacked-page-contamination-four-confirmed-cases"><span class="header-section-number">20.2.4</span> Stacked-page contamination — four confirmed cases</a></li>
   <li><a href="#akita-ravina-a1-typo-confirmed" id="toc-akita-ravina-a1-typo-confirmed" class="nav-link" data-scroll-target="#akita-ravina-a1-typo-confirmed"><span class="header-section-number">20.2.5</span> Akita Ravina A1 typo confirmed</a></li>
-  <li><a href="#domain-category-mis-classifications" id="toc-domain-category-mis-classifications" class="nav-link" data-scroll-target="#domain-category-mis-classifications"><span class="header-section-number">20.2.6</span> 4 domain-category mis-classifications</a></li>
-  <li><a href="#boshin-alignment-mis-classifications" id="toc-boshin-alignment-mis-classifications" class="nav-link" data-scroll-target="#boshin-alignment-mis-classifications"><span class="header-section-number">20.2.7</span> 5 Boshin alignment mis-classifications</a></li>
+  <li><a href="#four-domain-category-reclassifications" id="toc-four-domain-category-reclassifications" class="nav-link" data-scroll-target="#four-domain-category-reclassifications"><span class="header-section-number">20.2.6</span> Four domain-category reclassifications</a></li>
+  <li><a href="#five-boshin-alignment-reclassifications" id="toc-five-boshin-alignment-reclassifications" class="nav-link" data-scroll-target="#five-boshin-alignment-reclassifications"><span class="header-section-number">20.2.7</span> Five Boshin alignment reclassifications</a></li>
   </ul></li>
   <li><a href="#what-the-final-dataset-looks-like" id="toc-what-the-final-dataset-looks-like" class="nav-link" data-scroll-target="#what-the-final-dataset-looks-like"><span class="header-section-number">20.3</span> What the final dataset looks like</a></li>
-  <li><a href="#how-to-characterise-this-work-for-paper-reviewers" id="toc-how-to-characterise-this-work-for-paper-reviewers" class="nav-link" data-scroll-target="#how-to-characterise-this-work-for-paper-reviewers"><span class="header-section-number">20.4</span> How to characterise this work for paper reviewers</a></li>
+  <li><a href="#what-the-audit-framework-establishes" id="toc-what-the-audit-framework-establishes" class="nav-link" data-scroll-target="#what-the-audit-framework-establishes"><span class="header-section-number">20.4</span> What the audit framework establishes</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></h1>
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></h1>
 </div>
 
 
@@ -370,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A regression on <code>analytic_wide.csv</code> is only as defensible as the values it ingests. This chapter walks the four-layer audit framework the project used to build confidence in the dataset, the cumulative reduction in known issues across sessions, the high-impact fixes that landed, and what remains uncertain — documented honestly rather than hidden.</p>
+<p>Any analytic result built on <code>analytic_wide.csv</code> is only as defensible as the values it ingests. This chapter walks the four-layer audit framework used to build confidence in the dataset, the cumulative reduction in known issues, the high-impact fixes that landed, and what remains uncertain — documented openly rather than hidden.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -382,20 +382,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong><code>MASTER_hansei_ichiran.csv</code></strong>: 7,132 rows; <strong>96% high-confidence</strong> (6,849); <strong>140 medium</strong> flagged; 0 low; 143 N/A.</li>
-<li><strong><code>honest_medium_tracker.csv</code></strong>: started at 141 rows; reduced through seven cleanup rounds to <strong>22 rows</strong>, all of which are structural source-level limits that no further OCR work can resolve.</li>
-<li><strong>Sanity-check flags</strong>: started at 37; reduced to <strong>26</strong> after 6 confirmed corrections + 1 alias-regression fix.</li>
-<li><strong>Cross-page contamination audits</strong>: 4 cases confirmed and fixed; 1 fuzzy audit found 8 candidates, all benign.</li>
-<li><strong>HI extraction coverage</strong> for paper-critical variables: 100% citation on the 3 paper-control variables (kazoku_rank, Boshin, domain_category); 98.6% coverage on <code>kazoku_rank_actual</code> (4 documented exclusions).</li>
+<li><strong>Master extraction record</strong>: 7,132 rows; <strong>96 percent high-confidence</strong> (6,849 rows); 140 medium-confidence flagged; 0 low; 143 not applicable.</li>
+<li><strong>Honest-medium tracker</strong>: started at 141 flagged rows; reduced through successive cleanup passes to <strong>22 rows</strong>, all of which are structural source-level limits that no further OCR work can resolve.</li>
+<li><strong>Within-domain sanity-check flags</strong>: started at 37; reduced to <strong>26</strong> after six confirmed corrections plus one alias-rule regression fix.</li>
+<li><strong>Cross-page contamination audits</strong>: 4 cases confirmed and fixed; a fuzzy near-match audit found 8 candidates, all benign.</li>
+<li><strong>Citation coverage on paper-critical variables</strong>: 100 percent on the three paper controls (kazoku rank, Boshin alignment, domain category); 98.6 percent on <code>kazoku_rank_actual</code> (the 4 missing values are documented exclusions, not data gaps).</li>
 </ul>
-<p>The paper-critical variables are all paper-ready. The remaining medium-confidence rows affect tail-end fiscal precision and hyper-specific demographic sub-counts that aren’t in any paper table or regression.</p>
+<p>The paper-critical variables are all paper-ready. The remaining medium-confidence rows affect tail-end fiscal precision and hyper-specific demographic sub-counts that aren’t used in any paper table or regression.</p>
 </div>
 </div>
 <section id="the-four-audit-layers" class="level2" data-number="20.1">
 <h2 data-number="20.1" class="anchored" data-anchor-id="the-four-audit-layers"><span class="header-section-number">20.1</span> The four audit layers</h2>
-<section id="layer-1-within-domain-ratio-sanity-sanity_check_audit.py" class="level3" data-number="20.1.1">
-<h3 data-number="20.1.1" class="anchored" data-anchor-id="layer-1-within-domain-ratio-sanity-sanity_check_audit.py"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity (<code>sanity_check_audit.py</code>)</h3>
-<p>For each domain the audit computes the ratios that ought to make demographic sense and flags any that don’t:</p>
+<section id="layer-1-within-domain-ratio-sanity" class="level3" data-number="20.1.1">
+<h3 data-number="20.1.1" class="anchored" data-anchor-id="layer-1-within-domain-ratio-sanity"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity</h3>
+<p>For each domain the audit computes ratios that ought to make demographic sense and flags any that don’t:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -411,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Average household size (jinkou / kosuu)</td>
+<td>Average household size (人口 / 戸數)</td>
 <td>3–7 persons</td>
 <td>Outside 3–7</td>
 </tr>
@@ -427,17 +427,17 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Population per koku</td>
-<td>0.5–5 persons/koku</td>
+<td>0.5–5 persons / koku</td>
 <td>Outside 0.5–5</td>
 </tr>
 <tr class="odd">
 <td>Status-class share of total population</td>
-<td>Each &lt;50% individually</td>
+<td>Each less than 50%</td>
 <td>Implausible class shares</td>
 </tr>
 </tbody>
 </table>
-<p>When a flag fires, the audit looks for a specific root cause: OCR misread, mislabeling (sub-total mistaken for total), cross-page contamination, or genuine demographic anomaly.</p>
+<p>When a flag fires, the audit identifies a specific root cause: OCR misread, mislabelling (sub-total mistaken for total), cross-page contamination, or genuine demographic anomaly.</p>
 <p><strong>Notable resolutions from this audit:</strong></p>
 <table class="caption-top table">
 <colgroup>
@@ -455,49 +455,49 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>一宮藩</td>
-<td>jinkou = 3,201 (impossible — far below pop/koku floor)</td>
+<td>人口 = 3,201 (impossibly far below the population-per-koku floor)</td>
 <td>OCR misread of 14,240; corrected via crop re-read</td>
 </tr>
 <tr class="even">
 <td>加納藩</td>
-<td>kosuu = 317 (household count for total)</td>
-<td>Was 城下町 (castle-town) subset matching as total; relabeled</td>
+<td>戸數 = 317 reported as the domain total</td>
+<td>Was actually the 城下町 (castle-town) subset; relabelled</td>
 </tr>
 <tr class="odd">
 <td>亀田藩</td>
-<td>shizoku_jinin = 23,258</td>
-<td>Subtotal mislabeled; added correct “人口 (TOTAL) 23,894” row</td>
+<td>shizoku population = 23,258</td>
+<td>Subtotal mislabelled; correct domain-wide total of 23,894 added</td>
 </tr>
 <tr class="even">
 <td>成羽藩</td>
-<td>jinkou = 494</td>
-<td>Was 人員(寺領分) — temple-land subset; relabeled</td>
+<td>人口 = 494</td>
+<td>Was 人員(寺領分) — temple-land subset; relabelled</td>
 </tr>
 <tr class="odd">
 <td>吉見藩</td>
-<td>jinkou = 372</td>
-<td>Was 人員 士卒族 — combined subset; relabeled</td>
+<td>人口 = 372</td>
+<td>Was 人員 士卒族 — combined sub-class subset; relabelled</td>
 </tr>
 <tr class="even">
 <td>仙台藩</td>
-<td>“兵卒 18,913 persons” with 5,171 women</td>
-<td>Was 卒族 (sotsu-class household population), not troops; relabeled; troops corrected to 14,262 (active personnel)</td>
+<td>A “兵卒 18,913 persons” row that contained 5,171 women</td>
+<td>Was the 卒族 (sotsu-class) household population, not active troops; relabelled. Active troops corrected to 14,262.</td>
 </tr>
 <tr class="odd">
 <td>前橋藩</td>
-<td>shizoku_kosuu = shizoku_jinin (4,656)</td>
-<td>Alias bug regression — bare “士族” prefix-matched “士族 (人口)”; alias rule fixed</td>
+<td>shizoku household count equal to shizoku person count (4,656)</td>
+<td>Alias-rule regression — the bare “士族” prefix matched “士族 (人口)”; alias rule corrected</td>
 </tr>
 </tbody>
 </table>
-<p>The audit started at <strong>37 flags</strong> and dropped to <strong>26</strong> after these fixes plus the contamination resolutions below. The remaining 26 flags are documented as definitional (e.g., 人吉藩’s high sotsu ratio is real — Hitoyoshi-Sagara had a vast sotsu-class peasant-soldier population, confirmed against Meiji Shiyō).</p>
+<p>The audit started at <strong>37 flags</strong> and dropped to <strong>26</strong> after these fixes plus the contamination resolutions below. The remaining 26 flags are documented as definitional (for example 人吉藩’s high sotsu ratio is real: Hitoyoshi-Sagara had a vast sotsu-class peasant-soldier population, confirmed against Meiji Shiyō).</p>
 </section>
 <section id="layer-2-cross-page-contamination-audits" class="level3" data-number="20.1.2">
 <h3 data-number="20.1.2" class="anchored" data-anchor-id="layer-2-cross-page-contamination-audits"><span class="header-section-number">20.1.2</span> Layer 2 — Cross-page contamination audits</h3>
-<p>Hansei Ichiran is a printed book; many of its pages contain <strong>two domains stacked vertically</strong> (upper / lower halves of a page). The extraction pipeline assigns rows to one canonical domain per page based on the visible 藩 header. When a page has two domains, the assignment can drift — values from the lower domain accidentally tagged as the upper, or vice versa.</p>
-<section id="a-exact-match-audit-stacked_page_contamination_audit.md" class="level4" data-number="20.1.2.1">
-<h4 data-number="20.1.2.1" class="anchored" data-anchor-id="a-exact-match-audit-stacked_page_contamination_audit.md"><span class="header-section-number">20.1.2.1</span> 2a — Exact-match audit (<code>stacked_page_contamination_audit.md</code>)</h4>
-<p>The exact-match audit identifies pages containing 2+ domains, then checks whether numeric values match exactly across the suspect pairs. <strong>261 PDF pages have 2+ domains.</strong> The audit found 22 value-collisions; 4 were confirmed contamination and fixed:</p>
+<p>Hansei Ichiran is a printed book; many of its pages contain <strong>two domains stacked vertically</strong> (upper and lower halves of a page). The extraction pipeline assigns rows to one canonical domain per page based on the visible 藩 header. When a page has two domains, the assignment can drift — values from the lower domain accidentally tagged as the upper, or vice versa.</p>
+<section id="a-exact-match-audit" class="level4" data-number="20.1.2.1">
+<h4 data-number="20.1.2.1" class="anchored" data-anchor-id="a-exact-match-audit"><span class="header-section-number">20.1.2.1</span> 2a — Exact-match audit</h4>
+<p>The exact-match audit identifies pages containing two or more domains, then checks whether numeric values match exactly across the suspect pairs. <strong>261 PDF pages have two or more domains.</strong> The audit found 22 value-collisions; 4 were confirmed contamination and fixed:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -513,46 +513,46 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>upper_p87 和歌山 / 金澤</td>
+<td>upper-p87 和歌山 / 金澤</td>
 <td>11 Wakayama rows duplicated Kanazawa data (Wakayama’s 草高 wrongly showed 1,353,352 — Kanazawa’s value)</td>
-<td>Removed; Wakayama now correctly shows 草高 = 539,469 (real Kii kokudaka)</td>
+<td>Removed; Wakayama now correctly shows 草高 = 539,469 (true Kii kokudaka)</td>
 </tr>
 <tr class="even">
-<td>upper_p151 津山 / 津和野</td>
-<td>6 Tsuyama rows were a mix of Tsu (人口 247k) + Tsuwano (草高 75k)</td>
-<td>All 6 removed; Tsuyama’s true 草高 = 104,576 is on p150 (unaffected)</td>
+<td>upper-p151 津山 / 津和野</td>
+<td>6 Tsuyama rows were a mix of Tsu (人口 247k) and Tsuwano (草高 75k)</td>
+<td>All 6 removed; Tsuyama’s true 草高 = 104,576 was already on p150 (unaffected)</td>
 </tr>
 <tr class="odd">
-<td>lower_p60 岸和田 / 菊間</td>
-<td>7 Kishiwada rows duplicated Kikuma; Kishiwada’s real data on p58 was never extracted</td>
-<td>7 wrong rows removed; 12 verified Kishiwada rows added from lower_p058_L crop</td>
+<td>lower-p60 岸和田 / 菊間</td>
+<td>7 Kishiwada rows duplicated Kikuma; Kishiwada’s actual data on p58 had never been extracted</td>
+<td>7 wrong rows removed; 12 verified Kishiwada rows added from the correct crop</td>
 </tr>
 <tr class="even">
-<td>upper_p81 大溝 / 岡田</td>
-<td>岡田藩’s 人口 = 11,433 was actually Ōmizo’s value; Okada’s real population (16,231) was never extracted</td>
-<td>1 wrong row removed; 6 verified Okada rows added from upper_p081_left.jpg crop</td>
+<td>upper-p81 大溝 / 岡田</td>
+<td>岡田藩’s 人口 = 11,433 was actually Ōmizo’s value; Okada’s real population (16,231) had never been extracted</td>
+<td>1 wrong row removed; 6 verified Okada rows added from the correct crop</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="b-fuzzy-near-match-audit-fuzzy_stacked_audit.py-.csv" class="level4" data-number="20.1.2.2">
-<h4 data-number="20.1.2.2" class="anchored" data-anchor-id="b-fuzzy-near-match-audit-fuzzy_stacked_audit.py-.csv"><span class="header-section-number">20.1.2.2</span> 2b — Fuzzy near-match audit (<code>fuzzy_stacked_audit.py</code> / <code>.csv</code>)</h4>
-<p>A complementary methodology with 0.5% relative tolerance — catches contamination where the values aren’t exactly equal but are very close (e.g., adjacent domains both reporting 10,000-koku-tier values). Found 8 candidates; all 8 verified as <strong>benign</strong>:</p>
+<section id="b-fuzzy-near-match-audit" class="level4" data-number="20.1.2.2">
+<h4 data-number="20.1.2.2" class="anchored" data-anchor-id="b-fuzzy-near-match-audit"><span class="header-section-number">20.1.2.2</span> 2b — Fuzzy near-match audit</h4>
+<p>A complementary methodology with 0.5 percent relative tolerance — catches contamination where the values aren’t exactly equal but are very close (for example two adjacent 10,000-koku-tier domains reporting similar values). Found 8 candidates; all 8 verified as <strong>benign</strong>:</p>
 <ul>
 <li>5 cases: sequential book page numbers showing up as similar values across nearby pages — incidental, not data contamination.</li>
-<li>1 case: small-number coincidence (both values happen to be in the 100–200 range).</li>
-<li>2 cases: Tateyama vs Tawaramoto (both 10,000-koku domains) and Himeji vs Hikone (both very large sub-territory tallies) — both confirmed as legitimate independent values that happen to be coincidentally close.</li>
+<li>1 case: small-number coincidence (both values in the 100–200 range).</li>
+<li>2 cases: Tateyama vs Tawaramoto (both 10,000-koku domains) and Himeji vs Hikone (both very large sub-territory tallies) — confirmed as legitimate independent values that happen to be coincidentally close.</li>
 </ul>
 </section>
-<section id="c-the-tosa-satsuma-column-stack-separate-audit" class="level4" data-number="20.1.2.3">
-<h4 data-number="20.1.2.3" class="anchored" data-anchor-id="c-the-tosa-satsuma-column-stack-separate-audit"><span class="header-section-number">20.1.2.3</span> 2c — The Tosa-Satsuma column-stack (separate audit)</h4>
-<p>The most-historically-instructive contamination wasn’t caught by either intra-HI audit because it involves an <strong>external primary source</strong>. Tosa’s <code>hi_jinkou</code> value of 896,808 is essentially identical to Satsuma’s <code>population_tokei_shushi</code> value of 896,817 — a column-stack OCR error in the Tōkei Shūshi tabulation pipeline. Documented in memory <code>reference-tosa-jinkou-corruption</code>. The project uses Meiji Shiyō’s 516,867 for Tosa instead.</p>
-<p>A cross-source contamination audit (HI vs primary-source) would catch this pattern. It’s documented as a possible future audit; the current dataset handles the Tosa case via the memory reference.</p>
+<section id="c-the-tosa-satsuma-column-stack" class="level4" data-number="20.1.2.3">
+<h4 data-number="20.1.2.3" class="anchored" data-anchor-id="c-the-tosa-satsuma-column-stack"><span class="header-section-number">20.1.2.3</span> 2c — The Tosa-Satsuma column-stack</h4>
+<p>The most-historically-instructive contamination wasn’t caught by either intra-HI audit because it involves an <strong>external primary source</strong>. Tosa’s <code>hi_jinkou</code> value of 896,808 is essentially identical to Satsuma’s <code>population_tokei_shushi</code> value of 896,817 — a column-stack OCR error in the Tōkei Shūshi tabulation pipeline. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
+<p>A cross-source contamination audit (HI versus primary-source) would catch this pattern systematically; the current dataset handles the Tosa case as a documented one-off correction.</p>
 </section>
 </section>
-<section id="layer-3-ravina-replication-audit-ravina_replication_audit.csv" class="level3" data-number="20.1.3">
-<h3 data-number="20.1.3" class="anchored" data-anchor-id="layer-3-ravina-replication-audit-ravina_replication_audit.csv"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit (<code>ravina_replication_audit.csv</code>)</h3>
-<p>Mark Ravina’s <em>Land and Lordship in Early Modern Japan</em> (1999) Appendix Table A1 provides per-domain ratios (kusadaka/commoner, retainers/100 commoners, gendaka/commoner, retainers/1000 koku, gendaka/kusadaka) for ~227 domains. The project computes the same ratios both from <strong>HI directly</strong> and from <strong>primary sources</strong> (Ōkuma + Meiji Shiyō + Tōkei Shūshi), and audits the deltas against Ravina.</p>
+<section id="layer-3-ravina-replication-audit" class="level3" data-number="20.1.3">
+<h3 data-number="20.1.3" class="anchored" data-anchor-id="layer-3-ravina-replication-audit"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit</h3>
+<p>Mark Ravina’s <em>Land and Lordship in Early Modern Japan</em> (1999) Appendix Table A1 provides per-domain ratios (kusadaka / commoner, retainers per 100 commoners, gendaka / commoner, retainers per 1,000 koku, gendaka / kusadaka) for roughly 227 domains. The dataset computes the same ratios both from <strong>HI directly</strong> and from <strong>primary sources</strong> (Ōkuma + Meiji Shiyō + Tōkei Shūshi), and audits the deltas against Ravina.</p>
 <p>State after final pass (all 227 Ravina rows merged):</p>
 <table class="caption-top table">
 <thead>
@@ -564,107 +564,107 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>CLEAN_MATCH (&lt;20% Δ)</td>
+<td>Clean match (&lt; 20 percent Δ)</td>
 <td style="text-align: right;">78</td>
 <td style="text-align: right;"><strong>173</strong></td>
 </tr>
 <tr class="even">
-<td>CLOSE (&lt;50% Δ)</td>
+<td>Close (&lt; 50 percent Δ)</td>
 <td style="text-align: right;">44</td>
 <td style="text-align: right;">19</td>
 </tr>
 <tr class="odd">
-<td>DIVERGENT (≥50% Δ)</td>
+<td>Divergent (≥ 50 percent Δ)</td>
 <td style="text-align: right;">42</td>
 <td style="text-align: right;"><strong>12</strong></td>
 </tr>
 <tr class="even">
-<td>INCOMPUTABLE</td>
+<td>Incomputable</td>
 <td style="text-align: right;">42</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr class="odd">
-<td>NO_RAVINA (not in Ravina A1)</td>
+<td>Not in Ravina A1</td>
 <td style="text-align: right;">83</td>
 <td style="text-align: right;">83</td>
 </tr>
 </tbody>
 </table>
-<p>The primary-derived ratios match Ravina substantially better than HI-derived (173 clean matches vs 78). This reflects that Ravina himself worked from the same primary sources we now cite — Meiji Shiyō and the Ōkuma papers — rather than from HI. The 12 primary-derived divergent cases were individually diagnosed in <code>ravina_divergent_diagnoses.csv</code>; the notable finding is that <strong>Akita’s gendaka_per_commoner = 0.049 in Ravina is a confirmed decimal-place typo</strong> (should be 0.49 per primary-derived value). See memory <code>reference-ravina-akita-typo</code>.</p>
+<p>The primary-derived ratios match Ravina substantially better than the HI-derived ratios (173 clean matches against 78). This reflects that Ravina himself worked from the same primary sources the dataset now cites — Meiji Shiyō and the Ōkuma papers — rather than from HI directly. The 12 primary-derived divergent cases were individually diagnosed. The notable finding: <strong>Akita’s <em>gendaka_per_commoner</em> = 0.049 in Ravina is a confirmed decimal-place typo</strong> (should be 0.49 per the primary-derived value).</p>
 </section>
-<section id="layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" class="level3" data-number="20.1.4">
-<h3 data-number="20.1.4" class="anchored" data-anchor-id="layer-4-the-honest-medium-tracker-honest_medium_tracker.csv"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker (<code>honest_medium_tracker.csv</code>)</h3>
-<p>The tracker records every value flagged at <strong>medium confidence</strong> — explicitly <em>not</em> claiming high-confidence accuracy, with a <code>reason_category</code> and <code>reason_detail</code> per row.</p>
-<p>Starting at 141 medium-confidence rows in session 2 of this project, the tracker was reduced over seven cleanup rounds to <strong>22 rows</strong> as of session 3 (2026-05-20). The remaining 22 are structural source-level limits — no further crop re-reading or OCR work will resolve them. These cells affect <em>tail-end fiscal precision and hyper-specific demographic sub-counts</em>. <strong>None of them feed into the paper’s IV (kokudaka) or DV (kazoku_rank_actual) or any control variable.</strong></p>
-<section id="the-cleanup-rounds-in-summary" class="level4" data-number="20.1.4.1">
-<h4 data-number="20.1.4.1" class="anchored" data-anchor-id="the-cleanup-rounds-in-summary"><span class="header-section-number">20.1.4.1</span> The cleanup rounds in summary</h4>
+<section id="layer-4-the-honest-medium-tracker" class="level3" data-number="20.1.4">
+<h3 data-number="20.1.4" class="anchored" data-anchor-id="layer-4-the-honest-medium-tracker"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker</h3>
+<p>The tracker records every value flagged at <strong>medium confidence</strong> — explicitly not claiming high-confidence accuracy, with a reason category and reason detail per row.</p>
+<p>Starting at 141 medium-confidence rows, the tracker was reduced over a series of cleanup passes to <strong>22 rows</strong>. The remaining 22 are structural source-level limits — no further crop re-reading or OCR work will resolve them. These cells affect <em>tail-end fiscal precision and hyper-specific demographic sub-counts</em>. <strong>None of them feed into the analytic dataset’s independent variable (kokudaka), dependent variable (kazoku rank), or any control variable.</strong></p>
+<section id="the-cleanup-trajectory-in-summary" class="level4" data-number="20.1.4.1">
+<h4 data-number="20.1.4.1" class="anchored" data-anchor-id="the-cleanup-trajectory-in-summary"><span class="header-section-number">20.1.4.1</span> The cleanup trajectory in summary</h4>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 23%">
-<col style="width: 30%">
-<col style="width: 23%">
+<col style="width: 21%">
+<col style="width: 28%">
+<col style="width: 28%">
+<col style="width: 21%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Round</th>
-<th>Date</th>
-<th style="text-align: right;">Tracker count</th>
-<th>Notes</th>
+<th>Pass</th>
+<th style="text-align: right;">Cases resolved</th>
+<th style="text-align: right;">Result</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inherited</td>
-<td>2026-05-20</td>
+<td>Pre-cleanup baseline</td>
+<td style="text-align: right;">—</td>
 <td style="text-align: right;">141</td>
-<td>Pre-session state</td>
+<td>Initial flagged-row count</td>
 </tr>
 <tr class="even">
-<td>Round 1 (郡上→久留里)</td>
-<td>2026-05-20</td>
+<td>First pass</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">140</td>
-<td>1 misattribution fix</td>
+<td>One mis-attribution corrected (郡上 → 久留里)</td>
 </tr>
 <tr class="odd">
-<td>Round 2 (multi-domain)</td>
-<td>2026-05-20</td>
+<td>Second pass</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: right;">128</td>
-<td>13 OCR/relabel/copy-paste fixes</td>
+<td>Multi-domain batch — OCR, relabelling, copy-paste fixes</td>
 </tr>
 <tr class="even">
-<td>Round 3 (OTHER batch)</td>
-<td>2026-05-20</td>
+<td>Third pass</td>
+<td style="text-align: right;">73</td>
 <td style="text-align: right;">55</td>
-<td>73 cases resolved via batch OCR review</td>
+<td>Largest single pass — batch OCR review across the “Other” reason category</td>
 </tr>
 <tr class="odd">
-<td>Round 4 (structural)</td>
-<td>2026-05-20</td>
+<td>Fourth pass</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: right;">35</td>
-<td>20 cross-source fixes + 館藩 cluster</td>
+<td>Cross-source verification fixes; 館藩 (Matsumae) demographic cluster</td>
 </tr>
 <tr class="even">
-<td>Round 5 (quick wins)</td>
-<td>2026-05-20</td>
+<td>Fifth pass</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: right;">32</td>
-<td>3 quick-win OCR fixes</td>
+<td>Quick-win OCR fixes</td>
 </tr>
 <tr class="odd">
-<td>Round 6 (deeper)</td>
-<td>2026-05-20</td>
+<td>Sixth pass</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: right;">25</td>
-<td>7 more via careful crop re-reads</td>
+<td>Careful crop re-reads</td>
 </tr>
 <tr class="even">
-<td>Round 7 (final)</td>
-<td>2026-05-20</td>
-<td style="text-align: right;">23</td>
-<td>2 final structural fixes</td>
+<td>Final pass</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">22</td>
+<td>Two further structural fixes</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Cumulative: 141 → 22 rows, a 118-row reduction</strong> (84% drop in known medium-confidence cells). Each round’s specific fixes are documented in the round-by-round git commit messages and in <code>honest_medium_tracker_summary.md</code>.</p>
+<p><strong>Cumulative: 141 → 22 rows, a 119-row reduction (84 percent).</strong> Each pass’s specific fixes are documented in git commit history and in a per-row tracker-history file released alongside the dataset.</p>
 </section>
 <section id="the-22-remaining-rows-by-category" class="level4" data-number="20.1.4.2">
 <h4 data-number="20.1.4.2" class="anchored" data-anchor-id="the-22-remaining-rows-by-category"><span class="header-section-number">20.1.4.2</span> The 22 remaining rows by category</h4>
@@ -678,103 +678,103 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Reason category</th>
 <th style="text-align: right;">Count</th>
-<th>Why it can’t be resolved further</th>
+<th>Why it cannot be resolved further</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SUB_KOKU_PRECISION</td>
+<td>Sub-koku precision</td>
 <td style="text-align: right;">9</td>
-<td>Sub-koku decimals (升/合/勺/才) below current crop resolution. The integer is correct; the tail digit is ambiguous between e.g.&nbsp;二 vs 三. Affects 4th decimal places only.</td>
+<td>Sub-koku decimals (升 / 合 / 勺 / 才) below current crop resolution. The integer is correct; the tail digit is ambiguous between e.g.&nbsp;二 and 三. Affects 4th decimal place only.</td>
 </tr>
 <tr class="even">
-<td>UNIT_AMBIGUITY</td>
+<td>Unit ambiguity</td>
 <td style="text-align: right;">8</td>
-<td>Compound Edo-era monetary units (gold 兩/分/朱 + silver 貫/匁 + copper 文). OCR captures digits but loses which unit each digit owns.</td>
+<td>Compound Edo-era monetary units (gold 兩 / 分 / 朱, silver 貫 / 匁, copper 文). OCR captures the digits but loses which unit each digit belongs to.</td>
 </tr>
 <tr class="odd">
-<td>DENSE_COLUMN_AMBIGUITY</td>
+<td>Dense-column ambiguity</td>
 <td style="text-align: right;">6</td>
 <td>Pages with 5–10 narrow columns of nearly-identical subtotals. Hard to tell which column owns a value at current resolution.</td>
 </tr>
 <tr class="even">
-<td>NEEDS_HIGHER_RES</td>
+<td>Needs higher resolution</td>
 <td style="text-align: right;">6</td>
-<td>Value is on the page; key characters can’t be discriminated at current resolution. Would resolve with higher-res NDL re-photography.</td>
+<td>Value is on the page; key characters can’t be discriminated at current resolution. Would resolve with higher-resolution re-photography at NDL.</td>
 </tr>
 <tr class="odd">
-<td>SOURCE_ILLEGIBLE</td>
+<td>Source illegible</td>
 <td style="text-align: right;">6</td>
-<td>Original ink in 1870 print is too faded. No re-OCR can fix; would need a different physical copy of HI.</td>
+<td>Original ink in the 1870 print is too faded. No re-OCR can fix this; would require a different physical copy of HI.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="concrete-examples-one-per-category" class="level4" data-number="20.1.4.3">
-<h4 data-number="20.1.4.3" class="anchored" data-anchor-id="concrete-examples-one-per-category"><span class="header-section-number">20.1.4.3</span> Concrete examples (one per category)</h4>
+<h4 data-number="20.1.4.3" class="anchored" data-anchor-id="concrete-examples-one-per-category"><span class="header-section-number">20.1.4.3</span> Concrete examples — one per category</h4>
 <ul>
-<li><strong>SUB_KOKU_PRECISION</strong>: 七日市藩 内米 = 3,718.04245 koku — integer 3,718 confirmed; the .04245 vs .04235 fraction hinges on one ambiguous character. Doesn’t affect any analysis using koku-level precision.</li>
-<li><strong>UNIT_AMBIGUITY</strong>: 佐賀藩 雜稅金 = 10 — could be 10 ryō (gold) or 10 koku-equivalent. Raw kanji preserved but parseable only with manual interpretation.</li>
-<li><strong>DENSE_COLUMN_AMBIGUITY</strong>: 山崎藩 雑税金 = 27.14086 — multiple gold sub-lines on the page; column attribution not isolable.</li>
-<li><strong>NEEDS_HIGHER_RES</strong>: 厳原藩 寺院 = 199 — page may actually read 287 (including 盲僧/blind monks); the scope-distinguishing annotation isn’t crisply readable.</li>
-<li><strong>SOURCE_ILLEGIBLE</strong>: 竜野藩 穢多 = 6 — label is visible but the number is too faded to verify.</li>
+<li><strong>Sub-koku precision</strong>: 七日市藩 内米 = 3,718.04245 koku — the integer 3,718 is confirmed; the .04245 vs .04235 fraction hinges on one ambiguous character. Doesn’t affect any analysis using koku-level precision.</li>
+<li><strong>Unit ambiguity</strong>: 佐賀藩 雜稅金 = 10 — could be 10 ryō (gold) or 10 koku-equivalent. The raw kanji are preserved but parseable only with manual interpretation.</li>
+<li><strong>Dense-column ambiguity</strong>: 山崎藩 雑税金 = 27.14086 — multiple gold sub-lines on the page; column attribution is not isolable.</li>
+<li><strong>Needs higher resolution</strong>: 厳原藩 寺院 = 199 — the page may actually read 287 (including 盲僧, blind monks); the scope-distinguishing annotation isn’t crisply readable.</li>
+<li><strong>Source illegible</strong>: 竜野藩 穢多 = 6 — the label is visible but the number is too faded to verify.</li>
 </ul>
 </section>
 </section>
 </section>
-<section id="high-impact-specific-fixes-documented" class="level2" data-number="20.2">
-<h2 data-number="20.2" class="anchored" data-anchor-id="high-impact-specific-fixes-documented"><span class="header-section-number">20.2</span> High-impact specific fixes documented</h2>
-<p>Beyond the audit-driven reductions, several specific fixes had <strong>material analytic impact</strong> and are worth flagging explicitly because they corrected values that would have entered paper tables.</p>
-<section id="sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" class="level3" data-number="20.2.1">
-<h3 data-number="20.2.1" class="anchored" data-anchor-id="sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” actually 卒族 demographics (Phase M)</h3>
-<p>The single highest-impact fix in the project. Sendai’s <code>hi_total_troops_persons</code> field had been populated with <strong>18,913</strong> — but the underlying source row was labeled “兵卒 (alt)” and contained 5,171 women, an impossible mix for an active military unit. Re-examination showed it was Sendai’s <strong>卒族 (sotsu-class) household population</strong>, not troops.</p>
+<section id="high-impact-specific-fixes" class="level2" data-number="20.2">
+<h2 data-number="20.2" class="anchored" data-anchor-id="high-impact-specific-fixes"><span class="header-section-number">20.2</span> High-impact specific fixes</h2>
+<p>Beyond the audit-driven reductions, several specific fixes had material analytic impact and are worth flagging explicitly because they corrected values that would otherwise have entered analytic tables.</p>
+<section id="sendai-mislabel-兵卒-18913-was-actually-卒族-demographics" class="level3" data-number="20.2.1">
+<h3 data-number="20.2.1" class="anchored" data-anchor-id="sendai-mislabel-兵卒-18913-was-actually-卒族-demographics"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” was actually 卒族 demographics</h3>
+<p>The single highest-impact fix. Sendai’s <code>hi_total_troops_persons</code> field had been populated with <strong>18,913</strong>, but the underlying source row labelled “兵卒 (alt)” contained 5,171 women — an impossible mix for an active military unit. Re-examination showed the row was actually Sendai’s <strong>卒族 (sotsu-class) household population</strong>, not troops.</p>
 <p>Corrected to:</p>
 <ul>
-<li><code>hi_total_troops_persons</code> = <strong>14,262</strong> (correct active military personnel from the 兵士 員 row)</li>
+<li><code>hi_total_troops_persons</code> = <strong>14,262</strong> (the correct active military personnel from the 兵士 員 row)</li>
 <li><code>hi_sotsu_jinin</code> = <strong>18,913</strong> (correctly bucketed as demographics)</li>
 </ul>
-<p>The latent-mislabel audit was extended across all military-bucketed rows after this finding; no other mislabels of similar magnitude were found.</p>
+<p>A latent-mislabel audit was then extended across all military-bucketed rows; no other mislabels of similar magnitude were found.</p>
 </section>
 <section id="tosa-人口-896808-column-stack-ocr-error-from-satsuma" class="level3" data-number="20.2.2">
 <h3 data-number="20.2.2" class="anchored" data-anchor-id="tosa-人口-896808-column-stack-ocr-error-from-satsuma"><span class="header-section-number">20.2.2</span> Tosa 人口 = 896,808 — column-stack OCR error from Satsuma</h3>
-<p>Tosa’s HI population value of 896,808 is an OCR column-stack error — it’s identical (within 9 persons) to Satsuma’s primary-source population, indicating the tabulation pipeline mis-aligned a column. Documented in memory <code>reference-tosa-jinkou-corruption</code>. The project substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
+<p>Tosa’s HI population value of 896,808 is an OCR column-stack error — it is identical (within 9 persons) to Satsuma’s primary-source population, indicating the tabulation pipeline mis-aligned a column. The dataset substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
 </section>
-<section id="saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" class="level3" data-number="20.2.3">
-<h3 data-number="20.2.3" class="anchored" data-anchor-id="saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9"><span class="header-section-number">20.2.3</span> Saga SOURCE_GAP — wholly absent from HI vol.&nbsp;2 T7-T9</h3>
-<p>Saga (佐嘉藩) appears in HI vol.&nbsp;2 T6 but has <strong>no T7/T8/T9 entries</strong> — the standard military and fiscal-detail tables don’t include Saga. This is a source-level gap, not an extraction failure. Documented in memory <code>reference-saga-HI-gap</code>; the pipeline handles via SOURCE_GAP marker rows; Saga military details come from the published-source supplement (Fujino 2010, Beasley 1972 etc. — see chapter 02 Saga walkthrough).</p>
+<section id="saga-wholly-absent-from-hi-vol.-2-t7t9" class="level3" data-number="20.2.3">
+<h3 data-number="20.2.3" class="anchored" data-anchor-id="saga-wholly-absent-from-hi-vol.-2-t7t9"><span class="header-section-number">20.2.3</span> Saga — wholly absent from HI vol.&nbsp;2 T7–T9</h3>
+<p>Saga (佐嘉藩) appears in HI vol.&nbsp;2 T6 but has <strong>no T7 / T8 / T9 entries</strong> — the standard military and fiscal-detail tables don’t include Saga. This is a source-level gap, not an extraction failure. The pipeline handles this via <code>SOURCE_GAP</code> marker rows; Saga’s military details come from a published-source supplement (藤野保 2010, Beasley 1972 — see the <a href="./02-walkthrough-saga.html">Saga walkthrough</a>).</p>
 </section>
-<section id="stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" class="level3" data-number="20.2.4">
-<h3 data-number="20.2.4" class="anchored" data-anchor-id="stacked-page-contamination-4-confirmed-cases-per-audit-layer-2"><span class="header-section-number">20.2.4</span> Stacked-page contamination — 4 confirmed cases (per audit Layer 2)</h3>
-<p>The 4 cross-page contamination fixes (Wakayama-Kanazawa, Tsuyama-Tsuwano, Kishiwada-Kikuma, Okada-Ōmizo) corrected 11 + 6 + 7 + 1 = 25 wrongly-attributed rows and added 12 + 6 = 18 newly-extracted verified rows. Cumulative impact on <code>analytic_wide.csv</code>: Wakayama’s <code>kokudaka_iv</code> went from a contaminated 1.35M (Kanazawa value) to its true 539,469; Okada’s <code>hi_jinkou</code> went from 11,433 (Ōmizo value) to its true 16,231.</p>
+<section id="stacked-page-contamination-four-confirmed-cases" class="level3" data-number="20.2.4">
+<h3 data-number="20.2.4" class="anchored" data-anchor-id="stacked-page-contamination-four-confirmed-cases"><span class="header-section-number">20.2.4</span> Stacked-page contamination — four confirmed cases</h3>
+<p>The four cross-page contamination fixes (Wakayama / Kanazawa, Tsuyama / Tsuwano, Kishiwada / Kikuma, Okada / Ōmizo) corrected 11 + 6 + 7 + 1 = 25 wrongly-attributed rows and added 12 + 6 = 18 newly-extracted verified rows. Cumulative impact on the analytic dataset: Wakayama’s <code>kokudaka_iv</code> went from a contaminated 1.35 million (Kanazawa’s value) to its true 539,469; Okada’s <code>hi_jinkou</code> went from 11,433 (Ōmizo’s value) to its true 16,231.</p>
 </section>
 <section id="akita-ravina-a1-typo-confirmed" class="level3" data-number="20.2.5">
 <h3 data-number="20.2.5" class="anchored" data-anchor-id="akita-ravina-a1-typo-confirmed"><span class="header-section-number">20.2.5</span> Akita Ravina A1 typo confirmed</h3>
-<p>Ravina A1’s value for Akita 久保田藩 <code>gendaka_per_commoner</code> is <strong>0.049</strong>, which is implausibly low. Primary-derived computation gives <strong>0.457</strong>. The project documents this in memory <code>reference-ravina-akita-typo</code> and uses 0.49 (Ravina with decimal corrected) or the primary-derived 0.457 as the value, citing the typo explicitly.</p>
+<p>Ravina A1’s value for Akita 久保田藩 <em>gendaka_per_commoner</em> is <strong>0.049</strong>, which is implausibly low. Primary-derived computation gives <strong>0.457</strong>. The dataset uses either 0.49 (the corrected Ravina value, treating the printed 0.049 as a decimal-place typo) or the primary-derived 0.457, and notes the discrepancy explicitly.</p>
 </section>
-<section id="domain-category-mis-classifications" class="level3" data-number="20.2.6">
-<h3 data-number="20.2.6" class="anchored" data-anchor-id="domain-category-mis-classifications"><span class="header-section-number">20.2.6</span> 4 domain-category mis-classifications</h3>
-<p>Per session 2 of this project:</p>
+<section id="four-domain-category-reclassifications" class="level3" data-number="20.2.6">
+<h3 data-number="20.2.6" class="anchored" data-anchor-id="four-domain-category-reclassifications"><span class="header-section-number">20.2.6</span> Four domain-category reclassifications</h3>
+<p>Surfaced during the re-sourcing pass that replaced the bakumatsu-website seed values with academic citations:</p>
 <ul>
-<li>仙台藩 (Date): bakumatsu.org-coded 親藩 → corrected to <strong>外様</strong> per Beasley p.&nbsp;xii + 国史大辞典</li>
+<li>仙台藩 (Date): originally coded 親藩 → corrected to <strong>外様</strong> per Beasley p.&nbsp;xii and 国史大辞典</li>
 <li>伊予吉田藩 (Date cadet): 親藩 → <strong>外様</strong></li>
-<li>対馬府中藩 (Sō): 親藩 → <strong>外様</strong> (国主格 status but tozama)</li>
-<li>桑名藩 (Hisamatsu-Matsudaira): 譜代 → <strong>親藩</strong> (Hisamatsu-Matsudaira consistency)</li>
+<li>対馬府中藩 (Sō): 親藩 → <strong>外様</strong> (国主格 status but tozama by family origin)</li>
+<li>桑名藩 (Hisamatsu-Matsudaira): 譜代 → <strong>親藩</strong> (Hisamatsu-Matsudaira consistency with 伊予松山 and 今治)</li>
 </ul>
-<p>Audit at <code>outputs/hansei_ichiran_reocr/domain_category_corrections.csv</code>. Discussed in <a href="./03c-shinpan-fudai-tozama.html#the-4-mis-classifications-fixed-in-session-3-2026-05-20">chapter 03c §13.8</a>.</p>
+<p>Discussed in detail in <a href="./03c-shinpan-fudai-tozama.html#four-mis-classifications-corrected-during-sourcing-review">the methodology note in chapter 03c</a>.</p>
 </section>
-<section id="boshin-alignment-mis-classifications" class="level3" data-number="20.2.7">
-<h3 data-number="20.2.7" class="anchored" data-anchor-id="boshin-alignment-mis-classifications"><span class="header-section-number">20.2.7</span> 5 Boshin alignment mis-classifications</h3>
-<p>Per the same session:</p>
+<section id="five-boshin-alignment-reclassifications" class="level3" data-number="20.2.7">
+<h3 data-number="20.2.7" class="anchored" data-anchor-id="five-boshin-alignment-reclassifications"><span class="header-section-number">20.2.7</span> Five Boshin alignment reclassifications</h3>
+<p>Also from the re-sourcing pass:</p>
 <ul>
-<li>守山藩, 館藩 (=松前): bakumatsu.org-coded pro-bakufu → corrected to <strong>anti-bakufu</strong> (OREP defectors per 工藤威 2002)</li>
-<li>村上藩, 村松藩: anti-bakufu → <strong>pro-bakufu</strong> (OREP combatants per 工藤威 2002)</li>
-<li>淀藩: neutral → <strong>anti-bakufu</strong> (Toba-Fushimi castle-gate refusal 1868-01-28, per JP Wiki + Boshin War Wikipedia citation chain)</li>
+<li>守山藩, 館藩 (= 松前): originally coded pro-bakufu → corrected to <strong>anti-bakufu</strong> (both are OREP defectors per 工藤威 2002)</li>
+<li>村上藩, 村松藩: originally coded anti-bakufu → corrected to <strong>pro-bakufu</strong> (both are OREP combatants per 工藤威 2002)</li>
+<li>淀藩: originally coded neutral → corrected to <strong>anti-bakufu</strong> (castle-gate refusal at Toba-Fushimi 1868-01-28)</li>
 </ul>
 </section>
 </section>
 <section id="what-the-final-dataset-looks-like" class="level2" data-number="20.3">
 <h2 data-number="20.3" class="anchored" data-anchor-id="what-the-final-dataset-looks-like"><span class="header-section-number">20.3</span> What the final dataset looks like</h2>
-<p>After the seven-round cleanup, the audit layers, and the targeted fixes, the dataset’s quality profile is:</p>
+<p>After the audit layers, the cleanup passes, and the targeted fixes, the dataset’s quality profile is:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -790,29 +790,29 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Paper IV: <code>kokudaka_iv</code> (composite)</td>
+<td>Independent variable: <code>kokudaka_iv</code> (composite)</td>
 <td>96%</td>
 <td>Primary source per <code>kokudaka_iv_source</code>; high confidence</td>
 </tr>
 <tr class="even">
-<td>Paper DV: <code>kazoku_rank_actual</code></td>
+<td>Dependent variable: <code>kazoku_rank_actual</code></td>
 <td>98.6%</td>
-<td>4 NaN are documented exclusions (改易, temple-land, etc.); high confidence</td>
+<td>4 missing values are documented exclusions (改易, temple-land, etc.) — not data gaps</td>
 </tr>
 <tr class="odd">
-<td>Paper control 1: <code>domain_category</code></td>
+<td>Control: <code>domain_category</code></td>
 <td>100%</td>
-<td>100% cited (Beasley + 児玉 1977); 4 mis-classifications fixed</td>
+<td>Cited (Beasley + 児玉 1977); 4 mis-classifications corrected</td>
 </tr>
 <tr class="even">
-<td>Paper control 2: <code>boshin_alignment_group</code></td>
+<td>Control: <code>boshin_alignment_group</code></td>
 <td>100%</td>
-<td>100% cited (Asami / Esposito / Beasley / 工藤 / JP Wiki citations); 5 mis-classifications fixed</td>
+<td>Cited (Asami, Esposito, Beasley, 工藤); 5 mis-classifications corrected</td>
 </tr>
 <tr class="odd">
-<td>Paper control 3: kokudaka-derived genmai</td>
-<td>89% (the genmai numerator)</td>
-<td>From wiki_fuhanken; backed by Meiji Shiyō / Ōkuma underlying</td>
+<td>Genmai (rank-threshold numerator)</td>
+<td>89%</td>
+<td>Backed by Meiji Shiyō and Ōkuma papers</td>
 </tr>
 <tr class="even">
 <td>Population (primary)</td>
@@ -820,44 +820,36 @@ ul.task-list li input[type="checkbox"] {
 <td>Meiji Shiyō + Ōkuma + Tōkei Shūshi</td>
 </tr>
 <tr class="odd">
-<td>Population (HI)</td>
+<td>Population (HI direct)</td>
 <td>77%</td>
 <td>Direct from HI</td>
 </tr>
 <tr class="even">
 <td>Military details (HI)</td>
 <td>56% troops, 16% warships</td>
-<td>Sparse by HI’s construction; focal-4 has published-source supplements</td>
+<td>Sparse by HI’s construction; the four focal domains have published-source supplements</td>
 </tr>
 </tbody>
 </table>
-<p>The 96-100% coverage on every paper-critical column is the working summary of the project’s data-quality phase. The remaining gaps are documented and either structural (HI’s military coverage was always sparse) or specific (the 4 NaN kazoku exclusions are real historical events, not data limitations).</p>
+<p>The 96–100 percent coverage on every analytically critical column is the working summary of the data-quality work. The remaining gaps are documented and either structural (HI’s military coverage was always sparse) or specific (the four missing kazoku rank rows are real historical exclusion events, not transcription failures).</p>
 </section>
-<section id="how-to-characterise-this-work-for-paper-reviewers" class="level2" data-number="20.4">
-<h2 data-number="20.4" class="anchored" data-anchor-id="how-to-characterise-this-work-for-paper-reviewers"><span class="header-section-number">20.4</span> How to characterise this work for paper reviewers</h2>
-<p>Three framings the paper can use:</p>
+<section id="what-the-audit-framework-establishes" class="level2" data-number="20.4">
+<h2 data-number="20.4" class="anchored" data-anchor-id="what-the-audit-framework-establishes"><span class="header-section-number">20.4</span> What the audit framework establishes</h2>
+<p>Three framings the dataset supports:</p>
 <ol type="1">
-<li><p><strong>“Replication-audited primary-source dataset”</strong>: every paper-relevant variable has a citable primary source (or scholarly-synthesis source); the values were cross-validated against Ravina (1999) at the ratio level; cross-page contamination was audited and surfaced 4 cases that were corrected.</p></li>
-<li><p><strong>“Transparent honest-medium tracking”</strong>: the project maintains a public per-cell tracker (<code>honest_medium_tracker.csv</code>) documenting every value that is not high-confidence, with the reason. Most empirical Meiji-history work either doesn’t disclose this or absorbs it silently; we surface it.</p></li>
-<li><p><strong>“Round-by-round documented cleanup history”</strong>: the seven cleanup rounds (141 → 22 medium-confidence rows) are each documented in git commit history and in <code>honest_medium_tracker_summary.md</code>, with reproducible scripts in <code>outputs/scripts/</code> for every batch fix. A reviewer can trace any specific value’s provenance back to the source crop and to the cleanup decision that affected it.</p></li>
+<li><p><strong>Replication-audited primary-source coverage</strong>: every analytically relevant variable has either a citable primary source or a citable scholarly-synthesis source; the values were cross-validated against Ravina (1999) at the ratio level; cross-page contamination was systematically audited and the four surfaced cases were corrected.</p></li>
+<li><p><strong>Transparent honest-medium tracking</strong>: the dataset maintains a per-cell tracker documenting every value that is not high-confidence, with the reason. Most empirical Meiji-history work either doesn’t disclose this or absorbs it silently; the present dataset surfaces it.</p></li>
+<li><p><strong>Documented cleanup trajectory</strong>: the cumulative reduction from 141 medium-confidence rows to 22 is recorded with per-row audit trail; a reviewer can trace any specific value’s provenance back to the source crop and to the cleanup decision that affected it.</p></li>
 </ol>
 <div class="source-citation">
-<p><strong>Audit infrastructure:</strong></p>
+<p><strong>Audit infrastructure summary:</strong></p>
 <ul>
-<li><code>outputs/scripts/sanity_check_audit.py</code> — Layer 1 (within-domain ratio sanity)</li>
-<li><code>outputs/scripts/stacked_page_contamination_audit.md</code> + <code>fuzzy_stacked_audit.py/.csv</code> — Layer 2 (cross-page contamination)</li>
-<li><code>outputs/hansei_ichiran_reocr/ravina_replication_audit.csv</code> + <code>ravina_divergent_diagnoses.csv</code> — Layer 3 (Ravina cross-validation)</li>
-<li><code>outputs/hansei_ichiran_reocr/honest_medium_tracker.csv</code> + <code>honest_medium_tracker_summary.md</code> — Layer 4 (medium-confidence tracker)</li>
+<li><strong>Layer 1 (within-domain ratio sanity)</strong> — a ratio-based outlier detector; current state in <code>sanity_check_audit.csv</code> released alongside the dataset.</li>
+<li><strong>Layer 2 (cross-page contamination)</strong> — exact-match audit (<code>stacked_page_contamination_audit.md</code>) plus fuzzy near-match audit; documented contamination cases listed above.</li>
+<li><strong>Layer 3 (Ravina cross-validation)</strong> — <code>ravina_replication_audit.csv</code> per-domain delta against Ravina A1, with diagnoses for the 12 divergent cases.</li>
+<li><strong>Layer 4 (medium-confidence tracker)</strong> — <code>honest_medium_tracker.csv</code> with reason categories per row; cumulative trajectory in <code>honest_medium_tracker_summary.md</code>.</li>
 </ul>
-<p><strong>Cumulative documentation:</strong></p>
-<ul>
-<li><code>outputs/hansei_ichiran_reocr/data_provenance.md</code> — per-column citation guidance</li>
-<li><code>outputs/hansei_ichiran_reocr/sanity_check_audit.csv</code> — current sanity-check flag state (26 active)</li>
-<li><code>outputs/hansei_ichiran_reocr/stacked_page_contamination_audit.md</code> — exact-match contamination findings</li>
-<li><code>outputs/hansei_ichiran_reocr/complete_military_spot_check.md</code> — 8 COMPLETE military rows verified</li>
-<li><code>outputs/hansei_ichiran_reocr/hi_omitted_partial_analysis.md</code> — 14 HI-omitted-partial domains analyzed</li>
-</ul>
-<p>The full git commit log under <code>outputs/hansei_ichiran_reocr/</code> is the round-by-round audit trail.</p>
+<p>A single per-column provenance file (<code>data_provenance.md</code>) consolidates citation guidance, coverage rates, and known caveats for every variable.</p>
 </div>
 
 
@@ -1266,8 +1258,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./10-sources-citations.html" class="pagination-link" aria-label="Sources &amp; citations — the paper-writing reference">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span>
+      <a href="./10-sources-citations.html" class="pagination-link" aria-label="Sources and citations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources and citations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

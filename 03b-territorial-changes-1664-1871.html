@@ -282,13 +282,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./10-sources-citations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
   </div>
 </li>
       </ul>
@@ -556,7 +556,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>倉敷藩</strong> — became a tenryō (bakufu direct land) after a Bakumatsu-era confiscation</li>
 <li>A handful of small domains created/abolished between 1664 and 1870 (e.g., post-Boshin <strong>真鶴藩</strong> wasn’t extant in 1664; <strong>岩村田藩</strong> changed families)</li>
 </ul>
-<p>For these, the polygon may show the 1664 family/territory; the 1870 data is for the current family. Our project handles this via the project’s <code>domain_name_crossref.csv</code>, which links the polygon-side name to the data-side canonical.</p>
+<p>For these, the polygon may show the 1664 family / territory while the 1870 data is for the current family. The <code>domain_name_crossref.csv</code> lookup table bridges these, linking the polygon-side name to the data-side canonical.</p>
 </section>
 <section id="category-4-post-boshin-new-domains-no-1664-polygon-at-all" class="level3" data-number="13.2.4">
 <h3 data-number="13.2.4" class="anchored" data-anchor-id="category-4-post-boshin-new-domains-no-1664-polygon-at-all"><span class="header-section-number">13.2.4</span> Category 4 — Post-Boshin new domains (no 1664 polygon at all)</h3>
@@ -602,7 +602,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>For these, the project’s polygon-to-canonical lookup table either points to the <em>pre-reduction</em> polygon (e.g., 斗南 → uses 会津 polygon, accepting the size mismatch documented in Category 2) or leaves the polygon unshaded and notes the unmatched canonical.</p>
+<p>For these, the polygon-to-canonical lookup table either points to the <em>pre-reduction</em> polygon (e.g., 斗南 → uses 会津 polygon, accepting the size mismatch documented in Category 2) or leaves the polygon unshaded and notes the unmatched canonical.</p>
 <p>Of the 287 canonicals in <code>analytic_wide.csv</code>, <strong>170 match a 1664 polygon</strong>. The remaining ~117 either don’t match (small post-Boshin domains, sub-han, or sankyō without territory) or are minor name variants that didn’t get the alias-table treatment yet.</p>
 </section>
 <section id="category-5-sub-han-支藩-present-in-1664-sometimes-missing-from-1870-data" class="level3" data-number="13.2.5">
@@ -636,7 +636,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If a future contributor finds (or builds) an <strong>1870-era daimyo polygon shapefile</strong> — capturing the post-Boshin reductions correctly — the project can swap it in. The map-build script (<code>outputs/scripts/build_maps_v3.py</code>) reads from <code>outputs/data_scouting/03_han_inventory/downloads/dmyo_pgn/</code>; replacing those files with an 1870-era equivalent would automatically refresh all maps. The data side wouldn’t need to change.</p>
+<p>If a future contributor finds (or builds) an <strong>1870-era daimyo polygon shapefile</strong> — capturing the post-Boshin reductions correctly — it could be swapped in directly. The map-build script is parameterised on the polygon input directory; replacing those files with an 1870-era equivalent would automatically refresh all maps. The data side would not need to change.</p>
 <p>Known candidate: the <strong>CHGIS V6</strong> dataset has Meiji-era prefecture polygons, but not 1870 daimyo polygons specifically. The Stanford Spatial History Project also has some Edo-era GIS data. Neither has been integrated yet.</p>
 </div>
 </div>
