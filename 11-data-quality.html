@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>20&nbsp; Data quality — what we audited, and what’s still uncertain – Hansei Ichiran — A Visual Walkthrough</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./09-interactive-map.html" rel="next">
+<link href="./10-sources-citations.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-235c08cb5b033873ea93d52324f14478.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Hansei Ichiran — A Visual Walkthrough</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Background</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-what-is-hi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">What is Hansei Ichiran?</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Domain walkthroughs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-walkthrough-saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">A walkthrough of one domain: Saga (佐嘉藩 / Hizen)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02b-walkthrough-satsuma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Walkthrough: Satsuma (薩摩藩 / 鹿児島藩)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02c-walkthrough-choshu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Walkthrough: Chōshū (長州藩 / 山口藩 / 萩藩)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02d-walkthrough-tosa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Walkthrough: Tosa (土佐藩 / 高知藩)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02e-walkthrough-kaga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Walkthrough: Kaga (加賀藩 / 金沢藩)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02f-walkthrough-aizu-sendai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Walkthrough: Aizu (会津 / 斗南) + Sendai (仙台)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02g-walkthrough-orep-defectors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Walkthrough: Northern Alliance defectors (Kubota, Hirosaki, Matsumae)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02h-walkthrough-sankyo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Walkthrough: Tokugawa sankyō (一橋 + 田安 + 清水)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02i-walkthrough-restoration-upgrades.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Walkthrough: The 5 small-domain Restoration-service upgrades</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02j-walkthrough-shinpan-cluster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Walkthrough: The 29 親藩 (Tokugawa cadet) houses</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">The Dataset</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-the-287-domains.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">The 287 domains</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03b-territorial-changes-1664-1871.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">1664 → 1871: how stable were domain boundaries?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03c-shinpan-fudai-tozama.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">親藩 / 譜代 / 外様 — the Tokugawa political classification</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">The variables</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">The Paper’s Variables</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-kazoku-rank.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Kazoku rank (the paper’s DV)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-boshin-alignment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Boshin alignment (the paper’s treatment variable)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-19-deviations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">The 19 paper-relevant deviations</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Methodology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-sources-citations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Interactive</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliography</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-four-audit-layers" id="toc-the-four-audit-layers" class="nav-link active" data-scroll-target="#the-four-audit-layers"><span class="header-section-number">20.1</span> The four audit layers</a>
+  <ul class="collapse">
+  <li><a href="#layer-1-within-domain-ratio-sanity-sanity_check_audit.py" id="toc-layer-1-within-domain-ratio-sanity-sanity_check_audit.py" class="nav-link" data-scroll-target="#layer-1-within-domain-ratio-sanity-sanity_check_audit.py"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity (<code>sanity_check_audit.py</code>)</a></li>
+  <li><a href="#layer-2-cross-page-contamination-audits" id="toc-layer-2-cross-page-contamination-audits" class="nav-link" data-scroll-target="#layer-2-cross-page-contamination-audits"><span class="header-section-number">20.1.2</span> Layer 2 — Cross-page contamination audits</a></li>
+  <li><a href="#layer-3-ravina-replication-audit-ravina_replication_audit.csv" id="toc-layer-3-ravina-replication-audit-ravina_replication_audit.csv" class="nav-link" data-scroll-target="#layer-3-ravina-replication-audit-ravina_replication_audit.csv"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit (<code>ravina_replication_audit.csv</code>)</a></li>
+  <li><a href="#layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" id="toc-layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" class="nav-link" data-scroll-target="#layer-4-the-honest-medium-tracker-honest_medium_tracker.csv"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker (<code>honest_medium_tracker.csv</code>)</a></li>
+  </ul></li>
+  <li><a href="#high-impact-specific-fixes-documented" id="toc-high-impact-specific-fixes-documented" class="nav-link" data-scroll-target="#high-impact-specific-fixes-documented"><span class="header-section-number">20.2</span> High-impact specific fixes documented</a>
+  <ul class="collapse">
+  <li><a href="#sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" id="toc-sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" class="nav-link" data-scroll-target="#sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” actually 卒族 demographics (Phase M)</a></li>
+  <li><a href="#tosa-人口-896808-column-stack-ocr-error-from-satsuma" id="toc-tosa-人口-896808-column-stack-ocr-error-from-satsuma" class="nav-link" data-scroll-target="#tosa-人口-896808-column-stack-ocr-error-from-satsuma"><span class="header-section-number">20.2.2</span> Tosa 人口 = 896,808 — column-stack OCR error from Satsuma</a></li>
+  <li><a href="#saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" id="toc-saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" class="nav-link" data-scroll-target="#saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9"><span class="header-section-number">20.2.3</span> Saga SOURCE_GAP — wholly absent from HI vol.&nbsp;2 T7-T9</a></li>
+  <li><a href="#stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" id="toc-stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" class="nav-link" data-scroll-target="#stacked-page-contamination-4-confirmed-cases-per-audit-layer-2"><span class="header-section-number">20.2.4</span> Stacked-page contamination — 4 confirmed cases (per audit Layer 2)</a></li>
+  <li><a href="#akita-ravina-a1-typo-confirmed" id="toc-akita-ravina-a1-typo-confirmed" class="nav-link" data-scroll-target="#akita-ravina-a1-typo-confirmed"><span class="header-section-number">20.2.5</span> Akita Ravina A1 typo confirmed</a></li>
+  <li><a href="#domain-category-mis-classifications" id="toc-domain-category-mis-classifications" class="nav-link" data-scroll-target="#domain-category-mis-classifications"><span class="header-section-number">20.2.6</span> 4 domain-category mis-classifications</a></li>
+  <li><a href="#boshin-alignment-mis-classifications" id="toc-boshin-alignment-mis-classifications" class="nav-link" data-scroll-target="#boshin-alignment-mis-classifications"><span class="header-section-number">20.2.7</span> 5 Boshin alignment mis-classifications</a></li>
+  </ul></li>
+  <li><a href="#what-the-final-dataset-looks-like" id="toc-what-the-final-dataset-looks-like" class="nav-link" data-scroll-target="#what-the-final-dataset-looks-like"><span class="header-section-number">20.3</span> What the final dataset looks like</a></li>
+  <li><a href="#how-to-characterise-this-work-for-paper-reviewers" id="toc-how-to-characterise-this-work-for-paper-reviewers" class="nav-link" data-scroll-target="#how-to-characterise-this-work-for-paper-reviewers"><span class="header-section-number">20.4</span> How to characterise this work for paper reviewers</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-sources-citations.html">Methodology</a></li><li class="breadcrumb-item"><a href="./11-data-quality.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Data quality — what we audited, and what’s still uncertain</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A regression on <code>analytic_wide.csv</code> is only as defensible as the values it ingests. This chapter walks the four-layer audit framework the project used to build confidence in the dataset, the cumulative reduction in known issues across sessions, the high-impact fixes that landed, and what remains uncertain — documented honestly rather than hidden.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The headline numbers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong><code>MASTER_hansei_ichiran.csv</code></strong>: 7,132 rows; <strong>96% high-confidence</strong> (6,849); <strong>140 medium</strong> flagged; 0 low; 143 N/A.</li>
+<li><strong><code>honest_medium_tracker.csv</code></strong>: started at 141 rows; reduced through seven cleanup rounds to <strong>22 rows</strong>, all of which are structural source-level limits that no further OCR work can resolve.</li>
+<li><strong>Sanity-check flags</strong>: started at 37; reduced to <strong>26</strong> after 6 confirmed corrections + 1 alias-regression fix.</li>
+<li><strong>Cross-page contamination audits</strong>: 4 cases confirmed and fixed; 1 fuzzy audit found 8 candidates, all benign.</li>
+<li><strong>HI extraction coverage</strong> for paper-critical variables: 100% citation on the 3 paper-control variables (kazoku_rank, Boshin, domain_category); 98.6% coverage on <code>kazoku_rank_actual</code> (4 documented exclusions).</li>
+</ul>
+<p>The paper-critical variables are all paper-ready. The remaining medium-confidence rows affect tail-end fiscal precision and hyper-specific demographic sub-counts that aren’t in any paper table or regression.</p>
+</div>
+</div>
+<section id="the-four-audit-layers" class="level2" data-number="20.1">
+<h2 data-number="20.1" class="anchored" data-anchor-id="the-four-audit-layers"><span class="header-section-number">20.1</span> The four audit layers</h2>
+<section id="layer-1-within-domain-ratio-sanity-sanity_check_audit.py" class="level3" data-number="20.1.1">
+<h3 data-number="20.1.1" class="anchored" data-anchor-id="layer-1-within-domain-ratio-sanity-sanity_check_audit.py"><span class="header-section-number">20.1.1</span> Layer 1 — Within-domain ratio sanity (<code>sanity_check_audit.py</code>)</h3>
+<p>For each domain the audit computes the ratios that ought to make demographic sense and flags any that don’t:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ratio</th>
+<th>Plausible range</th>
+<th>Flag trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Average household size (jinkou / kosuu)</td>
+<td>3–7 persons</td>
+<td>Outside 3–7</td>
+</tr>
+<tr class="even">
+<td>Shizoku persons per household</td>
+<td>3–8 persons</td>
+<td>Outside 3–8</td>
+</tr>
+<tr class="odd">
+<td>Sotsu persons per household</td>
+<td>3–8 persons</td>
+<td>Outside 3–8</td>
+</tr>
+<tr class="even">
+<td>Population per koku</td>
+<td>0.5–5 persons/koku</td>
+<td>Outside 0.5–5</td>
+</tr>
+<tr class="odd">
+<td>Status-class share of total population</td>
+<td>Each &lt;50% individually</td>
+<td>Implausible class shares</td>
+</tr>
+</tbody>
+</table>
+<p>When a flag fires, the audit looks for a specific root cause: OCR misread, mislabeling (sub-total mistaken for total), cross-page contamination, or genuine demographic anomaly.</p>
+<p><strong>Notable resolutions from this audit:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Domain</th>
+<th>Issue</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>一宮藩</td>
+<td>jinkou = 3,201 (impossible — far below pop/koku floor)</td>
+<td>OCR misread of 14,240; corrected via crop re-read</td>
+</tr>
+<tr class="even">
+<td>加納藩</td>
+<td>kosuu = 317 (household count for total)</td>
+<td>Was 城下町 (castle-town) subset matching as total; relabeled</td>
+</tr>
+<tr class="odd">
+<td>亀田藩</td>
+<td>shizoku_jinin = 23,258</td>
+<td>Subtotal mislabeled; added correct “人口 (TOTAL) 23,894” row</td>
+</tr>
+<tr class="even">
+<td>成羽藩</td>
+<td>jinkou = 494</td>
+<td>Was 人員(寺領分) — temple-land subset; relabeled</td>
+</tr>
+<tr class="odd">
+<td>吉見藩</td>
+<td>jinkou = 372</td>
+<td>Was 人員 士卒族 — combined subset; relabeled</td>
+</tr>
+<tr class="even">
+<td>仙台藩</td>
+<td>“兵卒 18,913 persons” with 5,171 women</td>
+<td>Was 卒族 (sotsu-class household population), not troops; relabeled; troops corrected to 14,262 (active personnel)</td>
+</tr>
+<tr class="odd">
+<td>前橋藩</td>
+<td>shizoku_kosuu = shizoku_jinin (4,656)</td>
+<td>Alias bug regression — bare “士族” prefix-matched “士族 (人口)”; alias rule fixed</td>
+</tr>
+</tbody>
+</table>
+<p>The audit started at <strong>37 flags</strong> and dropped to <strong>26</strong> after these fixes plus the contamination resolutions below. The remaining 26 flags are documented as definitional (e.g., 人吉藩’s high sotsu ratio is real — Hitoyoshi-Sagara had a vast sotsu-class peasant-soldier population, confirmed against Meiji Shiyō).</p>
+</section>
+<section id="layer-2-cross-page-contamination-audits" class="level3" data-number="20.1.2">
+<h3 data-number="20.1.2" class="anchored" data-anchor-id="layer-2-cross-page-contamination-audits"><span class="header-section-number">20.1.2</span> Layer 2 — Cross-page contamination audits</h3>
+<p>Hansei Ichiran is a printed book; many of its pages contain <strong>two domains stacked vertically</strong> (upper / lower halves of a page). The extraction pipeline assigns rows to one canonical domain per page based on the visible 藩 header. When a page has two domains, the assignment can drift — values from the lower domain accidentally tagged as the upper, or vice versa.</p>
+<section id="a-exact-match-audit-stacked_page_contamination_audit.md" class="level4" data-number="20.1.2.1">
+<h4 data-number="20.1.2.1" class="anchored" data-anchor-id="a-exact-match-audit-stacked_page_contamination_audit.md"><span class="header-section-number">20.1.2.1</span> 2a — Exact-match audit (<code>stacked_page_contamination_audit.md</code>)</h4>
+<p>The exact-match audit identifies pages containing 2+ domains, then checks whether numeric values match exactly across the suspect pairs. <strong>261 PDF pages have 2+ domains.</strong> The audit found 22 value-collisions; 4 were confirmed contamination and fixed:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Page</th>
+<th>Pre-fix issue</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>upper_p87 和歌山 / 金澤</td>
+<td>11 Wakayama rows duplicated Kanazawa data (Wakayama’s 草高 wrongly showed 1,353,352 — Kanazawa’s value)</td>
+<td>Removed; Wakayama now correctly shows 草高 = 539,469 (real Kii kokudaka)</td>
+</tr>
+<tr class="even">
+<td>upper_p151 津山 / 津和野</td>
+<td>6 Tsuyama rows were a mix of Tsu (人口 247k) + Tsuwano (草高 75k)</td>
+<td>All 6 removed; Tsuyama’s true 草高 = 104,576 is on p150 (unaffected)</td>
+</tr>
+<tr class="odd">
+<td>lower_p60 岸和田 / 菊間</td>
+<td>7 Kishiwada rows duplicated Kikuma; Kishiwada’s real data on p58 was never extracted</td>
+<td>7 wrong rows removed; 12 verified Kishiwada rows added from lower_p058_L crop</td>
+</tr>
+<tr class="even">
+<td>upper_p81 大溝 / 岡田</td>
+<td>岡田藩’s 人口 = 11,433 was actually Ōmizo’s value; Okada’s real population (16,231) was never extracted</td>
+<td>1 wrong row removed; 6 verified Okada rows added from upper_p081_left.jpg crop</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="b-fuzzy-near-match-audit-fuzzy_stacked_audit.py-.csv" class="level4" data-number="20.1.2.2">
+<h4 data-number="20.1.2.2" class="anchored" data-anchor-id="b-fuzzy-near-match-audit-fuzzy_stacked_audit.py-.csv"><span class="header-section-number">20.1.2.2</span> 2b — Fuzzy near-match audit (<code>fuzzy_stacked_audit.py</code> / <code>.csv</code>)</h4>
+<p>A complementary methodology with 0.5% relative tolerance — catches contamination where the values aren’t exactly equal but are very close (e.g., adjacent domains both reporting 10,000-koku-tier values). Found 8 candidates; all 8 verified as <strong>benign</strong>:</p>
+<ul>
+<li>5 cases: sequential book page numbers showing up as similar values across nearby pages — incidental, not data contamination.</li>
+<li>1 case: small-number coincidence (both values happen to be in the 100–200 range).</li>
+<li>2 cases: Tateyama vs Tawaramoto (both 10,000-koku domains) and Himeji vs Hikone (both very large sub-territory tallies) — both confirmed as legitimate independent values that happen to be coincidentally close.</li>
+</ul>
+</section>
+<section id="c-the-tosa-satsuma-column-stack-separate-audit" class="level4" data-number="20.1.2.3">
+<h4 data-number="20.1.2.3" class="anchored" data-anchor-id="c-the-tosa-satsuma-column-stack-separate-audit"><span class="header-section-number">20.1.2.3</span> 2c — The Tosa-Satsuma column-stack (separate audit)</h4>
+<p>The most-historically-instructive contamination wasn’t caught by either intra-HI audit because it involves an <strong>external primary source</strong>. Tosa’s <code>hi_jinkou</code> value of 896,808 is essentially identical to Satsuma’s <code>population_tokei_shushi</code> value of 896,817 — a column-stack OCR error in the Tōkei Shūshi tabulation pipeline. Documented in memory <code>reference-tosa-jinkou-corruption</code>. The project uses Meiji Shiyō’s 516,867 for Tosa instead.</p>
+<p>A cross-source contamination audit (HI vs primary-source) would catch this pattern. It’s documented as a possible future audit; the current dataset handles the Tosa case via the memory reference.</p>
+</section>
+</section>
+<section id="layer-3-ravina-replication-audit-ravina_replication_audit.csv" class="level3" data-number="20.1.3">
+<h3 data-number="20.1.3" class="anchored" data-anchor-id="layer-3-ravina-replication-audit-ravina_replication_audit.csv"><span class="header-section-number">20.1.3</span> Layer 3 — Ravina replication audit (<code>ravina_replication_audit.csv</code>)</h3>
+<p>Mark Ravina’s <em>Land and Lordship in Early Modern Japan</em> (1999) Appendix Table A1 provides per-domain ratios (kusadaka/commoner, retainers/100 commoners, gendaka/commoner, retainers/1000 koku, gendaka/kusadaka) for ~227 domains. The project computes the same ratios both from <strong>HI directly</strong> and from <strong>primary sources</strong> (Ōkuma + Meiji Shiyō + Tōkei Shūshi), and audits the deltas against Ravina.</p>
+<p>State after final pass (all 227 Ravina rows merged):</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Match category</th>
+<th style="text-align: right;">HI-derived</th>
+<th style="text-align: right;">Primary-derived</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CLEAN_MATCH (&lt;20% Δ)</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;"><strong>173</strong></td>
+</tr>
+<tr class="even">
+<td>CLOSE (&lt;50% Δ)</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr class="odd">
+<td>DIVERGENT (≥50% Δ)</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;"><strong>12</strong></td>
+</tr>
+<tr class="even">
+<td>INCOMPUTABLE</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td>NO_RAVINA (not in Ravina A1)</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">83</td>
+</tr>
+</tbody>
+</table>
+<p>The primary-derived ratios match Ravina substantially better than HI-derived (173 clean matches vs 78). This reflects that Ravina himself worked from the same primary sources we now cite — Meiji Shiyō and the Ōkuma papers — rather than from HI. The 12 primary-derived divergent cases were individually diagnosed in <code>ravina_divergent_diagnoses.csv</code>; the notable finding is that <strong>Akita’s gendaka_per_commoner = 0.049 in Ravina is a confirmed decimal-place typo</strong> (should be 0.49 per primary-derived value). See memory <code>reference-ravina-akita-typo</code>.</p>
+</section>
+<section id="layer-4-the-honest-medium-tracker-honest_medium_tracker.csv" class="level3" data-number="20.1.4">
+<h3 data-number="20.1.4" class="anchored" data-anchor-id="layer-4-the-honest-medium-tracker-honest_medium_tracker.csv"><span class="header-section-number">20.1.4</span> Layer 4 — The honest-medium tracker (<code>honest_medium_tracker.csv</code>)</h3>
+<p>The tracker records every value flagged at <strong>medium confidence</strong> — explicitly <em>not</em> claiming high-confidence accuracy, with a <code>reason_category</code> and <code>reason_detail</code> per row.</p>
+<p>Starting at 141 medium-confidence rows in session 2 of this project, the tracker was reduced over seven cleanup rounds to <strong>22 rows</strong> as of session 3 (2026-05-20). The remaining 22 are structural source-level limits — no further crop re-reading or OCR work will resolve them. These cells affect <em>tail-end fiscal precision and hyper-specific demographic sub-counts</em>. <strong>None of them feed into the paper’s IV (kokudaka) or DV (kazoku_rank_actual) or any control variable.</strong></p>
+<section id="the-cleanup-rounds-in-summary" class="level4" data-number="20.1.4.1">
+<h4 data-number="20.1.4.1" class="anchored" data-anchor-id="the-cleanup-rounds-in-summary"><span class="header-section-number">20.1.4.1</span> The cleanup rounds in summary</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 30%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Date</th>
+<th style="text-align: right;">Tracker count</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inherited</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">141</td>
+<td>Pre-session state</td>
+</tr>
+<tr class="even">
+<td>Round 1 (郡上→久留里)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">140</td>
+<td>1 misattribution fix</td>
+</tr>
+<tr class="odd">
+<td>Round 2 (multi-domain)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">128</td>
+<td>13 OCR/relabel/copy-paste fixes</td>
+</tr>
+<tr class="even">
+<td>Round 3 (OTHER batch)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">55</td>
+<td>73 cases resolved via batch OCR review</td>
+</tr>
+<tr class="odd">
+<td>Round 4 (structural)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">35</td>
+<td>20 cross-source fixes + 館藩 cluster</td>
+</tr>
+<tr class="even">
+<td>Round 5 (quick wins)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">32</td>
+<td>3 quick-win OCR fixes</td>
+</tr>
+<tr class="odd">
+<td>Round 6 (deeper)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">25</td>
+<td>7 more via careful crop re-reads</td>
+</tr>
+<tr class="even">
+<td>Round 7 (final)</td>
+<td>2026-05-20</td>
+<td style="text-align: right;">23</td>
+<td>2 final structural fixes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cumulative: 141 → 22 rows, a 118-row reduction</strong> (84% drop in known medium-confidence cells). Each round’s specific fixes are documented in the round-by-round git commit messages and in <code>honest_medium_tracker_summary.md</code>.</p>
+</section>
+<section id="the-22-remaining-rows-by-category" class="level4" data-number="20.1.4.2">
+<h4 data-number="20.1.4.2" class="anchored" data-anchor-id="the-22-remaining-rows-by-category"><span class="header-section-number">20.1.4.2</span> The 22 remaining rows by category</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reason category</th>
+<th style="text-align: right;">Count</th>
+<th>Why it can’t be resolved further</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SUB_KOKU_PRECISION</td>
+<td style="text-align: right;">9</td>
+<td>Sub-koku decimals (升/合/勺/才) below current crop resolution. The integer is correct; the tail digit is ambiguous between e.g.&nbsp;二 vs 三. Affects 4th decimal places only.</td>
+</tr>
+<tr class="even">
+<td>UNIT_AMBIGUITY</td>
+<td style="text-align: right;">8</td>
+<td>Compound Edo-era monetary units (gold 兩/分/朱 + silver 貫/匁 + copper 文). OCR captures digits but loses which unit each digit owns.</td>
+</tr>
+<tr class="odd">
+<td>DENSE_COLUMN_AMBIGUITY</td>
+<td style="text-align: right;">6</td>
+<td>Pages with 5–10 narrow columns of nearly-identical subtotals. Hard to tell which column owns a value at current resolution.</td>
+</tr>
+<tr class="even">
+<td>NEEDS_HIGHER_RES</td>
+<td style="text-align: right;">6</td>
+<td>Value is on the page; key characters can’t be discriminated at current resolution. Would resolve with higher-res NDL re-photography.</td>
+</tr>
+<tr class="odd">
+<td>SOURCE_ILLEGIBLE</td>
+<td style="text-align: right;">6</td>
+<td>Original ink in 1870 print is too faded. No re-OCR can fix; would need a different physical copy of HI.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="concrete-examples-one-per-category" class="level4" data-number="20.1.4.3">
+<h4 data-number="20.1.4.3" class="anchored" data-anchor-id="concrete-examples-one-per-category"><span class="header-section-number">20.1.4.3</span> Concrete examples (one per category)</h4>
+<ul>
+<li><strong>SUB_KOKU_PRECISION</strong>: 七日市藩 内米 = 3,718.04245 koku — integer 3,718 confirmed; the .04245 vs .04235 fraction hinges on one ambiguous character. Doesn’t affect any analysis using koku-level precision.</li>
+<li><strong>UNIT_AMBIGUITY</strong>: 佐賀藩 雜稅金 = 10 — could be 10 ryō (gold) or 10 koku-equivalent. Raw kanji preserved but parseable only with manual interpretation.</li>
+<li><strong>DENSE_COLUMN_AMBIGUITY</strong>: 山崎藩 雑税金 = 27.14086 — multiple gold sub-lines on the page; column attribution not isolable.</li>
+<li><strong>NEEDS_HIGHER_RES</strong>: 厳原藩 寺院 = 199 — page may actually read 287 (including 盲僧/blind monks); the scope-distinguishing annotation isn’t crisply readable.</li>
+<li><strong>SOURCE_ILLEGIBLE</strong>: 竜野藩 穢多 = 6 — label is visible but the number is too faded to verify.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="high-impact-specific-fixes-documented" class="level2" data-number="20.2">
+<h2 data-number="20.2" class="anchored" data-anchor-id="high-impact-specific-fixes-documented"><span class="header-section-number">20.2</span> High-impact specific fixes documented</h2>
+<p>Beyond the audit-driven reductions, several specific fixes had <strong>material analytic impact</strong> and are worth flagging explicitly because they corrected values that would have entered paper tables.</p>
+<section id="sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m" class="level3" data-number="20.2.1">
+<h3 data-number="20.2.1" class="anchored" data-anchor-id="sendai-mislabel-兵卒-18913-actually-卒族-demographics-phase-m"><span class="header-section-number">20.2.1</span> Sendai mislabel — “兵卒 18,913” actually 卒族 demographics (Phase M)</h3>
+<p>The single highest-impact fix in the project. Sendai’s <code>hi_total_troops_persons</code> field had been populated with <strong>18,913</strong> — but the underlying source row was labeled “兵卒 (alt)” and contained 5,171 women, an impossible mix for an active military unit. Re-examination showed it was Sendai’s <strong>卒族 (sotsu-class) household population</strong>, not troops.</p>
+<p>Corrected to:</p>
+<ul>
+<li><code>hi_total_troops_persons</code> = <strong>14,262</strong> (correct active military personnel from the 兵士 員 row)</li>
+<li><code>hi_sotsu_jinin</code> = <strong>18,913</strong> (correctly bucketed as demographics)</li>
+</ul>
+<p>The latent-mislabel audit was extended across all military-bucketed rows after this finding; no other mislabels of similar magnitude were found.</p>
+</section>
+<section id="tosa-人口-896808-column-stack-ocr-error-from-satsuma" class="level3" data-number="20.2.2">
+<h3 data-number="20.2.2" class="anchored" data-anchor-id="tosa-人口-896808-column-stack-ocr-error-from-satsuma"><span class="header-section-number">20.2.2</span> Tosa 人口 = 896,808 — column-stack OCR error from Satsuma</h3>
+<p>Tosa’s HI population value of 896,808 is an OCR column-stack error — it’s identical (within 9 persons) to Satsuma’s primary-source population, indicating the tabulation pipeline mis-aligned a column. Documented in memory <code>reference-tosa-jinkou-corruption</code>. The project substitutes Meiji Shiyō’s 516,867 for Tosa’s population.</p>
+</section>
+<section id="saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9" class="level3" data-number="20.2.3">
+<h3 data-number="20.2.3" class="anchored" data-anchor-id="saga-source_gap-wholly-absent-from-hi-vol.-2-t7-t9"><span class="header-section-number">20.2.3</span> Saga SOURCE_GAP — wholly absent from HI vol.&nbsp;2 T7-T9</h3>
+<p>Saga (佐嘉藩) appears in HI vol.&nbsp;2 T6 but has <strong>no T7/T8/T9 entries</strong> — the standard military and fiscal-detail tables don’t include Saga. This is a source-level gap, not an extraction failure. Documented in memory <code>reference-saga-HI-gap</code>; the pipeline handles via SOURCE_GAP marker rows; Saga military details come from the published-source supplement (Fujino 2010, Beasley 1972 etc. — see chapter 02 Saga walkthrough).</p>
+</section>
+<section id="stacked-page-contamination-4-confirmed-cases-per-audit-layer-2" class="level3" data-number="20.2.4">
+<h3 data-number="20.2.4" class="anchored" data-anchor-id="stacked-page-contamination-4-confirmed-cases-per-audit-layer-2"><span class="header-section-number">20.2.4</span> Stacked-page contamination — 4 confirmed cases (per audit Layer 2)</h3>
+<p>The 4 cross-page contamination fixes (Wakayama-Kanazawa, Tsuyama-Tsuwano, Kishiwada-Kikuma, Okada-Ōmizo) corrected 11 + 6 + 7 + 1 = 25 wrongly-attributed rows and added 12 + 6 = 18 newly-extracted verified rows. Cumulative impact on <code>analytic_wide.csv</code>: Wakayama’s <code>kokudaka_iv</code> went from a contaminated 1.35M (Kanazawa value) to its true 539,469; Okada’s <code>hi_jinkou</code> went from 11,433 (Ōmizo value) to its true 16,231.</p>
+</section>
+<section id="akita-ravina-a1-typo-confirmed" class="level3" data-number="20.2.5">
+<h3 data-number="20.2.5" class="anchored" data-anchor-id="akita-ravina-a1-typo-confirmed"><span class="header-section-number">20.2.5</span> Akita Ravina A1 typo confirmed</h3>
+<p>Ravina A1’s value for Akita 久保田藩 <code>gendaka_per_commoner</code> is <strong>0.049</strong>, which is implausibly low. Primary-derived computation gives <strong>0.457</strong>. The project documents this in memory <code>reference-ravina-akita-typo</code> and uses 0.49 (Ravina with decimal corrected) or the primary-derived 0.457 as the value, citing the typo explicitly.</p>
+</section>
+<section id="domain-category-mis-classifications" class="level3" data-number="20.2.6">
+<h3 data-number="20.2.6" class="anchored" data-anchor-id="domain-category-mis-classifications"><span class="header-section-number">20.2.6</span> 4 domain-category mis-classifications</h3>
+<p>Per session 2 of this project:</p>
+<ul>
+<li>仙台藩 (Date): bakumatsu.org-coded 親藩 → corrected to <strong>外様</strong> per Beasley p.&nbsp;xii + 国史大辞典</li>
+<li>伊予吉田藩 (Date cadet): 親藩 → <strong>外様</strong></li>
+<li>対馬府中藩 (Sō): 親藩 → <strong>外様</strong> (国主格 status but tozama)</li>
+<li>桑名藩 (Hisamatsu-Matsudaira): 譜代 → <strong>親藩</strong> (Hisamatsu-Matsudaira consistency)</li>
+</ul>
+<p>Audit at <code>outputs/hansei_ichiran_reocr/domain_category_corrections.csv</code>. Discussed in <a href="./03c-shinpan-fudai-tozama.html#the-4-mis-classifications-fixed-in-session-3-2026-05-20">chapter 03c §13.8</a>.</p>
+</section>
+<section id="boshin-alignment-mis-classifications" class="level3" data-number="20.2.7">
+<h3 data-number="20.2.7" class="anchored" data-anchor-id="boshin-alignment-mis-classifications"><span class="header-section-number">20.2.7</span> 5 Boshin alignment mis-classifications</h3>
+<p>Per the same session:</p>
+<ul>
+<li>守山藩, 館藩 (=松前): bakumatsu.org-coded pro-bakufu → corrected to <strong>anti-bakufu</strong> (OREP defectors per 工藤威 2002)</li>
+<li>村上藩, 村松藩: anti-bakufu → <strong>pro-bakufu</strong> (OREP combatants per 工藤威 2002)</li>
+<li>淀藩: neutral → <strong>anti-bakufu</strong> (Toba-Fushimi castle-gate refusal 1868-01-28, per JP Wiki + Boshin War Wikipedia citation chain)</li>
+</ul>
+</section>
+</section>
+<section id="what-the-final-dataset-looks-like" class="level2" data-number="20.3">
+<h2 data-number="20.3" class="anchored" data-anchor-id="what-the-final-dataset-looks-like"><span class="header-section-number">20.3</span> What the final dataset looks like</h2>
+<p>After the seven-round cleanup, the audit layers, and the targeted fixes, the dataset’s quality profile is:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable family</th>
+<th>Coverage</th>
+<th>Quality assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Paper IV: <code>kokudaka_iv</code> (composite)</td>
+<td>96%</td>
+<td>Primary source per <code>kokudaka_iv_source</code>; high confidence</td>
+</tr>
+<tr class="even">
+<td>Paper DV: <code>kazoku_rank_actual</code></td>
+<td>98.6%</td>
+<td>4 NaN are documented exclusions (改易, temple-land, etc.); high confidence</td>
+</tr>
+<tr class="odd">
+<td>Paper control 1: <code>domain_category</code></td>
+<td>100%</td>
+<td>100% cited (Beasley + 児玉 1977); 4 mis-classifications fixed</td>
+</tr>
+<tr class="even">
+<td>Paper control 2: <code>boshin_alignment_group</code></td>
+<td>100%</td>
+<td>100% cited (Asami / Esposito / Beasley / 工藤 / JP Wiki citations); 5 mis-classifications fixed</td>
+</tr>
+<tr class="odd">
+<td>Paper control 3: kokudaka-derived genmai</td>
+<td>89% (the genmai numerator)</td>
+<td>From wiki_fuhanken; backed by Meiji Shiyō / Ōkuma underlying</td>
+</tr>
+<tr class="even">
+<td>Population (primary)</td>
+<td>90%</td>
+<td>Meiji Shiyō + Ōkuma + Tōkei Shūshi</td>
+</tr>
+<tr class="odd">
+<td>Population (HI)</td>
+<td>77%</td>
+<td>Direct from HI</td>
+</tr>
+<tr class="even">
+<td>Military details (HI)</td>
+<td>56% troops, 16% warships</td>
+<td>Sparse by HI’s construction; focal-4 has published-source supplements</td>
+</tr>
+</tbody>
+</table>
+<p>The 96-100% coverage on every paper-critical column is the working summary of the project’s data-quality phase. The remaining gaps are documented and either structural (HI’s military coverage was always sparse) or specific (the 4 NaN kazoku exclusions are real historical events, not data limitations).</p>
+</section>
+<section id="how-to-characterise-this-work-for-paper-reviewers" class="level2" data-number="20.4">
+<h2 data-number="20.4" class="anchored" data-anchor-id="how-to-characterise-this-work-for-paper-reviewers"><span class="header-section-number">20.4</span> How to characterise this work for paper reviewers</h2>
+<p>Three framings the paper can use:</p>
+<ol type="1">
+<li><p><strong>“Replication-audited primary-source dataset”</strong>: every paper-relevant variable has a citable primary source (or scholarly-synthesis source); the values were cross-validated against Ravina (1999) at the ratio level; cross-page contamination was audited and surfaced 4 cases that were corrected.</p></li>
+<li><p><strong>“Transparent honest-medium tracking”</strong>: the project maintains a public per-cell tracker (<code>honest_medium_tracker.csv</code>) documenting every value that is not high-confidence, with the reason. Most empirical Meiji-history work either doesn’t disclose this or absorbs it silently; we surface it.</p></li>
+<li><p><strong>“Round-by-round documented cleanup history”</strong>: the seven cleanup rounds (141 → 22 medium-confidence rows) are each documented in git commit history and in <code>honest_medium_tracker_summary.md</code>, with reproducible scripts in <code>outputs/scripts/</code> for every batch fix. A reviewer can trace any specific value’s provenance back to the source crop and to the cleanup decision that affected it.</p></li>
+</ol>
+<div class="source-citation">
+<p><strong>Audit infrastructure:</strong></p>
+<ul>
+<li><code>outputs/scripts/sanity_check_audit.py</code> — Layer 1 (within-domain ratio sanity)</li>
+<li><code>outputs/scripts/stacked_page_contamination_audit.md</code> + <code>fuzzy_stacked_audit.py/.csv</code> — Layer 2 (cross-page contamination)</li>
+<li><code>outputs/hansei_ichiran_reocr/ravina_replication_audit.csv</code> + <code>ravina_divergent_diagnoses.csv</code> — Layer 3 (Ravina cross-validation)</li>
+<li><code>outputs/hansei_ichiran_reocr/honest_medium_tracker.csv</code> + <code>honest_medium_tracker_summary.md</code> — Layer 4 (medium-confidence tracker)</li>
+</ul>
+<p><strong>Cumulative documentation:</strong></p>
+<ul>
+<li><code>outputs/hansei_ichiran_reocr/data_provenance.md</code> — per-column citation guidance</li>
+<li><code>outputs/hansei_ichiran_reocr/sanity_check_audit.csv</code> — current sanity-check flag state (26 active)</li>
+<li><code>outputs/hansei_ichiran_reocr/stacked_page_contamination_audit.md</code> — exact-match contamination findings</li>
+<li><code>outputs/hansei_ichiran_reocr/complete_military_spot_check.md</code> — 8 COMPLETE military rows verified</li>
+<li><code>outputs/hansei_ichiran_reocr/hi_omitted_partial_analysis.md</code> — 14 HI-omitted-partial domains analyzed</li>
+</ul>
+<p>The full git commit log under <code>outputs/hansei_ichiran_reocr/</code> is the round-by-round audit trail.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./10-sources-citations.html" class="pagination-link" aria-label="Sources &amp; citations — the paper-writing reference">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Sources &amp; citations — the paper-writing reference</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./09-interactive-map.html" class="pagination-link" aria-label="Interactive map (prototype)">
+        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

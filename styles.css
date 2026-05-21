@@ -1,0 +1,63 @@
+/* Walkthrough styling */
+
+.figure-caption {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #555;
+}
+
+figure {
+  margin-bottom: 2em;
+}
+
+figure img {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 4px;
+}
+
+.callout-tip {
+  border-left-color: #2c7a39 !important;
+}
+
+table {
+  font-size: 0.95em;
+}
+
+th {
+  background-color: #f0f4f8;
+}
+
+/* Side-by-side layout for HI crop + data table */
+.side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+  margin: 1em 0;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .side-by-side { grid-template-columns: 1fr; }
+}
+
+.domain-glossary {
+  background: #f7f9fa;
+  border-left: 4px solid #4a90c2;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
+
+.kanji-pop {
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Footer/citation styling */
+.source-citation {
+  font-size: 0.85em;
+  color: #666;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.5em;
+  margin-top: 1em;
+}
