@@ -1,34 +1,413 @@
-/* Walkthrough styling */
+/* =====================================================================
+   Hansei Ichiran walkthrough — visual system
+   Design direction: Meiji-era academic. Warm parchment background,
+   crimson 朱色 used sparingly for accent, serif body type, clean sans UI.
+   ===================================================================== */
 
-.figure-caption {
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ---------- Color + spacing tokens ---------- */
+
+:root {
+  /* Paper-and-ink palette */
+  --paper:        #F8F4ED;   /* warm parchment background */
+  --paper-deep:   #F2ECDF;   /* slightly deeper for sidebars / inset blocks */
+  --paper-rule:   #E2DAC8;   /* warm hairlines / dividers */
+  --ink:          #1A1F2C;   /* near-black body text */
+  --ink-soft:     #4B4E5A;   /* secondary text */
+  --ink-faint:    #7B7C84;   /* captions, metadata */
+
+  /* Accent — used sparingly */
+  --crimson:      #8B1F2F;   /* 朱色 — main accent: H2 rule, links, key headings */
+  --crimson-deep: #6E1822;   /* hover / pressed state */
+  --gold:         #A88A4C;   /* secondary accent for emphasis */
+  --gold-soft:    #C9B07A;
+
+  /* Functional callout palette */
+  --tip-bar:      #2F6E4A;   /* deep green */
+  --tip-bg:       #EEF3EB;
+  --note-bar:     #2E5781;   /* deep navy */
+  --note-bg:      #EBF0F6;
+  --important-bar: var(--crimson);
+  --important-bg: #F7EBED;
+  --warning-bar:  #B97A2D;
+  --warning-bg:   #FBEFD9;
+
+  /* Typography */
+  --font-serif:   "EB Garamond", "Noto Serif JP", Georgia, "Times New Roman", serif;
+  --font-sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-jp:      "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+
+  --leading:      1.65;
+  --measure:      32rem;
+
+  /* Spacing */
+  --space-1:      0.25rem;
+  --space-2:      0.5rem;
+  --space-3:      0.75rem;
+  --space-4:      1rem;
+  --space-5:      1.5rem;
+  --space-6:      2rem;
+  --space-7:      3rem;
+  --space-8:      4rem;
+}
+
+/* ---------- Base ---------- */
+
+html { background: var(--paper); }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: var(--leading);
+  font-feature-settings: "kern", "liga", "onum" 1; /* old-style figures for warmth */
+}
+
+/* Make Japanese characters use the JP serif specifically; Latin keeps EB Garamond */
+:lang(ja), .lang-jp {
+  font-family: var(--font-jp);
+}
+
+/* ---------- Typography hierarchy ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--ink);
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  margin-top: 2.25em;
+  margin-bottom: 0.75em;
+}
+
+/* Chapter title — H1 — distinctive treatment */
+h1, h1.title {
+  font-size: 2.45rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
+  padding-bottom: 0.6em;
+  position: relative;
+}
+
+h1::after, h1.title::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 3px;
+  background: var(--crimson);
+  margin-top: 0.5rem;
+}
+
+/* H2 — section headings, accented with a colored bar */
+h2 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  padding-top: 0.4em;
+  padding-left: 0.85em;
+  margin-top: 2.5em;
+  border-left: 4px solid var(--crimson);
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: 2em;
+}
+
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  background: var(--gold);
+  border-radius: 50%;
+  margin-right: 0.55em;
+  vertical-align: 0.18em;
+}
+
+h4 {
+  font-size: 1.08rem;
+  font-weight: 600;
   font-style: italic;
-  font-size: 0.9em;
-  color: #555;
+  color: var(--ink-soft);
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
 }
 
-figure {
-  margin-bottom: 2em;
+h5, h6 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin-top: 1.5em;
 }
 
-figure img {
-  border: 1px solid #ddd;
-  background: #fafafa;
-  padding: 4px;
+/* ---------- Paragraphs and inline ---------- */
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.1em;
 }
 
-.callout-tip {
-  border-left-color: #2c7a39 !important;
+strong, b {
+  font-weight: 600;
+  color: var(--ink);
 }
+
+em, i {
+  font-style: italic;
+}
+
+/* Inline code */
+:not(pre) > code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--paper-deep);
+  color: var(--crimson-deep);
+  padding: 0.08em 0.4em;
+  border-radius: 3px;
+  border: 1px solid var(--paper-rule);
+  font-feature-settings: "calt" 0;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: var(--crimson);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(139, 31, 47, 0.22);
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+a:hover {
+  color: var(--crimson-deep);
+  border-bottom-color: var(--crimson-deep);
+  background: rgba(139, 31, 47, 0.05);
+}
+
+/* Sidebar / nav links — different treatment, no underline */
+.sidebar a, .navbar a, .quarto-secondary-nav a, .toc-active, nav a {
+  border-bottom: none;
+  background: transparent;
+}
+
+.sidebar a:hover, .navbar a:hover, nav a:hover {
+  background: transparent;
+}
+
+/* ---------- Block quotes ---------- */
+
+blockquote {
+  margin: 1.6em 0;
+  padding: 0.5em 1.5em;
+  border-left: 3px solid var(--gold);
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 1.05em;
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ---------- Horizontal rule ---------- */
+
+hr {
+  border: none;
+  text-align: center;
+  margin: 3em 0;
+  height: 1.6em;
+  position: relative;
+}
+
+hr::before {
+  content: "◆ ◆ ◆";
+  color: var(--gold-soft);
+  letter-spacing: 0.6em;
+  font-size: 0.7em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
+  padding-left: 1.5em;
+}
+
+ul li, ol li {
+  margin-bottom: 0.4em;
+  line-height: 1.6;
+}
+
+ul li::marker { color: var(--crimson); }
+ol li::marker { color: var(--crimson); font-weight: 600; }
+
+/* ---------- Tables ---------- */
 
 table {
-  font-size: 0.95em;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.8em 0;
+  font-size: 0.93em;
+  background: #FCFAF6;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+}
+
+thead {
+  border-bottom: 1.5px solid var(--ink);
 }
 
 th {
-  background-color: #f0f4f8;
+  padding: 0.7em 0.85em;
+  text-align: left;
+  font-weight: 600;
+  color: var(--ink);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
 }
 
-/* Side-by-side layout for HI crop + data table */
+td {
+  padding: 0.6em 0.85em;
+  vertical-align: top;
+  border-top: 1px solid var(--paper-rule);
+}
+
+tbody tr:hover {
+  background: rgba(139, 31, 47, 0.025);
+}
+
+/* Numeric cells right-aligned (Pandoc emits class="quarto-table-cell-numeric") */
+td.quarto-table-cell-numeric,
+th.quarto-table-cell-numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* ---------- Callouts — full restyle ---------- */
+
+.callout {
+  margin: 1.6em 0;
+  border-radius: 4px;
+  border: 1px solid var(--paper-rule);
+  background: #FCFAF5;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.callout-header {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  padding: 0.55em 1em;
+  background: var(--paper-deep);
+  border-bottom: 1px solid var(--paper-rule);
+}
+
+.callout-title-container { color: var(--ink); }
+
+.callout-body, .callout-body-container { padding: 1em 1.2em; }
+.callout-body p:last-child { margin-bottom: 0; }
+
+.callout-tip       { border-left: 4px solid var(--tip-bar); }
+.callout-tip .callout-header       { background: var(--tip-bg); }
+
+.callout-note      { border-left: 4px solid var(--note-bar); }
+.callout-note .callout-header      { background: var(--note-bg); }
+
+.callout-important { border-left: 4px solid var(--important-bar); }
+.callout-important .callout-header { background: var(--important-bg); }
+
+.callout-warning   { border-left: 4px solid var(--warning-bar); }
+.callout-warning .callout-header   { background: var(--warning-bg); }
+
+.callout-caution   { border-left: 4px solid var(--warning-bar); }
+.callout-caution .callout-header   { background: var(--warning-bg); }
+
+/* ---------- Figures ---------- */
+
+figure {
+  margin: 2em auto;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--paper-rule);
+  background: #FCFAF6;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+}
+
+figcaption, .figure-caption {
+  font-style: italic;
+  font-size: 0.88em;
+  color: var(--ink-faint);
+  margin-top: 0.7em;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+/* ---------- Code blocks ---------- */
+
+pre {
+  background: #1B1F2C;
+  color: #E6E2D7;
+  padding: 1em 1.2em;
+  border-radius: 4px;
+  border: 1px solid #2A2E3D;
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  line-height: 1.55;
+  overflow-x: auto;
+  margin: 1.4em 0;
+}
+
+pre code { background: transparent; color: inherit; padding: 0; border: none; }
+
+/* ---------- Custom project elements ---------- */
+
+.source-citation {
+  font-size: 0.86em;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border-top: 2px solid var(--gold);
+  border-radius: 2px;
+  padding: 1em 1.2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+}
+
+.source-citation strong { color: var(--ink); }
+
+.domain-glossary {
+  background: var(--paper-deep);
+  border-left: 4px solid var(--gold);
+  padding: 0.9em 1.2em;
+  margin: 1.4em 0;
+  border-radius: 2px;
+}
+
 .side-by-side {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -41,23 +420,375 @@ th {
   .side-by-side { grid-template-columns: 1fr; }
 }
 
-.domain-glossary {
-  background: #f7f9fa;
-  border-left: 4px solid #4a90c2;
-  padding: 0.8em 1em;
-  margin: 1em 0;
+.kanji-pop { font-size: 1.15em; color: var(--ink); }
+
+/* ---------- Sidebar / nav ---------- */
+
+.sidebar, #quarto-sidebar {
+  background: var(--paper-deep);
+  border-right: 1px solid var(--paper-rule);
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
 }
 
-.kanji-pop {
-  font-size: 1.1em;
-  color: #333;
+.sidebar-title, .navbar-brand, .navbar .title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--ink);
 }
 
-/* Footer/citation styling */
-.source-citation {
-  font-size: 0.85em;
-  color: #666;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 0.5em;
-  margin-top: 1em;
+.sidebar .sidebar-item-text { color: var(--ink-soft); }
+.sidebar .sidebar-item-text:hover { color: var(--crimson); }
+
+.sidebar-item.active > .sidebar-item-container > .sidebar-item-text,
+.sidebar-link.active,
+.sidebar .active {
+  color: var(--crimson) !important;
+  font-weight: 600;
+}
+
+.sidebar .chapter-number {
+  color: var(--gold);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4em;
+}
+
+.sidebar .menu-text { line-height: 1.4; }
+
+.sidebar h1, .sidebar h2 {
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin-top: 1.4em;
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.sidebar h1::after, .sidebar h2::after { display: none; }
+
+/* Top navbar (if visible) */
+.navbar {
+  background: var(--paper) !important;
+  border-bottom: 1px solid var(--paper-rule);
+  font-family: var(--font-sans);
+}
+
+/* ---------- Right TOC (in-page) ---------- */
+
+#TOC, .toc, nav[role="doc-toc"] {
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+}
+
+#TOC h2, nav[role="doc-toc"] h2 {
+  border: none;
+  padding: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-faint);
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+#TOC ul, nav[role="doc-toc"] ul { padding-left: 0; list-style: none; }
+#TOC ul ul, nav[role="doc-toc"] ul ul { padding-left: 0.8em; }
+#TOC a, nav[role="doc-toc"] a {
+  color: var(--ink-soft);
+  border-bottom: none;
+  line-height: 1.4;
+  display: block;
+  padding: 0.18em 0;
+}
+#TOC a:hover, nav[role="doc-toc"] a:hover {
+  color: var(--crimson);
+  background: transparent;
+}
+#TOC a.active, nav[role="doc-toc"] a.active {
+  color: var(--crimson);
+  font-weight: 600;
+}
+
+/* ---------- Chapter intro / first paragraph drop cap ---------- */
+/* Quarto sets body class "fullcontent" on pages with toc:false — used as the */
+/* landing-page marker. Drop cap fires only on regular chapters.              */
+
+body:not(.fullcontent) main.content > p:first-of-type::first-letter {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 3.4em;
+  float: left;
+  line-height: 0.85;
+  padding-right: 0.1em;
+  padding-top: 0.08em;
+  margin-bottom: -0.1em;
+  color: var(--crimson);
+}
+
+/* ---------- Page-navigation buttons (prev / next) ---------- */
+
+.page-navigation, .nav-page {
+  margin-top: 4em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--paper-rule);
+  font-family: var(--font-sans);
+}
+
+.nav-page a {
+  border: none;
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+.nav-page a:hover {
+  background: rgba(139, 31, 47, 0.07);
+  color: var(--crimson-deep);
+}
+
+/* Reset paragraph margin when fenced divs wrap text in <p> */
+.hero-eyebrow > p, .hero-title > p, .hero-subtitle > p, .hero-meta > p,
+.stat-number > p, .stat-label > p,
+.tile-eyebrow > p, .tile-title > p, .tile-desc > p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Index page hero (custom HTML in index.qmd) ---------- */
+
+.hero {
+  margin: 1em 0 3em 0;
+  padding: 2.5em 2em;
+  background: linear-gradient(135deg, var(--paper-deep) 0%, var(--paper) 100%);
+  border: 1px solid var(--paper-rule);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "藩";
+  position: absolute;
+  top: -0.15em;
+  right: -0.1em;
+  font-family: var(--font-jp);
+  font-size: 14rem;
+  font-weight: 400;
+  color: rgba(139, 31, 47, 0.06);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.5em;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0 0 0.4em 0;
+}
+
+.hero-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.4em;
+  line-height: 1.4;
+  max-width: 38em;
+}
+
+.hero-meta {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  margin-bottom: 1.8em;
+}
+
+.hero-meta strong { color: var(--ink); font-weight: 500; }
+
+.hero-cta {
+  display: inline-block;
+  background: var(--crimson);
+  color: var(--paper);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  padding: 0.7em 1.4em;
+  border-radius: 3px;
+  border: none;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.hero-cta:hover {
+  background: var(--crimson-deep);
+  color: var(--paper);
+  border: none;
+  transform: translateY(-1px);
+}
+
+/* Tile grid on the landing page */
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+  margin: 2em 0 3em 0;
+}
+
+.tile {
+  background: #FCFAF6;
+  border: 1px solid var(--paper-rule);
+  border-radius: 4px;
+  padding: 1.3em 1.3em;
+  transition: border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.tile:hover {
+  border-color: var(--crimson);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.tile-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.3em;
+}
+
+.tile-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.4em 0;
+  line-height: 1.25;
+}
+
+.tile-desc {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.tile a {
+  border: none;
+  color: inherit;
+  display: block;
+}
+
+.tile a:hover { background: transparent; color: inherit; }
+
+/* ---------- Stat / key-figure callouts (used inline) ---------- */
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1em;
+  margin: 1.8em 0;
+}
+
+.stat {
+  background: var(--paper-deep);
+  border-left: 3px solid var(--crimson);
+  border-radius: 0 3px 3px 0;
+  padding: 0.9em 1.1em;
+}
+
+.stat-number {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--crimson);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin-top: 0.3em;
+}
+
+/* ---------- Quarto-specific overrides ---------- */
+
+.quarto-title-meta-heading { font-family: var(--font-sans); }
+
+.quarto-title-block .quarto-title-meta {
+  font-family: var(--font-sans);
+  color: var(--ink-faint);
+  font-size: 0.88rem;
+  margin-top: 0.5em;
+  border-top: none;
+}
+
+/* Section number badges in TOC headings */
+.header-section-number {
+  color: var(--gold);
+  font-weight: 500;
+  margin-right: 0.4em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Body content max width — make reading lines comfortable */
+main, .content {
+  font-size: 18px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 980px) {
+  body { font-size: 17px; }
+  h1, h1.title { font-size: 2rem; }
+  h2 { font-size: 1.4rem; }
+  .hero { padding: 1.8em 1.4em; }
+  .hero-title { font-size: 1.9rem; }
+  .hero::before { font-size: 9rem; }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .hero-title { font-size: 1.55rem; }
+  .hero::before { font-size: 6rem; }
+  h2 { padding-left: 0.6em; }
+  .stat-row, .tile-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Print ---------- */
+
+@media print {
+  body { background: white; color: black; font-size: 11pt; }
+  .sidebar, .navbar, nav[role="doc-toc"] { display: none; }
+  a { color: black; border-bottom: none; }
+  h1::after { display: none; }
+  h2 { border-left: 4px solid #333; }
+  .callout { border: 1px solid #999; }
+  pre { background: #f5f5f5; color: #222; border: 1px solid #ccc; }
 }
