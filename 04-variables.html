@@ -463,6 +463,59 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>The Rekihaku tier (added 2026-05-24)</strong>: 13 domains have no recordable <em>kokudaka</em> in HI vol 1 (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). For these, the IV is now sourced from the 1872 <em>Kyūdaka kyūryō torishirabechō</em> cadastral survey — summed per-village from the Rekihaku open-access database. This is a <em>kusadaka</em>-tier (actual rated land yield) metric, the same conceptual tier as HI <em>sōdaka</em> / <em>gōdaka</em>, restoring methodological consistency. For 仙台 specifically, the IV uses only post-Boshin retained territory (excluding 1869 carve-off prefectures 登米/胆沢/江刺/角田), giving 299,659 koku instead of the raw 974,010-koku all-territory figure. See <code>CORRECTIONS_LOG.md</code> Section K for the full methodological discussion.</li>
 <li><strong>Citation</strong>: a sibling source column records which field was actually used for each domain (<code>hi_sodaka</code>, <code>hi_godaka</code>, <code>hi_omotedaka</code>, <code>rekihaku_kyudaka_1872</code>, <code>wiki_omotedaka</code>).</li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The Sendai-Date case in detail
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>仙台藩 is the one case in the dataset where the pre-Boshin and at-haihan-chiken <em>kokudaka</em> diverge dramatically. The 1869 Boshin punishment was a full territorial confiscation followed by re-grant of 28万石 to the three-year-old heir Date Munemoto 伊達宗基 (Meiji 1/12/12 = 1869-01-24, per 仙台市史 通史編6 近代1, 2008; 栗原伸一郎『戊辰戦争と「奥羽越」列藩同盟』, 2017; Bakkalian, <em>The Sparrow’s Dream</em>, Pittsburgh PhD 2017).</p>
+<p>This shows up in <em>Hansei Ichiran</em> itself: vol 2 p.116R carries an explicit <strong>「草高等不詳細」</strong> (“kokudaka and similar details unclear”) annotation directly under the ○仙臺藩 header. HI itself documented being unable to record Sendai’s <em>kokudaka</em> in 1870, almost certainly because the new post-Boshin cadastral was incomplete at the time of the survey. This is a much stronger provenance for using a substitute <em>kokudaka</em> than the prior “absent from HI” framing.</p>
+<p>The dataset carries four Sendai <em>kokudaka</em> tiers for transparency:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th style="text-align: right;">Value</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>pre_boshin_omotedaka_koku</code> (sensitivity)</td>
+<td style="text-align: right;">620,057</td>
+<td>Pre-Boshin formal <em>omotedaka</em> (Date Masamune’s 1601 投与, frozen)</td>
+</tr>
+<tr class="even">
+<td><code>rekihaku_kyudaka_raw_koku</code> (sensitivity)</td>
+<td style="text-align: right;">974,010</td>
+<td>Pre-Boshin all-territory cadastral <em>kusadaka</em> (Rekihaku unfiltered)</td>
+</tr>
+<tr class="odd">
+<td><code>kokudaka_iv</code> (the paper’s IV)</td>
+<td style="text-align: right;"><strong>299,659</strong></td>
+<td>At-haihan-chiken <em>kusadaka</em> (Rekihaku-filtered to retained territory)</td>
+</tr>
+<tr class="even">
+<td><code>wiki_omotedaka_koku</code> (cross-ref)</td>
+<td style="text-align: right;">280,000</td>
+<td>Post-Boshin formal grant to Date Munemoto</td>
+</tr>
+</tbody>
+</table>
+<p>The carved-off territory (974,010 − 299,659 = 674,350 koku, in the 1869-created 登米県 / 胆沢県 / 江刺県 / 角田県) matches the documented Sendai 62万→28万 punitive reduction almost exactly — the 1872 cadastral preserves the Boshin penalty’s territorial fingerprint via the 旧県 column.</p>
+<p>A methodological caveat: the 旧領 column in 旧高旧領取調帳 uses different temporal-reference conventions across prefectures (per Rekihaku’s own documentation and Kimura Motoi 校訂, 1969-79). The Tōhoku volumes (where Sendai sits) treat 旧領 as the pre-Boshin Bakumatsu lord — so the carve-off filter is correct for Sendai but the convention should be re-verified for other regions before being applied elsewhere.</p>
+</div>
+</div>
 </section>
 <section id="kazoku-rank-column-kazoku_rank_actual" class="level3" data-number="16.2.2">
 <h3 data-number="16.2.2" class="anchored" data-anchor-id="kazoku-rank-column-kazoku_rank_actual"><span class="header-section-number">16.2.2</span> 1884 <em>kazoku</em> rank <em>(column <code>kazoku_rank_actual</code>)</em></h3>
