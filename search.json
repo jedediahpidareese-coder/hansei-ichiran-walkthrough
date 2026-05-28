@@ -1447,6 +1447,61 @@
     ]
   },
   {
+    "objectID": "12-hi-page-viewer.html",
+    "href": "12-hi-page-viewer.html",
+    "title": "24  HI page viewer (focal-4 sample)",
+    "section": "",
+    "text": "24.1 Launch the viewer\nOpen the viewer in this window →\nOr open in a new tab →",
+    "crumbs": [
+      "Interactive",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>HI page viewer (focal-4 sample)</span>"
+    ]
+  },
+  {
+    "objectID": "12-hi-page-viewer.html#launch-the-viewer",
+    "href": "12-hi-page-viewer.html#launch-the-viewer",
+    "title": "24  HI page viewer (focal-4 sample)",
+    "section": "",
+    "text": "TipHow to use\n\n\n\n\nThe page selector at the top lets you jump between the 8 focal-4 sample pages (kokudaka + demographics pages for each of Satsuma, Chōshū, Tosa, Saga, plus Satsuma’s militarily-significant 書ナラス “not specified” military table)\nThe image pane on the left shows the actual 1870 page. Drag to pan, scroll-wheel to zoom, or use the navigation thumbnail (bottom-left)\nColoured rectangles on the image are annotated regions. Hover any one to see the pop-up annotation\nThe data table on the right shows every MASTER-extracted value for this page. Hovering an annotation highlights its matching row; clicking a row zooms the page to the value’s location\nThe annotation language toggle (top-right) controls whether annotation pop-ups prefer the verbatim kanji, modern Japanese reading, or English translation",
+    "crumbs": [
+      "Interactive",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>HI page viewer (focal-4 sample)</span>"
+    ]
+  },
+  {
+    "objectID": "12-hi-page-viewer.html#sample-scope",
+    "href": "12-hi-page-viewer.html#sample-scope",
+    "title": "24  HI page viewer (focal-4 sample)",
+    "section": "24.2 Sample scope",
+    "text": "24.2 Sample scope\nThe 8 pages cover the four focal domains plus one pedagogically-important “edge case” (Satsuma’s military-table 書ナラス annotation). Each page demonstrates a different HI structural pattern:\n\n\n\n\n\n\n\n\nPage\nDomain\nWhat it shows\n\n\n\n\n1\n薩摩 (Satsuma)\nThe kokudaka aggregates: 草高 869k, the breakdown into 損高 / 高 / 現石, the famous Ryūkyū sugar monopoly figure (5.09M jin / ~3,055 tons/year).\n\n\n2\n薩摩 (Satsuma)\nThe Table 8 page with the literal annotation 書ナラス (“not specified”) under the domain header — explicit documentation of Satsuma’s refusal to disclose military structure.\n\n\n3\n長州 (Chōshū)\nDemographics, including the 内 X 人口 sub-row pattern (15,849 shizoku + 10,362 sotsu = 26k samurai-class out of 66k total population — a notably high samurai share).\n\n\n4\n長州 (Chōshū)\nThe kokudaka components: 草高 369k + 外高 (new field) 628k + 合高 988k — with the internal arithmetic note that 369k + 628k = 998k, not 988k. The 1870 HI source itself has a 10,000-koku discrepancy.\n\n\n5\n土佐 (Tosa)\nThe 5-year-average kokudaka (495k, covering 1864-1868 = the Boshin-precursor years) and a long product list characteristic of large domains.\n\n\n6\n土佐 (Tosa)\nShizoku/sotsu population detail (35,068 + 17,681) with internally-consistent M+F sub-totals. Also the 穢多戸數 row — a pre-1871-emancipation outcast-class count.\n\n\n7\n佐賀 (Saga)\nThe kokudaka entry using Saga’s distinctive 貮口合 平均 (“two-mouth combined, average”) phrasing for what other domains call 合高. Saga has no vol1 entry — only vol2 — so this is its only kokudaka page.\n\n\n8\n佐賀 (Saga)\nDemographics (23,823 shizoku + 43,488 sotsu — sotsu is nearly double shizoku, an unusual ratio) followed by the start of ○佐倉藩 (Sakura-han, a different domain) on the same page — illustrating HI’s stacked-page pattern.",
+    "crumbs": [
+      "Interactive",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>HI page viewer (focal-4 sample)</span>"
+    ]
+  },
+  {
+    "objectID": "12-hi-page-viewer.html#why-this-design",
+    "href": "12-hi-page-viewer.html#why-this-design",
+    "title": "24  HI page viewer (focal-4 sample)",
+    "section": "24.3 Why this design",
+    "text": "24.3 Why this design\nThe standard way to verify a tabular extraction against a source is to open the source page, find the value, and compare to the MASTER row. That’s slow per cell and prohibitively slow for a 7,000-row dataset. The viewer collapses that work to a single hover: the annotation literally points at the value on the page, shows the verbatim kanji, and links to the MASTER row. Errors of any kind — wrong value, mis-attributed field, mis-read leading digit — become visible immediately.\nThe pedagogical layer (modern Japanese reading + English translation) makes HI accessible to readers who don’t read kanbun-style Meiji-era government prose. The 1870 administrative kanji is technically modern Japanese but uses kyūjitai (旧字体, pre-1946 character forms), unfamiliar archaic vocabulary (sōdaka, gendaka, sotsu-zoku, etc.), and Edo-period unit names — all of which the per-annotation translation explicitly disambiguates.",
+    "crumbs": [
+      "Interactive",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>HI page viewer (focal-4 sample)</span>"
+    ]
+  },
+  {
+    "objectID": "12-hi-page-viewer.html#whats-next",
+    "href": "12-hi-page-viewer.html#whats-next",
+    "title": "24  HI page viewer (focal-4 sample)",
+    "section": "24.4 What’s next",
+    "text": "24.4 What’s next\nIf this 8-page sample is useful, the methodology scales to all 286 domains. The bottleneck is manual annotation — about ~10 minutes per page to identify bounding boxes and write the trilingual triplets. A full coverage of all 286 domains would be roughly 500-600 pages and 60-100 hours of annotation work. Worth considering as a follow-on project if the format proves valuable for verification or for pedagogical exhibition of the source.\n\nImage source: Hansei Ichiran (藩制一覧, 1870 — Ministry of Civil Affairs survey of domain institutions). High-resolution page scans extracted from the workspace-resident PDFs at Primary_Sources/Hansei Ichiran (1870) - Survey of Domain Institutions Vol [1/2].pdf.\nAnnotation methodology: Bounding boxes hand-drawn against each page; verbatim kanji transcribed character-by-character; modern Japanese reading and English translation written with reference to standard kokudaka / status-class vocabulary (Furushima 1968 on Edo fiscal terminology; Lebra 1993 on kazoku status conventions; Yamamura 1974 on samurai stipend categories).\nMASTER data: Each annotation links to a row in outputs/hansei_ichiran_reocr/MASTER_hansei_ichiran.csv. Page-level extracts are pre-computed in outputs/walkthrough/hi_viewer/data/master_extracts.json.\nViewer technology: OpenSeadragon 4.1.0 for deep-zoom image rendering + Annotorious-OpenSeadragon 2.7.11 for the annotation overlay. Standards-based W3C Web Annotations data format.",
+    "crumbs": [
+      "Interactive",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>HI page viewer (focal-4 sample)</span>"
+    ]
+  },
+  {
     "objectID": "08-bibliography.html",
     "href": "08-bibliography.html",
     "title": "Bibliography",

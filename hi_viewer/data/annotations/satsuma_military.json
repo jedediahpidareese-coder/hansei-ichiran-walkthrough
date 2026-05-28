@@ -1,0 +1,60 @@
+[
+  {
+    "id": "anno-satsuma_military-header",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "○鹿児島藩 (with 書ナラス)"},
+      {"purpose": "modern_jp_reading", "value": "鹿児島藩。書ナラス (かきならず) — 「記載なし」「書面に出さない」の意。"},
+      {"purpose": "english_translation", "value": "Kagoshima domain — with the explicit annotation 書ナラス ('not written / not specified'). This is the most pedagogically significant annotation in HI: it literally documents Satsuma's refusal to disclose its military structure to the new central government. Satsuma at this point was the dominant Restoration power but politically still acting semi-independently."},
+      {"purpose": "identifying", "value": "○鹿児島藩"}
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2670,200,280,500"}
+    }
+  },
+  {
+    "id": "anno-satsuma_military-troops",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "兵卒人員 千五百六十八人"},
+      {"purpose": "modern_jp_reading", "value": "兵卒人員 (へいそつじんいん) 千五百六十八人 — 「庚午三月調」(明治三年三月)"},
+      {"purpose": "english_translation", "value": "Heisotsu jin'in (rank-and-file standing army) = 1,568 men, surveyed March 1870. **This figure is dramatically below reality** — Satsuma at this time fielded roughly 16,000 Spencer-rifle-armed troops (per Ravina's biography of Saigō, the 1868–1869 Boshin force, and Esposito's Osprey volume on the Boshin War). The 1,568 likely represents only the formal post-1869-reform standing army on paper, not the actual armed force."},
+      {"purpose": "extracted_value", "value": "1,568 persons"},
+      {"purpose": "identifying", "value": "兵卒人員"}
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2200,200,300,1000"}
+    }
+  },
+  {
+    "id": "anno-satsuma_military-officers",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "大参事 / 権大参事 / 少参事 / 権少参事 計 四十七人"},
+      {"purpose": "modern_jp_reading", "value": "大参事・権大参事・少参事・権少参事 (各官職) の合計四十七人"},
+      {"purpose": "english_translation", "value": "Daisanji (Senior Councillor), Gondaisanji (Provisional Senior Councillor), Shōsanji (Junior Councillor), Gonshōsanji (Provisional Junior Councillor) — combined total 47 officers. These are the post-1869 hanseki-hōkan administrative titles after the daimyō formally returned the fief to the Emperor. Counting officers without disclosing armed strength was Satsuma's pattern."},
+      {"purpose": "extracted_value", "value": "47 persons"},
+      {"purpose": "identifying", "value": "大参事 / 権大参事 / 少参事 / 権少参事"}
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1800,200,300,1100"}
+    }
+  },
+  {
+    "id": "anno-satsuma_military-keygap",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "(implied gap — no 大砲 cannon, no 小砲 small guns, no 大隊 battalions, no 蒸氣船 / 帆前船 ships, no 騎兵 cavalry, no 砲兵 artillery)"},
+      {"purpose": "modern_jp_reading", "value": "大砲・小砲・大隊・蒸気船・帆前船・騎兵・砲兵などの軍備記載なし"},
+      {"purpose": "english_translation", "value": "KEY ABSENCE: where other domains list their cannons, ships, battalion structure, cavalry, and artillery, Satsuma's entry is blank — consistent with the 書ナラス header. The blank cells themselves carry pedagogical weight: this is what political non-disclosure looks like in a 1870 government survey."},
+      {"purpose": "identifying", "value": "(military structure gap)"}
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:600,200,1200,3500"}
+    }
+  }
+]

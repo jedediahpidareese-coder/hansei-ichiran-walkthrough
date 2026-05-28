@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hansei Ichiran Page Viewer — Focal-4</title>
+<!-- OpenSeadragon (image viewer with deep-zoom) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+<!-- Annotorious for OpenSeadragon (overlays + hover popups) -->
+<link href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.11/dist/annotorious.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.11/dist/openseadragon-annotorious.min.js"></script>
+<link href="viewer.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="viewer-header">
+<h1>Hansei Ichiran (1870) — Focal-4 Page Viewer</h1>
+<div class="header-controls">
+<label class="lang-toggle">
+<span>Annotation language:</span>
+<select id="lang-select">
+<option value="kanji">Verbatim kanji (源文)</option>
+<option value="modern_jp">Modern Japanese reading</option>
+<option selected="" value="en">English</option>
+</select>
+</label>
+</div>
+</header>
+<nav class="page-nav">
+<button disabled="" id="prev-page">← Previous</button>
+<select id="page-select"></select>
+<button id="next-page">Next →</button>
+<div class="page-meta">
+<span id="page-domain"></span>
+<span id="page-topic"></span>
+<span id="page-book-page"></span>
+</div>
+</nav>
+<main class="viewer-main">
+<section class="image-pane">
+<div id="osd-viewer"></div>
+<div class="image-meta">
+<small id="image-filename"></small>
+</div>
+</section>
+<aside class="data-pane">
+<h2>Extracted data from this page</h2>
+<p class="data-help">Hover or click an annotation on the page (left) to highlight its corresponding row here. Click a row to zoom the page to its location.</p>
+<table class="extract-table">
+<thead>
+<tr><th>HI field</th><th>Value</th><th>Unit</th><th>Confidence</th></tr>
+</thead>
+<tbody id="extract-rows"></tbody>
+</table>
+<section class="page-summary" id="page-summary"></section>
+</aside>
+</main>
+<footer class="viewer-footer">
+<p>Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>; annotations are hand-curated against the source pages. Click any annotation for the verbatim kanji, a modern Japanese reading, and an English translation.</p>
+</footer>
+<script src="viewer.js"></script>
+</body>
+</html>
