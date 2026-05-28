@@ -127,7 +127,7 @@ async function loadPage(idx) {
   $('#page-select').value = idx;
 
   renderPageMeta(page);
-  $('#page-img').src = page.image;
+  $('#page-img').src = `${page.image}?v=20260528c`;
   $('#page-img').alt = `HI page — ${page.domain_canonical}, ${page.page_topic}`;
 
   renderExtractTable(page.id);
