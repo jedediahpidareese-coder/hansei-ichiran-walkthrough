@@ -251,24 +251,26 @@ body {
  * and .a9s-outer (the stroke). We override both.
  * ============================================================ */
 
+/* No visible rectangle at rest — annotation regions are completely
+ * invisible until hovered. On hover, mix-blend-mode multiply makes
+ * the kanji glyphs glow yellow (the highlight only affects dark pixels,
+ * so the white paper background stays white and the text appears to
+ * light up). */
 .a9s-annotation .a9s-inner,
 .a9s-annotation .a9s-outer {
-  fill: rgba(255, 220, 0, 0.0) !important;
-  stroke: rgba(0, 100, 200, 0.25) !important;
-  stroke-width: 1px !important;
-  stroke-dasharray: 4 6 !important;
-  transition: fill 0.2s ease, stroke 0.2s ease, stroke-width 0.2s ease;
+  fill: transparent !important;
+  stroke: transparent !important;
+  transition: fill 0.15s ease;
+  cursor: pointer;
 }
 
 .a9s-annotation:hover .a9s-inner {
-  fill: rgba(255, 215, 0, 0.7) !important;
+  fill: rgba(255, 215, 0, 0.85) !important;
   mix-blend-mode: multiply;
 }
 
 .a9s-annotation:hover .a9s-outer {
-  stroke: rgba(255, 140, 0, 0.85) !important;
-  stroke-width: 2.5px !important;
-  stroke-dasharray: none !important;
+  stroke: transparent !important;
 }
 
 /* When a side-table row is hovered, the matching annotation should also

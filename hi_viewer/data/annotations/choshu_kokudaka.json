@@ -3,60 +3,136 @@
     "id": "anno-choshu_koku-sodaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "草高 三拾六萬九千四百拾壹石餘"},
-      {"purpose": "modern_jp_reading", "value": "草高 (くさだか) 三十六万九千四百十一石余"},
-      {"purpose": "english_translation", "value": "Sōdaka = 369,411 koku. This is the base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."},
-      {"purpose": "extracted_value", "value": "369,411 koku"},
-      {"purpose": "identifying", "value": "草高"}
+      {
+        "purpose": "transcribing",
+        "value": "草高 三拾六萬九千四百拾壹石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 (くさだか) 三十六万九千四百十一石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sōdaka = 369,411 koku. This is the base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "369,411 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2075,150,110,1700"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2075,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_koku-gaidaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "外 高 六拾貳萬八千五百九十三石餘 (新田 打出)"},
-      {"purpose": "modern_jp_reading", "value": "外高 (新田・打出) 六十二万八千五百九十三石余"},
-      {"purpose": "english_translation", "value": "External 'high' (new-field / uchikiage uplift) = 628,593 koku. Land developed after the original kokudaka assessment — primarily reclamation and intensification work over the Edo period. This is dramatically larger than the base 草高."},
-      {"purpose": "extracted_value", "value": "628,593 koku"},
-      {"purpose": "identifying", "value": "外 高"}
+      {
+        "purpose": "transcribing",
+        "value": "外 高 六拾貳萬八千五百九十三石餘 (新田 打出)"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外高 (新田・打出) 六十二万八千五百九十三石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "External 'high' (new-field / uchikiage uplift) = 628,593 koku. Land developed after the original kokudaka assessment — primarily reclamation and intensification work over the Edo period. This is dramatically larger than the base 草高."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "628,593 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外 高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1935,150,115,2200"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1935,1000,115,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_koku-godaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "合 高 九拾八萬八千四石餘"},
-      {"purpose": "modern_jp_reading", "value": "合高 (ごうだか) 九十八万八千四石余"},
-      {"purpose": "english_translation", "value": "Combined high (godaka) = 988,004 koku. **INTERNAL HI ARITHMETIC NOTE**: 369,411 + 628,593 = 998,004, NOT 988,004. The HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully — both the components and the printed-but-wrong total. The dataset's kokudaka_iv uses the 988,004 combined figure as printed by HI."},
-      {"purpose": "extracted_value", "value": "988,004 koku"},
-      {"purpose": "identifying", "value": "合高"}
+      {
+        "purpose": "transcribing",
+        "value": "合 高 九拾八萬八千四石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高 (ごうだか) 九十八万八千四石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined high (godaka) = 988,004 koku. **INTERNAL HI ARITHMETIC NOTE**: 369,411 + 628,593 = 998,004, NOT 988,004. The HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully — both the components and the printed-but-wrong total. The dataset's kokudaka_iv uses the 988,004 combined figure as printed by HI."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "988,004 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1810,150,110,1700"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1810,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_koku-seiso",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "正租 現米 貳拾萬六千九百拾石"},
-      {"purpose": "modern_jp_reading", "value": "正租 (せいそ) 現米 二十万六千九百十石"},
-      {"purpose": "english_translation", "value": "Main tax rice (seiso genmai) = 206,910 koku. The actual flow of rice to the domain treasury. About 21% of the assessed 合高 (988k), broadly consistent with Edo-period effective tax rates of 20-30% on rice production."},
-      {"purpose": "extracted_value", "value": "206,910 koku"},
-      {"purpose": "identifying", "value": "正租 現米"}
+      {
+        "purpose": "transcribing",
+        "value": "正租 現米 貳拾萬六千九百拾石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 (せいそ) 現米 二十万六千九百十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax rice (seiso genmai) = 206,910 koku. The actual flow of rice to the domain treasury. About 21% of the assessed 合高 (988k), broadly consistent with Edo-period effective tax rates of 20-30% on rice production."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "206,910 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 現米"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1675,150,115,1800"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1675,1000,115,1450"
+      }
     }
   }
 ]

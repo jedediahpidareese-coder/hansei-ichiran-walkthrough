@@ -3,75 +3,170 @@
     "id": "anno-tosa_dem-shizoku",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "士族人口 三萬五千六十八人 (内 男 一萬五千三百六十八人 / 女 一萬九千七百人)"},
-      {"purpose": "modern_jp_reading", "value": "士族人口 (しぞくじんこう) 三万五千六十八人 — うち男 一万五千三百六十八人、女 一万九千七百人"},
-      {"purpose": "english_translation", "value": "Shizoku population = 35,068 persons (M 15,368 + F 19,700 = 35,068 — sum checks ✓). Tosa's unusually large shizoku class reflects its gōshi (郷士) system — rural land-holding lower samurai who supplied the radical Restoration-era leaders (Sakamoto Ryōma, Nakaoka Shintarō, et al.)."},
-      {"purpose": "extracted_value", "value": "35,068 persons"},
-      {"purpose": "identifying", "value": "士族人口"}
+      {
+        "purpose": "transcribing",
+        "value": "士族人口 三萬五千六十八人 (内 男 一萬五千三百六十八人 / 女 一萬九千七百人)"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口 (しぞくじんこう) 三万五千六十八人 — うち男 一万五千三百六十八人、女 一万九千七百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 35,068 persons (M 15,368 + F 19,700 = 35,068 — sum checks ✓). Tosa's unusually large shizoku class reflects its gōshi (郷士) system — rural land-holding lower samurai who supplied the radical Restoration-era leaders (Sakamoto Ryōma, Nakaoka Shintarō, et al.)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "35,068 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
     ],
     "target": {
       "source": "images/upper_p090_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2065,150,110,2200"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2065,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-tosa_dem-shi_kosuu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "内 士族戸數 七千二百六十九戸"},
-      {"purpose": "modern_jp_reading", "value": "うち士族戸数 (しぞくこすう) 七千二百六十九戸"},
-      {"purpose": "english_translation", "value": "Of which: shizoku households = 7,269. Cross-check: 35,068 persons / 7,269 households = 4.83 persons per household. Plausible."},
-      {"purpose": "extracted_value", "value": "7,269 households"},
-      {"purpose": "identifying", "value": "内 士族戸數"}
+      {
+        "purpose": "transcribing",
+        "value": "内 士族戸數 七千二百六十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち士族戸数 (しぞくこすう) 七千二百六十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: shizoku households = 7,269. Cross-check: 35,068 persons / 7,269 households = 4.83 persons per household. Plausible."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "7,269 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 士族戸數"
+      }
     ],
     "target": {
       "source": "images/upper_p090_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1940,150,110,1500"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1940,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-tosa_dem-sotsu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "卒族人口 壹萬七千六百八拾壹人"},
-      {"purpose": "modern_jp_reading", "value": "卒族人口 (そつぞくじんこう) 一万七千六百八十一人"},
-      {"purpose": "english_translation", "value": "Sotsu population = 17,681 persons. Combined with shizoku 35,068, total samurai-class = 52,749 = about 10% of total population — moderate by focal-4 standards."},
-      {"purpose": "extracted_value", "value": "17,681 persons"},
-      {"purpose": "identifying", "value": "卒族人口"}
+      {
+        "purpose": "transcribing",
+        "value": "卒族人口 壹萬七千六百八拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人口 (そつぞくじんこう) 一万七千六百八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population = 17,681 persons. Combined with shizoku 35,068, total samurai-class = 52,749 = about 10% of total population — moderate by focal-4 standards."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "17,681 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
     ],
     "target": {
       "source": "images/upper_p090_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1800,150,110,1800"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1800,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-tosa_dem-sotsu_kosuu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "卒族戸數 三千七百十三戸"},
-      {"purpose": "modern_jp_reading", "value": "卒族戸数 (そつぞくこすう) 三千七百十三戸"},
-      {"purpose": "english_translation", "value": "Sotsu households = 3,713. Cross-check: 17,681 / 3,713 = 4.76 persons per household. Consistent with shizoku ratio."},
-      {"purpose": "extracted_value", "value": "3,713 households"},
-      {"purpose": "identifying", "value": "卒族戸數"}
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數 三千七百十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 (そつぞくこすう) 三千七百十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households = 3,713. Cross-check: 17,681 / 3,713 = 4.76 persons per household. Consistent with shizoku ratio."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,713 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
     ],
     "target": {
       "source": "images/upper_p090_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1685,150,110,1500"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1685,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-tosa_dem-eta",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "穢多戸數 三千三百九十六戸"},
-      {"purpose": "modern_jp_reading", "value": "穢多 (えた) 戸数 — 江戸時代の被差別民集団の戸数。1871年の解放令前の最後の公式集計の一つ。"},
-      {"purpose": "english_translation", "value": "Eta households = 3,396. This is the outcast-class population in Edo-period status hierarchy. HI was compiled in 1870, less than a year before the 1871 解放令 (kaihō rei, emancipation edict) that formally abolished the eta-hinin status category — making HI one of the last official tallies of the pre-emancipation outcast population."},
-      {"purpose": "extracted_value", "value": "3,396 households"},
-      {"purpose": "identifying", "value": "穢多戸數"}
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數 三千三百九十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多 (えた) 戸数 — 江戸時代の被差別民集団の戸数。1871年の解放令前の最後の公式集計の一つ。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta households = 3,396. This is the outcast-class population in Edo-period status hierarchy. HI was compiled in 1870, less than a year before the 1871 解放令 (kaihō rei, emancipation edict) that formally abolished the eta-hinin status category — making HI one of the last official tallies of the pre-emancipation outcast population."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,396 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
     ],
     "target": {
       "source": "images/upper_p090_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1395,150,115,1400"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1395,1000,115,1450"
+      }
     }
   }
 ]

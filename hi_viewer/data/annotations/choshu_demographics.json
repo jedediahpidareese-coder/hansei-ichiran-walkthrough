@@ -3,60 +3,136 @@
     "id": "anno-choshu_dem-jinkou",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "人口 六萬六千四百六十三人"},
-      {"purpose": "modern_jp_reading", "value": "人口 (じんこう) は六万六千四百六十三人"},
-      {"purpose": "english_translation", "value": "Total population (jinkō) = 66,463 persons. Combined with the 39% samurai-class share (士族+卒族 = 26,211 / 66,463), Chōshū is unusually samurai-dense — consistent with its post-1860s mobilization for the Restoration."},
-      {"purpose": "extracted_value", "value": "66,463 persons"},
-      {"purpose": "identifying", "value": "人口"}
+      {
+        "purpose": "transcribing",
+        "value": "人口 六萬六千四百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 (じんこう) は六万六千四百六十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population (jinkō) = 66,463 persons. Combined with the 39% samurai-class share (士族+卒族 = 26,211 / 66,463), Chōshū is unusually samurai-dense — consistent with its post-1860s mobilization for the Restoration."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "66,463 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
     ],
     "target": {
       "source": "images/upper_p193_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2570,150,110,2200"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2570,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_dem-kosuu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "戸數 一萬七千七百十四"},
-      {"purpose": "modern_jp_reading", "value": "戸数 (こすう) は一万七千七百十四戸"},
-      {"purpose": "english_translation", "value": "Total households = 17,714. Cross-check: 66,463 / 17,714 = 3.75 persons per household — a low ratio characteristic of samurai-heavy registries where individual stipend-receiving households are counted separately even if part of a single residence."},
-      {"purpose": "extracted_value", "value": "17,714 households"},
-      {"purpose": "identifying", "value": "戸數"}
+      {
+        "purpose": "transcribing",
+        "value": "戸數 一萬七千七百十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 (こすう) は一万七千七百十四戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 17,714. Cross-check: 66,463 / 17,714 = 3.75 persons per household — a low ratio characteristic of samurai-heavy registries where individual stipend-receiving households are counted separately even if part of a single residence."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "17,714 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
     ],
     "target": {
       "source": "images/upper_p193_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2435,150,110,1800"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2435,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_dem-shizoku",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "内 士族 人口 一萬五千八百四十九人"},
-      {"purpose": "modern_jp_reading", "value": "うち士族 (しぞく) の人口は一万五千八百四十九人"},
-      {"purpose": "english_translation", "value": "Of which: shizoku (samurai-class) population = 15,849 persons. The 内 prefix marks this as a SUB-COUNT of the total. This labeling pattern (内 X 人口) was the gap that caused Chōshū's HI shizoku data to be missing from the analytic dataset until the 2026-05-27 build-script fix added 内 X 人口 to the whitelist."},
-      {"purpose": "extracted_value", "value": "15,849 persons"},
-      {"purpose": "identifying", "value": "内 士族 人口"}
+      {
+        "purpose": "transcribing",
+        "value": "内 士族 人口 一萬五千八百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち士族 (しぞく) の人口は一万五千八百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: shizoku (samurai-class) population = 15,849 persons. The 内 prefix marks this as a SUB-COUNT of the total. This labeling pattern (内 X 人口) was the gap that caused Chōshū's HI shizoku data to be missing from the analytic dataset until the 2026-05-27 build-script fix added 内 X 人口 to the whitelist."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "15,849 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 士族 人口"
+      }
     ],
     "target": {
       "source": "images/upper_p193_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2155,300,110,2000"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2155,1000,110,1450"
+      }
     }
   },
   {
     "id": "anno-choshu_dem-sotsu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "内 卒族 人口 一萬三百六十二人"},
-      {"purpose": "modern_jp_reading", "value": "うち卒族 (そつぞく) の人口は一万三百六十二人"},
-      {"purpose": "english_translation", "value": "Of which: sotsu-class (lower samurai / ashigaru) population = 10,362 persons. Same 内 prefix convention as the shizoku row. This figure cross-validates exactly with the primary-source Meiji Shiyō entry (10,362)."},
-      {"purpose": "extracted_value", "value": "10,362 persons"},
-      {"purpose": "identifying", "value": "内 卒族 人口"}
+      {
+        "purpose": "transcribing",
+        "value": "内 卒族 人口 一萬三百六十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち卒族 (そつぞく) の人口は一万三百六十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: sotsu-class (lower samurai / ashigaru) population = 10,362 persons. Same 内 prefix convention as the shizoku row. This figure cross-validates exactly with the primary-source Meiji Shiyō entry (10,362)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "10,362 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 卒族 人口"
+      }
     ],
     "target": {
       "source": "images/upper_p193_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2030,300,110,1800"}
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2030,1000,110,1450"
+      }
     }
   }
 ]
