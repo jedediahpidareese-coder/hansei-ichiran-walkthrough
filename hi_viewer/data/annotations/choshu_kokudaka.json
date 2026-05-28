@@ -3,17 +3,29 @@
     "id": "anno-choshu_koku-header",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "○山口藩"},
-      {"purpose": "modern_jp_reading", "value": "山口藩 (やまぐちはん) — 長州藩"},
-      {"purpose": "english_translation", "value": "Yamaguchi domain (= Chōshū). The ○ marker introduces the Chōshū kokudaka entry on the left half of this stacked page. The right half completes a different domain's demographic table."},
-      {"purpose": "identifying", "value": "○山口藩"}
+      {
+        "purpose": "transcribing",
+        "value": "○山口藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "山口藩 (やまぐちはん) — 長州藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yamaguchi domain (= Chōshū). The ○ marker introduces the Chōshū kokudaka entry on the left half of this stacked page. The right half completes a different domain's demographic table."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○山口藩"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1510,200,110,2500"
+        "value": "xywh=pixel:1810,1066,110,1697"
       }
     }
   },
@@ -21,18 +33,33 @@
     "id": "anno-choshu_koku-sodaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "草高 三拾六萬九千四百拾壹石餘"},
-      {"purpose": "modern_jp_reading", "value": "草高 (くさだか) 三十六万九千四百十一石余"},
-      {"purpose": "english_translation", "value": "Sōdaka = 369,411 koku. The base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."},
-      {"purpose": "extracted_value", "value": "369,411 koku"},
-      {"purpose": "identifying", "value": "草高"}
+      {
+        "purpose": "transcribing",
+        "value": "草高 三拾六萬九千四百拾壹石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 (くさだか) 三十六万九千四百十一石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sōdaka = 369,411 koku. The base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "369,411 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1335,1000,110,3200"
+        "value": "xywh=pixel:1535,1060,110,1518"
       }
     }
   },
@@ -40,18 +67,33 @@
     "id": "anno-choshu_koku-gaidaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "外 高 六拾貳萬八千五百九拾三石餘 (新田 打出)"},
-      {"purpose": "modern_jp_reading", "value": "外高 (新田・打出) 六十二万八千五百九拾三石余"},
-      {"purpose": "english_translation", "value": "External 'high' (new-field / uchikiage uplift) = 628,593 koku. Land developed after the original kokudaka assessment — primarily reclamation and intensification work over the Edo period. This is dramatically larger than the base 草高."},
-      {"purpose": "extracted_value", "value": "628,593 koku"},
-      {"purpose": "identifying", "value": "外 高"}
+      {
+        "purpose": "transcribing",
+        "value": "外 高 六拾貳萬八千五百九拾三石餘 (新田 打出)"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外高 (新田・打出) 六十二万八千五百九拾三石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "External 'high' (new-field / uchikiage uplift) = 628,593 koku. Land developed after the original kokudaka assessment — primarily reclamation and intensification work over the Edo period. This is dramatically larger than the base 草高."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "628,593 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外 高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1195,1000,110,3200"
+        "value": "xywh=pixel:1382,1393,110,579"
       }
     }
   },
@@ -59,18 +101,33 @@
     "id": "anno-choshu_koku-gaisanbutsu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "外產物 生蠟稅 四百八十兩"},
-      {"purpose": "modern_jp_reading", "value": "外産物 — 生蠟税 四百八十両"},
-      {"purpose": "english_translation", "value": "External products — raw-wax tax = 480 ryō (gold). Side-listing of taxes collected on Chōshū's wax production. Sits between 合高 and 正租 in the page's column order."},
-      {"purpose": "extracted_value", "value": "480 ryō"},
-      {"purpose": "identifying", "value": "外產物"}
+      {
+        "purpose": "transcribing",
+        "value": "外產物 生蠟稅 四百八十兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外産物 — 生蠟税 四百八十両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "External products — raw-wax tax = 480 ryō (gold). Side-listing of taxes collected on Chōshū's wax production. Sits between 合高 and 正租 in the page's column order."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "480 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外產物"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:915,1000,110,3200"
+        "value": "xywh=pixel:1274,1057,110,1187"
       }
     }
   },
@@ -78,18 +135,33 @@
     "id": "anno-choshu_koku-godaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "合 高 九拾八萬八千四石餘"},
-      {"purpose": "modern_jp_reading", "value": "合高 (ごうだか) 九十八万八千四石余"},
-      {"purpose": "english_translation", "value": "Combined high (godaka) = 988,004 koku. INTERNAL HI ARITHMETIC NOTE: 369,411 + 628,593 = 998,004, NOT 988,004. The HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully — both the components and the printed-but-wrong total. The 校訂者云 marginal note flags the discrepancy."},
-      {"purpose": "extracted_value", "value": "988,004 koku"},
-      {"purpose": "identifying", "value": "合高"}
+      {
+        "purpose": "transcribing",
+        "value": "合 高 九拾八萬八千四石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高 (ごうだか) 九十八万八千四石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined high (godaka) = 988,004 koku. INTERNAL HI ARITHMETIC NOTE: 369,411 + 628,593 = 998,004, NOT 988,004. The HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully — both the components and the printed-but-wrong total. The 校訂者云 marginal note flags the discrepancy."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "988,004 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1055,1000,110,3200"
+        "value": "xywh=pixel:1134,1221,110,1496"
       }
     }
   },
@@ -97,18 +169,33 @@
     "id": "anno-choshu_koku-seiso",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "正租 現米 貳拾萬六千九百拾石 錢拾壹萬六千七百五拾貳文"},
-      {"purpose": "modern_jp_reading", "value": "正租 (せいそ) 現米 二十万六千九百十石、錢 十一万六千七百五十二文"},
-      {"purpose": "english_translation", "value": "Main tax — rice in kind = 206,910 koku; copper-coin = 116,752 mon. The 正租 is the principal land tax; the entry shows both the rice and the coin components."},
-      {"purpose": "extracted_value", "value": "206,910 koku rice"},
-      {"purpose": "identifying", "value": "正租 現米"}
+      {
+        "purpose": "transcribing",
+        "value": "正租 現米 貳拾萬六千九百拾石 錢拾壹萬六千七百五拾貳文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 (せいそ) 現米 二十万六千九百十石、錢 十一万六千七百五十二文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax — rice in kind = 206,910 koku; copper-coin = 116,752 mon. The 正租 is the principal land tax; the entry shows both the rice and the coin components."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "206,910 koku rice"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 現米"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:775,1000,110,3200"
+        "value": "xywh=pixel:1012,1142,110,933"
       }
     }
   },
@@ -116,18 +203,33 @@
     "id": "anno-choshu_koku-zatsuzei",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "雜稅 米壹萬四千五百八拾三石 銀八百九拾貳貫八百六拾目 石炭 三百二十兩"},
-      {"purpose": "modern_jp_reading", "value": "雑税 (ざつぜい) — 米14,583石、銀892貫860目、石炭320両"},
-      {"purpose": "english_translation", "value": "Miscellaneous tax: 14,583 koku rice + 892.86 kanme silver + 320 ryō coal-tax. Chōshū's 雜稅 entry includes a coal levy — distinctive among western-Japan domains; reflects the early coal extraction in the Yamaguchi region."},
-      {"purpose": "extracted_value", "value": "14,583 koku rice + silver + coal"},
-      {"purpose": "identifying", "value": "雜稅"}
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 米壹萬四千五百八拾三石 銀八百九拾貳貫八百六拾目 石炭 三百二十兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 (ざつぜい) — 米14,583石、銀892貫860目、石炭320両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax: 14,583 koku rice + 892.86 kanme silver + 320 ryō coal-tax. Chōshū's 雜稅 entry includes a coal levy — distinctive among western-Japan domains; reflects the early coal extraction in the Yamaguchi region."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "14,583 koku rice + silver + coal"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:395,1000,110,3200"
+        "value": "xywh=pixel:743,1051,110,1273"
       }
     }
   }
