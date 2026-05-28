@@ -1,19 +1,19 @@
 [
   {
-    "id": "anno-tosa_dem-shizoku",
+    "id": "anno-tosa_dem-shizoku-pop",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族人口 三萬五千六十八人 (内 男 一萬五千三百六十八人 / 女 一萬九千七百人)"
+        "value": "同 人口 三萬五千六十八人 (内 男 一萬五千三百六十八人 / 女 一萬九千七百人)"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族人口 (しぞくじんこう) 三万五千六十八人 — うち男 一万五千三百六十八人、女 一万九千七百人"
+        "value": "同人口 (士族人口) 三万五千六十八人 — うち男 15,368人、女 19,700人"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population = 35,068 persons (M 15,368 + F 19,700 = 35,068 — sum checks ✓). Tosa's unusually large shizoku class reflects its gōshi (郷士) system — rural land-holding lower samurai who supplied the radical Restoration-era leaders (Sakamoto Ryōma, Nakaoka Shintarō, et al.)."
+        "value": "Shizoku population = 35,068 persons (M 15,368 + F 19,700 ✓). Listed in HI as 同人口 ('same group's population') as a sub of the 士族戸數 column to the right. Tosa's large shizoku class reflects its gōshi (郷士) system."
       },
       {
         "purpose": "extracted_value",
@@ -29,12 +29,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1655,1075,110,1275"
+        "value": "xywh=pixel:1670,1100,110,3100"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-shi_kosuu",
+    "id": "anno-tosa_dem-shizoku-hh",
     "type": "Annotation",
     "body": [
       {
@@ -43,11 +43,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち士族戸数 (しぞくこすう) 七千二百六十九戸"
+        "value": "士族戸数 七千二百六十九戸 (内: 戸數総計の内訳)"
       },
       {
         "purpose": "english_translation",
-        "value": "Of which: shizoku households = 7,269. Cross-check: 35,068 persons / 7,269 households = 4.83 persons per household. Plausible."
+        "value": "Shizoku households = 7,269 (内/'of which' from the 戸數 total). 35,068 / 7,269 ≈ 4.83 persons per household."
       },
       {
         "purpose": "extracted_value",
@@ -55,7 +55,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "内 士族戸數"
+        "value": "士族戸數"
       }
     ],
     "target": {
@@ -63,12 +63,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1792,1075,110,1095"
+        "value": "xywh=pixel:1792,1100,110,3100"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu_kosuu",
+    "id": "anno-tosa_dem-sotsu-hh",
     "type": "Annotation",
     "body": [
       {
@@ -81,7 +81,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu households = 3,713. Cross-check: 17,681 / 3,713 = 4.76 persons per household. Consistent with shizoku ratio."
+        "value": "Sotsu households = 3,713. 17,681 / 3,713 ≈ 4.76 persons per household."
       },
       {
         "purpose": "extracted_value",
@@ -97,25 +97,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1518,1075,110,925"
+        "value": "xywh=pixel:1518,1100,110,3100"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu",
+    "id": "anno-tosa_dem-sotsu-pop",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "卒族人口 壹萬七千六百八拾壹人"
+        "value": "同 人口 壹萬七千六百八拾壹人 (内 男... / 女...)"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒族人口 (そつぞくじんこう) 一万七千六百八十一人"
+        "value": "同人口 (卒族人口) 一万七千六百八十一人"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu population = 17,681 persons. Combined with shizoku 35,068, total samurai-class = 52,749 = about 10% of total population — moderate by focal-4 standards."
+        "value": "Sotsu population = 17,681. Combined shizoku + sotsu = 52,749 ≈ 10% of total population."
       },
       {
         "purpose": "extracted_value",
@@ -131,7 +131,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1382,1075,110,1275"
+        "value": "xywh=pixel:1389,1100,110,3100"
       }
     }
   },
@@ -145,11 +145,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "穢多 (えた) 戸数 — 江戸時代の被差別民集団の戸数。1871年の解放令前の最後の公式集計の一つ。"
+        "value": "穢多 (えた) 戸数 三千三百九十六戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Eta households = 3,396. This is the outcast-class population in Edo-period status hierarchy. HI was compiled in 1870, less than a year before the 1871 解放令 (kaihō rei, emancipation edict) that formally abolished the eta-hinin status category — making HI one of the last official tallies of the pre-emancipation outcast population."
+        "value": "Eta households = 3,396. HI (1870) is one of the last official tallies of the pre-emancipation outcast population (the 1871 解放令 abolished the eta-hinin status)."
       },
       {
         "purpose": "extracted_value",
@@ -165,7 +165,177 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:975,1075,110,1275"
+        "value": "xywh=pixel:1250,1100,110,3100"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-shrine",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 壹萬座"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 (じんじゃ) 一万座"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 10,000 — a round number, typical of HI when exact counts of small entities were impractical."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "10,000 shrines"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:975,1100,110,3100"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-shinto-priest",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神職修驗等戸數 壹千零十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神職修験等戸数 一千零十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto priest + shugendō ascetic households = 1,016."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,016 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職修驗等戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:841,1100,110,3100"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-temple",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院 四百七十六字"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院 (じいん) 四百七十六字"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 476. The unit 字 is a synonym for 寺 here."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "476 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:565,1100,110,3100"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-army",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "常備兵 六千七百六拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "常備兵 (じょうびへい) 六千七百六十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Standing army = 6,760 persons."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6,760 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "常備兵"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:298,1100,110,1100"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-reserve",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非常兵 貳千四百人 (合九千人)"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非常兵 (ひじょうへい) 二千四百人 — 合計九千人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Emergency-reserve army = 2,400 persons. Combined w/ standing army (6,760) ≈ 9,000 total mil. strength."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,400 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非常兵"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:298,2200,110,1300"
       }
     }
   }
