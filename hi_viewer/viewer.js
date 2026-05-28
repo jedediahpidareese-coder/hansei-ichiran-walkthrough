@@ -75,9 +75,23 @@ function setActiveField(fieldJp) {
   document.querySelectorAll('.highlight-box').forEach(el => {
     el.classList.toggle('active', el.dataset.fieldJp === fieldJp);
   });
+  let activeRow = null;
   document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
-    tr.classList.toggle('active', tr.dataset.fieldJp === fieldJp);
+    const on = tr.dataset.fieldJp === fieldJp;
+    tr.classList.toggle('active', on);
+    if (on) activeRow = tr;
   });
+  // Scroll the activated row into view if it's off-screen
+  if (activeRow) {
+    const pane = document.querySelector('.data-pane');
+    if (pane) {
+      const rowRect = activeRow.getBoundingClientRect();
+      const paneRect = pane.getBoundingClientRect();
+      if (rowRect.top < paneRect.top + 40 || rowRect.bottom > paneRect.bottom - 10) {
+        activeRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }
 }
 
 function clearActiveField() {
@@ -219,7 +233,7 @@ function loadPage(idx) {
   // Reload the page image; the load event triggers renderHighlightLayer
   const img = $('#page-img');
   img.onload = () => renderHighlightLayer();
-  img.src = `${page.image}?v=20260528d`;
+  img.src = `${page.image}?v=20260528e`;
   img.alt = `HI page — ${page.domain_canonical}, ${page.page_topic}`;
 
   renderExtractTable(page.id);

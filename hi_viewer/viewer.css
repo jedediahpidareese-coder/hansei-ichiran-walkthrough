@@ -96,15 +96,16 @@ body {
   position: absolute;
   pointer-events: auto;
   cursor: pointer;
-  background: rgba(255, 200, 0, 0.08);
-  border: 1px solid rgba(180, 140, 0, 0.35);
+  background: rgba(255, 200, 0, 0.18);
+  border: 1.5px solid rgba(180, 140, 0, 0.65);
   transition: background-color 0.12s, border-color 0.12s, box-shadow 0.12s;
 }
 .highlight-box:hover,
 .highlight-box.active {
-  background: rgba(255, 200, 0, 0.40);
-  border: 2px solid rgba(180, 100, 0, 0.95);
-  box-shadow: 0 0 14px rgba(255, 180, 0, 0.6);
+  background: rgba(255, 200, 0, 0.50);
+  border: 2px solid rgba(180, 100, 0, 1);
+  box-shadow: 0 0 14px rgba(255, 180, 0, 0.7);
+  z-index: 3;
 }
 .image-meta {
   margin-top: 6px;
@@ -169,7 +170,10 @@ body {
 }
 .extract-table tr.active {
   background: #fff3cd;
-  outline: 2px solid #ffc107;
+  box-shadow: inset 4px 0 0 #f39c12;
+}
+.extract-table tr.active td {
+  font-weight: 600;
 }
 
 .extract-table .field-jp {
