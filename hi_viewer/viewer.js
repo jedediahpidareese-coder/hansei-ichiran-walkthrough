@@ -284,11 +284,21 @@ function applyMode() {
     overlay.hidden = false;
     controls.hidden = false;
     setAnnotoriousVisible(false);
-    // Defer one frame so OSD has a chance to paint before we ask the
-    // viewport for coordinates. Without the rAF, on a fresh page load
-    // the viewport hasn't sized itself yet and every kanji div ends up
-    // at the same off-screen position.
-    requestAnimationFrame(() => rebuildTranscriptionOverlay());
+    // Showing the controls strip shrinks .viewer-main, which shrinks
+    // #osd-viewer. Force OSD to recompute its viewport against the new
+    // container size BEFORE we ask it for image-to-viewer coordinates,
+    // otherwise every kanji div lands at the pre-resize position
+    // (offset up/left by the difference).
+    requestAnimationFrame(() => {
+      if (viewer) {
+        if (typeof viewer.forceResize === 'function') viewer.forceResize();
+        if (viewer.viewport && typeof viewer.viewport.resize === 'function') {
+          viewer.viewport.resize();
+          viewer.viewport.update();
+        }
+      }
+      requestAnimationFrame(() => rebuildTranscriptionOverlay());
+    });
   } else {
     overlay.hidden = true;
     controls.hidden = true;
@@ -296,6 +306,11 @@ function applyMode() {
     // Reset opacities so the annotations-mode page is fully visible
     setImageOpacity(1.0);
     setOverlayOpacity(1.0);
+    // Same resize issue in reverse — OSD needs to know the viewer grew
+    // back when the controls strip went away.
+    requestAnimationFrame(() => {
+      if (viewer && typeof viewer.forceResize === 'function') viewer.forceResize();
+    });
   }
 }
 
@@ -420,6 +435,25 @@ async function init() {
   $('#mode-select').addEventListener('change', (e) => {
     currentMode = e.target.value;
     applyMode();
+  });
+
+  // Watch the OSD container for size changes (controls-strip toggling,
+  // window resize, devtools opening, etc.) and re-position the overlay
+  // whenever it changes.
+  const osdEl = document.getElementById('osd-viewer');
+  if (osdEl && typeof ResizeObserver === 'function') {
+    new ResizeObserver(() => {
+      if (currentMode === 'transcription') {
+        if (viewer && viewer.viewport && typeof viewer.viewport.resize === 'function') {
+          viewer.viewport.resize();
+          viewer.viewport.update();
+        }
+        repositionOverlay();
+      }
+    }).observe(osdEl);
+  }
+  window.addEventListener('resize', () => {
+    if (currentMode === 'transcription') repositionOverlay();
   });
 
   $('#image-opacity').addEventListener('input', (e) => {
