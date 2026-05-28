@@ -1,10 +1,9 @@
 /* HI page viewer — focal-4 sample
  *
- * Two view modes:
- *   1. annotations   — Annotorious-driven bounding boxes with hover popups
- *   2. transcription — typed kanji rendered as positioned divs on top of OSD;
- *                      opacity slider lets Jed fade the original page in/out
- *                      to verify alignment between transcription and source
+ * Annotations-only mode: Annotorious-driven bounding boxes with hover
+ * popups. (An earlier "transcription overlay" mode that rendered typed
+ * kanji on top of the page was removed — positioning was unreliable
+ * across pages and the highlight approach is clearer.)
  *
  * Loads:
  *   data/pages.json           — page manifest (sequence, image path, metadata)
@@ -19,11 +18,7 @@ let viewer = null;
 let anno = null;
 let currentPage = 0;
 let currentLang = 'en';
-let currentMode = 'annotations';  // 'annotations' | 'transcription'
-let currentAnnotations = [];      // raw annotation array for the current page
-let imageOpacity = 1.0;
-let overlayOpacity = 1.0;
-let overlayColor = '#111';
+let currentAnnotations = [];
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -160,197 +155,6 @@ function buildAnnotationPopup(annotation) {
   `;
 }
 
-// ============================================================
-// Transcription-overlay mode
-// ============================================================
-
-function setImageOpacity(opacity) {
-  imageOpacity = opacity;
-  if (!viewer) return;
-  // OSD renders into the .openseadragon-canvas wrapper and one or more
-  // inner <canvas> elements. Apply opacity to BOTH the wrapper and the
-  // canvases so the page actually fades; some OSD versions only respect
-  // the wrapper, others only the canvas.
-  const wrapper = document.querySelector('#osd-viewer .openseadragon-canvas');
-  if (wrapper) wrapper.style.opacity = opacity;
-  document.querySelectorAll('#osd-viewer .openseadragon-canvas canvas').forEach(c => {
-    c.style.opacity = opacity;
-  });
-}
-
-function setOverlayOpacity(opacity) {
-  overlayOpacity = opacity;
-  const overlay = $('#transcription-overlay');
-  if (overlay) overlay.style.opacity = opacity;
-}
-
-function setOverlayColor(color) {
-  overlayColor = color;
-  document.querySelectorAll('.tr-overlay-text').forEach(el => {
-    el.style.color = color;
-  });
-}
-
-function rebuildTranscriptionOverlay() {
-  const overlay = $('#transcription-overlay');
-  if (!overlay || !viewer) return;
-  overlay.innerHTML = '';
-  if (currentMode !== 'transcription') return;
-
-  currentAnnotations.forEach(a => {
-    if (!a.target || !a.target.selector) return;
-    const box = parseXywh(a.target.selector.value);
-    if (!box) return;
-    const text = (a.body || []).find(b => b.purpose === 'transcribing')?.value || '';
-    if (!text) return;
-    const fieldJp = (a.body || []).find(b => b.purpose === 'identifying')?.value || '';
-
-    const div = document.createElement('div');
-    div.className = 'tr-overlay-text';
-    div.dataset.annoId = a.id;
-    div.dataset.fieldJp = fieldJp;
-    div.textContent = text;
-    div.style.color = overlayColor;
-
-    // Hover-link: highlight the matching data-table row + show the same
-    // popup as annotations mode. Pointer events are enabled per-div
-    // (overlay container stays pointer-events:none so non-text areas
-    // pass clicks through to OSD for panning/zooming).
-    div.style.pointerEvents = 'auto';
-    div.addEventListener('mouseenter', (e) => {
-      if (fieldJp) {
-        document.querySelectorAll('.extract-table tr').forEach(tr => {
-          tr.classList.toggle('linked-highlight', tr.dataset.fieldJp === fieldJp);
-        });
-      }
-      div.classList.add('tr-overlay-hover');
-      // Popup beside the kanji column
-      const popup = document.createElement('div');
-      popup.className = 'a9s-popup';
-      popup.innerHTML = buildAnnotationPopup(a);
-      const rect = div.getBoundingClientRect();
-      popup.style.position = 'fixed';
-      popup.style.left = (rect.right + 10) + 'px';
-      popup.style.top = rect.top + 'px';
-      popup.style.background = 'white';
-      popup.style.border = '1px solid #888';
-      popup.style.boxShadow = '0 2px 8px rgba(0,0,0,0.2)';
-      popup.style.zIndex = 9999;
-      popup.id = 'hi-tr-popup';
-      document.body.appendChild(popup);
-    });
-    div.addEventListener('mouseleave', () => {
-      div.classList.remove('tr-overlay-hover');
-      document.querySelectorAll('.extract-table tr.linked-highlight').forEach(tr => {
-        tr.classList.remove('linked-highlight');
-      });
-      const popup = document.getElementById('hi-tr-popup');
-      if (popup) popup.remove();
-    });
-
-    overlay.appendChild(div);
-  });
-
-  repositionOverlay();
-
-  // Also let the data-table rows highlight the matching typed kanji on
-  // hover (the reverse link). This is set up once per rebuild.
-  document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
-    tr.addEventListener('mouseenter', () => {
-      if (currentMode !== 'transcription') return;
-      const fj = tr.dataset.fieldJp;
-      document.querySelectorAll('.tr-overlay-text').forEach(el => {
-        el.classList.toggle('tr-overlay-linked', el.dataset.fieldJp === fj);
-      });
-    });
-    tr.addEventListener('mouseleave', () => {
-      document.querySelectorAll('.tr-overlay-text.tr-overlay-linked').forEach(el => {
-        el.classList.remove('tr-overlay-linked');
-      });
-    });
-  });
-}
-
-function repositionOverlay() {
-  if (!viewer || currentMode !== 'transcription') return;
-  const overlay = $('#transcription-overlay');
-  const osdEl = document.getElementById('osd-viewer');
-  if (!overlay || !osdEl) return;
-
-  // Convert image-pixel coords to PAGE coords via OSD, then subtract
-  // the overlay container's page position. This is robust to whatever
-  // parent the overlay lives under — no need to match origins.
-  const overlayRect = overlay.getBoundingClientRect();
-  const osdRect = osdEl.getBoundingClientRect();
-
-  const divs = overlay.querySelectorAll('.tr-overlay-text');
-  divs.forEach(div => {
-    const annoId = div.dataset.annoId;
-    const a = currentAnnotations.find(x => x.id === annoId);
-    if (!a) return;
-    const box = parseXywh(a.target.selector.value);
-    if (!box) return;
-
-    // imageToViewerElementCoordinates → coords inside #osd-viewer.
-    // Add #osd-viewer's page offset, subtract overlay's page offset →
-    // coords inside the overlay.
-    const topLeft = viewer.viewport.imageToViewerElementCoordinates(
-      new OpenSeadragon.Point(box.x, box.y)
-    );
-    const bottomRight = viewer.viewport.imageToViewerElementCoordinates(
-      new OpenSeadragon.Point(box.x + box.w, box.y + box.h)
-    );
-
-    const left = topLeft.x + osdRect.left - overlayRect.left;
-    const top = topLeft.y + osdRect.top - overlayRect.top;
-    const width = bottomRight.x - topLeft.x;
-    const height = bottomRight.y - topLeft.y;
-
-    div.style.left = `${left}px`;
-    div.style.top = `${top}px`;
-    div.style.width = `${width}px`;
-    div.style.height = `${height}px`;
-
-    // Auto-size kanji to ~85% of the column width
-    const fontSize = Math.max(8, Math.min(width * 0.85, 60));
-    div.style.fontSize = `${fontSize}px`;
-  });
-}
-
-function setAnnotoriousVisible(visible) {
-  // Hide every Annotorious-injected layer (in different versions the
-  // class names differ slightly — be liberal). Toggling display:none on
-  // .a9s-annotationlayer alone left some rectangles visible in testing.
-  const sel = '.a9s-annotationlayer, .a9s-annotation, .a9s-osd-popup, .a9s-handle, .a9s-svg, .a9s-content-wrapper';
-  document.querySelectorAll(sel).forEach(el => {
-    el.style.display = visible ? '' : 'none';
-  });
-}
-
-function applyMode() {
-  const overlay = $('#transcription-overlay');
-  const controls = $('#transcription-controls');
-  if (!overlay || !controls) return;
-  if (currentMode === 'transcription') {
-    overlay.hidden = false;
-    controls.hidden = false;
-    setAnnotoriousVisible(false);
-    // Wait long enough for: (a) the controls strip to appear and shrink
-    // .viewer-main, (b) OSD's ResizeObserver to detect the new
-    // #osd-viewer size, (c) OSD's viewport to recompute. Then build the
-    // overlay. 200 ms is generous but bullet-proof.
-    setTimeout(() => rebuildTranscriptionOverlay(), 200);
-  } else {
-    overlay.hidden = true;
-    controls.hidden = true;
-    setAnnotoriousVisible(true);
-    setImageOpacity(1.0);
-    setOverlayOpacity(1.0);
-  }
-}
-
-// ============================================================
-
 async function loadPage(idx) {
   if (idx < 0 || idx >= pages.length) return;
   currentPage = idx;
@@ -364,9 +168,6 @@ async function loadPage(idx) {
 
   if (anno) { anno.destroy(); anno = null; }
   if (viewer) { viewer.destroy(); viewer = null; }
-  // Clear transcription overlay
-  const overlay = $('#transcription-overlay');
-  if (overlay) overlay.innerHTML = '';
 
   viewer = OpenSeadragon({
     id: 'osd-viewer',
@@ -382,30 +183,12 @@ async function loadPage(idx) {
     constrainDuringPan: true,
   });
 
-  // Keep transcription overlay aligned with the page as the user pans/zooms
-  viewer.addHandler('update-viewport', () => {
-    if (currentMode === 'transcription') repositionOverlay();
-  });
-  viewer.addHandler('open', () => {
-    // OSD viewport coords are only valid AFTER the image opens. Rebuild
-    // the transcription overlay now (if we're in that mode) so kanji
-    // divs get positioned with real coordinates rather than undefined ones.
-    if (currentMode === 'transcription') {
-      rebuildTranscriptionOverlay();
-      setImageOpacity(imageOpacity);
-    }
-  });
-  viewer.addHandler('animation', () => {
-    if (currentMode === 'transcription') repositionOverlay();
-  });
-
   anno = OpenSeadragon.Annotorious(viewer, {
     readOnly: true,
     formatters: [() => ({ 'data-purpose': 'hi-annotation' })],
   });
 
   anno.on('mouseEnterAnnotation', (annotation, element) => {
-    if (currentMode === 'transcription') return;
     const popup = document.createElement('div');
     popup.className = 'a9s-popup';
     popup.innerHTML = buildAnnotationPopup(annotation);
@@ -446,7 +229,6 @@ async function loadPage(idx) {
   }
 
   renderExtractTable(page.id);
-  applyMode();
 }
 
 async function init() {
@@ -466,28 +248,6 @@ async function init() {
   $('#prev-page').addEventListener('click', () => loadPage(currentPage - 1));
   $('#next-page').addEventListener('click', () => loadPage(currentPage + 1));
   $('#lang-select').addEventListener('change', (e) => { currentLang = e.target.value; });
-
-  $('#mode-select').addEventListener('change', (e) => {
-    currentMode = e.target.value;
-    applyMode();
-  });
-
-  // Reposition the overlay on window resize.
-  window.addEventListener('resize', () => {
-    if (currentMode === 'transcription') repositionOverlay();
-  });
-
-  $('#image-opacity').addEventListener('input', (e) => {
-    const v = parseInt(e.target.value, 10);
-    $('#image-opacity-value').textContent = `${v}%`;
-    setImageOpacity(v / 100);
-  });
-  $('#overlay-opacity').addEventListener('input', (e) => {
-    const v = parseInt(e.target.value, 10);
-    $('#overlay-opacity-value').textContent = `${v}%`;
-    setOverlayOpacity(v / 100);
-  });
-  $('#overlay-color').addEventListener('change', (e) => setOverlayColor(e.target.value));
 
   await loadPage(0);
 }

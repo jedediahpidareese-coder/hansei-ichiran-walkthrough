@@ -24,13 +24,6 @@
 <option selected="" value="en">English</option>
 </select>
 </label>
-<label class="mode-toggle">
-<span>View mode:</span>
-<select id="mode-select">
-<option selected="" value="annotations">Annotations (hover for popup)</option>
-<option value="transcription">Transcription overlay (Jed's mode)</option>
-</select>
-</label>
 </div>
 </header>
 <nav class="page-nav">
@@ -43,34 +36,9 @@
 <span id="page-book-page"></span>
 </div>
 </nav>
-<!-- Transcription-overlay control strip (only visible in transcription mode) -->
-<div class="transcription-controls" hidden="" id="transcription-controls">
-<label>
-      Original-page opacity:
-      <input id="image-opacity" max="100" min="0" type="range" value="100"/>
-<span id="image-opacity-value">100%</span>
-</label>
-<label>
-      Overlay-kanji opacity:
-      <input id="overlay-opacity" max="100" min="0" type="range" value="100"/>
-<span id="overlay-opacity-value">100%</span>
-</label>
-<label>
-      Overlay color:
-      <select id="overlay-color">
-<option value="#111">Black (default)</option>
-<option value="#c1272d">Red (high contrast)</option>
-<option value="#1d4ed8">Blue</option>
-<option value="#0d7a3f">Green</option>
-</select>
-</label>
-<span class="control-help">Slide the original-page opacity to 0% to see only the typed transcription; slide back up to compare alignment against the source.</span>
-</div>
 <main class="viewer-main">
 <section class="image-pane">
 <div id="osd-viewer"></div>
-<!-- Transcription overlay (absolutely positioned over OSD) -->
-<div class="transcription-overlay" hidden="" id="transcription-overlay"></div>
 <div class="image-meta">
 <small id="image-filename"></small>
 </div>
@@ -88,7 +56,7 @@
 </aside>
 </main>
 <footer class="viewer-footer">
-<p>Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>; annotations are hand-curated against the source pages. <strong>Two view modes:</strong> "Annotations" highlights bounding-box regions with hover popups; "Transcription overlay" types each annotation's verbatim kanji on top of the page so you can fade the original out to verify alignment.</p>
+<p>Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>; annotations are hand-curated against the source pages. Hover an amber column on the page to see its verbatim kanji, modern Japanese reading, English translation, and extracted value.</p>
 </footer>
 <script src="viewer.js"></script>
 </body>
