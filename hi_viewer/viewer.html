@@ -59,10 +59,39 @@
     </aside>
   </main>
 
-  <div id="lightbox" class="lightbox" hidden>
-    <div class="lightbox-inner">
-      <img id="lightbox-img" src="" alt="" />
-      <div class="lightbox-caption" id="lightbox-caption"></div>
+  <!-- Detail modal: shows kanji + reading + English + value + crop all together
+       when you click a row in the table or a highlighted column on the page. -->
+  <div id="detail-modal" class="detail-modal" hidden>
+    <div class="detail-modal-inner">
+      <button class="detail-close" id="detail-close" title="Close (Esc)">×</button>
+      <div class="detail-grid">
+        <div class="detail-text">
+          <div class="detail-field">
+            <div class="detail-label">MASTER field</div>
+            <div class="detail-master" id="detail-master"></div>
+          </div>
+          <div class="detail-field">
+            <div class="detail-label">Verbatim kanji from HI (源文)</div>
+            <div class="detail-kanji" id="detail-kanji"></div>
+          </div>
+          <div class="detail-field">
+            <div class="detail-label">Modern Japanese reading</div>
+            <div class="detail-modern-jp" id="detail-modern-jp"></div>
+          </div>
+          <div class="detail-field">
+            <div class="detail-label">English translation</div>
+            <div class="detail-en" id="detail-en"></div>
+          </div>
+          <div class="detail-field">
+            <div class="detail-label">Extracted value</div>
+            <div class="detail-value" id="detail-value"></div>
+          </div>
+        </div>
+        <div class="detail-crop-wrap">
+          <div class="detail-label">Source-column crop</div>
+          <img id="detail-crop" src="" alt="" />
+        </div>
+      </div>
     </div>
   </div>
 

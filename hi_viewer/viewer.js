@@ -109,10 +109,7 @@ function renderExtractTable(pageId) {
     `;
     tr.addEventListener('mouseenter', () => setActiveField(r.field_jp));
     tr.addEventListener('mouseleave', clearActiveField);
-    tr.addEventListener('click', () => {
-      const crop = findCropByField(pageId, r.field_jp);
-      if (crop) openLightbox(crop.crop_path, `${r.field_jp} — source column crop`);
-    });
+    tr.addEventListener('click', () => openDetailFor(r.field_jp));
     tbody.appendChild(tr);
   });
 }
@@ -158,10 +155,7 @@ function renderHighlightLayer() {
 
     div.addEventListener('mouseenter', () => setActiveField(ident));
     div.addEventListener('mouseleave', clearActiveField);
-    div.addEventListener('click', () => {
-      const crop = findCropByField(pages[currentPage].id, ident);
-      if (crop) openLightbox(crop.crop_path, `${ident} — source column crop`);
-    });
+    div.addEventListener('click', () => openDetailFor(ident));
     layer.appendChild(div);
   });
 }
@@ -178,16 +172,34 @@ function renderPageMeta(page) {
   `;
 }
 
-function openLightbox(src, caption) {
-  const lb = $('#lightbox');
-  $('#lightbox-img').src = src;
-  $('#lightbox-caption').textContent = caption || '';
-  lb.hidden = false;
+function openDetailFor(fieldJp) {
+  const ann = findAnnotationByField(fieldJp);
+  if (!ann) return;
+  const body = {};
+  (ann.body || []).forEach(b => { body[b.purpose] = b.value; });
+  const crop = findCropByField(pages[currentPage].id, fieldJp);
+  const extractRow = (extracts[pages[currentPage].id] || []).find(r => r.field_jp === fieldJp);
+
+  $('#detail-master').textContent = body.identifying || fieldJp;
+  $('#detail-kanji').textContent = body.transcribing || '—';
+  $('#detail-modern-jp').textContent = body.modern_jp_reading || '—';
+  $('#detail-en').textContent = body.english_translation || '—';
+  const valTxt = extractRow
+    ? `${extractRow.parsed}${extractRow.unit ? ' ' + extractRow.unit : ''}`
+    : (body.extracted_value || '—');
+  $('#detail-value').textContent = valTxt;
+  if (crop) {
+    $('#detail-crop').src = crop.crop_path;
+    $('#detail-crop').alt = `Source column for ${fieldJp}`;
+    $('#detail-crop').style.display = '';
+  } else {
+    $('#detail-crop').style.display = 'none';
+  }
+  $('#detail-modal').hidden = false;
 }
 
-function closeLightbox() {
-  $('#lightbox').hidden = true;
-  $('#lightbox-img').src = '';
+function closeDetail() {
+  $('#detail-modal').hidden = true;
 }
 
 function loadPage(idx) {
@@ -238,14 +250,11 @@ async function init() {
   $('#prev-page').addEventListener('click', () => loadPage(currentPage - 1));
   $('#next-page').addEventListener('click', () => loadPage(currentPage + 1));
 
-  $('#page-img').addEventListener('click', (e) => {
-    // Only opens lightbox if the click isn't on a highlight (highlight clicks open the crop)
-    if (e.target === $('#page-img')) {
-      openLightbox($('#page-img').src, `Full HI page — ${pages[currentPage].domain_canonical}`);
-    }
+  $('#detail-close').addEventListener('click', closeDetail);
+  $('#detail-modal').addEventListener('click', (e) => {
+    if (e.target.id === 'detail-modal') closeDetail();
   });
-  $('#lightbox').addEventListener('click', closeLightbox);
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
   window.addEventListener('resize', () => renderHighlightLayer());
 
   loadPage(0);
