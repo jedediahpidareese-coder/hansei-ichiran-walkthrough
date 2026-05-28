@@ -103,11 +103,23 @@ function clearActiveField() {
 function renderExtractTable(pageId) {
   const tbody = $('#extract-rows');
   tbody.innerHTML = '';
-  const rows = extracts[pageId] || [];
-  if (rows.length === 0) {
+  const allRows = extracts[pageId] || [];
+  if (allRows.length === 0) {
     tbody.innerHTML = '<tr><td colspan="4" style="color:#888;text-align:center;padding:20px">No MASTER extract rows for this page.</td></tr>';
     return;
   }
+  // De-duplicate: when two rows have the same value+unit, keep only the one
+  // with the shorter field_jp label (the canonical name, not a "(with note)"
+  // variant). MASTER sometimes emits both forms; the viewer should show one.
+  const seen = new Map();  // key = `${parsed}|${unit}` -> chosen row
+  allRows.forEach(r => {
+    const key = `${r.parsed}|${r.unit || ''}`;
+    const existing = seen.get(key);
+    if (!existing || r.field_jp.length < existing.field_jp.length) {
+      seen.set(key, r);
+    }
+  });
+  const rows = allRows.filter(r => seen.get(`${r.parsed}|${r.unit || ''}`) === r);
   rows.forEach((r) => {
     const tr = document.createElement('tr');
     tr.dataset.fieldJp = r.field_jp;
