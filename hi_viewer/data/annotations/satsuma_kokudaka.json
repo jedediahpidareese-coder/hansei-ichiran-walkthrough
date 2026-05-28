@@ -1,65 +1,38 @@
 [
   {
-    "id": "anno-satsuma_kokudaka-header",
+    "id": "anno-satsuma_kokudaka-taishi",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "○鹿兒島藩"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "鹿児島藩 (かごしまはん)"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Kagoshima domain (Satsuma). The ○ marker introduces a new domain entry — the page-attribution signal for the extraction pipeline."
-      },
-      {
-        "purpose": "identifying",
-        "value": "○鹿兒島藩"
-      }
+      {"purpose": "transcribing", "value": "隊士 四百六十四人"},
+      {"purpose": "modern_jp_reading", "value": "隊士 (たいし) 四百六十四人"},
+      {"purpose": "english_translation", "value": "Taishi (corps-member) headcount = 464 persons. Printed in the rightmost narrow column at the top of the entry — a single-figure officer count that also appears on Satsuma's military page."},
+      {"purpose": "extracted_value", "value": "464 persons"},
+      {"purpose": "identifying", "value": "隊士"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2585,1000,110,1200"
+        "value": "xywh=pixel:2650,400,110,1100"
       }
     }
   },
   {
-    "id": "anno-satsuma_kokudaka-taishi",
+    "id": "anno-satsuma_kokudaka-header",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "隊士 四百六十四人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "隊士 (たいし) 四百六十四人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Taishi (corps-member) headcount = 464 persons, printed at the top of the entry. The same figure also appears on Satsuma's military page (lower_p163_right) — a domain-wide officer summary that the kokudaka table reproduces in its header band."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "464 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "隊士"
-      }
+      {"purpose": "transcribing", "value": "○鹿兒島藩"},
+      {"purpose": "modern_jp_reading", "value": "鹿児島藩 (かごしまはん)"},
+      {"purpose": "english_translation", "value": "Kagoshima domain (Satsuma). The ○ marker introduces a new domain entry — the page-attribution signal for the extraction pipeline."},
+      {"purpose": "identifying", "value": "○鹿兒島藩"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2585,200,110,750"
+        "value": "xywh=pixel:2455,1500,110,750"
       }
     }
   },
@@ -67,33 +40,18 @@
     "id": "anno-satsuma_kokudaka-sodaka",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "草高 八拾六萬九千五百九十三石五斗七升六合六勺四才 (内 琉球國高引除)"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "草高 (くさだか) は八十六万九千五百九十三石五斗七升六合六勺四才。内訳に琉球国高は控除。"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sōdaka (gross-yield assessed kokudaka) = 869,593.5766 koku, EXCLUDING Ryūkyū tribute (琉球國高引除). The Ryūkyū Kingdom paid tribute to Satsuma but was not part of the formal Japanese kokudaka system."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "869,593.5766 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "草高"
-      }
+      {"purpose": "transcribing", "value": "草高 八拾六萬九千五百九十三石五斗七升六合六勺四才 (内 琉球國高引除)"},
+      {"purpose": "modern_jp_reading", "value": "草高 (くさだか) は八十六万九千五百九十三石五斗七升六合六勺四才。内訳に琉球国高は控除。"},
+      {"purpose": "english_translation", "value": "Sōdaka (gross-yield assessed kokudaka) = 869,593.5766 koku, EXCLUDING Ryūkyū tribute (琉球國高引除). The Ryūkyū Kingdom paid tribute to Satsuma but was not part of the formal Japanese kokudaka system."},
+      {"purpose": "extracted_value", "value": "869,593.5766 koku"},
+      {"purpose": "identifying", "value": "草高"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2445,1000,110,3200"
+        "value": "xywh=pixel:2295,1500,110,2800"
       }
     }
   },
@@ -101,33 +59,18 @@
     "id": "anno-satsuma_kokudaka-sondaka",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "内 損高 七拾七萬五千三百六十三石五斗七升五合七勺"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "うち損高 (そんだか) は七十七万五千三百六十三石"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Of which sondaka (loss-adjusted high; the portion deducted for crop failures and other losses over the 5-year averaging window) = 775,363.5757 koku."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "775,363.5757 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "内 損高"
-      }
+      {"purpose": "transcribing", "value": "内 損高 七拾七萬五千三百六十三石五斗七升五合七勺"},
+      {"purpose": "modern_jp_reading", "value": "うち損高 (そんだか) は七十七万五千三百六十三石"},
+      {"purpose": "english_translation", "value": "Of which sondaka (loss-adjusted high; the portion deducted for crop failures and other losses over the 5-year averaging window) = 775,363.5757 koku."},
+      {"purpose": "extracted_value", "value": "775,363.5757 koku"},
+      {"purpose": "identifying", "value": "内 損高"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2305,1000,110,3200"
+        "value": "xywh=pixel:2145,1500,110,2800"
       }
     }
   },
@@ -135,33 +78,18 @@
     "id": "anno-satsuma_kokudaka-gendaka",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "高 七拾貳萬九千四百八十六石六斗九升四合八勺"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "高は七十二万九千四百八十六石"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "And 'high' (the remaining productive-yield separated from the sondaka loss-portion) = 729,486.6948 koku. Note: this is a separate sub-category, not a simple subtraction of sondaka from sōdaka."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "729,486.6948 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "高"
-      }
+      {"purpose": "transcribing", "value": "高 七拾貳萬九千四百八十六石六斗九升四合八勺"},
+      {"purpose": "modern_jp_reading", "value": "高は七十二万九千四百八十六石"},
+      {"purpose": "english_translation", "value": "And 'high' (the remaining productive-yield separated from the sondaka loss-portion) = 729,486.6948 koku. Note: this is a separate sub-category, not a simple subtraction of sondaka from sōdaka."},
+      {"purpose": "extracted_value", "value": "729,486.6948 koku"},
+      {"purpose": "identifying", "value": "高"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2165,1000,110,3200"
+        "value": "xywh=pixel:1995,1500,110,2800"
       }
     }
   },
@@ -169,33 +97,18 @@
     "id": "anno-satsuma_kokudaka-genseki",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "現石 貳萬六千百五十六石八斗貳合"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "現石 (げんせき) は二万六千百五十六石"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Genseki (current rice on hand / actual rice tax collected) = 26,156.802 koku. The actual flow of rice to domain coffers — much smaller than the assessed kokudaka because of tax-rate fractions, exemptions, and losses."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "26,156.802 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "現石"
-      }
+      {"purpose": "transcribing", "value": "現石 貳萬六千百五十六石八斗貳合"},
+      {"purpose": "modern_jp_reading", "value": "現石 (げんせき) は二万六千百五十六石"},
+      {"purpose": "english_translation", "value": "Genseki (current rice on hand / actual rice tax collected) = 26,156.802 koku. The actual flow of rice to domain coffers — much smaller than the assessed kokudaka because of tax-rate fractions, exemptions, and losses."},
+      {"purpose": "extracted_value", "value": "26,156.802 koku"},
+      {"purpose": "identifying", "value": "現石"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2025,1000,110,3200"
+        "value": "xywh=pixel:1845,1500,110,2800"
       }
     }
   },
@@ -203,33 +116,18 @@
     "id": "anno-satsuma_kokudaka-genkoku",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "現穀 二萬六千九百八拾六石四升八合"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "現穀 (げんこく) は二万六千九百八十六石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Genkoku (current grain — rice and other staple grains in domain stocks) ≈ 26,986 koku. Separate from genseki, this captures domain-held grain rather than yield-collected rice."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "≈26,986 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "現穀"
-      }
+      {"purpose": "transcribing", "value": "現穀 二萬六千九百八拾六石四升八合"},
+      {"purpose": "modern_jp_reading", "value": "現穀 (げんこく) は二万六千九百八十六石余"},
+      {"purpose": "english_translation", "value": "Genkoku (current grain — rice and other staple grains in domain stocks) ≈ 26,986 koku. Separate from genseki, this captures domain-held grain rather than yield-collected rice."},
+      {"purpose": "extracted_value", "value": "≈26,986 koku"},
+      {"purpose": "identifying", "value": "現穀"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1885,1000,110,3200"
+        "value": "xywh=pixel:1695,1500,110,2800"
       }
     }
   },
@@ -237,33 +135,18 @@
     "id": "anno-satsuma_kokudaka-satou",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "砂糖 五百〇九萬二千八百二十五斤"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "砂糖 (さとう) 五百九万二千八百二十五斤 — 約3055トン"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sugar = 5,092,825 jin (~3,055 metric tons per year). Satsuma's famous Ryūkyū sugar monopoly. This is one of the most economically distinctive entries in the entire HI corpus — the southern domain's near-exclusive control over Ryūkyū-routed cane sugar trade was a major fiscal advantage."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "5,092,825 jin (~3,055 metric tons)"
-      },
-      {
-        "purpose": "identifying",
-        "value": "砂糖"
-      }
+      {"purpose": "transcribing", "value": "砂糖 五百〇九萬二千八百二十五斤"},
+      {"purpose": "modern_jp_reading", "value": "砂糖 (さとう) 五百九万二千八百二十五斤 — 約3055トン"},
+      {"purpose": "english_translation", "value": "Sugar = 5,092,825 jin (~3,055 metric tons per year). Satsuma's famous Ryūkyū sugar monopoly. This is one of the most economically distinctive entries in the entire HI corpus — the southern domain's near-exclusive control over Ryūkyū-routed cane sugar trade was a major fiscal advantage."},
+      {"purpose": "extracted_value", "value": "5,092,825 jin (~3,055 metric tons)"},
+      {"purpose": "identifying", "value": "砂糖"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1745,1000,110,3200"
+        "value": "xywh=pixel:1545,1500,110,2800"
       }
     }
   },
@@ -271,33 +154,18 @@
     "id": "anno-satsuma_kokudaka-chashu",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "茶種 六千七百七十石四斗二升"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "茶種 (ちゃしゅ) 六千七百七十石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Tea seed = 6,770.42 koku. Satsuma's tea production was significant but secondary to the famous Ryūkyū sugar (see 砂糖 column to the right). MASTER notes: 'Corrected 2026-05-20 (was 椿/uncertain, now 茶種/tea seeds): per upper_p088_left crop'."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "6,770.42 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "茶種"
-      }
+      {"purpose": "transcribing", "value": "茶種 六千七百七十石四斗二升"},
+      {"purpose": "modern_jp_reading", "value": "茶種 (ちゃしゅ) 六千七百七十石余"},
+      {"purpose": "english_translation", "value": "Tea seed = 6,770.42 koku. Satsuma's tea production was significant but secondary to the famous Ryūkyū sugar (see 砂糖 column to the right)."},
+      {"purpose": "extracted_value", "value": "6,770.42 koku"},
+      {"purpose": "identifying", "value": "茶種"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1605,1000,110,3200"
+        "value": "xywh=pixel:1395,1500,110,2800"
       }
     }
   },
@@ -305,33 +173,18 @@
     "id": "anno-satsuma_kokudaka-kouzo",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "楮 九萬六千七百七十六貫四百二十九匁九分"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "楮 (こうぞ) 九万六千七百七十六貫余 (約363トン) — 紙の原料"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Paper mulberry (kōzo) = 96,776.43 kan (~363 metric tons). Raw material for traditional washi paper-making. The unit kanme (貫目) is mass for raw fiber."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "96,776.4299 kanme"
-      },
-      {
-        "purpose": "identifying",
-        "value": "楮"
-      }
+      {"purpose": "transcribing", "value": "楮 九萬六千七百七十六貫四百二十九匁九分"},
+      {"purpose": "modern_jp_reading", "value": "楮 (こうぞ) 九万六千七百七十六貫余 (約363トン) — 紙の原料"},
+      {"purpose": "english_translation", "value": "Paper mulberry (kōzo) = 96,776.43 kan (~363 metric tons). Raw material for traditional washi paper-making."},
+      {"purpose": "extracted_value", "value": "96,776.4299 kanme"},
+      {"purpose": "identifying", "value": "楮"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1465,1000,110,3200"
+        "value": "xywh=pixel:1245,1500,110,2800"
       }
     }
   },
@@ -339,33 +192,18 @@
     "id": "anno-satsuma_kokudaka-seirou",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "生蠟 四萬四千七百十八斤八合"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "生蠟 (せいろう) 四万四千七百十八斤八合 — 約26.8トン"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Raw wax (seirō) = 44,718.8 jin (~26.8 metric tons). Vegetable wax pressed from haze (sumac) berries — a major southern-Kyushu export used for candles and polish."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "44,718.8 jin"
-      },
-      {
-        "purpose": "identifying",
-        "value": "生蠟"
-      }
+      {"purpose": "transcribing", "value": "生蠟 四萬四千七百十八斤八合"},
+      {"purpose": "modern_jp_reading", "value": "生蠟 (せいろう) 四万四千七百十八斤八合 — 約26.8トン"},
+      {"purpose": "english_translation", "value": "Raw wax (seirō) = 44,718.8 jin (~26.8 metric tons). Vegetable wax pressed from haze (sumac) berries — a major southern-Kyushu export used for candles and polish."},
+      {"purpose": "extracted_value", "value": "44,718.8 jin"},
+      {"purpose": "identifying", "value": "生蠟"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1325,1000,110,3200"
+        "value": "xywh=pixel:1095,1500,110,2800"
       }
     }
   },
@@ -373,33 +211,18 @@
     "id": "anno-satsuma_kokudaka-asao",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "麻苧 二千八百七十七斤"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "麻苧 (あさお / まお) 二千八百七十七斤"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Hemp / ramie fiber = 2,877 jin (~1.7 metric tons). Used for traditional summer-weight cloth and ropes."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "2,877 jin"
-      },
-      {
-        "purpose": "identifying",
-        "value": "麻苧"
-      }
+      {"purpose": "transcribing", "value": "麻苧 二千八百七十七斤"},
+      {"purpose": "modern_jp_reading", "value": "麻苧 (あさお / まお) 二千八百七十七斤"},
+      {"purpose": "english_translation", "value": "Hemp / ramie fiber = 2,877 jin (~1.7 metric tons). Used for traditional summer-weight cloth and ropes."},
+      {"purpose": "extracted_value", "value": "2,877 jin"},
+      {"purpose": "identifying", "value": "麻苧"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1185,1000,110,3200"
+        "value": "xywh=pixel:945,1500,110,2800"
       }
     }
   },
@@ -407,33 +230,18 @@
     "id": "anno-satsuma_kokudaka-zatsuzei",
     "type": "Annotation",
     "body": [
-      {
-        "purpose": "transcribing",
-        "value": "雜稅 錢 五萬九千七百九十六貫三百七十二文"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "雑税 (ざつぜい) 錢 五万九千七百九十六貫三百七十二文 — 銭貨単位"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Miscellaneous tax in copper coin = 59,796.372 kan-mon. This row was corrected via the 2026-05-18 crop verification — the original chunk had garbled OCR mis-reading 五十九貫九千 (a much smaller number) for 五萬九千七百九十六貫."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "59,796.372 kan-mon"
-      },
-      {
-        "purpose": "identifying",
-        "value": "雜稅銭"
-      }
+      {"purpose": "transcribing", "value": "雜稅 錢 五萬九千七百九十六貫三百七十二文"},
+      {"purpose": "modern_jp_reading", "value": "雑税 (ざつぜい) 錢 五万九千七百九十六貫三百七十二文 — 銭貨単位"},
+      {"purpose": "english_translation", "value": "Miscellaneous tax in copper coin = 59,796.372 kan-mon."},
+      {"purpose": "extracted_value", "value": "59,796.372 kan-mon"},
+      {"purpose": "identifying", "value": "雜稅銭"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1045,1000,110,3200"
+        "value": "xywh=pixel:795,1500,110,2800"
       }
     }
   }
