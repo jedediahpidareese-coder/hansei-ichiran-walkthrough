@@ -5,13 +5,13 @@
     "body": [
       {"purpose": "transcribing", "value": "草高 三拾六萬九千四百拾壹石餘"},
       {"purpose": "modern_jp_reading", "value": "草高 (くさだか) 三十六万九千四百十一石余"},
-      {"purpose": "english_translation", "value": "Sōdaka = 369,411 koku. This is the base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development."},
+      {"purpose": "english_translation", "value": "Sōdaka = 369,411 koku. This is the base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."},
       {"purpose": "extracted_value", "value": "369,411 koku"},
       {"purpose": "identifying", "value": "草高"}
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2300,400,300,1000"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2075,150,110,1700"}
     }
   },
   {
@@ -26,7 +26,7 @@
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1900,400,300,1000"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1935,150,115,2200"}
     }
   },
   {
@@ -41,7 +41,7 @@
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1500,400,300,1000"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1810,150,110,1700"}
     }
   },
   {
@@ -56,7 +56,7 @@
     ],
     "target": {
       "source": "images/upper_p193_right.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1100,400,300,800"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1675,150,115,1800"}
     }
   }
 ]

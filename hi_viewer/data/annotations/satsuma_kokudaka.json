@@ -10,7 +10,22 @@
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2670,180,280,360"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2596,440,110,920"}
+    }
+  },
+  {
+    "id": "anno-satsuma_kokudaka-taishi",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "隊士 四百六十四人"},
+      {"purpose": "modern_jp_reading", "value": "隊士 (たいし) 四百六十四人"},
+      {"purpose": "english_translation", "value": "Taishi (corps-member) headcount = 464 persons. Top-right page notation. This appears on both the kokudaka page and the military page (lower_p163_right) — possibly a domain-wide officer summary printed at the top of the entry."},
+      {"purpose": "extracted_value", "value": "464 persons"},
+      {"purpose": "identifying", "value": "隊士"}
+    ],
+    "target": {
+      "source": "images/upper_p088_left.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2596,150,110,290"}
     }
   },
   {
@@ -25,7 +40,7 @@
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2330,280,300,1100"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2455,160,110,2280"}
     }
   },
   {
@@ -33,29 +48,29 @@
     "type": "Annotation",
     "body": [
       {"purpose": "transcribing", "value": "内 損高 七拾七萬五千三百六十三石五斗七升五合七勺"},
-      {"purpose": "modern_jp_reading", "value": "うち損高は七十七万五千三百六十三石"},
+      {"purpose": "modern_jp_reading", "value": "うち損高 (そんだか) は七十七万五千三百六十三石"},
       {"purpose": "english_translation", "value": "Of which sondaka (loss-adjusted high; the portion deducted for crop failures and other losses over the 5-year averaging window) = 775,363.5757 koku."},
       {"purpose": "extracted_value", "value": "775,363.5757 koku"},
       {"purpose": "identifying", "value": "内 損高"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1950,280,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2320,260,110,2080"}
     }
   },
   {
     "id": "anno-satsuma_kokudaka-gendaka",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "内 高 七拾貳萬九千四百八十六石六斗九升四合八勺"},
+      {"purpose": "transcribing", "value": "高 七拾貳萬九千四百八十六石六斗九升四合八勺"},
       {"purpose": "modern_jp_reading", "value": "高は七十二万九千四百八十六石"},
-      {"purpose": "english_translation", "value": "And 'high' (the remaining productive-yield) = 729,486.6948 koku. This is sōdaka 869,593 minus sondaka 775,363... wait, the math doesn't directly subtract — this is a separate omotedaka-tier figure, not sōdaka minus sondaka."},
+      {"purpose": "english_translation", "value": "And 'high' (the remaining productive-yield separated from the sondaka loss-portion) = 729,486.6948 koku. Note: this is a separate sub-category, not a simple subtraction of sondaka from sōdaka."},
       {"purpose": "extracted_value", "value": "729,486.6948 koku"},
       {"purpose": "identifying", "value": "高"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1620,280,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2185,260,110,2080"}
     }
   },
   {
@@ -70,22 +85,22 @@
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1280,280,300,700"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2050,260,110,1500"}
     }
   },
   {
-    "id": "anno-satsuma_kokudaka-zatsuzei",
+    "id": "anno-satsuma_kokudaka-chashu",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "雜稅銭 五萬九千七百九十六貫三百七十二文"},
-      {"purpose": "modern_jp_reading", "value": "雑税銭 (ざつぜいせん) は五万九千七百九十六貫三百七十二文 — 銭貨単位"},
-      {"purpose": "english_translation", "value": "Zatsuzei sen (miscellaneous tax in copper coin) = 59,796.372 kan-mon. This row was corrected via the 2026-05-18 crop verification — the original chunk had a garbled OCR that mis-read 五十九貫九千 (a smaller number) for the actual 五萬九千七百九十六貫."},
-      {"purpose": "extracted_value", "value": "59,796.372 kan-mon"},
-      {"purpose": "identifying", "value": "雑稅銭"}
+      {"purpose": "transcribing", "value": "茶種 六千七百七十石四斗二升"},
+      {"purpose": "modern_jp_reading", "value": "茶種 (ちゃしゅ) 六千七百七十石余"},
+      {"purpose": "english_translation", "value": "Tea seed = 6,770.42 koku. Satsuma's tea production was significant but secondary to the famous Ryūkyū sugar (see 砂糖 column below). MASTER notes: 'Corrected 2026-05-20 (was 椿/uncertain, now 茶種/tea seeds): per upper_p088_left crop'."},
+      {"purpose": "extracted_value", "value": "6,770.42 koku"},
+      {"purpose": "identifying", "value": "茶種"}
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:950,1200,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1920,260,110,1500"}
     }
   },
   {
@@ -100,7 +115,52 @@
     ],
     "target": {
       "source": "images/upper_p088_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:600,1100,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1785,260,110,2000"}
+    }
+  },
+  {
+    "id": "anno-satsuma_kokudaka-kouzo",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "楮 九萬六千七百七十六貫"},
+      {"purpose": "modern_jp_reading", "value": "楮 (こうぞ) 九万六千七百七十六貫 (約363トン) — 紙の原料"},
+      {"purpose": "english_translation", "value": "Paper mulberry (kōzo) = 96,776.43 kan (~363 metric tons). Raw material for traditional washi paper-making. The unit kanme (貫目) is mass for raw fiber, not volume."},
+      {"purpose": "extracted_value", "value": "96,776.4299 kanme"},
+      {"purpose": "identifying", "value": "楮"}
+    ],
+    "target": {
+      "source": "images/upper_p088_left.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1655,260,110,1500"}
+    }
+  },
+  {
+    "id": "anno-satsuma_kokudaka-zatsuzei",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "雜稅 錢 五萬九千七百九十六貫三百七十二文"},
+      {"purpose": "modern_jp_reading", "value": "雑税 (ざつぜい) 錢 五万九千七百九十六貫三百七十二文 — 銭貨単位"},
+      {"purpose": "english_translation", "value": "Miscellaneous tax in copper coin = 59,796.372 kan-mon. This row was corrected via the 2026-05-18 crop verification — the original chunk had garbled OCR mis-reading 五十九貫九千 (a much smaller number) for 五萬九千七百九十六貫."},
+      {"purpose": "extracted_value", "value": "59,796.372 kan-mon"},
+      {"purpose": "identifying", "value": "雑稅銭"}
+    ],
+    "target": {
+      "source": "images/upper_p088_left.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1380,260,110,2000"}
+    }
+  },
+  {
+    "id": "anno-satsuma_kokudaka-asao",
+    "type": "Annotation",
+    "body": [
+      {"purpose": "transcribing", "value": "麻苧 二千八百七十七斤"},
+      {"purpose": "modern_jp_reading", "value": "麻苧 (あさお / まお) 二千八百七十七斤"},
+      {"purpose": "english_translation", "value": "Hemp / ramie fiber = 2,877 jin (~1.7 metric tons). Used for traditional summer-weight cloth and ropes."},
+      {"purpose": "extracted_value", "value": "2,877 jin"},
+      {"purpose": "identifying", "value": "麻苧"}
+    ],
+    "target": {
+      "source": "images/upper_p088_left.jpg",
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1250,260,110,1100"}
     }
   }
 ]

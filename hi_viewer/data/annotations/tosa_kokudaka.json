@@ -11,7 +11,7 @@
     ],
     "target": {
       "source": "images/upper_p089_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2330,300,300,1100"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2455,150,110,2200"}
     }
   },
   {
@@ -20,13 +20,13 @@
     "body": [
       {"purpose": "transcribing", "value": "現米 拾八萬九千四百三十一石"},
       {"purpose": "modern_jp_reading", "value": "現米 (げんまい) は十八万九千四百三十一石"},
-      {"purpose": "english_translation", "value": "Genmai (actual rice yielded) = 189,431 koku. About 38% of assessed sōdaka — higher than Chōshū's effective rate, reflecting Tosa's more directly-taxed coastal-plain rice production."},
+      {"purpose": "english_translation", "value": "Genmai (actual rice yielded) = 189,431 koku. About 38% of assessed sōdaka — higher than Chōshū's effective rate, reflecting Tosa's directly-taxed coastal-plain rice production."},
       {"purpose": "extracted_value", "value": "189,431 koku"},
       {"purpose": "identifying", "value": "現米"}
     ],
     "target": {
       "source": "images/upper_p089_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1900,300,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2320,150,115,1800"}
     }
   },
   {
@@ -41,21 +41,21 @@
     ],
     "target": {
       "source": "images/upper_p089_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1100,2200,300,900"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2185,150,115,1700"}
     }
   },
   {
     "id": "anno-tosa_koku-products",
     "type": "Annotation",
     "body": [
-      {"purpose": "transcribing", "value": "諸産物: 諸紙・砂糖・同白・黒蜜・鶏卵・蜂蜜・濾蜜・茶・椎茸・楊梅皮・楮草・松脂・茅蠟・蕨粉・蕨繩・檜繩・松節・松烟・桂根・燒物類 ..."},
+      {"purpose": "transcribing", "value": "諸産物 — 諸紙・砂糖・同白・黒蜜・鶏卵・蜂蜜・濾蜜・茶・椎茸・楊梅皮・楮草・松脂・茅蠟・蕨粉・蕨繩・檜繩・松節・松烟・桂根・燒物類 ..."},
       {"purpose": "modern_jp_reading", "value": "諸産物の一覧 — 各種紙・砂糖・黒蜜・蜂蜜・茶・きのこ・薬草・蝋など"},
-      {"purpose": "english_translation", "value": "Domain products: various papers, sugar (white and black molasses varieties), eggs, honey, filtered honey, tea, shiitake mushrooms, mountain-tea, lacquer-tree bark, paper mulberry, pine resin, kayasoku wax, bracken-root flour, bracken cord, cypress cord, pine joints, pine soot (墨), cassia root, baked ceramics... A long product list characteristic of HI for major domains — pages-worth of agricultural and craft outputs."},
+      {"purpose": "english_translation", "value": "Domain products: various papers, sugar (white and black molasses varieties), eggs, honey, filtered honey, tea, shiitake mushrooms, mountain-tea, lacquer-tree bark, paper mulberry, pine resin, kayasoku wax, bracken-root flour, bracken cord, cypress cord, pine joints, pine soot (墨), cassia root, baked ceramics... A long product list characteristic of HI for major domains."},
       {"purpose": "identifying", "value": "諸産物"}
     ],
     "target": {
       "source": "images/upper_p089_left.jpg",
-      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:600,1100,1300,2500"}
+      "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:850,150,1450,2400"}
     }
   }
 ]
