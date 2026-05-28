@@ -1,6 +1,7 @@
-/* HI page viewer — focal-4 sample */
+/* HI page viewer — focal-4 sample (crop-based architecture) */
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -9,6 +10,7 @@ body {
   background: #f5f5f5;
 }
 
+/* ---------- Header / nav ---------- */
 .viewer-header {
   display: flex;
   justify-content: space-between;
@@ -20,265 +22,99 @@ body {
   flex-wrap: wrap;
   gap: 12px;
 }
-
-.viewer-header h1 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.header-controls {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.header-controls label span {
-  margin-right: 6px;
-  font-size: 13px;
-}
-
+.viewer-header h1 { margin: 0; font-size: 18px; font-weight: 500; }
+.header-controls { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.header-controls label span { margin-right: 6px; font-size: 13px; }
 .header-controls select {
-  padding: 4px 8px;
-  font-size: 13px;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  padding: 4px 8px; font-size: 13px; background: white;
+  border: 1px solid #ccc; border-radius: 3px;
 }
 
 .page-nav {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 8px 24px;
-  background: white;
-  border-bottom: 1px solid #ddd;
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 24px; background: white; border-bottom: 1px solid #ddd;
 }
-
 .page-nav button {
-  padding: 6px 12px;
-  background: #3498db;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 13px;
+  padding: 6px 12px; background: #3498db; color: white; border: none;
+  border-radius: 3px; cursor: pointer; font-size: 13px;
 }
+.page-nav button:disabled { background: #bbb; cursor: not-allowed; }
+.page-nav select { flex: 1; max-width: 480px; padding: 6px 8px; font-size: 13px; }
+.page-meta { display: flex; gap: 16px; font-size: 12px; color: #555; margin-left: auto; }
 
-.page-nav button:disabled {
-  background: #bbb;
-  cursor: not-allowed;
-}
+/* ---------- Main two-pane layout ---------- */
+.viewer-main { display: flex; min-height: calc(100vh - 130px); }
 
-.page-nav select {
-  flex: 1;
-  max-width: 480px;
-  padding: 6px 8px;
-  font-size: 13px;
-}
-
-.page-meta {
-  display: flex;
-  gap: 16px;
-  font-size: 12px;
-  color: #555;
-  margin-left: auto;
-}
-
-/* HTML hidden attribute should always win over our display rules.
- * Without this, .transcription-controls { display: flex; } overrides
- * the user-agent [hidden] { display: none } at equal specificity. */
-[hidden] { display: none !important; }
-
-/* Transcription-overlay control strip */
-.transcription-controls {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 10px 24px;
-  background: #fffbea;
-  border-bottom: 1px solid #f0c674;
-  flex-wrap: wrap;
-}
-
-.transcription-controls label {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  color: #333;
-}
-
-.transcription-controls input[type=range] {
-  width: 150px;
-}
-
-.transcription-controls .control-help {
-  font-size: 12px;
-  color: #666;
-  font-style: italic;
-  flex: 1;
-  min-width: 280px;
-}
-
-.viewer-main {
-  display: flex;
-  height: calc(100vh - 130px);
-}
-
-.image-pane {
-  flex: 2;
+.page-pane {
+  flex: 0 0 38%;
   display: flex;
   flex-direction: column;
   background: #1a1a1a;
-  position: relative;  /* anchor for transcription-overlay */
-}
-
-#osd-viewer {
-  flex: 1;
-  background: #1a1a1a;
-  position: relative;
-}
-
-/* Transcription overlay layer — moved INSIDE #osd-viewer at runtime so
- * its coordinate origin matches OSD's viewer-element coordinate system
- * (which is what viewer.viewport.imageToViewerElementCoordinates returns).
- * Each .tr-overlay-text div is absolutely positioned by viewer.js. */
-.transcription-overlay {
-  position: absolute;
+  padding: 12px;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  z-index: 200;
+  align-self: flex-start;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
 }
-
-.tr-overlay-text {
-  position: absolute;
-  /* Vertical Japanese writing direction: top→bottom, right→left columns */
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-family: "Hiragino Mincho Pro", "Yu Mincho", "MS Mincho", "Noto Serif JP", serif;
-  font-weight: 500;
-  line-height: 1.0;
-  letter-spacing: -0.05em;
-  color: #111;
+.page-image-wrap {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   overflow: hidden;
-  cursor: pointer;
-  /* Subtle white halo so the typed kanji stay readable when the original
-   * image opacity is high. Disappears when image is faded out. */
-  text-shadow:
-     0 0  3px rgba(255, 255, 255, 0.95),
-     0 0  6px rgba(255, 255, 255, 0.75);
-  /* Bias the column down a touch so the first char lines up with the
-   * source ink rather than the literal bbox top. */
-  padding-top: 4px;
-  white-space: nowrap;
-  transition: background-color 0.15s, outline-color 0.15s;
+  background: #0f0f0f;
+  border-radius: 3px;
 }
-
-/* Hover state on a typed-kanji column (mouse over the column itself) */
-.tr-overlay-text.tr-overlay-hover {
-  background: rgba(255, 230, 0, 0.25);
-  outline: 2px solid rgba(255, 200, 0, 0.85);
+#page-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: zoom-in;
+  background: white;
+  display: block;
 }
-
-/* "Linked" state — the user is hovering the matching row in the side
- * table; we highlight the column on the page to draw their eye. */
-.tr-overlay-text.tr-overlay-linked {
-  background: rgba(40, 167, 69, 0.20);
-  outline: 2px solid rgba(40, 167, 69, 0.85);
-}
-
 .image-meta {
-  padding: 6px 12px;
-  background: #333;
+  padding: 6px 4px 0;
   color: #aaa;
   font-family: monospace;
-  position: relative;
-  z-index: 300;
+  font-size: 11px;
 }
 
 .data-pane {
   flex: 1;
-  min-width: 420px;
-  max-width: 640px;
-  overflow-y: auto;
-  padding: 16px;
+  padding: 16px 20px;
   background: white;
   border-left: 1px solid #ddd;
+  overflow-x: auto;
 }
+.data-pane h2 { margin: 0 0 8px 0; font-size: 15px; font-weight: 600; color: #2c3e50; }
+.data-help { font-size: 12px; color: #777; margin: 0 0 12px 0; font-style: italic; }
 
-.data-pane h2 {
-  margin: 0 0 8px 0;
-  font-size: 15px;
-  font-weight: 600;
-  color: #2c3e50;
-}
-
-.data-help {
-  font-size: 12px;
-  color: #777;
-  margin: 0 0 12px 0;
-  font-style: italic;
-}
-
+/* ---------- Extract table ---------- */
 .extract-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
 }
-
 .extract-table th {
   text-align: left;
   padding: 6px 8px;
   background: #f0f0f0;
   border-bottom: 2px solid #ccc;
   font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
-
+.extract-table th.crop-col { text-align: center; min-width: 140px; }
 .extract-table td {
-  padding: 6px 8px;
+  padding: 8px;
   border-bottom: 1px solid #eee;
   vertical-align: top;
 }
-
-.extract-table tr {
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.extract-table tr:hover {
-  background: #f8f9fa;
-}
-
-.extract-table tr.linked-highlight {
-  background: #fff3cd;
-  border-left: 3px solid #ffc107;
-}
-
-.extract-table tr.has-annotation {
-  border-left: 3px solid #28a745;
-}
-.extract-table tr.has-annotation:hover {
-  background: #e8f5e9;
-}
-.extract-table tr.has-annotation::after {
-  content: " ↗";
-  color: #28a745;
-  font-size: 10px;
-}
-
-.extract-table tr.no-annotation {
-  opacity: 0.65;
-  border-left: 3px solid #ddd;
-  cursor: default;
-}
-.extract-table tr.no-annotation:hover {
-  background: #f5f5f5;
-}
+.extract-table tr.no-crop-row { background: #fafafa; }
+.extract-table tr.no-crop-row td { color: #888; }
 
 .extract-table .field-jp {
   font-family: "Hiragino Mincho", "Yu Mincho", "MS Mincho", serif;
@@ -287,64 +123,64 @@ body {
   line-height: 1.9;
   padding-top: 12px;
 }
-
-.extract-table .field-jp ruby {
-  ruby-position: over;
-  ruby-align: center;
-}
-
+.extract-table .field-jp ruby { ruby-position: over; ruby-align: center; }
 .extract-table .field-jp rt {
   font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
-  font-size: 9px;
-  color: #666;
-  font-weight: normal;
-  line-height: 1.1;
-  letter-spacing: 0;
+  font-size: 9px; color: #666; font-weight: normal;
+  line-height: 1.1; letter-spacing: 0;
 }
-
 .extract-table .field-en {
-  font-size: 11px;
-  color: #444;
-  line-height: 1.3;
-  font-style: italic;
-  max-width: 200px;
-  word-wrap: break-word;
-  white-space: normal;
+  font-size: 11px; color: #444; line-height: 1.3;
+  font-style: italic; max-width: 180px;
+  word-wrap: break-word; white-space: normal;
 }
-
 .extract-table .value {
   font-family: monospace;
   text-align: right;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.extract-table .unit { color: #777; font-size: 11px; white-space: nowrap; }
+
+/* The crop cell — the key new piece. Each thumb shows a vertical strip
+ * of the source page corresponding to one column. Click to enlarge. */
+.extract-table .crop-cell {
+  text-align: center;
+  background: #fafafa;
+}
+.extract-table .col-crop {
+  display: inline-block;
+  max-height: 220px;
+  max-width: 90px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: zoom-in;
+  transition: transform 0.15s, border-color 0.15s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.extract-table .col-crop:hover {
+  border-color: #3498db;
+  transform: scale(1.03);
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+.extract-table .no-crop {
+  color: #bbb; font-style: italic; font-size: 11px;
 }
 
-.extract-table .unit {
-  color: #777;
-  font-size: 10px;
-  white-space: nowrap;
-}
-
+/* ---------- Page summary ---------- */
 .page-summary {
-  margin-top: 20px;
-  padding: 12px;
+  margin-top: 24px;
+  padding: 12px 14px;
   background: #f8f9fa;
   border-left: 3px solid #3498db;
   font-size: 13px;
   line-height: 1.5;
 }
+.page-summary h3 { margin: 0 0 6px 0; font-size: 13px; font-weight: 600; color: #2c3e50; }
+.page-summary p { margin: 4px 0; }
 
-.page-summary h3 {
-  margin: 0 0 6px 0;
-  font-size: 13px;
-  font-weight: 600;
-  color: #2c3e50;
-}
-
-.page-summary p {
-  margin: 4px 0;
-}
-
+/* ---------- Footer ---------- */
 .viewer-footer {
   padding: 12px 24px;
   background: #f0f0f0;
@@ -352,84 +188,42 @@ body {
   font-size: 11px;
   color: #555;
 }
+.viewer-footer p { margin: 0; max-width: 1100px; }
 
-.viewer-footer p {
-  margin: 0;
-  max-width: 1100px;
+/* ---------- Lightbox ---------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
 }
-
-/* ============================================================
- * Annotation regions — soft default, more visible on hover.
- * In annotations mode the rectangles appear as a thin amber tint;
- * on hover they fill amber. (The earlier "kanji-glow via blend-mode"
- * approach didn't reliably work because Annotorious's SVG overlay
- * is a separate stacking context from the OSD canvas — the
- * transcription-overlay mode replaces this with rendered text.)
- * ============================================================ */
-
-.a9s-annotation .a9s-inner {
-  fill: rgba(255, 200, 0, 0.10) !important;
-  stroke: rgba(180, 140, 0, 0.45) !important;
-  stroke-width: 1.5px !important;
-  cursor: pointer;
-  transition: fill 0.12s ease;
+.lightbox-inner {
+  max-width: 95vw; max-height: 95vh;
+  display: flex; flex-direction: column; align-items: center;
 }
-
-.a9s-annotation:hover .a9s-inner {
-  fill: rgba(255, 200, 0, 0.35) !important;
-  stroke: rgba(180, 140, 0, 0.85) !important;
+.lightbox-inner img {
+  max-width: 95vw;
+  max-height: 88vh;
+  background: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
 }
-
-.a9s-annotation .a9s-outer {
-  stroke: transparent !important;
-  fill: transparent !important;
-}
-
-/* Popup styling */
-.a9s-popup, .r6o-editor {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif;
-  max-width: 360px;
-}
-
-.a9s-popup .annotation-body {
-  padding: 12px;
-}
-
-.a9s-popup .anno-kanji {
-  font-family: "Hiragino Mincho", "Yu Mincho", "MS Mincho", serif;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 8px;
-  line-height: 1.4;
-}
-
-.a9s-popup .anno-modern-jp {
+.lightbox-caption {
+  margin-top: 12px;
+  color: #ddd;
   font-size: 13px;
-  color: #444;
-  margin: 4px 0;
-  padding: 4px 0;
-  border-top: 1px dashed #ddd;
-  border-bottom: 1px dashed #ddd;
+  font-family: "Hiragino Mincho", "Yu Mincho", serif;
 }
 
-.a9s-popup .anno-en {
-  font-size: 13px;
-  color: #222;
-  margin-top: 6px;
-  font-style: italic;
-}
-
-.a9s-popup .anno-meta {
-  font-size: 11px;
-  color: #888;
-  margin-top: 8px;
-  padding-top: 6px;
-  border-top: 1px solid #eee;
-}
-
-.a9s-popup .anno-value {
-  font-family: monospace;
-  background: #fff3cd;
-  padding: 2px 4px;
-  border-radius: 2px;
+/* ---------- Responsive: stack on narrow screens ---------- */
+@media (max-width: 1100px) {
+  .viewer-main { flex-direction: column; }
+  .page-pane {
+    flex: 0 0 auto;
+    position: static;
+    max-height: 70vh;
+  }
 }

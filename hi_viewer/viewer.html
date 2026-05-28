@@ -5,11 +5,6 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Hansei Ichiran Page Viewer — Focal-4</title>
-<!-- OpenSeadragon (image viewer with deep-zoom) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
-<!-- Annotorious for OpenSeadragon (overlays + hover popups) -->
-<link href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.11/dist/annotorious.min.css" rel="stylesheet"/>
-<script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.11/dist/openseadragon-annotorious.min.js"></script>
 <link href="viewer.css" rel="stylesheet"/>
 </head>
 <body>
@@ -37,26 +32,49 @@
 </div>
 </nav>
 <main class="viewer-main">
-<section class="image-pane">
-<div id="osd-viewer"></div>
+<section class="page-pane">
+<div class="page-image-wrap">
+<!-- The full HI page, clickable to open in a lightbox -->
+<img alt="HI source page" id="page-img" src=""/>
+</div>
 <div class="image-meta">
 <small id="image-filename"></small>
 </div>
 </section>
 <aside class="data-pane">
-<h2>Extracted data from this page</h2>
-<p class="data-help">Hover or click an annotation on the page (left) to highlight its corresponding row here. Click a row to zoom the page to its location.</p>
+<h2>Extracted data — each row shows the actual column ink from the page</h2>
+<p class="data-help">
+        Each row pairs the MASTER value with a direct crop of the corresponding column from the source page (right-most cell).
+        Read the kanji in the crop to verify the value yourself. Click any crop to enlarge.
+      </p>
 <table class="extract-table">
 <thead>
-<tr><th>HI field (with reading)</th><th>English</th><th>Value</th><th>Unit</th></tr>
+<tr>
+<th>HI field (with reading)</th>
+<th>English</th>
+<th>Value</th>
+<th>Unit</th>
+<th class="crop-col">Source column</th>
+</tr>
 </thead>
 <tbody id="extract-rows"></tbody>
 </table>
 <section class="page-summary" id="page-summary"></section>
 </aside>
 </main>
+<!-- Lightbox for click-to-enlarge -->
+<div class="lightbox" hidden="" id="lightbox">
+<div class="lightbox-inner">
+<img alt="" id="lightbox-img" src=""/>
+<div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+</div>
 <footer class="viewer-footer">
-<p>Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>; annotations are hand-curated against the source pages. Hover an amber column on the page to see its verbatim kanji, modern Japanese reading, English translation, and extracted value.</p>
+<p>
+      Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji
+      Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>;
+      the source-column thumbnails in the right-most table cell are direct image crops from the HI page shown on the left.
+    </p>
 </footer>
 <script src="viewer.js"></script>
 </body>
