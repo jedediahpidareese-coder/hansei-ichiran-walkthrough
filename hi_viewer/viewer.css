@@ -92,6 +92,16 @@ body {
 #osd-viewer {
   flex: 1;
   background: #1a1a1a;
+  /* isolation:isolate creates a stacking context so the SVG annotation
+   * overlay can use mix-blend-mode against the OSD canvas image below. */
+  isolation: isolate;
+}
+
+/* Force the OpenSeadragon canvas and SVG annotation overlay into the
+ * same stacking context for mix-blend-mode to work between them. */
+#osd-viewer .openseadragon-canvas,
+#osd-viewer svg.a9s-annotationlayer {
+  isolation: auto;
 }
 
 .image-meta {
@@ -264,13 +274,38 @@ body {
   cursor: pointer;
 }
 
-.a9s-annotation:hover .a9s-inner {
-  fill: rgba(255, 215, 0, 0.85) !important;
-  mix-blend-mode: multiply;
+/* On hover: yellow fill with multiply blend mode. The blend mode causes
+ * the yellow to combine with underlying pixels via multiplication —
+ * white pixels (background) stay white because (1,1,1) × yellow = yellow
+ * but light areas of the image stay light. Wait — multiply with yellow
+ * (1, 0.85, 0) makes white become yellow and dark areas darker. So actually
+ * the SHEET turns yellow but the text gets darker yellow. To make ONLY the
+ * text glow, we need 'darken' or 'color-burn' or to invert the approach.
+ *
+ * Better approach: use SVG <filter> to threshold the underlying image
+ * pixel value, only showing yellow where it's already dark. But that
+ * requires SVG filter primitives applied to the source image, not the
+ * highlight overlay. Annotorious doesn't expose that hook directly.
+ *
+ * Practical fallback that LOOKS like text-glow: use 'darken' blend mode
+ * with a saturated yellow. 'darken' picks the darker of source vs dest
+ * for each channel — yellow (1,1,0) darken white (1,1,1) = (1,1,0) yellow,
+ * but yellow darken dark-grey (0.2,0.2,0.2) = (0.2,0.2,0) — gets darker
+ * yellow on the text strokes while sheet stays yellow. Not perfect.
+ *
+ * Going with 'multiply' + lower opacity — best compromise that should
+ * actually take effect across SVG-over-canvas. */
+.a9s-annotation:hover .a9s-inner,
+.a9s-annotation:hover rect,
+.a9s-annotation:hover polygon {
+  fill: rgba(255, 230, 0, 0.55) !important;
+  mix-blend-mode: multiply !important;
+  stroke: transparent !important;
 }
 
 .a9s-annotation:hover .a9s-outer {
   stroke: transparent !important;
+  fill: transparent !important;
 }
 
 /* When a side-table row is hovered, the matching annotation should also
