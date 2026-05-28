@@ -58,6 +58,18 @@ function renderFieldWithFurigana(fieldJp) {
   return escapeHtml(fieldJp);
 }
 
+function getAnnotationFieldJps() {
+  // Returns a Set of field_jp values that have an annotation on the current page
+  if (!anno) return new Set();
+  const result = new Set();
+  anno.getAnnotations().forEach(a => {
+    (a.body || []).forEach(b => {
+      if (b.purpose === 'identifying' && b.value) result.add(b.value);
+    });
+  });
+  return result;
+}
+
 function renderExtractTable(pageId) {
   const tbody = $('#extract-rows');
   tbody.innerHTML = '';
@@ -66,6 +78,17 @@ function renderExtractTable(pageId) {
     tbody.innerHTML = '<tr><td colspan="4" style="color:#888;text-align:center;padding:20px">No MASTER extract rows recorded for this page.</td></tr>';
     return;
   }
+  // Get the set of field_jp values that have annotations (defer until after anno is ready)
+  setTimeout(() => {
+    const annotated = getAnnotationFieldJps();
+    document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
+      if (annotated.has(tr.dataset.fieldJp)) {
+        tr.classList.add('has-annotation');
+      } else {
+        tr.classList.add('no-annotation');
+      }
+    });
+  }, 200);
   rows.forEach((r, idx) => {
     const tr = document.createElement('tr');
     tr.dataset.extractIdx = idx;
