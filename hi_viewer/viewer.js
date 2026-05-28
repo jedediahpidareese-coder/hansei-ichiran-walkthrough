@@ -191,22 +191,9 @@ function setOverlayColor(color) {
   });
 }
 
-function ensureOverlayInsideOsd() {
-  // OSD's imageToViewerElementCoordinates returns coords relative to the
-  // #osd-viewer element. So we move the overlay INSIDE #osd-viewer to
-  // make the coordinate system match exactly — no risk of layout offsets
-  // between .image-pane and #osd-viewer skewing the positions.
-  const overlay = $('#transcription-overlay');
-  const osdEl = document.getElementById('osd-viewer');
-  if (overlay && osdEl && overlay.parentElement !== osdEl) {
-    osdEl.appendChild(overlay);
-  }
-}
-
 function rebuildTranscriptionOverlay() {
   const overlay = $('#transcription-overlay');
   if (!overlay || !viewer) return;
-  ensureOverlayInsideOsd();
   overlay.innerHTML = '';
   if (currentMode !== 'transcription') return;
 
@@ -231,7 +218,14 @@ function rebuildTranscriptionOverlay() {
 function repositionOverlay() {
   if (!viewer || currentMode !== 'transcription') return;
   const overlay = $('#transcription-overlay');
-  if (!overlay) return;
+  const osdEl = document.getElementById('osd-viewer');
+  if (!overlay || !osdEl) return;
+
+  // Convert image-pixel coords to PAGE coords via OSD, then subtract
+  // the overlay container's page position. This is robust to whatever
+  // parent the overlay lives under — no need to match origins.
+  const overlayRect = overlay.getBoundingClientRect();
+  const osdRect = osdEl.getBoundingClientRect();
 
   const divs = overlay.querySelectorAll('.tr-overlay-text');
   divs.forEach(div => {
@@ -241,7 +235,9 @@ function repositionOverlay() {
     const box = parseXywh(a.target.selector.value);
     if (!box) return;
 
-    // Convert image-pixel rect to viewer-element coords (pixels in the OSD div)
+    // imageToViewerElementCoordinates → coords inside #osd-viewer.
+    // Add #osd-viewer's page offset, subtract overlay's page offset →
+    // coords inside the overlay.
     const topLeft = viewer.viewport.imageToViewerElementCoordinates(
       new OpenSeadragon.Point(box.x, box.y)
     );
@@ -249,8 +245,8 @@ function repositionOverlay() {
       new OpenSeadragon.Point(box.x + box.w, box.y + box.h)
     );
 
-    const left = topLeft.x;
-    const top = topLeft.y;
+    const left = topLeft.x + osdRect.left - overlayRect.left;
+    const top = topLeft.y + osdRect.top - overlayRect.top;
     const width = bottomRight.x - topLeft.x;
     const height = bottomRight.y - topLeft.y;
 
@@ -259,8 +255,7 @@ function repositionOverlay() {
     div.style.width = `${width}px`;
     div.style.height = `${height}px`;
 
-    // Auto-size the kanji to fit the box width (column-style annotations are tall and narrow)
-    // Each character renders at roughly the column width.
+    // Auto-size kanji to ~85% of the column width
     const fontSize = Math.max(8, Math.min(width * 0.85, 60));
     div.style.fontSize = `${fontSize}px`;
   });
@@ -284,33 +279,17 @@ function applyMode() {
     overlay.hidden = false;
     controls.hidden = false;
     setAnnotoriousVisible(false);
-    // Showing the controls strip shrinks .viewer-main, which shrinks
-    // #osd-viewer. Force OSD to recompute its viewport against the new
-    // container size BEFORE we ask it for image-to-viewer coordinates,
-    // otherwise every kanji div lands at the pre-resize position
-    // (offset up/left by the difference).
-    requestAnimationFrame(() => {
-      if (viewer) {
-        if (typeof viewer.forceResize === 'function') viewer.forceResize();
-        if (viewer.viewport && typeof viewer.viewport.resize === 'function') {
-          viewer.viewport.resize();
-          viewer.viewport.update();
-        }
-      }
-      requestAnimationFrame(() => rebuildTranscriptionOverlay());
-    });
+    // Wait long enough for: (a) the controls strip to appear and shrink
+    // .viewer-main, (b) OSD's ResizeObserver to detect the new
+    // #osd-viewer size, (c) OSD's viewport to recompute. Then build the
+    // overlay. 200 ms is generous but bullet-proof.
+    setTimeout(() => rebuildTranscriptionOverlay(), 200);
   } else {
     overlay.hidden = true;
     controls.hidden = true;
     setAnnotoriousVisible(true);
-    // Reset opacities so the annotations-mode page is fully visible
     setImageOpacity(1.0);
     setOverlayOpacity(1.0);
-    // Same resize issue in reverse — OSD needs to know the viewer grew
-    // back when the controls strip went away.
-    requestAnimationFrame(() => {
-      if (viewer && typeof viewer.forceResize === 'function') viewer.forceResize();
-    });
   }
 }
 
@@ -437,21 +416,7 @@ async function init() {
     applyMode();
   });
 
-  // Watch the OSD container for size changes (controls-strip toggling,
-  // window resize, devtools opening, etc.) and re-position the overlay
-  // whenever it changes.
-  const osdEl = document.getElementById('osd-viewer');
-  if (osdEl && typeof ResizeObserver === 'function') {
-    new ResizeObserver(() => {
-      if (currentMode === 'transcription') {
-        if (viewer && viewer.viewport && typeof viewer.viewport.resize === 'function') {
-          viewer.viewport.resize();
-          viewer.viewport.update();
-        }
-        repositionOverlay();
-      }
-    }).observe(osdEl);
-  }
+  // Reposition the overlay on window resize.
   window.addEventListener('resize', () => {
     if (currentMode === 'transcription') repositionOverlay();
   });
