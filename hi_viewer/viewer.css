@@ -1,4 +1,4 @@
-/* HI page viewer — side-by-side layout, compact rows, small inline crops */
+/* HI page viewer — side-by-side, CSS-overlay column highlights */
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -9,7 +9,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
   color: #222;
   background: #f5f5f5;
-  overflow: hidden;  /* the layout is height-managed; the data pane handles its own scroll */
+  overflow: hidden;
 }
 
 /* ---------- Top bars ---------- */
@@ -44,33 +44,67 @@ body {
   display: flex; gap: 14px; font-size: 12px; color: #555; margin-left: auto;
 }
 
-/* ---------- Two-pane main layout ---------- */
+/* ---------- Two-pane main ---------- */
 .viewer-main {
   display: flex;
-  height: calc(100vh - 82px);  /* viewport minus header (44) + nav (38) */
+  height: calc(100vh - 82px);
 }
 
-/* Left: HI page — fits full height, portrait-friendly */
+/* Left: page + highlight overlay */
 .page-pane {
   flex: 0 0 42%;
   background: #1a1a1a;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 10px;
+  padding: 8px;
   border-right: 1px solid #000;
   overflow: hidden;
 }
+
+/* Frame fills the available space; the <img> uses object-fit: contain inside,
+ * leaving letterboxing that the highlight-layer (also inside) compensates for
+ * via JS-computed scale + offset. */
+.page-image-frame {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
 #page-img {
   max-width: 100%;
-  max-height: calc(100% - 22px);  /* leave room for the meta filename */
+  max-height: 100%;
   width: auto;
   height: auto;
   object-fit: contain;
   cursor: zoom-in;
   background: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+}
+.highlight-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.highlight-box {
+  position: absolute;
+  pointer-events: auto;
+  cursor: pointer;
+  background: rgba(255, 200, 0, 0.08);
+  border: 1px solid rgba(180, 140, 0, 0.35);
+  transition: background-color 0.12s, border-color 0.12s, box-shadow 0.12s;
+}
+.highlight-box:hover,
+.highlight-box.active {
+  background: rgba(255, 200, 0, 0.40);
+  border: 2px solid rgba(180, 100, 0, 0.95);
+  box-shadow: 0 0 14px rgba(255, 180, 0, 0.6);
 }
 .image-meta {
   margin-top: 6px;
@@ -80,7 +114,7 @@ body {
   text-align: center;
 }
 
-/* Right: data — scrolls independently */
+/* Right: data ----- */
 .data-pane {
   flex: 1;
   overflow-y: auto;
@@ -100,16 +134,15 @@ body {
   font-style: italic;
 }
 
-/* ---------- Extract table — tight rows, small inline crops ---------- */
+/* Extract table */
 .extract-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
-  table-layout: auto;
 }
 .extract-table th {
   text-align: left;
-  padding: 4px 8px;
+  padding: 5px 8px;
   background: #f0f0f0;
   border-bottom: 2px solid #ccc;
   font-weight: 600;
@@ -117,11 +150,26 @@ body {
   position: sticky; top: 0; z-index: 5;
 }
 .extract-table th.num { text-align: right; }
-.extract-table th.crop-col { text-align: center; width: 72px; }
 .extract-table td {
-  padding: 4px 8px;
+  padding: 5px 8px;
   border-bottom: 1px solid #eee;
   vertical-align: middle;
+}
+
+.extract-table tr.has-anno { cursor: pointer; }
+.extract-table tr:not(.has-anno) td { color: #999; }
+.extract-table tr:not(.has-anno) td:first-child::after {
+  content: " *";
+  color: #ccc;
+  font-size: 10px;
+}
+
+.extract-table tr:hover {
+  background: #fff8e0;
+}
+.extract-table tr.active {
+  background: #fff3cd;
+  outline: 2px solid #ffc107;
 }
 
 .extract-table .field-jp {
@@ -129,7 +177,7 @@ body {
   font-size: 15px;
   white-space: nowrap;
   line-height: 1.7;
-  padding-top: 8px;  /* room for ruby */
+  padding-top: 8px;
 }
 .extract-table .field-jp ruby { ruby-position: over; ruby-align: center; }
 .extract-table .field-jp rt {
@@ -140,7 +188,7 @@ body {
 .extract-table .field-en {
   font-size: 12px; color: #444; line-height: 1.35;
   font-style: italic;
-  max-width: 220px;
+  max-width: 280px;
   word-wrap: break-word; white-space: normal;
 }
 .extract-table .value {
@@ -152,35 +200,7 @@ body {
 }
 .extract-table .unit { color: #777; font-size: 11px; white-space: nowrap; }
 
-.extract-table .crop-cell {
-  text-align: center;
-  padding: 3px;
-  background: #fafafa;
-  width: 72px;
-}
-.extract-table .col-crop {
-  display: inline-block;
-  max-height: 70px;
-  max-width: 60px;
-  width: auto;
-  height: auto;
-  border: 1px solid #ccc;
-  background: white;
-  cursor: zoom-in;
-  transition: transform 0.12s, border-color 0.12s, box-shadow 0.12s;
-  vertical-align: middle;
-}
-.extract-table .col-crop:hover {
-  border-color: #3498db;
-  transform: scale(1.6);
-  box-shadow: 0 4px 14px rgba(52, 152, 219, 0.45);
-  z-index: 10;
-  position: relative;
-}
-
-.extract-table tr:hover { background: #f8f9fa; }
-
-/* ---------- Page summary ---------- */
+/* Page summary */
 .page-summary {
   margin-top: 16px;
   padding: 10px 12px;
@@ -192,12 +212,7 @@ body {
 .page-summary h3 { margin: 0 0 5px 0; font-size: 12px; font-weight: 600; color: #2c3e50; }
 .page-summary p { margin: 3px 0; }
 
-/* ---------- Footer (small, off-screen unless scrolled) ---------- */
-.viewer-footer {
-  display: none;  /* hidden in the fixed layout; info is in page-summary */
-}
-
-/* ---------- Lightbox ---------- */
+/* Lightbox */
 .lightbox {
   position: fixed; inset: 0;
   background: rgba(0, 0, 0, 0.92);
@@ -221,10 +236,10 @@ body {
   font-family: "Hiragino Mincho", "Yu Mincho", serif;
 }
 
-/* ---------- Narrow screens: stack vertically ---------- */
+/* Narrow screens */
 @media (max-width: 900px) {
   body { overflow: auto; }
   .viewer-main { flex-direction: column; height: auto; }
-  .page-pane { flex: 0 0 auto; height: 50vh; border-right: none; border-bottom: 1px solid #000; }
+  .page-pane { flex: 0 0 auto; height: 55vh; border-right: none; border-bottom: 1px solid #000; }
   .data-pane { height: auto; }
 }

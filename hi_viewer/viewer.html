@@ -1,76 +1,81 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Hansei Ichiran (1870) — Focal-4 Page Viewer</title>
-<link href="viewer.css?v=20260528c" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hansei Ichiran (1870) — Focal-4 Page Viewer</title>
+  <link rel="stylesheet" href="viewer.css?v=20260528d">
 </head>
 <body>
-<header class="viewer-header">
-<h1>Hansei Ichiran (1870) — Focal-4 Page Viewer</h1>
-<div class="header-controls">
-<label class="lang-toggle">
-<span>Popup language:</span>
-<select id="lang-select">
-<option value="kanji">Verbatim kanji (源文)</option>
-<option value="modern_jp">Modern Japanese reading</option>
-<option selected="" value="en">English</option>
-</select>
-</label>
-</div>
-</header>
-<nav class="page-nav">
-<button disabled="" id="prev-page">← Previous</button>
-<select id="page-select"></select>
-<button id="next-page">Next →</button>
-<div class="page-meta">
-<span id="page-domain"></span>
-<span id="page-topic"></span>
-<span id="page-book-page"></span>
-</div>
-</nav>
-<main class="viewer-main">
-<!-- Left: full-height HI page. Click to lightbox-enlarge. -->
-<section class="page-pane">
-<img alt="HI source page" id="page-img" src=""/>
-<div class="image-meta"><small id="image-filename"></small></div>
-</section>
-<!-- Right: data table, scrolls independently -->
-<aside class="data-pane">
-<h2>Extracted data — each row pairs the MASTER value with a crop of its source column</h2>
-<p class="data-help">
-        Click any thumbnail to enlarge. Compare the kanji in the thumbnail against the typed value to verify.
+  <header class="viewer-header">
+    <h1>Hansei Ichiran (1870) — Focal-4 Page Viewer</h1>
+    <div class="header-controls">
+      <label class="lang-toggle">
+        <span>Popup language:</span>
+        <select id="lang-select">
+          <option value="kanji">Verbatim kanji (源文)</option>
+          <option value="modern_jp">Modern Japanese reading</option>
+          <option value="en" selected>English</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <nav class="page-nav">
+    <button id="prev-page" disabled>← Previous</button>
+    <select id="page-select"></select>
+    <button id="next-page">Next →</button>
+    <div class="page-meta">
+      <span id="page-domain"></span>
+      <span id="page-topic"></span>
+      <span id="page-book-page"></span>
+    </div>
+  </nav>
+
+  <main class="viewer-main">
+    <!-- Left: HI page + highlight overlay -->
+    <section class="page-pane">
+      <div class="page-image-frame" id="page-frame">
+        <img id="page-img" src="" alt="HI source page" />
+        <!-- Annotation rectangles get absolutely positioned inside this frame
+             by viewer.js after the image loads. Hover one to highlight the
+             matching row on the right; or hover a row to highlight the
+             column here. -->
+        <div id="highlight-layer" class="highlight-layer"></div>
+      </div>
+      <div class="image-meta"><small id="image-filename"></small></div>
+    </section>
+
+    <!-- Right: data table -->
+    <aside class="data-pane">
+      <h2>Extracted data — hover a row to highlight its column on the page (left)</h2>
+      <p class="data-help">
+        Each row shows a MASTER value extracted from the HI page. Hover a row → the matching column lights up on
+        the page. Hover a column on the page → the matching row lights up here. Click any column or row to enlarge
+        the source crop.
       </p>
-<table class="extract-table">
-<thead>
-<tr>
-<th>HI field</th>
-<th>English</th>
-<th class="num">Value</th>
-<th>Unit</th>
-<th class="crop-col">Column</th>
-</tr>
-</thead>
-<tbody id="extract-rows"></tbody>
-</table>
-<section class="page-summary" id="page-summary"></section>
-</aside>
-</main>
-<div class="lightbox" hidden="" id="lightbox">
-<div class="lightbox-inner">
-<img alt="" id="lightbox-img" src=""/>
-<div class="lightbox-caption" id="lightbox-caption"></div>
-</div>
-</div>
-<footer class="viewer-footer">
-<p>
-      Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages cover the four focal Meiji-Restoration domains
-      (Satsuma, Chōshū, Tosa, Saga). Values are from <code>MASTER_hansei_ichiran.csv</code>; the column thumbnails are
-      direct crops of the page on the left.
-    </p>
-</footer>
-<script src="viewer.js?v=20260528c"></script>
+      <table class="extract-table">
+        <thead>
+          <tr>
+            <th>HI field</th>
+            <th>English</th>
+            <th class="num">Value</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody id="extract-rows"></tbody>
+      </table>
+      <section class="page-summary" id="page-summary"></section>
+    </aside>
+  </main>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="viewer.js?v=20260528d"></script>
 </body>
 </html>
