@@ -103,8 +103,8 @@ body {
 
 .data-pane {
   flex: 1;
-  min-width: 360px;
-  max-width: 520px;
+  min-width: 420px;
+  max-width: 640px;
   overflow-y: auto;
   padding: 16px;
   background: white;
@@ -161,24 +161,48 @@ body {
 
 .extract-table .field-jp {
   font-family: "Hiragino Mincho", "Yu Mincho", "MS Mincho", serif;
-  font-size: 14px;
+  font-size: 15px;
   white-space: nowrap;
+  line-height: 1.9;  /* extra room for ruby annotations above kanji */
+  padding-top: 12px;  /* extra space for the ruby that will sit above */
+}
+
+.extract-table .field-jp ruby {
+  ruby-position: over;
+  ruby-align: center;
+}
+
+.extract-table .field-jp rt {
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-size: 9px;
+  color: #666;
+  font-weight: normal;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.extract-table .field-en {
+  font-size: 11px;
+  color: #444;
+  line-height: 1.3;
+  font-style: italic;
+  max-width: 200px;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .extract-table .value {
   font-family: monospace;
   text-align: right;
   white-space: nowrap;
+  font-size: 12px;
 }
 
 .extract-table .unit {
   color: #777;
-  font-size: 11px;
+  font-size: 10px;
+  white-space: nowrap;
 }
-
-.extract-table .conf-high { color: #28a745; font-size: 11px; }
-.extract-table .conf-medium { color: #ffc107; font-size: 11px; }
-.extract-table .conf-low { color: #dc3545; font-size: 11px; }
 
 .page-summary {
   margin-top: 20px;

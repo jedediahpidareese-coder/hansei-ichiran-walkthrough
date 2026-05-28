@@ -14,6 +14,7 @@
 
 let pages = [];
 let extracts = {};
+let glossary = {};
 let viewer = null;
 let anno = null;
 let currentPage = 0;
@@ -47,6 +48,16 @@ function populatePageSelect() {
   });
 }
 
+function renderFieldWithFurigana(fieldJp) {
+  // If glossary has a reading, render as <ruby>kanji<rt>reading</rt></ruby>.
+  // Otherwise return plain escaped kanji.
+  const entry = glossary[fieldJp];
+  if (entry && entry.furigana) {
+    return `<ruby>${escapeHtml(fieldJp)}<rt>${escapeHtml(entry.furigana)}</rt></ruby>`;
+  }
+  return escapeHtml(fieldJp);
+}
+
 function renderExtractTable(pageId) {
   const tbody = $('#extract-rows');
   tbody.innerHTML = '';
@@ -59,14 +70,15 @@ function renderExtractTable(pageId) {
     const tr = document.createElement('tr');
     tr.dataset.extractIdx = idx;
     tr.dataset.fieldJp = r.field_jp;
-    const confClass = `conf-${r.confidence || 'low'}`;
+    const gloss = glossary[r.field_jp] || {};
+    const en = gloss.en || '';
     tr.innerHTML = `
-      <td class="field-jp">${escapeHtml(r.field_jp)}</td>
+      <td class="field-jp">${renderFieldWithFurigana(r.field_jp)}</td>
+      <td class="field-en">${escapeHtml(en)}</td>
       <td class="value">${escapeHtml(r.parsed)}</td>
       <td class="unit">${escapeHtml(r.unit || '')}</td>
-      <td><span class="${confClass}">${escapeHtml(r.confidence || '—')}</span></td>
     `;
-    tr.title = `raw: ${r.raw || ''}\n${r.notes || ''}`;
+    tr.title = `raw: ${r.raw || ''}\n${r.notes || ''}\nconfidence: ${r.confidence || '—'}`;
     tr.addEventListener('click', () => onExtractRowClick(r));
     tbody.appendChild(tr);
   });
@@ -232,6 +244,7 @@ async function init() {
     const manifest = await loadJson('data/pages.json');
     pages = manifest.pages;
     extracts = await loadJson('data/master_extracts.json');
+    glossary = await loadJson('data/hi_field_glossary.json');
   } catch (e) {
     document.body.innerHTML = `<p style="padding:40px;color:#c00">Failed to load viewer data: ${e.message}</p>`;
     return;
