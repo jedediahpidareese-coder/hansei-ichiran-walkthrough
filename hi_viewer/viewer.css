@@ -166,6 +166,7 @@ body {
   letter-spacing: -0.05em;
   color: #111;
   overflow: hidden;
+  cursor: pointer;
   /* Subtle white halo so the typed kanji stay readable when the original
    * image opacity is high. Disappears when image is faded out. */
   text-shadow:
@@ -175,6 +176,20 @@ body {
    * source ink rather than the literal bbox top. */
   padding-top: 4px;
   white-space: nowrap;
+  transition: background-color 0.15s, outline-color 0.15s;
+}
+
+/* Hover state on a typed-kanji column (mouse over the column itself) */
+.tr-overlay-text.tr-overlay-hover {
+  background: rgba(255, 230, 0, 0.25);
+  outline: 2px solid rgba(255, 200, 0, 0.85);
+}
+
+/* "Linked" state — the user is hovering the matching row in the side
+ * table; we highlight the column on the page to draw their eye. */
+.tr-overlay-text.tr-overlay-linked {
+  background: rgba(40, 167, 69, 0.20);
+  outline: 2px solid rgba(40, 167, 69, 0.85);
 }
 
 .image-meta {

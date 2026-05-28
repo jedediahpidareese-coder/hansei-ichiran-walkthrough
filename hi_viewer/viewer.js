@@ -203,16 +203,72 @@ function rebuildTranscriptionOverlay() {
     if (!box) return;
     const text = (a.body || []).find(b => b.purpose === 'transcribing')?.value || '';
     if (!text) return;
+    const fieldJp = (a.body || []).find(b => b.purpose === 'identifying')?.value || '';
 
     const div = document.createElement('div');
     div.className = 'tr-overlay-text';
     div.dataset.annoId = a.id;
+    div.dataset.fieldJp = fieldJp;
     div.textContent = text;
     div.style.color = overlayColor;
+
+    // Hover-link: highlight the matching data-table row + show the same
+    // popup as annotations mode. Pointer events are enabled per-div
+    // (overlay container stays pointer-events:none so non-text areas
+    // pass clicks through to OSD for panning/zooming).
+    div.style.pointerEvents = 'auto';
+    div.addEventListener('mouseenter', (e) => {
+      if (fieldJp) {
+        document.querySelectorAll('.extract-table tr').forEach(tr => {
+          tr.classList.toggle('linked-highlight', tr.dataset.fieldJp === fieldJp);
+        });
+      }
+      div.classList.add('tr-overlay-hover');
+      // Popup beside the kanji column
+      const popup = document.createElement('div');
+      popup.className = 'a9s-popup';
+      popup.innerHTML = buildAnnotationPopup(a);
+      const rect = div.getBoundingClientRect();
+      popup.style.position = 'fixed';
+      popup.style.left = (rect.right + 10) + 'px';
+      popup.style.top = rect.top + 'px';
+      popup.style.background = 'white';
+      popup.style.border = '1px solid #888';
+      popup.style.boxShadow = '0 2px 8px rgba(0,0,0,0.2)';
+      popup.style.zIndex = 9999;
+      popup.id = 'hi-tr-popup';
+      document.body.appendChild(popup);
+    });
+    div.addEventListener('mouseleave', () => {
+      div.classList.remove('tr-overlay-hover');
+      document.querySelectorAll('.extract-table tr.linked-highlight').forEach(tr => {
+        tr.classList.remove('linked-highlight');
+      });
+      const popup = document.getElementById('hi-tr-popup');
+      if (popup) popup.remove();
+    });
+
     overlay.appendChild(div);
   });
 
   repositionOverlay();
+
+  // Also let the data-table rows highlight the matching typed kanji on
+  // hover (the reverse link). This is set up once per rebuild.
+  document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
+    tr.addEventListener('mouseenter', () => {
+      if (currentMode !== 'transcription') return;
+      const fj = tr.dataset.fieldJp;
+      document.querySelectorAll('.tr-overlay-text').forEach(el => {
+        el.classList.toggle('tr-overlay-linked', el.dataset.fieldJp === fj);
+      });
+    });
+    tr.addEventListener('mouseleave', () => {
+      document.querySelectorAll('.tr-overlay-text.tr-overlay-linked').forEach(el => {
+        el.classList.remove('tr-overlay-linked');
+      });
+    });
+  });
 }
 
 function repositionOverlay() {
