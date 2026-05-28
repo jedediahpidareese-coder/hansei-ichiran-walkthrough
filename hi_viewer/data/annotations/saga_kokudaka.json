@@ -1,0 +1,168 @@
+[
+  {
+    "id": "anno-saga_koku-header",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○佐嘉藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "佐嘉藩 (さがはん)。古い表記。現代では「佐賀」が標準。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Saga domain (written 佐嘉, the kyūjitai form). Modern Japanese uses 佐賀. The dataset's domain_jp uses 佐嘉藩 for vol2 entries and the canonical name 佐賀藩 in the analytic layer. Saga has NO vol1 entry in HI — it appears only in vol2 (a gap documented in memory reference_saga_HI_gap)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○佐嘉藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2644,1137,110,429"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_koku-omotedaka",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 貳拾壹萬千五百拾九石九升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高 (たか) 二十一万一千五百十九石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Omotedaka-equivalent = 211,519 koku. The formal-title kokudaka of Saga (the Nabeshima domain's bakufu-registered rating). The actual productive land was much larger via new-field development — see the 新田高 column to the left."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "211,519.099 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2512,1137,110,951"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_koku-shinden",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田高 (外二) 五拾壹萬三千五百八拾石貳斗壹升六合貳勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "新田高 (しんでんだか・外二) 五十一万三千五百八十石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field high = 513,580.22 koku. Saga had massive new-field development across the Edo period — the Nabeshima domain led on intensive paddy reclamation in the Saga Plain. The combined formal + new-field total approaches 725k koku, dramatically larger than the 357k formal omotedaka most secondary sources cite."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "513,580.2162 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2380,1301,110,577"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_koku-niko",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貮口合 平均 七拾貳萬四千七百三拾九石三斗壹升五合貳勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "貮口合 平均 (にこうごうへいきん) 七十二万四千七百三十九石余 — 五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-mouth combined, 5-year average = 724,739.3152 koku. Saga's unusual phrasing for what is essentially godaka: the combined high of formal + new-field, averaged over 5 years. The 貮口合 (ni-kou-gō, 'two-mouth combined') phrasing is distinctive to Saga's HI entry and reflects the domain's split-territory administrative pattern."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "724,739.3152 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "貮口合 / 平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2242,969,110,1355"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_koku-seiso",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 米 貳拾壹萬三千四百七十八石貳斗七升貳合貳勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 (せいそ) 米 二十一万三千四百七十八石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax rice (seiso) = 213,478.27 koku. About 30% of the 貮口合 724,739 total — high effective tax rate, characteristic of Saga's tightly-administered agricultural economy under Nabeshima fiscal discipline."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "213,478.2722 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1962,1059,110,260"
+      }
+    }
+  }
+]

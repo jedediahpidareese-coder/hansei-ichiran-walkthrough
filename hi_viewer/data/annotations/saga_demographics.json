@@ -1,0 +1,134 @@
+[
+  {
+    "id": "anno-saga_dem-shizoku",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人員 貳萬三千八百二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人員 (しぞくじんいん) 二万三千八百二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku persons = 23,823. Saga's distinctively large shizoku class — about 30% of total population — reflects the domain's policy of preserving samurai status broadly across the late-bakumatsu reform period. Saga's 大隈 Ōkuma Shigenobu rose from this samurai milieu to become a central-government leader."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "23,823 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2513,981,110,1016"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_dem-sotsu",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒人員 四萬三千四百八拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒人員 (そつじんいん) 四万三千四百八十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu persons = 43,488. Saga's sotsu count is nearly double its shizoku count — unusual proportion. Combined shizoku+sotsu = 67,311, giving a retainer-per-1000-koku ratio of 92.9 against the 724,739 godaka."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "43,488 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2236,985,110,846"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_dem-sotsu_kosuu",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸數 九千三百六十九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸数 (そつこすう) 九千三百六十九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households = 9,369. Cross-check: 43,488 persons / 9,369 households = 4.64 persons per household. Consistent."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "9,369 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2100,986,110,1231"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_dem-sakura",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○佐倉藩 (page bottom — NEW DOMAIN BEGINS HERE)"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "佐倉藩 (さくらはん)。下総国の堀田・酒井家。佐嘉と紛らわしいが別藩。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura-han marker — this page is STACKED. Saga's entry ENDS at mid-page, and ○佐倉藩 (Sakura-han, a different Sakai-family domain in Shimousa Province) BEGINS at the bottom-left. The two domains share a page but are entirely separate entities. The page-bottom annotation 藩制一覽表第六 (佐倉) corresponds to the Sakura entry. This stacked-page pattern is the basis of HI's cross-page contamination risk — values can drift between adjacent entries if extraction isn't careful."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○佐倉藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1984,985,110,685"
+      }
+    }
+  }
+]
