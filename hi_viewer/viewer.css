@@ -86,6 +86,11 @@ body {
   margin-left: auto;
 }
 
+/* HTML hidden attribute should always win over our display rules.
+ * Without this, .transcription-controls { display: flex; } overrides
+ * the user-agent [hidden] { display: none } at equal specificity. */
+[hidden] { display: none !important; }
+
 /* Transcription-overlay control strip */
 .transcription-controls {
   display: flex;
@@ -136,15 +141,16 @@ body {
   position: relative;
 }
 
-/* Transcription overlay layer — absolutely positioned over OSD viewport.
- * Each .tr-overlay-text div is positioned by viewer.js using image-px to
- * viewer-element-px conversion via OSD's viewport API. */
+/* Transcription overlay layer — moved INSIDE #osd-viewer at runtime so
+ * its coordinate origin matches OSD's viewer-element coordinate system
+ * (which is what viewer.viewport.imageToViewerElementCoordinates returns).
+ * Each .tr-overlay-text div is absolutely positioned by viewer.js. */
 .transcription-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 28px;  /* leave room for .image-meta */
+  bottom: 0;
   pointer-events: none;
   z-index: 200;
 }

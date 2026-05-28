@@ -167,9 +167,15 @@ function buildAnnotationPopup(annotation) {
 function setImageOpacity(opacity) {
   imageOpacity = opacity;
   if (!viewer) return;
-  // OSD renders tiles into a <canvas>. Lower its CSS opacity.
-  const canvases = document.querySelectorAll('#osd-viewer .openseadragon-canvas canvas');
-  canvases.forEach(c => { c.style.opacity = opacity; });
+  // OSD renders into the .openseadragon-canvas wrapper and one or more
+  // inner <canvas> elements. Apply opacity to BOTH the wrapper and the
+  // canvases so the page actually fades; some OSD versions only respect
+  // the wrapper, others only the canvas.
+  const wrapper = document.querySelector('#osd-viewer .openseadragon-canvas');
+  if (wrapper) wrapper.style.opacity = opacity;
+  document.querySelectorAll('#osd-viewer .openseadragon-canvas canvas').forEach(c => {
+    c.style.opacity = opacity;
+  });
 }
 
 function setOverlayOpacity(opacity) {
@@ -185,9 +191,22 @@ function setOverlayColor(color) {
   });
 }
 
+function ensureOverlayInsideOsd() {
+  // OSD's imageToViewerElementCoordinates returns coords relative to the
+  // #osd-viewer element. So we move the overlay INSIDE #osd-viewer to
+  // make the coordinate system match exactly — no risk of layout offsets
+  // between .image-pane and #osd-viewer skewing the positions.
+  const overlay = $('#transcription-overlay');
+  const osdEl = document.getElementById('osd-viewer');
+  if (overlay && osdEl && overlay.parentElement !== osdEl) {
+    osdEl.appendChild(overlay);
+  }
+}
+
 function rebuildTranscriptionOverlay() {
   const overlay = $('#transcription-overlay');
   if (!overlay || !viewer) return;
+  ensureOverlayInsideOsd();
   overlay.innerHTML = '';
   if (currentMode !== 'transcription') return;
 
@@ -247,25 +266,36 @@ function repositionOverlay() {
   });
 }
 
+function setAnnotoriousVisible(visible) {
+  // Hide every Annotorious-injected layer (in different versions the
+  // class names differ slightly — be liberal). Toggling display:none on
+  // .a9s-annotationlayer alone left some rectangles visible in testing.
+  const sel = '.a9s-annotationlayer, .a9s-annotation, .a9s-osd-popup, .a9s-handle, .a9s-svg, .a9s-content-wrapper';
+  document.querySelectorAll(sel).forEach(el => {
+    el.style.display = visible ? '' : 'none';
+  });
+}
+
 function applyMode() {
   const overlay = $('#transcription-overlay');
   const controls = $('#transcription-controls');
+  if (!overlay || !controls) return;
   if (currentMode === 'transcription') {
     overlay.hidden = false;
     controls.hidden = false;
-    // Hide the Annotorious SVG overlay so it doesn't draw over the text
-    document.querySelectorAll('.a9s-annotationlayer').forEach(el => {
-      el.style.display = 'none';
-    });
-    rebuildTranscriptionOverlay();
+    setAnnotoriousVisible(false);
+    // Defer one frame so OSD has a chance to paint before we ask the
+    // viewport for coordinates. Without the rAF, on a fresh page load
+    // the viewport hasn't sized itself yet and every kanji div ends up
+    // at the same off-screen position.
+    requestAnimationFrame(() => rebuildTranscriptionOverlay());
   } else {
     overlay.hidden = true;
     controls.hidden = true;
-    document.querySelectorAll('.a9s-annotationlayer').forEach(el => {
-      el.style.display = '';
-    });
-    // Reset opacities
+    setAnnotoriousVisible(true);
+    // Reset opacities so the annotations-mode page is fully visible
     setImageOpacity(1.0);
+    setOverlayOpacity(1.0);
   }
 }
 
@@ -307,8 +337,16 @@ async function loadPage(idx) {
     if (currentMode === 'transcription') repositionOverlay();
   });
   viewer.addHandler('open', () => {
-    // Apply current image opacity (in case it was set before tiles loaded)
-    if (currentMode === 'transcription') setImageOpacity(imageOpacity);
+    // OSD viewport coords are only valid AFTER the image opens. Rebuild
+    // the transcription overlay now (if we're in that mode) so kanji
+    // divs get positioned with real coordinates rather than undefined ones.
+    if (currentMode === 'transcription') {
+      rebuildTranscriptionOverlay();
+      setImageOpacity(imageOpacity);
+    }
+  });
+  viewer.addHandler('animation', () => {
+    if (currentMode === 'transcription') repositionOverlay();
   });
 
   anno = OpenSeadragon.Annotorious(viewer, {
