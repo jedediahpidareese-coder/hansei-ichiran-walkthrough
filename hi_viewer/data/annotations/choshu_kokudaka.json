@@ -61,7 +61,7 @@
     "body": [
       {"purpose": "transcribing", "value": "外產物 生蠟稅 四百八十兩"},
       {"purpose": "modern_jp_reading", "value": "外産物 — 生蠟税 四百八十両"},
-      {"purpose": "english_translation", "value": "External products — raw-wax tax = 480 ryō (gold). Side-listing of taxes collected on Chōshū's wax production. NOTE: in HI's column order on this page, 外產物 sits BETWEEN 外高 and 合高 in reading-right-to-left, not after 合高 as the natural categorical order would suggest."},
+      {"purpose": "english_translation", "value": "External products — raw-wax tax = 480 ryō (gold). Side-listing of taxes collected on Chōshū's wax production. Sits between 合高 and 正租 in the page's column order."},
       {"purpose": "extracted_value", "value": "480 ryō"},
       {"purpose": "identifying", "value": "外產物"}
     ],
@@ -70,7 +70,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1055,1000,110,3200"
+        "value": "xywh=pixel:915,1000,110,3200"
       }
     }
   },
@@ -89,7 +89,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:915,1000,110,3200"
+        "value": "xywh=pixel:1055,1000,110,3200"
       }
     }
   },
