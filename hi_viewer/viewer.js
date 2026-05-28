@@ -1,15 +1,15 @@
 /* HI page viewer — focal-4 sample
  *
+ * Two view modes:
+ *   1. annotations   — Annotorious-driven bounding boxes with hover popups
+ *   2. transcription — typed kanji rendered as positioned divs on top of OSD;
+ *                      opacity slider lets Jed fade the original page in/out
+ *                      to verify alignment between transcription and source
+ *
  * Loads:
  *   data/pages.json           — page manifest (sequence, image path, metadata)
  *   data/master_extracts.json — per-page MASTER rows for the side table
  *   data/annotations/<page_id>.json — W3C-flavored annotations for each page
- *
- * State:
- *   currentPage    : index into pages.json
- *   currentLang    : 'kanji' | 'modern_jp' | 'en'
- *   viewer         : OpenSeadragon instance (rebuilt on page change)
- *   anno           : Annotorious instance (rebuilt on page change)
  */
 
 let pages = [];
@@ -19,6 +19,11 @@ let viewer = null;
 let anno = null;
 let currentPage = 0;
 let currentLang = 'en';
+let currentMode = 'annotations';  // 'annotations' | 'transcription'
+let currentAnnotations = [];      // raw annotation array for the current page
+let imageOpacity = 1.0;
+let overlayOpacity = 1.0;
+let overlayColor = '#111';
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -32,7 +37,6 @@ async function loadAnnotations(pageId) {
   try {
     return await loadJson(`data/annotations/${pageId}.json`);
   } catch (e) {
-    // No annotations file yet — return empty
     return [];
   }
 }
@@ -49,8 +53,6 @@ function populatePageSelect() {
 }
 
 function renderFieldWithFurigana(fieldJp) {
-  // If glossary has a reading, render as <ruby>kanji<rt>reading</rt></ruby>.
-  // Otherwise return plain escaped kanji.
   const entry = glossary[fieldJp];
   if (entry && entry.furigana) {
     return `<ruby>${escapeHtml(fieldJp)}<rt>${escapeHtml(entry.furigana)}</rt></ruby>`;
@@ -59,10 +61,8 @@ function renderFieldWithFurigana(fieldJp) {
 }
 
 function getAnnotationFieldJps() {
-  // Returns a Set of field_jp values that have an annotation on the current page
-  if (!anno) return new Set();
   const result = new Set();
-  anno.getAnnotations().forEach(a => {
+  currentAnnotations.forEach(a => {
     (a.body || []).forEach(b => {
       if (b.purpose === 'identifying' && b.value) result.add(b.value);
     });
@@ -78,23 +78,15 @@ function renderExtractTable(pageId) {
     tbody.innerHTML = '<tr><td colspan="4" style="color:#888;text-align:center;padding:20px">No MASTER extract rows recorded for this page.</td></tr>';
     return;
   }
-  // Get the set of field_jp values that have annotations (defer until after anno is ready)
-  setTimeout(() => {
-    const annotated = getAnnotationFieldJps();
-    document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
-      if (annotated.has(tr.dataset.fieldJp)) {
-        tr.classList.add('has-annotation');
-      } else {
-        tr.classList.add('no-annotation');
-      }
-    });
-  }, 200);
+  const annotated = getAnnotationFieldJps();
   rows.forEach((r, idx) => {
     const tr = document.createElement('tr');
     tr.dataset.extractIdx = idx;
     tr.dataset.fieldJp = r.field_jp;
     const gloss = glossary[r.field_jp] || {};
     const en = gloss.en || '';
+    if (annotated.has(r.field_jp)) tr.classList.add('has-annotation');
+    else tr.classList.add('no-annotation');
     tr.innerHTML = `
       <td class="field-jp">${renderFieldWithFurigana(r.field_jp)}</td>
       <td class="field-en">${escapeHtml(en)}</td>
@@ -107,20 +99,22 @@ function renderExtractTable(pageId) {
   });
 }
 
+function parseXywh(selectorValue) {
+  const m = selectorValue.match(/xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/);
+  if (!m) return null;
+  return { x: +m[1], y: +m[2], w: +m[3], h: +m[4] };
+}
+
 function onExtractRowClick(row) {
-  // If an annotation links to this field_jp, zoom to it
-  if (!anno) return;
-  const annotations = anno.getAnnotations();
-  const match = annotations.find(a => {
+  if (!viewer) return;
+  const match = currentAnnotations.find(a => {
     const linked = (a.body || []).find(b => b.purpose === 'identifying' && b.value === row.field_jp);
     return !!linked;
   });
   if (match && match.target && match.target.selector) {
-    const sel = match.target.selector.value;
-    const m = sel.match(/xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/);
-    if (m && viewer) {
-      const [_, x, y, w, h] = m.map(Number);
-      const imgPt = viewer.viewport.imageToViewportRectangle(x, y, w, h);
+    const box = parseXywh(match.target.selector.value);
+    if (box) {
+      const imgPt = viewer.viewport.imageToViewportRectangle(box.x, box.y, box.w, box.h);
       viewer.viewport.fitBounds(imgPt, false);
     }
   }
@@ -146,19 +140,10 @@ function renderPageMeta(page) {
 }
 
 function buildAnnotationPopup(annotation) {
-  // annotation.body is an array; we pull kanji, modern_jp, en, value, field_jp
   const bodyByPurpose = {};
   (annotation.body || []).forEach(b => {
-    const key = b.purpose || 'unknown';
-    bodyByPurpose[key] = b.value;
+    bodyByPurpose[b.purpose || 'unknown'] = b.value;
   });
-
-  // Choose primary text by current language
-  let primary = '';
-  if (currentLang === 'kanji') primary = bodyByPurpose['transcribing'] || bodyByPurpose['describing'] || '';
-  else if (currentLang === 'modern_jp') primary = bodyByPurpose['modern_jp_reading'] || bodyByPurpose['describing'] || '';
-  else primary = bodyByPurpose['english_translation'] || bodyByPurpose['describing'] || '';
-
   const kanji = bodyByPurpose['transcribing'] || '';
   const modernJp = bodyByPurpose['modern_jp_reading'] || '';
   const en = bodyByPurpose['english_translation'] || '';
@@ -175,24 +160,134 @@ function buildAnnotationPopup(annotation) {
   `;
 }
 
+// ============================================================
+// Transcription-overlay mode
+// ============================================================
+
+function setImageOpacity(opacity) {
+  imageOpacity = opacity;
+  if (!viewer) return;
+  // OSD renders tiles into a <canvas>. Lower its CSS opacity.
+  const canvases = document.querySelectorAll('#osd-viewer .openseadragon-canvas canvas');
+  canvases.forEach(c => { c.style.opacity = opacity; });
+}
+
+function setOverlayOpacity(opacity) {
+  overlayOpacity = opacity;
+  const overlay = $('#transcription-overlay');
+  if (overlay) overlay.style.opacity = opacity;
+}
+
+function setOverlayColor(color) {
+  overlayColor = color;
+  document.querySelectorAll('.tr-overlay-text').forEach(el => {
+    el.style.color = color;
+  });
+}
+
+function rebuildTranscriptionOverlay() {
+  const overlay = $('#transcription-overlay');
+  if (!overlay || !viewer) return;
+  overlay.innerHTML = '';
+  if (currentMode !== 'transcription') return;
+
+  currentAnnotations.forEach(a => {
+    if (!a.target || !a.target.selector) return;
+    const box = parseXywh(a.target.selector.value);
+    if (!box) return;
+    const text = (a.body || []).find(b => b.purpose === 'transcribing')?.value || '';
+    if (!text) return;
+
+    const div = document.createElement('div');
+    div.className = 'tr-overlay-text';
+    div.dataset.annoId = a.id;
+    div.textContent = text;
+    div.style.color = overlayColor;
+    overlay.appendChild(div);
+  });
+
+  repositionOverlay();
+}
+
+function repositionOverlay() {
+  if (!viewer || currentMode !== 'transcription') return;
+  const overlay = $('#transcription-overlay');
+  if (!overlay) return;
+
+  const divs = overlay.querySelectorAll('.tr-overlay-text');
+  divs.forEach(div => {
+    const annoId = div.dataset.annoId;
+    const a = currentAnnotations.find(x => x.id === annoId);
+    if (!a) return;
+    const box = parseXywh(a.target.selector.value);
+    if (!box) return;
+
+    // Convert image-pixel rect to viewer-element coords (pixels in the OSD div)
+    const topLeft = viewer.viewport.imageToViewerElementCoordinates(
+      new OpenSeadragon.Point(box.x, box.y)
+    );
+    const bottomRight = viewer.viewport.imageToViewerElementCoordinates(
+      new OpenSeadragon.Point(box.x + box.w, box.y + box.h)
+    );
+
+    const left = topLeft.x;
+    const top = topLeft.y;
+    const width = bottomRight.x - topLeft.x;
+    const height = bottomRight.y - topLeft.y;
+
+    div.style.left = `${left}px`;
+    div.style.top = `${top}px`;
+    div.style.width = `${width}px`;
+    div.style.height = `${height}px`;
+
+    // Auto-size the kanji to fit the box width (column-style annotations are tall and narrow)
+    // Each character renders at roughly the column width.
+    const fontSize = Math.max(8, Math.min(width * 0.85, 60));
+    div.style.fontSize = `${fontSize}px`;
+  });
+}
+
+function applyMode() {
+  const overlay = $('#transcription-overlay');
+  const controls = $('#transcription-controls');
+  if (currentMode === 'transcription') {
+    overlay.hidden = false;
+    controls.hidden = false;
+    // Hide the Annotorious SVG overlay so it doesn't draw over the text
+    document.querySelectorAll('.a9s-annotationlayer').forEach(el => {
+      el.style.display = 'none';
+    });
+    rebuildTranscriptionOverlay();
+  } else {
+    overlay.hidden = true;
+    controls.hidden = true;
+    document.querySelectorAll('.a9s-annotationlayer').forEach(el => {
+      el.style.display = '';
+    });
+    // Reset opacities
+    setImageOpacity(1.0);
+  }
+}
+
+// ============================================================
+
 async function loadPage(idx) {
   if (idx < 0 || idx >= pages.length) return;
   currentPage = idx;
   const page = pages[idx];
 
-  // Update nav state
   $('#prev-page').disabled = idx === 0;
   $('#next-page').disabled = idx === pages.length - 1;
   $('#page-select').value = idx;
 
   renderPageMeta(page);
-  renderExtractTable(page.id);
 
-  // Destroy existing viewer + anno
   if (anno) { anno.destroy(); anno = null; }
   if (viewer) { viewer.destroy(); viewer = null; }
+  // Clear transcription overlay
+  const overlay = $('#transcription-overlay');
+  if (overlay) overlay.innerHTML = '';
 
-  // Build OpenSeadragon with simple image source
   viewer = OpenSeadragon({
     id: 'osd-viewer',
     prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/',
@@ -207,16 +302,22 @@ async function loadPage(idx) {
     constrainDuringPan: true,
   });
 
-  // Initialize Annotorious overlaid on the OSD viewer
-  anno = OpenSeadragon.Annotorious(viewer, {
-    readOnly: true,
-    formatters: [(annotation) => {
-      return { 'data-purpose': 'hi-annotation' };
-    }],
+  // Keep transcription overlay aligned with the page as the user pans/zooms
+  viewer.addHandler('update-viewport', () => {
+    if (currentMode === 'transcription') repositionOverlay();
+  });
+  viewer.addHandler('open', () => {
+    // Apply current image opacity (in case it was set before tiles loaded)
+    if (currentMode === 'transcription') setImageOpacity(imageOpacity);
   });
 
-  // Custom popup
+  anno = OpenSeadragon.Annotorious(viewer, {
+    readOnly: true,
+    formatters: [() => ({ 'data-purpose': 'hi-annotation' })],
+  });
+
   anno.on('mouseEnterAnnotation', (annotation, element) => {
+    if (currentMode === 'transcription') return;
     const popup = document.createElement('div');
     popup.className = 'a9s-popup';
     popup.innerHTML = buildAnnotationPopup(annotation);
@@ -230,7 +331,6 @@ async function loadPage(idx) {
     popup.id = 'hi-anno-popup';
     document.body.appendChild(popup);
 
-    // Highlight matching row in side table
     const fieldJp = (annotation.body || []).find(b => b.purpose === 'identifying')?.value;
     if (fieldJp) {
       document.querySelectorAll('.extract-table tr').forEach(tr => {
@@ -247,19 +347,18 @@ async function loadPage(idx) {
     });
   });
 
-  // Load annotations for this page
   const annotations = await loadAnnotations(page.id);
-  if (annotations && annotations.length > 0) {
-    // Normalize to W3C-compliant shape: each body item needs type: 'TextualBody'.
-    // Our annotation JSON files omit this for brevity; add it here.
-    annotations.forEach(a => {
+  currentAnnotations = annotations || [];
+  if (currentAnnotations.length > 0) {
+    currentAnnotations.forEach(a => {
       if (!a['@context']) a['@context'] = 'http://www.w3.org/ns/anno.jsonld';
-      (a.body || []).forEach(b => {
-        if (!b.type) b.type = 'TextualBody';
-      });
+      (a.body || []).forEach(b => { if (!b.type) b.type = 'TextualBody'; });
     });
-    anno.setAnnotations(annotations);
+    anno.setAnnotations(currentAnnotations);
   }
+
+  renderExtractTable(page.id);
+  applyMode();
 }
 
 async function init() {
@@ -278,10 +377,24 @@ async function init() {
   $('#page-select').addEventListener('change', (e) => loadPage(parseInt(e.target.value, 10)));
   $('#prev-page').addEventListener('click', () => loadPage(currentPage - 1));
   $('#next-page').addEventListener('click', () => loadPage(currentPage + 1));
-  $('#lang-select').addEventListener('change', (e) => {
-    currentLang = e.target.value;
-    // No-op rerender required because popups regenerate on hover
+  $('#lang-select').addEventListener('change', (e) => { currentLang = e.target.value; });
+
+  $('#mode-select').addEventListener('change', (e) => {
+    currentMode = e.target.value;
+    applyMode();
   });
+
+  $('#image-opacity').addEventListener('input', (e) => {
+    const v = parseInt(e.target.value, 10);
+    $('#image-opacity-value').textContent = `${v}%`;
+    setImageOpacity(v / 100);
+  });
+  $('#overlay-opacity').addEventListener('input', (e) => {
+    const v = parseInt(e.target.value, 10);
+    $('#overlay-opacity-value').textContent = `${v}%`;
+    setOverlayOpacity(v / 100);
+  });
+  $('#overlay-color').addEventListener('change', (e) => setOverlayColor(e.target.value));
 
   await loadPage(0);
 }

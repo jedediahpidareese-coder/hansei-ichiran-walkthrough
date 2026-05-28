@@ -29,7 +29,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2455,400,110,3500"
+        "value": "xywh=pixel:2040,1000,110,3200"
       }
     }
   },
@@ -39,11 +39,11 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "現米 拾八萬九千四百三十一石"
+        "value": "現米 拾八萬九千四百三十壹石餘"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "現米 (げんまい) は十八万九千四百三十一石"
+        "value": "現米 (げんまい) は十八万九千四百三十一石余"
       },
       {
         "purpose": "english_translation",
@@ -63,7 +63,173 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2320,400,115,3500"
+        "value": "xywh=pixel:1800,1000,110,3200"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_koku-products",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸產物 — 諸紙・砂糖・同白・黒蜜・鶏卵・蜂蜜・濾蜜・茶・椎茸・楊梅皮・楮草・松脂・茅蠟・蕨粉・蕨繩・檜繩・松節・松烟・桂根・燒物類 ..."
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸産物の一覧 — 各種紙・砂糖・黒蜜・蜂蜜・茶・きのこ・薬草・蝋など"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain products: various papers, sugar (white and black molasses varieties), eggs, honey, filtered honey, tea, shiitake mushrooms, mountain-tea, lacquer-tree bark, paper mulberry, pine resin, kayasoku wax, bracken-root flour, bracken cord, cypress cord, pine joints, pine soot, cassia root, baked ceramics... A long product list characteristic of HI for major domains."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸產物"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:950,1000,800,3200"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_koku-zeigin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "税銀 貳萬八千六百九拾七貫餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "税銀 (ぜいぎん) 二万八千六百九十七貫余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Silver tax = 28,697 kanme. The silver-payment component of Tosa's tax structure, alongside the rice (現米) and gold (税金) components."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "28,697 kanme silver"
+      },
+      {
+        "purpose": "identifying",
+        "value": "税銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:780,1000,110,3200"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_koku-zeikin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "税金 貳萬八千六百九十兩也"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "税金 (ぜいきん) 二万八千六百九十両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold tax = 28,690 ryō. Tosa collected a substantial portion of its tax revenue in gold coin, reflecting its access to coastal markets and the bakumatsu-era monetary economy."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "28,690 ryō gold"
+      },
+      {
+        "purpose": "identifying",
+        "value": "税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:660,1000,110,3200"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_koku-konmai",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米 三千五百八拾七石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此米 (このまい) 三千五百八十七石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice sub-total (kono-mai) = 3,587 koku. A reconciliation entry; appears as part of the totals section."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,587 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:540,1000,110,3200"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_koku-soukei",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總計 拾九萬三千七百拾八石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総計 (そうけい) 十九万三千七百十八石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total = 193,718 koku. The aggregated rice-equivalent total spanning the various tax categories."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "193,718 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總計"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:420,1000,110,3200"
       }
     }
   },
@@ -97,37 +263,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2185,400,115,3500"
-      }
-    }
-  },
-  {
-    "id": "anno-tosa_koku-products",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "諸産物 — 諸紙・砂糖・同白・黒蜜・鶏卵・蜂蜜・濾蜜・茶・椎茸・楊梅皮・楮草・松脂・茅蠟・蕨粉・蕨繩・檜繩・松節・松烟・桂根・燒物類 ..."
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "諸産物の一覧 — 各種紙・砂糖・黒蜜・蜂蜜・茶・きのこ・薬草・蝋など"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Domain products: various papers, sugar (white and black molasses varieties), eggs, honey, filtered honey, tea, shiitake mushrooms, mountain-tea, lacquer-tree bark, paper mulberry, pine resin, kayasoku wax, bracken-root flour, bracken cord, cypress cord, pine joints, pine soot (墨), cassia root, baked ceramics... A long product list characteristic of HI for major domains."
-      },
-      {
-        "purpose": "identifying",
-        "value": "諸産物"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p089_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:850,600,1450,2500"
+        "value": "xywh=pixel:280,1000,110,3200"
       }
     }
   }

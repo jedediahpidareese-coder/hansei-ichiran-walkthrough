@@ -17,6 +17,8 @@ body {
   background: #2c3e50;
   color: white;
   border-bottom: 2px solid #1a242f;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .viewer-header h1 {
@@ -25,8 +27,15 @@ body {
   font-weight: 500;
 }
 
-.header-controls .lang-toggle span {
-  margin-right: 8px;
+.header-controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-controls label span {
+  margin-right: 6px;
   font-size: 13px;
 }
 
@@ -77,6 +86,37 @@ body {
   margin-left: auto;
 }
 
+/* Transcription-overlay control strip */
+.transcription-controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 24px;
+  background: #fffbea;
+  border-bottom: 1px solid #f0c674;
+  flex-wrap: wrap;
+}
+
+.transcription-controls label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #333;
+}
+
+.transcription-controls input[type=range] {
+  width: 150px;
+}
+
+.transcription-controls .control-help {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  flex: 1;
+  min-width: 280px;
+}
+
 .viewer-main {
   display: flex;
   height: calc(100vh - 130px);
@@ -87,21 +127,48 @@ body {
   display: flex;
   flex-direction: column;
   background: #1a1a1a;
+  position: relative;  /* anchor for transcription-overlay */
 }
 
 #osd-viewer {
   flex: 1;
   background: #1a1a1a;
-  /* isolation:isolate creates a stacking context so the SVG annotation
-   * overlay can use mix-blend-mode against the OSD canvas image below. */
-  isolation: isolate;
+  position: relative;
 }
 
-/* Force the OpenSeadragon canvas and SVG annotation overlay into the
- * same stacking context for mix-blend-mode to work between them. */
-#osd-viewer .openseadragon-canvas,
-#osd-viewer svg.a9s-annotationlayer {
-  isolation: auto;
+/* Transcription overlay layer — absolutely positioned over OSD viewport.
+ * Each .tr-overlay-text div is positioned by viewer.js using image-px to
+ * viewer-element-px conversion via OSD's viewport API. */
+.transcription-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 28px;  /* leave room for .image-meta */
+  pointer-events: none;
+  z-index: 200;
+}
+
+.tr-overlay-text {
+  position: absolute;
+  /* Vertical Japanese writing direction: top→bottom, right→left columns */
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Hiragino Mincho Pro", "Yu Mincho", "MS Mincho", "Noto Serif JP", serif;
+  font-weight: 500;
+  line-height: 1.0;
+  letter-spacing: -0.05em;
+  color: #111;
+  overflow: hidden;
+  /* Subtle white halo so the typed kanji stay readable when the original
+   * image opacity is high. Disappears when image is faded out. */
+  text-shadow:
+     0 0  3px rgba(255, 255, 255, 0.95),
+     0 0  6px rgba(255, 255, 255, 0.75);
+  /* Bias the column down a touch so the first char lines up with the
+   * source ink rather than the literal bbox top. */
+  padding-top: 4px;
+  white-space: nowrap;
 }
 
 .image-meta {
@@ -109,6 +176,8 @@ body {
   background: #333;
   color: #aaa;
   font-family: monospace;
+  position: relative;
+  z-index: 300;
 }
 
 .data-pane {
@@ -169,7 +238,6 @@ body {
   border-left: 3px solid #ffc107;
 }
 
-/* Rows with an annotation on the current page — clickable to zoom */
 .extract-table tr.has-annotation {
   border-left: 3px solid #28a745;
 }
@@ -182,7 +250,6 @@ body {
   font-size: 10px;
 }
 
-/* Rows without an annotation — present in MASTER but no bounding box drawn yet */
 .extract-table tr.no-annotation {
   opacity: 0.65;
   border-left: 3px solid #ddd;
@@ -196,8 +263,8 @@ body {
   font-family: "Hiragino Mincho", "Yu Mincho", "MS Mincho", serif;
   font-size: 15px;
   white-space: nowrap;
-  line-height: 1.9;  /* extra room for ruby annotations above kanji */
-  padding-top: 12px;  /* extra space for the ruby that will sit above */
+  line-height: 1.9;
+  padding-top: 12px;
 }
 
 .extract-table .field-jp ruby {
@@ -267,76 +334,34 @@ body {
 
 .viewer-footer p {
   margin: 0;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 /* ============================================================
- * Annotation visual style — TEXT-HIGHLIGHT (not box-border).
- *
- * Default: nearly-invisible (tiny dotted edge for affordance).
- * Hover:   semi-transparent yellow fill with mix-blend-mode multiply,
- *          which causes the highlight to only show on dark pixels —
- *          i.e., the kanji glyphs appear to glow yellow rather than
- *          being covered by a solid rectangle.
- *
- * Annotorious uses inline SVG with .a9s-annotation as the group
- * wrapper. The shape inside has class .a9s-inner (the fill region)
- * and .a9s-outer (the stroke). We override both.
+ * Annotation regions — soft default, more visible on hover.
+ * In annotations mode the rectangles appear as a thin amber tint;
+ * on hover they fill amber. (The earlier "kanji-glow via blend-mode"
+ * approach didn't reliably work because Annotorious's SVG overlay
+ * is a separate stacking context from the OSD canvas — the
+ * transcription-overlay mode replaces this with rendered text.)
  * ============================================================ */
 
-/* No visible rectangle at rest — annotation regions are completely
- * invisible until hovered. On hover, mix-blend-mode multiply makes
- * the kanji glyphs glow yellow (the highlight only affects dark pixels,
- * so the white paper background stays white and the text appears to
- * light up). */
-.a9s-annotation .a9s-inner,
-.a9s-annotation .a9s-outer {
-  fill: transparent !important;
-  stroke: transparent !important;
-  transition: fill 0.15s ease;
+.a9s-annotation .a9s-inner {
+  fill: rgba(255, 200, 0, 0.10) !important;
+  stroke: rgba(180, 140, 0, 0.45) !important;
+  stroke-width: 1.5px !important;
   cursor: pointer;
+  transition: fill 0.12s ease;
 }
 
-/* On hover: yellow fill with multiply blend mode. The blend mode causes
- * the yellow to combine with underlying pixels via multiplication —
- * white pixels (background) stay white because (1,1,1) × yellow = yellow
- * but light areas of the image stay light. Wait — multiply with yellow
- * (1, 0.85, 0) makes white become yellow and dark areas darker. So actually
- * the SHEET turns yellow but the text gets darker yellow. To make ONLY the
- * text glow, we need 'darken' or 'color-burn' or to invert the approach.
- *
- * Better approach: use SVG <filter> to threshold the underlying image
- * pixel value, only showing yellow where it's already dark. But that
- * requires SVG filter primitives applied to the source image, not the
- * highlight overlay. Annotorious doesn't expose that hook directly.
- *
- * Practical fallback that LOOKS like text-glow: use 'darken' blend mode
- * with a saturated yellow. 'darken' picks the darker of source vs dest
- * for each channel — yellow (1,1,0) darken white (1,1,1) = (1,1,0) yellow,
- * but yellow darken dark-grey (0.2,0.2,0.2) = (0.2,0.2,0) — gets darker
- * yellow on the text strokes while sheet stays yellow. Not perfect.
- *
- * Going with 'multiply' + lower opacity — best compromise that should
- * actually take effect across SVG-over-canvas. */
-.a9s-annotation:hover .a9s-inner,
-.a9s-annotation:hover rect,
-.a9s-annotation:hover polygon {
-  fill: rgba(255, 230, 0, 0.55) !important;
-  mix-blend-mode: multiply !important;
-  stroke: transparent !important;
+.a9s-annotation:hover .a9s-inner {
+  fill: rgba(255, 200, 0, 0.35) !important;
+  stroke: rgba(180, 140, 0, 0.85) !important;
 }
 
-.a9s-annotation:hover .a9s-outer {
+.a9s-annotation .a9s-outer {
   stroke: transparent !important;
   fill: transparent !important;
-}
-
-/* When a side-table row is hovered, the matching annotation should also
- * appear highlighted. JS toggles a .anno-table-link class via the linked-highlight
- * binding. */
-.a9s-annotation.anno-table-link .a9s-inner {
-  fill: rgba(255, 215, 0, 0.5) !important;
-  mix-blend-mode: multiply;
 }
 
 /* Popup styling */

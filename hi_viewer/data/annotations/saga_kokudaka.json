@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Saga domain (written 佐嘉, the kyūjitai form). Modern Japanese uses 佐賀. The dataset's domain_jp uses 佐嘉藩 for vol2 entries and the canonical name 佐賀藩 in the analytic layer. Saga has NO vol1 entry in HI — it appears only in vol2, in Tables 6, 7, 8, 9 (a gap documented in memory reference_saga_HI_gap)."
+        "value": "Saga domain (written 佐嘉, the kyūjitai form). Modern Japanese uses 佐賀. The dataset's domain_jp uses 佐嘉藩 for vol2 entries and the canonical name 佐賀藩 in the analytic layer. Saga has NO vol1 entry in HI — it appears only in vol2 (a gap documented in memory reference_saga_HI_gap)."
       },
       {
         "purpose": "identifying",
@@ -25,7 +25,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2655,150,110,1100"
+        "value": "xywh=pixel:2510,200,110,2500"
       }
     }
   },
@@ -59,7 +59,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2520,400,115,3500"
+        "value": "xywh=pixel:2310,1000,110,3200"
       }
     }
   },
@@ -73,7 +73,7 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "新田高 (しんでんだか・外二) 五十一万三千五百八拾石余"
+        "value": "新田高 (しんでんだか・外二) 五十一万三千五百八十石余"
       },
       {
         "purpose": "english_translation",
@@ -93,7 +93,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2390,400,110,3500"
+        "value": "xywh=pixel:2160,1000,110,3200"
       }
     }
   },
@@ -111,7 +111,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Two-mouth combined, 5-year average = 724,739.3152 koku. This is Saga's unusual phrasing for what is essentially godaka (= sōdaka in Saga's case): the combined high of formal + new-field, averaged over 5 years. The 貮口合 (ni-kou-gō, 'two-mouth combined') phrasing is distinctive to Saga's HI entry and reflects the domain's split-territory administrative pattern."
+        "value": "Two-mouth combined, 5-year average = 724,739.3152 koku. Saga's unusual phrasing for what is essentially godaka: the combined high of formal + new-field, averaged over 5 years. The 貮口合 (ni-kou-gō, 'two-mouth combined') phrasing is distinctive to Saga's HI entry and reflects the domain's split-territory administrative pattern."
       },
       {
         "purpose": "extracted_value",
@@ -127,7 +127,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2250,400,115,3500"
+        "value": "xywh=pixel:1900,1000,110,3200"
       }
     }
   },
@@ -161,7 +161,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2115,400,115,3500"
+        "value": "xywh=pixel:1550,1000,110,3200"
       }
     }
   }
