@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Hansei Ichiran Page Viewer — Focal-4</title>
-<link href="viewer.css?v=20260528a" rel="stylesheet"/>
+<link href="viewer.css?v=20260528b" rel="stylesheet"/>
 </head>
 <body>
 <header class="viewer-header">
@@ -31,28 +31,26 @@
 <span id="page-book-page"></span>
 </div>
 </nav>
-<main class="viewer-main">
-<section class="page-pane">
-<div class="page-image-wrap">
-<!-- The full HI page, clickable to open in a lightbox -->
+<!-- Page image: full-width strip at the top, sticky so it stays visible
+       as the data table scrolls underneath. Click to lightbox-enlarge. -->
+<section class="page-strip">
 <img alt="HI source page" id="page-img" src=""/>
-</div>
-<div class="image-meta">
-<small id="image-filename"></small>
-</div>
+<div class="image-meta"><small id="image-filename"></small></div>
 </section>
-<aside class="data-pane">
-<h2>Extracted data — each row shows the actual column ink from the page</h2>
+<!-- Data table: every row is one line tall with a tiny crop thumbnail
+       on the right that you can click to enlarge. -->
+<main class="data-section">
+<h2>Extracted data — each row pairs the MASTER value with the cropped column ink</h2>
 <p class="data-help">
-        Each row pairs the MASTER value with a direct crop of the corresponding column from the source page (right-most cell).
-        Read the kanji in the crop to verify the value yourself. Click any crop to enlarge.
-      </p>
+      Hover or click any thumbnail to see the source column at full size. The kanji in the thumbnail are the
+      exact ink from the HI page above; compare against the typed value to verify the extraction.
+    </p>
 <table class="extract-table">
 <thead>
 <tr>
 <th>HI field (with reading)</th>
 <th>English</th>
-<th>Value</th>
+<th class="num">Value</th>
 <th>Unit</th>
 <th class="crop-col">Source column</th>
 </tr>
@@ -60,9 +58,8 @@
 <tbody id="extract-rows"></tbody>
 </table>
 <section class="page-summary" id="page-summary"></section>
-</aside>
 </main>
-<!-- Lightbox for click-to-enlarge -->
+<!-- Lightbox -->
 <div class="lightbox" hidden="" id="lightbox">
 <div class="lightbox-inner">
 <img alt="" id="lightbox-img" src=""/>
@@ -71,11 +68,11 @@
 </div>
 <footer class="viewer-footer">
 <p>
-      Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the Meiji
-      Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>;
-      the source-column thumbnails in the right-most table cell are direct image crops from the HI page shown on the left.
+      Source: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870) vol 1 + vol 2. Pages selected to cover the four focal domains of the
+      Meiji Restoration (Satsuma, Chōshū, Tosa, Saga). All extracted data values are from <code>MASTER_hansei_ichiran.csv</code>;
+      the source-column thumbnails are direct crops from the HI page shown above.
     </p>
 </footer>
-<script src="viewer.js?v=20260528a"></script>
+<script src="viewer.js?v=20260528b"></script>
 </body>
 </html>

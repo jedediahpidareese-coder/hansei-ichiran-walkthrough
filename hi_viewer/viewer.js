@@ -73,8 +73,8 @@ function renderExtractTable(pageId) {
     const en = gloss.en || '';
     const crop = findCropForField(pageId, r.field_jp);
     const cropCell = crop
-      ? `<img class="col-crop" src="${escapeHtml(crop.crop_path)}" alt="source column for ${escapeHtml(r.field_jp)}" data-field="${escapeHtml(r.field_jp)}" />`
-      : '<span class="no-crop" title="No crop generated for this field yet">—</span>';
+      ? `<img class="col-crop" src="${escapeHtml(crop.crop_path)}" alt="source column for ${escapeHtml(r.field_jp)}" data-field="${escapeHtml(r.field_jp)}" title="Click to enlarge" />`
+      : '';
     tr.innerHTML = `
       <td class="field-jp">${renderFieldWithFurigana(r.field_jp)}</td>
       <td class="field-en">${escapeHtml(en)}</td>
