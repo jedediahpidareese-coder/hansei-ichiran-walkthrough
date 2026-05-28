@@ -188,16 +188,18 @@ function renderPageMeta(page) {
 
 function openDetailFor(fieldJp) {
   const ann = findAnnotationByField(fieldJp);
-  if (!ann) return;
   const body = {};
-  (ann.body || []).forEach(b => { body[b.purpose] = b.value; });
+  if (ann) (ann.body || []).forEach(b => { body[b.purpose] = b.value; });
   const crop = findCropByField(pages[currentPage].id, fieldJp);
   const extractRow = (extracts[pages[currentPage].id] || []).find(r => r.field_jp === fieldJp);
+  const gloss = glossary[fieldJp] || {};
 
   $('#detail-master').textContent = body.identifying || fieldJp;
-  $('#detail-kanji').textContent = body.transcribing || '—';
-  $('#detail-modern-jp').textContent = body.modern_jp_reading || '—';
-  $('#detail-en').textContent = body.english_translation || '—';
+  $('#detail-kanji').textContent = body.transcribing
+    || (extractRow ? (extractRow.raw || `${fieldJp} ${extractRow.parsed || ''}`) : '—');
+  $('#detail-modern-jp').textContent = body.modern_jp_reading
+    || (gloss.furigana ? `${fieldJp} (${gloss.furigana})` : '—');
+  $('#detail-en').textContent = body.english_translation || gloss.en || '— no annotation written yet for this field';
   const valTxt = extractRow
     ? `${extractRow.parsed}${extractRow.unit ? ' ' + extractRow.unit : ''}`
     : (body.extracted_value || '—');
