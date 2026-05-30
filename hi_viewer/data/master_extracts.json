@@ -215,52 +215,12 @@
   ],
   "choshu_kokudaka": [
     {
-      "field_jp": "修驗",
-      "parsed": "23",
-      "raw": "廿三軒",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "Mountain-ascetic clergy"
-    },
-    {
-      "field_jp": "卒同人員",
-      "parsed": "93",
-      "raw": "九十三人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "Verified vs crop upper_p193_right.jpg 2026-05-18: 山口藩 narrow 卒 同人員 九十三人 = 93 persons (内男63 女30). Confirmed."
-    },
-    {
-      "field_jp": "卒戸",
-      "parsed": "28",
-      "raw": "二十八戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
       "field_jp": "合高",
       "parsed": "988004",
       "raw": "九拾八萬八千四石餘",
       "unit": "koku",
       "confidence": "high",
       "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: NEW ROW added. Page upper_p193_R shows godaka 九拾八萬八千四石餘 = 988,004 koku, the combined post-1868 Yamaguchi-han "
-    },
-    {
-      "field_jp": "士族同人員 (narrow)",
-      "parsed": "293",
-      "raw": "貳百九拾三人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "士族戸數 (narrow / city subset)",
-      "parsed": "58",
-      "raw": "五十八戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "NARROW subset (likely 城下士族 — Yamaguchi-city retainers only); not full corps"
     },
     {
       "field_jp": "外産物 生蠟稅",
@@ -279,14 +239,6 @@
       "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: previously parsed as 68,593 (missing 拾 prefix); re-read at upper_p193_R extreme zoom shows 六拾壹萬八千五百九拾三 = 618,"
     },
     {
-      "field_jp": "夷太夫",
-      "parsed": "1",
-      "raw": "壹軒",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "Specialized Ebisu shrine household"
-    },
-    {
       "field_jp": "正租 現米",
       "parsed": "206910",
       "raw": "貳拾萬六千九百拾石",
@@ -301,14 +253,6 @@
       "unit": "kan_mon",
       "confidence": "high",
       "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: NEW ROW. Yamaguchi seiso-zeni = 116,910 kan-mon main tax cash. Previously missing from extraction. Read at up"
-    },
-    {
-      "field_jp": "社家",
-      "parsed": "11",
-      "raw": "拾一軒",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
     },
     {
       "field_jp": "草高",

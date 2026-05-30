@@ -4,57 +4,57 @@
       "ident": "戸數",
       "crop_path": "crops/choshu_demographics/00_戸數.jpg",
       "x": 2426,
-      "y": 1317,
+      "y": 1158,
       "w": 114,
-      "h": 761
+      "h": 921
     },
     {
       "ident": "内 士族 戸",
       "crop_path": "crops/choshu_demographics/01_内_士族_戸.jpg",
       "x": 2159,
-      "y": 1574,
+      "y": 1321,
       "w": 114,
-      "h": 250
+      "h": 415
     },
     {
       "ident": "内 陪臣",
       "crop_path": "crops/choshu_demographics/02_内_陪臣.jpg",
       "x": 2020,
-      "y": 1573,
+      "y": 1320,
       "w": 114,
-      "h": 588
+      "h": 831
     },
     {
       "ident": "内 社家",
       "crop_path": "crops/choshu_demographics/03_内_社家.jpg",
       "x": 1889,
-      "y": 1574,
+      "y": 1319,
       "w": 114,
-      "h": 499
+      "h": 667
     },
     {
       "ident": "内 卒族 戸",
       "crop_path": "crops/choshu_demographics/04_内_卒族_戸.jpg",
       "x": 2140,
-      "y": 2501,
+      "y": 2248,
       "w": 114,
-      "h": 669
+      "h": 922
     },
     {
       "ident": "内 寺院",
       "crop_path": "crops/choshu_demographics/05_内_寺院.jpg",
       "x": 1877,
-      "y": 2501,
+      "y": 2248,
       "w": 114,
-      "h": 586
+      "h": 840
     },
     {
       "ident": "人口",
       "crop_path": "crops/choshu_demographics/06_人口.jpg",
       "x": 1343,
-      "y": 1321,
+      "y": 1158,
       "w": 114,
-      "h": 1090
+      "h": 915
     },
     {
       "ident": "内 士族 人口",
@@ -62,7 +62,7 @@
       "x": 1073,
       "y": 1324,
       "w": 114,
-      "h": 1094
+      "h": 787
     },
     {
       "ident": "内 卒族 人口",
@@ -70,15 +70,15 @@
       "x": 936,
       "y": 1321,
       "w": 114,
-      "h": 1095
+      "h": 790
     },
     {
       "ident": "内 盲僧",
       "crop_path": "crops/choshu_demographics/09_内_盲僧.jpg",
       "x": 1614,
-      "y": 1582,
+      "y": 1318,
       "w": 114,
-      "h": 409
+      "h": 483
     },
     {
       "ident": "内 非人",
@@ -86,23 +86,23 @@
       "x": 1483,
       "y": 1317,
       "w": 114,
-      "h": 166
+      "h": 422
     },
     {
       "ident": "内 山伏",
       "crop_path": "crops/choshu_demographics/11_内_山伏.jpg",
       "x": 1600,
-      "y": 2499,
+      "y": 2248,
       "w": 114,
-      "h": 332
+      "h": 489
     },
     {
       "ident": "内 穢多",
       "crop_path": "crops/choshu_demographics/12_内_穢多.jpg",
       "x": 1460,
-      "y": 2507,
+      "y": 2248,
       "w": 114,
-      "h": 661
+      "h": 903
     },
     {
       "ident": "内 茶洗",
@@ -110,7 +110,7 @@
       "x": 1586,
       "y": 3082,
       "w": 114,
-      "h": 169
+      "h": 289
     }
   ],
   "choshu_kokudaka": [
@@ -126,9 +126,9 @@
       "ident": "草高",
       "crop_path": "crops/choshu_kokudaka/01_草高.jpg",
       "x": 1266,
-      "y": 1316,
+      "y": 1068,
       "w": 114,
-      "h": 925
+      "h": 1173
     },
     {
       "ident": "外高",
@@ -136,7 +136,7 @@
       "x": 1128,
       "y": 1227,
       "w": 114,
-      "h": 1261
+      "h": 1254
     },
     {
       "ident": "合高",
@@ -144,23 +144,23 @@
       "x": 988,
       "y": 1146,
       "w": 114,
-      "h": 924
+      "h": 925
     },
     {
       "ident": "外産物 生蠟稅",
       "crop_path": "crops/choshu_kokudaka/04_外産物_生蠟稅.jpg",
       "x": 882,
-      "y": 1219,
+      "y": 1217,
       "w": 114,
-      "h": 1182
+      "h": 934
     },
     {
       "ident": "正租 現米",
       "crop_path": "crops/choshu_kokudaka/05_正租_現米.jpg",
       "x": 735,
-      "y": 1307,
+      "y": 1068,
       "w": 114,
-      "h": 1014
+      "h": 1254
     },
     {
       "ident": "正租 錢",
@@ -174,9 +174,9 @@
       "ident": "雜稅米",
       "crop_path": "crops/choshu_kokudaka/07_雜稅米.jpg",
       "x": 465,
-      "y": 1308,
+      "y": 1068,
       "w": 114,
-      "h": 924
+      "h": 1165
     },
     {
       "ident": "雜稅銀",
@@ -185,54 +185,6 @@
       "y": 1313,
       "w": 114,
       "h": 920
-    },
-    {
-      "ident": "士族戸數 (narrow / city subset)",
-      "crop_path": "crops/choshu_kokudaka/09_士族戸數_narrow_city_subset.jpg",
-      "x": 1949,
-      "y": 1072,
-      "w": 114,
-      "h": 333
-    },
-    {
-      "ident": "士族同人員 (narrow)",
-      "crop_path": "crops/choshu_kokudaka/10_士族同人員_narrow.jpg",
-      "x": 1940,
-      "y": 1492,
-      "w": 114,
-      "h": 331
-    },
-    {
-      "ident": "卒戸",
-      "crop_path": "crops/choshu_kokudaka/11_卒戸.jpg",
-      "x": 1813,
-      "y": 1320,
-      "w": 114,
-      "h": 334
-    },
-    {
-      "ident": "卒同人員",
-      "crop_path": "crops/choshu_kokudaka/12_卒同人員.jpg",
-      "x": 1806,
-      "y": 1742,
-      "w": 114,
-      "h": 251
-    },
-    {
-      "ident": "修驗",
-      "crop_path": "crops/choshu_kokudaka/13_修驗.jpg",
-      "x": 1680,
-      "y": 1318,
-      "w": 114,
-      "h": 533
-    },
-    {
-      "ident": "社家",
-      "crop_path": "crops/choshu_kokudaka/14_社家.jpg",
-      "x": 1660,
-      "y": 2413,
-      "w": 114,
-      "h": 526
     }
   ],
   "saga_demographics": [
@@ -240,57 +192,57 @@
       "ident": "士族人員",
       "crop_path": "crops/saga_demographics/00_士族人員.jpg",
       "x": 2651,
-      "y": 1249,
+      "y": 1098,
       "w": 114,
-      "h": 1373
+      "h": 1223
     },
     {
       "ident": "卒戸數",
       "crop_path": "crops/saga_demographics/01_卒戸數.jpg",
       "x": 2514,
-      "y": 1323,
+      "y": 1098,
       "w": 114,
-      "h": 669
+      "h": 894
     },
     {
       "ident": "卒人員",
       "crop_path": "crops/saga_demographics/02_卒人員.jpg",
       "x": 2381,
-      "y": 1243,
+      "y": 1098,
       "w": 114,
-      "h": 1381
+      "h": 1223
     },
     {
       "ident": "社人戸數",
       "crop_path": "crops/saga_demographics/03_社人戸數.jpg",
       "x": 2244,
-      "y": 1410,
+      "y": 1098,
       "w": 114,
-      "h": 417
+      "h": 729
     },
     {
       "ident": "社人人員",
       "crop_path": "crops/saga_demographics/04_社人人員.jpg",
       "x": 2126,
-      "y": 1245,
+      "y": 1098,
       "w": 114,
-      "h": 966
+      "h": 1044
     },
     {
       "ident": "僧 (戸)",
       "crop_path": "crops/saga_demographics/05_僧_戸.jpg",
       "x": 2088,
-      "y": 1245,
+      "y": 1098,
       "w": 114,
-      "h": 966
+      "h": 1114
     },
     {
       "ident": "僧 人員",
       "crop_path": "crops/saga_demographics/06_僧_人員.jpg",
       "x": 1909,
-      "y": 1901,
+      "y": 1132,
       "w": 114,
-      "h": 477
+      "h": 1175
     },
     {
       "ident": "○佐倉藩",
@@ -305,7 +257,7 @@
     {
       "ident": "○佐嘉藩",
       "crop_path": "crops/saga_kokudaka/00_佐嘉藩.jpg",
-      "x": 2373,
+      "x": 2374,
       "y": 1305,
       "w": 114,
       "h": 585
@@ -314,9 +266,9 @@
       "ident": "高",
       "crop_path": "crops/saga_kokudaka/01_高.jpg",
       "x": 2240,
-      "y": 1143,
+      "y": 1142,
       "w": 114,
-      "h": 1175
+      "h": 1176
     },
     {
       "ident": "新田高",
@@ -324,7 +276,7 @@
       "x": 2106,
       "y": 1145,
       "w": 114,
-      "h": 1849
+      "h": 1850
     },
     {
       "ident": "貮口合 / 平均",
@@ -332,15 +284,15 @@
       "x": 1836,
       "y": 1149,
       "w": 114,
-      "h": 1762
+      "h": 1763
     },
     {
       "ident": "正租米",
       "crop_path": "crops/saga_kokudaka/04_正租米.jpg",
       "x": 1567,
-      "y": 1235,
+      "y": 1068,
       "w": 114,
-      "h": 1760
+      "h": 1927
     },
     {
       "ident": "銀",
@@ -362,9 +314,9 @@
       "ident": "雜稅金",
       "crop_path": "crops/saga_kokudaka/07_雜稅金.jpg",
       "x": 1025,
-      "y": 1240,
+      "y": 1073,
       "w": 114,
-      "h": 923
+      "h": 1090
     }
   ],
   "saga_military": [
@@ -372,17 +324,17 @@
       "ident": "六大隊",
       "crop_path": "crops/saga_military/00_六大隊.jpg",
       "x": 1779,
-      "y": 1198,
+      "y": 1208,
       "w": 114,
-      "h": 251
+      "h": 241
     },
     {
       "ident": "大砲",
       "crop_path": "crops/saga_military/01_大砲.jpg",
-      "x": 1509,
-      "y": 1203,
+      "x": 1510,
+      "y": 1208,
       "w": 114,
-      "h": 420
+      "h": 415
     },
     {
       "ident": "士官",
@@ -412,17 +364,17 @@
       "ident": "砲卒",
       "crop_path": "crops/saga_military/05_砲卒.jpg",
       "x": 968,
-      "y": 1293,
+      "y": 1292,
       "w": 114,
-      "h": 418
+      "h": 420
     },
     {
       "ident": "兵卒",
       "crop_path": "crops/saga_military/06_兵卒.jpg",
       "x": 831,
-      "y": 1293,
+      "y": 1292,
       "w": 114,
-      "h": 588
+      "h": 589
     },
     {
       "ident": "樂卒",
@@ -454,17 +406,17 @@
       "ident": "草高",
       "crop_path": "crops/satsuma_kokudaka/01_草高.jpg",
       "x": 2304,
-      "y": 1353,
+      "y": 1099,
       "w": 114,
-      "h": 1844
+      "h": 2015
     },
     {
       "ident": "内 高",
       "crop_path": "crops/satsuma_kokudaka/02_内_高.jpg",
       "x": 2172,
-      "y": 1348,
+      "y": 1177,
       "w": 114,
-      "h": 1680
+      "h": 1852
     },
     {
       "ident": "内 損高",
@@ -472,63 +424,63 @@
       "x": 2035,
       "y": 1261,
       "w": 114,
-      "h": 1683
+      "h": 1684
     },
     {
       "ident": "現石",
       "crop_path": "crops/satsuma_kokudaka/04_現石.jpg",
       "x": 1903,
-      "y": 1427,
+      "y": 1177,
       "w": 114,
-      "h": 1178
+      "h": 1429
     },
     {
       "ident": "砂糖",
       "crop_path": "crops/satsuma_kokudaka/05_砂糖.jpg",
       "x": 1637,
-      "y": 1431,
+      "y": 1176,
       "w": 114,
-      "h": 1689
+      "h": 1944
     },
     {
       "ident": "茶種",
       "crop_path": "crops/satsuma_kokudaka/06_茶種.jpg",
       "x": 1497,
-      "y": 1425,
+      "y": 1174,
       "w": 114,
-      "h": 842
+      "h": 1094
     },
     {
       "ident": "楮",
       "crop_path": "crops/satsuma_kokudaka/07_楮.jpg",
       "x": 1361,
-      "y": 1428,
+      "y": 1174,
       "w": 114,
-      "h": 2023
+      "h": 1967
     },
     {
       "ident": "生蠟",
       "crop_path": "crops/satsuma_kokudaka/08_生蠟.jpg",
       "x": 1234,
-      "y": 1430,
+      "y": 1175,
       "w": 114,
-      "h": 835
+      "h": 1090
     },
     {
       "ident": "麻苧",
       "crop_path": "crops/satsuma_kokudaka/09_麻苧.jpg",
       "x": 1058,
-      "y": 1437,
+      "y": 1178,
       "w": 114,
-      "h": 658
+      "h": 917
     },
     {
       "ident": "雑稅銭",
       "crop_path": "crops/satsuma_kokudaka/10_雑稅銭.jpg",
       "x": 964,
-      "y": 1425,
+      "y": 1174,
       "w": 114,
-      "h": 1512
+      "h": 1763
     }
   ],
   "satsuma_military": [
@@ -562,81 +514,81 @@
       "ident": "士族戸數",
       "crop_path": "crops/tosa_demographics/00_士族戸數.jpg",
       "x": 1790,
-      "y": 1503,
+      "y": 1098,
       "w": 114,
-      "h": 672
+      "h": 1078
     },
     {
       "ident": "士族人口",
       "crop_path": "crops/tosa_demographics/01_士族人口.jpg",
       "x": 1647,
-      "y": 1505,
+      "y": 1098,
       "w": 114,
-      "h": 1248
+      "h": 1655
     },
     {
       "ident": "卒族戸數",
       "crop_path": "crops/tosa_demographics/02_卒族戸數.jpg",
       "x": 1519,
-      "y": 1508,
+      "y": 1098,
       "w": 114,
-      "h": 499
+      "h": 909
     },
     {
       "ident": "卒族人口",
       "crop_path": "crops/tosa_demographics/03_卒族人口.jpg",
       "x": 1379,
-      "y": 1496,
+      "y": 1098,
       "w": 114,
-      "h": 1460
+      "h": 1788
     },
     {
       "ident": "穢多戸數",
       "crop_path": "crops/tosa_demographics/04_穢多戸數.jpg",
       "x": 1251,
-      "y": 1503,
+      "y": 1098,
       "w": 114,
-      "h": 666
+      "h": 1072
     },
     {
       "ident": "神社",
       "crop_path": "crops/tosa_demographics/05_神社.jpg",
       "x": 977,
-      "y": 1336,
+      "y": 1098,
       "w": 114,
-      "h": 248
+      "h": 486
     },
     {
       "ident": "神職修驗等戸數",
       "crop_path": "crops/tosa_demographics/06_神職修驗等戸數.jpg",
       "x": 842,
-      "y": 1079,
+      "y": 1098,
       "w": 114,
-      "h": 586
+      "h": 1153
     },
     {
       "ident": "寺院",
       "crop_path": "crops/tosa_demographics/07_寺院.jpg",
       "x": 438,
-      "y": 1326,
+      "y": 1098,
       "w": 114,
-      "h": 1220
+      "h": 1448
     },
     {
       "ident": "常備兵",
       "crop_path": "crops/tosa_demographics/08_常備兵.jpg",
       "x": 305,
-      "y": 1412,
+      "y": 1154,
       "w": 114,
-      "h": 416
+      "h": 675
     },
     {
       "ident": "非常兵",
       "crop_path": "crops/tosa_demographics/09_非常兵.jpg",
-      "x": 287,
-      "y": 2264,
+      "x": 292,
+      "y": 1917,
       "w": 114,
-      "h": 405
+      "h": 252
     }
   ],
   "tosa_kokudaka": [
@@ -644,33 +596,33 @@
       "ident": "草高",
       "crop_path": "crops/tosa_kokudaka/00_草高.jpg",
       "x": 2447,
-      "y": 1324,
+      "y": 1156,
       "w": 114,
-      "h": 1417
+      "h": 1253
     },
     {
       "ident": "現米",
       "crop_path": "crops/tosa_kokudaka/01_現米.jpg",
       "x": 2309,
-      "y": 1489,
+      "y": 1239,
       "w": 114,
-      "h": 1011
+      "h": 1261
     },
     {
       "ident": "税銀",
       "crop_path": "crops/tosa_kokudaka/02_税銀.jpg",
       "x": 1491,
-      "y": 1407,
+      "y": 1155,
       "w": 114,
-      "h": 1011
+      "h": 1263
     },
     {
       "ident": "税金",
       "crop_path": "crops/tosa_kokudaka/03_税金.jpg",
       "x": 1356,
-      "y": 1409,
+      "y": 1157,
       "w": 114,
-      "h": 927
+      "h": 1179
     },
     {
       "ident": "此米",
@@ -678,23 +630,23 @@
       "x": 1222,
       "y": 1245,
       "w": 114,
-      "h": 920
+      "h": 921
     },
     {
       "ident": "總計",
       "crop_path": "crops/tosa_kokudaka/05_總計.jpg",
       "x": 1089,
-      "y": 1411,
+      "y": 1160,
       "w": 114,
-      "h": 754
+      "h": 1005
     },
     {
       "ident": "戸數",
       "crop_path": "crops/tosa_kokudaka/06_戸數.jpg",
       "x": 957,
-      "y": 1332,
+      "y": 1078,
       "w": 114,
-      "h": 838
+      "h": 1092
     }
   ]
 }

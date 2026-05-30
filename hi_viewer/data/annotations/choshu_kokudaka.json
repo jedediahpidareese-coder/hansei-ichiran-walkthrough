@@ -59,7 +59,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1266,1316,114,925"
+        "value": "xywh=pixel:1266,1068,114,1173"
       }
     }
   },
@@ -93,7 +93,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1128,1227,114,1261"
+        "value": "xywh=pixel:1128,1227,114,1254"
       }
     }
   },
@@ -127,7 +127,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:988,1146,114,924"
+        "value": "xywh=pixel:988,1146,114,925"
       }
     }
   },
@@ -161,7 +161,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:882,1219,114,1182"
+        "value": "xywh=pixel:882,1217,114,934"
       }
     }
   },
@@ -195,7 +195,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:735,1307,114,1014"
+        "value": "xywh=pixel:735,1068,114,1254"
       }
     }
   },
@@ -263,7 +263,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:465,1308,114,924"
+        "value": "xywh=pixel:465,1068,114,1165"
       }
     }
   },
@@ -298,210 +298,6 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:328,1313,114,920"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-shizoku-ko",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "士族戸數 五十八戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族戸数（しぞくこすう）五十八戸 — 城下の狭い区分"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku households = 58 — a NARROW subset (likely 城下士族, Yamaguchi-city retainers only), not the full corps."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "58 households"
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族戸數 (narrow / city subset)"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1949,1072,114,333"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-shizoku-jin",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "士族 同人員 貳百九拾三人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族 同人員（どうじんいん）二百九十三人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku same-persons = 293 (the population of that narrow city-subset of 58 households)."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "293 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族同人員 (narrow)"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1940,1492,114,331"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-sotsu-ko",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "卒戸 二十八戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "卒戸（そつこ）二十八戸"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu households = 28 (same narrow city subset)."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "28 households"
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒戸"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1813,1320,114,334"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-sotsu-jin",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "卒 同人員 九十三人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "卒 同人員（どうじんいん）九十三人 — 内男63 女30"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu same-persons = 93 (内 男63 女30). Verified vs crop 2026-05-18."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "93 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒同人員"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1806,1742,114,251"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-shugen",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "修驗 廿三軒"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "修験（しゅげん）二十三軒"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shugendō mountain-ascetic clergy = 23 households."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "23 households"
-      },
-      {
-        "purpose": "identifying",
-        "value": "修驗"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1680,1318,114,533"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-shake",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "社家 拾一軒"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "社家（しゃけ）十一軒"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto shrine households = 11 (社人 18 persons noted internally below)."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "11 households"
-      },
-      {
-        "purpose": "identifying",
-        "value": "社家"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1660,2413,114,526"
       }
     }
   }

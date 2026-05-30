@@ -54,7 +54,7 @@
       "page_header_en": "Domain Survey Table 5 (Yamaguchi)",
       "table_number": 5,
       "page_topic": "households + population + status-class breakdown",
-      "page_summary_en": "The Chōshū demographics page uses the 内 X 人口 sub-row pattern (内 士族 人口 = 15,849; 内 卒族 人口 = 10,362) introducing samurai-class population as sub-counts of a total. This labeling pattern was the gap that caused Chōshū's HI shizoku/sotsu data to be missing from the analytic dataset until the 2026-05-27 build-script fix. The page also shows the total 戸數 (17,714) and the city-subset 士族戸數 (narrow / city subset, 58 households)."
+      "page_summary_en": "The Chōshū demographics page uses the 内 X 人口 sub-row pattern (内 士族 人口 = 15,849; 内 卒族 人口 = 10,362) introducing samurai-class population as sub-counts of a total. This labeling pattern was the gap that caused Chōshū's HI shizoku/sotsu data to be missing from the analytic dataset until the 2026-05-27 build-script fix. The page also shows the total 戸數 (17,714) and Chōshū's full status-class household + caste breakdown (内 士族 戸 = 3,000, 内 陪臣 = 6,457, 内 卒族 戸 = 3,991, 内 寺院 = 1,165, 内 穢多 = 2,675, …), continued from the kokudaka page."
     },
     {
       "id": "choshu_kokudaka",
@@ -71,7 +71,7 @@
       "page_header_en": "Domain Survey Table 5 (Yamaguchi)",
       "table_number": 5,
       "page_topic": "kokudaka components and combined-high total",
-      "page_summary_en": "The Chōshū kokudaka page documents 草高 = 369,411 + 外高 (新田打出) = 618,593 + 合高 = 988,004. The figures add up exactly (369,411 + 618,593 = 988,004). An earlier extraction mis-read 外高 as 628,593, which created a spurious 10,000-koku 'discrepancy'; the audited HI value is 618,593, and the source is internally consistent. The kokudaka_iv uses the 988,004 combined figure."
+      "page_summary_en": "The Chōshū kokudaka page documents 草高 = 369,411 + 外高 (新田打出) = 618,593 + 合高 = 988,004. The figures add up exactly (369,411 + 618,593 = 988,004). An earlier extraction mis-read 外高 as 628,593, which created a spurious 10,000-koku 'discrepancy'; the audited HI value is 618,593, and the source is internally consistent. The kokudaka_iv uses the 988,004 combined figure. Reading right-to-left, only the columns to the LEFT of the ○山口藩 marker are Chōshū's; the status-class counts to its RIGHT (士族戸數 58, 卒戸 28, 修驗 23, …) are the demographic tail of the PRECEDING domain's entry — not Chōshū's — so they are not shown here. Chōshū's own demographics are on the facing page (book p.359)."
     },
     {
       "id": "tosa_kokudaka",

@@ -23,7 +23,7 @@ let currentLang = 'transcribing';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260530osd8';
+const VER = '20260530osd9';
 
 async function loadJson(path) {
   const r = await fetch(path);
