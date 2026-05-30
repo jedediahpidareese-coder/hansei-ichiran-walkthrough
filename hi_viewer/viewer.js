@@ -1,56 +1,65 @@
-/* HI page viewer — side-by-side with CSS-overlay column highlights.
- *
- *   Left:  HI page <img> + absolutely-positioned amber rectangles, one per
- *          annotation, computed from each annotation's image-pixel bbox.
- *   Right: data table; hovering a row highlights its column on the page;
- *          hovering a column highlights its row here.
- *
- * No OSD, no Annotorious. Bbox positions come from data/annotations/*.json
- * (auto-detected by outputs/scripts/auto_align_hi_annotations.py).
- */
+/* ============================================================
+   Hansei Ichiran source-page viewer  (OpenSeadragon rebuild)
+   ------------------------------------------------------------
+   Left  : deep-zoom page (OpenSeadragon, single-image tile source) with
+           annotation overlays positioned in image coordinates — they pan/zoom
+           WITH the page. Hover an overlay -> highlight its data row; click ->
+           zoom the page to that value and open its detail.
+   Right : page summary + the MASTER-extracted values; hover a row -> highlight
+           its column on the page; click -> zoom + detail.
+   Top   : a kanji / modern-JP / English toggle controlling the on-page tooltip.
+   ============================================================ */
 
 let pages = [];
 let extracts = {};
 let glossary = {};
-let annotationsByPage = {};   // page_id -> [annotation objects]
-let cropsManifest = {};       // page_id -> [{ident, crop_path, x, y, w, h}]
+let annotationsByPage = {};      // page_id -> [annotation objects]
+let cropsManifest = {};          // page_id -> [{ident, crop_path, ...}]
 let currentPage = 0;
 let currentAnnotations = [];
-let activeFieldJp = null;
+let overlaysByField = {};        // field_jp -> overlay element (current page)
+let viewer = null;               // OpenSeadragon instance
+let currentLang = 'transcribing';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
+const VER = '20260530osd5';
 
 async function loadJson(path) {
   const r = await fetch(path);
   if (!r.ok) throw new Error(`Failed to load ${path}: ${r.status}`);
   return r.json();
 }
-
 function escapeHtml(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, c => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   }[c]));
 }
-
-function parseXywh(selectorValue) {
-  const m = xywhRe.exec(selectorValue);
+function parseXywh(v) {
+  const m = xywhRe.exec(v || '');
   return m ? { x: +m[1], y: +m[2], w: +m[3], h: +m[4] } : null;
 }
-
-function findAnnotationByField(fieldJp) {
-  return currentAnnotations.find(a => {
-    const ident = (a.body || []).find(b => b.purpose === 'identifying')?.value;
-    return ident === fieldJp;
-  });
+function bodyOf(ann, purpose) {
+  return (ann.body || []).find(b => b.purpose === purpose)?.value || '';
 }
+function identOf(ann) { return bodyOf(ann, 'identifying'); }
 
-function findCropByField(pageId, fieldJp) {
-  const entries = cropsManifest[pageId] || [];
-  return entries.find(e => e.ident === fieldJp);
+/* Field labels drift between the annotation `identifying` value and the MASTER
+   `field_jp` (parenthetical notes like "隊士 (top right notation)", and
+   kyūjitai↔shinjitai variants like 雜稅銭 vs 雑稅銭). Normalize so the
+   overlay↔row cross-highlight + crop lookup are robust. */
+const KANJI_VARIANTS = { '雜':'雑','兒':'児','廣':'広','豐':'豊','澤':'沢','眞':'真','龍':'竜','邨':'村','佛':'仏','國':'国','會':'会','學':'学','產':'産' };
+function normField(s) {
+  if (!s) return '';
+  s = String(s).replace(/[（(][^)）]*[)）]/g, '');   // drop parenthetical notes
+  s = s.replace(/\s+/g, '');                          // drop whitespace
+  return [...s].map(c => KANJI_VARIANTS[c] || c).join('');
 }
+function findAnnotationByField(f) { const k = normField(f); return currentAnnotations.find(a => normField(identOf(a)) === k); }
+function findCropByField(pageId, f) { const k = normField(f); return (cropsManifest[pageId] || []).find(e => normField(e.ident) === k); }
 
+/* ---------------- page selector + meta ---------------- */
 function populatePageSelect() {
   const sel = $('#page-select');
   sel.innerHTML = '';
@@ -61,7 +70,20 @@ function populatePageSelect() {
     sel.appendChild(opt);
   });
 }
+function renderPageMeta(page) {
+  $('#page-domain').textContent = `${page.domain_canonical} (${page.domain_en})`;
+  $('#page-topic').textContent = `Table ${page.table_number} — ${page.page_topic}`;
+  $('#page-book-page').textContent = `book p. ${page.book_page}`;
+  $('#image-filename').textContent = `${page.image.split('/').pop()} · ${page.volume} PDF p${page.pdf_page}-${page.page_side}`;
+  $('#page-summary').innerHTML = `
+    <h3>About this page</h3>
+    <span class="summary-kanji">${escapeHtml(page.page_header_kanji)}</span>
+    <span class="summary-en-head">${escapeHtml(page.page_header_en)}</span>
+    <p>${escapeHtml(page.page_summary_en)}</p>
+  `;
+}
 
+/* ---------------- furigana ---------------- */
 function renderFieldWithFurigana(fieldJp) {
   const entry = glossary[fieldJp];
   if (entry && entry.furigana) {
@@ -70,134 +92,131 @@ function renderFieldWithFurigana(fieldJp) {
   return escapeHtml(fieldJp);
 }
 
-function setActiveField(fieldJp) {
-  activeFieldJp = fieldJp;
-  document.querySelectorAll('.highlight-box').forEach(el => {
-    el.classList.toggle('active', el.dataset.fieldJp === fieldJp);
-  });
+/* ---------------- cross-highlight ---------------- */
+function setActiveField(fieldJp, { scrollRow = false } = {}) {
+  const key = normField(fieldJp);
+  Object.entries(overlaysByField).forEach(([f, el]) => el.classList.toggle('active', normField(f) === key));
   let activeRow = null;
   document.querySelectorAll('.extract-table tr[data-field-jp]').forEach(tr => {
-    const on = tr.dataset.fieldJp === fieldJp;
+    const on = normField(tr.dataset.fieldJp) === key;
     tr.classList.toggle('active', on);
     if (on) activeRow = tr;
   });
-  // Scroll the activated row into view if it's off-screen
-  if (activeRow) {
-    const pane = document.querySelector('.data-pane');
-    if (pane) {
-      const rowRect = activeRow.getBoundingClientRect();
-      const paneRect = pane.getBoundingClientRect();
-      if (rowRect.top < paneRect.top + 40 || rowRect.bottom > paneRect.bottom - 10) {
-        activeRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
+  if (scrollRow && activeRow) {
+    const pane = $('.data-pane');
+    const rr = activeRow.getBoundingClientRect(), pr = pane.getBoundingClientRect();
+    if (rr.top < pr.top + 60 || rr.bottom > pr.bottom - 10) {
+      activeRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 }
-
 function clearActiveField() {
-  activeFieldJp = null;
-  document.querySelectorAll('.highlight-box.active').forEach(el => el.classList.remove('active'));
+  Object.values(overlaysByField).forEach(el => el.classList.remove('active'));
   document.querySelectorAll('.extract-table tr.active').forEach(tr => tr.classList.remove('active'));
 }
 
+/* ---------------- on-page tooltip ---------------- */
+function showTip(ann, clientX, clientY) {
+  const tip = $('#osd-tip');
+  const kanji = bodyOf(ann, 'transcribing');
+  const jp = bodyOf(ann, 'modern_jp_reading');
+  const en = bodyOf(ann, 'english_translation');
+  const val = bodyOf(ann, 'extracted_value');
+  let main = currentLang === 'transcribing' ? kanji
+           : currentLang === 'modern_jp_reading' ? (jp || kanji)
+           : (en || jp || kanji);
+  const cls = currentLang === 'english_translation' ? 'tip-en' : 'tip-kanji';
+  tip.innerHTML = `<span class="${cls}">${escapeHtml(main)}</span>` +
+                  (val ? `<span class="tip-val">${escapeHtml(val)}</span>` : '');
+  tip.hidden = false;
+  // position within the page pane, flipping if near the right edge
+  const pane = $('.page-pane').getBoundingClientRect();
+  let x = clientX - pane.left + 16, y = clientY - pane.top + 14;
+  tip.style.left = '0px'; tip.style.top = '0px';
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  if (x + tw > pane.width - 8) x = clientX - pane.left - tw - 14;
+  if (y + th > pane.height - 8) y = clientY - pane.top - th - 14;
+  tip.style.left = Math.max(6, x) + 'px';
+  tip.style.top = Math.max(6, y) + 'px';
+}
+function hideTip() { $('#osd-tip').hidden = true; }
+
+/* ---------------- data table ---------------- */
 function renderExtractTable(pageId) {
   const tbody = $('#extract-rows');
   tbody.innerHTML = '';
   const allRows = extracts[pageId] || [];
-  if (allRows.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="4" style="color:#888;text-align:center;padding:20px">No MASTER extract rows for this page.</td></tr>';
+  if (!allRows.length) {
+    tbody.innerHTML = '<tr><td colspan="4" style="color:#9a8d76;text-align:center;padding:22px">No MASTER extract rows for this page.</td></tr>';
     return;
   }
-  // De-duplicate: when two rows have the same value+unit, keep only the one
-  // with the shorter field_jp label (the canonical name, not a "(with note)"
-  // variant). MASTER sometimes emits both forms; the viewer should show one.
-  const seen = new Map();  // key = `${parsed}|${unit}` -> chosen row
+  // de-duplicate identical value+unit, keeping the shorter (canonical) label
+  const seen = new Map();
   allRows.forEach(r => {
-    const key = `${r.parsed}|${r.unit || ''}`;
-    const existing = seen.get(key);
-    if (!existing || r.field_jp.length < existing.field_jp.length) {
-      seen.set(key, r);
-    }
+    const k = `${r.parsed}|${r.unit || ''}`;
+    const ex = seen.get(k);
+    if (!ex || r.field_jp.length < ex.field_jp.length) seen.set(k, r);
   });
   const rows = allRows.filter(r => seen.get(`${r.parsed}|${r.unit || ''}`) === r);
-  rows.forEach((r) => {
+  rows.forEach(r => {
     const tr = document.createElement('tr');
     tr.dataset.fieldJp = r.field_jp;
     const gloss = glossary[r.field_jp] || {};
-    const en = gloss.en || '';
     const hasAnno = !!findAnnotationByField(r.field_jp);
     if (hasAnno) tr.classList.add('has-anno');
     tr.innerHTML = `
       <td class="field-jp">${renderFieldWithFurigana(r.field_jp)}</td>
-      <td class="field-en">${escapeHtml(en)}</td>
+      <td class="field-en">${escapeHtml(gloss.en || '')}</td>
       <td class="value">${escapeHtml(r.parsed)}</td>
-      <td class="unit">${escapeHtml(r.unit || '')}</td>
-    `;
+      <td class="unit">${escapeHtml(r.unit || '')}</td>`;
     tr.addEventListener('mouseenter', () => setActiveField(r.field_jp));
     tr.addEventListener('mouseleave', clearActiveField);
-    tr.addEventListener('click', () => openDetailFor(r.field_jp));
+    if (hasAnno) {
+      tr.addEventListener('click', () => { zoomToField(r.field_jp); openDetailFor(r.field_jp); });
+    } else {
+      tr.addEventListener('click', () => openDetailFor(r.field_jp));
+    }
     tbody.appendChild(tr);
   });
 }
 
-function renderHighlightLayer() {
-  const layer = $('#highlight-layer');
-  layer.innerHTML = '';
-  const img = $('#page-img');
-  if (!img.complete || !img.naturalWidth) {
-    // Wait for image load
-    img.addEventListener('load', renderHighlightLayer, { once: true });
-    return;
-  }
-
-  // Compute the displayed image bounds inside its frame.
-  // The img uses object-fit: contain inside .page-image-frame, so the
-  // rendered image is centered with letterboxing on top/bottom OR left/right.
-  const frame = $('#page-frame');
-  const fW = frame.clientWidth;
-  const fH = frame.clientHeight;
-  const natW = img.naturalWidth;
-  const natH = img.naturalHeight;
-  const scale = Math.min(fW / natW, fH / natH);
-  const dispW = natW * scale;
-  const dispH = natH * scale;
-  const offsetX = (fW - dispW) / 2;
-  const offsetY = (fH - dispH) / 2;
-
-  currentAnnotations.forEach(a => {
-    if (!a.target || !a.target.selector) return;
-    const box = parseXywh(a.target.selector.value);
-    if (!box) return;
-    const ident = (a.body || []).find(b => b.purpose === 'identifying')?.value || '';
-
-    const div = document.createElement('div');
-    div.className = 'highlight-box';
-    div.dataset.fieldJp = ident;
-    div.style.left = `${offsetX + box.x * scale}px`;
-    div.style.top = `${offsetY + box.y * scale}px`;
-    div.style.width = `${box.w * scale}px`;
-    div.style.height = `${box.h * scale}px`;
-    div.title = ident;
-
-    div.addEventListener('mouseenter', () => setActiveField(ident));
-    div.addEventListener('mouseleave', clearActiveField);
-    div.addEventListener('click', () => openDetailFor(ident));
-    layer.appendChild(div);
+/* ---------------- OSD overlays ---------------- */
+function rectFor(ann) {
+  const b = parseXywh(ann.target?.selector?.value);
+  if (!b) return null;
+  return new OpenSeadragon.Rect(b.x, b.y, b.w, b.h);
+}
+function addOverlays() {
+  overlaysByField = {};
+  currentAnnotations.forEach(ann => {
+    const r = rectFor(ann);
+    if (!r) return;
+    const field = identOf(ann);
+    const el = document.createElement('div');
+    el.className = 'hl-box' + (field.startsWith('○') ? ' is-marker' : '');
+    el.dataset.fieldJp = field;
+    el.addEventListener('mouseenter', (e) => { setActiveField(field, { scrollRow: true }); showTip(ann, e.clientX, e.clientY); });
+    el.addEventListener('mousemove', (e) => showTip(ann, e.clientX, e.clientY));
+    el.addEventListener('mouseleave', () => { clearActiveField(); hideTip(); });
+    el.addEventListener('click', () => { hideTip(); zoomToField(field); openDetailFor(field); });
+    viewer.addOverlay({ element: el, location: viewer.viewport.imageToViewportRectangle(r) });
+    overlaysByField[field] = el;
   });
 }
-
-function renderPageMeta(page) {
-  $('#page-domain').textContent = `${page.domain_canonical} (${page.domain_en})`;
-  $('#page-topic').textContent = `Table ${page.table_number} — ${page.page_topic}`;
-  $('#page-book-page').textContent = `book p. ${page.book_page}`;
-  $('#image-filename').textContent = `${page.image} • ${page.volume} PDF p${page.pdf_page}-${page.page_side}`;
-  $('#page-summary').innerHTML = `
-    <h3>Page summary</h3>
-    <p><strong>${escapeHtml(page.page_header_kanji)}</strong> — ${escapeHtml(page.page_header_en)}</p>
-    <p>${escapeHtml(page.page_summary_en)}</p>
-  `;
+function zoomToField(fieldJp) {
+  const ann = findAnnotationByField(fieldJp);
+  if (!ann || !viewer) return;
+  const r = rectFor(ann);
+  if (!r) return;
+  // pad the column generously so context around the value is visible
+  const padX = r.width * 3.2, padY = r.height * 0.18;
+  const padded = new OpenSeadragon.Rect(r.x - padX, r.y - padY, r.width + padX * 2, r.height + padY * 2);
+  viewer.viewport.fitBoundsWithConstraints(viewer.viewport.imageToViewportRectangle(padded), false);
+  const el = overlaysByField[fieldJp];
+  if (el) { el.classList.add('active'); }
 }
 
+/* ---------------- detail modal ---------------- */
 function openDetailFor(fieldJp) {
   const ann = findAnnotationByField(fieldJp);
   const body = {};
@@ -210,80 +229,113 @@ function openDetailFor(fieldJp) {
   $('#detail-kanji').textContent = body.transcribing
     || (extractRow ? (extractRow.raw || `${fieldJp} ${extractRow.parsed || ''}`) : '—');
   $('#detail-modern-jp').textContent = body.modern_jp_reading
-    || (gloss.furigana ? `${fieldJp} (${gloss.furigana})` : '—');
-  $('#detail-en').textContent = body.english_translation || gloss.en || '— no annotation written yet for this field';
-  const valTxt = extractRow
+    || (gloss.furigana ? `${fieldJp}（${gloss.furigana}）` : '—');
+  $('#detail-en').textContent = body.english_translation || gloss.en || '— no annotation written yet for this field —';
+  $('#detail-value').textContent = extractRow
     ? `${extractRow.parsed}${extractRow.unit ? ' ' + extractRow.unit : ''}`
     : (body.extracted_value || '—');
-  $('#detail-value').textContent = valTxt;
+
+  const zlink = $('#detail-zoom-link');
   if (crop) {
-    $('#detail-crop').src = crop.crop_path;
+    $('#detail-crop').src = crop.crop_path + '?v=' + VER;
     $('#detail-crop').alt = `Source column for ${fieldJp}`;
     $('#detail-crop').style.display = '';
   } else {
     $('#detail-crop').style.display = 'none';
   }
+  zlink.style.display = findAnnotationByField(fieldJp) ? '' : 'none';
+  zlink.onclick = () => { closeDetail(); zoomToField(fieldJp); };
   $('#detail-modal').hidden = false;
 }
+function closeDetail() { $('#detail-modal').hidden = true; }
 
-function closeDetail() {
-  $('#detail-modal').hidden = true;
-}
-
+/* ---------------- page load ---------------- */
 function loadPage(idx) {
   if (idx < 0 || idx >= pages.length) return;
   currentPage = idx;
   const page = pages[idx];
-
   $('#prev-page').disabled = idx === 0;
   $('#next-page').disabled = idx === pages.length - 1;
   $('#page-select').value = idx;
-
+  hideTip();
   renderPageMeta(page);
-
   currentAnnotations = annotationsByPage[page.id] || [];
-  $('#highlight-layer').innerHTML = '';  // clear old highlights immediately
-
-  // Reload the page image; the load event triggers renderHighlightLayer
-  const img = $('#page-img');
-  img.onload = () => renderHighlightLayer();
-  img.src = `${page.image}?v=20260528e`;
-  img.alt = `HI page — ${page.domain_canonical}, ${page.page_topic}`;
-
   renderExtractTable(page.id);
+  viewer.clearOverlays();
+  overlaysByField = {};
+  viewer.open({ type: 'image', url: `${page.image}?v=${VER}` });
 }
 
+/* ---------------- init ---------------- */
 async function init() {
   try {
-    const manifest = await loadJson('data/pages.json');
+    const manifest = await loadJson(`data/pages.json?v=${VER}`);
     pages = manifest.pages;
-    extracts = await loadJson('data/master_extracts.json');
-    glossary = await loadJson('data/hi_field_glossary.json');
-    cropsManifest = await loadJson('data/crops_manifest.json');
-    // Bulk-load all annotation files up front (only ~50 small files total)
+    extracts = await loadJson(`data/master_extracts.json?v=${VER}`);
+    glossary = await loadJson(`data/hi_field_glossary.json?v=${VER}`);
+    cropsManifest = await loadJson(`data/crops_manifest.json?v=${VER}`);
     await Promise.all(pages.map(async p => {
-      try {
-        annotationsByPage[p.id] = await loadJson(`data/annotations/${p.id}.json`);
-      } catch (e) {
-        annotationsByPage[p.id] = [];
-      }
+      try { annotationsByPage[p.id] = await loadJson(`data/annotations/${p.id}.json?v=${VER}`); }
+      catch (e) { annotationsByPage[p.id] = []; }
     }));
   } catch (e) {
-    document.body.innerHTML = `<p style="padding:40px;color:#c00">Failed to load viewer data: ${e.message}</p>`;
+    document.body.innerHTML = `<p style="padding:40px;color:#a8362a;font-family:Georgia,serif">Failed to load viewer data: ${e.message}</p>`;
     return;
   }
 
+  viewer = OpenSeadragon({
+    id: 'osd',
+    prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/',
+    showNavigationControl: false,
+    showNavigator: true,
+    navigatorPosition: 'BOTTOM_RIGHT',
+    navigatorHeight: 92, navigatorWidth: 70,
+    navigatorBorderColor: 'rgba(200,90,50,0.7)',
+    navigatorDisplayRegionColor: 'rgba(200,90,50,0.9)',
+    minZoomImageRatio: 0.7,
+    maxZoomPixelRatio: 2.4,
+    visibilityRatio: 0.85,
+    constrainDuringPan: true,
+    animationTime: 0.7,
+    springStiffness: 7,
+    gestureSettingsTouch: { pinchToZoom: true, flickEnabled: true },
+    gestureSettingsMouse: { clickToZoom: false, dblClickToZoom: true },
+    zoomPerScroll: 1.35,
+    immediateRender: false,
+    preserveImageSizeOnResize: true,
+  });
+  viewer.addHandler('open', () => addOverlays());
+
   populatePageSelect();
-  $('#page-select').addEventListener('change', (e) => loadPage(parseInt(e.target.value, 10)));
+  $('#page-select').addEventListener('change', e => loadPage(parseInt(e.target.value, 10)));
   $('#prev-page').addEventListener('click', () => loadPage(currentPage - 1));
   $('#next-page').addEventListener('click', () => loadPage(currentPage + 1));
+  $('#zoom-in').addEventListener('click', () => viewer.viewport.zoomBy(1.5).applyConstraints());
+  $('#zoom-out').addEventListener('click', () => viewer.viewport.zoomBy(1 / 1.5).applyConstraints());
+  $('#zoom-home').addEventListener('click', () => viewer.viewport.goHome());
 
-  $('#detail-close').addEventListener('click', closeDetail);
-  $('#detail-modal').addEventListener('click', (e) => {
-    if (e.target.id === 'detail-modal') closeDetail();
+  // language toggle
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      currentLang = btn.dataset.lang;
+    });
   });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
-  window.addEventListener('resize', () => renderHighlightLayer());
+
+  // modal
+  $('#detail-close').addEventListener('click', closeDetail);
+  $('#detail-modal').addEventListener('click', e => { if (e.target.id === 'detail-modal') closeDetail(); });
+
+  // keyboard
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'SELECT') return;
+    if (e.key === 'Escape') { if (!$('#detail-modal').hidden) closeDetail(); else viewer.viewport.goHome(); }
+    else if (e.key === 'ArrowRight' && $('#detail-modal').hidden) loadPage(currentPage + 1);
+    else if (e.key === 'ArrowLeft' && $('#detail-modal').hidden) loadPage(currentPage - 1);
+    else if ((e.key === '+' || e.key === '=') ) viewer.viewport.zoomBy(1.4).applyConstraints();
+    else if (e.key === '-') viewer.viewport.zoomBy(1 / 1.4).applyConstraints();
+  });
 
   loadPage(0);
 }

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "anno-saga_mil-rokudaitai",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六大隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六大隊（ろくだいたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Six battalions — the top-level structure of Saga's standing army; the 内譯 (breakdown) that follows enumerates the corps that sum to 2,972 personnel."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6 battalions"
+      },
+      {
+        "purpose": "identifying",
+        "value": "六大隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1816,1238,88,285"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-daihou",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲 三十六門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大砲（たいほう）三十六門"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Thirty-six cannon. Saga's artillery — its domestically-cast Armstrong-pattern rifled guns (from the Mietsu 三重津 works) were the most advanced in 1860s Japan."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "36 guns"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1536,1290,88,340"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-shikan",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士官 八百六十四員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士官（しかん）八百六十四員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Officers = 864 — the commissioned-officer corps across the six battalions."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "864 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士官"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1400,1290,88,530"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-houshi",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲士 百八拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲士（ほうし）百八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery soldiers = 180 — the trained gun crews."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "180 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲士"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1245,1290,88,400"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-heishi",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵士 千四百四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵士（へいし）千四百四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry = 1,440 — the largest single component, the rifle-armed line troops."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,440 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵士"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1130,1290,88,530"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-housotsu",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲卒 百八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲卒（ほうそつ）百八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery privates = 108 — lower-rank gun-crew personnel supporting the 砲士."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "108 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:987,1290,88,340"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-heisotsu",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵卒 貳百六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵卒（へいそつ）二百六十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry privates = 260 — lower-rank line soldiers."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "260 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:833,1290,88,460"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-gakusotsu",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "樂卒 百貳十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "樂卒（がくそつ）百二十人 — 軍楽隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bandsmen = 120 — a 120-strong military band, itself a marker of a Western-modeled army."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "120 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "樂卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:700,1290,88,400"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_mil-sakura",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○佐倉藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "佐倉藩（さくらはん）— 別の藩の始まり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura domain (Hotta family, Shimōsa) — a DIFFERENT domain. Its ○ marker begins HERE; everything to its right on this page is the tail of the PREVIOUS entry — Saga. This right-to-left page-spill is exactly why Saga's army went unnoticed (searches used the old-kanji 佐嘉; Table 9 prints 佐賀)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "— next domain —"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○佐倉藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:557,1300,96,560"
+      }
+    }
+  }
+]

@@ -71,7 +71,7 @@
       "page_header_en": "Domain Survey Table 5 (Yamaguchi)",
       "table_number": 5,
       "page_topic": "kokudaka components and combined-high total",
-      "page_summary_en": "The Chōshū kokudaka page documents 草高 = 369,411 + 外高 (新田打出) = 628,593 + 合高 = 988,004. Internal arithmetic note: 369,411 + 628,593 = 998,004, not 988,004 — the HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully (verbatim values, including the inconsistency). The kokudaka_iv uses the 988,004 combined figure as printed by HI."
+      "page_summary_en": "The Chōshū kokudaka page documents 草高 = 369,411 + 外高 (新田打出) = 618,593 + 合高 = 988,004. The figures add up exactly (369,411 + 618,593 = 988,004). An earlier extraction mis-read 外高 as 628,593, which created a spurious 10,000-koku 'discrepancy'; the audited HI value is 618,593, and the source is internally consistent. The kokudaka_iv uses the 988,004 combined figure."
     },
     {
       "id": "tosa_kokudaka",
@@ -140,6 +140,23 @@
       "table_number": 6,
       "page_topic": "Saga demographics (top) + Sakura-han entry beginning (bottom)",
       "page_summary_en": "This page is STACKED — the top half completes Saga's entry (士族人員 23,823 + 卒人員 43,488 + 卒戸數 9,369 + 僧人員 4,412), and the bottom half begins ○佐倉藩 (Sakura-han, a Sakai domain in Shimousa) as a NEW DOMAIN. The ○ marker at mid-page is the source's domain-boundary signal. Annotations distinguish the two domains' data."
+    },
+    {
+      "id": "saga_military",
+      "sequence": 9,
+      "domain_canonical": "佐賀藩",
+      "domain_hi_name": "佐賀藩",
+      "domain_en": "Saga",
+      "image": "images/lower_p227_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 227,
+      "page_side": "R",
+      "book_page": "四百三十",
+      "page_header_kanji": "藩制一覧表第九 (佐倉)",
+      "page_header_en": "Domain Survey Table 9 — Saga's army (printed on the 佐倉 / Sakura page)",
+      "table_number": 9,
+      "page_topic": "military — Saga's Table-9 army (2,972 troops / 36 cannon)",
+      "page_summary_en": "Saga's MILITARY entry — found at native resolution in May 2026, overturning the long-held belief that Hansei Ichiran recorded no army for Saga. It sits in Volume 2, Table 9 (第九). Saga's ○佐賀藩 marker and its officer roster are on the facing page (book p.429); the army spills onto the top of THIS page (p.430) and reads right-to-left, ending just before the ○佐倉藩 (Sakura) marker — so the whole block belongs to Saga. The force: six battalions, 2,972 personnel (officers 864 + artillery-soldiers 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and 36 cannon. It was missed for years because the search used Saga's old-kanji name 佐嘉, while the Table-9 fascicle prints the modern 佐賀. Hansei Ichiran is now a citable primary source for Saga's 1870 army."
     }
   ]
 }

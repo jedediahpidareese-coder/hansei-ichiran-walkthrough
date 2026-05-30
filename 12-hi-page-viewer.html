@@ -361,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Click</strong> a row in the data table to zoom the page to that field’s location</li>
 <li><strong>Verify</strong> what the extracted MASTER value matches against what’s actually printed on the page</li>
 </ul>
-<p>The viewer is built on OpenSeadragon (image viewer) + Annotorious (hover-annotation overlay) + a hand-curated annotation set linking each visible HI value to its row in <code>MASTER_hansei_ichiran.csv</code>. This is a <strong>sample of 8 pages</strong> demonstrating the format; the methodology can scale to all 286 domains.</p>
+<p>The viewer is built on OpenSeadragon (deep-zoom page viewer) with custom CSS overlays positioned in image coordinates, plus a hand-curated annotation set linking each visible HI value to its row in <code>MASTER_hansei_ichiran.csv</code>. This is a <strong>sample of 9 pages</strong> demonstrating the format; the methodology can scale to all 286 domains.</p>
 </div>
 </div>
 <section class="level2" data-number="24.1" id="launch-the-viewer">
@@ -379,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li>The <strong>page selector</strong> at the top lets you jump between the 8 focal-4 sample pages (kokudaka + demographics pages for each of Satsuma, Chōshū, Tosa, Saga, plus Satsuma’s militarily-significant 書ナラス “not specified” military table)</li>
-<li>The <strong>image pane</strong> on the left shows the actual 1870 page. Drag to pan, scroll-wheel to zoom, or use the navigation thumbnail (bottom-left)</li>
+<li>The <strong>page selector</strong> at the top lets you jump between the 9 focal-4 sample pages (kokudaka + demographics for each of Satsuma, Chōshū, Tosa, Saga; Satsuma’s 書ナラス “not specified” military table; and Saga’s recovered Table-9 army)</li>
+<li>The <strong>image pane</strong> on the left shows the actual 1870 page. Drag to pan, scroll-wheel to zoom, or use the navigation thumbnail (bottom-right)</li>
 <li>Coloured rectangles on the image are <strong>annotated regions</strong>. Hover any one to see the pop-up annotation</li>
 <li>The <strong>data table</strong> on the right shows every MASTER-extracted value for this page. Hovering an annotation highlights its matching row; clicking a row zooms the page to the value’s location</li>
 <li>The <strong>annotation language toggle</strong> (top-right) controls whether annotation pop-ups prefer the verbatim kanji, modern Japanese reading, or English translation</li>
@@ -390,7 +390,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level2" data-number="24.2" id="sample-scope">
 <h2 class="anchored" data-anchor-id="sample-scope" data-number="24.2"><span class="header-section-number">24.2</span> Sample scope</h2>
-<p>The 8 pages cover the four focal domains plus one pedagogically-important “edge case” (Satsuma’s military-table 書ナラス annotation). Each page demonstrates a different HI structural pattern:</p>
+<p>The 9 pages cover the four focal domains plus two pedagogically-important cases — Satsuma’s military-table 書ナラス non-disclosure and Saga’s recovered Table-9 army. Each page demonstrates a different HI structural pattern:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%"/>
@@ -423,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>4</td>
 <td><ruby>長州<rt>ちょうしゅう</rt></ruby> (Chōshū)</td>
-<td>The kokudaka components: <ruby>草高<rt>くさだか</rt></ruby> 369k + 外高 (new field) 628k + <ruby>合高<rt>ごうだか</rt></ruby> 988k — with the <strong>internal arithmetic note</strong> that 369k + 628k = 998k, not 988k. The 1870 HI source itself has a 10,000-koku discrepancy.</td>
+<td>The kokudaka components: <ruby>草高<rt>くさだか</rt></ruby> 369,411 + 外高 (new field) 618,593 + <ruby>合高<rt>ごうだか</rt></ruby> 988,004 — the figures add up exactly. (An earlier extraction mis-read 外高 as 628,593, which produced a spurious 10,000-koku “discrepancy”; the audited HI value is 618,593.)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -433,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>6</td>
 <td>土佐 (Tosa)</td>
-<td>Shizoku/sotsu population detail (35,068 + 17,681) with internally-consistent M+F sub-totals. Also the <ruby>穢多<rt>えた</rt></ruby><ruby>戸數<rt>こすう</rt></ruby> row — a pre-1871-emancipation outcast-class count.</td>
+<td>Shizoku/sotsu population detail (30,506 shizoku + 17,681 sotsu). Also the <ruby>穢多<rt>えた</rt></ruby><ruby>戸數<rt>こすう</rt></ruby> row — a pre-1871-emancipation outcast-class count.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -445,6 +445,11 @@ ul.task-list li input[type="checkbox"] {
 <td><ruby>佐賀<rt>さが</rt></ruby> (Saga)</td>
 <td>Demographics (23,823 shizoku + 43,488 sotsu — sotsu is nearly double shizoku, an unusual ratio) followed by the start of ○<ruby>佐倉藩<rt>さくらはん</rt></ruby> (Sakura-han, a different domain) on the same page — illustrating HI’s stacked-page pattern.</td>
 </tr>
+<tr class="odd">
+<td>9</td>
+<td><ruby>佐賀<rt>さが</rt></ruby> (Saga)</td>
+<td><strong>Saga’s Table-9 army</strong> — the entry long believed absent, found at native resolution in 2026. Six battalions, <strong>2,972 troops</strong> (officers 864 + artillery-soldiers 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and <strong>36 cannon</strong>. It prints on the 佐倉 (Sakura) page and reads right-to-left up to the ○<ruby>佐倉藩<rt>さくらはん</rt></ruby> marker — the cross-page spill that hid it (and that earlier searches missed because Table 9 writes the modern <ruby>佐賀<rt>さが</rt></ruby>, not the old-kanji 佐<ruby>嘉<rt>が</rt></ruby>).</td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -455,12 +460,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section class="level2" data-number="24.4" id="whats-next">
 <h2 class="anchored" data-anchor-id="whats-next" data-number="24.4"><span class="header-section-number">24.4</span> What’s next</h2>
-<p>If this 8-page sample is useful, the methodology scales to all 286 domains. The bottleneck is <strong>manual annotation</strong> — about ~10 minutes per page to identify bounding boxes and write the trilingual triplets. A full coverage of all 286 domains would be roughly 500-600 pages and 60-100 hours of annotation work. Worth considering as a follow-on project if the format proves valuable for verification or for pedagogical exhibition of the source.</p>
+<p>If this 9-page sample is useful, the methodology scales to all 286 domains. The bottleneck is <strong>manual annotation</strong> — about ~10 minutes per page to identify bounding boxes and write the trilingual triplets. A full coverage of all 286 domains would be roughly 500-600 pages and 60-100 hours of annotation work. Worth considering as a follow-on project if the format proves valuable for verification or for pedagogical exhibition of the source.</p>
 <div class="source-citation">
 <p><strong>Image source</strong>: Hansei Ichiran (<ruby>藩制一覧<rt>はんせいいちらん</rt></ruby>, 1870 — Ministry of Civil Affairs survey of domain institutions). High-resolution page scans extracted from the workspace-resident PDFs at <code>Primary_Sources/Hansei Ichiran (1870) - Survey of Domain Institutions Vol [1/2].pdf</code>.</p>
 <p><strong>Annotation methodology</strong>: Bounding boxes hand-drawn against each page; verbatim kanji transcribed character-by-character; modern Japanese reading and English translation written with reference to standard kokudaka / status-class vocabulary (Furushima 1968 on Edo fiscal terminology; Lebra 1993 on kazoku status conventions; Yamamura 1974 on samurai stipend categories).</p>
 <p><strong>MASTER data</strong>: Each annotation links to a row in <code>outputs/hansei_ichiran_reocr/MASTER_hansei_ichiran.csv</code>. Page-level extracts are pre-computed in <code>outputs/walkthrough/hi_viewer/data/master_extracts.json</code>.</p>
-<p><strong>Viewer technology</strong>: OpenSeadragon 4.1.0 for deep-zoom image rendering + Annotorious-OpenSeadragon 2.7.11 for the annotation overlay. Standards-based W3C Web Annotations data format.</p>
+<p><strong>Viewer technology</strong>: OpenSeadragon 4.1.0 for deep-zoom pan/zoom of the page, with custom CSS overlays positioned in image coordinates and a kanji / modern-Japanese / English annotation toggle. Annotation bounding boxes use the W3C <code>xywh=pixel</code> Web-Annotation fragment format.</p>
 </div>
 </section>
 </main> <!-- /main -->
