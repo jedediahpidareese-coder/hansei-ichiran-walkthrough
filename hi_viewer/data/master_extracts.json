@@ -73,14 +73,6 @@
       "notes": "EXACT MATCH"
     },
     {
-      "field_jp": "隊士 (top right notation)",
-      "parsed": "464",
-      "raw": "四百六拾四人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
       "field_jp": "雑稅銭",
       "parsed": "159796.372",
       "raw": "拾五萬九千七百九十六貫三百七十二文",
@@ -99,36 +91,12 @@
   ],
   "satsuma_military": [
     {
-      "field_jp": "兵卒人員",
-      "parsed": "1568",
-      "raw": "千五百六十八人",
-      "unit": "persons",
+      "field_jp": "○鹿兒島藩（書ナラス）",
+      "parsed": "書ナラス（非開示 / not disclosed）",
+      "raw": "○鹿兒島藩 書ナラス",
+      "unit": "",
       "confidence": "high",
-      "notes": "Standing army post-1869 reform; far below actual ~16,000-Spencer-rifle force (Ravina 2003)"
-    },
-    {
-      "field_jp": "士等役員",
-      "parsed": "1106",
-      "raw": "千百六人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "大参事 / 権大参事 / 少参事 / 権少参事",
-      "parsed": "47",
-      "raw": "1員 / 9員 / 21員 / 16員 = 47 total",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "Notation: 庚午三月調 (March 1870 survey). Officer counts only — no detailed unit breakdown"
-    },
-    {
-      "field_jp": "隊士",
-      "parsed": "464",
-      "raw": "四百六十四人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": ""
+      "notes": "Satsuma's ENTIRE Table-8 (military) disclosure is the non-statement 書ナラス ('not written / not specified'). The numeric figures formerly shown here (兵卒人員 1,568 / 士等役員 1,106 / 隊士 464 / councillors 47) belong to the PRECEDING domain 金澤藩 (Kanazawa), whose entry spills onto this page to the RIGHT of the ○鹿兒島藩 marker (read first in right-to-left order). MASTER re-tagged those rows 鹿児島藩→金澤藩 on 2026-05-28 (fix_satsuma_m2_misattribution.py); they are no longer Satsuma's. The ○高知藩 (Tosa) entry follows to the left."
     }
   ],
   "choshu_demographics": [
@@ -460,11 +428,11 @@
     },
     {
       "field_jp": "士族人口",
-      "parsed": "35068",
-      "raw": "三萬五千六十八人",
+      "parsed": "30506",
+      "raw": "三萬五百六人",
       "unit": "persons",
       "confidence": "high",
-      "notes": "35068 shizoku persons (cf existing alt readings)"
+      "notes": "FOCAL OCR fix 2026-05-28 (user-approved): page upper_p090_R prints 三萬五百六人 = 30,506 (内 男15,138 女15,368 = 30,506, internally consistent), NOT the earlier mis-read 35,068. Reconfirmed vs crop 2026-05-30."
     },
     {
       "field_jp": "士族戸數",

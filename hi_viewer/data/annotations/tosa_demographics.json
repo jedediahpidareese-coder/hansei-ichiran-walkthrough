@@ -1,53 +1,19 @@
 [
   {
-    "id": "anno-tosa_dem-shizoku-pop",
+    "id": "anno-tosa_dem-shizoku-ko",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族人口 三萬五百六人"
+        "value": "士族戸數 七千二百六十九戸"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族人口（しぞくじんこう）は三万五百六人。"
+        "value": "士族戸数（しぞくこすう）七千二百六十九戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (samurai-status) population = 30,506 persons (corrected 2026-05-28 from a prior 35,068 mis-read of the leading digits). Tosa's samurai class was unusually large, reflecting its many gōshi (郷士)."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "30,506 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族人口"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p090_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1670,1100,110,3100"
-      }
-    }
-  },
-  {
-    "id": "anno-tosa_dem-shizoku-hh",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "内 士族戸數 七千二百六十九戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族戸数 七千二百六十九戸 (内: 戸數総計の内訳)"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku households = 7,269 (内/'of which' from the 戸數 total). 35,068 / 7,269 ≈ 4.83 persons per household."
+        "value": "Shizoku (samurai-class) households = 7,269. Tosa's unusually large gōshi (郷士) class makes this high relative to population."
       },
       {
         "purpose": "extracted_value",
@@ -63,12 +29,46 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1792,1100,110,3100"
+        "value": "xywh=pixel:1765,1120,110,1063"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu-hh",
+    "id": "anno-tosa_dem-shizoku-jin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 三萬五百六人（内 男一萬五千百三十八 女一萬五千三百六十八）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族の）人口 三万五百六人 — 内 男15,138 女15,368"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 30,506 (内 男 15,138 + 女 15,368 = 30,506, internally consistent). Read directly off the page as 三萬五百六人. A 2026-05-28 OCR fix corrected an earlier mis-reading of 35,068."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "30,506 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1635,1120,110,1638"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_dem-sotsu-ko",
     "type": "Annotation",
     "body": [
       {
@@ -77,11 +77,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒族戸数 (そつぞくこすう) 三千七百十三戸"
+        "value": "卒族戸数（そつぞくこすう）三千七百十三戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu households = 3,713. 17,681 / 3,713 ≈ 4.76 persons per household."
+        "value": "Sotsu-class households = 3,713."
       },
       {
         "purpose": "extracted_value",
@@ -97,25 +97,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1518,1100,110,3100"
+        "value": "xywh=pixel:1495,1120,110,893"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu-pop",
+    "id": "anno-tosa_dem-sotsu-jin",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "同 人口 壹萬七千六百八拾壹人 (内 男... / 女...)"
+        "value": "同 人口 壹萬七千六百八拾壹人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "同人口 (卒族人口) 一万七千六百八十一人"
+        "value": "（卒族の）人口 一万七千六百八十一人"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu population = 17,681. Combined shizoku + sotsu = 52,749 ≈ 10% of total population."
+        "value": "Sotsu-class population = 17,681."
       },
       {
         "purpose": "extracted_value",
@@ -131,7 +131,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1389,1100,110,3100"
+        "value": "xywh=pixel:1365,1120,110,1771"
       }
     }
   },
@@ -141,15 +141,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "穢多戸數 三千三百九十六戸"
+        "value": "外 穢多戸數 三千三百九拾六戸"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "穢多 (えた) 戸数 三千三百九十六戸"
+        "value": "穢多戸数（えたこすう）三千三百九十六戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Eta households = 3,396. HI (1870) is one of the last official tallies of the pre-emancipation outcast population (the 1871 解放令 abolished the eta-hinin status)."
+        "value": "Eta-class (outcast caste) households = 3,396."
       },
       {
         "purpose": "extracted_value",
@@ -165,12 +165,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1250,1100,110,3100"
+        "value": "xywh=pixel:1225,1120,110,1056"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-shrine",
+    "id": "anno-tosa_dem-jinja",
     "type": "Annotation",
     "body": [
       {
@@ -179,15 +179,15 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "神社 (じんじゃ) 一万座"
+        "value": "神社（じんじゃ）一万座"
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto shrines = 10,000 — a round number, typical of HI when exact counts of small entities were impractical."
+        "value": "Shinto shrines ≈ 10,000 (壹萬座) — a very large round count. Corrected vs crop 2026-05-19 (an earlier chunk garbled this to 10,123)."
       },
       {
         "purpose": "extracted_value",
-        "value": "10,000 shrines"
+        "value": "≈10,000 shrines"
       },
       {
         "purpose": "identifying",
@@ -199,12 +199,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:975,1100,110,3100"
+        "value": "xywh=pixel:955,1120,110,469"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-shinto-priest",
+    "id": "anno-tosa_dem-shinshoku",
     "type": "Annotation",
     "body": [
       {
@@ -213,11 +213,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "神職修験等戸数 一千零十六戸"
+        "value": "神職・修験等の戸数 千十六戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto priest + shugendō ascetic households = 1,016."
+        "value": "Shinto-priest + Shugendō-ascetic households = 1,016 (社人 etc. 4,214 persons noted internally)."
       },
       {
         "purpose": "extracted_value",
@@ -233,25 +233,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:841,1100,110,3100"
+        "value": "xywh=pixel:815,1120,110,1140"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-temple",
+    "id": "anno-tosa_dem-jiin",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "寺院 四百七十六字"
+        "value": "寺院 四百七拾六字"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "寺院 (じいん) 四百七十六字"
+        "value": "寺院（じいん）四百七十六字"
       },
       {
         "purpose": "english_translation",
-        "value": "Buddhist temples = 476. The unit 字 is a synonym for 寺 here."
+        "value": "Buddhist temples = 476."
       },
       {
         "purpose": "extracted_value",
@@ -267,25 +267,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:565,1100,110,3100"
+        "value": "xywh=pixel:495,1120,110,1430"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-army",
+    "id": "anno-tosa_dem-joubi",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "常備兵 六千七百六拾人"
+        "value": "常備兵 六千七百六十人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "常備兵 (じょうびへい) 六千七百六十人"
+        "value": "常備兵（じょうびへい）六千七百六十人"
       },
       {
         "purpose": "english_translation",
-        "value": "Standing army = 6,760 persons."
+        "value": "Standing army = 6,760 — Tosa's permanent force. With the 2,400 emergency reserves below it sums to 9,000 (合九千人)."
       },
       {
         "purpose": "extracted_value",
@@ -301,25 +301,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:298,1100,110,1100"
+        "value": "xywh=pixel:222,1170,116,730"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-reserve",
+    "id": "anno-tosa_dem-hijou",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "非常兵 貳千四百人 (合九千人)"
+        "value": "非常兵 二千四百人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "非常兵 (ひじょうへい) 二千四百人 — 合計九千人"
+        "value": "非常兵（ひじょうへい）二千四百人"
       },
       {
         "purpose": "english_translation",
-        "value": "Emergency-reserve army = 2,400 persons. Combined w/ standing army (6,760) ≈ 9,000 total mil. strength."
+        "value": "Emergency-reserve troops = 2,400 — mobilized only in crisis, on top of the 6,760 standing army."
       },
       {
         "purpose": "extracted_value",
@@ -335,7 +335,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:298,2200,110,1300"
+        "value": "xywh=pixel:222,1950,116,700"
       }
     }
   }

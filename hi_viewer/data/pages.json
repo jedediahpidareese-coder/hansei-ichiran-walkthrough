@@ -37,7 +37,7 @@
       "page_header_en": "Domain Survey Table 8 (Kagoshima)",
       "table_number": 8,
       "page_topic": "officers + military, with explicit non-disclosure annotation",
-      "page_summary_en": "Satsuma's HI Table 8 entry is essentially a non-disclosure: just the ○鹿兒島藩 marker followed by 書ナラス ('not specified / not written'). The numeric values currently showing in the data table (兵卒人員 1,568; 士等役員 1,106; 隊士 464; officer roster 47) sit to the RIGHT of the 鹿兒島藩 marker on this page — which in R→L Japanese reading order means they're read BEFORE Satsuma's marker, and therefore belong to the PRECEDING domain whose entry continues onto this page from vol 2 PDF p162 (outside the focal-4 sample). MASTER currently mis-attributes those values to Satsuma; this is flagged as a data-integrity issue for separate correction. Satsuma's true disclosure on this page is the 書ナラス note — a near-total refusal that, combined with their actual ~16,000-Spencer-rifle-armed force, made them the most opaque military presence in the 1870 survey."
+      "page_summary_en": "Satsuma's HI Table 8 entry is essentially a non-disclosure: just the ○鹿兒島藩 marker followed by 書ナラス ('not specified / not written'). This is a TEACHING page for right-to-left page-spill. The military numbers once attributed to Satsuma here — 兵卒人員 1,568; 士等役員 1,106; 隊士 464; the four councillor counts (1+9+21+16 = 47) — sit to the RIGHT of the ○鹿兒島藩 marker, so in R→L reading order they are read BEFORE it and belong to the PRECEDING domain, 金澤藩 (Kanazawa), whose entry continues onto this page from vol 2 PDF p162. MASTER was corrected on 2026-05-28 (fix_satsuma_m2_misattribution.py re-tagged those rows 鹿児島藩→金澤藩), and the data table now shows only Satsuma's actual disclosure: 書ナラス. To the LEFT of Satsuma's marker the ○高知藩 (Tosa) entry begins, with a full named officer roster — the contrast underlines just how total Satsuma's refusal was. Combined with its real ~16,000-Spencer-rifle force, Satsuma was the most opaque military presence in the 1870 survey."
     },
     {
       "id": "choshu_demographics",
@@ -105,7 +105,7 @@
       "page_header_en": "Domain Survey Table 2 (Kōchi)",
       "table_number": 2,
       "page_topic": "shizoku and sotsu persons + households + eta/hinin sub-counts",
-      "page_summary_en": "Tosa's demographic detail page: 士族 35,068 persons (with M+F sub-totals 15,368 + 19,700 = 35,068 internally consistent ✓), 卒族 17,681 persons, 士族戸數 7,269, 卒族戸數 3,713, plus 穢多戸數 3,396 and other status-class sub-counts. The shizoku ratio (53 persons per 100 households) is unusually high, reflecting Tosa's large gōshi (郷士) samurai class."
+      "page_summary_en": "Tosa's demographic detail page: 士族 30,506 persons (read on the page as 三萬五百六人, with M+F sub-totals 男 15,138 + 女 15,368 = 30,506, internally consistent ✓ — corrected 2026-05-28 from an earlier mis-read of 35,068), 卒族 17,681 persons, 士族戸數 7,269, 卒族戸數 3,713, plus 穢多戸數 3,396 and other status-class sub-counts. With 7,269 shizoku households the ratio is ~4.2 persons/household, and Tosa's large gōshi (郷士) samurai class keeps the shizoku share high."
     },
     {
       "id": "saga_kokudaka",

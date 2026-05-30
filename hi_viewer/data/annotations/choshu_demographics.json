@@ -9,11 +9,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "戸数 (こすう) 一万七千七百十四戸 — 外定税対象外を除く"
+        "value": "戸数（こすう）一万七千七百十四戸 — 外定税対象外を除く"
       },
       {
         "purpose": "english_translation",
-        "value": "Total households = 17,714 (excluding those outside the formal external-tax assessment). Cross-check: 66,463 / 17,714 = 3.75 persons per household — a low ratio characteristic of samurai-heavy registries."
+        "value": "Total households = 17,714 (excluding those outside the formal external-tax assessment). Cross-check: 66,463 / 17,714 = 3.75 persons per household — a low ratio characteristic of samurai-heavy registries. The 外定稅… annotation runs in the column to its right."
       },
       {
         "purpose": "extracted_value",
@@ -29,7 +29,177 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2562,1145,110,940"
+        "value": "xywh=pixel:2391,1180,118,900"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-shizoku-ko",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 士族 戸 三千戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち士族（しぞく）の戸数は三千戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: shizoku (samurai-class) households = 3,000. Against ~15,849 shizoku persons that is ~5.3 persons per household."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,000 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 士族 戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2312,1300,106,440"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-baishin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 陪臣 六千四百五十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち陪臣（ばいしん）六千四百五十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: rear-vassals (baishin) = 6,457 households — a LARGE sub-vassal class beyond the domain's direct retainers, and a publishable comparative feature of Chōshū's military-society structure."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6,457 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 陪臣"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2177,1300,106,830"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-shake",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 社家 四百四十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち社家（しゃけ）四百四十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: Shinto shrine households = 448."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "448 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1897,1300,106,690"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-sotsu-ko",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 卒族 戸 三千九百九十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち卒族（そつぞく）の戸数は三千九百九十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: sotsu-class (lower samurai) households = 3,991."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,991 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 卒族 戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2177,2270,106,890"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-jiin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 寺院 千百六十五ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち寺院（じいん）千百六十五ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: Buddhist temples = 1,165 (plus 4 末庵 sub-temple cottages and 5 穢多寺 noted internally)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,165 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 寺院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1897,2270,106,890"
       }
     }
   },
@@ -43,11 +213,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "人口 (じんこう) は六万六千四百六十三人"
+        "value": "人口（じんこう）は六万六千四百六十三人"
       },
       {
         "purpose": "english_translation",
-        "value": "Total population (jinkō) = 66,463 persons. Combined with the 39% samurai-class share (士族+卒族 = 26,211 / 66,463), Chōshū is unusually samurai-dense — consistent with its post-1860s mobilization for the Restoration."
+        "value": "Total population (jinkō) = 66,463 persons. With a 39% samurai-class share (士族+卒族 = 26,211 / 66,463), Chōshū is unusually samurai-dense — consistent with its post-1860s mobilization for the Restoration."
       },
       {
         "purpose": "extracted_value",
@@ -63,12 +233,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2428,1063,110,1010"
+        "value": "xywh=pixel:1371,1180,118,900"
       }
     }
   },
   {
-    "id": "anno-choshu_dem-shizoku",
+    "id": "anno-choshu_dem-shizoku-jin",
     "type": "Annotation",
     "body": [
       {
@@ -77,11 +247,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち士族 (しぞく) の人口は一万五千八百四十九人"
+        "value": "うち士族（しぞく）の人口は一万五千八百四十九人"
       },
       {
         "purpose": "english_translation",
-        "value": "Of which: shizoku (samurai-class) population = 15,849 persons. The 内 prefix marks this as a SUB-COUNT of the total. This labeling pattern (内 X 人口) was the gap that caused Chōshū's HI shizoku data to be missing from the analytic dataset until the 2026-05-27 build-script fix added 内 X 人口 to the whitelist."
+        "value": "Of which: shizoku (samurai-class) population = 15,849 persons. The 内 prefix marks this as a SUB-COUNT of the total. This labeling pattern (内 X 人口) was the gap that left Chōshū's HI shizoku data out of the analytic dataset until the 2026-05-27 build-script fix."
       },
       {
         "purpose": "extracted_value",
@@ -97,12 +267,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2150,1316,110,1846"
+        "value": "xywh=pixel:1077,1300,106,790"
       }
     }
   },
   {
-    "id": "anno-choshu_dem-sotsu",
+    "id": "anno-choshu_dem-sotsu-jin",
     "type": "Annotation",
     "body": [
       {
@@ -111,11 +281,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち卒族 (そつぞく) の人口は一万三百六十二人"
+        "value": "うち卒族（そつぞく）の人口は一万三百六十二人"
       },
       {
         "purpose": "english_translation",
-        "value": "Of which: sotsu-class (lower samurai / ashigaru) population = 10,362 persons. Same 内 prefix convention as the shizoku row. This figure cross-validates exactly with the primary-source Meiji Shiyō entry (10,362)."
+        "value": "Of which: sotsu-class (lower samurai / ashigaru) population = 10,362 persons. Cross-validates exactly with the primary-source Meiji Shiyō entry (10,362)."
       },
       {
         "purpose": "extracted_value",
@@ -131,7 +301,177 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2017,1313,110,1849"
+        "value": "xywh=pixel:932,1300,106,790"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-mousou",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 盲僧 二百十九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち盲僧（もうそう）二百十九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: blind monks (mōsō) = 219 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "219 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 盲僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1587,1240,106,540"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-hinin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 非人 五十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち非人（ひにん）五十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: hinin (non-person outcast caste) = 51 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "51 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 非人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1467,1240,106,480"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-yamabushi",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 山伏 九十二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち山伏（やまぶし）九十二軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: mountain ascetics (yamabushi) = 92 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "92 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 山伏"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1587,2270,106,470"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-eta",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 穢多 二千六百七十五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち穢多（えた）二千六百七十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: eta (outcast caste) = 2,675 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,675 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 穢多"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1467,2270,106,860"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_dem-chasen",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 茶洗 六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち茶洗（ちゃせん）六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: tea-washers = 6 households — one of the smallest status categories recorded on the page."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 茶洗"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1587,3030,106,320"
       }
     }
   }

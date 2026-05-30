@@ -1,6 +1,6 @@
 [
   {
-    "id": "anno-choshu_koku-header",
+    "id": "anno-choshu_koku-marker",
     "type": "Annotation",
     "body": [
       {
@@ -9,11 +9,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "山口藩 (やまぐちはん) — 長州藩"
+        "value": "山口藩（やまぐちはん）＝長州藩"
       },
       {
         "purpose": "english_translation",
-        "value": "Yamaguchi domain (= Chōshū). The ○ marker introduces the Chōshū kokudaka entry on the left half of this stacked page. The right half completes a different domain's demographic table."
+        "value": "Yamaguchi (Chōshū) domain. The ○ marks the start of the entry; the kokudaka columns run down its LEFT, the status-class counts up its RIGHT."
       },
       {
         "purpose": "identifying",
@@ -25,25 +25,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1510,1066,110,1684"
+        "value": "xywh=pixel:1397,1300,116,580"
       }
     }
   },
   {
-    "id": "anno-choshu_koku-sodaka",
+    "id": "anno-choshu_koku-kusadaka",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "草高 三拾六萬九千四百拾壹石餘"
+        "value": "草高 三拾六萬九千四百拾壹石"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "草高 (くさだか) 三十六万九千四百十一石余"
+        "value": "草高（くさだか）三十六万九千四百十一石"
       },
       {
         "purpose": "english_translation",
-        "value": "Sōdaka = 369,411 koku. The base assessed kokudaka before new-field additions. Below the formal title sōdaka of 369k, the actual Chōshū domain held substantially more land via new-field development (see 外高 column to the left)."
+        "value": "Sōdaka (gross-yield kokudaka) = 369,411 koku — Chōshū's omotedaka-tier base figure. EXACT MATCH with the secondary literature."
       },
       {
         "purpose": "extracted_value",
@@ -59,7 +59,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1340,1060,110,3140"
+        "value": "xywh=pixel:1267,1090,96,1156"
       }
     }
   },
@@ -69,15 +69,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "外 高 六拾壹萬八千五百九拾三石餘"
+        "value": "外高 六拾壹萬八千五百九拾三石餘"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "外高（そとだか・新田打出）は六十一万八千五百九十三石余。"
+        "value": "外高（がいだか）六十一万八千五百九十三石余"
       },
       {
         "purpose": "english_translation",
-        "value": "New-field high (外高 / 新田打出) = 618,593 koku. Note: 草高 369,411 + 外高 618,593 = 合高 988,004 — the figures add up exactly. (An earlier reading of 628,593 produced a spurious 10,000-koku 'discrepancy'; the audited value is 618,593.)"
+        "value": "External high (new-field uplift) = 618,593 koku. An earlier extraction misread this as 68,593 (dropping the 拾 prefix), inventing a false 10,000-koku discrepancy; re-read at extreme zoom confirms 六拾壹萬… = 618,593. The figures are internally consistent: 369,411 + 618,593 = 988,004."
       },
       {
         "purpose": "extracted_value",
@@ -85,7 +85,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "外 高"
+        "value": "外高"
       }
     ],
     "target": {
@@ -93,41 +93,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1200,1060,110,3140"
-      }
-    }
-  },
-  {
-    "id": "anno-choshu_koku-gaisanbutsu",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "外產物 生蠟稅 四百八十兩"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "外産物 — 生蠟税 四百八十両"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "External products — raw-wax tax = 480 ryō (gold). Side-listing of taxes collected on Chōshū's wax production. Sits between 合高 and 正租 in the page's column order."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "480 ryō"
-      },
-      {
-        "purpose": "identifying",
-        "value": "外產物"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p193_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:920,1060,110,3140"
+        "value": "xywh=pixel:1132,1222,96,1238"
       }
     }
   },
@@ -137,15 +103,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "合 高 九拾八萬八千四石餘"
+        "value": "合高 九拾八萬八千四石餘"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "合高 (ごうだか) 九十八万八千四石余"
+        "value": "合高（ごうだか）九十八万八千四石余"
       },
       {
         "purpose": "english_translation",
-        "value": "Combined high (godaka) = 988,004 koku. INTERNAL HI ARITHMETIC NOTE: 369,411 + 628,593 = 998,004, NOT 988,004. The HI source itself has a 10,000-koku arithmetic inconsistency on this page (likely a printing error in the 1870 edition). MASTER captures the source faithfully — both the components and the printed-but-wrong total. The 校訂者云 marginal note flags the discrepancy."
+        "value": "Combined high (godaka) = 988,004 koku — the post-1868 combined Yamaguchi-han total used for the kokudaka_iv. 草高 369,411 + 外高 618,593 = 988,004 exactly. The ◎ note beside it (校訂者云此一行原書關外, 'the editor states this line is outside the original book') marks it as an editorial addition."
       },
       {
         "purpose": "extracted_value",
@@ -161,29 +127,63 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1060,1060,110,3140"
+        "value": "xywh=pixel:1002,1141,96,934"
       }
     }
   },
   {
-    "id": "anno-choshu_koku-seiso",
+    "id": "anno-choshu_koku-rourei",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "正租 現米 貳拾萬六千九百拾石 錢拾壹萬六千七百五拾貳文"
+        "value": "外產物 生蠟稅 四百八拾兩"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "正租 (せいそ) 現米 二十万六千九百十石、錢 十一万六千七百五十二文"
+        "value": "外産物 生蠟税（がいさんぶつ きろうぜい）四百八十両"
       },
       {
         "purpose": "english_translation",
-        "value": "Main tax — rice in kind = 206,910 koku; copper-coin = 116,752 mon. The 正租 is the principal land tax; the entry shows both the rice and the coin components."
+        "value": "External-product tax on raw wax (sei-rō) = 480 ryō. Chōshū taxed its wax exports separately from the land tax."
       },
       {
         "purpose": "extracted_value",
-        "value": "206,910 koku rice"
+        "value": "480 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外産物 生蠟稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:857,1222,96,928"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-genmai",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 現米 貳拾萬六千九百拾石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 現米（せいそ げんまい）二十万六千九百十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main-tax current rice = 206,910 koku — Chōshū's seiso-genmai, comparable to Tosa's 現米 (189,431). The main measure of actual tax rice collected."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "206,910 koku"
       },
       {
         "purpose": "identifying",
@@ -195,12 +195,46 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:765,1060,110,3140"
+        "value": "xywh=pixel:747,1090,96,1236"
       }
     }
   },
   {
-    "id": "anno-choshu_koku-zatsuzei",
+    "id": "anno-choshu_koku-zeni",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 錢 拾壹萬六千九百拾貫文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 錢（せいそ ぜに）十一万六千九百十貫文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main-tax cash = 116,910 kan-mon — the copper-coin portion of the main land tax."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "116,910 kan-mon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:617,1303,96,935"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-zatsumai",
     "type": "Annotation",
     "body": [
       {
@@ -209,19 +243,19 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "雑税 (ざつぜい) — 米14,583石、銀892貫860目、石炭320両"
+        "value": "雑税 米（ざつぜい まい）一万四千五百五十三石"
       },
       {
         "purpose": "english_translation",
-        "value": "Miscellaneous tax (rice component) = 14,553 koku, plus silver and other levies."
+        "value": "Miscellaneous tax in rice = 14,553 koku."
       },
       {
         "purpose": "extracted_value",
-        "value": "14,553 koku rice + silver + coal"
+        "value": "14,553 koku"
       },
       {
         "purpose": "identifying",
-        "value": "雜稅"
+        "value": "雜稅米"
       }
     ],
     "target": {
@@ -229,7 +263,245 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:505,1060,110,3140"
+        "value": "xywh=pixel:482,1090,96,1147"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-zatsugin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 銀 八百九拾貫八百六拾目"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 銀（ざつぜい ぎん）八百九十貫八百六十目"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in silver = 890.86 kanme."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "890.86 kanme"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:352,1308,96,930"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-shizoku-ko",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數 五十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数（しぞくこすう）五十八戸 — 城下の狭い区分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku households = 58 — a NARROW subset (likely 城下士族, Yamaguchi-city retainers only), not the full corps."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "58 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數 (narrow / city subset)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1952,1130,96,370"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-shizoku-jin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族 同人員 貳百九拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族 同人員（どうじんいん）二百九十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku same-persons = 293 (the population of that narrow city-subset of 58 households)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "293 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族同人員 (narrow)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1952,1520,96,540"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-sotsu-ko",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸 二十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸（そつこ）二十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households = 28 (same narrow city subset)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "28 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1802,1130,96,370"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-sotsu-jin",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒 同人員 九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒 同人員（どうじんいん）九十三人 — 内男63 女30"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu same-persons = 93 (内 男63 女30). Verified vs crop 2026-05-18."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "93 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒同人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1802,1520,96,540"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-shugen",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗 廿三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）二十三軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō mountain-ascetic clergy = 23 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "23 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1652,1130,96,390"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_koku-shake",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 拾一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrine households = 11 (社人 18 persons noted internally below)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "11 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1652,2180,96,440"
       }
     }
   }
