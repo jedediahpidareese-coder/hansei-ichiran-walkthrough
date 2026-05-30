@@ -345,7 +345,10 @@ ul.task-list li input[type="checkbox"] {
 <li><a class="nav-link" data-scroll-target="#four-domain-category-reclassifications" href="#four-domain-category-reclassifications" id="toc-four-domain-category-reclassifications"><span class="header-section-number">22.2.6</span> Four domain-category reclassifications</a></li>
 <li><a class="nav-link" data-scroll-target="#five-boshin-alignment-reclassifications" href="#five-boshin-alignment-reclassifications" id="toc-five-boshin-alignment-reclassifications"><span class="header-section-number">22.2.7</span> Five Boshin alignment reclassifications</a></li>
 </ul></li>
-<li><a class="nav-link" data-scroll-target="#what-the-final-dataset-looks-like" href="#what-the-final-dataset-looks-like" id="toc-what-the-final-dataset-looks-like"><span class="header-section-number">22.3</span> What the final dataset looks like</a></li>
+<li><a class="nav-link" data-scroll-target="#what-the-final-dataset-looks-like" href="#what-the-final-dataset-looks-like" id="toc-what-the-final-dataset-looks-like"><span class="header-section-number">22.3</span> What the final dataset looks like</a>
+<ul class="collapse">
+<li><a class="nav-link" data-scroll-target="#corrections-native-350-dpi-re-reads" href="#corrections-native-350-dpi-re-reads" id="toc-corrections-native-350-dpi-re-reads"><span class="header-section-number">22.3.1</span> 2026-05-30 corrections (native-350-DPI re-reads)</a></li>
+</ul></li>
 <li><a class="nav-link" data-scroll-target="#what-the-audit-framework-establishes" href="#what-the-audit-framework-establishes" id="toc-what-the-audit-framework-establishes"><span class="header-section-number">22.4</span> What the audit framework establishes</a></li>
 </ul>
 </nav>
@@ -865,12 +868,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Military details (Hansei Ichiran)</td>
-<td>56% troops, 16% warships</td>
-<td>Sparse by Hansei Ichiran’s construction; the four focal domains have published-source supplements</td>
+<td>~88% troops, 16% warships</td>
+<td>A 2026-05-29/30 vol. 2 re-extraction lifted troop coverage sharply; all four focal domains’ armies are now in Hansei Ichiran directly (incl. Saga, found in Table 9). Warships stay sparse by Hansei Ichiran’s construction; the navy of the focal domains comes from published supplements</td>
 </tr>
 </tbody>
 </table>
 <p>The 96–100 percent coverage on every analytically critical column is the working summary of the data-quality work. The remaining gaps are documented and either structural (Hansei Ichiran’s military coverage was always sparse) or specific (the four missing <em>kazoku</em> rank rows are real historical exclusion events, not transcription failures).</p>
+<section class="level3" data-number="22.3.1" id="corrections-native-350-dpi-re-reads">
+<h3 class="anchored" data-anchor-id="corrections-native-350-dpi-re-reads" data-number="22.3.1"><span class="header-section-number">22.3.1</span> 2026-05-30 corrections (native-350-DPI re-reads)</h3>
+<p>A targeted re-read of three Hansei Ichiran entries at native resolution corrected three issues. The rebuilt dataset stays at <strong>286 rows</strong>; a second rebuild produced <strong>zero further changes</strong> (the build is idempotent), and the four focal domains’ headline figures were unaffected.</p>
+<ul>
+<li><p><strong><ruby>佐賀<rt>さが</rt></ruby> (Saga, focal) — the “military gap” was wrong.</strong> Saga <em>does</em> have a Volume 2 Table-9 military entry (<strong>2,972 troops / 36 cannon</strong>, book pp. 429–430) — it had been missed because Table 9 prints the modern <ruby>佐賀<rt>さが</rt></ruby> while earlier searches used the old-kanji 佐<ruby>嘉<rt>が</rt></ruby>. The <code>SOURCE_GAP</code> rows were removed and the military-omitted / warships-absent flags cleared. <em>Hansei Ichiran</em> is now a citable primary for Saga’s army (the navy still comes from a published source). See the <a href="./02-walkthrough-saga.html">Saga walkthrough</a>.</p></li>
+<li><p><strong><ruby>庄内<rt>しょうない</rt></ruby> / <ruby>大泉<rt>おおいずみ</rt></ruby> / <ruby>村<rt>むら</rt></ruby>岡 — a chimera + a duplicate.</strong> <em>Hansei Ichiran</em> records <strong>Shōnai</strong> under its 1869 name <ruby>大泉藩<rt>おおいずみはん</rt></ruby> (120,000 koku). A separate “<ruby>庄内藩<rt>しょうないはん</rt></ruby>” row had been built from an entry mis-read as <ruby>鶴岡<rt>つるおか</rt></ruby><ruby>藩<rt>はん</rt></ruby> — actually <strong><ruby>邨<rt>そん</rt></ruby>岡<ruby>藩<rt>はん</rt></ruby> (<ruby>村<rt>むら</rt></ruby>岡<ruby>藩<rt>はん</rt></ruby>, Muraoka)</strong>, an unrelated 11,000-koku <em>tozama</em> Yamana domain in Tajima whose HI numbers had been fused with Shōnai’s external identity. Result: Shōnai had been counted twice and Muraoka not at all. The fix de-duplicates Shōnai (single canonical <strong><ruby>庄内藩<rt>しょうないはん</rt></ruby></strong>, <ruby>譜代<rt>ふだい</rt></ruby> / pro-<em>bakufu</em> / count) and restores <strong><ruby>村<rt>むら</rt></ruby>岡<ruby>藩<rt>はん</rt></ruby></strong> as its own row (<ruby>外様<rt>とざま</rt></ruby> / pro-imperial / <strong>baron</strong>, 但馬/<ruby>兵<rt>へい</rt></ruby>庫県).</p></li>
+<li><p><strong>岡山 (Okayama) — cross-page troop mis-attribution.</strong> Okayama’s recorded troops of 141 were the 銃士121 + 砲士20 tail of the <em>previous</em> domain (沼田<ruby>藩<rt>はん</rt></ruby> / Numata) that prints just right of the ○<ruby>岡山藩<rt>おかやまはん</rt></ruby> marker; Okayama’s real army (<strong>十七<ruby>大隊<rt>だいたい</rt></ruby> / 7,862 men</strong>) sits on the next page. Corrected to 7,862; the 141 tail re-tagged to Numata. A reminder that the cross-page one-domain shift can hit even large, focal-adjacent domains.</p></li>
+</ul>
+<p>Full audit trail: <code>CORRECTIONS_LOG.md</code> (2026-05-30 entry); apply script <code>apply_saga_muraoka_okayama_2026_05_30.py</code>; backups <code>*.bak_pre_saga_muraoka_okayama_2026_05_30</code>.</p>
+</section>
 </section>
 <section class="level2" data-number="22.4" id="what-the-audit-framework-establishes">
 <h2 class="anchored" data-anchor-id="what-the-audit-framework-establishes" data-number="22.4"><span class="header-section-number">22.4</span> What the audit framework establishes</h2>

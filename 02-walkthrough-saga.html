@@ -330,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a class="nav-link active" data-scroll-target="#what-youll-see-on-the-page" href="#what-youll-see-on-the-page" id="toc-what-youll-see-on-the-page"><span class="header-section-number">3.1</span> What you’ll see on the page</a></li>
 <li><a class="nav-link" data-scroll-target="#a-field-by-field-walk-through-sagas-fiscal-block" href="#a-field-by-field-walk-through-sagas-fiscal-block" id="toc-a-field-by-field-walk-through-sagas-fiscal-block"><span class="header-section-number">3.2</span> A field-by-field walk through Saga’s fiscal block</a></li>
-<li><a class="nav-link" data-scroll-target="#what-sagas-military-block-looks-like-vol.-2" href="#what-sagas-military-block-looks-like-vol.-2" id="toc-what-sagas-military-block-looks-like-vol.-2"><span class="header-section-number">3.3</span> What Saga’s military block looks like (vol. 2)</a></li>
+<li><a class="nav-link" data-scroll-target="#what-sagas-military-block-looks-like-volume-2-table-9" href="#what-sagas-military-block-looks-like-volume-2-table-9" id="toc-what-sagas-military-block-looks-like-volume-2-table-9"><span class="header-section-number">3.3</span> What Saga’s military block looks like (Volume 2, Table 9)</a></li>
 <li><a class="nav-link" data-scroll-target="#what-this-looks-like-in-the-dataset" href="#what-this-looks-like-in-the-dataset" id="toc-what-this-looks-like-in-the-dataset"><span class="header-section-number">3.4</span> What this looks like in the dataset</a></li>
 </ul>
 </nav>
@@ -384,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section class="level2" data-number="3.1" id="what-youll-see-on-the-page">
 <h2 class="anchored" data-anchor-id="what-youll-see-on-the-page" data-number="3.1"><span class="header-section-number">3.1</span> What you’ll see on the page</h2>
-<p>A Saga entry in Hansei Ichiran reads from right to left in vertical columns. The first column always begins with the domain-name marker ○<ruby>佐嘉藩<rt>さがはん</rt></ruby> (note the old kanji <strong><ruby>嘉<rt>が</rt></ruby></strong> rather than the modern <strong>賀</strong> — Hansei Ichiran uses pre-1870 forms throughout).</p>
+<p>A Saga entry in Hansei Ichiran reads from right to left in vertical columns. The first column always begins with the domain-name marker ○<ruby>佐嘉藩<rt>さがはん</rt></ruby> (note the old kanji <strong><ruby>嘉<rt>が</rt></ruby></strong> rather than the modern <strong>賀</strong>). Hansei Ichiran’s Volume 1 and Table-6 fascicles use this pre-1870 form — but, as we’ll see below, its Volume 2 <em>military</em> fascicle (Table 9) switches to the modern <strong><ruby>佐賀<rt>さが</rt></ruby></strong>, which is exactly how Saga’s army entry eluded earlier old-kanji-only searches.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -495,17 +495,58 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section class="level2" data-number="3.3" id="what-sagas-military-block-looks-like-vol.-2">
-<h2 class="anchored" data-anchor-id="what-sagas-military-block-looks-like-vol.-2" data-number="3.3"><span class="header-section-number">3.3</span> What Saga’s military block looks like (vol. 2)</h2>
-<p>Saga’s military and administrative data would normally appear in Volume 2 — the rosters of troop strength, officers, and warships that every other major domain has. <strong>But they don’t appear.</strong> Saga has only a partial Volume 2 fiscal entry; the military rosters are absent altogether.</p>
-<p>The dataset handles this with a <code>SOURCE_GAP</code> marker on Saga’s military fields and substitutes data from a published scholarly source: <strong><ruby>藤野保<rt>ふじのたもつ</rt></ruby>『<ruby>佐賀藩<rt>さがはん</rt></ruby>』(2010)</strong>. From that source:</p>
-<ul>
-<li><strong>13 <ruby>大組<rt>おおぐみ</rt></ruby> (<em>daikumi</em>)</strong> — main infantry units</li>
-<li>~<strong>1,000 troops</strong> from the Takeo branch (<ruby>武雄<rt>たけお</rt></ruby>)</li>
-<li>Naval: <ruby>凌風丸<rt>りょうふうまる</rt></ruby> + <ruby>日進丸<rt>にっしんまる</rt></ruby> (two Western-style warships acquired in the bakumatsu period)</li>
-<li>Artillery: Saga’s famous <strong>Armstrong gun</strong> programme</li>
-</ul>
-<p>This is one of the documented cases where the primary source has a gap and a published scholarly secondary supplies the substitute. The replacement is transparent: Saga’s Boshin-alignment citation reads <em>“Esposito (2020) Osprey + <ruby>藤野保<rt>ふじのたもつ</rt></ruby> (2010) <ruby>佐賀藩<rt>さがはん</rt></ruby> — late-joining anti-<em>bakufu</em> (<ruby>幕府<rt>ばくふ</rt></ruby>)”</em>.</p>
+<section class="level2" data-number="3.3" id="what-sagas-military-block-looks-like-volume-2-table-9">
+<h2 class="anchored" data-anchor-id="what-sagas-military-block-looks-like-volume-2-table-9" data-number="3.3"><span class="header-section-number">3.3</span> What Saga’s military block looks like (Volume 2, Table 9)</h2>
+<p>For a long time this walkthrough reported that Saga’s Volume 2 military rosters were <em>absent</em> — the entry seemed to stop at the fiscal block, and the dataset carried a <code>SOURCE_GAP</code> marker. <strong>That was wrong, and it’s a good illustration of how the old-kanji conventions can hide an entry in plain sight.</strong></p>
+<p>A native-resolution re-read (2026-05-30) found that Saga’s military <strong>does</strong> appear — in <strong>Volume 2, Table 9 (第九)</strong>, on book pages 429–430. The reason it had been missed: the Table-9 fascicle indexes and prints the domain as <strong><ruby>佐賀藩<rt>さがはん</rt></ruby></strong> (the <em>modern</em> 賀), not the <strong><ruby>佐嘉藩<rt>さがはん</rt></ruby></strong> (old <ruby>嘉<rt>が</rt></ruby>) used in the Table-6 entry, so an old-kanji-only search slid right past it. Read at the page, the entry is unambiguous — the ○<ruby>佐賀藩<rt>さがはん</rt></ruby> marker is bracketed by 足利<ruby>藩<rt>はん</rt></ruby> (before it, whose own troops are marked “unrecorded”) and <ruby>佐倉藩<rt>さくらはん</rt></ruby> (after it, with its <em>own</em> 636-man army), so the block in between is Saga’s:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Field on page</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Formation</td>
+<td>六<ruby>大隊<rt>だいたい</rt></ruby> (6 battalions)</td>
+</tr>
+<tr class="even">
+<td>士官 (officers)</td>
+<td>864</td>
+</tr>
+<tr class="odd">
+<td>砲士 (artillery soldiers)</td>
+<td>180</td>
+</tr>
+<tr class="even">
+<td><ruby>兵士<rt>へいし</rt></ruby> (infantry)</td>
+<td>1,440</td>
+</tr>
+<tr class="odd">
+<td>砲卒 (artillery privates)</td>
+<td>108</td>
+</tr>
+<tr class="even">
+<td><ruby>兵卒<rt>へいそつ</rt></ruby> (infantry privates)</td>
+<td>260</td>
+</tr>
+<tr class="odd">
+<td>樂卒 (bandsmen)</td>
+<td>120</td>
+</tr>
+<tr class="even">
+<td><strong>Total personnel</strong></td>
+<td><strong>2,972</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Cannon</strong></td>
+<td><strong>36 門 (砲三十六門)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The scale — six battalions and <strong>36 field guns</strong> — is exactly the modernised Nabeshima army you’d expect from the domain that built Japan’s first reverberatory furnace and manufactured Armstrong guns at Mietsu (三重津). <strong>So Hansei Ichiran is now a directly citable primary source for Saga’s 1870 standing army</strong> — the figure no longer has to be supplied from a secondary.</p>
+<p>What Table 9 still does <em>not</em> record for Saga is <strong>warships</strong>: there is no ship line in the entry. For Saga’s navy — the Western-style <strong><ruby>凌風丸<rt>りょうふうまる</rt></ruby></strong> and <strong><ruby>日進丸<rt>にっしんまる</rt></ruby></strong> acquired in the <em>bakumatsu</em> period — a published source is still needed (<strong><ruby>藤野保<rt>ふじのたもつ</rt></ruby>『<ruby>佐賀藩<rt>さがはん</rt></ruby>』(2010)</strong>, which also details the <ruby>大組<rt>おおぐみ</rt></ruby> (<em>daikumi</em>) infantry organisation and the Armstrong-gun programme). So the division of labour is now clean: <em>Hansei Ichiran</em> gives the <strong>army</strong> (2,972 men, 36 guns); the secondary literature fills in the <strong>navy</strong> the survey omitted.</p>
 </section>
 <section class="level2" data-number="3.4" id="what-this-looks-like-in-the-dataset">
 <h2 class="anchored" data-anchor-id="what-this-looks-like-in-the-dataset" data-number="3.4"><span class="header-section-number">3.4</span> What this looks like in the dataset</h2>
@@ -565,21 +606,26 @@ ul.task-list li input[type="checkbox"] {
 <td>Max of available Hansei Ichiran fields</td>
 </tr>
 <tr class="even">
+<td>Military — total troops</td>
+<td>2,972 (6 battalions; 36 cannon)</td>
+<td>Hansei Ichiran 1870 vol. 2 Table 9 (第九), book pp. 429–430</td>
+</tr>
+<tr class="odd">
 <td>Population (<em>Meiji Shiyō</em>)</td>
 <td>~358,000</td>
 <td>Meiji Shiyō primary source</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1884 rank (actual)</td>
 <td>marquess</td>
 <td><ruby>浅見雅男<rt>あさみまさお</rt></ruby> 1994 + <em>Kanpō</em> 第307号 (1884-07-08)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Boshin alignment</td>
 <td>anti-<em>bakufu</em> / pro-restoration</td>
 <td>Esposito 2020 (Osprey Men-at-Arms 530), pp. 8–11 (Boshin War operations); <ruby>藤野保<rt>ふじのたもつ</rt></ruby> 2010 『<ruby>佐賀藩<rt>さがはん</rt></ruby>』 — late-joining anti-<em>bakufu</em></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Tokugawa-era category</td>
 <td><em>tozama</em> (<ruby>外様<rt>とざま</rt></ruby>)</td>
 <td><ruby>児玉幸多<rt>こだまこうた</rt></ruby> ed.『<ruby>藩史総覧<rt>はんしそうらん</rt></ruby> (Hanshi sōran, “Comprehensive Survey of Han History”)』(1977)</td>
@@ -587,7 +633,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <div class="source-citation">
-<p><strong>Primary</strong>: Hansei Ichiran (1870), Volume 1 entry plus a partial Volume 2 fiscal entry (military rosters absent). NDL Digital Collections. <strong>Saga military supplement</strong>: <ruby>藤野保<rt>ふじのたもつ</rt></ruby>『<ruby>佐賀藩<rt>さがはん</rt></ruby>』(2010). <strong>kazoku rank</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby> (Kazoku tanjō: meiyo to taimen no Meiji, “Birth of the Peerage: Honor and Reputation in Meiji”)』<ruby>リブロポート<rt>りぶろぽーと</rt></ruby> (1994) + <ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08), NDL pid 2943511.</p>
+<p><strong>Primary</strong>: Hansei Ichiran (1870) — Volume 1 entry, Volume 2 Table 6 (fiscal + demographic), and Volume 2 Table 9 (military: 2,972 troops / 36 cannon, book pp. 429–430). NDL Digital Collections. <strong>Saga navy supplement</strong> (warships, which Hansei Ichiran omits): <ruby>藤野保<rt>ふじのたもつ</rt></ruby>『<ruby>佐賀藩<rt>さがはん</rt></ruby>』(2010). <strong>kazoku rank</strong>: <ruby>浅見雅男<rt>あさみまさお</rt></ruby>『<ruby>華族誕生<rt>かぞくたんじょう</rt></ruby> <ruby>名誉と体面の明治<rt>めいよとたいめんのめいじ</rt></ruby> (Kazoku tanjō: meiyo to taimen no Meiji, “Birth of the Peerage: Honor and Reputation in Meiji”)』<ruby>リブロポート<rt>りぶろぽーと</rt></ruby> (1994) + <ruby>官報<rt>かんぽう</rt></ruby> 第307号 (1884-07-08), NDL pid 2943511.</p>
 </div>
 </section>
 </main> <!-- /main -->
