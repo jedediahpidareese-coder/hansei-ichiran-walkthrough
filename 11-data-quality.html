@@ -358,6 +358,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-the-final-dataset-looks-like" id="toc-what-the-final-dataset-looks-like" class="nav-link" data-scroll-target="#what-the-final-dataset-looks-like"><span class="header-section-number">22.3</span> What the final dataset looks like</a>
   <ul class="collapse">
   <li><a href="#corrections-native-350-dpi-re-reads" id="toc-corrections-native-350-dpi-re-reads" class="nav-link" data-scroll-target="#corrections-native-350-dpi-re-reads"><span class="header-section-number">22.3.1</span> 2026-05-30 corrections (native-350-DPI re-reads)</a></li>
+  <li><a href="#continued-full-right-of-marker-sweep-preserve-staleness-reconciliation-and-an-ocr-digit-inflation-batch" id="toc-continued-full-right-of-marker-sweep-preserve-staleness-reconciliation-and-an-ocr-digit-inflation-batch" class="nav-link" data-scroll-target="#continued-full-right-of-marker-sweep-preserve-staleness-reconciliation-and-an-ocr-digit-inflation-batch"><span class="header-section-number">22.3.2</span> 2026-05-30 (continued) — full right-of-marker sweep, PRESERVE-staleness reconciliation, and an OCR digit-inflation batch</a></li>
   </ul></li>
   <li><a href="#what-the-audit-framework-establishes" id="toc-what-the-audit-framework-establishes" class="nav-link" data-scroll-target="#what-the-audit-framework-establishes"><span class="header-section-number">22.4</span> What the audit framework establishes</a></li>
   </ul>
@@ -905,6 +906,75 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>岡山 (Okayama) — cross-page troop mis-attribution.</strong> Okayama’s recorded troops of 141 were the 銃士121 + 砲士20 tail of the <em>previous</em> domain (沼田藩 / Numata) that prints just right of the ○岡山藩 marker; Okayama’s real army (<strong>十七大隊 / 7,862 men</strong>) sits on the next page. Corrected to 7,862; the 141 tail re-tagged to Numata. A reminder that the cross-page one-domain shift can hit even large, focal-adjacent domains.</p></li>
 </ul>
 <p>Full audit trail: <code>CORRECTIONS_LOG.md</code> (2026-05-30 entry); apply script <code>apply_saga_muraoka_okayama_2026_05_30.py</code>; backups <code>*.bak_pre_saga_muraoka_okayama_2026_05_30</code>.</p>
+</section>
+<section id="continued-full-right-of-marker-sweep-preserve-staleness-reconciliation-and-an-ocr-digit-inflation-batch" class="level3" data-number="22.3.2">
+<h3 data-number="22.3.2" class="anchored" data-anchor-id="continued-full-right-of-marker-sweep-preserve-staleness-reconciliation-and-an-ocr-digit-inflation-batch"><span class="header-section-number">22.3.2</span> 2026-05-30 (continued) — full right-of-marker sweep, PRESERVE-staleness reconciliation, and an OCR digit-inflation batch</h3>
+<p>Three further passes that session.</p>
+<p><strong>Right-of-marker sweep (all ~287 domains).</strong> Beyond the Tosa–Satsuma page-spill (above), one more cross-page troop mis-file: gosanke <strong>和歌山 (Wakayama, 539k koku)</strong> had carried troops = <strong>93</strong>, which is actually neighbouring <strong>小見川 (Omigawa, ~10k koku)</strong>’s value, sitting just after the ○小見川藩 marker on the shared Table-8 page. Cleared — Wakayama’s own Table-8 block is officials-only; Omigawa keeps 93.</p>
+<p><strong>PRESERVE-staleness reconciliation.</strong> The build script overlays the <em>previous</em> <code>analytic_wide.csv</code> value back over freshly-computed values for ~14 Hansei Ichiran columns (to protect manual curation) — but that also silently re-imposed stale values after a later MASTER correction. Reconciling fresh-vs-preserved fixed <strong>14 cells</strong>, including two focal: <strong>佐賀 (Saga)</strong> population <strong>358,458 → 354,458</strong> (a user-approved OCR fix that had never propagated), and <strong>薩摩 (Satsuma)</strong> troops <strong>1,568 → blank</strong> (the 1,568 was Kanazawa’s orphaned value; Satsuma’s Table 8 is 書ナラス).</p>
+<p><strong>OCR digit-inflation batch.</strong> A recurring transcription error: a stray leading 千 / 百 / 萬 / 拾 inflating a count roughly tenfold. Native-resolution re-reads corrected:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>domain</th>
+<th>field</th>
+<th style="text-align: right;">was</th>
+<th style="text-align: right;">corrected</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>姫路 (Himeji)</td>
+<td><em>shizoku</em> households</td>
+<td style="text-align: right;">7,266</td>
+<td style="text-align: right;"><strong>766</strong></td>
+</tr>
+<tr class="even">
+<td>姫路</td>
+<td><em>sotsu</em> households</td>
+<td style="text-align: right;">7,420</td>
+<td style="text-align: right;"><strong>1,420</strong></td>
+</tr>
+<tr class="odd">
+<td>姫路</td>
+<td><em>sotsu</em> persons</td>
+<td style="text-align: right;">14,582</td>
+<td style="text-align: right;"><strong>4,582</strong></td>
+</tr>
+<tr class="even">
+<td>一橋 (Hitotsubashi)</td>
+<td><em>sotsu</em> households</td>
+<td style="text-align: right;">4,547</td>
+<td style="text-align: right;"><strong>447</strong></td>
+</tr>
+<tr class="odd">
+<td>仙台 (Sendai)</td>
+<td>total households</td>
+<td style="text-align: right;">138,962</td>
+<td style="text-align: right;"><strong>38,962</strong></td>
+</tr>
+<tr class="even">
+<td>足利 (Ashikaga)</td>
+<td><em>sotsu</em> households</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;"><strong>37</strong></td>
+</tr>
+<tr class="odd">
+<td>人吉 (Hitoyoshi)</td>
+<td><em>sotsu</em> households</td>
+<td style="text-align: right;">347</td>
+<td style="text-align: right;"><strong>3,417</strong></td>
+</tr>
+<tr class="even">
+<td>人吉</td>
+<td><em>sotsu</em> persons</td>
+<td style="text-align: right;">12,493</td>
+<td style="text-align: right;"><strong>14,930</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Each restores a sane persons-per-household ratio. Two related fixes: <strong>上ノ山 (Kaminoyama)</strong>’s “<em>shizoku</em> persons = 47” was a mislabel (the 47 is 社人 <em>shrine-people</em>) — relabelled; <strong>忍 (Oshi)</strong>’s troop total of 43 was only the artillery sub-platoon, so the full standing force is 14 platoons × 40 = <strong>560</strong>. Three flagged cases were left <strong>unchanged</strong> after re-reading because the dataset faithfully matches an internally-odd source (大聖寺, 烏山) or the source records structure but no derivable headcount (津山, 宇都宮 troops) — recorded so the coverage limit is explicit, not silently “corrected.”</p>
+<p>Apply scripts: <code>apply_tosa_satsuma_p89R_decontam_*.py</code>, <code>apply_wakayama_omigawa_troops_*.py</code>, <code>apply_sweep2_destale_*.py</code>, <code>apply_ocr_batchA_*.py</code>, <code>apply_ocr_batchB_*.py</code>; coverage in <code>SWEEP1_COVERAGE_LOG.md</code>.</p>
 </section>
 </section>
 <section id="what-the-audit-framework-establishes" class="level2" data-number="22.4">
