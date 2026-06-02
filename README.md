@@ -1,10 +1,10 @@
 # Hansei Ichiran 1870 — A Visual Walkthrough
 
-**Live site:** https://jedediahpidareese-coder.github.io/meiji-qing-walkthrough/
+**Live site:** https://jedediahpidareese-coder.github.io/hansei-ichiran-walkthrough/
 
 A 23-chapter Quarto book covering the 287 daimyo domains in the *Hansei Ichiran* (藩制一覧, 1870) — the early-Meiji Japanese government's administrative survey of every domain.
 
-This site is the companion to a comparative-history paper on Meiji–Qing fiscal modernisation by Reese (Creighton) and Crego (Texas Tech). The walkthrough explains:
+This site is the companion to the authors' political-economy research on Japan's peaceful 1871 abolition of the feudal domains (*haihan chiken*) by Reese (Creighton) and Crego (Texas Tech). The walkthrough explains:
 
 - What Hansei Ichiran is and how it was transcribed
 - Ten focal-domain walkthroughs (Saga, Satsuma, Chōshū, Tosa, Kaga, Aizu–Sendai, OREP defectors, Sankyō, Restoration upgrades, the 親藩 cluster)
@@ -27,7 +27,7 @@ The Quarto source files (`.qmd`) live in a separate working research repo and ar
 
 If you use any of the content, please cite the accompanying paper:
 
-> Reese, J., & Crego, D. *Meiji–Qing fiscal modernisation: a comparative analysis*. Forthcoming.
+> Reese, J., & Crego, D. *The political economy of Japan's 1871 domain abolition (haihan chiken)*. Forthcoming.
 
 ## Authors
 
