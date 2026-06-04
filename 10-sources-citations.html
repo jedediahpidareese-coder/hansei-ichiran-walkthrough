@@ -33,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./11-data-quality.html" rel="next">
+<link href="./09-interactive-map.html" rel="next">
 <link href="./07-19-deviations.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -291,12 +291,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -311,13 +305,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./12-hi-page-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
   </div>
 </li>
       </ul>
@@ -404,11 +398,11 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="21.1.1" class="anchored" data-anchor-id="family-1-hansei-ichiran-1870-the-primary-record"><span class="header-section-number">21.1.1</span> Family 1 — Hansei Ichiran 1870 (the primary record)</h3>
 <p>The book itself: 藩制一覧 (Hansei Ichiran), 1870, two volumes, surveyed and compiled by the early Meiji government. <strong>Every <code>hi_*</code> column in the analytic dataset derives from this source</strong>, traced through per-domain extracted chunks.</p>
 <p>Citation form: <em>Hansei Ichiran (藩制一覧), 1870, vol.&nbsp;N, table N, page N. Compiled by the Meiji-government survey of </em>daimyō* (大名) administrative returns.*</p>
-<p>The exact page reference for any Hansei Ichiran-derived value is preserved in the dataset’s master extraction record (one row per per-domain per-field extraction, with the source crop / page noted). When a paper table cites a specific Hansei Ichiran number, this row-level audit trail establishes precisely where in the original document the value lives.</p>
+<p>The exact page reference for any Hansei Ichiran-derived value is preserved in the dataset’s extraction record (one row per per-domain per-field extraction, with the source page noted). When a paper table cites a specific Hansei Ichiran number, this row-level provenance establishes precisely where in the original document the value lives.</p>
 <p>Volume contents:</p>
 <ul>
 <li><strong>Volume 1</strong>: each domain’s fiscal and demographic data — <em>kokudaka</em> (石高) in its several variants, tax receipts, population, household counts.</li>
-<li><strong>Volume 2</strong>: each domain’s military and administrative data — troop strength, warships, officer rosters. Saga (佐嘉藩) is documented as a gap in Volume 2’s military rosters; the dataset substitutes 藤野保 (2010) as a published scholarly substitute for Saga’s military information.</li>
+<li><strong>Volume 2</strong>: each domain’s military and administrative data — troop strength, warships, officer rosters. Hansei Ichiran does not record warships for Saga (佐嘉藩); the dataset draws Saga’s navy from 藤野保 (2010).</li>
 </ul>
 </section>
 <section id="family-2-government-primary-documents-paper-citable" class="level3" data-number="21.1.2">
@@ -430,7 +424,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The early Meiji government’s per-village cadastral survey, compiled 1872 from the village-level land-yield rolls (<em>kokudaka</em>) that the <em>daimyō</em> domains had been administering pre-haihan-chiken. The “旧” (“former”) in the title refers to the pre-1869 Edo-period feudal arrangement: each village entry records (a) its old province (旧国), district (旧郡), village (旧村), and lord (旧領); (b) its rated <em>kokudaka</em> (旧高); and (c) the 1872 Meiji prefecture (旧県) administering it post-haihan.</p>
 <p>Hosted as a free open-access searchable database by the <strong>National Museum of Japanese History</strong> (国立歴史民俗博物館 / Rekihaku):</p>
 <p>📄 <strong><a href="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/kyud/db_param">旧高旧領取調帳データベース (Rekihaku)</a></strong> — freely accessible; query by 旧領名 / 旧国 / 旧郡 / 旧村.</p>
-<p>Backs the <code>rekihaku_kyudaka_iv_koku</code> column, which feeds the composite <code>kokudaka_iv</code> as Tier 4 for the 13 domains absent from HI vol 1’s <em>kokudaka</em> coverage (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). The Rekihaku 旧高 is a <em>kusadaka</em>-tier metric (rated land yield from village rolls) — the same conceptual tier as HI 草高 / 合高 — restoring methodological consistency to the IV across all 286 rows. See <code>CORRECTIONS_LOG.md</code> Section K for the full audit.</p>
+<p>Backs the <code>rekihaku_kyudaka_iv_koku</code> column, which feeds the composite <code>kokudaka_iv</code> as Tier 4 for the 13 domains absent from HI vol 1’s <em>kokudaka</em> coverage (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). The Rekihaku 旧高 is a <em>kusadaka</em>-tier metric (rated land yield from village rolls) — the same conceptual tier as HI 草高 / 合高 — giving methodological consistency to the IV across all 286 rows.</p>
 <p>For 仙台藩 specifically the IV uses only the post-Boshin retained territory (仙台県 + 宮城県 + distant 常陸/下総 hatamoto enclaves) = 299,659 koku, EXCLUDING the four 1869 carve-off prefectures (登米県 + 胆沢県 + 江刺県 + 角田県 = 674,350 koku) that were no longer Sendai-Date revenue at the moment of haihan-chiken.</p>
 <p>Citation form: <em>旧高旧領取調帳 (1872 Meiji cadastral survey), per 国立歴史民俗博物館 旧高旧領取調帳データベース (<a href="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/kyud/db_param">https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/kyud/db_param</a>), accessed 2026-05-24.</em></p>
 </section>
@@ -517,7 +511,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="松田敬之華族爵位請願人名辞典-kazoku-shakui-seigan-jinmei-jiten-dictionary-of-peerage-title-petitioners吉川弘文館-2015" class="level4" data-number="21.1.3.9">
 <h4 data-number="21.1.3.9" class="anchored" data-anchor-id="松田敬之華族爵位請願人名辞典-kazoku-shakui-seigan-jinmei-jiten-dictionary-of-peerage-title-petitioners吉川弘文館-2015"><span class="header-section-number">21.1.3.9</span> 松田敬之『〈華族爵位〉請願人名辞典 (Kazoku shakui seigan jinmei jiten, “Dictionary of Peerage-Title Petitioners”)』吉川弘文館 (2015)</h4>
-<p>Definitive on the <strong>1884 exclusions</strong> — <em>daimyō</em> families that were <em>not</em> ennobled because of the <em>kaieki</em> (改易, confiscation) or similar disqualifying events. Backs the documented exclusion of 堀江藩 (大沢家, 万石事件 1871) and the verification of 牟原藩 (resolved as an OCR misreading of 半原藩).</p>
+<p>Definitive on the <strong>1884 exclusions</strong> — <em>daimyō</em> families that were <em>not</em> ennobled because of the <em>kaieki</em> (改易, confiscation) or similar disqualifying events. Backs the documented exclusion of 堀江藩 (大沢家, 万石事件 1871) and the verification of 半原藩.</p>
 <p>Citation form: <em>松田敬之『〈華族爵位〉請願人名辞典』吉川弘文館 (2015).</em></p>
 </section>
 <section id="mark-ravina.-land-and-lordship-in-early-modern-japan.-stanford-university-press-1999" class="level4" data-number="21.1.3.10">
@@ -806,7 +800,7 @@ ul.task-list li input[type="checkbox"] {
 <li>官報 第307号 (1884-07-08). National Diet Library, Digital Collections (pid 2943511). — <em>Kazoku-rei founding imperial decree + 83-person merit-track ennoblement roster. Project transcription: <a href="../primary_source_transcriptions/kazoku_rei_decree_kanpo_307.md">kazoku_rei_decree_kanpo_307.md</a>.</em></li>
 <li>官報 第308号 (1884-07-09). National Diet Library, Digital Collections.</li>
 <li>太政官布告 第108号 + 第109号 (1876-08-05). Chitsuroku-shobun bond-issuance ordinance + companion secondary-market-authorization decree. In 法令全書 (<em>Hōrei Zensho</em>) Meiji 9, NDL pid 787956 (PDM, internet-public). — <em>Project transcription: <a href="../primary_source_transcriptions/chitsuroku_shobun_decree_1876.md">chitsuroku_shobun_decree_1876.md</a>.</em></li>
-<li>大久保利通家 編. 『大久保利通文書』全10巻. 日本史籍協會 (1927–29). NDL pids 1075738 (vol 1) + 1075746/1075757/1075767/1075786 (vols 2–5, downloaded 2026-05-25). — <em>Project transcriptions: <a href="../primary_source_transcriptions/okubo_toshimichi_satsuma_tosa_treaty.md">okubo_toshimichi_satsuma_tosa_treaty.md</a> (vol 1, Satsuma-Tosa Treaty July 1867) + <a href="../primary_source_transcriptions/okubo_toshimichi_haihan_chiken_account.md">okubo_toshimichi_haihan_chiken_account.md</a> (vol 4, haihan-chiken July 1871).</em></li>
+<li>大久保利通家 編. 『大久保利通文書』全10巻. 日本史籍協會 (1927–29). NDL pids 1075738 (vol 1) + 1075746/1075757/1075767/1075786 (vols 2–5). — <em>Project transcriptions: <a href="../primary_source_transcriptions/okubo_toshimichi_satsuma_tosa_treaty.md">okubo_toshimichi_satsuma_tosa_treaty.md</a> (vol 1, Satsuma-Tosa Treaty July 1867) + <a href="../primary_source_transcriptions/okubo_toshimichi_haihan_chiken_account.md">okubo_toshimichi_haihan_chiken_account.md</a> (vol 4, haihan-chiken July 1871).</em></li>
 <li>世外井上公伝編纂会 編. 『世外井上公伝』全5巻 (1933–34). — <em>Project transcription of vol 1 ch 3 §1 (pp.449–453): <a href="../primary_source_transcriptions/inoue_kaoru_haihan_chiken_account.md">inoue_kaoru_haihan_chiken_account.md</a>.</em></li>
 <li>木戸孝允『木戸孝允日記』(English: <em>The Diary of Kido Takayoshi</em>, trans. Brown &amp; Hirota, U Tokyo Press 1983). — <em>Project transcriptions: <a href="../primary_source_transcriptions/kido_takayoshi_haihan_chiken_diary.md">kido_takayoshi_haihan_chiken_diary.md</a> (vol II) + <a href="../primary_source_transcriptions/kido_takayoshi_chitsuroku_shobun_diary.md">kido_takayoshi_chitsuroku_shobun_diary.md</a> (vol III).</em></li>
 </ol>
@@ -1248,8 +1242,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./11-data-quality.html" class="pagination-link" aria-label="Data quality and the audit framework">
-        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./09-interactive-map.html" class="pagination-link" aria-label="Interactive map (prototype)">
+        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

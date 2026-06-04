@@ -291,12 +291,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -311,13 +305,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./12-hi-page-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
   </div>
 </li>
       </ul>
@@ -475,8 +469,9 @@ Figure&nbsp;13.1: Domain <em>kokudaka</em>, 1870 — the composite <em>kokudaka<
 <li><strong>In 1871 (<em>haihan chiken</em> (廃藩置県))</strong>: All abolished. The final count just before abolition was about 281.</li>
 </ul>
 <p>The project’s 286 includes: - All 281 domains existing at <em>haihan chiken</em> (1871) - 2 Tokugawa <em>sankyō</em> branches (<em>sankyō</em>: Tayasu and Hitotsubashi) — hatamoto-rank but had administrative existence (the third sankyō line, Shimizu, had gone extinct by 1870) - 3 post-1869 special cases that Hansei Ichiran records as their own entries (e.g., 鶴田藩, carved from a former Aizu sub-fief)</p>
-<p>An earlier version of the dataset listed <strong>287</strong> rows. One was a cross-volume duplicate: <em>Hansei Ichiran</em> writes the name of the Honjō domain (Dewa province, the Rokugō (六郷) family) as <strong>本庄藩</strong> in volume 1 and <strong>本荘藩</strong> in volume 2, and the two spellings were first recorded as separate rows. They are one domain, now merged into a single row — which gives the corrected count of <strong>286</strong>.</p>
-<p>A second, subtler duplicate was caught later (2026-05-30): <em>Hansei Ichiran</em> records <strong>Shōnai</strong> under its 1869 name <strong>大泉藩</strong> (120,000 koku, the Sakai family), and a separate “庄内藩” row had been created from an entry mis-read as 鶴岡藩 — which was in fact <strong>邨岡藩 (村岡藩, Muraoka)</strong>, an unrelated 11,000-koku <em>tozama</em> domain of the Yamana family in Tajima. De-duplicating Shōnai (now the single canonical <strong>庄内藩</strong>) and restoring <strong>村岡藩</strong> as its own row left the total <strong>unchanged at 286</strong>. See <a href="./11-data-quality.html">Data Quality</a>.</p>
+<p>Two pairs of <em>Hansei Ichiran</em> entries look like separate domains but are not — which is why the dataset has <strong>286</strong> rows.</p>
+<p>The first is the Honjō domain (Dewa province, the Rokugō (六郷) family), which <em>Hansei Ichiran</em> writes as <strong>本庄藩</strong> in volume 1 and <strong>本荘藩</strong> in volume 2 — two spellings of one domain, counted once.</p>
+<p>The second involves Shōnai, which <em>Hansei Ichiran</em> records under its 1869 name <strong>大泉藩</strong> (120,000 koku, the Sakai family) — the canonical <strong>庄内藩</strong>. A nearby entry, <strong>邨岡藩 (村岡藩, Muraoka)</strong>, is a visually similar but unrelated 11,000-koku <em>tozama</em> domain of the Yamana family in Tajima, counted as its own row. The two are distinct domains.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

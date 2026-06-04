@@ -291,12 +291,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Sources and citations</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./11-data-quality.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Data quality and the audit framework</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -311,13 +305,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive map (prototype)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./12-hi-page-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">HI page viewer (focal-4 sample)</span></span></a>
   </div>
 </li>
       </ul>
@@ -467,7 +461,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Coverage</strong>: 276/286</li>
 <li><strong>Range</strong>: ~2,000 to ~1,400,000 koku</li>
 <li><strong>Why composite</strong>: Hansei Ichiran reports different fields for different domains. Saga uses 貮口合 (= <em>gōdaka</em>); Chōshū uses <em>sōdaka</em>; some small domains only have <em>omotedaka</em>. The composite picks the most-comprehensive figure available.</li>
-<li><strong>The Rekihaku tier (added 2026-05-24)</strong>: 13 domains have no recordable <em>kokudaka</em> in HI vol 1 (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). For these, the IV is now sourced from the 1872 <em>Kyūdaka kyūryō torishirabechō</em> cadastral survey — summed per-village from the Rekihaku open-access database. This is a <em>kusadaka</em>-tier (actual rated land yield) metric, the same conceptual tier as HI <em>sōdaka</em> / <em>gōdaka</em>, restoring methodological consistency. For 仙台 specifically, the IV uses only post-Boshin retained territory (excluding 1869 carve-off prefectures 登米/胆沢/江刺/角田), giving 299,659 koku instead of the raw 974,010-koku all-territory figure. See <code>CORRECTIONS_LOG.md</code> Section K for the full methodological discussion.</li>
+<li><strong>The Rekihaku tier</strong>: 13 domains have no recordable <em>kokudaka</em> in HI vol 1 (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). For these, the IV is sourced from the 1872 <em>Kyūdaka kyūryō torishirabechō</em> cadastral survey — summed per-village from the Rekihaku open-access database. This is a <em>kusadaka</em>-tier (actual rated land yield) metric, the same conceptual tier as HI <em>sōdaka</em> / <em>gōdaka</em>, restoring methodological consistency. For 仙台 specifically, the IV uses only post-Boshin retained territory (excluding 1869 carve-off prefectures 登米/胆沢/江刺/角田), giving 299,659 koku instead of the raw 974,010-koku all-territory figure.</li>
 <li><strong>Citation</strong>: a sibling source column records which field was actually used for each domain (<code>hi_sodaka</code>, <code>hi_godaka</code>, <code>hi_omotedaka</code>, <code>rekihaku_kyudaka_1872</code>, <code>wiki_omotedaka</code>).</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -481,7 +475,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>仙台藩 is the one case in the dataset where the pre-Boshin and at-haihan-chiken <em>kokudaka</em> diverge dramatically. The 1869 Boshin punishment was a full territorial confiscation followed by re-grant of 28万石 to the three-year-old heir Date Munemoto 伊達宗基 (Meiji 1/12/12 = 1869-01-24, per 仙台市史 通史編6 近代1, 2008; 栗原伸一郎『戊辰戦争と「奥羽越」列藩同盟』, 2017; Bakkalian, <em>The Sparrow’s Dream</em>, Pittsburgh PhD 2017).</p>
-<p>This shows up in <em>Hansei Ichiran</em> itself: vol 2 p.116R carries an explicit <strong>「草高等不詳細」</strong> (“kokudaka and similar details unclear”) annotation directly under the ○仙臺藩 header. HI itself documented being unable to record Sendai’s <em>kokudaka</em> in 1870, almost certainly because the new post-Boshin cadastral was incomplete at the time of the survey. This is a much stronger provenance for using a substitute <em>kokudaka</em> than the prior “absent from HI” framing.</p>
+<p>This shows up in <em>Hansei Ichiran</em> itself: vol 2 p.116R carries an explicit <strong>「草高等不詳細」</strong> (“kokudaka and similar details unclear”) annotation directly under the ○仙臺藩 header. HI itself documented being unable to record Sendai’s <em>kokudaka</em> in 1870, almost certainly because the new post-Boshin cadastral was incomplete at the time of the survey — strong provenance for using a substitute <em>kokudaka</em> drawn from the 1872 cadastral.</p>
 <p>The dataset carries four Sendai <em>kokudaka</em> tiers for transparency:</p>
 <table class="caption-top table">
 <colgroup>
@@ -590,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>PARTIAL</td>
-<td style="text-align: right;">174</td>
+<td style="text-align: right;">175</td>
 <td>Some military data, some missing</td>
 </tr>
 <tr class="odd">
@@ -607,11 +601,6 @@ ul.task-list li input[type="checkbox"] {
 <td>NO_MILITARY_DATA</td>
 <td style="text-align: right;">83</td>
 <td>Volume 1-only domains — no Volume 2 military entry expected (small fiefs without standing forces)</td>
-</tr>
-<tr class="even">
-<td>SOURCE_GAP</td>
-<td style="text-align: right;">1</td>
-<td>Saga — absent from Volume 2’s military rosters</td>
 </tr>
 </tbody>
 </table>
