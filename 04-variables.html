@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02i-walkthrough-restoration-upgrades.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Walkthrough: The 5 small-domain Restoration-service upgrades</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Walkthrough: The 5 small-domain viscount → count upgrades</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -450,7 +450,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The dataset has <strong>114 columns</strong> organized into nine logical families. This page is a reference; you don’t need to memorize it.</p>
+<p>The dataset has <strong>130 columns</strong> organized into nine logical families. This page is a reference; you don’t need to memorize it.</p>
 <section id="the-variable-families-at-a-glance" class="level2" data-number="16.1">
 <h2 data-number="16.1" class="anchored" data-anchor-id="the-variable-families-at-a-glance"><span class="header-section-number">16.1</span> The variable families at a glance</h2>
 <table class="caption-top table">
@@ -538,13 +538,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="16.2" class="anchored" data-anchor-id="the-most-important-columns-for-the-paper"><span class="header-section-number">16.2</span> The most important columns for the paper</h2>
 <section id="revenue-base-kokudaka-column-kokudaka_iv" class="level3" data-number="16.2.1">
 <h3 data-number="16.2.1" class="anchored" data-anchor-id="revenue-base-kokudaka-column-kokudaka_iv"><span class="header-section-number">16.2.1</span> Revenue base — <em>kokudaka</em> <em>(column <code>kokudaka_iv</code>)</em></h3>
-<p>The composite <em>kokudaka</em> — the maximum of the available Hansei Ichiran fields (<em>sōdaka</em>, <em>gōdaka</em>, <em>omotedaka</em>), then <em>Kyūdaka kyūryō torishirabechō</em> (旧高旧領取調帳, 1872 Meiji cadastral survey, hosted by the National Museum of Japanese History / Rekihaku) for the 13 domains absent from HI, then the Wikipedia <em>omotedaka</em> fallback for any remaining gaps. This is the denominator in the paper’s headline retainers-per-1,000-koku fiscal-distress metric (see <a href="./04b-fiscal-distress.html">chapter 04b</a>).</p>
+<p>The composite <em>kokudaka</em> — the maximum of the available Hansei Ichiran fields (<em>sōdaka</em>, <em>gōdaka</em>, <em>omotedaka</em>), then <em>Kyūdaka kyūryō torishirabechō</em> (旧高旧領取調帳, 1872 Meiji cadastral survey, hosted by the National Museum of Japanese History / Rekihaku) for the 13 domains absent from HI. This is the denominator in the paper’s headline retainers-per-1,000-koku fiscal-distress metric (see <a href="./04b-fiscal-distress.html">chapter 04b</a>).</p>
 <ul>
 <li><strong>Coverage</strong>: 276/286</li>
 <li><strong>Range</strong>: ~2,000 to ~1,400,000 koku</li>
 <li><strong>Why composite</strong>: Hansei Ichiran reports different fields for different domains. Saga uses 貮口合 (= <em>gōdaka</em>); Chōshū uses <em>sōdaka</em>; some small domains only have <em>omotedaka</em>. The composite picks the most-comprehensive figure available.</li>
 <li><strong>The Rekihaku tier</strong>: 13 domains have no recordable <em>kokudaka</em> in HI vol 1 (仙台, 新発田, 杵築, 母里, 清崎, 足利, 須坂, 岩村, 対馬府中, 岩国, 岩崎, 松岡, 斗南). For these, the IV is sourced from the 1872 <em>Kyūdaka kyūryō torishirabechō</em> cadastral survey — summed per-village from the Rekihaku open-access database. This is a <em>kusadaka</em>-tier (actual rated land yield) metric, the same conceptual tier as HI <em>sōdaka</em> / <em>gōdaka</em>, restoring methodological consistency. For 仙台 specifically, the IV uses only post-Boshin retained territory (excluding 1869 carve-off prefectures 登米/胆沢/江刺/角田), giving 299,659 koku instead of the raw 974,010-koku all-territory figure.</li>
-<li><strong>Citation</strong>: a sibling source column records which field was actually used for each domain (<code>hi_sodaka</code>, <code>hi_godaka</code>, <code>hi_omotedaka</code>, <code>rekihaku_kyudaka_1872</code>, <code>wiki_omotedaka</code>).</li>
+<li><strong>Citation</strong>: a sibling source column records which field was actually used for each domain (<code>hi_sodaka</code>, <code>hi_godaka</code>, <code>hi_omotedaka</code>, <code>rekihaku_kyudaka_1872</code>).</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -605,7 +605,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The peerage rank awarded in 1884, one of 5 tiers.</p>
 <ul>
 <li><strong>Coverage</strong>: 284/286 (2 documented exclusions)</li>
-<li><strong>Distribution</strong>: 3 prince, 15 marquess, 35 count, 222 viscount, 9 baron</li>
+<li><strong>Distribution</strong>: 3 prince, 15 marquess, 34 count, 222 viscount, 10 baron</li>
 <li><strong>Citation chain</strong>: 浅見雅男『華族誕生 名誉と体面の明治 (Kazoku tanjō: meiyo to taimen no Meiji, “Birth of the Peerage: Honor and Reputation in Meiji”)』(1994) + <em>Kanpō</em> 第307号 (1884) + 華族大鑑刊行会編『華族大鑑 (Kazoku taikan, “Compendium of the Peerage”)』(1990) for princes</li>
 <li>See the <a href="./05-kazoku-rank.html"><em>kazoku</em> Rank chapter</a> for the full story.</li>
 </ul>
@@ -616,7 +616,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Coverage</strong>: 286/286</li>
 <li><strong>Values</strong>: anti-<em>bakufu</em> (幕府) / pro-restoration, pro-<em>bakufu</em>, neutral</li>
-<li><strong>Distribution</strong>: 235 anti-<em>bakufu</em>, 41 pro-<em>bakufu</em>, 10 neutral</li>
+<li><strong>Distribution</strong>: 236 anti-<em>bakufu</em>, 40 pro-<em>bakufu</em>, 10 neutral</li>
 <li><strong>Citation chain</strong>: Esposito (2020) + 工藤威 (2002) + Beasley (1972). See the <a href="./06-boshin-alignment.html">Boshin Alignment chapter</a>.</li>
 </ul>
 </section>
@@ -661,28 +661,33 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>COMPLETE</td>
-<td style="text-align: right;">8</td>
+<td style="text-align: right;">29</td>
 <td>Full troop/warship/artillery roster</td>
 </tr>
 <tr class="even">
 <td>PARTIAL</td>
-<td style="text-align: right;">175</td>
+<td style="text-align: right;">215</td>
 <td>Some military data, some missing</td>
 </tr>
 <tr class="odd">
-<td>HI_OMITTED</td>
-<td style="text-align: right;">6</td>
-<td>Source explicitly says 書ナラス (“not recorded”)</td>
+<td>PARTIAL_UNBUCKETED</td>
+<td style="text-align: right;">10</td>
+<td>Military data present but not yet sorted into a partial sub-bucket</td>
 </tr>
 <tr class="even">
-<td>HI_OMITTED_PARTIAL</td>
-<td style="text-align: right;">14</td>
-<td>Mixed — some military fields recorded, some 書ナラス</td>
+<td>HI_OMITTED</td>
+<td style="text-align: right;">15</td>
+<td>Source explicitly says 書ナラス (“not recorded”)</td>
 </tr>
 <tr class="odd">
+<td>HI_OMITTED_PARTIAL</td>
+<td style="text-align: right;">15</td>
+<td>Mixed — some military fields recorded, some 書ナラス</td>
+</tr>
+<tr class="even">
 <td>NO_MILITARY_DATA</td>
-<td style="text-align: right;">83</td>
-<td>Volume 1-only domains — no Volume 2 military entry expected (small fiefs without standing forces)</td>
+<td style="text-align: right;">2</td>
+<td>No recoverable military entry at all (only 和歌山藩 and 薩摩藩)</td>
 </tr>
 </tbody>
 </table>
