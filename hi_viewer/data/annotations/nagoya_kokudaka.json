@@ -1,0 +1,410 @@
+[
+  {
+    "id": "anno-nagoya_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○名古屋藩 （尾州・濃州・江州・攝津之内 一本此上信濃・筑摩ノ内チ加フ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "名古屋藩（なごやはん）— 尾張徳川家。領地は尾張・美濃・近江・摂津の内（異本では信濃・筑摩の内を加える）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya (Owari) domain, the senior Tokugawa shinpan (the Owari-Tokugawa house). The marker's note lists its scattered holdings — Owari, Mino, Ōmi, and part of Settsu (one variant adds parts of Shinano and Chikuma)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Owari-Tokugawa domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○名古屋藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2545,1280,130,900"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 八拾五萬三千百貳拾五石三斗貳升九合八勺 （庚午六月調ニ拠ル）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）八十五万三千百二十五石余 — 庚午（明治三年）六月調べ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current assessed high = 853,125 koku, from the June-1870 (庚午六月) reformed survey — among the very largest in the country. (The dataset previously carried 853,115; the scan reads 三千百貳拾五 = 3,125.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "853,125 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2386,1080,120,1850"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 壹萬石 今尾藩知事返知之分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高 一万石 — 今尾藩知事の返地分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A 10,000-koku block from land returned by the governor of Imao-han (今尾藩), a Nagoya sub-domain — folded back into Owari's accounts."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "10,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高 今尾藩返知"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2142,1080,120,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸引高 四萬七百三拾五石六斗八升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸引高（しょびきだか）四万七百三十五石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sundry deductions = 40,735 koku — exemptions and offsets subtracted from the gross high to reach the 殘高."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "40,735 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸引高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2015,1080,120,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹萬九千百七拾石五斗四升八勺 石川太八郎所務高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万九千百七十石余 — 石川太八郎所務高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "19,170 koku — the fief managed by Ishikawa Tahachirō (石川太八郎所務高), one of Owari's semi-autonomous retainer holdings."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "19,170 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "石川太八郎所務高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1884,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘高 七拾七萬八千八百九拾六石九斗壹升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残高（ざんだか）七十七万八千八百九十六石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Residual high after deductions = 778,896 koku (853,125 gross − the 諸引 deductions and carve-offs)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "778,896 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1743,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "租納 貳拾六萬千貳百五拾石三斗九升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "租納（そのう）二十六万千二百五十石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax delivered = 261,250 koku — Owari's main land-tax take in rice."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "261,250 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "租納高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1621,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此八分出 八分出ト申譯ハ租稅壹石ニ付八升迄米ヲ相納…"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此れ八分出（はちぶだし）— 租税一石につき八升まで米を納める仕入の升数を取り直した、の意"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'8-bu output' (八分出) annotation — a tax-reform note: for each koku of tax, up to 8 shō of rice is the amount actually delivered, and the measured volumes have been recalculated on that basis."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8-bu output (tax note)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "此八分出"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1460,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 壹萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高 一万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A further 10,000-koku high entry tied to the 外數 adjustment to the left."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "10,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高 壹萬石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1320,1080,120,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外數 貳拾八萬貳千百五拾石四斗三升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外数（がいすう）二十八万二千百五十石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'External figure' = 282,150 koku — high recorded outside the main reckoning (additional surveyed land not in the 殘高 base)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "282,150 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1180,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八分出ト申譯ハ租稅壹石ニ付八升迄米ヲ相納仕入ニ有之ル升数ヲ取直シ候"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "八分出と申す訳は、租税一石に付き八升まで米を相納め、仕入に有るの升数を取り直し候"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The full explanatory gloss of the '8-bu output' rule (continuing the note above): the delivered tax-rice per koku, recalculated against the recorded measures — a Meiji-era standardisation of Owari's tax accounting."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8-bu output explanation"
+      },
+      {
+        "purpose": "identifying",
+        "value": "八分出 釋"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:980,1080,120,1900"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四 （名古屋） 尾州濃州之内今尾藩知事返地高調頓之面"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（名古屋）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Page header — Domain Survey, fourth fascicle (civil/economic register), Nagoya section, with a sub-note on the Imao-han returned land within Owari/Mino. The printed page number 二百八十七 (287) sits in the bottom margin."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Table 4 header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第四"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:755,1080,120,2350"
+      }
+    }
+  }
+]
