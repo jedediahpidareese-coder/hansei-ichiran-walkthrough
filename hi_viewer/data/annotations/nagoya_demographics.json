@@ -1,0 +1,852 @@
+[
+  {
+    "id": "anno-nagoya_demographics-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民戸數 十九萬二千七百七十七軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民戸数（へいみん こすう）十九万二千七百七十七軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner households = 192,777 — Owari registered its commoner population, unlike status-only registers."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "192,777 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2083,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 修驗 貳百七十二院"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 修験（しゅげん）二百七十二院"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the religious houses, Shugendō temples = 272."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "272 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内修驗 院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1961,1080,120,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院 二千四百三十八寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）二千四百三十八寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 2,438."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,438 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1824,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 八百十壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）八百十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest households = 811."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "811 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家 軒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1691,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多 五百十八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）五百十八軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households = 518."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "518 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多 軒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1556,1080,120,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人乞丐 千五百三十壹軒 （人口 六千一人 男 二千八百七十三人 女 三千百二十八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人・乞丐（ひにん・こつがい）千五百三十一軒 — 人口 6,001（男 2,873・女 3,128）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin and beggars (非人乞丐) = 1,531 households; population 6,001 (男 2,873 + 女 3,128 = 6,001, internally consistent ✓)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,531 households / 6,001 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人乞丐 軒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1413,1080,120,1900"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二千八百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二千八百七十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin/beggar population — male = 2,873."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,873 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人乞丐人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1468,2520,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三千百二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）三千百二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin/beggar population — female = 3,128."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,128 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人乞丐人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1393,2520,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 人員 八十四萬八百九十六人 （男 四十二萬五十五人 女 四十二萬八百四十壹人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 人員（じんいん）八十四万八百九十六人 — 男 420,055・女 420,841"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Internal population figure = 840,896 (男 420,055 + 女 420,841 = 840,896, internally consistent ✓). The facing left half (p158L) gives a 人員 of 724,569; the two reckon different category bases."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "840,896 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1274,1080,120,1800"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四十二萬五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四十二万五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population — male = 420,055."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "420,055 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1365,2420,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 四十二萬八百四十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四十二万八百四十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population — female = 420,841."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "420,841 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1290,2420,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 僧 五千六百六十三人 尼 八十六人 女 千九百貳拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 僧（そう）五千六百六十三人 — 尼 86・女 1,920"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy = 5,663. The column then prints 尼 (nuns) = 86 and a female figure (女) = 1,920; a separate male-monk count is not printed (≈ 3,743 by difference)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "5,663 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1140,1080,120,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼 八十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（あま）八十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nuns (尼) = 86 — a sub-count within the clergy."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "86 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "尼"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1198,2330,66,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千九百貳拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）千九百二十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female clergy (女) = 1,920."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,920 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1120,2330,66,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗 千百八十三人 （男 六百三十四人 女 五百四十九人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）千百八十三人 — 男 634・女 549"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners = 1,183 (男 634 + 女 549 = 1,183, internally consistent ✓)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,183 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1005,1080,120,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 六百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）六百三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō — male = 634."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "634 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1060,1990,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 五百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）五百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō — female = 549."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "549 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:985,1990,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多 二千五百九十九人 （男 千三百五十一人 女 千二百四十八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）二千五百九十九人 — 男 1,351・女 1,248"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) population = 2,599 (男 1,351 + 女 1,248 = 2,599, internally consistent ✓) — the population of the 518 eta households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,599 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:880,1080,120,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 千三百五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）千三百五十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta population — male = 1,351."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,351 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:935,2300,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千二百四十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）千二百四十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta population — female = 1,248."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,248 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:860,2300,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 四千七百九十三人 （男 二千三百人 女 二千四百九十三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）四千七百九十三人 — 男 2,300・女 2,493"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest population = 4,793 (男 2,300 + 女 2,493 = 4,793, internally consistent ✓) — the population of the 811 社家 households."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4,793 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:750,1080,120,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二千三百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二千三百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest population — male = 2,300."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,300 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:805,2010,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二千四百九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二千四百九十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest population — female = 2,493."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,493 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:730,2010,58,820"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 四千九百七十八社 （以下八行原朱書／平民之内）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）四千九百七十八社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 4,978. (A marginal note marks the following eight lines as originally in red ink, within the commoner register.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4,978 shrines"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:587,1080,120,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "農 十五萬七千三百十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "農（のう）十五万七千三百十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Farmer households = 157,319 — by far the largest commoner class, the bulk of the 平民戸數."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "157,319 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "農 戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:349,1080,120,1500"
+      }
+    }
+  }
+]
