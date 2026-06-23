@@ -97,7 +97,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1843,2168,60,750"
+        "value": "xywh=pixel:1823,2168,77,750"
       }
     }
   },
@@ -131,7 +131,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1758,2169,60,750"
+        "value": "xywh=pixel:1793,2169,45,750"
       }
     }
   },
@@ -233,7 +233,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1579,2169,60,612"
+        "value": "xywh=pixel:1559,2169,74,612"
       }
     }
   },
@@ -267,7 +267,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1494,2169,60,613"
+        "value": "xywh=pixel:1474,2169,100,613"
       }
     }
   },
@@ -369,7 +369,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1306,2288,60,586"
+        "value": "xywh=pixel:1286,2288,77,586"
       }
     }
   },
@@ -403,7 +403,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1221,2288,60,585"
+        "value": "xywh=pixel:1257,2288,44,585"
       }
     }
   },
@@ -505,7 +505,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1037,2018,60,384"
+        "value": "xywh=pixel:1017,2018,79,384"
       }
     }
   },
@@ -539,7 +539,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:952,2018,60,384"
+        "value": "xywh=pixel:986,2018,46,384"
       }
     }
   },
@@ -641,7 +641,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:766,2408,60,315"
+        "value": "xywh=pixel:746,2408,79,315"
       }
     }
   },
@@ -675,7 +675,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:681,2408,60,431"
+        "value": "xywh=pixel:661,2408,100,431"
       }
     }
   },
@@ -719,19 +719,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "步兵 五大隊 但シ一大隊銃兵三百貳拾員"
+        "value": "步兵 五大隊 但シ一大隊銃兵三百貳拾員 合五百六員"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "歩兵（ほへい）五大隊 — 一大隊につき銃兵320員"
+        "value": "歩兵（ほへい）五大隊 — 一大隊につき銃兵320員、合506員"
       },
       {
         "purpose": "english_translation",
-        "value": "Infantry = 5 battalions (320 riflemen each). The military summary printed on this civil page; full disclosure with the officer roster is on the military page."
+        "value": "Infantry = 5 battalions (320 riflemen each, 506 total). Printed at the top of this column; full disclosure with the officer roster is on the military page."
       },
       {
         "purpose": "extracted_value",
-        "value": "5 battalions (320 each)"
+        "value": "5 battalions (506 men)"
       },
       {
         "purpose": "identifying",
@@ -743,7 +743,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:448,1087,114,929"
+        "value": "xywh=pixel:448,1087,114,607"
       }
     }
   },
@@ -753,19 +753,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "砲兵 三隊 但シ砲兵一隊百四十四員"
+        "value": "砲兵 三隊 但シ砲兵一隊百四十四員 合百八十六員"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "砲兵（ほうへい）三隊 — 一隊につき144員"
+        "value": "砲兵（ほうへい）三隊 — 一隊につき144員、合186員"
       },
       {
         "purpose": "english_translation",
-        "value": "Artillery = 3 units (144 men each)."
+        "value": "Artillery = 3 units (144 men each, 186 total), printed below 步兵 in the same column."
       },
       {
         "purpose": "extracted_value",
-        "value": "3 units (144 each)"
+        "value": "3 units (186 men)"
       },
       {
         "purpose": "identifying",
@@ -777,7 +777,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:331,1169,114,1089"
+        "value": "xywh=pixel:448,1640,114,376"
       }
     }
   },
@@ -787,19 +787,53 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "隊長司令士等役員 千百六人 兵卒人員 千五百六十八人"
+        "value": "隊長司令士等役員 千百六人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士等役員 千百六人・兵卒人員 千五百六十八人"
+        "value": "隊長・司令・士等役員 千百六人"
       },
       {
         "purpose": "english_translation",
-        "value": "Officer cadre (隊長・司令・士等役員) = 1,106; rank-and-file troops (兵卒人員) = 1,568. The same personnel totals appear on Kanazawa's Table-8 military page."
+        "value": "Officer cadre (隊長・司令・士等役員) = 1,106 — the top of the next column."
       },
       {
         "purpose": "extracted_value",
-        "value": "officers 1,106 / troops 1,568"
+        "value": "1,106 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士等役員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p088_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:318,1169,114,682"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_demographics-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵卒人員 千五百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵卒人員 千五百六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank-and-file troops (兵卒人員) = 1,568, printed below the officer cadre. The same totals appear on Kanazawa's Table-8 military page."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,568 persons"
       },
       {
         "purpose": "identifying",
@@ -811,7 +845,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:233,1169,128,1693"
+        "value": "xywh=pixel:318,1938,114,924"
       }
     }
   }
