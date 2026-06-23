@@ -345,15 +345,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "同 人口 貳萬八千六百八拾三人"
+        "value": "同 人口 貳萬八千六百八拾三人（男 一萬三千九百七人 女 一萬四千七百七拾六人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "（士族の）同人口 二万八千六百八十三人"
+        "value": "（士族の）同人口 二万八千六百八十三人 — 男 13,907・女 14,776"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population = 28,683. Against ~1M total population the shizoku share is low (~2.9%) — Kaga's retainer density (≈55.9 per 1,000 koku) is modest relative to Satsuma or Kumamoto."
+        "value": "Shizoku population = 28,683 (男 13,907 + 女 14,776 = 28,683, internally consistent ✓). Against ~1M total population the shizoku share is low (~2.9%) — Kaga's retainer density (≈55.9 per 1,000 koku) is modest relative to Satsuma or Kumamoto."
       },
       {
         "purpose": "extracted_value",
@@ -369,7 +369,75 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:963,1098,114,1280"
+        "value": "xywh=pixel:963,1098,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 一萬三千九百七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）一万三千九百七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male = 13,907."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "13,907 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1013,2300,60,820"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 一萬四千七百七拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）一万四千七百七十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 14,776."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "14,776 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:928,2300,60,820"
       }
     }
   }
