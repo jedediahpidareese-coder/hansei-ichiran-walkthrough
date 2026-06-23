@@ -5,15 +5,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族 人員 貮萬三千八百二拾三人（内 男・女）"
+        "value": "士族 人員 貮萬三千八百二拾三人（内 男一萬二千七十二人 女一萬千七百五十一人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族 人員（しぞく じんいん）二万三千八百二十三人"
+        "value": "士族 人員（しぞく じんいん）二万三千八百二十三人 — 内 男 12,072・女 11,751"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (former-samurai) persons = 23,823, with male/female sub-totals printed below. Against 5,273 shizoku households (on the facing p46R) that is ~4.5 persons/household."
+        "value": "Shizoku (former-samurai) persons = 23,823 (男 12,072 + 女 11,751 = 23,823, internally consistent ✓). Saga's samurai population; against 5,273 shizoku households (facing p46R) that is ~4.5 persons/household."
       },
       {
         "purpose": "extracted_value",
@@ -29,12 +29,80 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2651,1098,114,1223"
+        "value": "xywh=pixel:2641,790,128,1010"
       }
     }
   },
   {
     "id": "anno-saga_status-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 一萬二千七十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）一万二千七十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku persons — male = 12,072."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "12,072 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2691,1810,56,900"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 一萬千七百五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）一万千七百五十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku persons — female = 11,751."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "11,751 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2635,1810,56,900"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-03",
     "type": "Annotation",
     "body": [
       {
@@ -63,25 +131,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2514,1098,114,894"
+        "value": "xywh=pixel:2514,790,114,900"
       }
     }
   },
   {
-    "id": "anno-saga_status-02",
+    "id": "anno-saga_status-04",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "卒 人員 四萬三千四百八拾八人（内 男・女）"
+        "value": "卒 人員 四萬三千四百八拾八人（内 男二萬二千三百三十四人 女二萬千百五十四人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒 人員（そつ じんいん）四万三千四百八十八人"
+        "value": "卒 人員（そつ じんいん）四万三千四百八十八人 — 内 男 22,334・女 21,154"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu-class persons = 43,488, with male/female sub-totals printed below. Saga's sotsu class is nearly double its shizoku — a broad lower-samurai base."
+        "value": "Sotsu-class persons = 43,488 (男 22,334 + 女 21,154 = 43,488, internally consistent ✓) — nearly double the shizoku count, a broad lower-samurai base."
       },
       {
         "purpose": "extracted_value",
@@ -97,12 +165,80 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2381,1098,114,1223"
+        "value": "xywh=pixel:2373,790,128,1010"
       }
     }
   },
   {
-    "id": "anno-saga_status-03",
+    "id": "anno-saga_status-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二萬二千三百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二万二千三百三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class persons — male = 22,334."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "22,334 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2423,1810,56,900"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二萬千百五十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二万千百五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class persons — female = 21,154."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "21,154 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2367,1810,56,900"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-07",
     "type": "Annotation",
     "body": [
       {
@@ -131,25 +267,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2244,1098,114,729"
+        "value": "xywh=pixel:2244,790,114,640"
       }
     }
   },
   {
-    "id": "anno-saga_status-04",
+    "id": "anno-saga_status-08",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "社人 人員 八百五十人（内 男・女）"
+        "value": "社人 人員 八百五十人（内 男四百十八人 女四百三十二人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "社人 人員（しゃじん じんいん）八百五十人"
+        "value": "社人 人員（しゃじん じんいん）八百五十人 — 内 男 418・女 432"
       },
       {
         "purpose": "english_translation",
-        "value": "Shrine-personnel persons = 850, with male/female sub-totals printed below."
+        "value": "Shrine-personnel persons = 850 (男 418 + 女 432 = 850, internally consistent ✓)."
       },
       {
         "purpose": "extracted_value",
@@ -165,12 +301,80 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2126,1098,114,1044"
+        "value": "xywh=pixel:2105,790,128,580"
       }
     }
   },
   {
-    "id": "anno-saga_status-05",
+    "id": "anno-saga_status-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四百十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel — male = 418."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "418 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2155,1380,56,680"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 四百三十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四百三十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel — female = 432."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "432 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2099,1380,56,680"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-11",
     "type": "Annotation",
     "body": [
       {
@@ -191,7 +395,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "僧 (戸)"
+        "value": "僧戸數"
       }
     ],
     "target": {
@@ -199,25 +403,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2088,1098,114,1114"
+        "value": "xywh=pixel:1975,790,114,650"
       }
     }
   },
   {
-    "id": "anno-saga_status-06",
+    "id": "anno-saga_status-12",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "僧 人員 四千四百拾貮人（内 男・女）"
+        "value": "僧 人員 四千四百拾貮人（内 男三千百九十二人 女千二百二十人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "僧 人員（そう じんいん）四千四百十二人"
+        "value": "僧 人員（そう じんいん）四千四百十二人 — 内 男 3,192・女 1,220"
       },
       {
         "purpose": "english_translation",
-        "value": "Buddhist clergy persons = 4,412, with male/female sub-totals printed below."
+        "value": "Buddhist clergy persons = 4,412 (男 3,192 + 女 1,220 = 4,412, internally consistent ✓) — heavily male, as expected for a clergy population."
       },
       {
         "purpose": "extracted_value",
@@ -225,7 +429,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "僧 人員"
+        "value": "僧人員"
       }
     ],
     "target": {
@@ -233,12 +437,80 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1909,1132,114,1175"
+        "value": "xywh=pixel:1836,790,128,770"
       }
     }
   },
   {
-    "id": "anno-saga_status-07",
+    "id": "anno-saga_status-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三千百九十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三千百九十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy persons — male = 3,192."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,192 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1886,1560,56,800"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千二百二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）千二百二十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy persons — female = 1,220."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,220 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1830,1560,56,800"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-15",
     "type": "Annotation",
     "body": [
       {
@@ -263,12 +535,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1620,1098,126,620"
+        "value": "xywh=pixel:1671,790,114,620"
       }
     }
   },
   {
-    "id": "anno-saga_status-08",
+    "id": "anno-saga_status-16",
     "type": "Annotation",
     "body": [
       {
@@ -281,7 +553,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "The ○佐倉藩 marker begins the NEXT domain, Sakura-han (a Hotta domain in Shimōsa). Everything to its RIGHT (read first) is Saga's; Sakura's own kokudaka (高 110,000 / 新田高 22,941 / 合高 132,941) prints to its LEFT. The ○ marker is the source's domain-boundary signal — the same teaching point as Satsuma's data overflowing onto Tosa's page."
+        "value": "The ○佐倉藩 marker begins the NEXT domain, Sakura-han (a Hotta domain in Shimōsa). Everything to its RIGHT (read first) is Saga's; Sakura's own kokudaka (高 110,000 / 新田高 22,941 / 合高 132,941) prints to its LEFT. The ○ marker is the source's domain-boundary signal."
       },
       {
         "purpose": "identifying",
@@ -293,7 +565,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1433,1410,118,450"
+        "value": "xywh=pixel:1433,1130,120,700"
       }
     }
   }

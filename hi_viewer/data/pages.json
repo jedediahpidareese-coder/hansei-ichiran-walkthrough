@@ -20,7 +20,7 @@
       "page_header_en": "Domain Survey Table 2 (Kagoshima)",
       "table_number": 2,
       "page_topic": "kokudaka and major fiscal aggregates",
-      "page_summary_en": "The Satsuma (Kagoshima) entry's Table 2 page shows the kokudaka aggregates: sōdaka of 869,594 koku (with a 琉球國高引除 annotation indicating Ryūkyū tribute is excluded), the breakdown into 損高 (loss-high) and the remaining 高, plus current rice yield (現石) and zatsuzei (miscellaneous tax) figures including the Ryūkyū sugar monopoly revenue. The kokudaka figure cross-validated against the 2026-05-27 crop verification."
+      "page_summary_en": "The Satsuma (Kagoshima) entry's Table 2 page shows the kokudaka aggregates: sōdaka of 869,594 koku (with a 琉球國高引除 annotation indicating Ryūkyū tribute is excluded), the breakdown into 損高 (loss-high) and the remaining 高, plus current rice yield (現石) and zatsuzei (miscellaneous tax) figures including the Ryūkyū sugar monopoly revenue."
     },
     {
       "id": "satsuma_demographics",
@@ -54,7 +54,7 @@
       "page_header_en": "Domain Survey Table 8 (Kagoshima)",
       "table_number": 8,
       "page_topic": "officers + military, with explicit non-disclosure annotation",
-      "page_summary_en": "Satsuma's HI Table 8 entry is essentially a non-disclosure: just the ○鹿兒島藩 marker followed by 書ナラス ('not specified / not written'). This is a TEACHING page for right-to-left page-spill. The military numbers once attributed to Satsuma here — 兵卒人員 1,568; 士等役員 1,106; 隊士 464; the four councillor counts (1+9+21+16 = 47) — sit to the RIGHT of the ○鹿兒島藩 marker, so in R→L reading order they are read BEFORE it and belong to the PRECEDING domain, 金澤藩 (Kanazawa), whose entry continues onto this page from vol 2 PDF p162. MASTER was corrected on 2026-05-28 (fix_satsuma_m2_misattribution.py re-tagged those rows 鹿児島藩→金澤藩), and the data table now shows only Satsuma's actual disclosure: 書ナラス. To the LEFT of Satsuma's marker the ○高知藩 (Tosa) entry begins, with a full named officer roster — the contrast underlines just how total Satsuma's refusal was. Combined with its real ~16,000-Spencer-rifle force, Satsuma was the most opaque military presence in the 1870 survey."
+      "page_summary_en": "Satsuma's HI Table 8 entry is essentially a non-disclosure: just the ○鹿兒島藩 marker followed by 書ナラス ('not specified / not written'). This is a TEACHING page for right-to-left page-spill. The military numbers to the RIGHT of the ○鹿兒島藩 marker — 兵卒人員 1,568; 士等役員 1,106; 隊士 464; the four councillor counts (1+9+21+16 = 47) — sit to the RIGHT of the ○鹿兒島藩 marker, so in R→L reading order they are read BEFORE it and belong to the PRECEDING domain, 金澤藩 (Kanazawa), whose entry continues onto this page from vol 2 PDF p162. The data table shows only Satsuma's actual disclosure: 書ナラス. To the LEFT of Satsuma's marker the ○高知藩 (Tosa) entry begins, with a full named officer roster — the contrast underlines just how total Satsuma's refusal was. Combined with its real ~16,000-Spencer-rifle force, Satsuma was the most opaque military presence in the 1870 survey."
     },
     {
       "id": "choshu_kokudaka",
@@ -70,7 +70,7 @@
       "page_header_en": "Domain Survey Table 5 (Yamaguchi)",
       "table_number": 5,
       "page_topic": "kokudaka components + combined high",
-      "page_summary_en": "Chōshū's kokudaka page: 草高 369,411 + 外高 (new-field uplift) 618,593 = 合高 988,004 (exact; the 合高 carries an editorial ◎ note marking it as outside the original book). Also the main tax — 正租 現米 206,910 koku and 正租 錢 116,190 kan-mon (corrected from a stale mis-read of 116,910) — plus 雜稅 in rice (14,553) and silver (890.86) and an external wax-tax of 480 ryō. Status-class counts to the RIGHT of the ○山口藩 marker belong to the preceding domain; Chōshū's demographics are on the facing page.",
+      "page_summary_en": "Chōshū's kokudaka page: 草高 369,411 + 外高 (new-field uplift) 618,593 = 合高 988,004 (exact; the 合高 carries an editorial ◎ note marking it as outside the original book). Also the main tax — 正租 現米 206,910 koku and 正租 錢 116,190 kan-mon — plus 雜稅 in rice (14,553) and silver (890.86) and an external wax-tax of 480 ryō. Status-class counts to the RIGHT of the ○山口藩 marker belong to the preceding domain; Chōshū's demographics are on the facing page.",
       "sequence": 4
     },
     {
@@ -87,7 +87,7 @@
       "page_header_en": "Domain Survey Table 5 (Yamaguchi)",
       "table_number": 5,
       "page_topic": "status-class households + population (with M/F)",
-      "page_summary_en": "Chōshū's status register (not the full commoner population), laid out in two horizontal bands. Top: total 戸數 17,714 and total 人口 66,463, with status sub-counts — 内 士族 3,000 households / 11,589 persons (corrected from a stale 15,849), 内 卒族 3,991 / 10,362, 内 陪臣 6,157 (corrected from 6,457), plus 社家, 末庵, 盲僧, 非人. Bottom: 寺院 1,165 (incl. 5 穢多寺), 山伏 92, 穢多 2,675, 茶洗 6, and the male/female split for each population figure (人口 男 36,240 / 女 30,223; 士族 男 5,829 / 女 5,760; 卒族 男 5,567 / 女 4,795 — each sum-validated).",
+      "page_summary_en": "Chōshū's status register (not the full commoner population), laid out in two horizontal bands. Top: total 戸數 17,714 and total 人口 66,463, with status sub-counts — 内 士族 3,000 households / 11,589 persons, 内 卒族 3,991 / 10,362, 内 陪臣 6,157, plus 社家, 末庵, 盲僧, 非人. Bottom: 寺院 1,165 (incl. 5 穢多寺), 山伏 92, 穢多 2,675, 茶洗 6, and the male/female split for each population figure (人口 男 36,240 / 女 30,223; 士族 男 5,829 / 女 5,760; 卒族 男 5,567 / 女 4,795 — each sum-validated).",
       "sequence": 5
     },
     {
@@ -121,7 +121,7 @@
       "page_header_en": "Domain Survey Table 2 (Kōchi)",
       "table_number": 2,
       "page_topic": "kokudaka (5-yr avg) + tax + products + households",
-      "page_summary_en": "Tosa's Table-2 page: 草高 495,486 koku, given as a five-year average (甲子ヨリ戊辰 = 1864–1868, through the Boshin War). Current rice 現米 189,431 + 此米 3,587 = 總計 193,018 (exact). The tax in gold 税金 28,697 ryō (corrected from a stale 28,647) and in silver 税銀 28,697 kanme share the same mantissa as currency equivalents. Total 戸數 93,736. A long 諸産物 list catalogues Tosa's named products (no quantities). The marker is on the facing page; the population total (495,936) is on the demographics page.",
+      "page_summary_en": "Tosa's Table-2 page: 草高 495,486 koku, given as a five-year average (甲子ヨリ戊辰 = 1864–1868, through the Boshin War). Current rice 現米 189,431 + 此米 3,587 = 總計 193,018 (exact). The tax in gold 税金 28,697 ryō and in silver 税銀 28,697 kanme share the same mantissa as currency equivalents. Total 戸數 93,736. A long 諸産物 list catalogues Tosa's named products (no quantities). The marker is on the facing page; the population total (495,936) is on the demographics page.",
       "sequence": 7
     },
     {
@@ -189,7 +189,7 @@
       "page_header_en": "Domain Survey Table 6 (Saga)",
       "table_number": 6,
       "page_topic": "population totals (with M/F) + products",
-      "page_summary_en": "Saga's demographic totals and products. Total 戸數 68,710 and total 人員 354,450 — male 183,517 + female 170,933 = 354,450, sum-validated (corrected from a stale 354,458) — plus 士族戸數 5,273. The product block lists Saga's output with quantities, including the famous Hizen coal (石炭 36,000,000 jin), Arita/Imari ceramics (陶器 20,000+ bales), rice 92,719 koku, tea, wax, sōmen, sake, and dried shrimp, and a cash figure of 99,831 kan-mon. The shizoku/sotsu PERSON counts are on the facing left half (saga_status).",
+      "page_summary_en": "Saga's demographic totals and products. Total 戸數 68,710 and total 人員 354,450 — male 183,517 + female 170,933 = 354,450, sum-validated — plus 士族戸數 5,273. The product block lists Saga's output with quantities, including the famous Hizen coal (石炭 36,000,000 jin), Arita/Imari ceramics (陶器 20,000+ bales), rice 92,719 koku, tea, wax, sōmen, sake, and dried shrimp, and a cash figure of 99,831 kan-mon. The shizoku/sotsu PERSON counts are on the facing left half (saga_status).",
       "sequence": 11
     },
     {

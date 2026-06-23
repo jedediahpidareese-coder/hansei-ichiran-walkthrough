@@ -77,7 +77,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "External high (new-field uplift) = 618,593 koku. An earlier extraction mis-read this as 68,593 (dropping the 拾 prefix), inventing a false 10,000-koku discrepancy; the scan reads 六拾壹萬… = 618,593, internally consistent (369,411 + 618,593 = 988,004)."
+        "value": "External high (new-field uplift) = 618,593 koku. The figures are internally consistent: 草高 369,411 + 外高 618,593 = 合高 988,004."
       },
       {
         "purpose": "extracted_value",
@@ -171,6 +171,40 @@
     "body": [
       {
         "purpose": "transcribing",
+        "value": "石炭 三百二十兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "石炭（せきたん）三百二十両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "External-product tax on coal (sekitan) = 320 ryō — the second 外産物 levy, printed below the wax-tax figure in the same column. Chōshū taxed its coal output (from the Ube/western-Suō fields) alongside wax."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "320 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外産物 石炭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:872,2510,118,700"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
         "value": "正租 現米 貳拾萬六千九百拾石"
       },
       {
@@ -200,7 +234,7 @@
     }
   },
   {
-    "id": "anno-choshu_kokudaka-06",
+    "id": "anno-choshu_kokudaka-07",
     "type": "Annotation",
     "body": [
       {
@@ -213,7 +247,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Main-tax cash = 116,190 kan-mon — the copper-coin portion of the main land tax. (Corrected from an earlier mis-read of 116,910; the scan reads 六千百九拾, i.e. 190 not 910.)"
+        "value": "Main-tax cash = 116,190 kan-mon — the copper-coin portion of the main land tax."
       },
       {
         "purpose": "extracted_value",
@@ -234,7 +268,7 @@
     }
   },
   {
-    "id": "anno-choshu_kokudaka-07",
+    "id": "anno-choshu_kokudaka-08",
     "type": "Annotation",
     "body": [
       {
@@ -268,7 +302,7 @@
     }
   },
   {
-    "id": "anno-choshu_kokudaka-08",
+    "id": "anno-choshu_kokudaka-09",
     "type": "Annotation",
     "body": [
       {

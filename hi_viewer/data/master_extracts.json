@@ -149,6 +149,12 @@
       "raw": "千百六十五ヶ寺"
     },
     {
+      "field_jp": "内 穢多寺",
+      "parsed": "5",
+      "unit": "temples",
+      "raw": "五ヶ寺"
+    },
+    {
       "field_jp": "内 山伏",
       "parsed": "92",
       "unit": "households",
@@ -227,6 +233,12 @@
       "parsed": "480",
       "unit": "ryō",
       "raw": "四百八拾兩"
+    },
+    {
+      "field_jp": "外産物 石炭",
+      "parsed": "320",
+      "unit": "ryō",
+      "raw": "石炭 三百二十兩"
     },
     {
       "field_jp": "正租 現米",
@@ -560,7 +572,7 @@
       "field_jp": "兵員總計",
       "parsed": "2,972",
       "unit": "persons",
-      "raw": "内譯 合計 二千九百七十二人"
+      "raw": "内譯"
     },
     {
       "field_jp": "大砲",
@@ -791,6 +803,18 @@
       "raw": "貮萬三千八百二拾三人"
     },
     {
+      "field_jp": "士族人員 男",
+      "parsed": "12,072",
+      "unit": "persons",
+      "raw": "一萬二千七十二人"
+    },
+    {
+      "field_jp": "士族人員 女",
+      "parsed": "11,751",
+      "unit": "persons",
+      "raw": "一萬千七百五十一人"
+    },
+    {
       "field_jp": "卒戸數",
       "parsed": "9,369",
       "unit": "households",
@@ -801,6 +825,18 @@
       "parsed": "43,488",
       "unit": "persons",
       "raw": "四萬三千四百八拾八人"
+    },
+    {
+      "field_jp": "卒人員 男",
+      "parsed": "22,334",
+      "unit": "persons",
+      "raw": "二萬二千三百三十四人"
+    },
+    {
+      "field_jp": "卒人員 女",
+      "parsed": "21,154",
+      "unit": "persons",
+      "raw": "二萬千百五十四人"
     },
     {
       "field_jp": "社人戸數",
@@ -815,16 +851,40 @@
       "raw": "八百五十人"
     },
     {
-      "field_jp": "僧 (戸)",
+      "field_jp": "社人人員 男",
+      "parsed": "418",
+      "unit": "persons",
+      "raw": "四百十八人"
+    },
+    {
+      "field_jp": "社人人員 女",
+      "parsed": "432",
+      "unit": "persons",
+      "raw": "四百三十二人"
+    },
+    {
+      "field_jp": "僧戸數",
       "parsed": "1,032",
       "unit": "households",
       "raw": "千三拾貮軒"
     },
     {
-      "field_jp": "僧 人員",
+      "field_jp": "僧人員",
       "parsed": "4,412",
       "unit": "persons",
       "raw": "四千四百拾貮人"
+    },
+    {
+      "field_jp": "僧人員 男",
+      "parsed": "3,192",
+      "unit": "persons",
+      "raw": "三千百九十二人"
+    },
+    {
+      "field_jp": "僧人員 女",
+      "parsed": "1,220",
+      "unit": "persons",
+      "raw": "千二百二十人"
     }
   ],
   "tosa_military": [

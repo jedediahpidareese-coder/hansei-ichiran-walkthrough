@@ -25,7 +25,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1843,1180,132,900"
+        "value": "xywh=pixel:1900,1180,130,900"
       }
     }
   },
@@ -69,19 +69,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内譯 合計 二千九百七十二人（士官864＋砲士180＋兵士1440＋砲卒108＋兵卒260＋樂卒120）"
+        "value": "内譯"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "内譯（ないやく）合計 二千九百七十二人"
+        "value": "内譯（ないやく）— 六大隊の内訳"
       },
       {
         "purpose": "english_translation",
-        "value": "Breakdown (内譯) total = 2,972 personnel — the sum of the six itemized corps. With 36 cannon, this is the army that overturned the long-held belief that Hansei Ichiran recorded no force for Saga."
+        "value": "Breakdown (内譯) — the header introducing the six itemized corps that follow: 士官 864 + 砲士 180 + 兵士 1,440 + 砲卒 108 + 兵卒 260 + 樂卒 120 = 2,972 personnel. With 36 cannon, this is the army that overturned the long-held belief that Hansei Ichiran recorded no force for Saga. (2,972 is the sum of the listed corps; the page prints the items, not a separate total.)"
       },
       {
         "purpose": "extracted_value",
-        "value": "2,972 personnel"
+        "value": "2,972 personnel (sum of corps)"
       },
       {
         "purpose": "identifying",
@@ -93,7 +93,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1583,1180,122,1290"
+        "value": "xywh=pixel:1643,1180,122,620"
       }
     }
   },

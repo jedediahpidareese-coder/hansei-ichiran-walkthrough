@@ -23,7 +23,7 @@ let currentLang = 'modern_jp_reading';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260622hi5';
+const VER = '20260623hi1';
 
 async function loadJson(path) {
   const r = await fetch(path);
