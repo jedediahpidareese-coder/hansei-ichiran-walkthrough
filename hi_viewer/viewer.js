@@ -23,7 +23,7 @@ let currentLang = 'modern_jp_reading';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260623hi8';
+const VER = '20260623hi9';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -201,7 +201,17 @@ function addOverlays() {
     el.addEventListener('mouseenter', (e) => { setActiveField(field, { scrollRow: true }); showTip(ann, e.clientX, e.clientY); });
     el.addEventListener('mousemove', (e) => showTip(ann, e.clientX, e.clientY));
     el.addEventListener('mouseleave', () => { clearActiveField(); hideTip(); });
-    el.addEventListener('click', () => { hideTip(); zoomToField(field); openDetailFor(field); });
+    // Open the detail popup on click — same as a table-row click. A raw DOM 'click' is
+    // unreliable on a pannable OSD canvas (any micro pointer movement is treated as a pan and
+    // the click never fires), so detect a click as mousedown+mouseup within a small distance/time.
+    // We do NOT stopPropagation, so a real drag still pans the image through to OSD.
+    let _dx = 0, _dy = 0, _dt = 0;
+    el.addEventListener('mousedown', (e) => { _dx = e.clientX; _dy = e.clientY; _dt = e.timeStamp; });
+    el.addEventListener('mouseup', (e) => {
+      if (e.timeStamp - _dt < 500 && Math.abs(e.clientX - _dx) < 6 && Math.abs(e.clientY - _dy) < 6) {
+        hideTip(); zoomToField(field); openDetailFor(field);
+      }
+    });
     viewer.addOverlay({ element: el, location: viewer.viewport.imageToViewportRectangle(r) });
     overlaysByField[field] = el;
   });
