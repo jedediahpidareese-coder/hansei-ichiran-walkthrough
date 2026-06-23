@@ -1,0 +1,376 @@
+[
+  {
+    "id": "anno-kanazawa_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 一百三十五萬三千三百五拾二石八斗七升壹合壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一三五万三千三百五十二石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sōdaka (real assessed yield) = 1,353,353 koku — by far the largest in the survey."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,353,352.87 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2590,1098,114,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 高 百貳萬五千貳拾石二斗八升貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 高（うち たか）百二万五千二十石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: productive 'high' = 1,025,020 koku — the figure behind Kaga's legendary 'million-koku' (百万石) standing."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,025,020.28 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2465,1098,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田改出 三拾貳萬八千三百三拾二石五斗八升九合壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高・新田改出（こみだか・しんでんかいだし）三十二万八千三百三十二石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Incorporated + newly-surveyed new-field high = 328,333 koku — the reclamation uplift (草高 1,353,353 − 内高 1,025,020 ≈ 328,333)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "328,332.59 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田改出"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2318,1098,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 米 六拾三萬三千百三拾四石八升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）米 六十三万三千百三十四石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax in rice = 633,134 koku — about half the assessed yield."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "633,134.08 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2050,1098,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 錢 七萬五千六百三拾四貫七百七拾七文四步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 錢（ざつぜい ぜに）七万五千六百三十四貫余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in copper coin = 75,634 kan."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "75,634.78 kan"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅 錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1792,1098,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 金 三拾四兩三步永三拾七文五步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 金（せいそ きん）三十四両三歩余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax in gold = ~34.9 ryō — a tiny cash component beside the rice and copper."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "≈34.9 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1644,1098,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢 貳拾五萬八千五百九拾貫五百貳拾七文四步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "錢（ぜに）二十五万八千五百九十貫余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax in copper coin = 258,590 kan — a very large coin tax, reflecting Kaga's monetised economy."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "258,590.53 kan"
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1508,1098,114,1700"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 拾九萬八千八百壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）十九万八千八百一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 198,801 — the largest household count in the survey."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "198,801 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1384,1098,114,1280"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 九拾九萬六千六拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）九十九万六千六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population = 996,069 — nearly a million people, the largest domain population in the survey."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "996,069 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1243,1098,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 士族戸數 七千七百九拾七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外 士族戸数（しぞく こすう）七千七百九十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former-samurai) households = 7,797, marked 外 ('additional')."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "7,797 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外 士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1103,1098,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 貳萬八千六百八拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族の）同人口 二万八千六百八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 28,683. Against ~1M total population the shizoku share is low (~2.9%) — Kaga's retainer density (≈55.9 per 1,000 koku) is modest relative to Satsuma or Kumamoto."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "28,683 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:963,1098,114,1280"
+      }
+    }
+  }
+]
