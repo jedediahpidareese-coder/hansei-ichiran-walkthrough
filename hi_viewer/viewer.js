@@ -23,7 +23,7 @@ let currentLang = 'modern_jp_reading';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260623hi11';
+const VER = '20260623hi12';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -201,17 +201,10 @@ function addOverlays() {
     el.addEventListener('mouseenter', (e) => { setActiveField(field, { scrollRow: true }); showTip(ann, e.clientX, e.clientY); });
     el.addEventListener('mousemove', (e) => showTip(ann, e.clientX, e.clientY));
     el.addEventListener('mouseleave', () => { clearActiveField(); hideTip(); });
-    // Open the detail popup on click — same as a table-row click. A raw DOM 'click' is
-    // unreliable on a pannable OSD canvas (any micro pointer movement is treated as a pan and
-    // the click never fires), so detect a click as mousedown+mouseup within a small distance/time.
-    // We do NOT stopPropagation, so a real drag still pans the image through to OSD.
-    let _dx = 0, _dy = 0, _dt = 0;
-    el.addEventListener('mousedown', (e) => { _dx = e.clientX; _dy = e.clientY; _dt = e.timeStamp; });
-    el.addEventListener('mouseup', (e) => {
-      if (e.timeStamp - _dt < 500 && Math.abs(e.clientX - _dx) < 6 && Math.abs(e.clientY - _dy) < 6) {
-        hideTip(); zoomToField(field); openDetailFor(field);
-      }
-    });
+    // Box click -> detail popup is handled centrally by the viewer's 'canvas-click' handler
+    // (see init). A per-overlay DOM mouseup is unreliable: OSD captures the pointer on mousedown,
+    // so the overlay's own mouseup never fires. OSD's canvas-click IS click-vs-drag aware and
+    // fires through the capture; we hit-test its position against the annotation rectangles.
     viewer.addOverlay({ element: el, location: viewer.viewport.imageToViewportRectangle(r) });
     overlaysByField[field] = el;
   });
@@ -318,6 +311,24 @@ async function init() {
     preserveImageSizeOnResize: true,
   });
   viewer.addHandler('open', () => addOverlays());
+
+  // Click a highlighted column on the page -> open its detail, same as clicking its table row.
+  // Use OSD's canvas-click (click-vs-drag aware, fires through OSD's pointer capture) and
+  // hit-test the click against the annotation rectangles, choosing the smallest box that
+  // contains the point. event.quick is false for a drag, so panning is unaffected.
+  viewer.addHandler('canvas-click', (event) => {
+    if (!event.quick) return;
+    const ipt = viewer.viewport.viewportToImageCoordinates(viewer.viewport.pointFromPixel(event.position));
+    let best = null, bestArea = Infinity;
+    currentAnnotations.forEach(ann => {
+      const r = rectFor(ann);
+      if (!r) return;
+      if (ipt.x >= r.x && ipt.x <= r.x + r.width && ipt.y >= r.y && ipt.y <= r.y + r.height && r.width * r.height < bestArea) {
+        bestArea = r.width * r.height; best = ann;
+      }
+    });
+    if (best) { const f = identOf(best); hideTip(); zoomToField(f); openDetailFor(f); }
+  });
 
   populatePageSelect();
   $('#page-select').addEventListener('change', e => loadPage(parseInt(e.target.value, 10)));
