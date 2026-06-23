@@ -1,19 +1,53 @@
 [
   {
-    "id": "anno-tosa_dem-shizoku-ko",
+    "id": "anno-tosa_demographics-00",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族戸數 七千二百六十九戸"
+        "value": "人口 四拾九萬五千九百三十六人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族戸数（しぞくこすう）七千二百六十九戸"
+        "value": "人口（じんこう）四十九万五千九百三十六人"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (samurai-class) households = 7,269. Tosa's unusually large gōshi (郷士) class makes this high relative to population."
+        "value": "Total population = 495,936 — Tosa's domain-wide head-count, the rightmost column of its demographic block. No male/female split is printed for the grand total. (Earlier extractions mis-attributed Satsuma's 896,808 here; the audited Tosa figure is 495,936.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "495,936 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1903,1098,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 士族戸數 七千二百六拾九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 士族戸数（うち しぞくこすう）七千二百六十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: shizoku (former-samurai) households = 7,269. Tosa's large gōshi (郷士) rural-samurai class keeps the shizoku share high."
       },
       {
         "purpose": "extracted_value",
@@ -29,25 +63,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1790,1098,114,1078"
+        "value": "xywh=pixel:1775,1098,114,1050"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-shizoku-jin",
+    "id": "anno-tosa_demographics-02",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "同 人口 三萬五百六人（内 男一萬五千百三十八 女一萬五千三百六十八）"
+        "value": "同 人口 三萬五百六人（内 男一萬五千百三十八人 女一萬五千三百六十八人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "（士族の）人口 三万五百六人 — 内 男15,138 女15,368"
+        "value": "（士族の）同人口 三万五百六人 — 内 男 15,138・女 15,368"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population = 30,506 (内 男 15,138 + 女 15,368 = 30,506, internally consistent). Read directly off the page as 三萬五百六人. A 2026-05-28 OCR fix corrected an earlier mis-reading of 35,068."
+        "value": "Shizoku population = 30,506 (男 15,138 + 女 15,368 = 30,506, internally consistent ✓). Read on the page as 三萬五百六人; a 2026-05 OCR fix corrected an earlier mis-reading of 35,068."
       },
       {
         "purpose": "extracted_value",
@@ -63,29 +97,97 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1647,1098,114,1655"
+        "value": "xywh=pixel:1668,1098,114,1130"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu-ko",
+    "id": "anno-tosa_demographics-03",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "卒族戸數 三千七百十三戸"
+        "value": "男 一萬五千百三十八人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒族戸数（そつぞくこすう）三千七百十三戸"
+        "value": "男（だん）一万五千百三十八人"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu-class households = 3,713."
+        "value": "Shizoku population — male = 15,138."
       },
       {
         "purpose": "extracted_value",
-        "value": "3,713 households"
+        "value": "15,138 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1725,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 一萬五千三百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）一万五千三百六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 15,368."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "15,368 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1669,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數 三千七拾三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数（そつぞくこすう）三千七十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class (lower-samurai) households = 3,073. (Corrected from an earlier mis-read of 3,713.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,073 households"
       },
       {
         "purpose": "identifying",
@@ -97,25 +199,25 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1519,1098,114,909"
+        "value": "xywh=pixel:1532,1098,114,1050"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-sotsu-jin",
+    "id": "anno-tosa_demographics-06",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "同 人口 壹萬七千六百八拾壹人"
+        "value": "同 人口 壹萬七千六百八拾壹人（内 男一萬九百五拾四人 女六千七百二拾七人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "（卒族の）人口 一万七千六百八十一人"
+        "value": "（卒族の）同人口 一万七千六百八十一人 — 内 男 10,954・女 6,727"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu-class population = 17,681."
+        "value": "Sotsu-class population = 17,681 (男 10,954 + 女 6,727 = 17,681, internally consistent ✓)."
       },
       {
         "purpose": "extracted_value",
@@ -131,12 +233,80 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1379,1098,114,1788"
+        "value": "xywh=pixel:1396,1098,114,1130"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-eta",
+    "id": "anno-tosa_demographics-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 一萬九百五拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）一万九百五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class population — male = 10,954."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "10,954 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1453,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 六千七百二拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）六千七百二十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class population — female = 6,727."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6,727 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1397,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-09",
     "type": "Annotation",
     "body": [
       {
@@ -145,11 +315,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "穢多戸数（えたこすう）三千三百九十六戸"
+        "value": "外 穢多戸数（えたこすう）三千三百九十六戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Eta-class (outcast caste) households = 3,396."
+        "value": "Eta-class (outcast caste) households = 3,396, marked 外 ('additional', outside the main status register)."
       },
       {
         "purpose": "extracted_value",
@@ -165,25 +335,127 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1251,1098,114,1072"
+        "value": "xywh=pixel:1260,1098,114,1050"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-jinja",
+    "id": "anno-tosa_demographics-10",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "神社 壹萬座"
+        "value": "同 人口 壹萬六千八百九拾四人（内 男八千六百九人 女八千二百八拾五人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "神社（じんじゃ）一万座"
+        "value": "（穢多の）同人口 一万六千八百九十四人 — 内 男 8,609・女 8,285"
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto shrines ≈ 10,000 (壹萬座) — a very large round count. Corrected vs crop 2026-05-19 (an earlier chunk garbled this to 10,123)."
+        "value": "Eta-class population = 16,894 (男 8,609 + 女 8,285 = 16,894, internally consistent ✓). Printed on the page; not separately carried in the analytic dataset (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "16,894 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1124,1098,114,1130"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 八千六百九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）八千六百九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta-class population — male = 8,609 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,609 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1181,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 八千二百八拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）八千二百八十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta-class population — female = 8,285 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,285 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1125,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 神社 壹萬座"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外 神社（じんじゃ）一万座"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines ≈ 10,000 (壹萬座) — a very large round count, marked 外 ('additional')."
       },
       {
         "purpose": "extracted_value",
@@ -199,12 +471,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:977,1098,114,486"
+        "value": "xywh=pixel:988,1098,114,760"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-shinshoku",
+    "id": "anno-tosa_demographics-14",
     "type": "Annotation",
     "body": [
       {
@@ -217,7 +489,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto-priest + Shugendō-ascetic households = 1,016 (社人 etc. 4,214 persons noted internally)."
+        "value": "Shinto-priest + Shugendō-ascetic households = 1,016."
       },
       {
         "purpose": "extracted_value",
@@ -233,12 +505,114 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:842,1098,114,1153"
+        "value": "xywh=pixel:848,1098,114,1180"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-jiin",
+    "id": "anno-tosa_demographics-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 四千貳百十四人（内 男二千九拾六人 女二千百十八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（神職修験等の）同人口 四千二百十四人 — 内 男 2,096・女 2,118"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto-priest + ascetic population = 4,214 (男 2,096 + 女 2,118 = 4,214, internally consistent ✓). Printed on the page; not separately carried in the analytic dataset (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4,214 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職修驗等人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:708,1098,114,1130"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二千九拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二千九十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Priest/ascetic population — male = 2,096 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,096 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職修驗等人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:765,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二千百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二千百十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Priest/ascetic population — female = 2,118 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,118 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職修驗等人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:709,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-18",
     "type": "Annotation",
     "body": [
       {
@@ -251,7 +625,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Buddhist temples = 476."
+        "value": "Buddhist temples = 476 (counted with the classifier 字)."
       },
       {
         "purpose": "extracted_value",
@@ -267,29 +641,131 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:438,1098,114,1448"
+        "value": "xywh=pixel:568,1098,114,1050"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-joubi",
+    "id": "anno-tosa_demographics-19",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "常備兵 六千七百六十人"
+        "value": "同 人口 壹千五百七拾二人（内 男千二百四拾七人 女三百二拾五人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "常備兵（じょうびへい）六千七百六十人"
+        "value": "（僧の）同人口 千五百七十二人 — 内 男 1,247・女 325"
       },
       {
         "purpose": "english_translation",
-        "value": "Standing army = 6,760 — Tosa's permanent force. With the 2,400 emergency reserves below it sums to 9,000 (合九千人)."
+        "value": "Monastic (temple-clergy) population = 1,572 (男 1,247 + 女 325 = 1,572, internally consistent ✓) — the clergy attached to the 476 temples. Printed on the page; not separately carried in the analytic dataset (page figure)."
       },
       {
         "purpose": "extracted_value",
-        "value": "6,760 persons"
+        "value": "1,572 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:428,1098,114,1130"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 千二百四拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）千二百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monastic population — male = 1,247 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,247 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:485,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三百二拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）三百二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monastic population — female = 325 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "325 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:429,2240,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "常備兵 六千六百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "常備兵（じょうびへい）六千六百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Standing army = 6,600. With the 2,400 emergency reserves below it the total is 9,000 (合九千人) — Tosa's full mobilizable force. (Corrected from an earlier mis-read of 6,760.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6,600 persons"
       },
       {
         "purpose": "identifying",
@@ -301,12 +777,12 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:305,1154,114,675"
+        "value": "xywh=pixel:288,1150,118,720"
       }
     }
   },
   {
-    "id": "anno-tosa_dem-hijou",
+    "id": "anno-tosa_demographics-23",
     "type": "Annotation",
     "body": [
       {
@@ -319,7 +795,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Emergency-reserve troops = 2,400 — mobilized only in crisis, on top of the 6,760 standing army."
+        "value": "Emergency-reserve troops = 2,400 — mobilized only in crisis, on top of the 6,600 standing army."
       },
       {
         "purpose": "extracted_value",
@@ -335,7 +811,41 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:292,1917,114,252"
+        "value": "xywh=pixel:288,1950,118,750"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_demographics-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合 九千人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（ごう）九千人 — 常備兵＋非常兵の合計"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined troop total = 9,000 (合九千人) = 6,600 standing + 2,400 reserve. Matches the 海陸兵員 ('sea-and-land troops') cross-reference for Tosa."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "9,000 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員合計"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:288,2740,118,360"
       }
     }
   }

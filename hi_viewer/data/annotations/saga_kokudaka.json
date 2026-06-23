@@ -1,6 +1,6 @@
 [
   {
-    "id": "anno-saga_koku-header",
+    "id": "anno-saga_kokudaka-00",
     "type": "Annotation",
     "body": [
       {
@@ -9,11 +9,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "佐嘉藩（さがはん）。古い表記。現代では「佐賀」が標準。"
+        "value": "佐嘉藩（さがはん）— 古い表記。現代は「佐賀」"
       },
       {
         "purpose": "english_translation",
-        "value": "Saga domain (written 佐嘉, the kyūjitai form; modern Japanese uses 佐賀). The ○ marks the start of the domain's entry — everything to its LEFT (reading right-to-left) is Saga's. Saga has NO vol1 entry in Hansei Ichiran; it appears only in vol2 (the gap documented in memory reference_saga_HI_gap)."
+        "value": "Saga domain (written 佐嘉, the kyūjitai form; modern Japanese uses 佐賀). The ○ begins the entry; everything to its LEFT (reading right-to-left) is Saga's. The small 永 二百四十九兩… figure to the RIGHT of the marker is the tail of the PRECEDING domain. Saga has NO vol1 entry — it appears only in vol2 (the gap documented in reference_saga_HI_gap)."
       },
       {
         "purpose": "identifying",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "id": "anno-saga_koku-omotedaka",
+    "id": "anno-saga_kokudaka-01",
     "type": "Annotation",
     "body": [
       {
@@ -43,7 +43,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Omotedaka-equivalent = 211,519 koku — the formal-title kokudaka of the Nabeshima domain (its bakufu-registered rating). The actual productive land was far larger through new-field development — see the 新田高 column to the left."
+        "value": "Omotedaka-equivalent 'high' = 211,519 koku — the formal-title kokudaka of the Nabeshima domain. Its actual productive land was far larger through new-field development (see 新田高 to the left)."
       },
       {
         "purpose": "extracted_value",
@@ -64,20 +64,20 @@
     }
   },
   {
-    "id": "anno-saga_koku-shinden",
+    "id": "anno-saga_kokudaka-02",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "新田高（外二）五拾壹萬三千五百八拾石貳斗壹升六合貳勺"
+        "value": "外二 新田高 五拾壹萬三千五百八拾石貳斗壹升六合貳勺"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "新田高（しんでんだか・外二）五十一万三千五百八十石余"
+        "value": "外二 新田高（しんでんだか）五十一万三千五百八十石余"
       },
       {
         "purpose": "english_translation",
-        "value": "New-field high = 513,580.22 koku. Saga led the Edo period in intensive paddy reclamation across the Saga Plain; combined formal + new-field yield approaches 725k koku — dramatically larger than the ~357k formal omotedaka most secondary sources cite."
+        "value": "New-field high = 513,580.22 koku, marked 外二 ('additional, second'). Saga led the Edo period in intensive paddy reclamation across the Saga Plain; formal + new-field combined approaches 725k koku — far above the ~357k formal rating most secondary sources cite."
       },
       {
         "purpose": "extracted_value",
@@ -85,7 +85,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "新田高"
+        "value": "新田高 (外二)"
       }
     ],
     "target": {
@@ -98,20 +98,20 @@
     }
   },
   {
-    "id": "anno-saga_koku-niko",
+    "id": "anno-saga_kokudaka-03",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "貮口合 平均 七拾貳萬四千七百三拾九石三斗壹升五合貳勺"
+        "value": "貮口合 平均 米 七拾貳萬四千七百三拾九石三斗壹升五合貳勺"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "貮口合 平均（にこうごうへいきん）七十二万四千七百三十九石余 — 五ヶ年平均"
+        "value": "貮口合 平均（にこうごう へいきん）米 七十二万四千七百三十九石余 — 五ヶ年平均"
       },
       {
         "purpose": "english_translation",
-        "value": "Two-mouth combined, 5-year average = 724,739.3152 koku. Saga's distinctive phrasing for what is essentially godaka: the combined high of formal + new-field, averaged over five years. EXACT MATCH with the Tōkei Shūshi figure (724,739). The 貮口合 (ni-kō-gō) phrasing reflects the domain's split-territory administrative pattern."
+        "value": "Two-mouth combined, 5-year average = 724,739.3152 koku — Saga's distinctive phrasing for what is essentially godaka: formal + new-field high, averaged over five years. EXACT MATCH with the Tōkei Shūshi figure (724,739). The 貮口合 phrasing reflects the domain's split-territory administration."
       },
       {
         "purpose": "extracted_value",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "anno-saga_koku-seiso",
+    "id": "anno-saga_kokudaka-04",
     "type": "Annotation",
     "body": [
       {
@@ -145,11 +145,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Main tax rice (seiso) = 213,478.27 koku — about 30% of the 貮口合 724,739 total, a high effective tax rate characteristic of Saga's tightly-administered economy under Nabeshima fiscal discipline. (The adjacent 但米…石代 column is the rice-equivalent of the silver tax, not a separate yield.)"
+        "value": "Main tax rice (seiso) = 213,478.27 koku — about 30% of the 貮口合 724,739 total, a high effective tax rate characteristic of Saga's tightly-administered Nabeshima fiscal regime."
       },
       {
         "purpose": "extracted_value",
-        "value": "213,478.2722 koku"
+        "value": "213,478.27 koku"
       },
       {
         "purpose": "identifying",
@@ -166,7 +166,41 @@
     }
   },
   {
-    "id": "anno-saga_koku-gin",
+    "id": "anno-saga_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但 米 四千四百四拾壹石代"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し米（こめ）四千四百四十一石の代（だい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice-equivalent note (但…石代) = 4,441 koku — the value of the silver tax (銀 444.1 kanme, next column) expressed in rice. The 但 prefix marks it as an explanatory sub-figure, not an additional yield."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4,441 koku (rice-equiv of silver)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "但米 (石代)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p045_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1426,1068,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_kokudaka-06",
     "type": "Annotation",
     "body": [
       {
@@ -179,7 +213,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Silver tax = 444 kanme 100 me (444.1 kanme) — the silver component of Saga's tax take. The page also prints its rice-equivalent (但米四千四百四拾石代 ≈ 4,440 koku) in the adjacent column."
+        "value": "Silver tax = 444 kanme 100 me (444.1 kanme) — the silver component of Saga's tax take; its rice-equivalent (4,441 koku) is the 但米 note to its right."
       },
       {
         "purpose": "extracted_value",
@@ -200,7 +234,7 @@
     }
   },
   {
-    "id": "anno-saga_koku-shuno",
+    "id": "anno-saga_kokudaka-07",
     "type": "Annotation",
     "body": [
       {
@@ -209,11 +243,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "取納現米（しゅのうげんまい）二十一万七千七百八十九石余"
+        "value": "取納現米（しゅのう げんまい）二十一万七千七百八十九石余"
       },
       {
         "purpose": "english_translation",
-        "value": "Tax-collected current rice = 217,789.27 koku — the rice actually received into the domain granaries, slightly above the 正租米 (213,478) main-tax rice booked. The deepest column in this block."
+        "value": "Tax-collected current rice = 217,789.27 koku — rice actually received into the granaries, slightly above the booked 正租米 (213,478)."
       },
       {
         "purpose": "extracted_value",
@@ -234,7 +268,7 @@
     }
   },
   {
-    "id": "anno-saga_koku-zatsuzei",
+    "id": "anno-saga_kokudaka-08",
     "type": "Annotation",
     "body": [
       {
@@ -247,7 +281,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Miscellaneous tax in gold ≈ 10 ryō — a strikingly small cash miscellaneous-tax line for a domain of Saga's scale, consistent with a tax system overwhelmingly denominated in rice and silver rather than coin."
+        "value": "Miscellaneous tax in gold ≈ 10 ryō — strikingly small for a domain of Saga's scale, consistent with a tax system denominated overwhelmingly in rice and silver, not coin."
       },
       {
         "purpose": "extracted_value",

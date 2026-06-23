@@ -460,7 +460,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Click</strong> a row in the data table to zoom the page to that field’s location</li>
 <li><strong>See</strong> how each value in the dataset lines up with what’s printed on the page</li>
 </ul>
-<p>The viewer is built on OpenSeadragon (deep-zoom page viewer) with custom CSS overlays positioned in image coordinates, plus a hand-curated annotation set linking each visible HI value to its row in the dataset. This is a <strong>sample of 9 pages</strong> demonstrating the format; the methodology can scale to all 286 domains.</p>
+<p>The viewer is built on OpenSeadragon (deep-zoom page viewer) with custom CSS overlays positioned in image coordinates, plus a hand-curated annotation set linking each visible HI value to its row in the dataset. This is a <strong>sample of 13 pages</strong> demonstrating the format; the methodology can scale to all 286 domains.</p>
 </div>
 </div>
 <section id="launch-the-viewer" class="level2" data-number="26.1">
@@ -478,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li>The <strong>page selector</strong> at the top lets you jump between the 9 focal-4 sample pages (kokudaka + demographics for each of Satsuma, Chōshū, Tosa, Saga; Satsuma’s 書ナラス “not specified” military table; and Saga’s Table-9 army)</li>
+<li>The <strong>page selector</strong> at the top lets you jump between the 13 focal-4 sample pages — kokudaka, demographics, and a military/officials page for each of Satsuma, Chōshū, Tosa, and Saga (plus Saga’s stacked status-class page)</li>
 <li>The <strong>image pane</strong> on the left shows the actual 1870 page. Drag to pan, scroll-wheel to zoom, or use the navigation thumbnail (bottom-right)</li>
 <li>Coloured rectangles on the image are <strong>annotated regions</strong>. Hover any one to see the pop-up annotation</li>
 <li>The <strong>data table</strong> on the right shows every MASTER-extracted value for this page. Hovering an annotation highlights its matching row; clicking a row zooms the page to the value’s location</li>
@@ -489,7 +489,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sample-scope" class="level2" data-number="26.2">
 <h2 data-number="26.2" class="anchored" data-anchor-id="sample-scope"><span class="header-section-number">26.2</span> Sample scope</h2>
-<p>The 9 pages cover the four focal domains plus two pedagogically-important cases — Satsuma’s military-table 書ナラス non-disclosure and Saga’s Table-9 army. Each page demonstrates a different HI structural pattern:</p>
+<p>The 13 pages cover the four focal domains across all three registers — kokudaka, demographics, and military/officials — plus pedagogically-important cases such as Satsuma’s 書ナラス non-disclosure, Saga’s overlooked Table-9 army, and HI’s right-to-left page-spill. Each page demonstrates a different structural pattern:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -507,47 +507,67 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>1</td>
 <td>薩摩 (Satsuma)</td>
-<td>The kokudaka aggregates: 草高 869k, the breakdown into 損高 / 高 / 現石, the famous Ryūkyū sugar monopoly figure (5.09M jin / ~3,055 tons/year).</td>
+<td><strong>Kokudaka.</strong> 草高 869k, the breakdown into 損高 / 高 / 現石, and the Ryūkyū sugar-monopoly figure (5.09M jin / ~3,055 t/yr).</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>薩摩 (Satsuma)</td>
-<td>The Table 8 page with the literal annotation 書ナラス (“not specified”) under the domain header — explicit documentation of Satsuma’s refusal to disclose military structure.</td>
+<td><strong>Demographics.</strong> Total population 896,808 (male/female broken out), of which 192,949 shizoku (~22%, an extraordinarily high samurai share) and a 足輕以下 majority; plus a Ryūkyū-administration sub-block.</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>長州 (Chōshū)</td>
-<td>Demographics, including the 内 X 人口 sub-row pattern (11,589 shizoku + 10,362 sotsu = 22k samurai-class out of 66k total population — a notably high samurai share).</td>
+<td>薩摩 (Satsuma)</td>
+<td><strong>Military (Table 8).</strong> The literal 書ナラス (“not specified”) non-disclosure. A teaching page for HI’s right-of-marker spill: the figures beside it belong to the preceding domain (金澤), not Satsuma.</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>長州 (Chōshū)</td>
-<td>The kokudaka components: 草高 369,411 + 外高 618,593 + 合高 988,004 — the figures add up exactly.</td>
+<td><strong>Kokudaka.</strong> 草高 369,411 + 外高 618,593 = 合高 988,004 — the figures add up exactly.</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>土佐 (Tosa)</td>
-<td>The 5-year-average kokudaka (495k, covering 1864-1868 = the Boshin-precursor years) and a long product list characteristic of large domains.</td>
+<td>長州 (Chōshū)</td>
+<td><strong>Demographics.</strong> The status register’s 内 X 人口 pattern — 11,589 shizoku + 10,362 sotsu of 66,463 — with male/female sub-totals for each population figure.</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>土佐 (Tosa)</td>
-<td>Shizoku/sotsu population detail (30,506 shizoku + 17,681 sotsu). Also the 穢多戸數 row — a pre-1871-emancipation outcast-class count.</td>
+<td>長州 (Chōshū)</td>
+<td><strong>Military (Table 9).</strong> A fully disclosed force: 17 infantry battalions (≈7,361 men), 6½ artillery batteries, a cavalry company, and a four-ship steam navy — the opposite of Satsuma’s silence.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>佐賀 (Saga)</td>
-<td>The kokudaka entry using Saga’s distinctive 貮口合 平均 (“two-mouth combined, average”) phrasing for what other domains call 合高. Saga has no vol1 entry — only vol2 — so this is its only kokudaka page.</td>
+<td>土佐 (Tosa)</td>
+<td><strong>Kokudaka.</strong> The five-year-average 草高 (495,486, 1864-1868), gold and silver tax both 28,697, and a long product catalogue.</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>佐賀 (Saga)</td>
-<td>Demographics (23,823 shizoku + 43,488 sotsu — sotsu is nearly double shizoku, an unusual ratio) followed by the start of ○佐倉藩 (Sakura-han, a different domain) on the same page — illustrating HI’s stacked-page pattern.</td>
+<td>土佐 (Tosa)</td>
+<td><strong>Demographics.</strong> Total population 495,936; shizoku 30,506 and sotsu 17,681 (each with male/female); a standing army of 6,600 + 2,400 reserves = 9,000.</td>
 </tr>
 <tr class="odd">
 <td>9</td>
+<td>土佐 (Tosa)</td>
+<td><strong>Military / officials (Table 8).</strong> Tosa’s named officer hierarchy — governor Yamauchi, the councillors, and a roster reaching future national figures (Kataoka Kenkichi, Tani Tateki) — printed on the <em>same scan</em> where Satsuma writes 書ナラス.</td>
+</tr>
+<tr class="even">
+<td>10</td>
 <td>佐賀 (Saga)</td>
-<td><strong>Saga’s Table-9 army.</strong> Six battalions, <strong>2,972 troops</strong> (officers 864 + artillery-soldiers 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and <strong>36 cannon</strong>. It prints on the 佐倉 (Sakura) page and reads right-to-left up to the ○佐倉藩 marker; Table 9 writes the domain with the modern 佐賀 rather than the old-kanji 佐嘉 used elsewhere, which makes the entry easy to overlook.</td>
+<td><strong>Kokudaka.</strong> Saga’s distinctive 貮口合 平均 (“two-mouth combined, average”) = 724,739, its equivalent of 合高. Saga has no vol1 entry — only vol2.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>佐賀 (Saga)</td>
+<td><strong>Demographics.</strong> Total population 354,450 (male/female), 68,710 households, and a product block including Hizen coal (36M jin) and Arita ceramics.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>佐賀 (Saga)</td>
+<td><strong>Status classes.</strong> 23,823 shizoku + 43,488 sotsu persons, then the start of ○佐倉藩 (Sakura-han) on the same page — HI’s stacked-domain pattern.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>佐賀 (Saga)</td>
+<td><strong>Military (Table 9).</strong> Six battalions, <strong>2,972 troops</strong> (officers 864 + artillery 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and <strong>36 cannon</strong> — long overlooked because Table 9 writes the domain with the modern 佐賀, not the old-kanji 佐嘉 used elsewhere.</td>
 </tr>
 </tbody>
 </table>
@@ -559,7 +579,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="whats-next" class="level2" data-number="26.4">
 <h2 data-number="26.4" class="anchored" data-anchor-id="whats-next"><span class="header-section-number">26.4</span> What’s next</h2>
-<p>If this 9-page sample is useful, the methodology scales to all 286 domains. The bottleneck is <strong>manual annotation</strong> — about ~10 minutes per page to identify bounding boxes and write the trilingual triplets. A full coverage of all 286 domains would be roughly 500-600 pages and 60-100 hours of annotation work. Worth considering as a follow-on project if the format proves valuable for verification or for pedagogical exhibition of the source.</p>
+<p>If this 13-page sample is useful, the methodology scales to all 286 domains. The bottleneck is <strong>manual annotation</strong> — about ~10 minutes per page to identify bounding boxes and write the trilingual triplets. A full coverage of all 286 domains would be roughly 500-600 pages and 60-100 hours of annotation work. Worth considering as a follow-on project if the format proves valuable for verification or for pedagogical exhibition of the source.</p>
 <div class="source-citation">
 <p><strong>Image source</strong>: Hansei Ichiran (藩制一覧, 1870 — Ministry of Civil Affairs survey of domain institutions). High-resolution page scans extracted from the workspace-resident PDFs at <code>Primary_Sources/Hansei Ichiran (1870) - Survey of Domain Institutions Vol [1/2].pdf</code>.</p>
 <p><strong>Annotation methodology</strong>: Bounding boxes hand-drawn against each page; verbatim kanji transcribed character-by-character; modern Japanese reading and English translation written with reference to standard kokudaka / status-class vocabulary (Furushima 1968 on Edo fiscal terminology; Lebra 1993 on kazoku status conventions; Yamamura 1974 on samurai stipend categories).</p>

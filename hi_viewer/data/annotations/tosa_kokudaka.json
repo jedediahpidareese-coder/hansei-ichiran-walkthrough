@@ -1,6 +1,6 @@
 [
   {
-    "id": "anno-tosa_koku-kusadaka",
+    "id": "anno-tosa_kokudaka-00",
     "type": "Annotation",
     "body": [
       {
@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sōdaka = 495,486 koku — given as a FIVE-YEAR AVERAGE (甲子ヨリ戊辰 = 1864–1868, the run-up to and through the Boshin War). EXACT MATCH. Tosa's headline kokudaka."
+        "value": "Sōdaka (gross-yield kokudaka) = 495,486 koku, given as a FIVE-YEAR AVERAGE (甲子ヨリ戊辰 = 1864–1868, the run-up to and through the Boshin War). Tosa's headline kokudaka."
       },
       {
         "purpose": "extracted_value",
@@ -34,12 +34,12 @@
     }
   },
   {
-    "id": "anno-tosa_koku-genmai",
+    "id": "anno-tosa_kokudaka-01",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "現米 拾八萬九千四百三十壹石餘"
+        "value": "現米 拾八萬九千四百三拾壹石餘"
       },
       {
         "purpose": "modern_jp_reading",
@@ -47,7 +47,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Current rice yielded = 189,431 koku — the actual rice flow, comparable to Chōshū's 正租現米 (206,910)."
+        "value": "Current rice yielded = 189,431 koku — the actual rice flow, comparable to Chōshū's 正租現米 (206,910). Together with 此米 (3,587) it sums to the 總計 of 193,018."
       },
       {
         "purpose": "extracted_value",
@@ -68,12 +68,46 @@
     }
   },
   {
-    "id": "anno-tosa_koku-zeigin",
+    "id": "anno-tosa_kokudaka-02",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "税銀 貳萬八千六百九十七貫餘"
+        "value": "諸産物 — 諸紙・砂糖（白／黑）・鶏卵・茶・蜂蜜・漉蜜・蜜蠟・蕨粉・蕨繩・檜繩・松繩・松節・松烟・松脂・楊梅皮・楮草・茅葺・薄緣・吳座・丹波表・近江表・七島表・中次表・疊表・燒物類・茜類・海蘿・凝海藻・艸・鰻鯰・竹（大／中／小）・内竹・五倍子・桂根・肉桂・産根茯苓・葉種類・藍蓼／藍葉・木藍・烏鰂・楮實 ほか"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸産物（しょさんぶつ）— 当藩の主な産物の一覧（数量の記載なし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Products (shosanbutsu) — a long catalogue of Tosa's named local products printed WITHOUT quantities: papers, white/black sugar, eggs, tea, honey & strained honey, beeswax, bracken starch & rope, cypress rope, pine products (rope, knots, soot, resin), bayberry bark, paper-mulberry, thatch, woven mats (Tanba / Ōmi / Shichitō / Nakatsugi / tatami facings), ceramics, madder, agar & set-seaweed, eel & catfish, bamboo (large/medium/small) & inner bamboo, gallnut, cassia root & cinnamon, Bukuryō (Poria), dye plants (indigo leaf & stem, woad), cuttlefish bone, mulberry seed, and more. No per-item amounts are recorded (page list)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "40+ named products (no quantities)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸産物"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1615,1080,700,1870"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "税銀 貳萬八千六百九拾七貫餘"
       },
       {
         "purpose": "modern_jp_reading",
@@ -81,7 +115,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Tax (silver) = 28,697 kanme — the silver component of Tosa's tax take."
+        "value": "Tax (silver) = 28,697 kanme — the silver-denominated tax take. Shares its mantissa with 税金 (gold), the two being currency equivalents of the same levy."
       },
       {
         "purpose": "extracted_value",
@@ -102,24 +136,24 @@
     }
   },
   {
-    "id": "anno-tosa_koku-zeikin",
+    "id": "anno-tosa_kokudaka-04",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "税金 貳萬八千六百四拾七兩餘"
+        "value": "税金 貳萬八千六百九拾七兩餘"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "税金（ぜいきん）二万八千六百四十七両余"
+        "value": "税金（ぜいきん）二万八千六百九十七両余"
       },
       {
         "purpose": "english_translation",
-        "value": "Tax (gold) = 28,647 ryō — the cash/gold component of the tax."
+        "value": "Tax (gold) = 28,697 ryō — the gold-denominated tax take. (Corrected from an earlier mis-read of 28,647; the scan reads 六百九拾七兩, matching the silver figure.)"
       },
       {
         "purpose": "extracted_value",
-        "value": "28,647 ryō"
+        "value": "28,697 ryō"
       },
       {
         "purpose": "identifying",
@@ -136,12 +170,12 @@
     }
   },
   {
-    "id": "anno-tosa_koku-konomai",
+    "id": "anno-tosa_kokudaka-05",
     "type": "Annotation",
     "body": [
       {
         "purpose": "transcribing",
-        "value": "此米 三千五百八十七石餘"
+        "value": "此米 三千五百八拾七石餘"
       },
       {
         "purpose": "modern_jp_reading",
@@ -149,7 +183,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "This-amount rice (a sub-total rice-equivalent) = 3,587 koku."
+        "value": "This-amount rice = 3,587 koku — the rice-equivalent of the cash tax. 現米 189,431 + 此米 3,587 = 總計 193,018."
       },
       {
         "purpose": "extracted_value",
@@ -170,7 +204,7 @@
     }
   },
   {
-    "id": "anno-tosa_koku-sokei",
+    "id": "anno-tosa_kokudaka-06",
     "type": "Annotation",
     "body": [
       {
@@ -183,7 +217,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Grand total = 193,018 koku — the gendaka-equivalent sum of the tax components. EXACT MATCH."
+        "value": "Grand total = 193,018 koku — the gendaka-equivalent (rice + cash-as-rice). EXACT internal check: 189,431 + 3,587 = 193,018."
       },
       {
         "purpose": "extracted_value",
@@ -204,7 +238,7 @@
     }
   },
   {
-    "id": "anno-tosa_koku-kosu",
+    "id": "anno-tosa_kokudaka-07",
     "type": "Annotation",
     "body": [
       {
@@ -217,7 +251,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total households = 93,736 — within 0.8% of the Tōkei Shūshi figure (94,469)."
+        "value": "Total households = 93,736 — Tosa's domain-wide household count (within 0.8% of the Tōkei Shūshi figure, 94,469). The population total (495,936) is on the facing demographics page."
       },
       {
         "purpose": "extracted_value",

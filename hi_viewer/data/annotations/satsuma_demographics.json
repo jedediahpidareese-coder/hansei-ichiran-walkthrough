@@ -1,0 +1,760 @@
+[
+  {
+    "id": "anno-satsuma_demog-戸數",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 拾七萬四千五百廿八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）十七万四千五百二十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 174,528 — Satsuma's domain-wide household count, the rightmost column of its demographic block."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "174,528 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1934,1052,114,1095"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-人口",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 八拾九萬六千八百八人（男／女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）八十九万六千八百八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population = 896,808 (male / female sub-totals printed below). The largest domain population in Hansei Ichiran — Satsuma's whole demographic block prints here, having overflowed onto the page headed 高知 (Kōchi / Tosa)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "896,808 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1794,1050,114,1923"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-内 士族戸數",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 士族戸數 四萬三千百十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 士族戸数（うち しぞくこすう）四万三千百十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: shizoku (former-samurai) households = 43,119 — roughly a quarter of all households, reflecting Satsuma's exceptionally large samurai class."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "43,119 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1663,1050,114,1091"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-士族 同人口",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族 同人口 拾九萬二千九百四十九人（男／女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族 同人口（しぞく どうじんこう）十九万二千九百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 192,949 — about 22% of the domain's 896,808 people are former samurai, an extraordinarily high share that reflects Satsuma's distinctive gōshi (郷士) rural-samurai system."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "192,949 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 同人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1522,1048,114,2036"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-足輕以下 戸數",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "足輕以下 戸數 拾萬七千七百三十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "足軽以下 戸数（あしがるいか こすう）十万七千七百三十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ashigaru-and-below households = 107,738. Satsuma records its lower-rank class as 足輕以下 ('foot-soldier and below') rather than the usual 卒族 (sotsu)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "107,738 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "足輕以下 戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1396,1048,114,1431"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-同 人口 (足輕以下)",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 五十七萬九千四百五人（男／女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口（どう じんこう）五十七万九千四百五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ashigaru-and-below population = 579,405 — the foot-soldier and commoner majority (~65% of the domain). 同 ('same') refers back to the 足輕以下 class of the preceding column."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "579,405 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "足輕以下 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1248,1046,114,2159"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-琉球國高税米 現石",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "琉球國高税米 現石 八千六百六十九石壹斗六升（但前惣計之内）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "琉球国 高税米 現石（りゅうきゅうこく こうぜいまい げんせき）八千六百六十九石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appendix (附録): Ryūkyū tribute rice actually delivered (genseki) = 8,669 koku, annotated 但前惣計之内 ('included within the preceding grand total'). Satsuma administered the Ryūkyū Kingdom and drew tribute rice from it."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,669.16 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球國高税米 現石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:993,1045,114,1771"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-戸數 (琉球)",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 壹萬三千五百十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）一万三千五百十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A second household/population sub-block printed within Satsuma's entry (households ≈ 13,513), following the Ryūkyū tribute column — apparently a Ryūkyū-administration count. Not separately carried in the analytic dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:862,1043,114,1427"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-人口 (琉球)",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 七萬二千七百三人（男／女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）七万二千七百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of that sub-block ≈ 72,703 (male / female sub-totals below). Not separately carried in the analytic dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:724,1043,114,1685"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-士分以上戸數",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士分以上戸數 壹萬五百五十八戸（前同断）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士分以上 戸数（しぶんいじょう こすう）一万五百五十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: households of samurai rank and above (士分以上) ≈ 10,558, annotated 前同断 ('as before') — the gentry portion of the preceding sub-block. Not separately carried in the analytic dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 士分以上戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:591,1045,114,1388"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-同 人口 (士分以上)",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 五萬千七百五拾壹人（男／女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口（どう じんこう）五万千七百一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the samurai-and-above (士分以上) sub-block = 51,751. Not separately carried in the analytic dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 士分以上人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:444,1043,114,1935"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-○高知藩",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○高知藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○高知藩（こうちはん）＝土佐藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōchi (Tosa) domain marker. The ○ begins Tosa's entry, but Tosa's own data prints on the NEXT page (p90R); everything to the RIGHT of this marker here is Satsuma's demographic block, which overflowed onto Tosa's page — a recurring Hansei Ichiran right-of-marker layout quirk."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○高知藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:270,1390,120,610"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-附録",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "附録"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "附録（ふろく）— 本表に付け加えられた別記・補遺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appendix (furoku) — a separate supplementary section appended after the main table. Here it carries one addendum: the Ryūkyū tribute-rice figure (琉球國高税米 現石 = 8,669 koku) below it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "附録"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1150,1040,80,160"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-人口 男",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四十六萬九千四百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四十六万九千四百六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — male = 469,468."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "469,468 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1851,2255,56,710"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-人口 女",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 四十二萬七千三百四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四十二万七千三百四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — female = 427,340."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "427,340 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1793,2255,56,710"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-士族 男",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 十萬二千百八十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）十万二千百八十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male = 102,185."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "102,185 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1580,2365,56,710"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-士族 女",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 九萬七百六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）九万七百六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 90,764."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "90,764 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1522,2365,56,710"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-足輕以下 男",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三十萬五千四百四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三十万五千四百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ashigaru-and-below population — male = 305,447."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "305,447 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "足輕以下 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1306,2210,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-足輕以下 女",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二十七萬三千九百五十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二十七万三千九百五十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ashigaru-and-below population — female = 273,958."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "273,958 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "足輕以下 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1248,2210,56,770"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-琉球 人口 男",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四萬四千九百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四万四千九百十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryūkyū sub-block population — male = 44,914 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "44,914 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:782,2010,56,690"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-琉球 人口 女",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二萬七千七百八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二万七千七百八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryūkyū sub-block population — female = 27,789 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "27,789 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:726,2010,56,690"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-琉球 士分以上 男",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三萬六千九百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三万六千九百十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryūkyū gentry population — male = 36,913 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "36,913 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 士分以上 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:502,2230,56,700"
+      }
+    }
+  },
+  {
+    "id": "anno-satsuma_demog-琉球 士分以上 女",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 壹萬四千八百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）一万四千八百三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryūkyū gentry population — female = 14,838 (page figure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "14,838 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球 士分以上 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:446,2230,56,700"
+      }
+    }
+  }
+]

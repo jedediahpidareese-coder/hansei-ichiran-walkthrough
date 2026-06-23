@@ -1,0 +1,338 @@
+[
+  {
+    "id": "anno-choshu_military-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事 — 毛利親信・渡邊伊兵衞・中村文右衞門・藤田與次右衞門・杉楳太郎・正木市太郎・長屋藤兵衞・木梨精一郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）— 当藩の権少参事の人名（前頁よりの続き）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillors (gon-shō-sanji) — the tail of Chōshū's named official roster, continued from the facing page (p204_R, which carries the ○山口藩 marker and the senior officials 知事・大参事・権大参事・少参事). Eight names are listed here, beginning with Mōri Chikanobu."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8 named officials"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2598,1030,126,620"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）— 陸軍の部"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops — the heading for Chōshū's land forces (infantry, artillery, cavalry) listed below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2063,1000,118,520"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "拾七大隊 毎隊四百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十七大隊（じゅうしちだいたい）毎隊四百三十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Seventeen infantry battalions, each of 433 men → 17 × 433 = 7,361 infantry. This disclosed standing army is the headline of Chōshū's Table-9 entry — a sharp contrast with Satsuma's 書ナラス (non-disclosure)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "7,361 infantry (17 × 433)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "拾七大隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1928,560,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六砲隊 有半砲隊 毎隊八門建制九十三人ニシテ長官共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六砲隊・有半砲隊（ろくほうたい・ゆうはんほうたい）毎隊八門建制・九十三人にして長官共"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Six-and-a-half artillery batteries, each organized around 8 guns and 93 men (officers included) → ≈ 52 guns and ≈ 605 artillerymen."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6½ batteries (≈52 guns, ≈605 men)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "六砲隊有半砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1793,560,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "騎兵 一中隊 長官トモ九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "騎兵（きへい）一中隊 長官とも九十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cavalry — one company of 93 men (officers included)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "93 cavalry"
+      },
+      {
+        "purpose": "identifying",
+        "value": "騎兵一中隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1658,560,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "船艦"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船艦（せんかん）— 軍艦の部（四隻）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warships — the heading for Chōshū's navy of four wooden steam vessels, each listed with its original (foreign) name below."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4 warships"
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1503,1000,118,520"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "第一丁卯丸 原名ペンタ 木製"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "第一丁卯丸（だいいちていぼうまる）原名ペンタ・木製"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warship Dai-ichi Teibō-maru — original (foreign) name 'Penta', wooden hull."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 warship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "第一丁卯丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1388,560,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "第二丁卯丸 原名アソンダ 木製"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "第二丁卯丸（だいにていぼうまる）原名アソンダ・木製"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warship Dai-ni Teibō-maru — original name 'Asonda', wooden hull."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 warship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "第二丁卯丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1253,560,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鳳翔丸 原名不詳 木製"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鳳翔丸（ほうしょうまる）原名不詳・木製"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warship Hōshō-maru — original name unknown, wooden hull."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 warship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鳳翔丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1123,560,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_military-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "乙丑丸 原名コンチン 木製"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "乙丑丸（いっちゅうまる）原名コンチン・木製"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warship Itchū-maru — original name 'Conchin', wooden hull. (The earliest of the four, named for the 乙丑 year, 1865.)"
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 warship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "乙丑丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:988,560,114,1320"
+      }
+    }
+  }
+]

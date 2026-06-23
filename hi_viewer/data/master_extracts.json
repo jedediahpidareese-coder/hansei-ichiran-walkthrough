@@ -1,571 +1,555 @@
 {
   "satsuma_kokudaka": [
     {
-      "field_jp": "内 損高",
-      "parsed": "294086.9958",
-      "raw": "貳拾九萬四千八拾六石九斗九升五合八勺",
+      "field_jp": "草高",
+      "parsed": "869,593.5766",
       "unit": "koku",
-      "confidence": "high",
-      "notes": ""
+      "raw": "八拾六萬九千五百九拾三石五斗七升六合六勺四才"
     },
     {
       "field_jp": "内 高",
-      "parsed": "775363.5757",
-      "raw": "七拾七萬五千三百六拾三石五斗七升五合七才",
+      "parsed": "775,363.5757",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "Subset of sōdaka"
+      "raw": "七拾七萬五千三百六拾三石五斗七升五合七才"
     },
     {
-      "field_jp": "茶種",
-      "parsed": "6770.42",
-      "raw": "六千七百七十石四升二合",
+      "field_jp": "内 損高",
+      "parsed": "29,486.9958",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "Corrected 2026-05-20 (was 椿/uncertain, now 茶種/tea seeds): per upper_p088_left.jpg crop, field clearly reads 茶種 六千七百七十石四升二合 = 6,770.42 koku. "
-    },
-    {
-      "field_jp": "楮",
-      "parsed": "96776.4299",
-      "raw": "九萬六千七百七十六貫四百二十九匁九分",
-      "unit": "kanme",
-      "confidence": "high",
-      "notes": "Verified vs crop 2026-05-19; corrected raw 勺→匁 (sub-unit of 貫/kanme is 匁 not 勺); page reads 九萬六千七百七十六貫四百二十九匁九分 = 96776.4299 kanme."
+      "raw": "貳萬九千四百八拾六石九斗九升五合八勺"
     },
     {
       "field_jp": "現石",
-      "parsed": "26156.802",
-      "raw": "貳萬六千一百五拾六石八斗二合",
+      "parsed": "261,056.802",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: parsed_value corrected from 26156.82 to 26156.802. Raw kanji 貳萬六千一百五拾六石八斗二合 = 26,156 + 0.8(8斗) + 0.02(2合) = 2"
+      "raw": "貳拾六萬一千五拾六石八斗二合"
     },
     {
-      "field_jp": "生蠟",
-      "parsed": "44788.8",
-      "raw": "四萬四千七百八十八斤八合",
-      "unit": "jin",
-      "confidence": "high",
-      "notes": ""
+      "field_jp": "現穀",
+      "parsed": "26,986.48",
+      "unit": "koku",
+      "raw": "二萬六千九百八拾六石四升八合"
     },
     {
       "field_jp": "砂糖",
-      "parsed": "5092825",
-      "raw": "五百九萬二千八百二十五斤",
-      "unit": "jin (~600g)",
-      "confidence": "high",
-      "notes": "~3055 metric tons sugar/year — Satsuma's Ryūkyū sugar monopoly"
+      "parsed": "5,092,825",
+      "unit": "jin",
+      "raw": "五百九萬二千八百二十五斤"
     },
     {
-      "field_jp": "草高",
-      "parsed": "869593.5766",
-      "raw": "八拾六萬九千五百九拾三石五斗七升六合六勺四才",
+      "field_jp": "茶種",
+      "parsed": "6,077.42",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH; excludes Ryūkyū tax"
+      "raw": "六千七十七石四升二合"
     },
     {
-      "field_jp": "草高 (with 琉球國高引除 note)",
-      "parsed": "869593.5766",
-      "raw": "八拾六萬九千五百九拾三石五斗七升六合六勺四才",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH"
+      "field_jp": "楮",
+      "parsed": "96,776.4299",
+      "unit": "kanme",
+      "raw": "九萬六千七百七十六貫四百二十九匁九分"
     },
     {
-      "field_jp": "雑稅銭",
-      "parsed": "159796.372",
-      "raw": "拾五萬九千七百九十六貫三百七十二文",
-      "unit": "kan",
-      "confidence": "high",
-      "notes": "CORRECTED vs crop upper_p088_left 2026-05-18: raw was garbled 五十九貫九千七百九十六貫三百七十二文 (dropped 拾 prefix, misplaced 貫). Satsuma Table 2 雜稅 line re"
+      "field_jp": "生蠟",
+      "parsed": "44,078.8",
+      "unit": "jin",
+      "raw": "四萬四千七十八斤八合"
     },
     {
       "field_jp": "麻苧",
-      "parsed": "2877",
-      "raw": "二千八百七十七斤",
+      "parsed": "2,877",
       "unit": "jin",
-      "confidence": "high",
-      "notes": ""
+      "raw": "二千八百七十七斤"
+    },
+    {
+      "field_jp": "雑稅銭",
+      "parsed": "159,796.372",
+      "unit": "kan",
+      "raw": "拾五萬九千七百九十六貫三百七十二文"
     }
   ],
   "satsuma_military": [
     {
       "field_jp": "○鹿兒島藩（書ナラス）",
       "parsed": "書ナラス（非開示 / not disclosed）",
-      "raw": "○鹿兒島藩 書ナラス",
       "unit": "",
-      "confidence": "high",
-      "notes": "Satsuma's ENTIRE Table-8 (military) disclosure is the non-statement 書ナラス ('not written / not specified'). The numeric figures formerly shown here (兵卒人員 1,568 / 士等役員 1,106 / 隊士 464 / councillors 47) belong to the PRECEDING domain 金澤藩 (Kanazawa), whose entry spills onto this page to the RIGHT of the ○鹿兒島藩 marker (read first in right-to-left order). MASTER re-tagged those rows 鹿児島藩→金澤藩 on 2026-05-28 (fix_satsuma_m2_misattribution.py); they are no longer Satsuma's. The ○高知藩 (Tosa) entry follows to the left."
+      "raw": "○鹿兒島藩 書ナラス"
     }
   ],
   "choshu_demographics": [
     {
-      "field_jp": "人口",
-      "parsed": "66463",
-      "raw": "六萬六千四百六十三人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "Population within status-group scope"
-    },
-    {
-      "field_jp": "内 卒族 人口",
-      "parsed": "10362",
-      "raw": "一萬三百六十二人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "EXACT MATCH"
-    },
-    {
-      "field_jp": "内 卒族 戸",
-      "parsed": "3991",
-      "raw": "三千九百九十一戸",
+      "field_jp": "戸數",
+      "parsed": "17,714",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "内 士族 人口",
-      "parsed": "15849",
-      "raw": "一萬五千八百四十九人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "Hansei Ichiran 15,849 vs Tōkei Shūshi 11,589 — different time-point (1870 vs 1872) or scope; Verified vs crop 2026-05-19"
+      "raw": "壹萬七千七百十四戸"
     },
     {
       "field_jp": "内 士族 戸",
-      "parsed": "3000",
-      "raw": "三千戸",
+      "parsed": "3,000",
       "unit": "households",
-      "confidence": "high",
-      "notes": "3,000 shizoku households; consistent with ~11,589 persons at ~3.86 per household"
+      "raw": "三千戸"
     },
     {
-      "field_jp": "内 寺院",
-      "parsed": "1165",
-      "raw": "千百六十五ヶ寺",
-      "unit": "temples",
-      "confidence": "high",
-      "notes": "Plus 4 末庵 (sub-temple cottages) and 5 穢多寺 (eta temples) noted internally"
-    },
-    {
-      "field_jp": "内 山伏",
-      "parsed": "92",
-      "raw": "九十二軒",
+      "field_jp": "内 陪臣",
+      "parsed": "6,157",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "内 盲僧",
-      "parsed": "219",
-      "raw": "二百十九軒",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "六千百五十七戸"
     },
     {
       "field_jp": "内 社家",
       "parsed": "448",
-      "raw": "四百四十八戸",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "四百四十八戸"
     },
     {
-      "field_jp": "内 穢多",
-      "parsed": "2675",
-      "raw": "二千六百七十五軒",
+      "field_jp": "内 末庵",
+      "parsed": "4",
       "unit": "households",
-      "confidence": "high",
-      "notes": "Eta count"
+      "raw": "四軒"
     },
     {
-      "field_jp": "内 茶洗",
-      "parsed": "6",
-      "raw": "六軒",
+      "field_jp": "内 盲僧",
+      "parsed": "219",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "内 陪臣",
-      "parsed": "6457",
-      "raw": "六千四百五十七戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "LARGE baishin count — Chōshū maintained a significant sub-vassal class beyond direct retainers (publishable comparative feature)"
+      "raw": "二百十九軒"
     },
     {
       "field_jp": "内 非人",
       "parsed": "51",
-      "raw": "五十一軒",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "五十一軒"
     },
     {
-      "field_jp": "戸數",
-      "parsed": "17714",
-      "raw": "壹萬七千七百十四戸",
+      "field_jp": "人口",
+      "parsed": "66,463",
+      "unit": "persons",
+      "raw": "六萬六千四百六十三人"
+    },
+    {
+      "field_jp": "内 士族 人口",
+      "parsed": "11,589",
+      "unit": "persons",
+      "raw": "一萬千五百八十九人"
+    },
+    {
+      "field_jp": "内 卒族 人口",
+      "parsed": "10,362",
+      "unit": "persons",
+      "raw": "一萬三百六十二人"
+    },
+    {
+      "field_jp": "内 卒族 戸",
+      "parsed": "3,991",
       "unit": "households",
-      "confidence": "high",
-      "notes": "Hansei Ichiran 17,714 STATUS-class only vs wiki_fuhanken 143,815 including commoners — different scopes, not comparable"
+      "raw": "三千九百九十一戸"
+    },
+    {
+      "field_jp": "内 寺院",
+      "parsed": "1,165",
+      "unit": "temples",
+      "raw": "千百六十五ヶ寺"
+    },
+    {
+      "field_jp": "内 山伏",
+      "parsed": "92",
+      "unit": "households",
+      "raw": "九十二軒"
+    },
+    {
+      "field_jp": "内 茶洗",
+      "parsed": "6",
+      "unit": "households",
+      "raw": "六軒"
+    },
+    {
+      "field_jp": "内 穢多",
+      "parsed": "2,675",
+      "unit": "households",
+      "raw": "二千六百七十五軒"
+    },
+    {
+      "field_jp": "人口 男",
+      "parsed": "36,240",
+      "unit": "persons",
+      "raw": "三萬六千二百四十人"
+    },
+    {
+      "field_jp": "人口 女",
+      "parsed": "30,223",
+      "unit": "persons",
+      "raw": "三萬二百二十三人"
+    },
+    {
+      "field_jp": "内 士族 人口 男",
+      "parsed": "5,829",
+      "unit": "persons",
+      "raw": "五千八百二十九人"
+    },
+    {
+      "field_jp": "内 士族 人口 女",
+      "parsed": "5,760",
+      "unit": "persons",
+      "raw": "五千七百六十人"
+    },
+    {
+      "field_jp": "内 卒族 人口 男",
+      "parsed": "5,567",
+      "unit": "persons",
+      "raw": "五千五百六十七人"
+    },
+    {
+      "field_jp": "内 卒族 人口 女",
+      "parsed": "4,795",
+      "unit": "persons",
+      "raw": "四千七百九十五人"
     }
   ],
   "choshu_kokudaka": [
     {
-      "field_jp": "合高",
-      "parsed": "988004",
-      "raw": "九拾八萬八千四石餘",
+      "field_jp": "草高",
+      "parsed": "369,411",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: NEW ROW added. Page upper_p193_R shows godaka 九拾八萬八千四石餘 = 988,004 koku, the combined post-1868 Yamaguchi-han "
+      "raw": "三拾六萬九千四百拾壹石"
+    },
+    {
+      "field_jp": "外高",
+      "parsed": "618,593",
+      "unit": "koku",
+      "raw": "六拾壹萬八千五百九拾三石餘"
+    },
+    {
+      "field_jp": "合高",
+      "parsed": "988,004",
+      "unit": "koku",
+      "raw": "九拾八萬八千四石餘"
     },
     {
       "field_jp": "外産物 生蠟稅",
       "parsed": "480",
-      "raw": "四百八拾兩",
       "unit": "ryō",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "外高",
-      "parsed": "618593",
-      "raw": "六拾壹萬八千五百九拾三石餘",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: previously parsed as 68,593 (missing 拾 prefix); re-read at upper_p193_R extreme zoom shows 六拾壹萬八千五百九拾三 = 618,"
+      "raw": "四百八拾兩"
     },
     {
       "field_jp": "正租 現米",
-      "parsed": "206910",
-      "raw": "貳拾萬六千九百拾石",
+      "parsed": "206,910",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: NEW ROW. Yamaguchi seiso-genmai = 206,910 koku — equivalent to Tosa's 現米 figure (189,431 koku). This is the m"
+      "raw": "貳拾萬六千九百拾石"
     },
     {
       "field_jp": "正租 錢",
-      "parsed": "116910",
-      "raw": "拾壹萬六千九百拾貫文",
+      "parsed": "116,190",
       "unit": "kan_mon",
-      "confidence": "high",
-      "notes": "6-DOMAIN-AUDIT-FIX 2026-05-14: NEW ROW. Yamaguchi seiso-zeni = 116,910 kan-mon main tax cash. Previously missing from extraction. Read at up"
-    },
-    {
-      "field_jp": "草高",
-      "parsed": "369411",
-      "raw": "三拾六萬九千四百拾壹石",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH; Chōshū omotedaka 369,411 koku"
+      "raw": "拾壹萬六千百九拾貫文"
     },
     {
       "field_jp": "雜稅米",
-      "parsed": "14553",
-      "raw": "壹萬四千五百五拾三石",
+      "parsed": "14,553",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH"
+      "raw": "壹萬四千五百五拾三石"
     },
     {
       "field_jp": "雜稅銀",
       "parsed": "890.86",
-      "raw": "八百九拾貫八百六拾目",
       "unit": "kanme",
-      "confidence": "high",
-      "notes": "Verified vs crop 2026-05-19"
+      "raw": "八百九拾貫八百六拾目"
     }
   ],
   "tosa_kokudaka": [
     {
-      "field_jp": "戸數",
-      "parsed": "93736",
-      "raw": "九萬三千七百三十六戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "Matches existing alt total"
-    },
-    {
-      "field_jp": "戸數 (page 89-L total)",
-      "parsed": "93736",
-      "raw": "九萬三千七百三十六戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "~93,736; within 0.8% of Tōkei Shūshi 94,469"
-    },
-    {
-      "field_jp": "此米",
-      "parsed": "3587",
-      "raw": "三千五百八十七石餘",
+      "field_jp": "草高",
+      "parsed": "495,486",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "Rice-equivalent component"
+      "raw": "四拾九萬五千四百八拾六石餘"
     },
     {
       "field_jp": "現米",
-      "parsed": "189431",
-      "raw": "拾八萬九千四百三十壹石餘",
+      "parsed": "189,431",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "Current rice flow figure"
+      "raw": "拾八萬九千四百三拾壹石餘"
     },
     {
-      "field_jp": "税金",
-      "parsed": "28647",
-      "raw": "貳萬八千六百四拾七兩餘",
-      "unit": "ryō",
-      "confidence": "high",
-      "notes": "Cash component of tax"
+      "field_jp": "諸産物",
+      "parsed": "40+ named products",
+      "unit": "(list)",
+      "raw": "諸紙 砂糖白黑 鶏卵 茶 蜂蜜 漉蜜 蜜蠟 蕨粉 蕨繩 檜繩 松繩 松節 松烟 松脂 楊梅皮 楮草 茅葺 薄緣 吳座 丹波表 近江表 七島表 中次表 疊表 燒物類 茜類 海蘿 凝海藻 艸 鰻鯰 竹大中小 内竹 五倍子 桂根 肉桂 産根茯苓 葉種類 藍蓼藍葉 木藍 烏鰂 楮實"
     },
     {
       "field_jp": "税銀",
-      "parsed": "28697",
-      "raw": "貳萬八千六百九十七貫餘",
+      "parsed": "28,697",
       "unit": "kanme",
-      "confidence": "high",
-      "notes": "Silver component of tax"
+      "raw": "貳萬八千六百九拾七貫餘"
+    },
+    {
+      "field_jp": "税金",
+      "parsed": "28,697",
+      "unit": "ryō",
+      "raw": "貳萬八千六百九拾七兩餘"
+    },
+    {
+      "field_jp": "此米",
+      "parsed": "3,587",
+      "unit": "koku",
+      "raw": "三千五百八拾七石餘"
     },
     {
       "field_jp": "總計",
-      "parsed": "193018",
-      "raw": "拾九萬三千十八石餘",
+      "parsed": "193,018",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH; gendaka equivalent"
+      "raw": "拾九萬三千十八石餘"
     },
     {
-      "field_jp": "草高 (5yr avg 甲子-戊辰)",
-      "parsed": "495486",
-      "raw": "四拾九萬五千四百八拾六石餘",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH with existing"
-    },
-    {
-      "field_jp": "草高 (with 甲子ヨリ戊辰 5ヶ年平均 note)",
-      "parsed": "495486",
-      "raw": "四拾九萬五千四百八十六石餘",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "EXACT MATCH; Agent 7 verified Tosa sōdaka 495,486 koku (Bunshi 甲子 to Boshin 戊辰 5-year avg)"
+      "field_jp": "戸數",
+      "parsed": "93,736",
+      "unit": "households",
+      "raw": "九萬三千七百三十六戸"
     }
   ],
   "tosa_demographics": [
     {
-      "field_jp": "卒族人口",
-      "parsed": "17681",
-      "raw": "壹萬七千六百八拾壹人",
+      "field_jp": "人口",
+      "parsed": "495,936",
       "unit": "persons",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "卒族戸數",
-      "parsed": "3713",
-      "raw": "三千七百十三戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
-    },
-    {
-      "field_jp": "士族人口",
-      "parsed": "30506",
-      "raw": "三萬五百六人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "FOCAL OCR fix 2026-05-28 (user-approved): page upper_p090_R prints 三萬五百六人 = 30,506 (内 男15,138 女15,368 = 30,506, internally consistent), NOT the earlier mis-read 35,068. Reconfirmed vs crop 2026-05-30."
+      "raw": "四拾九萬五千九百三十六人"
     },
     {
       "field_jp": "士族戸數",
-      "parsed": "7269",
-      "raw": "七千二百六十九戸",
+      "parsed": "7,269",
       "unit": "households",
-      "confidence": "high",
-      "notes": "7269 shizoku households"
+      "raw": "七千二百六拾九戸"
+    },
+    {
+      "field_jp": "士族人口",
+      "parsed": "30,506",
+      "unit": "persons",
+      "raw": "三萬五百六人"
+    },
+    {
+      "field_jp": "士族人口 男",
+      "parsed": "15,138",
+      "unit": "persons",
+      "raw": "一萬五千百三十八人"
+    },
+    {
+      "field_jp": "士族人口 女",
+      "parsed": "15,368",
+      "unit": "persons",
+      "raw": "一萬五千三百六十八人"
+    },
+    {
+      "field_jp": "卒族戸數",
+      "parsed": "3,073",
+      "unit": "households",
+      "raw": "三千七拾三戸"
+    },
+    {
+      "field_jp": "卒族人口",
+      "parsed": "17,681",
+      "unit": "persons",
+      "raw": "壹萬七千六百八拾壹人"
+    },
+    {
+      "field_jp": "卒族人口 男",
+      "parsed": "10,954",
+      "unit": "persons",
+      "raw": "一萬九百五拾四人"
+    },
+    {
+      "field_jp": "卒族人口 女",
+      "parsed": "6,727",
+      "unit": "persons",
+      "raw": "六千七百二拾七人"
+    },
+    {
+      "field_jp": "穢多戸數",
+      "parsed": "3,396",
+      "unit": "households",
+      "raw": "三千三百九拾六戸"
+    },
+    {
+      "field_jp": "穢多人口",
+      "parsed": "16,894",
+      "unit": "persons",
+      "raw": "壹萬六千八百九拾四人"
+    },
+    {
+      "field_jp": "穢多人口 男",
+      "parsed": "8,609",
+      "unit": "persons",
+      "raw": "八千六百九人"
+    },
+    {
+      "field_jp": "穢多人口 女",
+      "parsed": "8,285",
+      "unit": "persons",
+      "raw": "八千二百八拾五人"
+    },
+    {
+      "field_jp": "神社",
+      "parsed": "10,000",
+      "unit": "shrines",
+      "raw": "壹萬座"
+    },
+    {
+      "field_jp": "神職修驗等戸數",
+      "parsed": "1,016",
+      "unit": "households",
+      "raw": "壹千零十六戸"
+    },
+    {
+      "field_jp": "神職修驗等人口",
+      "parsed": "4,214",
+      "unit": "persons",
+      "raw": "四千貳百十四人"
+    },
+    {
+      "field_jp": "神職修驗等人口 男",
+      "parsed": "2,096",
+      "unit": "persons",
+      "raw": "二千九拾六人"
+    },
+    {
+      "field_jp": "神職修驗等人口 女",
+      "parsed": "2,118",
+      "unit": "persons",
+      "raw": "二千百十八人"
     },
     {
       "field_jp": "寺院",
       "parsed": "476",
-      "raw": "四百七拾六寺",
       "unit": "temples",
-      "confidence": "high",
-      "notes": "Tosa temples"
+      "raw": "四百七拾六字"
+    },
+    {
+      "field_jp": "僧人口",
+      "parsed": "1,572",
+      "unit": "persons",
+      "raw": "壹千五百七拾二人"
+    },
+    {
+      "field_jp": "僧人口 男",
+      "parsed": "1,247",
+      "unit": "persons",
+      "raw": "千二百四拾七人"
+    },
+    {
+      "field_jp": "僧人口 女",
+      "parsed": "325",
+      "unit": "persons",
+      "raw": "三百二拾五人"
     },
     {
       "field_jp": "常備兵",
-      "parsed": "6760",
-      "raw": "六千七百六十人",
+      "parsed": "6,600",
       "unit": "persons",
-      "confidence": "high",
-      "notes": "Standing army; with 2400 non-常備 = 9000 total"
-    },
-    {
-      "field_jp": "神社",
-      "parsed": "10000",
-      "raw": "壹萬座",
-      "unit": "shrines",
-      "confidence": "high",
-      "notes": "Approx; very large shrine count; Corrected vs crop 2026-05-19: page reads 神社 壹萬座 (10000); chunk had spurious 壹百貳拾三 -> 10123"
-    },
-    {
-      "field_jp": "神職修驗等戸數",
-      "parsed": "1016",
-      "raw": "壹千零十六戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": "Confirmed vs crop 2026-05-19: page reads 壹千零十六戸 (raw had 人, page shows 戸)"
-    },
-    {
-      "field_jp": "穢多戸數",
-      "parsed": "3396",
-      "raw": "三千三百九拾六戸",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "六千六百人"
     },
     {
       "field_jp": "非常兵",
-      "parsed": "2400",
-      "raw": "二千四百人",
+      "parsed": "2,400",
       "unit": "persons",
-      "confidence": "high",
-      "notes": "Emergency reserves"
+      "raw": "二千四百人"
+    },
+    {
+      "field_jp": "兵員合計",
+      "parsed": "9,000",
+      "unit": "persons",
+      "raw": "合 九千人"
     }
   ],
   "saga_kokudaka": [
     {
-      "field_jp": "取納現米",
-      "parsed": "217789.27",
-      "raw": "貮拾壹萬七千七百八拾九石貮斗七升貮合貮勺",
+      "field_jp": "高",
+      "parsed": "211,519.099",
       "unit": "koku",
-      "confidence": "high",
-      "notes": ""
+      "raw": "貳拾壹萬千五百拾九石九升九合"
     },
     {
       "field_jp": "新田高 (外二)",
-      "parsed": "513580.2162",
-      "raw": "五拾壹萬三千五百八拾石貳斗壹升六合貳勺",
+      "parsed": "513,580.2162",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "New field development."
-    },
-    {
-      "field_jp": "本書頁番号",
-      "parsed": "67",
-      "raw": "六十七",
-      "unit": "page",
-      "confidence": "high",
-      "notes": "Book page 67; matches TOC reference at vol 2 lower_p005_R"
-    },
-    {
-      "field_jp": "正租米",
-      "parsed": "213478.27",
-      "raw": "貮拾壹萬三千四百七十八石貮斗七升貮合貮勺",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "Main land tax expressed in rice; substantial for ~360K-koku domain"
+      "raw": "五拾壹萬三千五百八拾石貳斗壹升六合貳勺"
     },
     {
       "field_jp": "貮口合 / 平均",
-      "parsed": "724739.3152",
-      "raw": "七拾貳萬四千七百三拾九石三斗壹升五合貳勺",
+      "parsed": "724,739.3152",
       "unit": "koku",
-      "confidence": "high",
-      "notes": "5-year averaged combined yield. EXACT MATCH Tōkei Shūshi 724,739."
+      "raw": "七拾貳萬四千七百三拾九石三斗壹升五合貳勺"
+    },
+    {
+      "field_jp": "正租米",
+      "parsed": "213,478.27",
+      "unit": "koku",
+      "raw": "貳拾壹萬三千四百七十八石貳斗七升貳合貳勺"
+    },
+    {
+      "field_jp": "但米 (石代)",
+      "parsed": "4,441",
+      "unit": "koku",
+      "raw": "但 米 四千四百四拾壹石代"
     },
     {
       "field_jp": "銀",
       "parsed": "444.1",
-      "raw": "四百四拾四貫百目",
       "unit": "kanme",
-      "confidence": "high",
-      "notes": "Silver tax 444 kanme 100 me"
+      "raw": "四百四拾四貫百目"
+    },
+    {
+      "field_jp": "取納現米",
+      "parsed": "217,789.27",
+      "unit": "koku",
+      "raw": "貳拾壹萬七千七百八拾九石貳斗七升貳合貳勺"
     },
     {
       "field_jp": "雜稅金",
-      "parsed": "10",
-      "raw": "拾兩六合貮勺七才六毛",
+      "parsed": "10.6276",
       "unit": "ryō_approx",
-      "confidence": "medium",
-      "notes": "Surprisingly small cash misc tax (10 ryō); compound units to verify; Verified vs crop 2026-05-19 (stays medium): raw transcription confirmed"
-    },
-    {
-      "field_jp": "高",
-      "parsed": "211519.099",
-      "raw": "貳拾壹萬千五百拾九石九升九合",
-      "unit": "koku",
-      "confidence": "high",
-      "notes": "Internal yield. Verified at high-res lower_p045_kokudaka_zoom.jpg."
+      "raw": "拾兩六合貳勺七才六毛"
     }
   ],
   "saga_demographics": [
     {
-      "field_jp": "僧 (戸)",
-      "parsed": "1032",
-      "raw": "千三拾貮人",
+      "field_jp": "銭",
+      "parsed": "99,831.651",
+      "unit": "kan_mon",
+      "raw": "九萬九千八百三拾壹貫六百五拾壹文"
+    },
+    {
+      "field_jp": "産物",
+      "parsed": "8 products",
+      "unit": "(list)",
+      "raw": "米 92719.4石 茶 500000斤 蠟 800000斤 索麺 1080000斤 酒 13988.8石 石炭 36000000斤 陶器 20000俵餘 摺海老 4550斤"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "68,710",
       "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "六萬八千七百拾軒"
     },
     {
-      "field_jp": "僧 人員",
-      "parsed": "4412",
-      "raw": "四千四百拾貮人",
+      "field_jp": "人員",
+      "parsed": "354,450",
       "unit": "persons",
-      "confidence": "high",
-      "notes": ""
+      "raw": "三拾五萬四千四百五十人"
     },
     {
-      "field_jp": "卒人員",
-      "parsed": "43488",
-      "raw": "四萬三千四百八拾八人",
+      "field_jp": "人員 男",
+      "parsed": "183,517",
       "unit": "persons",
-      "confidence": "high",
-      "notes": "EXACT MATCH with Agent 7"
+      "raw": "十八萬三千五百十七人"
     },
     {
-      "field_jp": "卒戸數",
-      "parsed": "9369",
-      "raw": "九千三百六拾九軒",
+      "field_jp": "人員 女",
+      "parsed": "170,933",
+      "unit": "persons",
+      "raw": "十七萬九百三十三人"
+    },
+    {
+      "field_jp": "士族戸數",
+      "parsed": "5,273",
       "unit": "households",
-      "confidence": "high",
-      "notes": "NEW DATA POINT: 9,369 sotsu households for Saga"
-    },
-    {
-      "field_jp": "士族人員",
-      "parsed": "23823",
-      "raw": "貮萬三千八百二拾三人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "EXACT MATCH with Agent 7's four-domain depth dataset"
-    },
-    {
-      "field_jp": "社人人員",
-      "parsed": "850",
-      "raw": "八百五十人",
-      "unit": "persons",
-      "confidence": "high",
-      "notes": "423 males / 408 females internal split"
-    },
-    {
-      "field_jp": "社人戸數",
-      "parsed": "195",
-      "raw": "百九拾五軒",
-      "unit": "households",
-      "confidence": "high",
-      "notes": ""
+      "raw": "五千貳百七十三軒"
     }
   ],
   "saga_military": [
-    {
-      "field_jp": "兵員 總計",
-      "parsed": "2,972",
-      "unit": "persons",
-      "raw": "六大隊 内譯合計 二千九百七十二人"
-    },
     {
       "field_jp": "六大隊",
       "parsed": "6",
@@ -573,46 +557,306 @@
       "raw": "六大隊"
     },
     {
-      "field_jp": "士官",
-      "parsed": "864",
+      "field_jp": "兵員總計",
+      "parsed": "2,972",
       "unit": "persons",
-      "raw": "士官 八百六十四員"
-    },
-    {
-      "field_jp": "砲士",
-      "parsed": "180",
-      "unit": "persons",
-      "raw": "砲士 百八拾人"
-    },
-    {
-      "field_jp": "兵士",
-      "parsed": "1,440",
-      "unit": "persons",
-      "raw": "兵士 千四百四十人"
-    },
-    {
-      "field_jp": "砲卒",
-      "parsed": "108",
-      "unit": "persons",
-      "raw": "砲卒 百八人"
-    },
-    {
-      "field_jp": "兵卒",
-      "parsed": "260",
-      "unit": "persons",
-      "raw": "兵卒 貳百六十人"
-    },
-    {
-      "field_jp": "樂卒",
-      "parsed": "120",
-      "unit": "persons",
-      "raw": "樂卒 百貳十人"
+      "raw": "内譯 合計 二千九百七十二人"
     },
     {
       "field_jp": "大砲",
       "parsed": "36",
       "unit": "guns",
       "raw": "砲 三十六門"
+    },
+    {
+      "field_jp": "士官",
+      "parsed": "864",
+      "unit": "persons",
+      "raw": "八百六十四員"
+    },
+    {
+      "field_jp": "砲士",
+      "parsed": "180",
+      "unit": "persons",
+      "raw": "百八拾人"
+    },
+    {
+      "field_jp": "兵士",
+      "parsed": "1,440",
+      "unit": "persons",
+      "raw": "千四百四十人"
+    },
+    {
+      "field_jp": "砲卒",
+      "parsed": "108",
+      "unit": "persons",
+      "raw": "百八人"
+    },
+    {
+      "field_jp": "兵卒",
+      "parsed": "260",
+      "unit": "persons",
+      "raw": "貳百六十人"
+    },
+    {
+      "field_jp": "樂卒",
+      "parsed": "120",
+      "unit": "persons",
+      "raw": "百貳十人"
+    }
+  ],
+  "satsuma_demographics": [
+    {
+      "field_jp": "戸數",
+      "parsed": "174,528",
+      "unit": "households",
+      "raw": "拾七萬四千五百廿八戸"
+    },
+    {
+      "field_jp": "人口",
+      "parsed": "896,808",
+      "unit": "persons",
+      "raw": "八拾九萬六千八百八人"
+    },
+    {
+      "field_jp": "人口 男",
+      "parsed": "469,468",
+      "unit": "persons",
+      "raw": "四十六萬九千四百六十八人"
+    },
+    {
+      "field_jp": "人口 女",
+      "parsed": "427,340",
+      "unit": "persons",
+      "raw": "四十二萬七千三百四十人"
+    },
+    {
+      "field_jp": "内 士族戸數",
+      "parsed": "43,119",
+      "unit": "households",
+      "raw": "四萬三千百十九戸"
+    },
+    {
+      "field_jp": "士族 同人口",
+      "parsed": "192,949",
+      "unit": "persons",
+      "raw": "拾九萬二千九百四十九人"
+    },
+    {
+      "field_jp": "士族 男",
+      "parsed": "102,185",
+      "unit": "persons",
+      "raw": "十萬二千百八十五人"
+    },
+    {
+      "field_jp": "士族 女",
+      "parsed": "90,764",
+      "unit": "persons",
+      "raw": "九萬七百六十四人"
+    },
+    {
+      "field_jp": "足輕以下 戸數",
+      "parsed": "107,738",
+      "unit": "households",
+      "raw": "拾萬七千七百三十八戸"
+    },
+    {
+      "field_jp": "足輕以下 人口",
+      "parsed": "579,405",
+      "unit": "persons",
+      "raw": "五十七萬九千四百五人"
+    },
+    {
+      "field_jp": "足輕以下 男",
+      "parsed": "305,447",
+      "unit": "persons",
+      "raw": "三十萬五千四百四十七人"
+    },
+    {
+      "field_jp": "足輕以下 女",
+      "parsed": "273,958",
+      "unit": "persons",
+      "raw": "二十七萬三千九百五十八人"
+    },
+    {
+      "field_jp": "琉球國高税米 現石",
+      "parsed": "8,669.16",
+      "unit": "koku",
+      "raw": "八千六百六十九石壹斗六升"
+    },
+    {
+      "field_jp": "琉球 戸數",
+      "parsed": "13,513",
+      "unit": "households",
+      "raw": "壹萬三千五百十三戸"
+    },
+    {
+      "field_jp": "琉球 人口",
+      "parsed": "72,703",
+      "unit": "persons",
+      "raw": "七萬二千七百三人"
+    },
+    {
+      "field_jp": "琉球 人口 男",
+      "parsed": "44,914",
+      "unit": "persons",
+      "raw": "四萬四千九百十四人"
+    },
+    {
+      "field_jp": "琉球 人口 女",
+      "parsed": "27,789",
+      "unit": "persons",
+      "raw": "二萬七千七百八十九人"
+    },
+    {
+      "field_jp": "琉球 士分以上戸數",
+      "parsed": "10,558",
+      "unit": "households",
+      "raw": "壹萬五百五十八戸"
+    },
+    {
+      "field_jp": "琉球 士分以上人口",
+      "parsed": "51,751",
+      "unit": "persons",
+      "raw": "五萬千七百五拾壹人"
+    },
+    {
+      "field_jp": "琉球 士分以上 男",
+      "parsed": "36,913",
+      "unit": "persons",
+      "raw": "三萬六千九百十三人"
+    },
+    {
+      "field_jp": "琉球 士分以上 女",
+      "parsed": "14,838",
+      "unit": "persons",
+      "raw": "壹萬四千八百三十八人"
+    }
+  ],
+  "choshu_military": [
+    {
+      "field_jp": "権少参事",
+      "parsed": "8",
+      "unit": "persons",
+      "raw": "毛利親信 渡邊伊兵衞 中村文右衞門 藤田與次右衞門 杉楳太郎 正木市太郎 長屋藤兵衞 木梨精一郎"
+    },
+    {
+      "field_jp": "拾七大隊",
+      "parsed": "7,361",
+      "unit": "persons",
+      "raw": "拾七大隊 毎隊四百三十三人"
+    },
+    {
+      "field_jp": "六砲隊有半砲隊",
+      "parsed": "6.5",
+      "unit": "batteries",
+      "raw": "六砲隊 有半砲隊 毎隊八門建制九十三人ニシテ長官共"
+    },
+    {
+      "field_jp": "騎兵一中隊",
+      "parsed": "93",
+      "unit": "persons",
+      "raw": "騎兵 一中隊 長官トモ九十三人"
+    },
+    {
+      "field_jp": "第一丁卯丸",
+      "parsed": "1",
+      "unit": "ship",
+      "raw": "第一丁卯丸 原名ペンタ 木製"
+    },
+    {
+      "field_jp": "第二丁卯丸",
+      "parsed": "1",
+      "unit": "ship",
+      "raw": "第二丁卯丸 原名アソンダ 木製"
+    },
+    {
+      "field_jp": "鳳翔丸",
+      "parsed": "1",
+      "unit": "ship",
+      "raw": "鳳翔丸 原名不詳 木製"
+    },
+    {
+      "field_jp": "乙丑丸",
+      "parsed": "1",
+      "unit": "ship",
+      "raw": "乙丑丸 原名コンチン 木製"
+    }
+  ],
+  "saga_status": [
+    {
+      "field_jp": "士族人員",
+      "parsed": "23,823",
+      "unit": "persons",
+      "raw": "貮萬三千八百二拾三人"
+    },
+    {
+      "field_jp": "卒戸數",
+      "parsed": "9,369",
+      "unit": "households",
+      "raw": "九千三百六拾九軒"
+    },
+    {
+      "field_jp": "卒人員",
+      "parsed": "43,488",
+      "unit": "persons",
+      "raw": "四萬三千四百八拾八人"
+    },
+    {
+      "field_jp": "社人戸數",
+      "parsed": "195",
+      "unit": "households",
+      "raw": "百九拾五軒"
+    },
+    {
+      "field_jp": "社人人員",
+      "parsed": "850",
+      "unit": "persons",
+      "raw": "八百五十人"
+    },
+    {
+      "field_jp": "僧 (戸)",
+      "parsed": "1,032",
+      "unit": "households",
+      "raw": "千三拾貮軒"
+    },
+    {
+      "field_jp": "僧 人員",
+      "parsed": "4,412",
+      "unit": "persons",
+      "raw": "四千四百拾貮人"
+    }
+  ],
+  "tosa_military": [
+    {
+      "field_jp": "知事",
+      "parsed": "山内",
+      "unit": "(name)",
+      "raw": "知事 山内"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "深尾弘人",
+      "unit": "(name)",
+      "raw": "大参事 深尾弘人"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "五藤如山",
+      "unit": "(name)",
+      "raw": "権大参事 五藤如山"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "齋藤彌久馬",
+      "unit": "(name)",
+      "raw": "少参事 齋藤彌久馬"
+    },
+    {
+      "field_jp": "権少参事",
+      "parsed": "権少参事 roster",
+      "unit": "",
+      "raw": "小南五郎 本山只一郎 林亀吉 福岡謙三 片岡健吉 谷干城 ほか"
     }
   ]
 }

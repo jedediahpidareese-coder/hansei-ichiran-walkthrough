@@ -1,6 +1,36 @@
 [
   {
-    "id": "anno-saga_mil-rokudaitai",
+    "id": "anno-saga_military-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事以下書ナラス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事以下（しょうさんじいか）書（か）かず — 記載なし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'From Junior Councillor downward, not written' — Saga disclosed its army in full but withheld the roster of officials below the rank of 少参事 (junior councillor). A selective disclosure, unlike Satsuma's blanket 書ナラス."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事以下書ナラス"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1843,1180,132,900"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_military-01",
     "type": "Annotation",
     "body": [
       {
@@ -13,7 +43,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Six battalions — the top-level structure of Saga's standing army; the 内譯 (breakdown) that follows enumerates the corps that sum to 2,972 personnel."
+        "value": "Six battalions — the top-level structure of Saga's standing army; the 内譯 (breakdown) that follows itemizes the corps summing to 2,972 personnel."
       },
       {
         "purpose": "extracted_value",
@@ -34,7 +64,41 @@
     }
   },
   {
-    "id": "anno-saga_mil-daihou",
+    "id": "anno-saga_military-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内譯 合計 二千九百七十二人（士官864＋砲士180＋兵士1440＋砲卒108＋兵卒260＋樂卒120）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内譯（ないやく）合計 二千九百七十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Breakdown (内譯) total = 2,972 personnel — the sum of the six itemized corps. With 36 cannon, this is the army that overturned the long-held belief that Hansei Ichiran recorded no force for Saga."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,972 personnel"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員總計"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1583,1180,122,1290"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_military-03",
     "type": "Annotation",
     "body": [
       {
@@ -68,7 +132,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-shikan",
+    "id": "anno-saga_military-04",
     "type": "Annotation",
     "body": [
       {
@@ -102,7 +166,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-houshi",
+    "id": "anno-saga_military-05",
     "type": "Annotation",
     "body": [
       {
@@ -136,7 +200,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-heishi",
+    "id": "anno-saga_military-06",
     "type": "Annotation",
     "body": [
       {
@@ -170,7 +234,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-housotsu",
+    "id": "anno-saga_military-07",
     "type": "Annotation",
     "body": [
       {
@@ -204,7 +268,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-heisotsu",
+    "id": "anno-saga_military-08",
     "type": "Annotation",
     "body": [
       {
@@ -238,7 +302,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-gakusotsu",
+    "id": "anno-saga_military-09",
     "type": "Annotation",
     "body": [
       {
@@ -272,7 +336,7 @@
     }
   },
   {
-    "id": "anno-saga_mil-sakura",
+    "id": "anno-saga_military-10",
     "type": "Annotation",
     "body": [
       {
@@ -285,11 +349,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sakura domain (Hotta family, Shimōsa) — a DIFFERENT domain. Its ○ marker begins HERE; everything to its right on this page is the tail of the PREVIOUS entry — Saga. This right-to-left page-spill is exactly why Saga's army went unnoticed (searches used the old-kanji 佐嘉; Table 9 prints 佐賀)."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "— next domain —"
+        "value": "Sakura domain (Hotta family, Shimōsa) — a DIFFERENT domain. Its ○ marker begins HERE; everything to its RIGHT on this page is the tail of the PREVIOUS entry — Saga. This right-to-left page-spill is exactly why Saga's army went unnoticed for years (searches used the old-kanji 佐嘉; the Table-9 fascicle prints 佐賀)."
       },
       {
         "purpose": "identifying",

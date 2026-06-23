@@ -1,0 +1,202 @@
+[
+  {
+    "id": "anno-tosa_military-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○高知藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高知藩（こうちはん）＝土佐藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōchi (Tosa) domain — its Table-8 entry begins here and runs DOWN-LEFT with a full named officer roster. The contrast is the teaching point: on this very page, to the right, Satsuma's entry is the single non-statement 書ナラス, while Tosa discloses governor, councillors, and dozens of named officials."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○高知藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1543,1290,116,600"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 山内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）山内（やまうち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain Governor (chiji) — Yamauchi (山内豊範), Tosa's former daimyo, appointed as the Meiji government's domain governor in the 1869 han-chiji reform."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Yamauchi (governor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1433,2350,116,520"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 深尾弘人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）深尾弘人（ふかお ひろと）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior Councillor (dai-sanji) — Fukao Hiroto, the top administrative official below the governor."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Fukao Hiroto"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1330,2350,118,820"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 五藤如山"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）五藤如山（ごとう じょざん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillor (gon-dai-sanji) — Gotō Jozan."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Gotō Jozan"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1213,2350,116,820"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 齋藤彌久馬"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）齋藤彌久馬（さいとう やくま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (shō-sanji) — Saitō Yakuma."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "Saitō Yakuma"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1083,2350,116,820"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事 小南五郎・本山只一郎・林亀吉・福岡謙三 … 片岡健吉・谷干城 ほか"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）小南五郎ほか — 名簿は次頁（p163左・p164）に続く"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillors (gon-shō-sanji) — a long named roster beginning with Konami Gorō and continuing across the next pages (p163 left / p164). It includes future national figures such as Kataoka Kenkichi and Tani Tateki (谷干城). The roster's 海陸兵員 ('sea-and-land troops') total of 9,000 prints on p164 — the same force shown on the demographics page as 常備兵 6,600 + 非常兵 2,400."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "roster (continues p163L / p164)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:950,2350,116,820"
+      }
+    }
+  }
+]

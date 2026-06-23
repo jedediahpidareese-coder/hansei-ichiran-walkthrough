@@ -19,11 +19,11 @@ let currentPage = 0;
 let currentAnnotations = [];
 let overlaysByField = {};        // field_jp -> overlay element (current page)
 let viewer = null;               // OpenSeadragon instance
-let currentLang = 'transcribing';
+let currentLang = 'modern_jp_reading';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260530osd10';
+const VER = '20260622hi5';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -150,23 +150,26 @@ function renderExtractTable(pageId) {
     tbody.innerHTML = '<tr><td colspan="4" style="color:#9a8d76;text-align:center;padding:22px">No MASTER extract rows for this page.</td></tr>';
     return;
   }
-  // de-duplicate identical value+unit, keeping the shorter (canonical) label
+  // de-duplicate ONLY exact-duplicate rows (same label + value + unit). Distinct fields
+  // that happen to share a value+unit (e.g. four warships each "1 ship") must NOT collapse.
   const seen = new Map();
   allRows.forEach(r => {
-    const k = `${r.parsed}|${r.unit || ''}`;
-    const ex = seen.get(k);
-    if (!ex || r.field_jp.length < ex.field_jp.length) seen.set(k, r);
+    const k = `${normField(r.field_jp)}|${r.parsed}|${r.unit || ''}`;
+    if (!seen.has(k)) seen.set(k, r);
   });
-  const rows = allRows.filter(r => seen.get(`${r.parsed}|${r.unit || ''}`) === r);
+  const rows = [...seen.values()];
   rows.forEach(r => {
     const tr = document.createElement('tr');
     tr.dataset.fieldJp = r.field_jp;
     const gloss = glossary[r.field_jp] || {};
     const hasAnno = !!findAnnotationByField(r.field_jp);
     if (hasAnno) tr.classList.add('has-anno');
+    // 2nd column follows the language toggle: English name, or the modern-JP reading.
+    const col2 = currentLang === 'english_translation' ? (gloss.en || '')
+               : (gloss.furigana || '');
     tr.innerHTML = `
       <td class="field-jp">${renderFieldWithFurigana(r.field_jp)}</td>
-      <td class="field-en">${escapeHtml(gloss.en || '')}</td>
+      <td class="field-en">${escapeHtml(col2)}</td>
       <td class="value">${escapeHtml(r.parsed)}</td>
       <td class="unit">${escapeHtml(r.unit || '')}</td>`;
     tr.addEventListener('mouseenter', () => setActiveField(r.field_jp));
@@ -320,6 +323,7 @@ async function init() {
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('is-active'));
       btn.classList.add('is-active');
       currentLang = btn.dataset.lang;
+      if (pages[currentPage]) renderExtractTable(pages[currentPage].id);
     });
   });
 
