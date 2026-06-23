@@ -1,0 +1,410 @@
+[
+  {
+    "id": "anno-kumamoto_demographics-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八千五拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）男 八千五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former-samurai) — male = 8,050. With 8,000 shizoku females (士族女, to the left), the total shizoku population is ~16,050 — the figure behind Kumamoto's high retainer density (≈111.8 per 1,000 koku)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,050 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2113,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三萬七千貳百拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）男 三万七千二百十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class (lower-samurai) — male = 37,219. Far larger than the shizoku, a broad lower-retainer base."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "37,219 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1984,1098,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八千貳百五拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "從前陪臣（じゅうぜん ばいしん）男 八千二百五十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Former rear-vassals (baishin) — male = 8,259; the sub-vassals of Kumamoto's own retainers."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,259 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "從前陪臣 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1849,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千七百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "両末家（りょうまっけ）士族・卒族 男 千七百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two cadet-house (両末家) shizoku + sotsu — male = 1,700; the retainers of Kumamoto's two branch houses."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,700 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兩末家 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1704,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳拾七萬八千八百四拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "農（のう）男 二十七万八千八百四十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Farmers — male = 278,846, the overwhelming majority of the population (Kumamoto recorded commoners, unlike the status-only registers of some domains)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "278,846 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "農 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1571,1098,114,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹萬八千七百三拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "商（しょう）男 一万八千七百三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Merchants/townsfolk — male = 18,738."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "18,738 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "商 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1445,1098,114,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八百六拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（しゃじん）男 八百六十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel — male = 865."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "865 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1313,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八千人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）女 八千人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku — female = 8,000 (printed within the male-side column block). Shizoku male 8,050 + female 8,000 = 16,050 total."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "8,000 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1179,1098,114,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三千百六拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧侶（そうりょ）男 三千百六十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy — male = 3,167."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,167 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧侶 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1042,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六百八拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "盲人（もうじん）男 六百八十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Blind persons — male = 685."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "685 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "盲人 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:908,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三千四百九拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）男 三千四百九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) — male = 3,495."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "3,495 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:765,1098,114,1120"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女人口 三拾五萬五千七百八拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女人口（じょ じんこう）三十五万五千七百八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total female population = 355,783. With male 361,024 (on the kokudaka page) and the 物寳 3,183, the grand total 人口合 = 719,990 (printed on the facing p184L)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "355,783 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "女人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:633,1098,114,1560"
+      }
+    }
+  }
+]

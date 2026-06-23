@@ -1,0 +1,372 @@
+[
+  {
+    "id": "anno-kumamoto_military-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士隊 二大隊 但隊士四十八員ヲ一小隊トシ六小隊ヲ編テ一大隊トス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士隊（したい）二大隊 — 隊士48員で一小隊、六小隊で一大隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai corps — 2 battalions. Organised as 48 men per platoon × 6 platoons per battalion → 576 men."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "576 persons (2 battalions)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2591,1100,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃隊 四大隊 但シ銃手四十八員ヲ一小隊トシ六小隊ヲ編テ一大隊トス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃隊（じゅうたい）四大隊 — 銃手48員で一小隊、六小隊で一大隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rifle corps — 4 battalions. 48 riflemen per platoon × 6 platoons per battalion → 1,152 men, the largest component."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,152 persons (4 battalions)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2451,1100,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲隊 六隊 但一隊佛製四門四斤半砲砲手四十八人充"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲隊（ほうたい）六隊 — 一隊につき仏製四斤半砲四門・砲手48人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery corps — 6 units, each with four French 4.5-pounder guns and 48 gunners → 288 gunners, 24 guns."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "288 persons / 24 guns"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2311,1100,114,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "船艦"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船艦（せんかん）— 軍艦の部（六隻）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warships — the heading for Kumamoto's six-vessel navy, an unusually large and modern fleet (several foreign-built steamers) for a non-coastal-defence domain."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6 warships"
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2059,1100,114,560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "萬里丸 原名コスモスホワイト 佛製木質（蒸氣）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "万里丸（ばんりまる）原名コスモスホワイト・仏製・木製蒸気船"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Banri-maru — originally 'Cosmos White', a French-built wooden steamer."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 steamer (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "萬里丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1927,1100,114,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "凌雲丸 原名グラナーダ 英國製鐵質蒸氣"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "凌雲丸（りょううんまる）原名グラナーダ・英製・鉄製蒸気船"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryōun-maru — originally 'Granada', a British-built iron steamer."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 steamer (iron)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "凌雲丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1795,1100,114,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "奮迅丸 原名フェリーヤ 鐵質蒸氣 製處不詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "奮迅丸（ふんじんまる）原名フェリーヤ・鉄製蒸気船・製造地不詳"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Funjin-maru — originally 'Felicia', an iron steamer of unrecorded build."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 steamer (iron)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "奮迅丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1651,1100,114,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "風帆船"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "風帆船（ふうはんせん）— 帆船"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A sailing vessel (no steam) — the one non-steamer in the fleet."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 sailing ship"
+      },
+      {
+        "purpose": "identifying",
+        "value": "風帆船"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,1100,114,1100"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神風丸 原名カゴシマ 英國製造木質"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神風丸（しんぷうまる）原名カゴシマ・英製・木造船"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinpū-maru — originally 'Kagoshima', a British-built wooden vessel."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 ship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神風丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1395,1100,114,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "泰運丸 原名コリヤ 亞國製造木質"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "泰運丸（たいうんまる）原名コリヤ・米国製・木造船"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Taiun-maru — originally 'Corea', an American-built (亞國 = USA) wooden vessel."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1 ship (wood)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "泰運丸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1254,1100,114,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○久留米藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "久留米藩（くるめはん）— 有馬家、次の藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kurume domain (Arima house) — a DIFFERENT domain. Its ○ marker begins here; everything to its RIGHT on this page (the corps and the six warships) is the tail of Kumamoto's entry, spilling from the facing p200R."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○久留米藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:983,1300,120,620"
+      }
+    }
+  }
+]

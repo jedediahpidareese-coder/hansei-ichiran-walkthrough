@@ -1,0 +1,308 @@
+[
+  {
+    "id": "anno-kumamoto_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○熊本藩 高五十四萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "熊本藩（くまもとはん）— 細川家。高五十四万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kumamoto (Higo) domain, the Hosokawa house. The marker carries the formal registered rating 高 540,000 koku — but the domain's real assessed yield was far larger (see 草高 786,016 to the left), the gap being new-field development."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "540,000 koku (formal high)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○熊本藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2123,1300,114,900"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 七拾八萬六千拾五石六斗七合壹勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）七十八万六千十五石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sōdaka (real assessed yield) = 786,016 koku — far above the 540,000 formal rating, reflecting extensive new-field reclamation across Higo."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "786,015.67 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1988,1098,114,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但内 貳拾四萬六千拾五石六斗七合壹勺七才（込高新田高）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し内（うち）二十四万六千十五石余 — 込高・新田高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sōdaka, 246,016 koku is 込高/新田高 (incorporated + new-field high) — the reclamation uplift over the formal rating (786,016 − 540,000 ≈ 246,016)."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "246,015.67 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "但内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1851,1098,114,1480"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税 三拾萬四千八百三拾八石壹斗六升四合四勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税（せいぜい）三十万四千八百三十八石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax (seizei) = 304,838 koku — Kumamoto's principal land-tax take in rice."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "304,838.16 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1718,1098,114,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸税 米 七萬三千三百六拾貳石六斗八升貳合貳勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸税（しょぜい）米 七万三千三百六十二石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes in rice = 73,362 koku — the first of Kumamoto's 諸税 (sundry-tax) lines."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "73,362.68 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税 米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1583,1098,114,1300"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鹽 千九百六拾五石四斗六升貳合八勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鹽（しお）千九百六十五石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sundry tax — salt = 1,965 koku-equivalent. Higo's Ariake-coast salt fields."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "1,965.46 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税 鹽"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1450,1098,114,1300"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "櫨實 五十萬三千四百六拾九斤三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "櫨實（はぜのみ）五十万三千四百六十九斤余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sundry tax — sumac/wax-tree berries = 503,469 jin, the raw material for Higo's celebrated mokurō (vegetable wax) industry."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "503,469.3 jin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税 櫨實"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1316,1098,114,1360"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸税 金 貳千六百拾五兩壹分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸税 金（きん）二千六百十五両一分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sundry tax in gold = 2,615 ryō — the cash component of the miscellaneous taxes."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "2,615.1 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税 金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1179,1098,114,1240"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男人口 三拾六萬千貳拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男人口（だん じんこう）三十六万千二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population = 361,024. Kumamoto records the male head-count here on its Table-5 fiscal page; the female count and grand total print on the demographics page."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "361,024 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "男人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1049,1098,114,1240"
+      }
+    }
+  }
+]
