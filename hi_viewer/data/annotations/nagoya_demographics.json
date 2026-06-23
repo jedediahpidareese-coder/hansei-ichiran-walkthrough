@@ -5,19 +5,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "平民戸數 十九萬二千七百七十七軒"
+        "value": "平民戸數 十九萬二千百七拾七軒"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "平民戸数（へいみん こすう）十九万二千七百七十七軒"
+        "value": "平民戸数（へいみん こすう）十九万二千百七十七軒"
       },
       {
         "purpose": "english_translation",
-        "value": "Commoner households = 192,777 — Owari registered its commoner population, unlike status-only registers."
+        "value": "Commoner households = 192,177 — Owari registered its commoner population, unlike status-only registers."
       },
       {
         "purpose": "extracted_value",
-        "value": "192,777 households"
+        "value": "192,177 households"
       },
       {
         "purpose": "identifying",
@@ -29,7 +29,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2083,1080,120,1700"
+        "value": "xywh=pixel:1961,1070,120,1258"
       }
     }
   },
@@ -63,12 +63,46 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1961,1080,120,1500"
+        "value": "xywh=pixel:1824,1150,120,840"
       }
     }
   },
   {
     "id": "anno-nagoya_demographics-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 八百十壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）八百十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest (社家) households = 811 — printed lower in the same column, beneath 内修驗."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "811 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家 軒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1827,2242,114,668"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demographics-03",
     "type": "Annotation",
     "body": [
       {
@@ -97,41 +131,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1824,1080,120,1700"
-      }
-    }
-  },
-  {
-    "id": "anno-nagoya_demographics-03",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "社家 八百十壹軒"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "社家（しゃけ）八百十一軒"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shrine-priest households = 811."
-      },
-      {
-        "purpose": "extracted_value",
-        "value": "811 households"
-      },
-      {
-        "purpose": "identifying",
-        "value": "社家 軒"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p158_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1691,1080,120,1700"
+        "value": "xywh=pixel:1691,1236,120,923"
       }
     }
   },
@@ -165,7 +165,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1556,1080,120,1700"
+        "value": "xywh=pixel:1556,1234,120,673"
       }
     }
   },
@@ -199,7 +199,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1413,1080,120,1900"
+        "value": "xywh=pixel:1413,1233,120,1281"
       }
     }
   },
@@ -233,7 +233,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1468,2520,58,820"
+        "value": "xywh=pixel:1468,2508,58,972"
       }
     }
   },
@@ -267,7 +267,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1393,2520,58,820"
+        "value": "xywh=pixel:1393,2508,58,972"
       }
     }
   },
@@ -301,7 +301,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1274,1080,120,1800"
+        "value": "xywh=pixel:1274,1065,120,1349"
       }
     }
   },
@@ -335,7 +335,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1365,2420,58,820"
+        "value": "xywh=pixel:1365,2408,58,972"
       }
     }
   },
@@ -369,7 +369,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1290,2420,58,820"
+        "value": "xywh=pixel:1290,2408,58,670"
       }
     }
   },
@@ -403,7 +403,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1140,1080,120,1600"
+        "value": "xywh=pixel:1140,1148,120,1176"
       }
     }
   },
@@ -437,7 +437,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1198,2330,66,820"
+        "value": "xywh=pixel:1198,2318,66,760"
       }
     }
   },
@@ -471,7 +471,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1120,2330,66,820"
+        "value": "xywh=pixel:1120,2318,66,641"
       }
     }
   },
@@ -481,15 +481,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "修驗 千百八十三人 （男 六百三十四人 女 五百四十九人）"
+        "value": "修驗 千百八十三人 （男 六百三十九人 女 五百四十四人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "修験（しゅげん）千百八十三人 — 男 634・女 549"
+        "value": "修験（しゅげん）千百八十三人 — 男 639・女 544"
       },
       {
         "purpose": "english_translation",
-        "value": "Shugendō practitioners = 1,183 (男 634 + 女 549 = 1,183, internally consistent ✓)."
+        "value": "Shugendō practitioners = 1,183 (男 639 + 女 544 = 1,183, internally consistent ✓)."
       },
       {
         "purpose": "extracted_value",
@@ -505,7 +505,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1005,1080,120,1600"
+        "value": "xywh=pixel:1005,1236,120,748"
       }
     }
   },
@@ -515,19 +515,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男 六百三十四人"
+        "value": "男 六百三十九人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "男（だん）六百三十四人"
+        "value": "男（だん）六百三十九人"
       },
       {
         "purpose": "english_translation",
-        "value": "Shugendō — male = 634."
+        "value": "Shugendō — male = 639."
       },
       {
         "purpose": "extracted_value",
-        "value": "634 persons"
+        "value": "639 persons"
       },
       {
         "purpose": "identifying",
@@ -539,7 +539,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1060,1990,58,820"
+        "value": "xywh=pixel:1060,1978,58,494"
       }
     }
   },
@@ -549,19 +549,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女 五百四十九人"
+        "value": "女 五百四十四人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女（じょ）五百四十九人"
+        "value": "女（じょ）五百四十四人"
       },
       {
         "purpose": "english_translation",
-        "value": "Shugendō — female = 549."
+        "value": "Shugendō — female = 544."
       },
       {
         "purpose": "extracted_value",
-        "value": "549 persons"
+        "value": "544 persons"
       },
       {
         "purpose": "identifying",
@@ -573,7 +573,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:985,1990,58,820"
+        "value": "xywh=pixel:985,1978,58,661"
       }
     }
   },
@@ -583,15 +583,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "穢多 二千五百九十九人 （男 千三百五十一人 女 千二百四十八人）"
+        "value": "穢多 二千五百九十九人 （男 千三百十一人 女 千二百四十八人）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "穢多（えた）二千五百九十九人 — 男 1,351・女 1,248"
+        "value": "穢多（えた）二千五百九十九人 — 男 1,311・女 1,248"
       },
       {
         "purpose": "english_translation",
-        "value": "Eta (outcaste) population = 2,599 (男 1,351 + 女 1,248 = 2,599, internally consistent ✓) — the population of the 518 eta households."
+        "value": "Eta (outcaste) population = 2,599 as printed — but the male/female sub-figures (男 1,311 + 女 1,248) sum to 2,559, a 40-person arithmetic discrepancy in the source itself (transcribed as printed)."
       },
       {
         "purpose": "extracted_value",
@@ -607,7 +607,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:880,1080,120,1600"
+        "value": "xywh=pixel:880,1234,120,1060"
       }
     }
   },
@@ -617,19 +617,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男 千三百五十一人"
+        "value": "男 千三百十一人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "男（だん）千三百五十一人"
+        "value": "男（だん）千三百十一人"
       },
       {
         "purpose": "english_translation",
-        "value": "Eta population — male = 1,351."
+        "value": "Eta population — male = 1,311."
       },
       {
         "purpose": "extracted_value",
-        "value": "1,351 persons"
+        "value": "1,311 persons"
       },
       {
         "purpose": "identifying",
@@ -641,7 +641,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:935,2300,58,820"
+        "value": "xywh=pixel:935,2298,58,408"
       }
     }
   },
@@ -675,7 +675,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:860,2300,58,820"
+        "value": "xywh=pixel:860,2300,58,407"
       }
     }
   },
@@ -709,7 +709,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:750,1080,120,1600"
+        "value": "xywh=pixel:750,1236,120,756"
       }
     }
   },
@@ -743,7 +743,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:805,2010,58,820"
+        "value": "xywh=pixel:805,1998,58,781"
       }
     }
   },
@@ -777,7 +777,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:730,2010,58,820"
+        "value": "xywh=pixel:730,1998,58,781"
       }
     }
   },
@@ -787,7 +787,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "神社 四千九百七十八社 （以下八行原朱書／平民之内）"
+        "value": "神社 四千九百七十八社"
       },
       {
         "purpose": "modern_jp_reading",
@@ -795,7 +795,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto shrines = 4,978. (A marginal note marks the following eight lines as originally in red ink, within the commoner register.)"
+        "value": "Shinto shrines = 4,978. (The adjacent margin flags the following commoner-register lines.)"
       },
       {
         "purpose": "extracted_value",
@@ -811,7 +811,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:587,1080,120,1500"
+        "value": "xywh=pixel:587,1065,120,928"
       }
     }
   },
@@ -845,7 +845,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:349,1080,120,1500"
+        "value": "xywh=pixel:349,1152,120,1012"
       }
     }
   }
