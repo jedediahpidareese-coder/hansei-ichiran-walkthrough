@@ -19,11 +19,11 @@ let currentPage = 0;
 let currentAnnotations = [];
 let overlaysByField = {};        // field_jp -> overlay element (current page)
 let viewer = null;               // OpenSeadragon instance
-let currentLang = 'modern_jp_reading';
+let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260624hi22';
+const VER = '20260624hi23';
 
 async function loadJson(path) {
   const r = await fetch(path);
