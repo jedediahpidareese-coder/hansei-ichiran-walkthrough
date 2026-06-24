@@ -756,5 +756,35 @@
         "value": "xywh=pixel:446,2233,49,730"
       }
     }
+  },
+  {
+    "id": "anno-satsuma_demographics-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（高知）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二冊（高知）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 2 (Kōchi). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data. It prints （高知）(Kōchi/Tosa) because Satsuma's demographic block overflowed onto the Tosa page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2082,1318,66,575"
+      }
+    }
   }
 ]

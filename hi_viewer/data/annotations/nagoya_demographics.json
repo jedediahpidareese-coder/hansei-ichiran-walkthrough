@@ -882,5 +882,35 @@
         "value": "xywh=pixel:1413,2168,120,656"
       }
     }
+  },
+  {
+    "id": "anno-nagoya_demographics-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四（名古屋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（名古屋）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 4 (Nagoya). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2105,1320,80,645"
+      }
+    }
   }
 ]

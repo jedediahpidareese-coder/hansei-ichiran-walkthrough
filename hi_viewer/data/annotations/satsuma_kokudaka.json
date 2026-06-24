@@ -398,5 +398,35 @@
         "value": "xywh=pixel:964,1174,114,1763"
       }
     }
+  },
+  {
+    "id": "anno-satsuma_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（鹿兒島）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二冊（鹿児島）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 2 (Kagoshima). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p088_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:868,1347,74,629"
+      }
+    }
   }
 ]

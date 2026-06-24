@@ -379,7 +379,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "藩制一覧表第四 （名古屋） 尾州濃州之内今尾藩知事返地高調頓之面"
+        "value": "藩制一覧表第四 （名古屋）"
       },
       {
         "purpose": "modern_jp_reading",
@@ -387,7 +387,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Page header — Domain Survey, fourth fascicle (civil/economic register), Nagoya section, with a sub-note on the Imao-han returned land within Owari/Mino. The printed page number 二百八十七 (287) sits in the bottom margin."
+        "value": "Page running-header (printed vertically in the column-margin band): Domain Survey (藩制一覧表), fourth fascicle (第四 = the civil/economic register), Nagoya section. Boxed to the header column only; the bottom-margin page number 二百八十七 (287) is excluded."
       },
       {
         "purpose": "extracted_value",
@@ -403,7 +403,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:838,1338,84,2125"
+        "value": "xywh=pixel:851,1345,68,620"
       }
     }
   },
@@ -438,6 +438,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:1755,1255,135,2245"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尾州濃州之内今尾藩知事右返地高調帳之面"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尾州・濃州の内、今尾藩知事、右（の高一万石）の返地、高調帳の面（おもて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Split-line note (warichu) attached to the 高 壹萬石 (10,000-koku) figure printed above it: per the land-survey register (高調帳の面) of the territory in Owari and Mino (尾州濃州之内) returned (返地) by the governor of Imao-han (今尾藩知事) — '右' ('as written above/to the right') points back to that 1-man-goku figure. The 10,000 koku is Imao-han land folded into Nagoya/Owari's accounting."
+      },
+      {
+        "purpose": "identifying",
+        "value": "尾州濃州…高調帳之面 (今尾藩返地注)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:952,1517,116,676"
       }
     }
   }

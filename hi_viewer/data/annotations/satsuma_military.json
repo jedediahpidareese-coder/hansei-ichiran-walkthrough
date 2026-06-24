@@ -92,5 +92,35 @@
         "value": "xywh=pixel:1598,1321,99,568"
       }
     }
+  },
+  {
+    "id": "anno-satsuma_military-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（鹿兒島、高知）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八冊（鹿児島・高知）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 8 (Kagoshima, Kochi). This is the printed book/fascicle header in the outer (right) page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from. Fascicle 8 covers both 鹿兒島 (Satsuma) and 高知 (Tosa); this is provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2280,1238,58,752"
+      }
+    }
   }
 ]

@@ -458,5 +458,35 @@
         "value": "xywh=pixel:996,1995,80,595"
       }
     }
+  },
+  {
+    "id": "anno-kumamoto_military-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（久留米）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（久留米）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 9 (Kurume). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data. Fascicle 9 is the officials+military register, consistent with this military page. The header is keyed to Kurume (久留米藩), whose ○ marker begins on this left page; Kumamoto's military/warship columns to the right are the spilled tail of its entry from the facing right page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:884,1246,72,624"
+      }
+    }
   }
 ]

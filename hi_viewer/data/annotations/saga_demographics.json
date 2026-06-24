@@ -236,5 +236,35 @@
         "value": "xywh=pixel:444,958,114,1088"
       }
     }
+  },
+  {
+    "id": "anno-saga_demographics-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（佐嘉）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六冊（佐嘉）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 6 (Saga). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2208,1218,80,585"
+      }
+    }
   }
 ]

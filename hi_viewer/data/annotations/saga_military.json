@@ -364,5 +364,35 @@
         "value": "xywh=pixel:573,1380,96,570"
       }
     }
+  },
+  {
+    "id": "anno-saga_military-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（佐倉）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（佐倉）— 走り頭（版面の柱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 9 (Sakura). This is the printed book/fascicle header in the page margin, identifying which of the nine 藩制一覧表 fascicles this page comes from — provenance, not domain data. The parenthetical domain is 佐倉 (Sakura), the page's lead ○-marked entry (○佐倉藩, anno-10), NOT Saga — even though Saga's army occupies the columns spilling to the right of the Sakura marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p227_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2197,1280,74,585"
+      }
+    }
   }
 ]
