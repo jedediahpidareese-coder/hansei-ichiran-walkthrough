@@ -175,19 +175,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "非人乞丐 千五百三十壹軒 （人口 六千一人 男 二千八百七十三人 女 三千百二十八人）"
+        "value": "非人乞丐 千五百三十壹軒"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "非人・乞丐（ひにん・こつがい）千五百三十一軒 — 人口 6,001（男 2,873・女 3,128）"
+        "value": "非人乞丐（ひにんこつがい）千五百三十一軒"
       },
       {
         "purpose": "english_translation",
-        "value": "Hinin and beggars (非人乞丐) = 1,531 households; population 6,001 (男 2,873 + 女 3,128 = 6,001, internally consistent ✓)."
+        "value": "Non-jin and beggars (hinin, kotsugai) — 1,531 households. The lowest outcaste category; its population total and male/female breakdown are boxed separately below."
       },
       {
         "purpose": "extracted_value",
-        "value": "1,531 households / 6,001 persons"
+        "value": "1,531 households"
       },
       {
         "purpose": "identifying",
@@ -199,7 +199,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1413,1233,120,1281"
+        "value": "xywh=pixel:1413,1233,120,927"
       }
     }
   },
@@ -335,7 +335,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1333,2325,58,608"
+        "value": "xywh=pixel:1341,2325,50,608"
       }
     }
   },
@@ -539,7 +539,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1078,1962,53,504"
+        "value": "xywh=pixel:1084,1962,47,504"
       }
     }
   },
@@ -573,7 +573,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1026,1962,50,502"
+        "value": "xywh=pixel:1026,1962,48,502"
       }
     }
   },
@@ -641,7 +641,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:942,2175,52,460"
+        "value": "xywh=pixel:947,2175,47,460"
       }
     }
   },
@@ -675,7 +675,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:888,2175,52,526"
+        "value": "xywh=pixel:888,2175,49,526"
       }
     }
   },
@@ -743,7 +743,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:808,2127,53,438"
+        "value": "xywh=pixel:813,2127,48,438"
       }
     }
   },
@@ -777,7 +777,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:752,2127,53,646"
+        "value": "xywh=pixel:752,2127,51,646"
       }
     }
   },
@@ -846,6 +846,40 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:349,1152,120,1012"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_demog-hinin-pop",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（人口 六千一人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）六千一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Non-jin / beggar population total = 6,001 persons, printed as a parenthetical within the 非人乞丐 column. The male (2,873) and female (3,128) figures are boxed separately just below."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "6,001 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人乞丐 人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p158_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1413,2168,120,656"
       }
     }
   }
