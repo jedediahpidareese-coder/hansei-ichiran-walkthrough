@@ -29,7 +29,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2540,1408,132,1515"
+        "value": "xywh=pixel:2540,1408,132,1595"
       }
     }
   },
@@ -131,7 +131,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2022,1255,98,1480"
+        "value": "xywh=pixel:2022,1255,98,1507"
       }
     }
   },
@@ -165,7 +165,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1895,1255,100,1995"
+        "value": "xywh=pixel:1895,1255,100,1927"
       }
     }
   },
@@ -199,7 +199,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1635,1180,112,1115"
+        "value": "xywh=pixel:1635,1180,112,1668"
       }
     }
   },
@@ -233,7 +233,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1505,1258,112,1415"
+        "value": "xywh=pixel:1505,1258,112,1511"
       }
     }
   },
@@ -335,7 +335,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1235,1258,105,1315"
+        "value": "xywh=pixel:1235,1258,105,1514"
       }
     }
   },
@@ -369,7 +369,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1078,1198,148,1725"
+        "value": "xywh=pixel:1078,1198,148,1788"
       }
     }
   },
@@ -404,6 +404,40 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:838,1338,84,2125"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹萬三千四百八拾五石壹斗八升七合 山村甚兵衛・毛利源内・千村平右衛門 所務高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万三千四百八十五石余 — 山村甚兵衛・毛利源内・千村平右衛門の所務高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "13,485 koku — a fief jointly administered by three Owari hereditary retainers, Yamamura Jinbei, Mōri Gennai, and Chimura Heiemon (所務高 = administered yield). A semi-autonomous retainer holding, distinct from Ishikawa Tahachirō’s 19,170-koku fief in the column to its right."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "13,485 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "山村・毛利・千村 所務高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1755,1255,135,2245"
       }
     }
   }
