@@ -23,7 +23,7 @@ let currentLang = 'modern_jp_reading';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260623hi21';
+const VER = '20260624hi22';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -209,6 +209,20 @@ function addOverlays() {
     overlaysByField[field] = el;
   });
 }
+/* Re-place every overlay from scratch. OpenSeadragon stores an overlay's location in VIEWPORT
+   coordinates, computed once (via imageToViewportRectangle) at add time. If a page is opened
+   while its container is collapsed to 0/1px — e.g. the viewer was opened in a background tab the
+   browser hasn't laid out yet, or a fast page-switch fired before the first image finished
+   sizing — that conversion resolves against a not-yet-valid viewport and EVERY overlay
+   degenerates to a ~2px box stacked at the origin ("all the highlights vanish"). OSD's own
+   autoResize later fixes the canvas and fires 'resize', but it does NOT recompute the already-
+   stored degenerate overlay locations — so we recompute them here. Idempotent; safe to call
+   repeatedly. */
+function placeOverlays() {
+  if (!viewer || viewer.world.getItemCount() === 0) return;
+  viewer.clearOverlays();
+  addOverlays();
+}
 function zoomToField(fieldJp) {
   const ann = findAnnotationByField(fieldJp);
   if (!ann || !viewer) return;
@@ -310,7 +324,27 @@ async function init() {
     immediateRender: false,
     preserveImageSizeOnResize: true,
   });
-  viewer.addHandler('open', () => addOverlays());
+  // Re-place overlays both when an image opens AND whenever OSD resizes its canvas. The resize
+  // hook is what recovers the "collapsed container" case: if the page opened while the viewer was
+  // 0/1px wide, the overlays were computed against a degenerate viewport; when the container later
+  // gets its real size OSD fires 'resize', and we recompute the overlays at the correct scale.
+  viewer.addHandler('open', placeOverlays);
+  viewer.addHandler('resize', placeOverlays);
+
+  // If the viewer opened while its container was collapsed (0/1px) — e.g. opened in a background
+  // tab the browser hadn't laid out — OSD's drawer canvas stays that size and every overlay stays
+  // degenerate. OSD only re-measures inside its render loop, which is paused while collapsed, so
+  // it doesn't self-correct just from the container growing. Watch the container and, on a real
+  // width change, call forceResize() — the OSD API that re-evaluates the container size, resizes
+  // the canvas, and fires 'resize' (-> placeOverlays recomputes the overlays at the right scale).
+  if (window.ResizeObserver) {
+    const osdEl = document.getElementById('osd');
+    let lastW = osdEl.clientWidth;
+    new ResizeObserver(() => {
+      const w = osdEl.clientWidth;
+      if (w > 2 && w !== lastW) { lastW = w; if (viewer.isOpen()) viewer.forceResize(); }
+    }).observe(osdEl);
+  }
 
   // Click a highlighted column on the page -> open its detail, same as clicking its table row.
   // Use OSD's canvas-click (click-vs-drag aware, fires through OSD's pointer capture) and
