@@ -693,18 +693,18 @@
     {
       "ident": "少参事",
       "crop_path": "crops/kanazawa_military/00_少参事.jpg",
-      "x": 2105,
-      "y": 1710,
-      "w": 125,
-      "h": 290
+      "x": 2155,
+      "y": 1745,
+      "w": 500,
+      "h": 1415
     },
     {
       "ident": "権少参事",
       "crop_path": "crops/kanazawa_military/01_権少参事.jpg",
-      "x": 1480,
-      "y": 2290,
-      "w": 1190,
-      "h": 950
+      "x": 1500,
+      "y": 1745,
+      "w": 615,
+      "h": 1420
     },
     {
       "ident": "步兵 五大隊",
@@ -741,10 +741,10 @@
     {
       "ident": "（原朱）成瀬主税ほか",
       "crop_path": "crops/kanazawa_military/06_原朱_成瀬主税ほか.jpg",
-      "x": 1395,
-      "y": 3300,
-      "w": 205,
-      "h": 295
+      "x": 1310,
+      "y": 3095,
+      "w": 320,
+      "h": 495
     }
   ],
   "kumamoto_demographics": [
@@ -917,6 +917,14 @@
       "y": 1057,
       "w": 114,
       "h": 1006
+    },
+    {
+      "ident": "但内 込高新田高（免・朱書）",
+      "crop_path": "crops/kumamoto_kokudaka/09_但内_込高新田高_免・朱書.jpg",
+      "x": 1697,
+      "y": 3078,
+      "w": 238,
+      "h": 540
     }
   ],
   "kumamoto_military": [
@@ -1007,6 +1015,30 @@
       "y": 1325,
       "w": 120,
       "h": 608
+    },
+    {
+      "ident": "久留米藩 知事",
+      "crop_path": "crops/kumamoto_military/11_久留米藩_知事.jpg",
+      "x": 1148,
+      "y": 994,
+      "w": 78,
+      "h": 572
+    },
+    {
+      "ident": "久留米藩 大参事",
+      "crop_path": "crops/kumamoto_military/12_久留米藩_大参事.jpg",
+      "x": 1004,
+      "y": 994,
+      "w": 86,
+      "h": 572
+    },
+    {
+      "ident": "久留米藩 大参事 氏名（水野正名）",
+      "crop_path": "crops/kumamoto_military/13_久留米藩_大参事_氏名_水野正名.jpg",
+      "x": 996,
+      "y": 1995,
+      "w": 80,
+      "h": 595
     }
   ],
   "nagoya_demographics": [
@@ -1338,9 +1370,9 @@
       "ident": "産物",
       "crop_path": "crops/saga_demographics/01_産物.jpg",
       "x": 863,
-      "y": 820,
-      "w": 1085,
-      "h": 1720
+      "y": 955,
+      "w": 1171,
+      "h": 1375
     },
     {
       "ident": "戸數",
@@ -1682,7 +1714,39 @@
       "x": 1433,
       "y": 1331,
       "w": 120,
-      "h": 837
+      "h": 564
+    },
+    {
+      "ident": "佐倉藩 領地（國郡）",
+      "crop_path": "crops/saga_status/17_佐倉藩_領地_國郡.jpg",
+      "x": 1442,
+      "y": 1900,
+      "w": 110,
+      "h": 950
+    },
+    {
+      "ident": "佐倉藩 高",
+      "crop_path": "crops/saga_status/18_佐倉藩_高.jpg",
+      "x": 1320,
+      "y": 965,
+      "w": 84,
+      "h": 458
+    },
+    {
+      "ident": "佐倉藩 新田高",
+      "crop_path": "crops/saga_status/19_佐倉藩_新田高.jpg",
+      "x": 1183,
+      "y": 1165,
+      "w": 112,
+      "h": 1948
+    },
+    {
+      "ident": "佐倉藩 高合",
+      "crop_path": "crops/saga_status/20_佐倉藩_高合.jpg",
+      "x": 1048,
+      "y": 1088,
+      "w": 84,
+      "h": 1762
     }
   ],
   "satsuma_demographics": [

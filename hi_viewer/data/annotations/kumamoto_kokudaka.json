@@ -304,5 +304,35 @@
         "value": "xywh=pixel:1049,1057,114,1006"
       }
     }
+  },
+  {
+    "id": "anno-kumamoto_kokudaka-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田高 免三ッ八分七八厘貳毛七弗（朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高・新田高（こみだか・しんでんだか）。免（めんりつ）三ッ八分七八厘貳毛七弗 ＝ 約〇・三八七八。朱書（赤インクの書き入れ）。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A red-ink (朱書) marginal note continuing the 但内 column above it. It states that the 但内 figure (246,015.67 koku) is 込高・新田高 — incorporated-high plus new-field-high, i.e. the reclamation uplift booked above the 540,000-koku formal rating — and records the menritsu (assessed land-tax rate) on that uplift as 三ッ八分七八厘貳毛七弗, about 0.3878."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但内 込高新田高（免・朱書）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1697,3078,238,540"
+      }
+    }
   }
 ]

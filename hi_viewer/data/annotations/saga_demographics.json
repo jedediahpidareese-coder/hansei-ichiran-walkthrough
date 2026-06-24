@@ -39,15 +39,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "産物 — 米 九萬貳千七百拾九石四斗・茶 五十萬斤・蠟 八拾萬斤（但塊粉共）・索麺 百八萬斤・酒 壹萬三千九百八拾八石八斗・石炭 三千六百萬斤・陶器 貳萬俵餘・摺海老 四千五百五拾斤（原失：右之品々凡逐年增減有之候）"
+        "value": "産物 — 米 九萬貳千七百拾九石四斗・茶 五十萬斤・蠟 八拾萬斤（但塊粉共）・索麺 百八萬斤・酒 壹萬三千九百八拾八石八斗・石炭 三千六百萬斤・陶器 貳萬俵餘・摺海老 四千五百五十斤（原失：右之品々凡調尤依年增減有之候）"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "産物（さんぶつ）— 当藩の主な産物と数量"
+        "value": "産物（さんぶつ）— 当藩の主な産物と数量。末尾の注記「右の品々おおよそ調べ、もっとも年により増減これ有り候」は、これらの数量が年ごとに増減する旨を記す。"
       },
       {
         "purpose": "english_translation",
-        "value": "Products (sanbutsu), with quantities: rice 92,719 koku; tea 500,000 jin; wax 800,000 jin (incl. lump & powder); sōmen noodles 1,080,000 jin; sake 13,988 koku; coal 36,000,000 jin (Saga's renowned Hizen coalfields); ceramics 20,000+ bales (Arita/Imari porcelain); dried shrimp 4,550 jin. An editorial note records that these amounts fluctuate year to year (逐年增減有之候)."
+        "value": "Products (sanbutsu), with quantities: rice 92,719 koku 4 to; tea 500,000 jin; wax 800,000 jin (incl. lump & powder); somen noodles 1,080,000 jin; sake 13,988 koku 8 to; coal 36,000,000 jin (Hizen coalfields); ceramics 20,000+ bales (Arita/Imari porcelain); dried shrimp 4,550 jin. An editorial note records that the above items, as surveyed, certainly increase and decrease depending on the year (凡調尤依年增減有之候)."
       },
       {
         "purpose": "extracted_value",
@@ -63,7 +63,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:863,820,1085,1720"
+        "value": "xywh=pixel:863,955,1171,1375"
       }
     }
   },

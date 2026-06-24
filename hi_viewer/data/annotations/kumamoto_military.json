@@ -368,5 +368,95 @@
         "value": "xywh=pixel:1233,1325,120,608"
       }
     }
+  },
+  {
+    "id": "anno-kumamoto_military-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) — 1 person. This is the NEXT domain, Kurume-han (久留米藩, an Arima domain in Chikugo); its officials roster begins here, to the LEFT of Kurume's ○ marker. Kumamoto's entry lies entirely to the right of that marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "久留米藩 知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1148,994,78,572"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji) — 1 person, Kurume-han (the next domain); the appointee is named below in the same column (水野正名 / Mizuno Masana). Both heading columns sit left of Kurume's ○ marker, so this is Kurume's roster, not Kumamoto's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "久留米藩 大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1004,994,86,572"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_military-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "水野正名"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "水野正名（みずの まさな）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mizuno Masana — the named appointee to Kurume-han's senior-councillor (大参事) post, sitting in the same column directly below the 大参事 一人 count. Kurume (久留米藩) is the next domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "久留米藩 大参事 氏名（水野正名）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:996,1995,80,595"
+      }
+    }
   }
 ]

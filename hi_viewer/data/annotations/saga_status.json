@@ -553,7 +553,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "The ○佐倉藩 marker begins the NEXT domain, Sakura-han (a Hotta domain in Shimōsa). Everything to its RIGHT (read first) is Saga's; Sakura's own kokudaka (高 110,000 / 新田高 22,941 / 合高 132,941) prints to its LEFT. The ○ marker is the source's domain-boundary signal."
+        "value": "The ○佐倉藩 marker begins the NEXT domain, Sakura-han (a Hotta domain in Shimōsa). Saga's status data prints to the RIGHT of this marker; Sakura's own kokudaka prints to its LEFT (高 110,000 / 新田高 22,941 / 高合 132,941) and its scattered-territory note prints directly below this marker."
       },
       {
         "purpose": "identifying",
@@ -565,7 +565,127 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1433,1331,120,837"
+        "value": "xywh=pixel:1433,1331,120,564"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "下總六郡 常陸二郡 下野二郡 武藏三郡 相模三郡 羽前一郡"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "下総（しもうさ）六郡・常陸（ひたち）二郡・下野（しもつけ）二郡・武蔵（むさし）三郡・相模（さがみ）三郡・羽前（うぜん）一郡"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura-han's pre-abolition holdings by province (國) and district (郡), printed as a warichu note below the ○佐倉藩 marker (three stacked two-column bands; read each band right then left): Shimōsa 6 districts, Hitachi 2, Shimotsuke 2, Musashi 3, Sagami 3, Uzen 1 — 6 provinces, 17 districts total. The Hotta domain's territory was scattered across the Kantō plain plus an outlier in Dewa (Uzen)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "佐倉藩 領地（國郡）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1442,1900,110,950"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 拾壹萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）拾壱万石 = 110,000石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura-han (the NEXT domain, not Saga): base kokudaka 高 = 110,000 koku. A round figure with no sub-koku units, so the column is short."
+      },
+      {
+        "purpose": "identifying",
+        "value": "佐倉藩 高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1320,965,84,458"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 高 貳萬貳千九百四十壹石貳斗六合九勺壹才 ［込高新田／高改出高］"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）高 二万二千九百四十一石二斗六合九勺一才 = 22,941.20691石（小書き：込高新田・高改出高）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura-han (the NEXT domain): newly-developed-field kokudaka, recorded 外 ('in addition to' the base 高) = 22,941.20691 koku. A small 外 qualifier sits beside the 高 title; a two-column warichu footnote (込高新田 / 高改出高) below the value explains this is the new-field koku folded into / revised out of the base figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "佐倉藩 新田高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1183,1165,112,1948"
+      }
+    }
+  },
+  {
+    "id": "anno-saga_status-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高合 拾三萬貳千九百四十壹石貳斗六合九勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高合（たかあわせ）十三万二千九百四十一石二斗六合九勺一才 = 132,941.20691石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sakura-han (the NEXT domain): total kokudaka 高合 = 132,941.20691 koku. Equals base 高 110,000 + new-field 22,941.20691 (arithmetic checks), confirming this is Sakura's grand total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "佐倉藩 高合"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p046_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1048,1088,84,1762"
       }
     }
   }
