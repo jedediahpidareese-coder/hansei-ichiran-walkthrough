@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Junior Councillor (shō-sanji) — the senior of the two junior administrative ranks listed on this half-page. The governor (知事) and the senior councillors (大参事・権大参事), with the ○金澤藩 marker, are on the facing right half (p162R)."
+        "value": "Junior Councillor (shō-sanji). On the facing right half (p162R) this rank is given only as a count — 十一員 (11 members) — and is NOT individually named; the named roster on this half-page is the 権少参事 below. The governor (知事 前田慶寧) and senior councillors (大参事 篠原勘六・権大参事 陸原儀太郎) are named on the facing half."
       },
       {
         "purpose": "extracted_value",
@@ -47,7 +47,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Provisional Junior Councillors (gon-shō-sanji) — a named roster: Honda Shigurehei, Inaba Sukegorō, Niwa Jirō, Shiba Shigeru, Okajima Kitarō, Nakagawa Jinroku, Kitagawa Inosaku, Fuwa Ryōzaburō, and Sawamura Tsunezō. Each name is given with its formal clan name (藤原・源・越智)."
+        "value": "Provisional Junior Councillors (gon-shō-sanji) — the named roster of this rank: Honda Shigurehei, Inaba Sukegorō, Niwa Jirō, Shiba Shigeru, Okajima Kitarō, Nakagawa Jinroku, Kitagawa Inosaku, Fuwa Ryōzaburō, and Sawamura Tsunezō (each with a formal clan name, 藤原・源・越智). The facing right half (p162R) gives this rank's strength as 八員 (8 members) and the 少参事 above it as 十一員 (11) — those counts are summary; only the 権少参事 are individually named here. A red-ink addendum of four more names is appended below."
       },
       {
         "purpose": "extracted_value",
@@ -63,7 +63,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1480,1705,1190,1880"
+        "value": "xywh=pixel:1480,2290,1190,950"
       }
     }
   },
@@ -200,6 +200,40 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:800,1280,115,590"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_military-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）成瀬主税・赤座甚七郎・小幡和平・不破亮三郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱＝朱書）成瀬主税・赤座甚七郎・小幡和平・不破亮三郎 — 権少参事への朱書追加"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Red-ink addendum (原朱 = entered in vermilion in the original manuscript): Naruse Chikara, Akaza Jinshichirō, Obata Wahei, and Fuwa Ryōzaburō — four names appended in red to the 権少参事 (provisional junior councillor) roster. Red-ink entries in Hansei Ichiran typically mark a later correction or addition."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "4 names (red-ink addendum)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）成瀬主税ほか"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1395,3300,205,295"
       }
     }
   }
