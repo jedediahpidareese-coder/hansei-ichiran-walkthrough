@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260626hi27';
+const VER = '20260626hi28';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -66,7 +66,8 @@ function populatePageSelect() {
   pages.forEach((p, i) => {
     const opt = document.createElement('option');
     opt.value = i;
-    opt.textContent = `${p.sequence}. ${p.domain_en} — ${p.page_topic}`;
+    const topic = p.page_topic && p.page_topic.length > 52 ? p.page_topic.slice(0, 50).trimEnd() + '…' : (p.page_topic || '');
+    opt.textContent = `${p.sequence}. ${p.domain_en}${topic ? ' — ' + topic : ''}`;
     sel.appendChild(opt);
   });
 }
