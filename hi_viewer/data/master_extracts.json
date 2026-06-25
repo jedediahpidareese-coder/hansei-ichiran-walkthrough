@@ -1612,5 +1612,595 @@
       "unit": "households",
       "raw": "十五萬七千三百十九戸"
     }
+  ],
+  "tosa_tail_kameoka_opening": [
+    {
+      "field_jp": "戸數",
+      "parsed": "602",
+      "unit": "households",
+      "raw": "戸數 六百二戸 人口"
+    },
+    {
+      "field_jp": "男",
+      "parsed": "1,404",
+      "unit": "persons",
+      "raw": "男 千四百四人"
+    },
+    {
+      "field_jp": "女",
+      "parsed": "1,406",
+      "unit": "persons",
+      "raw": "女 千四百六人"
+    },
+    {
+      "field_jp": "外 士族戸數",
+      "parsed": "50",
+      "unit": "households",
+      "raw": "外 士族戸數 五拾軒 同人口"
+    },
+    {
+      "field_jp": "士族 男",
+      "parsed": "119",
+      "unit": "persons",
+      "raw": "男 百十九人"
+    },
+    {
+      "field_jp": "士族 女",
+      "parsed": "103",
+      "unit": "persons",
+      "raw": "女 百三人"
+    },
+    {
+      "field_jp": "卒族戸數",
+      "parsed": "55",
+      "unit": "households",
+      "raw": "卒族戸數 五拾五軒 同人口"
+    },
+    {
+      "field_jp": "卒族 男",
+      "parsed": "63",
+      "unit": "persons",
+      "raw": "男 六十三人"
+    },
+    {
+      "field_jp": "卒族 女",
+      "parsed": "16",
+      "unit": "persons",
+      "raw": "女 十六人"
+    },
+    {
+      "field_jp": "神社",
+      "parsed": "2",
+      "unit": "shrines",
+      "raw": "神社 二社 社人戸數 二戸 人口"
+    },
+    {
+      "field_jp": "社人 男",
+      "parsed": "3",
+      "unit": "persons",
+      "raw": "男 三人"
+    },
+    {
+      "field_jp": "社人 女",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "女 五人"
+    },
+    {
+      "field_jp": "寺",
+      "parsed": "16",
+      "unit": "temples",
+      "raw": "寺 十六ヶ寺 人口 男 十六人"
+    },
+    {
+      "field_jp": "高",
+      "parsed": "50,000",
+      "unit": "koku",
+      "raw": "高 五萬石"
+    },
+    {
+      "field_jp": "草高",
+      "parsed": "57,204.07",
+      "unit": "koku",
+      "raw": "草高 五萬七千二百四石七升（新田高改出 七千二百四石七升）"
+    },
+    {
+      "field_jp": "正租",
+      "parsed": "24,461.4088",
+      "unit": "koku",
+      "raw": "正租 貳萬四千四百六拾壹石四斗八合八勺"
+    },
+    {
+      "field_jp": "雜稅 米",
+      "parsed": "3,864.3307",
+      "unit": "koku",
+      "raw": "雜稅 米 三千八百六拾四石三斗三升七勺"
+    },
+    {
+      "field_jp": "永",
+      "parsed": "249",
+      "unit": "kan",
+      "raw": "永 貳百四拾九貫六百八文五分六厘"
+    },
+    {
+      "field_jp": "此金",
+      "parsed": "249",
+      "unit": "ryō",
+      "raw": "此金 貳百四拾九兩貳分壹朱 永四拾六文六厘"
+    },
+    {
+      "field_jp": "常備兵",
+      "parsed": "89",
+      "unit": "persons",
+      "raw": "常備兵 八十九人"
+    }
+  ],
+  "nagoya_tax_area": [
+    {
+      "field_jp": "諸引高",
+      "parsed": "766.106",
+      "unit": "koku",
+      "raw": "七百六拾六石壹斗六合 諸引高"
+    },
+    {
+      "field_jp": "残高",
+      "parsed": "9,233.894",
+      "unit": "koku",
+      "raw": "残高 九千貳百三十三石八斗九升四合"
+    },
+    {
+      "field_jp": "租納",
+      "parsed": "2,598.793",
+      "unit": "koku",
+      "raw": "租納 貳千五百九十八石七斗九升三合"
+    },
+    {
+      "field_jp": "此八分出 升数",
+      "parsed": "2,806.696",
+      "unit": "koku",
+      "raw": "此八分出 升数 貳千八百六石六斗九升六合"
+    },
+    {
+      "field_jp": "反別",
+      "parsed": "11,164",
+      "unit": "chō",
+      "raw": "反別 壹萬千百六十四町九反五畝七步"
+    },
+    {
+      "field_jp": "荒地",
+      "parsed": "1,311",
+      "unit": "chō",
+      "raw": "千三百十壹町三反四畝二十四歩 荒地"
+    },
+    {
+      "field_jp": "残反別",
+      "parsed": "8,565",
+      "unit": "chō",
+      "raw": "残反別 八千五百六拾五町八畝五歩四厘"
+    },
+    {
+      "field_jp": "税納",
+      "parsed": "8,969.335",
+      "unit": "koku",
+      "raw": "税納 八千九百六拾九石三斗三升五合"
+    },
+    {
+      "field_jp": "引地",
+      "parsed": "1,288",
+      "unit": "chō",
+      "raw": "千貳百八十八町五反貳畝七歩六厘 引地"
+    }
+  ],
+  "nagoya_kokudaka_demographics": [
+    {
+      "field_jp": "升數",
+      "parsed": "9,686.882",
+      "unit": "koku",
+      "raw": "升數 九千六百八十六石八斗八升貳合"
+    },
+    {
+      "field_jp": "現米",
+      "parsed": "26,294.261",
+      "unit": "koku",
+      "raw": "現米 貳萬六千二百九十四石二斗六升壹合"
+    },
+    {
+      "field_jp": "合現米",
+      "parsed": "320,938.27",
+      "unit": "koku",
+      "raw": "合現米 三拾貳萬九百三拾八石二斗七升"
+    },
+    {
+      "field_jp": "外 高",
+      "parsed": "13,485.187",
+      "unit": "koku",
+      "raw": "外 高壹萬三千四百八十五石壹斗八升七合"
+    },
+    {
+      "field_jp": "租納",
+      "parsed": "3,804.393",
+      "unit": "koku",
+      "raw": "租納 三千八百四石三斗九升三合"
+    },
+    {
+      "field_jp": "升數",
+      "parsed": "4,808.744",
+      "unit": "koku",
+      "raw": "升數 四千八百八石七斗四升四合"
+    },
+    {
+      "field_jp": "高",
+      "parsed": "10,097.5408",
+      "unit": "koku",
+      "raw": "高 壹萬九十七石五斗四升八勺 〔石河太八郎所務高 相分不申候〕"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "8,650",
+      "unit": "households",
+      "raw": "戸數 八千六百五拾軒 内 士族二千五百三十軒 卒六千百二十軒"
+    },
+    {
+      "field_jp": "人員",
+      "parsed": "49,340",
+      "unit": "persons",
+      "raw": "人員 四萬九千三百四十人"
+    },
+    {
+      "field_jp": "内 士族",
+      "parsed": "15,644",
+      "unit": "persons",
+      "raw": "内 士族 一萬五千六百四十四人"
+    },
+    {
+      "field_jp": "士族 男",
+      "parsed": "7,629",
+      "unit": "persons",
+      "raw": "男 七千六百二十九人"
+    },
+    {
+      "field_jp": "士族 女",
+      "parsed": "8,015",
+      "unit": "persons",
+      "raw": "女 八千十五人"
+    },
+    {
+      "field_jp": "卒",
+      "parsed": "33,696",
+      "unit": "persons",
+      "raw": "卒 三萬三千六百九十六人"
+    },
+    {
+      "field_jp": "卒 男",
+      "parsed": "17,844",
+      "unit": "persons",
+      "raw": "男 壹萬七千八百四十四人"
+    },
+    {
+      "field_jp": "卒 女",
+      "parsed": "15,852",
+      "unit": "persons",
+      "raw": "女 壹萬五千八百五十二人"
+    }
+  ],
+  "nagoya_officials": [
+    {
+      "field_jp": "大参事",
+      "parsed": "2",
+      "unit": "persons",
+      "raw": "大参事 二人"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "6",
+      "unit": "persons",
+      "raw": "権大参事 六人"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "少参事 五人"
+    },
+    {
+      "field_jp": "権少参事",
+      "parsed": "11",
+      "unit": "persons",
+      "raw": "権少参事 十一人"
+    },
+    {
+      "field_jp": "士族兵",
+      "parsed": "2,480",
+      "unit": "persons",
+      "raw": "士族兵 二千四百八十人"
+    },
+    {
+      "field_jp": "卒族兵",
+      "parsed": "4,720",
+      "unit": "persons",
+      "raw": "卒族兵 四千七百二十人"
+    }
+  ],
+  "kurume_kokudaka_households": [
+    {
+      "field_jp": "風帆船",
+      "parsed": "2",
+      "unit": "ships",
+      "raw": "二艘 一原カゴシマ 和名神風丸 英製木船 二原コリヤ 和名泰運丸 米製木船"
+    },
+    {
+      "field_jp": "本高",
+      "parsed": "210,000",
+      "unit": "koku",
+      "raw": "本高二十一萬石"
+    },
+    {
+      "field_jp": "草高",
+      "parsed": "366,271.71",
+      "unit": "koku",
+      "raw": "草高 三拾六萬六千貳百七拾壹石七斗一升 新田高改共"
+    },
+    {
+      "field_jp": "正税",
+      "parsed": "117,279.93245",
+      "unit": "koku",
+      "raw": "正税 拾壹萬七千貳百七拾九石九斗三升貳合四勺五才"
+    },
+    {
+      "field_jp": "雜稅",
+      "parsed": "72,685",
+      "unit": "kan",
+      "raw": "雑税 七萬貳千六百八拾五貫六百七拾九文"
+    },
+    {
+      "field_jp": "内 産物税",
+      "parsed": "8,551",
+      "unit": "kan",
+      "raw": "内 産物税 八千五百五拾壹貫貳拾六文"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "50,037",
+      "unit": "households",
+      "raw": "戸數 五萬○三拾七軒"
+    },
+    {
+      "field_jp": "内 士族",
+      "parsed": "948",
+      "unit": "households",
+      "raw": "内 士族九百四十八戸 寺院二百四十七ヶ寺 卒二千三百八十三戸 穢多四百二十二軒 社人二百五十五… 非人五十五軒"
+    },
+    {
+      "field_jp": "支配地戸數",
+      "parsed": "45,727",
+      "unit": "households",
+      "raw": "支配地戸數 四萬五千七百二十七戸 但シ寺院…"
+    }
+  ],
+  "tsurumaki_kokudaka_open": [
+    {
+      "field_jp": "草高",
+      "parsed": "19,909.47325",
+      "unit": "koku",
+      "raw": "草高壹萬九千九百九石四斗七升三合貳勺五才込高共"
+    },
+    {
+      "field_jp": "正租米",
+      "parsed": "8,895.8543",
+      "unit": "koku",
+      "raw": "正租米八千八百九拾五石八斗五升四合三勺"
+    },
+    {
+      "field_jp": "永",
+      "parsed": "346",
+      "unit": "kan",
+      "raw": "永三百四拾六貫八百四拾四文壹分六厘"
+    },
+    {
+      "field_jp": "雜稅",
+      "parsed": "110",
+      "unit": "kan",
+      "raw": "雜稅永百拾貫八百七拾文五分四厘"
+    },
+    {
+      "field_jp": "受領高",
+      "parsed": "25.2",
+      "unit": "koku",
+      "raw": "○受領高貳拾五石貳斗 二ヶ寺"
+    },
+    {
+      "field_jp": "正租",
+      "parsed": "4.1",
+      "unit": "koku",
+      "raw": "正租四石壹斗ト永壹貫七百八拾貳文"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "4,757",
+      "unit": "households",
+      "raw": "戸數四千七百五拾七戸"
+    },
+    {
+      "field_jp": "合",
+      "parsed": "737",
+      "unit": "persons",
+      "raw": "合七百三十七人）"
+    },
+    {
+      "field_jp": "先進隊",
+      "parsed": "212",
+      "unit": "persons",
+      "raw": "先進隊 二百十二人 役員廿四人 ／ 砲隊 三十人 附屬廿人 外二八人"
+    },
+    {
+      "field_jp": "振武隊",
+      "parsed": "169",
+      "unit": "persons",
+      "raw": "（振武隊 百六十九人 役員廿人 ／ 壯進隊 二百廿四人 役員二十二人"
+    }
+  ],
+  "tsurumaki_officials": [
+    {
+      "field_jp": "大参事",
+      "parsed": "2",
+      "unit": "persons",
+      "raw": "大参事 二人 奥山脩・伏谷惇"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "4",
+      "unit": "persons",
+      "raw": "権大参事 四人 多川弘・近藤寶・安部井尚"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "2",
+      "unit": "persons",
+      "raw": "少参事 二人 坂主靜（公議人）・寺田豊哉"
+    },
+    {
+      "field_jp": "権少参事",
+      "parsed": "4",
+      "unit": "persons",
+      "raw": "権少参事 四人 山口均・佐藤想内・小出隣・屋代長"
+    },
+    {
+      "field_jp": "兵隊",
+      "parsed": "739",
+      "unit": "persons",
+      "raw": "兵隊 七百三十九人"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "2",
+      "unit": "persons",
+      "raw": "大参事 二人 荒木左膳・豊田謙蔵"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "権大参事 五人 井上八郎右衛門・本田新平・山上左仲・佐久間丈右衛門"
+    }
+  ],
+  "tsurumaki_military": [
+    {
+      "field_jp": "兵隊",
+      "parsed": "120",
+      "unit": "persons",
+      "raw": "兵隊 百二十人"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "少参事 一人"
+    },
+    {
+      "field_jp": "權少参事",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "権少参事 五人"
+    }
+  ],
+  "nakatsu_taxes_demographics": [
+    {
+      "field_jp": "金",
+      "parsed": "182",
+      "unit": "ryō",
+      "raw": "金百八拾貳兩永八百七拾七文"
+    },
+    {
+      "field_jp": "雜税 同",
+      "parsed": "20,279",
+      "unit": "ryō",
+      "raw": "同貳萬貳百七拾九兩永六百五拾文"
+    },
+    {
+      "field_jp": "雜税 米",
+      "parsed": "294.19492",
+      "unit": "koku",
+      "raw": "米貳百九拾四石壹斗九升四合九勺貳才"
+    },
+    {
+      "field_jp": "雜税 金",
+      "parsed": "55",
+      "unit": "ryō",
+      "raw": "金五拾五兩永六百六拾九文"
+    },
+    {
+      "field_jp": "雜税 同",
+      "parsed": "685",
+      "unit": "ryō",
+      "raw": "同六百八拾五兩永三百五拾文"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "20,767",
+      "unit": "households",
+      "raw": "戸數 貳萬七百六拾七軒"
+    },
+    {
+      "field_jp": "人員",
+      "parsed": "98,542",
+      "unit": "persons",
+      "raw": "人員 九萬八千五百四拾貳人"
+    },
+    {
+      "field_jp": "内 士卒雜人共",
+      "parsed": "1,523",
+      "unit": "households",
+      "raw": "士卒雜人共 千五百貳拾三軒"
+    },
+    {
+      "field_jp": "内 士卒雜人共 人員",
+      "parsed": "7,133",
+      "unit": "persons",
+      "raw": "同人員 七千百三十三人"
+    },
+    {
+      "field_jp": "内 士卒雜人共 女",
+      "parsed": "3,078",
+      "unit": "persons",
+      "raw": "女三千七十八人"
+    },
+    {
+      "field_jp": "内 士卒雜人共 男",
+      "parsed": "4,055",
+      "unit": "persons",
+      "raw": "男四千五十五人"
+    },
+    {
+      "field_jp": "内 社家",
+      "parsed": "170",
+      "unit": "households",
+      "raw": "社家 百七十軒 同人員 九百五十六人 男五百貳拾貳人 女四百三十四人"
+    },
+    {
+      "field_jp": "内 寺院",
+      "parsed": "227",
+      "unit": "temples",
+      "raw": "寺院 二百貳拾七寺 同人員 九百五人 男五百七十八人 女三百二十七人"
+    },
+    {
+      "field_jp": "内 神社",
+      "parsed": "287",
+      "unit": "shrines",
+      "raw": "神社 二百八十七軒"
+    }
+  ],
+  "nakatsu_officials_military": [
+    {
+      "field_jp": "官員",
+      "parsed": "",
+      "unit": "",
+      "raw": "官員 不詳"
+    },
+    {
+      "field_jp": "兵隊",
+      "parsed": "1,059",
+      "unit": "persons",
+      "raw": "兵隊 士千五十九人 卒八百七十八人"
+    }
   ]
 }
