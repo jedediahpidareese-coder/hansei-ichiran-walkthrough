@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-nagoya_kokudaka_demographics-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四 （名古屋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（名古屋藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer left margin (provenance, not data): Domain Survey, fourth fascicle (the civil/economic register), Nagoya section. Header ink measured x867-928, y1348-1958 — box x859-936/y1340-1966 fits cleanly. The printed page number 二百八十九 (289) is verified in the bottom margin (二百八十九, glyphs y3200-3440)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header — 藩制一覧表第四 (Nagoya)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:859,1340,77,626"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此八分出"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の八分出（このはちぶだし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading-note at top right: 'of this, the eight-tenths (80%) portion is paid out.' Qualifies the 升數 levy figure in the column to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 此八分出 (levy note, right)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2598,1276,89,335"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "升數 九千六百八十六石八斗八升貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "升數（しょうすう）九千六百八十六石八斗八升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Levy / assessed measure (shōsū): 9,686 koku 8 to 8 sho 2 go — the headline levied amount of the right-hand revenue block, to which the 此八分出 note applies."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 升數 (levy total, 9,686 koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2447,1275,100,1339"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米 貳萬六千二百九十四石二斗六升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米（げんまい）二万六千二百九十四石二斗六升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current (net) rice — genmai: 26,294 koku 2 to 6 sho 1 go. Header confirmed as 現+米 (the 現 sits at y~1145, above the boxed range, but the column identity is unambiguous)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 現米 (current rice, 26,294 koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2307,1242,108,1369"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合現米 三拾貳萬九百三拾八石二斗七升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合現米（あわせてげんまい）三十二万九百三十八石二斗七升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined current rice (gō-genmai): 320,938 koku 2 to 7 sho — the domain-wide total net rice and the largest value on the page. Header re-verified at the very top as three glyphs 合/現/米."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 合現米 (combined current rice, 320,938 koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2172,1242,111,1285"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 高壹萬三千四百八十五石壹斗八升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）高一万三千四百八十五石一斗八升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "An additional ('外', over and above the main figure) kokudaka of 13,485 koku 1 to 8 sho 7 go."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 外高 13,485 koku (Kiso stewards' administered kokudaka)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2033,1263,124,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸産物及雑税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸産物及び雑税（しょさんぶつおよびざつぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Section header 'various products and miscellaneous taxes,' set lower in the 現米/合現米 column run as a forward-reference label. A label, not a numeric value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸産物及雑税 (products & misc-tax section header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2292,2704,89,492"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "租納 三千八百四石三斗九升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "租納（そのう）三千八百四石三斗九升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax delivered / rent paid in (sonō): 3,804 koku 3 to 9 sho 3 go — top line of the second (Ishikawa) sub-fief sub-block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 租納 3,804 koku (Ishikawa sub-block)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1907,1348,100,1169"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此八分出"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の八分出（このはちぶだし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Repeated heading-note 'of this, the eight-tenths (80%) is paid out,' qualifying the 升數 figure of the second (Ishikawa) sub-block to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 此八分出 (levy note, Ishikawa sub-block)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1787,1350,83,330"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "升數 四千八百八石七斗四升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "升數（しょうすう）四千八百八石七斗四升四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Levy / assessed measure for the second sub-block: 4,808 koku 7 to 4 sho 4 go."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 升數 4,808 koku (Ishikawa sub-block)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1642,1344,90,1091"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 壹萬九十七石五斗四升八勺 〔石河太八郎所務高 相分不申候〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）一万九十七石五斗四升八勺 —（石河太八郎の所務高、相分り申さず候）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kokudaka of 10,097 koku 5 to 4 sho 8 shaku administered by Ishikawa Tahachirō (石河太八郎所務高). A two-line warigaki gloss '相分不申候' states the internal breakdown is not reported, so only this aggregate is given."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 高 10,097 koku (Ishikawa Tahachiro administered)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1492,1090,110,1720"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 八千六百五拾軒 内 士族二千五百三十軒 卒六千百二十軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸數（こすう）八千六百五十軒 — 内訳 士族二千五百三十軒・卒六千百二十軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household count: 8,650 households = 2,530 shizoku + 6,120 sotsu. Sub-figures sum exactly: 2,530 + 6,120 = 8,650."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 戸數 8,650 households (士族2,530 / 卒6,120)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1347,1257,125,1607"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 四萬九千三百四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）四万九千三百四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total retainer-class population: 49,340 people = shizoku 15,644 + sotsu 33,696 (sums exactly)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 人員 49,340 (total population)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1242,1256,100,1004"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 士族 一萬五千六百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 士族（しぞく）一万五千六百四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the population, the shizoku component: 15,644 people. M/F split below: 男 7,629 + 女 8,015 = 15,644."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 内士族 15,644 (total)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1083,1165,124,1210"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 七千六百二十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）七千六百二十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 7,629. Right sub-column of the 士族 pair (8 glyphs, runs to y~2954)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 士族 男 7,629"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1140,2360,62,595"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 八千十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）八千十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 8,015. Left sub-column of the 士族 pair (only 6 glyphs); 7,629 + 8,015 = 15,644."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 士族 女 8,015"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1086,2360,58,400"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒 三萬三千六百九十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ）三万三千六百九十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The sotsu population component: 33,696 people. M/F split below: 男 17,844 + 女 15,852 = 33,696."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 卒 33,696 (total)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:945,1255,122,1117"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 壹萬七千八百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）一万七千八百四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 17,844. Right sub-column of the 卒 pair (9 glyphs, runs to y~3088)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 卒 男 17,844"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:980,2358,72,730"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 壹萬五千八百五十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）一万五千八百五十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 15,852. Left sub-column of the 卒 pair (9 glyphs, runs to y~3088); 17,844 + 15,852 = 33,696 checks."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 卒 女 15,852"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:928,2358,58,730"
+      }
+    }
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-nagoya_officials-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九 （鶴田、名古屋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（鶴田藩・名古屋藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer (right) margin: Domain Survey table, ninth fascicle (officials-and-military register), covering the Tsuruta and Nagoya sections. Provenance, not data. The printed page number 三百六十二 (362) sits lower in this same outer margin (x2154-2203, y3143-3384). Box widened left to x2062 to enclose the full glyph column (ink x2062-2212, y1292-2035) without clipping; the vertical rule at ~x2050 is the page frame, excluded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header (provenance)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2062,1290,152,750"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "校正者曰 重複ナルモ姓名記載ニ付省略セス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "校正者曰く、重複なるも姓名の記載につき省略せず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Proofreader's editorial note (5 vertical sub-columns, read right-to-left): （校正者曰｜重複ナルモ｜姓名記載ニ｜付省略セ｜ス）. 'The proofreader states: although duplicated, since the personal names are recorded, [they are] not abbreviated.' Verified glyph-by-glyph; ink bbox x1698-1960, y686-937."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) proofreader's note"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1690,682,278,254"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鶴田藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○鶴田藩（つるたはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker for Tsuruta (鶴田藩, Hizen) — the maru plus 鶴/田/藩 read top-to-bottom. Crane-domain disambiguation confirmed at high zoom: this is 鶴田 (Tsuruta), NOT 鶴舞 (Tsurumai) or 鶴牧 (Tsurumaki). Ink bbox x2013-2103, y1376-1919."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) boundary marker ○鶴田藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2005,1370,105,555"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsuruta rank heading: Senior Councillor (dai-sanji), atop the rightmost Tsuruta name column. Ink x1888-1956, y1044-1272."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) 大参事 heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1880,1035,83,300"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsuruta rank heading: Provisional Senior Councillor (gon-dai-sanji). Ink x1752-1819."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) 権大参事 heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1745,1035,82,300"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsuruta rank heading: Junior Councillor (sho-sanji). Ink x1615-1683."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) 少参事 heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1608,1035,83,300"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsuruta rank heading: Provisional Junior Councillor (gon-sho-sanji), the leftmost of Tsuruta's four rank columns; note the wide gap (x1415-1615) to its right before 少参事. Ink x1346-1415."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) 権少参事 heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1340,1035,82,300"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尾關秀／伊藤三郎・野島亨／河鯔新・寺田與／河村弘・岡尾靖／岡村郡太・奥津實"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鶴田藩の役人名（各列に上下二名）— 尾關秀／伊藤三郎、野島亨／河鯔新、寺田與／河村弘、岡尾靖／岡村郡太、奥津實"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsuruta's five named-appointee columns under the four rank headings, each column carrying two stacked names (the duplication the proofreader flagged). Ink bbox x1336-1948, y2052-3545 — the names begin at y~2052, with ~450px of blank space above (between the headings at y~1325 and the first name), so the box starts at the name ink, not the heading band. Several given-name glyphs are abraded; readings approximate."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) appointee-name columns"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1330,1995,625,1565"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "服部傳／伊藤篤歳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "服部傳（はっとり でん）／伊藤篤歳（いとう あつとし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The leftmost Tsuruta name column, 服部傳 over 伊藤篤歳. It prints to the RIGHT of the ○名古屋藩 boundary marker, so by HI layout it belongs to the PREVIOUS domain (Tsuruta), NOT to Nagoya — an official's name overflowing past the next domain's marker. Ink bbox x1207-1275, y2057-3543; box tightened down from the old y1545 (which sat in ~500px of whitespace above the names)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tsuruta) 服部傳 name column (right of Nagoya marker)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1200,2050,82,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○名古屋藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○名古屋藩（なごやはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker for Nagoya (Owari-Tokugawa): ○名古屋藩 read top-to-bottom (○/名/古/屋/藩). Ink bbox x1065-1151, y1384-1973. Everything LEFT of this marker is Nagoya; the 服部傳 column immediately to its right is Tsuruta's tail."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya boundary marker ○名古屋藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1058,1378,100,600"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya — Senior Councillors (dai-sanji): 2 men. Value 二人 verified digit-by-digit. Ink x943-1012, y1046-1610 (heading 大参事 top, 二人 below). Nagoya's officials are headcounts only, no names."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 大参事 二人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:936,1040,83,578"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya — Provisional Senior Councillors (gon-dai-sanji): 6 men. Value 六人 verified. Ink x808-879, y1045-1611."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 権大参事 六人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:802,1040,83,578"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya — Junior Councillors (sho-sanji): 5 men. Value 五人 verified. Ink x673-743, y1049-1614."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 少参事 五人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:667,1042,83,578"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事 十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya — Provisional Junior Councillors (gon-sho-sanji): 11 men. Value 十一人 verified (this count band runs lower, to y~1702). Ink x539-606, y1049-1702. Leftmost of Nagoya's four rank columns."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 権少参事 十一人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:533,1043,79,666"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya military-section heading: 兵隊 (troops), two glyphs 兵 over 隊, sitting above the two self-labelled troop columns to its left/below. Confirmed present on the scan at ink bbox x410-470, y1047-1195 (it is NOT absent). It is the parent heading over 士族兵 and 卒族兵; those two columns are separately boxed with their own labels and values."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 兵隊 (military heading)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:406,1042,70,160"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族兵 二千四百八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族兵（しぞくへい）二千四百八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya troops — shizoku (samurai-class) soldiers: 2,480 men (二千四百八十人, verified digit-by-digit: 二・千・四・百・八・十・人). The RIGHT of the two side-by-side troop columns under the 兵隊 heading. Self-labelled column (士族兵 title atop its own value); the 兵隊 parent heading is a separate box. Ink bbox x438-488, y1387-2051; shares its top with 卒族兵."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 士族兵 (shizoku troops)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:433,1380,62,680"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_officials-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族兵 四千七百二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族兵（そつぞくへい）四千七百二十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nagoya troops — sotsu (foot-soldier-class) soldiers: 4,720 men (四千七百二十人, verified digit-by-digit: 四・千・七・百・二・十・人). The LEFT of the two troop columns; self-labelled (卒族兵 title atop its value). With shizoku 2,480 the total is 7,200. Ink bbox x386-444, y1385-2051; shares its top with 士族兵."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 卒族兵 (sotsu troops)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p193_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:380,1378,66,680"
+      }
+    }
+  }
+]

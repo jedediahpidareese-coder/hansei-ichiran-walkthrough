@@ -1,0 +1,422 @@
+[
+  {
+    "id": "anno-tsurumaki_kokudaka_open-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四 （鶴牧）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（鶴牧藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer margin: Domain Survey (Hansei Ichiran), fourth fascicle (the civil / economic register), Tsurumaki section. Provenance, not data. Verified ink x850-905, y1319-1873. The printed page number 二百八十五 (285) sits separately in the bottom margin at y~3165-3400."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header (Table 4, Tsurumaki)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:848,1310,64,575"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高壹萬九千九百九石四斗七升三合貳勺五才込高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一万九千九百九石四斗七升二勺五才 ＝ 19,909.7325 石／込高共（こみだかとも）＝ 込高を含む"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (gross assessed yield) of 19,909.7325 koku. The proposer omitted the trailing two-character note 込高共 (komidaka-tomo, 'inclusive of incorporated/added yield'), which sits at the very bottom of the same column (y~2760-2930) and qualifies the figure as komidaka-inclusive. The box already encloses it (bottom y2946); only the transcription was short."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 草高 (kusadaka)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2010,1066,116,1880"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "甲子ヨリ戊辰マテ 五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子（こうし＝元治元年・1864）より戊辰（ぼしん＝慶応四／明治元年・1868）まで五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Qualifier on the kusadaka figure: a five-year average covering Kōshi (1864) through Boshin (1868). The transcribing field misprinted the cyclical-year glyph as 戌 (inu); the scan shows 戊 (the enclosure has no interior stroke), i.e. 戊辰 = Boshin, exactly as the proposer's own modern reading already states."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki kusadaka 5-year-average note"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1884,1148,112,748"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米八千八百九拾五石八斗五升四合三勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）八千八百九十五石八斗五升四合三勺 ＝ 8,895.8543 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main land tax in rice (shōso-mai): 8,895.8543 koku, not 8,809.8543. The proposer read 九 then jumped straight to 石, dropping the 拾五 (95): the scan plainly shows 八千八百九拾五石 (y~1740-1900: 九/拾/五/石). Against the 19,909.7 koku kusadaka this is a ~45% tax take. Sub-koku 八斗五升四合三勺 confirmed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 正租米 (main rice tax)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1744,1152,98,1585"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永三百四拾六貫八百四拾四文壹分六厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）三百四十六貫八百四十四文一分六厘 ＝ 346貫844文1分6厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash (ei-sen) portion of the main tax: 346 kan 844 mon 1 bu 6 rin. Every glyph (三百四拾六貫 / 八百四拾四文 / 壹分六厘) verified against the scan; ink y1321-2728 inside the box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki main tax — cash (永) component"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1609,1316,103,1418"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅永百拾貫八百七拾文五分四厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）永 百十貫八百七十文五分四厘 ＝ 110貫870文5分4厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (zatsuzei), in cash (ei): 110 kan 870 mon 5 bu 4 rin. Glyphs 雜稅永/百拾貫/八百七拾文/五分四厘 all verified; ink y1150-2386 inside the box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 雜稅 (miscellaneous tax)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1488,1145,97,1247"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○受領高貳拾五石貳斗 二ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○受領高（じゅりょうだか）二十五石二斗 ／ 二ヶ寺（にかでら）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A sub-section bullet (the open circle here is an in-entry divider, NOT a domain boundary, since it lies left of the 鶴牧藩 marker in Tsurumaki's own columns): juryōdaka (received/granted koku) of 25.2 koku, annotated 二ヶ寺 (two temples), i.e. revenue assigned to two temple establishments within the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki ○受領高 (received koku, temple lands)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1344,1144,109,1117"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租四石壹斗ト永壹貫七百八拾貳文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）四石一斗 と 永一貫七百八十二文 ＝ 4.1石 ＋ 1貫782文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The tax attached to the 25.2-koku received (temple) holding: main tax of 4.1 koku plus a cash (ei) amount of 1 kan 782 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki temple-land tax (正租 + 永)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1076,844,99,1798"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small qualifier: the received-koku / temple-tax figures are likewise reported as a five-year average. Glyphs 五ヶ年平均 verified; ink y1230-1620 inside the box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki received-koku 5-year-average note"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1230,1230,80,404"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數四千七百五拾七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）四千七百五十七戸 ＝ 4,757 戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household count for Tsurumaki domain: 4,757 households (ko). Digits 四千七百五拾七 verified; ink y1057-1880 inside the box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 戸數 (households)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:958,1057,88,830"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鶴牧藩 支配表高一萬五千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○鶴牧藩（つるまきはん）／〔割注〕支配表高（しはいおもてだか）一万五千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker for 鶴牧藩 (Tsurumaki, a Mizuno fudai domain in Kazusa) — disambiguated from 鶴田/鶴舞: the third glyph is 牧 (boku, pasture), verified, not 田 or 舞. Columns LEFT of the ○ are Tsurumaki's; columns RIGHT belong to the preceding domain. The gloss reads 支配表高一萬五千石 = 15,000-koku omotedaka. Maru top y1411, gloss bottom (石) y2601, all inside the box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○鶴牧藩 boundary marker (+ omotedaka gloss)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1388,112,1228"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合七百三十七人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（あわせて）七百三十七人 ＝ 737 人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total of the bracketed military roster: 737 men, with a closing parenthesis at the bottom (y~1790). Sits RIGHT of the ○鶴牧藩 marker (column ink x2306-2381), so it belongs to the PRECEDING domain, not Tsurumaki — correct attribution. Note the explicit unit subtotals (169+20 / 224+22 / 212+24 / 30+20+28) sum to 749, twelve above the printed 合 737; reported as-printed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding) military grand total"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2300,1234,85,596"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "先進隊 二百十二人 役員廿四人 ／ 砲隊 三十人 附屬廿人 外二八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "先進隊（せんしんたい）二百十二人・役員二十四人 ／ 砲隊（ほうたい）三十人・附属二十人・外二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two units of the PRECEDING domain's army (this column ink x2408-2518 lies right of the 鶴牧藩 marker = overflow belonging to the previous domain): the Senshintai (advance corps) 212 men + 24 officers, and the Hōtai (artillery corps) 30 men + 20 attached + 28 others. Top y1071, all glyphs verified."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding) military units — 先進隊 / 砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2401,1066,124,1474"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka_open-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（振武隊 百六十九人 役員廿人 ／ 壯進隊 二百廿四人 役員二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〔（で始まる軍隊割注〕振武隊（しんぶたい）百六十九人・役員二十人 ／ 壮進隊（そうしんたい）二百二十四人・役員二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rightmost military column of the PRECEDING domain (opens with the parenthesis bracketing the whole troop block; column ink x2540-2654): Shinbutai (martial-valour corps) 169 men + 20 officers, and Sōshintai (vigorous-advance corps) 224 men + 22 officers. With the Senshintai/Hōtai column these feed the 合 737 total. Belongs to the domain preceding Tsurumaki. Top y1074, glyphs verified."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding) military units — 振武隊 / 壯進隊"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p155_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2530,1069,134,1429"
+      }
+    }
+  }
+]

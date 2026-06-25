@@ -1,0 +1,722 @@
+[
+  {
+    "id": "anno-tosa_tail_kameoka_opening-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○山內藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○山内藩（やまうちはん＝高知藩・土佐）— 藩境を示す丸印つき藩名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker ○山內藩 (Yamauchi-han = Kochi/Tosa). Verified ink x2624-2762, y1431-1974; box encloses it cleanly. Nothing sits to its right but blank gutter and the page edge, so Tosa's block starts here and runs left to the ○龜岡藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tosa ○山內藩 boundary marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2616,1424,154,558"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 六百二戸 人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）六百二戸、人口（じんこう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households = 602 (六百二戸) with the 人口 heading below; verified 戸數 / 六百二戸 / 人口, ink y1091-1904. Widened the left edge 7px to x2440 so the 戸 stroke is not clipped; this is the rightmost Tosa demographic column, M/F boxed separately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 戸數 602 + population"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2440,1084,150,830"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 千四百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）千四百四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male = 1,404 (男千四百四人). Top y2030 was correct (at the 男 glyph) but the proposed height 325 ended at y2355 and CLIPPED the 人 glyph, which actually bottoms at y2424. Extended to h400."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 戸數-block 男 1,404"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2510,2030,72,400"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千四百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）千四百六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female = 1,406 (女千四百六人); with male 1,404 the block totals 2,810. Top OK but proposed h328 clipped the 人 (bottoms y2424). Extended to h400; also nudged x/w so the 女 column ink (x2474-2544) is fully enclosed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 戸數-block 女 1,406"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2470,2030,78,400"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 士族戸數 五拾軒 同人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）士族戸数 五十軒、同人口（どうじんこう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Additional shizoku households = 50 (五拾軒) with their 同人口. Verified the small 外 prefix at column top and 士族戸數/五拾軒/同人口. Proposed bottom y1973 CLIPPED the 同人口 label (口 bottoms y2073); extended to y2083."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 外 士族戸數 50 + population"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2350,1083,128,1000"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 百十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）百十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku male = 119 (男百十九人). Proposed top y1984 was ~120px too HIGH (up into 人口) and bottom y2289 clipped the 九人; the glyphs actually run y2105-2379. Corrected to start at the 男 glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 士族 男 119"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2388,2100,62,288"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku female = 103 (女百三人); 119+103=222 across 50 households. Proposed top y1984 was ~120px too high; glyphs run y2103-2351. Corrected to start at the 女 glyph and end below 人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 士族 女 103"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2340,2100,58,260"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數 五拾五軒 同人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数（そつぞくこすう）五十五軒、同人口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class households = 55 (五拾五軒) with their 同人口. Verified 卒族戸數/五拾五軒/同人口. Proposed bottom y1990 CLIPPED the 同人口 label (bottoms y2154); extended to y2165."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 卒族戸數 55 + population"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2200,1080,118,1085"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）六十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class male = 63 (男六十三人). Proposed top y2008 was ~175px too HIGH (into 人口) and bottom y2298 badly clipped the column; glyphs run y2185-2469. Corrected to start at the 男 glyph and enclose through 人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 卒族 男 63"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2248,2180,62,295"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class female = 16 (女十六人); 63+16=79 across 55 households. Proposed top y2008 ~175px too high; glyphs run y2182-2433. Corrected to start at the 女 glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 卒族 女 16"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2200,2180,58,260"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 二社 社人戸數 二戸 人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）二社、社人戸数（しゃにんこすう）二戸、人口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 2 (二社); shrine-attendant households = 2 (二戸) with their 人口. Verified 神社/二社/社人戸數/二戸/人口. Proposed bottom y2217 CLIPPED the 人口 label (口 bottoms y2317); extended to y2332 (just above the 男/女 split at y2347)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 神社 2 + 社人 households/population"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2050,1077,132,1255"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant male = 3 (男三人). Proposed top y2224 was ~122px too HIGH (into 口 of 人口) and bottom y2396 clipped; glyphs run y2347-2527. Corrected to start at the 男 glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 社人 男 3"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2108,2345,62,190"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant female = 5 (女五人); 3+5=8 across 2 households. Proposed top y2224 ~122px too high; glyphs run y2346-2527. Corrected to start at the 女 glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 社人 女 5"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2062,2345,60,190"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺 十六ヶ寺 人口 男 十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）十六ヶ寺、人口 男 十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 16 (十六ヶ寺); clergy population is male-only = 16 (男十六人), no female printed. Verified 寺 / 十六ヶ寺 / 人口男十六人, ink x1960-2036, y1085-2178. NOTE: this is NOT the leftmost Tosa column — the 常備兵 (89 troops) column sits to its left before the marker (see missed_columns)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 寺 16 + monks (male only)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1948,1077,96,1110"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○龜岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○亀岡藩（かめおかはん）— 藩境を示す丸印つき藩名（龜＝亀の旧字）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker ○龜岡藩 (Kameoka, Tanba; 龜 = old form of 亀). Marker ink x1680-1772, y1419-1999. Proposed height 796 ran to y2207 and OVERLAPPED the separately-boxed 高五萬石 kokudaka note below; shortened to end at y2007 (just past 藩)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kameoka ○龜岡藩 boundary marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1670,1411,114,596"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 五萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）五万石 — 藩名下の小字注記（表高）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-print kokudaka under the han name: 高五萬石 = 50,000 koku (Kameoka's omotedaka). Ink x1706-1753, y2000-2234. Proposed top y2022 clipped the 高 (starts y2000); lowered top to y1998."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) kokudaka 高五萬石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1696,1998,66,250"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 五萬七千二百四石七升（新田高改出 七千二百四石七升）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）五万七千二百四石七升 — 内に小字「新田高改出 七千二百四石七升」"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield 草高 = 57,204.7 koku (五萬七千二百四石七升). The two-line inner note reads 新田高改出（right line 新田高 / left line 改出）then 七千二百四石七升 = 7,204.7 new-field koku; 50,000 + 7,204.7 = 57,204.7, internally consistent. Verified ink x1531-1632, y1083-3164; box encloses fully."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) 草高 57,204.7石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,1075,116,2097"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 貳萬四千四百六拾壹石四斗八合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）二万四千四百六十一石四斗〇升八合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax 正租 = 24,461 koku 4 to 0 sho 8 go 8 shaku (vacant 升 place), verified digit-by-digit 貳萬四千四百六拾壹石四斗八合八勺. Ink runs ONLY to y2747 (last glyph 勺); the proposed height 1959 ran to y3125, leaving ~370px of blank tail. Shortened to h1595 (ends ~y2761). Width also trimmed to 118 to avoid touching the 草高 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) 正租 24,461石余"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1396,1166,118,1595"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 米 三千八百六拾四石三斗三升七勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）米 三千八百六十四石三斗三升〇合七勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in rice 雜稅米 = 3,864 koku 3 to 3 sho 0 go 7 shaku (vacant 合 place), verified 三千八百六拾四石 then 三斗三升七勺. Ink x1276-1363, y1163-2658; box encloses fully."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) 雜稅 米 3,864石余"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1268,1155,102,1511"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永 貳百四拾九貫六百八文五分六厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）二百四十九貫六百八文五分六厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash (eiraku) equivalent of the 雜稅 = 249 kan 608 mon 5 bu 6 rin, verified glyph-by-glyph 永/貳百四拾九貫/六百八文/五分六厘. Ink x1136-1223, y1416-2655; box encloses fully."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) 雜稅 cash equiv 永 249貫…"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1129,1409,102,1254"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此金 貳百四拾九兩貳分壹朱 永四拾六文六厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此金（このきん）二百四十九両二分一朱 永四十六文六厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'This amount in gold' 此金 = 249 ryo 2 bu 1 shu, plus 永46文6厘, verified 此金/貳百四拾九兩/貳分壹朱/永四拾六文六厘. This is a SINGLE data column (ink x1005-1087, y1418-2991) — NOT two paired columns. The proposed box x937,w157 wrongly straddled the running header to its left; corrected to sit on the data ink only (x1000,w96). The running header is a separate, missed column (see missed_columns)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Kameoka) 此金 249兩2分1朱永46文6厘"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1000,1410,96,1590"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十五（一五五）丁 — 版心の丁数"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed leaf number 百五十五 = 155 in the lower margin (reprint pagination, not domain data). Verified 百/五/十/五, ink x877-928, y3178-3370; box encloses fully."
+      },
+      {
+        "purpose": "identifying",
+        "value": "leaf number 百五十五 (155)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:869,3170,67,208"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "常備兵 八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "常備兵（じょうびへい）八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Standing army = 89 men — the only military figure on this leaf. It prints to the RIGHT of the ○龜岡藩 (Kameoka) marker, so by the right-to-left boundary rule it belongs to the PREVIOUS domain (Yamauchi / Tosa-Shinden), not Kameoka. Matches the 89-man standing force given for Yamauchi in the fascicle-8 officials register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(Tosa) 常備兵 89 (standing army)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,1073,90,665"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_tail_kameoka_opening-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（山内、龜岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二冊（山内藩・亀岡藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer margin (provenance, not data): Domain Survey Table, fascicle 2 (civil/economic register), Yamauchi (Tosa-Shinden) and Kameoka sections. (The proposal mistakenly reported no header on this half; the header is present and reads 藩制一覧表第二（山內・龜岡）.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "Running header 藩制一覧表第二（山內・龜岡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:890,1310,92,720"
+      }
+    }
+  }
+]

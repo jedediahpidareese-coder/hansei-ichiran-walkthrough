@@ -1,0 +1,392 @@
+[
+  {
+    "id": "anno-nagoya_tax_area-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四 （名古屋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（名古屋藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer margin: Domain Survey (Hansei Ichiran), fourth fascicle, Nagoya section. Provenance label, not data. The printed page number 二百八十八 (288) sits in the bottom margin below this column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header 藩制一覧表第四 (名古屋)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2125,1335,82,630"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sub-header 内 ('of which / breakdown'), introducing the koku-denominated columns to its left that itemize the domain's assessed yield into deductions, remainder, and tax."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 内 (koku-block 'of which' header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2002,1158,80,90"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七百六拾六石壹斗六合 諸引高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸引高（しょひきだか）七百六十六石一斗六合 ＝ 766.16石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shobiki-daka — sundry deductions from the gross assessment: 766 koku 1 to 6 go (766.16 koku). The label 諸引高 prints at the foot of the column beneath its value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 諸引高 (sundry deductions, koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1858,1245,86,1262"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "残高 九千貳百三十三石八斗九升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残高（ざんだか）九千二百三十三石八斗九升四合 ＝ 9,233.894石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zandaka — yield remaining after deductions: 9,233 koku 8 to 9 sho 4 go (9,233.894 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 残高 (remaining yield, koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1723,1160,86,1342"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "租納 貳千五百九十八石七斗九升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "租納（そのう）二千五百九十八石七斗九升三合 ＝ 2,598.793石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sonou — land tax actually rendered: 2,598 koku 7 to 9 sho 3 go (2,598.793 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 租納 (tax paid, koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1589,1248,87,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此八分出 升数 貳千八百六石六斗九升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此（これ）八分出（はちぶだし）— 升数（しょうすう）二千八百六石六斗九升六合 ＝ 2,806.696石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two adjacent narrow columns boxed together as one field: the label 此八分出 ('this, levied at eight-tenths / the 0.8 rate output') over its 升数 (measured quantity) of 2,806 koku 6 to 9 sho 6 go (2,806.696 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 此八分出 / 升数 (eight-tenths levy quantity, koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1320,1245,212,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "反別 壹萬千百六十四町九反五畝七步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "反別（たんべつ）一万千百六十四町九反五畝七歩 ＝ 11,164町9反5畝7歩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tanbetsu — total cultivated area: 11,164 chō 9 tan 5 se 7 bu. This is the area counterpart to the koku figures and is the parent total broken down by the following 内 block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 反別 (total arable area, chō)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1186,1080,87,1330"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尾州濃州三州 江州信州之内 見取反別調帳之免"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尾州（尾張）・濃州（美濃）・三州（三河）／江州（近江）・信州（信濃）之内 — 見取反別調帳の免（めん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small two-column source note printed beside the 反別 total: the acreage lies within the provinces of Owari, Mino, Mikawa / Omi, Shinano, and is the menjo (tax-rate allowance) taken from the mitori (estimated-yield) land-survey ledger (見取反別調帳之免)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya province-source note (見取反別調帳之免)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1041,1580,109,1170"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second 内 ('of which') sub-header, breaking the 反別 total area into the 引地 (transferred-out), 荒地 (waste), and 残反別 (remaining) columns to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 内 (area-block 'of which' header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:918,1158,88,90"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千三百十壹町三反四畝二十四歩 荒地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "荒地（あれち）一千三百十一町三反四畝二十四步"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Waste / uncultivated land = 1,311 chō 3 tan 4 se 24 bu (the category label 荒地 prints below the figure). One of the two area deductions; with 引地 1,288 and 残反別 8,565 it sums to the 反別 total of 11,164 chō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 荒地 (waste land, chō)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:698,1150,84,1660"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "残反別 八千五百六拾五町八畝五歩四厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残反別（ざんたんべつ）八千五百六十五町八畝五步四厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remaining (taxable) arable area = 8,565 chō 8 se 5 bu 4 rin. Of the total surveyed area (反別 11,164 chō) this is what remains after the two deductions: 8,565 (残反別) + 1,311 (荒地) + 1,288 (引地) = 11,164 chō, arithmetic-checked."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 残反別 (remaining taxable area, chō)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:543,1095,98,1390"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "税納 八千九百六拾九石三斗三升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "税納（ぜいのう）八千九百六十九石三斗三升五合 ＝ 8,969.335石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zeinou — tax rendered on the area register: 8,969 koku 3 to 3 sho 5 go (8,969.335 koku). The leftmost (last-read) column on the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 税納 (area tax rendered, koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:379,1240,84,1335"
+      }
+    }
+  },
+  {
+    "id": "anno-nagoya_tax_area-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千貳百八十八町五反貳畝七歩六厘 引地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "引地（ひきち）一千二百八十八町五反二畝七步六厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Transferred-out / drawn-off land = 1,288 chō 5 tan 2 se 7 bu 6 rin (label 引地 printed below the figure) — land removed from the domain's taxable area. Originally un-boxed (the verify flagged it); it sits between 荒地 and the 内 area-header. 残反別 8,565 + 荒地 1,311 + 引地 1,288 = 反別 11,164 chō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nagoya 引地 (transferred-out land, chō)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:800,1150,85,1660"
+      }
+    }
+  }
+]

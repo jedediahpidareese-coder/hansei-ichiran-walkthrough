@@ -1,0 +1,332 @@
+[
+  {
+    "id": "anno-tsurumaki_officials-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九 （鶴舞、鶴牧）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（鶴舞藩・鶴牧藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer margin: Domain Survey Tables, ninth fascicle (the officials-and-military register), Tsurumai / Tsurumaki section. Provenance, not data; the parenthetical names the two domains whose officials fall in this stretch of the fascicle. Verified at high zoom: 藩制一覧表第九 then in parens 鶴舞、鶴牧. Header ink ends ~y2050; the proposed h=1100 overruns slightly into blank margin but does not clip or bleed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2102,1264,153,1100"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "杉村克己"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "杉村克己（すぎむら かつみ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A single official's name, Sugimura Katsumi, standing to the RIGHT of (read before) the ○鶴舞藩 marker, so it belongs to the domain PRECEDING Tsurumai. Verified glyph-by-glyph (杉 y~1140, 村 y~1290, 克 y~1450, 己 y~1590). Directly below this name the source prints its office heading 権大参事 plus a two-line marginal note (右依顕被免本官… / 一色…杉村…), i.e. Sugimura is the previous domain's gon-dai-sanji; that heading+note is a separate column (see missed_columns). Proposed width w=95 ends at x2145 and lightly clips the right strokes of these glyphs (ink to ~2155); nudged to x2045 w105."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(prev-domain) tail name 杉村克己"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2045,1135,105,500"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鶴舞藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○鶴舞藩（つるまいはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker for Tsurumai Domain (鶴舞藩). The maru (○) before the han name signals a new domain block: everything to its LEFT (lower x) down to the next ○ marker is Tsurumai's officials; everything to its right belongs to the preceding domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai boundary marker ○鶴舞藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1890,1372,118,540"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 二人 奥山脩・伏谷惇"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）二人 — 奥山脩（おくやま おさむ）・伏谷惇（ふしや あつし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumai's Senior Councillors (dai-sanji): headcount 二人 = 2, matched by exactly two names — Okuyama Osamu (奥 y~1780 / 山 ~1930 / 脩 ~2130) and Fushiya Atsushi (伏 ~2380 / 谷 ~2520 / 惇 ~2710). Heading 大参事 y~1014-1280, count 二人 ~1430-1560, names end ~y2760. Box x nudged to 1755 (glyph ink left edge) and width 122 to avoid clipping."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai 大参事 (2)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1755,1000,122,1790"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 四人 多川弘・近藤寶・安部井尚"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）四人 — 多川弘（たがわ ひろし）・近藤寶（こんどう たから）・安部井尚（あべい ひさし）ほか一名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumai's Provisional Senior Councillors (gon-dai-sanji): printed headcount 四人 = 4. Three names are legibly printed in this single name column — 多川弘 (多 y~1780 / 川 ~1900 / 弘 ~2100), 近藤寶 (近 ~2350 / 藤 ~2500 / 寶[kyujitai of 宝] ~2700), 安部井尚 (安 ~2950 / 部 ~3050 / 井 ~3150 / 尚 ~3300, a 3-char surname 安部井 + 尚). The 4th appointee implied by 四人 is not separately legible on this page. Heading y~1030-1280, count 四人 ~1430-1540."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai 権大参事 (4)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1620,1000,125,2380"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 二人 坂主靜（公議人）・寺田豊哉"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）二人 — 坂主靜（さか しゅせい、公議人＝こうぎにん）・寺田豊哉（てらだ とよや）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumai's Junior Councillors (sho-sanji): headcount 二人 = 2. Right name column: 坂主靜 (坂 y~1750 / 主 ~1900 / 靜 ~2050) carrying a small side-gloss 公議人 (kogi-nin, Public-Assembly delegate, x~1560-1600 y~2150-2350). Left name column: 寺田豊哉 (寺 ~1770 / 田 ~1890 / 豊 ~2000 / 哉 ~2120). The printed third glyph of the first name is 靜 (kyujitai), not modern 静 — verbatim transcription corrected. Count 二人 verified at x~1400-1460."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai 少参事 (2)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1368,1000,232,1390"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事 四人 山口均・佐藤想内・小出隣・屋代長"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）四人 — 山口均（やまぐち ひとし）・佐藤想内（さとう そうない）・小出隣（こいで となり）・屋代長（やしろ ちょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumai's Provisional Junior Councillors (gon-sho-sanji): headcount 四人 = 4, all four legible across two name columns. Right column (x~1235-1305): 山口均 (山 y~1640 / 口 / 均), 佐藤想内 (佐 / 藤 / 想 / 内), 小出隣 (小 / 出 / 隣). Left column (x~1127-1173): 屋代長 (屋 ~1760 / 代 ~1900 / 長 ~2110). 3+1 = 4 names matching the count. NOTE on layout: the count under this heading prints as 四人, and a separate 二人 glyph-pair sits just left of the 少参事 heading — name evidence (4 names) confirms this office is 四人. Box correctly excludes the 兵隊 value column at x~1001-1046 (left of x1100)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai 権少参事 (4)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1100,1000,250,2370"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊 七百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）七百三十九人 ＝ 739人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumai's troop total: 兵隊 七百三十九人 = 739 soldiers. Heading 兵隊 y~1010-1160 (兵 + 隊); value 七(700-prefix)百三十九人 read digit-by-digit: 七 y~1340, 百 ~1450, 三 ~1530, 十 ~1620, 九 ~1700, 人 ~1790 → 七百三十九 = 739. This value sits to the RIGHT (higher x, x~990-1060) of the ○鶴牧藩 marker (x~835-915); per the fascicle-9 military-overflow rule a troop count right of a marker belongs to the PREVIOUS domain, i.e. Tsurumai. Attribution correct."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumai 兵隊 739"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:975,1000,100,845"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鶴牧藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○鶴牧藩（つるまきはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker for Tsurumaki Domain (鶴牧藩). The middle glyph 牧 ('pasture', with the 牛 ox-radical) was confirmed at high zoom, distinguishing Tsurumaki from the adjacent Tsurumai (鶴舞, 'crane-dance'). Everything to the LEFT of this marker is Tsurumaki's officials."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki boundary marker ○鶴牧藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:835,1372,105,540"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 二人 荒木左膳・豊田謙蔵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）二人 — 荒木左膳（あらき さぜん）・豊田謙蔵（とよだ けんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumaki's Senior Councillors (dai-sanji): headcount 二人 = 2, matched by two names in a single column (x~703-768) — 荒木左膳 (荒 y~1900 / 木 / 左 / 膳) and 豊田謙蔵 (豊 ~2700 / 田 / 謙 / 蔵 ~2900). Heading 大参事 y~1100-1320, count 二人 below. Names end ~y2900; proposed h=2530 (to y3530) overruns ~600px into blank space — trimmed. Box x nudged to 700/w103 to sit on the ink."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 大参事 (2)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:700,1000,103,1950"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_officials-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 五人 井上八郎右衛門・本田新平・山上左仲・佐久間丈右衛門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）五人 — 井上八郎右衛門（いのうえ はちろうえもん）・本田新平（ほんだ しんぺい）・山上左仲（やまがみ さちゅう）・佐久間丈右衛門（さくま じょうえもん）ほか一名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsurumaki's Provisional Senior Councillors (gon-dai-sanji): printed headcount 五人 = 5. Four names legible across two columns: right column (x~569-633) 井上八郎右衛門 (井 y~1900 / 上 / 八 / 郎 / 右 / 衛 / 門) and 本田新平 (本 ~2950 / 田 ~3100 / 新 ~3300 / 平 ~3470); left column (x~437-504) 山上左仲 (山 ~1900 / 上 / 左 / 仲) and 佐久間丈右衛門 (佐 ~2900 / 久 / 間 / 丈 / 右 / 衛 / 門 ~3470). The 5th appointee implied by 五人 is not on this page; Tsurumaki's lower ranks and its 120 troops continue on the facing page lower_p192_left. Count 五人 verified (五 y~1450 / 人 ~1520)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 権大参事 (5)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p192_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:430,1000,232,2530"
+      }
+    }
+  }
+]
