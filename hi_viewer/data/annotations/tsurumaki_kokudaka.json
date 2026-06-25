@@ -1,0 +1,422 @@
+[
+  {
+    "id": "anno-tsurumaki_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四 （鶴牧）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（鶴牧藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header in the right margin: 'Domain Survey (Hansei Ichiran), fourth fascicle', with the domain name 鶴牧 (Tsurumaki) in parentheses. Fascicle 4 is part of the civil/economic register (one domain per page-pair). This is provenance, not data. The printed page number 二百八十六 (286) appears separately in the bottom margin (verified at ~y3180-3430, outside this box)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki page-header 藩制一覧表第四（鶴牧）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2072,1364,138,566"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 士族百拾四戸 卒族百壹戸 寺七拾五ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内訳：士族 百十四戸、卒族 百一戸、寺 七十五ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Breakdown (内) of households and temples, stacked top-to-bottom in one column to the right of the population total: 114 samurai (shizoku) households, 101 sotsu (lower-retainer) households, and 75 temples. This is the household/institution census, distinct from the head-count population that follows to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 内 household counts (士族/卒族/寺戸数)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1995,1270,103,1580"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口貳萬五百八十六人 内 男壹萬五百六十三人 女壹萬六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 二万五百八十六人。内訳：男 一万五百六十三人、女 一万六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population 20,586 persons, with an inline 内 (breakdown): 10,563 male and 10,064 female. (Printed male+female sums to 20,627, a typical non-reconciliation with the headline total in Hansei Ichiran; transcription follows the page as printed.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 人口 total population + 内 male/female"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1768,1185,206,1445"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人口五百六十壹人 内 男貳百七拾三人 女貳百八十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口 五百六十一人。内訳：男 二百七十三人、女 二百八十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai-class (shizoku) population: 561 persons, broken down as 273 male and 288 female (273+288 = 561, reconciles)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 士族人口 samurai-class population + M/F"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1558,1260,152,1375"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族同三百四拾壹人 内 男百九十三人 女百四十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（人口）同じく 三百四十一人。内訳：男 百九十三人、女 百四十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class (lower retainer) population: 341 persons (同 = 'likewise [population]'), broken down as 193 male and 148 female (193+148 = 341, reconciles)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 卒族同 sotsu-class population + M/F"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1418,1295,146,1270"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人同六拾壹人 内 男三十五人 女二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（人口）同じく 六十一人。内訳：男 三十五人、女 二十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-people (shanin) population: 61 persons, broken down as 35 male and 26 female (35+26 = 61, reconciles)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 社人同 shrine-people population + M/F"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1283,1295,150,1035"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺同六十五人 僧（無住十ヶ寺）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（人口）同じく 六十五人。僧（無住の寺 十ヶ寺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple-resident population: 65 persons, with a parenthetical note on monks: '10 temples without a resident monk' (無住十ヶ寺)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 寺同 temple population + 僧無住注"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1208,1255,105,1400"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗同三人 陰陽師貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（人口）同じく 三人。陰陽師 二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mountain ascetics (shugen): 3 persons (upper), and yin-yang diviners (onmyōji): 2 persons (lower) — two short entries stacked in one column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 修驗同 / 陰陽師"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1118,1255,83,1325"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神尾五人 坐頭貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神尾 五人。座頭 二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Personnel labelled 神尾: 5 persons (upper), and zatō (blind-guild members): 2 persons (lower) — two short entries stacked in one column. (神尾 is the verbatim heading as printed.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 神尾 / 坐頭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1003,1255,86,1325"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社十九社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 十九社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines: 19."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 神社 shrines"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:898,1078,79,410"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數六十四ヶ郷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数 六十四ヶ郷"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Village/township count: 64 (counted as 郷/townships)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 村數 villages"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:782,1078,80,580"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（兵隊三小隊 一小隊四十人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（兵隊 三小隊。一小隊あたり四十人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 3 platoons, with an inline gloss that each platoon numbers 40 men (so ~120 soldiers). The whole entry is bracketed in the source."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 兵隊 troops"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:655,1078,90,838"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事の家族 記載なし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bracketed note: the domain governor's (chiji's) family is not recorded on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 知事家族不記 (governor family not recorded)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:540,1078,90,512"
+      }
+    }
+  },
+  {
+    "id": "anno-tsurumaki_kokudaka-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（船艦 記載なし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leftmost bracketed note: warships are not recorded for this domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Tsurumaki 船艦不記 (warships not recorded)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p156_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:410,1078,90,343"
+      }
+    }
+  }
+]

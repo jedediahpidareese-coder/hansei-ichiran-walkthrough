@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-choshu_officials-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九（山口）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（山口）— 版面右端の柱（走り頭）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header in the right margin: Domain Survey Table, ninth fascicle (Yamaguchi / Choshu). The nine 藩制一覧表 fascicles are numbered registers, not data themes; fascicles 8-9 are the officials + military register. Header text occupies only y~1262-1820; provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第九（山口）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1248,90,590"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百八十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百八十四（284）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 284 in the bottom margin of the fascicle. Marginal printed folio number, not data. (Proposer had 384; the leading numeral is 二, two strokes, not 三.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "printed page number 三百八十四"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,3148,90,225"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）— 陸軍の部の見出し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops -- land-forces heading. Sits to the RIGHT (higher x) of the ○山口藩 boundary marker, so by the HI fascicle-8/9 right-of-marker rule it is the military OVERFLOW of the PRECEDING (smaller) domain, NOT Choshu's. Choshu's own troops print on the facing page lower_p204_left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "PREV-domain 兵隊 (military overflow)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2032,1168,78,160"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃隊 八拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃隊（じゅうたい）八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gun corps -- 80 men. To the RIGHT of the ○山口藩 marker, so it belongs to the PRECEDING domain (its military overflow), not to Choshu. The modest figure (80) fits a small preceding domain rather than Choshu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "PREV-domain 銃隊 八拾人 (military overflow)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1893,998,82,660"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○山口藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○山口藩（やまぐちはん＝長州藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker ○山口藩 (Yamaguchi = Choshu domain). Everything to the LEFT of this ○ (governor and councillor roster) is Choshu's; everything to its RIGHT (兵隊 / 銃隊八拾人) belongs to the preceding domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○山口藩 domain-boundary marker"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1735,1350,110,540"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) -- 1 person. The domain-governor heading and its count; the appointee is named below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 知事 (count)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1620,990,90,605"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "毛利元雄"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "毛利元雄（もうり もとお）— 一般に毛利元徳（もとのり）として知られる長州藩知事。版面の表記は『雄』"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's name as printed: Mori Motoo (毛利元雄), the Choshu domain-governor (standard historiography: Mori Motonori, 毛利元徳). Glyph is verbatim 雄. This is the SOLE 知事; the next name down the same column, 毛利元潔, is the first 大参事 (see issue)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 知事 name 毛利元雄"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1467,2005,90,585"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事 二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior Councillor (dai-sanji) -- 2 persons. The two appointees, read in column order, are 毛利元潔 (lower register of column 1) then 杉孫七郎 (upper register of column 2)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 大参事 (count)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1488,990,90,605"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "毛利元潔・杉孫七郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "毛利元潔（もうり もときよ）・杉孫七郎（すぎ まごしちろう）の二名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The two Senior Councillors (dai-sanji): Mori Motokiyo (毛利元潔, the lower-register name in column 1, immediately under governor Mori Motoo) and Sugi Magoshichiro (杉孫七郎, top of column 2)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 大参事 names (2)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1333,2005,224,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事 五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillor (gon-dai-sanji) -- 5 persons. In column-flow order: 中村誠一, 國貞直人, 野村右仲, 木梨平之進, 宍戸陽之進."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 権大参事 (count)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1356,990,90,615"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "中村誠一・國貞直人・野村右仲・木梨平之進・宍戸陽之進"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "中村誠一（なかむら せいいち）・国貞直人（くにさだ なおと）・野村右仲（のむら うちゅう）・木梨平之進（きなし へいのしん）・宍戸陽之進（ししど ようのしん）の五名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The five Provisional Senior Councillors (gon-dai-sanji): Nakamura Seiichi (col-2 lower), Kunisada Naoto (col-3 upper), Nomura Uchu (col-3 lower), Kinashi Heinoshin (col-4 upper; col-4 has no lower name), and Shishido Yonoshin (col-5 upper). 小幡彦七 is NOT here -- it is the first 少参事."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 権大参事 names (5)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:917,2005,510,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事 七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (sho-sanji) -- 7 persons. The seven names run from column-5 lower leftward through the 少参事列 continuation column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 少参事 (count)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:942,990,90,605"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小幡彦七・椙原治人・山縣彌八・久保松太郎・栢村數馬・天野順太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小幡彦七（おばた ひこしち）・椙原治人（すぎはら はると）・山県弥八（やまがた やはち）・久保松太郎（くぼ まつたろう）・栢村数馬（かしわむら かずま）・天野順太郎（あまの じゅんたろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillors (sho-sanji), main block (col-5 lower through col-8 upper): Obata Hikoshichi, Sugihara Haruto, Yamagata Yahachi, Kubo Matsutaro, Kashiwamura Kazuma (栢村數馬), and Amano Juntaro (col-8 has no lower name). There is no '椙村數馬' on the page -- that was a misread fusion of 山縣彌八 and 栢村數馬."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 少参事 names (block A)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:527,2005,490,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事列"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事列（しょうさんじ れつ）— 少参事の続き"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Junior Councillors, continued' -- the far-left continuation heading over the overflow column (column 9) where the last sho-sanji names are listed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 少参事列 (continued heading)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:408,990,90,380"
+      }
+    }
+  },
+  {
+    "id": "anno-choshu_officials-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "林良輔・高杉小忠太"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "林良輔（はやし りょうすけ）・高杉小忠太（たかすぎ ことた）の二名"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The 少参事列 (continued Junior Councillors) column: Hayashi Ryosuke (upper) over Takasugi Kotota (lower). Takasugi Kotota was a Choshu samurai related to Takasugi Shinsaku. 天野順太郎 is NOT here -- it is in the main block (column 8 upper)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Chōshū 少参事列 names (block B)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p204_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:382,2005,95,1505"
+      }
+    }
+  }
+]

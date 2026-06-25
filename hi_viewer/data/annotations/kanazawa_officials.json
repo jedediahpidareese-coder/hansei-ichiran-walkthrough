@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-kanazawa_officials-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（金澤）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八冊（金澤藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running margin header (provenance, not data): Domain Survey, eighth fascicle (the officials + military register), Kanazawa section. Verified glyph-by-glyph: 藩制一覧表第八（金澤）, vertical column at x~2300-2400, y~1280-1820. The printed page number 三百 (300) sits separately in the bottom margin at x~2300, y~3300 and is correctly NOT included in this box. Box tightened (proposer width 135 reached into blank gutter; ink is x2300-2410)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第八（金澤）running header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2300,1270,110,560"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 十一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）十一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor - 11 members. Sits RIGHT of the ○金澤藩 marker, so belongs to the PRECEDING domain (tail of its officials roster). Verified 十一員 = 11. Box width trimmed (ink x2195-2260); column otherwise correctly placed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 少参事 count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2188,1300,92,820"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事 八員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）八員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillor - 8 members. PRECEDING domain (right of the ○金澤藩 marker). Verified 八員 = 8. Box nudged right + trimmed to the ink (x2062-2132); proposer's x2030 left ~30px blank gutter."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 権少参事 count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2055,1300,90,820"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "成兵十二大隊 但一大隊四百貳拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "成兵（歩兵）十二大隊 - 但し一大隊あたり四百二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry (formed troops) - 12 battalions; the smaller two-line note reads 'but 423 men per battalion' (但一大隊四百貳拾三人 = 423). PRECEDING domain. Verbatim first glyph is 成 (read as 歩兵/infantry). Box tightened on the ink (x1925-1994); proposer's x1875 included ~50px blank to the right of the 此兵員 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 成兵 (infantry) battalions"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1918,1290,82,1210"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此兵員五千七十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の兵員 五千七十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total of these (infantry) troops: 5,076 men. PRECEDING domain. Digits verified at 3x: 五千(5000)七十(70)六(6) = 5,076. BOX FIX: proposer box x1685-1820 was shifted ~100px LEFT of the actual column (ink is x1788-1860) - it sat on the cavalry gutter and clipped the right edge of the numerals. Corrected to x1782-1870."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) infantry total"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1782,1320,88,755"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "騎兵一小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "騎兵（きへい）一小隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cavalry - 1 platoon. PRECEDING domain; strength given in the two-column note below. BOX FIX: proposer box x1590-1710 was shifted ~50px left, leaving blank to the left and clipping the right of the title glyphs (ink x1640-1736). Corrected to x1633-1743."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 騎兵 (cavalry) platoon"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1633,1290,110,420"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士官兵士百六十員 馬百六十五匹"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士官・兵士 百六十員、馬 百六十五匹"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-sub-column note under the cavalry platoon: 160 officers and soldiers (士官兵士百六十員 = 160), and 165 horses (馬百六十五匹 = 165). PRECEDING domain. Numerals verified. BOX FIX: the note's two sub-columns occupy ink x1634-1734; proposer box x1600-1730 clipped the right sub-column and left ~30px blank on the left. Corrected to x1628-1743."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) cavalry strength note"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1628,1700,115,505"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲兵一聯隊 但四小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵（ほうへい）一聯隊 - 但し四小隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery - 1 regiment; the note reads 4 platoons (但四小隊). PRECEDING domain. BOX FIX: proposer box x1450-1585 was shifted ~60px left (ink x1520-1587), so its left third sat on the 此貳百... artillery-total gutter. Corrected to x1510-1595."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 砲兵 (artillery) regiment"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1510,1290,85,720"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此貳百七十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の（人員）二百七十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total of the artillery regiment: 279 men. PRECEDING domain. Digits verified at 3x: 貳百(200)七十(70)九(9) = 279. BOX FIX: proposer box x1330-1445 was shifted ~50px left of the ink (x1384-1459) AND its top y1420 clipped the leading 此 glyph (ink top y1410). Corrected to x1378-1466, y1405."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) artillery total"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1378,1405,88,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "工兵隊 五百七拾貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "工兵隊（こうへいたい）五百七十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Engineer corps - 572 men (五百七拾貳 = 572). PRECEDING domain (heading on top, count below). BOX FIX: proposer box bottom (y1225+880 = 2105) clipped the final 人 of the count - the column ink runs to y2232. Corrected to x1238-1328, y1245-2240 to enclose the whole value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 工兵隊 (engineers)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1238,1245,90,995"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "輜重隊 八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "輜重隊（しちょうたい）八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Baggage / transport corps - 89 men (八十九 = 89). PRECEDING domain (heading on top, count below); leftmost column of the preceding domain - the ○金澤藩 boundary marker is immediately to its left. Box trimmed to ink (x1112-1187, y1243-2058); placement was correct."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(preceding domain) 輜重隊 (baggage/transport)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1106,1240,88,825"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○金澤藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○金澤藩（かなざわはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker. The ○ before 金澤藩 marks the start of the Kanazawa (Kaga / Maeda) entry: everything to the LEFT (lower x) is Kanazawa; everything to the RIGHT belongs to the preceding domain. BOX FIX: proposer box x915-1040 left ~54px blank on the left and clipped the right of 藩 (ink x969-1057, y1329-1876). Corrected to x963-1061."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○金澤藩 domain-boundary marker"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:963,1325,98,555"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 前田従三位菅原朝臣慶寧"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）前田 従三位 菅原朝臣 慶寧（まえだ よしやす）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain Knowledge-Governor (chiji): Maeda Yoshiyasu, Junior Third Rank, of the Sugawara-no-asomi line (前田従三位菅原朝臣慶寧). Kanazawa's own entry (left of the ○金澤藩 marker). Name verified glyph-by-glyph. BOX FIX: proposer box bottom (y1690+1430 = 3120) clipped the final 寧 of 慶寧 - the name runs to y~3165, after which the red-ink addendum (一横山蔵人...) begins. Corrected to y1740-3165."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 知事 (Knowledge-Governor) + name"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:738,1740,175,1425"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）巳十二月 一 横山蔵人 二 岡田雄次郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱＝朱書）巳十二月 - 一、横山蔵人（よこやま くらんど）／二、岡田雄次郎（おかだ ゆうじろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Vermilion addendum (原朱 = entered in red ink in the original manuscript), dated the 12th month of the snake year (巳十二月). It appends two numbered names: 一 Yokoyama Kurando and 二 Okada Yujiro. Verified across three sub-columns: rightmost （原朱）巳十二月, then 一横山蔵人, then 二岡田雄次郎. Box widened slightly left to x738 so the 二岡田... sub-column (ink starts x~745) is fully enclosed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 知事 red-ink (原朱) addendum"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:738,3175,225,465"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 篠原勘六豊臣一貞"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）篠原勘六 豊臣一貞（しのはら かんろく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior Councillor (dai-sanji): Shinohara Kanroku, formal clan-and-name 豊臣一貞 (Toyotomi no Kazusada). Kanazawa's own official (left of the ○金澤藩 marker). Title and name verified; column ink x618-769, y1745-3155. Box placement correct."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 大参事 (Senior Councillor) + name"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:618,1745,155,1410"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 陸原慎太郎源惟厚"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）陸原慎太郎 源惟厚（りくはら しんたろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillor (gon-dai-sanji): Rikuhara Shintaro, formal clan-and-name 源惟厚 (Minamoto no Korehiro). Kanazawa's own official. Title and name verified; column ink x560-635, y1748-3156. Box placement correct."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 権大参事 (Provisional Senior Councillor) + name"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:555,1745,85,1415"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_officials-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "前田内蔵太 安井和介 篠原勘六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "前田内蔵太（まえだ くらた）・安井和介（やすい わすけ）・篠原勘六（しのはら かんろく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A lower register of additional councillor appointees printed beneath the rank headings (the Hansei Ichiran two-register office/name layout): reading right-to-left, Maeda Kurata, Yasui Wasuke, and Shinohara Kanroku. These belong to Kanazawa's 大参事 / 権大参事 ranks (Shinohara Kanroku is the same man named as 大参事 above)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa councillors — lower-register additional names"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p162_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:535,3300,230,400"
+      }
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "anno-kochi_officials-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八 （高知）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八冊（高知藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Page header / running margin column — Domain Survey, eighth fascicle (the officials + military register), Kōchi (Tosa) section. Reads 藩制一覧表第八 followed by （高知） as a parenthetical gloss. Provenance marker, not page data. Measured ink bbox is x2186-2319, y1224-1786, which the box matches almost exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第八（高知）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p164_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2187,1224,132,562"
+      }
+    }
+  },
+  {
+    "id": "anno-kochi_officials-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading — Provisional / Acting Junior Councillor (gon-shō-sanji), fourth tier of the domain councillor ladder (大参事→権大参事→少参事→権少参事). It prints at the TOP of the rightmost column of the LEFT name block (directly above 山田儀平), so the six names of the LEFT block are its appointees; the names to its RIGHT, read earlier, belong to the preceding rank. Measured ink bbox x1187-1257, y2323-2638; box encloses cleanly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事 rank heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p164_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1175,2310,95,345"
+      }
+    }
+  },
+  {
+    "id": "anno-kochi_officials-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山田儀平・福岡精馬・弘田久吾・奥邨又十郎・松吉崎一・南勘吉郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）の六名 — 山田儀平・福岡精馬・弘田久吾・奥邨又十郎・松吉崎一・南勘吉郎"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The six Provisional Junior Councillors (権少参事) of Kōchi (Tosa). Reading right-to-left from the column under the 権少参事 heading: Yamada Gihei (山田儀平), Fukuoka Seima (福岡精馬), Hirota Kyūgo (弘田久吾), Okumura Matajūrō (奥邨又十郎 = 奥村又十郎), Matsu(yoshi)zaki Hajime (松吉崎一), and Minami Kankichirō (南勘吉郎). Each column is one personal name read top-to-bottom; columns read right-to-left. Box encloses all six columns (ink x513-1248, y2911-3482) with clean margins."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kōchi 権少参事 roster (6 names)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p164_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:505,2885,765,610"
+      }
+    }
+  },
+  {
+    "id": "anno-kochi_officials-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "淺利慶三郎・間忠藏・下村銈太郎・毛利恭助・高屋左兵衛・中邨觀一郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（前位＝少参事の続き）淺利慶三郎・間忠藏・下村銈太郎・毛利恭助・高屋左兵衛・中邨觀一郎"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Six further named officials filling the columns to the RIGHT of the 権少参事 heading, i.e. read BEFORE it. Because the rank heading is printed atop the column at their left, these names continue the preceding rank's roster — the 少参事 (Junior Councillor) list begun on the earlier fascicle-8 pages. Reading right-to-left: Asari Keizaburō (淺利慶三郎), Hazama Chūzō (間忠藏), Shimomura Keitarō (下村銈太郎), Mōri Kyōsuke (毛利恭助), Takaya Sahei (高屋左兵衛), and Nakamura Kan'ichirō (中邨觀一郎 = 中村観一郎). No rank label for these names prints on this page; the label is on a preceding page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kōchi 少参事 continuation roster (6 names, preceding rank)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p164_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1308,2885,898,610"
+      }
+    }
+  }
+]

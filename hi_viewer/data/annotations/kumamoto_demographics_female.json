@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-kumamoto_demographics_female-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族女 三萬四千五百拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）女 三万四千五百十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class (lower-samurai) — female = 34,514. Pairs with the male sotsu count on the facing page (upper_p184_right)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2536,1110,108,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兩末家士卒女 千六百五拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "両末家（りょうまっけ）士族・卒族 女 千六百五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two cadet-house (両末家) shizoku + sotsu — female = 1,654; the retainers of Kumamoto's two branch houses."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兩末家士卒 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2400,1110,108,1430"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "從前陪臣女 七千六百八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "従前陪臣（じゅうぜん ばいしん）女 七千六百八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Former rear-vassals (baishin) — female = 7,608; the sub-vassals of Kumamoto's own retainers."
+      },
+      {
+        "purpose": "identifying",
+        "value": "從前陪臣 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2266,1110,108,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家女 九百貳拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）女 九百二十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-house (Shinto priestly households) — female = 920. The facing male page labels this group 社人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2126,1110,108,1230"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧家女 貳千貳百四拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧家（そうけ）女 二千二百四十九人。頭注に「八十六ケ寺ハ藩ヨリ譲チ給ス」相当の傍書あり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist-clergy-house — female = 2,249, with a marginal head-note (頭書) about 86 temples granted by the domain. The facing male page labels this group 僧侶."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧家 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1986,1110,112,1430"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "農家女 貳拾七萬八千五百八拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "農家（のうか）女 二十七万八千五百八十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Farmer-house — female = 278,584, the largest single group. The overwhelming bulk of Kumamoto's recorded population is agrarian commoners."
+      },
+      {
+        "purpose": "identifying",
+        "value": "農家 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1844,1110,116,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "商家女 壹萬八千百五拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "商家（しょうか）女 一万八千百五十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Merchant/townsfolk-house — female = 18,153."
+      },
+      {
+        "purpose": "identifying",
+        "value": "商家 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1713,1110,112,1560"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "賣女 五百貳拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "賣女（うりめ／ばいじょ）五百二十三人 ※先頭字は貝部、賣（売）と読む"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Sell-women' (賣女) — 523. A small low-status female category printed between merchants and eta; the male page has no counterpart. Lead glyph is a 貝-radical character read as 賣."
+      },
+      {
+        "purpose": "identifying",
+        "value": "賣女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1583,1110,108,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多女 三千五百七拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）女 三千五百七十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) — female = 3,578. Title 穢多女 at column bottom (~y2400-2560). The 内 male/female sub-breakdown printed to the LEFT belongs to 物寳人, NOT to this eta column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1450,1110,110,1330"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 男 千六百三拾九人 ／ 女 千五百四拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）男 千六百三十九人・女 千五百四十四人（物寳人 三千百八十三人の男女内訳）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Inner sub-note (内) giving a male/female split: male = 1,639, female = 1,544 (1,639 + 1,544 = 3,183). This is the male/female breakdown of the 物寳人 (3,183) column directly above it — NOT of the eta column. The 男/女 labels are printed at the very bottom of the two sub-columns (~y2900-2950)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多 内訳（男/女）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1280,2280,135,680"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "物寳人 口別ニ 三千百八拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "物寳人（ぶっぽうにん）口別に 三千百八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Treasure-persons' (物寳人) counted per head (口別ニ) = 3,183. Folded into the grand total; facing-page total reconciles male 361,024 + female 355,783 + 3,183 = 719,990. Its own 男/女 split (1,639/1,544) is printed below under the 内 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "物寳人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1322,1100,95,1250"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（頭書）人口合セテ七拾一萬九千九百九拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（頭書）人口合せて 七十一万九千九百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Head-note (頭書) reading 'population totalling 719,990' (人口合セテ…人), bracketed. Equals male 361,024 + female 355,783 + treasure-persons 3,183."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1188,1100,95,1320"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 拾四萬八千八百五拾貳軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）十四万八千八百五十二軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 148,852 軒 (dwellings)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1055,1090,95,800"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩士 四千貳百八拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩士（はんし）四千二百八十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-samurai (藩士) households = 4,281 軒 — the retainer-household count, given separately from the 148,852 total households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士 戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:945,1320,90,740"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_demographics_female-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五（熊本）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第五冊（熊本）— 版面の柱（走り頭）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header in the left margin: Domain Survey Table, fascicle 5 (Kumamoto). Provenance pointer, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p184_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:815,1330,68,580"
+      }
+    }
+  }
+]

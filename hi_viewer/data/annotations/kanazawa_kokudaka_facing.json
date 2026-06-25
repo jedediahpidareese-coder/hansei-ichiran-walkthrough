@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-kanazawa_kokudaka_facing-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（金澤）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二冊（金澤）— 版面の柱（走り頭）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header: Domain Survey Table, fascicle 2 (Kanazawa). Printed book/fascicle header in the right margin identifying the page's provenance, not domain data; the (金澤) section name confirms the whole page is Kanazawa's own entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第二（金澤）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2035,1320,128,600"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百四十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百四十八（148）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 148 (百四十八) in the bottom-right margin — a page locator, not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page number 百四十八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2025,3175,110,230"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○金澤藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○金澤藩（かなざわはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker ○金澤藩 ('Kanazawa domain') at the far left of the page; the ○ opens Kanazawa's fascicle-2 register and all data columns on this page belong to Kanazawa (Kaga, the Maeda house)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○金澤藩 (domain boundary marker)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:272,1410,128,610"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 二萬六千六十四人 男 一萬三千七十七人 女 一萬二千九百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）二万六千六十四人 — 男 13,077・女 12,987"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the directly-governed land = 26,064 (男 13,077 + 女 12,987 = 26,064, checks)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 人口 (direct-rule-land population)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1882,1085,122,1755"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 三千二百四十七社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）三千二百四十七社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 3,247 (三千二百四十七社)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 神社 (shrines)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1760,1085,100,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院 二千三百三十寺 僧 一千八百九十九人 尼 百九十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）二千三百三十寺 — 僧 1,899人・尼 192人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 2,330 (二千三百三十寺), staffed by 1,899 monks (僧) and 192 nuns (尼)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 寺院 (temples, with 僧/尼)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1610,1085,128,1640"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士卒族戸數 一萬六千七百八十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒族戸数（しそつぞく こすう）一万六千七百八十戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai/soldier-clan household count = 16,780 households (一萬六千七百八十戸)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 士卒族戸數 (samurai-soldier-clan households)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1496,1085,96,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 三萬七千七百九十三人 男 一萬九千八人 女 一萬八千七百八十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（士卒族の）三万七千七百九十三人 — 男 19,008・女 18,785"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the samurai-soldier-clan households = 37,793 (男 19,008 + 女 18,785 = 37,793, checks). The master dataset's 77,853 is wrong: the source first glyph is plainly 三 (37,793), confirmed by the M/F split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 人口 (samurai-soldier-clan population)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1338,1085,130,2000"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 社人戸數 三百二十六戸 社人 百八十七人 女 二百三十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 社人戸数（しゃにん こすう）三百二十六戸 — 社人（男）187人・女 232人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which (内), shrine-personnel households = 326, comprising 187 male shrine-people (社人) and 232 female (女) — a sub-category of the samurai-soldier-clan register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 内 社人戸數 (shrine-personnel households)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1185,1085,135,1400"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 修驗 百十一戸 人口 四十六人 女 九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 修験（しゅげん）百十一戸 — 人口（男）46人・女 94人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which (内), Shugendō ascetic (yamabushi) households = 111, with a population of 46 male and 94 female — another sub-category of the register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 内 修驗 (yamabushi ascetics)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1060,1085,128,1010"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戎兵 十二大隊 五千七十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戎兵（じゅうへい＝歩兵）十二大隊 五千七十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry (戎兵) — 12 battalions, 5,076 men total. (Per-battalion composition given in the adjacent note column.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 戎兵 (infantry, 12 battalions)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:955,1085,100,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但一大隊四百二十三人 隊長士官九十三人 兵三百三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し一大隊 423人 — 隊長・士官 93人、兵 330人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-print breakdown of the infantry: each battalion = 423 men (但一大隊四百二十三人), comprising 93 commanders/officers (隊長士官) and 330 rank-and-file (兵). Check: 423 x 12 = 5,076; 93 + 330 = 423."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 戎兵 breakdown notes"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:825,1350,110,1770"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "騎兵 一小隊 共 隊長 百六十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "騎兵（きへい）一小隊 — 隊長共 165人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cavalry (騎兵) — one squadron (一小隊), 165 men including the commander (隊長共)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 騎兵 一小隊 (cavalry)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:678,1085,118,1095"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲兵 一聯隊 同 二百七十人 但四小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵（ほうへい）一聯隊 270人 — 但し四小隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery (砲兵) — one regiment (一聯隊), 270 men, organised in 4 platoons (但四小隊)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 砲兵 一聯隊 (artillery)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:555,1085,98,1370"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "工兵隊 同 五百七十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "工兵隊（こうへいたい）五百七十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Engineer corps (工兵隊) = 572 men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 工兵隊 (engineer corps)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:413,1085,102,1010"
+      }
+    }
+  },
+  {
+    "id": "anno-kanazawa_kokudaka_facing-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "輜重隊 同 八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "輜重隊（しちょうたい）八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Baggage/transport corps (輜重隊) = 89 men. The master dataset's 889 is wrong: the source plainly prints 八十九人 (89, no 百)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kanazawa 輜重隊 (baggage/transport corps)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p087_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:413,2270,102,840"
+      }
+    }
+  }
+]

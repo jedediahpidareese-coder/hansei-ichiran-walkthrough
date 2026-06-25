@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-kumamoto_households-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹萬五千百拾八軒 兵卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "壹萬五千百十八軒（15,118軒）— 兵卒（へいそつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soldier-class (heisotsu) households: 15,118 houses (壹萬五千百十八軒). Rightmost data column, read first. The category label 兵卒 sits below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 兵卒 (soldier-class houses)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1980,1335,90,1095"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三千八百拾五軒 從前陪臣"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三千八百十五軒（3,815軒）— 從前陪臣（じゅうぜんばいしん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Former sub-vassals (baishin, retainers-of-retainers): 3,815 houses (三千八百十五軒). Label 從前陪臣 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 從前陪臣 (former sub-vassals)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1840,1338,90,1255"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七百拾七軒 兩末家藩士兵卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "七百十七軒（717軒）— 兩末家藩士兵卒（りょうまっけはんしへいそつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Retainers and soldiers of the two cadet/branch houses (末家): 717 houses (七百十七軒). Label 兩末家藩士兵卒 (7 chars) below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 兩末家藩士兵卒 (two cadet houses' retainers/soldiers)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1700,1333,95,1515"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "拾壹萬四千五百拾軒 農"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "拾壹萬四千五百十軒（114,510軒）— 農（のう＝農民）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Farmers (nō): 114,510 houses (拾壹萬四千五百十軒) — by far the largest category. Label 農 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 農 (farmers)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1578,1335,90,1010"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六千九百六拾五軒 商"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六千九百六十五軒（6,965軒）— 商（しょう＝商人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Merchants (shō): 6,965 houses (六千九百六十五軒). Label 商 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 商 (merchants)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1448,1334,90,1010"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳百七拾七軒 社家"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "貳百七十七軒（277軒）— 社家（しゃけ＝神職の家）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine households (shake, families of Shinto priests): 277 houses (貳百七十七軒). Label 社家 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 社家 (shrine households)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1313,1330,90,1095"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千貳百四拾軒 寺院 （八十六ヶ寺ハ藩ヨリ録チ給ス）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "千貳百四十軒（1,240軒）— 寺院（じいん）。割注：八十六ヶ寺は藩より録（禄）を給す（86の寺は藩から扶持を与えられている）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples (jiin): 1,240 houses (千貳百四十軒). The split-line note below reads '86 of the temples are granted a stipend (録/禄) by the domain' (八十六ヶ寺ハ藩ヨリ録チ給ス), parallel to the shrine note on the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 寺院 (temples, with stipend note)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1150,1334,118,1690"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五百七拾三軒 盲人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五百七十三軒（573軒）— 盲人（もうじん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Blind persons (mōjin): 573 houses (五百七十三軒). Label 盲人 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 盲人 (blind persons)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1042,1333,90,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千三百五拾貳軒 穢多"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "千三百五十貳軒（1,352軒）— 穢多（えた＝被差別民）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta outcaste households: 1,352 houses (千三百五十二軒). Label 穢多 below the figure (a status-discriminated group recorded as a separate category in the 1870 survey)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 穢多 (eta outcaste houses)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:905,1332,90,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "別ニ 三百四拾五軒 物貨"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "別ニ三百四十五軒（別に345軒）— 物貨（ぶっか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Goods/trade households (bukka): counted separately (別ニ) at 345 houses (三百四十五軒). The small superscript 別ニ ('additionally/separately') at top-right marks it as a count kept apart from the main category totals. Label 物貨 below the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 物貨 (goods/traders, separate count)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:768,1340,90,1085"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（神社） 十九ヶ社 但シ藩ヨリ録チ給スル分其餘ハ不書"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（神社）十九ヶ社。割注：但し藩より録（禄）を給する分、其の餘は書かず（藩から扶持を与える19社のみを計上、それ以外は記載せず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines (jinja): 19 shrines (十九ヶ社). The split-line note states that only those granted a stipend (録/禄) by the domain are counted; the remainder are not recorded (但シ藩ヨリ録チ給スル分其餘ハ不書)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 神社 (shrines, stipend-receiving only)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:620,1126,112,1190"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事家族 十人 男五人 女五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事家族（ちじかぞく）十人 — 男五人・女五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's (chiji's) family: 10 persons — 5 male, 5 female (十人 男五人 女五人). The split shows the right sub-column 男五人 (5 male) read before the left 女五人 (5 female). The domain governor here is the former daimyo Hosokawa house."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 知事家族 (governor's family)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:492,1076,100,790"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "蒸氣 三艘 一 原名コスモスホライト 和名凌雲丸 英製鐵船 二 原名グヲナー 和名萬里丸 佛國製木船 三 原名フェ□ャ 和名鷲進丸 國不分鐵船"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "蒸氣（じょうき＝蒸気船）三艘。一、原名コスモスホライト・和名凌雲丸（英製鉄船）／二、原名グヲナー・和名萬里丸（佛国製木船）／三、原名フェ□ャ・和名鷲進丸（国不分＝製造国不明の鉄船）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Steamships: 3 vessels (蒸氣 三艘), each listed with its foreign original name (原名) and Japanese name (和名). (1) orig. 'Cosmos-...' -> Ryōun-maru, English-built iron ship (英製鐵船); (2) orig. 'Gunner(?)' -> Banri-maru, French-built wooden ship (佛國製木船); (3) orig. 'Fe...ya(?)' -> Shūshin-maru, country of build unknown, iron ship (國不分鐵船). Foreign-name katakana are faint and read approximately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Kumamoto 蒸氣 (steamships, 3 vessels)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:325,1073,128,2480"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五 （熊本）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第五冊（熊本藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header — Domain Survey (Hansei Ichiran), fifth fascicle (第五), Kumamoto section. Provenance margin column, not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第五 （熊本）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2112,1339,70,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kumamoto_households-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百四十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百四十四（344ページ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 344 (三百四十四), in the lower margin below the running header."
+      },
+      {
+        "purpose": "identifying",
+        "value": "printed page number 三百四十四 (344)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p185_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2095,3185,140,265"
+      }
+    }
+  }
+]

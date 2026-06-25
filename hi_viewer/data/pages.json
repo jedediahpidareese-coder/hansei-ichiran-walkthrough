@@ -91,6 +91,23 @@
       "sequence": 5
     },
     {
+      "id": "choshu_officials",
+      "sequence": 6,
+      "domain_canonical": "山口藩",
+      "domain_en": "Chōshū (Yamaguchi) domain",
+      "domain_hi_name": "山口藩",
+      "image": "images/lower_p204_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 204,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第九（山口）",
+      "page_header_en": "Domain Survey Table, ninth fascicle (officials + military register), Yamaguchi (Chōshū) section",
+      "table_number": 9,
+      "page_topic": "Chōshū (Yamaguchi) senior domain officials: governor and the three councillor ranks with named appointees",
+      "page_summary_en": "This is the right (opening) page of the Yamaguchi/Chōshū domain entry in fascicle 9 (第九) of the 藩制一覧表, the Dajōkan domain survey. It carries the ○山口藩 domain-boundary marker and Chōshū's senior officialdom, read right-to-left: 知事 (Governor) 1 — Mōri Motoo (毛利元雄, the standard reading is Mōri Motonori); 大参事 (Senior Councillor) 2; 権大参事 (Provisional Senior Councillor) 5; and 少参事 (Junior Councillor) 7, each rank giving its count and its appointees' names in a two-register upper/lower band layout. A 少参事列 ('Junior Councillors, continued') block runs at the far left. The 権少参事 tail and the full military register (17 infantry battalions, artillery, cavalry, 4 warships) continue onto the facing page lower_p204_left (choshu_military). To the RIGHT of the ○山口藩 marker the small 兵隊 / 銃隊 八拾人 (gun corps, 80 men) block is a military overflow belonging to the PRECEDING (smaller) domain, not to Chōshū, per the standard HI fascicle-8/9 right-of-marker layout. The printed page number 三百八十四 (384) sits in the bottom margin."
+    },
+    {
       "id": "choshu_military",
       "domain_canonical": "長州藩",
       "domain_hi_name": "山口藩",
@@ -105,7 +122,7 @@
       "table_number": 9,
       "page_topic": "army + navy (17 battalions, 4 warships)",
       "page_summary_en": "Chōshū's Table-9 military disclosure — a stark contrast with Satsuma's 書ナラス. The land force: 17 infantry battalions of 433 men each (= 7,361 infantry), 6½ artillery batteries (8 guns / 93 men each), and one 93-man cavalry company. The navy: four wooden steam warships, each listed with its original foreign name — 第一丁卯丸 (ex-Penta), 第二丁卯丸 (ex-Asonda), 鳳翔丸, and 乙丑丸 (ex-Conchin). The ○山口藩 marker and the senior officials (知事・大参事…) are on the facing right half (p204-R); the tail of the 権少参事 roster appears here.",
-      "sequence": 6
+      "sequence": 7
     },
     {
       "id": "tosa_kokudaka",
@@ -122,7 +139,7 @@
       "table_number": 2,
       "page_topic": "kokudaka (5-yr avg) + tax + products + households",
       "page_summary_en": "Tosa's Table-2 page: 草高 495,486 koku, given as a five-year average (甲子ヨリ戊辰 = 1864–1868, through the Boshin War). Current rice 現米 189,431 + 此米 3,587 = 總計 193,018 (exact). The tax in gold 税金 28,697 ryō and in silver 税銀 28,697 kanme share the same mantissa as currency equivalents. Total 戸數 93,736. A long 諸産物 list catalogues Tosa's named products (no quantities). The marker is on the facing page; the population total (495,936) is on the demographics page.",
-      "sequence": 7
+      "sequence": 8
     },
     {
       "id": "tosa_demographics",
@@ -139,7 +156,7 @@
       "table_number": 2,
       "page_topic": "population + status classes (with M/F) + standing army",
       "page_summary_en": "Tosa's demographic page. Total 人口 495,936 (no M/F printed for the grand total). Status classes, each with male/female sub-totals: 士族 7,269 households / 30,506 persons (男 15,138 / 女 15,368); 卒族 3,073 / 17,681 (男 10,954 / 女 6,727); 穢多 3,396 / 16,894 (男 8,609 / 女 8,285); the Shinto-priest/ascetic class 1,016 / 4,214; and 476 temples with 1,572 clergy — every M/F pair sum-validated. The page closes with Tosa's army: 常備兵 6,600 + 非常兵 2,400 = 9,000 (合九千人).",
-      "sequence": 8
+      "sequence": 9
     },
     {
       "id": "tosa_military",
@@ -156,7 +173,41 @@
       "table_number": 8,
       "page_topic": "officials — the named officer hierarchy",
       "page_summary_en": "Tosa's Table-8 officer roster. Where Satsuma disclosed nothing, Tosa names its hierarchy: 知事 (governor) Yamauchi, 大参事 Fukao Hiroto, 権大参事 Gotō Jozan, 少参事 Saitō Yakuma, and a long 権少参事 roster beginning with Konami Gorō and including future national figures (Kataoka Kenkichi, Tani Tateki). The roster and the 海陸兵員 9,000 total continue onto the following pages — the same force shown on the demographics page as 常備 6,600 + 非常 2,400.",
-      "sequence": 9
+      "sequence": 10
+    },
+    {
+      "id": "kochi_officials",
+      "sequence": 11,
+      "domain_canonical": "高知藩",
+      "domain_en": "Kōchi (Tosa)",
+      "domain_hi_name": "高知藩",
+      "image": "images/lower_p164_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 164,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第八（高知）",
+      "page_header_en": "Domain Survey, eighth fascicle (officials + military register), Kōchi (Tosa) section",
+      "table_number": 8,
+      "page_topic": "Kōchi (Tosa) domain junior-councillor (権少参事) roster — left-half overflow of the fascicle-8 officials list",
+      "page_summary_en": "This is a sparse officials-roster overflow page for Kōchi (Tosa) domain (高知藩) in the eighth fascicle (officials + military register). It carries no ○ domain-boundary marker and no numeric data: the entire page is a list of named officials. A single rank heading, 権少参事 (Provisional Junior Councillor / gon-shō-sanji), sits mid-page atop its column; reading right-to-left, the six name columns to the RIGHT of that heading continue the preceding rank's roster (the 少参事 / Junior-Councillor list begun on the earlier pages), while the heading column and the five columns to its LEFT give the six Provisional Junior Councillors. The running page header 藩制一覧表第八（高知）prints as a small vertical column in the right margin (provenance, not data)."
+    },
+    {
+      "id": "kochi_officials_2",
+      "sequence": 12,
+      "domain_canonical": "高知藩・山内藩・龜岡藩",
+      "domain_en": "Kōchi (Tosa) / Yamauchi (Tosa-Shinden) / Kameoka",
+      "domain_hi_name": "高知藩・山内藩・龜岡藩",
+      "image": "images/lower_p164_left.jpg",
+      "volume": "",
+      "pdf_page": 164,
+      "page_side": "L",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第八（山内、龜岡）",
+      "page_header_en": "Domain Survey, eighth fascicle (officials + military register), Yamauchi / Kameoka section",
+      "table_number": 8,
+      "page_topic": "Officials-and-military boundary page: tail of Kōchi (Tosa), then the start of Yamauchi (Tosa-Shinden) and Kameoka",
+      "page_summary_en": "This is the left half (printed p.305) of a fascicle-8 spread that continues from p.163 (Kagoshima/Kōchi). It is a boundary page carrying three domains. On the right it completes the appointee-name roster of the preceding domain, 高知藩 (Kōchi/Tosa) — seven councillors including Iwasaki Yatarō (founder of Mitsubishi) — and gives Tosa's combined land-and-sea military total of 9,000 (海陸兵員九千人), which prints to the right of the next ○ marker per the fascicle-8 overflow convention. The ○山内藩 marker then opens the Yamauchi (Tosa-Shinden) domain with its 知事 (Governor) and 大参事 (Senior Councillor) office-headings, whose standing army of 89 (常備兵八十九人) overflows past the following marker. Finally the ○龜岡藩 marker opens the Kameoka (Tanba) domain, whose officials continue onto the next page; the running margin header reads 藩制一覧表第八（山内、龜岡）."
     },
     {
       "id": "saga_kokudaka",
@@ -173,7 +224,7 @@
       "table_number": 6,
       "page_topic": "kokudaka via 'two-mouth combined / 5-yr average' + main tax",
       "page_summary_en": "Saga (entered only in vol2) uses an unusual phrasing for its combined yield: 貮口合 平均 = 724,739.3152 koku, the five-year average of 高 211,519 + 新田高 513,580 — Saga led the Edo period in new-field reclamation, so its real yield far exceeds the ~357k formal rating. Main tax: 正租米 213,478 and 取納現米 217,789 koku, plus a silver tax of 444.1 kanme (with its rice-equivalent 但米 ≈ 4,441 koku) and a tiny 10-ryō miscellaneous gold tax.",
-      "sequence": 10
+      "sequence": 13
     },
     {
       "id": "saga_demographics",
@@ -190,7 +241,7 @@
       "table_number": 6,
       "page_topic": "population totals (with M/F) + products",
       "page_summary_en": "Saga's demographic totals and products. Total 戸數 68,710 and total 人員 354,450 — male 183,517 + female 170,933 = 354,450, sum-validated — plus 士族戸數 5,273. The product block lists Saga's output with quantities, including the famous Hizen coal (石炭 36,000,000 jin), Arita/Imari ceramics (陶器 20,000+ bales), rice 92,719 koku, tea, wax, sōmen, sake, and dried shrimp, and a cash figure of 99,831 kan-mon. The shizoku/sotsu PERSON counts are on the facing left half (saga_status).",
-      "sequence": 11
+      "sequence": 14
     },
     {
       "id": "saga_status",
@@ -207,7 +258,7 @@
       "table_number": 6,
       "page_topic": "status-class persons + Sakura-han boundary marker",
       "page_summary_en": "The left half of Saga's demographic spread: the status-class person counts that complete the totals on the facing page. 士族 23,823 persons; 卒 9,369 households / 43,488 persons; 僧 1,032 / 4,412; shrine personnel 195 / 850; and a 'shrine count not specified' (社數不詳) note — each person figure carries an internal male/female split. The neighbouring Sakura-han (佐倉藩, a Hotta domain in Shimōsa) entry begins alongside.",
-      "sequence": 12
+      "sequence": 15
     },
     {
       "id": "saga_military",
@@ -224,11 +275,11 @@
       "table_number": 9,
       "page_topic": "military — Saga's six-battalion army (2,972 / 36 guns)",
       "page_summary_en": "Saga's army. Its ○佐賀藩 marker and officer roster are on the facing page; the force itself is recorded here — six battalions, 2,972 personnel (officers 864 + artillery 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and 36 cannon. A 少参事以下書ナラス note records that the junior-official roster was withheld.",
-      "sequence": 13
+      "sequence": 16
     },
     {
       "id": "kumamoto_kokudaka",
-      "sequence": 14,
+      "sequence": 17,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -245,7 +296,7 @@
     },
     {
       "id": "kumamoto_demographics",
-      "sequence": 15,
+      "sequence": 18,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -261,8 +312,59 @@
       "page_summary_en": "The male population broken out by status class: farmers 278,846 (Kumamoto, unlike some domains, registers commoners), sotsu 37,219, merchants 18,738, shizoku 8,050, former rear-vassals 8,259, clergy 3,167, eta 3,495, plus smaller groups — summing exactly to the 361,024 male total. The total female population (355,783) and the female shizoku (8,000) also print here; the female-by-class breakdown and the grand totals (人口合 719,990 persons, 戸數 148,852 households) are on the facing left half (p184L), and households-by-class + shrines + a six-ship list are on p185R. Shizoku male + female ≈ 16,050 — behind Kumamoto's high retainer density (≈111.8 per 1,000 koku)."
     },
     {
+      "id": "kumamoto_demographics_female",
+      "sequence": 19,
+      "domain_canonical": "熊本藩",
+      "domain_en": "Kumamoto",
+      "domain_hi_name": "熊本藩",
+      "image": "images/upper_p184_left.jpg",
+      "volume": "vol1",
+      "pdf_page": 184,
+      "page_side": "L",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第五（熊本）",
+      "page_header_en": "Domain Survey Table, fascicle 5 (Kumamoto)",
+      "table_number": 5,
+      "page_topic": "Kumamoto female-side status-class population, with treasure-persons, grand total population, and household counts",
+      "page_summary_en": "This page is the left (female) half of Kumamoto's status-class population register, continuing the male-side breakdown on the facing page (upper_p184_right). Reading right-to-left it lists female (女) counts for each status group — sotsu-class 34,514; two cadet-house shizoku+sotsu 1,654; former rear-vassals (baishin) 7,608; shrine-house 920; Buddhist-clergy-house 2,249; farmer-house 278,584; merchant-house 18,153; entertainer/sell-women (賣女) 523; and eta (outcaste) 3,578 — followed by a treasure-persons category (物寳人, per-head) of 3,183, the grand total population (人口合) of 719,990, total households (戸數) 148,852, and samurai households (藩士) 4,281. There is no domain-boundary ○ marker on this page; it is a single-domain (Kumamoto) continuation page, with the printed page number 三百四十三 in the bottom margin."
+    },
+    {
+      "id": "kumamoto_households",
+      "sequence": 20,
+      "domain_canonical": "熊本藩",
+      "domain_en": "Kumamoto",
+      "domain_hi_name": "熊本藩",
+      "image": "images/upper_p185_right.jpg",
+      "volume": "",
+      "pdf_page": 185,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第五 （熊本）",
+      "page_header_en": "Domain Survey Table 5 (Kumamoto)",
+      "table_number": 5,
+      "page_topic": "household counts by social category, plus shrine/temple, governor's-family, and steamship registers",
+      "page_summary_en": "This is the Kumamoto entry's Table-5 (fifth-fascicle) page, a register of household (軒) counts broken out by social category. Reading right-to-left the categories are soldier-class (兵卒 15,118 houses), former sub-vassals (從前陪臣 3,815), retainers and soldiers of the two cadet houses (兩末家藩士兵卒 717), farmers (農 114,510), merchants (商 6,965), shrine households (社家 277), temples (寺院 1,240, of which 86 receive a domain stipend), blind persons (盲人 573), eta outcaste households (穢多 1,352), and goods/traders (物貨, a separate 345). The left margin adds counts of shrines (神社 19, only those drawing a domain stipend), the governor's family (知事家族 10 persons: 5 male, 5 female), and the domain's three steamships (蒸氣 三艘), each given with its foreign and Japanese names and country of build. There is no ○ domain-boundary marker — the whole page is Kumamoto. Printed book page 344 (三百四十四)."
+    },
+    {
+      "id": "kumamoto_officials",
+      "sequence": 21,
+      "domain_canonical": "熊本藩",
+      "domain_en": "Kumamoto",
+      "domain_hi_name": "熊本藩",
+      "image": "images/lower_p200_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 200,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第九（熊本）",
+      "page_header_en": "Domain Survey Table, fascicle 9 (officials + military register), Kumamoto section",
+      "table_number": 9,
+      "page_topic": "Kumamoto-han officials roster (governor and councillor ranks) with the domain's military-section header",
+      "page_summary_en": "This is the right-hand page of the Kumamoto (熊本藩) entry in fascicle 9 (officials + military register) of the 1869-70 Domain Survey, printed page 376. Reading right-to-left, a short tail of the PRECEDING domain (its 権少参事 provisional-junior-councillor names 中島謹・齋藤吉太郎・鈴木勉) sits to the right of the ○熊本藩 boundary marker; everything left of that marker is Kumamoto's. Kumamoto's officials are given as four ranked headings with headcounts — 知事 (governor) 1, 大参事 (senior councillor) 4, 権大参事 (provisional senior councillor) 5, 少参事 (junior councillor) 6 — followed below by the appointees' names in eight columns (松井新次郎 as governor, then the councillor rosters). The far-left 兵隊 (troops) heading opens Kumamoto's military section, whose actual corps and warship figures spill onto the facing left page (lower_p200_left). The printed 少参事 roster lists four names against a stated headcount of six."
+    },
+    {
       "id": "kumamoto_military",
-      "sequence": 16,
+      "sequence": 22,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -278,8 +380,25 @@
       "page_summary_en": "Kumamoto's disclosed force: a samurai corps of 2 battalions (576), a rifle corps of 4 battalions (1,152), and 6 artillery units (288 gunners, 24 French 4.5-pounder guns) — about 2,016 troops in all. Its navy is striking: six vessels, most foreign-built steamers — 萬里丸 (ex-Cosmos White, French), 凌雲丸 (ex-Granada, British iron), 奮迅丸 (ex-Felicia, iron), a sailing ship, 神風丸 (ex-Kagoshima, British), and 泰運丸 (ex-Corea, American). The ○熊本藩 marker and the named officials (知事 + 参事) are on the facing right half (p200R); the ○久留米藩 (Kurume) marker at the left begins the next domain."
     },
     {
+      "id": "kanazawa_kokudaka_facing",
+      "sequence": 23,
+      "domain_canonical": "金澤藩",
+      "domain_en": "Kanazawa (Kaga)",
+      "domain_hi_name": "金澤藩",
+      "image": "images/upper_p087_right.jpg",
+      "volume": "vol1",
+      "pdf_page": 87,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第二（金澤）",
+      "page_header_en": "Domain Survey Table, fascicle 2 (Kanazawa)",
+      "table_number": 2,
+      "page_topic": "Kanazawa (Kaga) population, religious institutions, retainer-class register, and standing army",
+      "page_summary_en": "This is the facing-half of Kanazawa's fascicle-2 (藩制一覧表第二) entry, opening with the ○金澤藩 boundary marker at the far left; the whole page is Kanazawa's own data (book page 148). Reading right to left it records the directly-governed-land population (26,064), shrines (3,247 神社) and temples (2,330 寺院, of which 1,899 monks and 192 nuns), the samurai-soldier-clan household count (16,780 戸) and its population (37,793, of which 19,008 male / 18,785 female), with internal sub-totals for shrine-personnel households (326 社人戸數) and yamabushi ascetics (111 修驗戸); the left third lays out Kanazawa's standing army: 12 infantry battalions totalling 5,076 men (423 per battalion = 93 officers + 330 rank-and-file), one cavalry squadron (165), one artillery regiment of 4 platoons (270), an engineer corps (572), and a baggage/transport corps (89). Note: the master dataset's 77,853 retainer population and 889 transport-corps figures are misreads — the source plainly prints 三萬七千七百九十三 (37,793) and 八十九人 (89)."
+    },
+    {
       "id": "kanazawa_kokudaka",
-      "sequence": 17,
+      "sequence": 24,
       "domain_canonical": "金沢藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -296,7 +415,7 @@
     },
     {
       "id": "kanazawa_demographics",
-      "sequence": 18,
+      "sequence": 25,
       "domain_canonical": "金沢藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -312,8 +431,25 @@
       "page_summary_en": "This page continues Kanazawa's entry from the kokudaka page (p87L), breaking the retainer-and-dependent population into its sub-classes — 卒族 (lower-samurai) 27,038 persons / 9,703 households, 中間小者 (attendants and menials) 5,938 / 2,699, and 藤内等 (the outcaste classes, 但 穢多之類) 11,695 / 2,243 — then the religious establishment (神社 407 with 社人 1,799; 寺 2,047 with 僧 13,326). Every population column carries an internal male/female split, each sum-validated against its total (e.g. 卒族 男 14,655 + 女 12,383 = 27,038). The left margin adds a military-reform summary — 步兵 5 battalions, 砲兵 3 units, officer cadre 1,106 and rank-and-file 兵卒人員 1,568, plus 2 steamships and 3 sailing vessels — the same force detailed on the military page."
     },
     {
+      "id": "kanazawa_officials",
+      "sequence": 26,
+      "domain_canonical": "金澤藩",
+      "domain_en": "Kanazawa (Kaga / Maeda)",
+      "domain_hi_name": "金澤藩",
+      "image": "images/lower_p162_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 162,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第八（金澤）",
+      "page_header_en": "Domain Survey (Hansei Ichiran), eighth fascicle — officials + military register — Kanazawa section",
+      "table_number": 8,
+      "page_topic": "Domain-boundary page: the preceding domain's junior-councillor tail and full standing army, then the ○金澤藩 marker and Kanazawa's senior officials (knowledge-governor and councillors)",
+      "page_summary_en": "This is the right-hand (facing) page to kanazawa_military, in the eighth fascicle of the Hansei Ichiran officials-and-military register. It straddles a domain boundary marked by the ○ before 金澤藩. To the RIGHT of that marker (read first, since vertical text runs right-to-left) is the tail of the PRECEDING domain's entry: the close of its officials roster (少参事 11 members, 権少参事 8 members) followed by its complete standing army — infantry (12 battalions, 423 men each, 5,076 total), one cavalry platoon (160 officers/soldiers, 165 horses), one artillery regiment of 4 platoons (279 men), an engineer corps (572 men), and a baggage/transport corps (89 men). To the LEFT of the marker begins KANAZAWA itself: Knowledge-Governor (知事) Maeda Yoshiyasu (前田従三位菅原朝臣慶寧), Senior Councillor (大参事) Shinohara Kanroku, and Provisional Senior Councillor (権大参事) Rikuhara Shintarō, with a lower register of additional councillor names and a vermilion (原朱) addendum dated the 12th month of the snake year adding Yokoyama Kurando and Okada Yūjirō."
+    },
+    {
       "id": "kanazawa_military",
-      "sequence": 19,
+      "sequence": 27,
       "domain_canonical": "金沢藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -329,8 +465,25 @@
       "page_summary_en": "Kanazawa's Table-8 entry. The ○金澤藩 marker and senior officials (知事・大参事・権大参事) are on the facing page; this half carries the junior-official roster (少参事 / 権少参事 — Honda Shigurehei and eight others) and the disclosed corps: 步兵 5 battalions (320 riflemen each) and 砲兵 3 units (144 men each). The personnel totals recorded with the entry are 兵卒人員 1,568, 士等役員 1,106, 隊士 464, and four councillor counts (1+9+21+16 = 47)."
     },
     {
+      "id": "tsurumaki_kokudaka",
+      "sequence": 28,
+      "domain_canonical": "鶴牧藩",
+      "domain_en": "Tsurumaki",
+      "domain_hi_name": "鶴牧藩",
+      "image": "images/upper_p156_right.jpg",
+      "volume": "vol1",
+      "pdf_page": 156,
+      "page_side": "R",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第四（鶴牧）",
+      "page_header_en": "Domain Survey, fourth fascicle (civil/economic register), Tsurumaki section",
+      "table_number": 4,
+      "page_topic": "Tsurumaki domain population, household counts by status, and clergy/shrine/village/troop tallies",
+      "page_summary_en": "This is the fourth-fascicle (civil/economic register) page for Tsurumaki domain (鶴牧藩), a small fudai domain in Kazusa Province held by the Mizuno clan. Reading right-to-left it gives household counts (114 samurai households, 101 sotsu households, 75 temples), the total population of 20,586 (male 10,563 / female 10,064) with its breakdown by status — 561 samurai-class persons, 341 sotsu, 61 shrine-people, 65 temple residents (10 temples without resident monks), 3 mountain ascetics, 5 'kannushi'(神尾), 2 yin-yang diviners, 2 blind-guild members — followed by 19 shrines, 64 villages/townships, 3 platoons of troops (40 men per platoon), and explicit notes that the governor's family and warships are not recorded. There is no ○ domain-boundary marker; the page is a single domain identified only by its margin header."
+    },
+    {
       "id": "nagoya_kokudaka",
-      "sequence": 20,
+      "sequence": 29,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -347,7 +500,7 @@
     },
     {
       "id": "nagoya_demographics",
-      "sequence": 21,
+      "sequence": 30,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -361,6 +514,23 @@
       "table_number": 4,
       "page_topic": "population by class — household counts paired with class populations (with M/F)",
       "page_summary_en": "The right half of Owari's demographic spread, which pairs household/temple COUNTS with the matching class POPULATIONS. Counts: 平民戸數 192,777 (of which 農 farmers 157,319 households), 寺院 2,438 temples (内 修驗 272), 社家 811, 穢多 518, 非人乞丐 1,531, 神社 4,978. Populations, each with an internally-consistent male/female split: an internal population figure 内人員 840,896 (男 420,055 + 女 420,841); Buddhist clergy 内僧 5,663 (with 尼 nuns 86 and a female figure 1,920); 修驗 1,183 (634/549); the eta population 2,599 (1,351/1,248); the shrine-priest population 4,793 (2,300/2,493); and the hinin/beggar population 6,001 (2,873/3,128). Owari, unlike status-only registers, recorded its commoners in full. (A second 人員 total of 724,569 and the 兵隊 military summary print on the facing left half, p158L.)"
+    },
+    {
+      "id": "nakatsu_boundary",
+      "sequence": 31,
+      "domain_canonical": "中津藩",
+      "domain_en": "Nakatsu (boundary page; right side continues Nagoya)",
+      "domain_hi_name": "中津藩",
+      "image": "images/upper_p158_left.jpg",
+      "volume": "vol1",
+      "pdf_page": 158,
+      "page_side": "L",
+      "book_page": "",
+      "page_header_kanji": "藩制一覧表第四（中津）",
+      "page_header_en": "Domain Survey, fourth fascicle (civil/economic register), Nakatsu section",
+      "table_number": 4,
+      "page_topic": "Domain-boundary page: the tail of Nagoya's commoner-population block (right of the ○中津藩 marker) meets the head of Nakatsu's kokudaka / tax-yield block (left of the marker).",
+      "page_summary_en": "A boundary page in fascicle 4 (the civil/economic register). Read right-to-left, the right-hand columns finish the previous domain Nagoya (名古屋藩): total population 724,569 (male 360,899 / female 363,670), merchants 28,634 households with population 91,285 (male 43,347 / female 47,938), 488 temple-halls housing 731 clergy (98 monks / 633 nuns), 88 onmyoji households (373 persons: 192 male / 181 female), and a standing force of 15 battalions (7,200 men). The ○中津藩 boundary marker, with its territory note (Buzen 3 districts / Bungo 3 districts / Chikuzen...), opens Nakatsu domain, whose data begin on the left: assessed kokudaka 100,000 koku, five-year-average tax yield (rice 54,354+ koku / gold 238 ryo 546 mon), and land tax (seiso) of 46,310.5585...8 koku of rice. The running header 藩制一覧表第四（中津）and the printed page number 二百九十一 (291) are in the left margin."
     }
   ]
 }
