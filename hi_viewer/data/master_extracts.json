@@ -2202,5 +2202,575 @@
       "unit": "persons",
       "raw": "兵隊 士千五十九人 卒八百七十八人"
     }
+  ],
+  "choshu_officials": [
+    {
+      "field_jp": "銃隊",
+      "parsed": "80",
+      "unit": "persons",
+      "raw": "銃隊 八拾人"
+    },
+    {
+      "field_jp": "知事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "知事 一人"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "2",
+      "unit": "persons",
+      "raw": "大參事 二人"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "權大參事 五人"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "7",
+      "unit": "persons",
+      "raw": "少參事 七人"
+    }
+  ],
+  "kochi_officials_2": [
+    {
+      "field_jp": "常備兵",
+      "parsed": "89",
+      "unit": "persons",
+      "raw": "常備兵 八十九人"
+    },
+    {
+      "field_jp": "海陸兵員",
+      "parsed": "9,000",
+      "unit": "persons",
+      "raw": "海陸兵員九千人"
+    }
+  ],
+  "kumamoto_demographics_female": [
+    {
+      "field_jp": "卒族 女",
+      "parsed": "34,514",
+      "unit": "persons",
+      "raw": "卒族女 三萬四千五百拾四人"
+    },
+    {
+      "field_jp": "兩末家士卒 女",
+      "parsed": "1,654",
+      "unit": "persons",
+      "raw": "兩末家士卒女 千六百五拾四人"
+    },
+    {
+      "field_jp": "從前陪臣 女",
+      "parsed": "7,608",
+      "unit": "persons",
+      "raw": "從前陪臣女 七千六百八人"
+    },
+    {
+      "field_jp": "社家 女",
+      "parsed": "920",
+      "unit": "persons",
+      "raw": "社家女 九百貳拾人"
+    },
+    {
+      "field_jp": "僧家 女",
+      "parsed": "2,249",
+      "unit": "persons",
+      "raw": "僧家女 貳千貳百四拾九人"
+    },
+    {
+      "field_jp": "農家 女",
+      "parsed": "278,584",
+      "unit": "persons",
+      "raw": "農家女 貳拾七萬八千五百八拾四人"
+    },
+    {
+      "field_jp": "商家 女",
+      "parsed": "18,153",
+      "unit": "persons",
+      "raw": "商家女 壹萬八千百五拾三人"
+    },
+    {
+      "field_jp": "賣女",
+      "parsed": "523",
+      "unit": "persons",
+      "raw": "賣女 五百貳拾三人"
+    },
+    {
+      "field_jp": "穢多 女",
+      "parsed": "3,578",
+      "unit": "persons",
+      "raw": "穢多女 三千五百七拾八人"
+    },
+    {
+      "field_jp": "物寳人 内訳 男",
+      "parsed": "1,639",
+      "unit": "persons",
+      "raw": "内 男 千六百三拾九人 ／ 女 千五百四拾四人"
+    },
+    {
+      "field_jp": "物寳人",
+      "parsed": "3,183",
+      "unit": "persons",
+      "raw": "物寳人 口別ニ 三千百八拾三人"
+    },
+    {
+      "field_jp": "人口合",
+      "parsed": "719,990",
+      "unit": "persons",
+      "raw": "（頭書）人口合セテ七拾一萬九千九百九拾人"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "148,852",
+      "unit": "households",
+      "raw": "戸數 拾四萬八千八百五拾貳軒"
+    },
+    {
+      "field_jp": "藩士 戸數",
+      "parsed": "4,281",
+      "unit": "households",
+      "raw": "藩士 四千貳百八拾壹軒"
+    }
+  ],
+  "kumamoto_households": [
+    {
+      "field_jp": "兵卒",
+      "parsed": "15,118",
+      "unit": "households",
+      "raw": "壹萬五千百拾八軒 兵卒"
+    },
+    {
+      "field_jp": "從前陪臣",
+      "parsed": "3,815",
+      "unit": "households",
+      "raw": "三千八百拾五軒 從前陪臣"
+    },
+    {
+      "field_jp": "兩末家藩士兵卒",
+      "parsed": "717",
+      "unit": "households",
+      "raw": "七百拾七軒 兩末家藩士兵卒"
+    },
+    {
+      "field_jp": "農",
+      "parsed": "114,510",
+      "unit": "households",
+      "raw": "拾壹萬四千五百拾軒 農"
+    },
+    {
+      "field_jp": "商",
+      "parsed": "6,965",
+      "unit": "households",
+      "raw": "六千九百六拾五軒 商"
+    },
+    {
+      "field_jp": "社家",
+      "parsed": "277",
+      "unit": "households",
+      "raw": "貳百七拾七軒 社家"
+    },
+    {
+      "field_jp": "寺院",
+      "parsed": "1,240",
+      "unit": "households",
+      "raw": "千貳百四拾軒 寺院 （八十六ヶ寺ハ藩ヨリ録チ給ス）"
+    },
+    {
+      "field_jp": "盲人",
+      "parsed": "573",
+      "unit": "households",
+      "raw": "五百七拾三軒 盲人"
+    },
+    {
+      "field_jp": "穢多",
+      "parsed": "1,352",
+      "unit": "households",
+      "raw": "千三百五拾貳軒 穢多"
+    },
+    {
+      "field_jp": "物貨",
+      "parsed": "345",
+      "unit": "households",
+      "raw": "別ニ 三百四拾五軒 物貨"
+    },
+    {
+      "field_jp": "神社",
+      "parsed": "19",
+      "unit": "shrines",
+      "raw": "（神社） 十九ヶ社 但シ藩ヨリ録チ給スル分其餘ハ不書"
+    },
+    {
+      "field_jp": "知事家族",
+      "parsed": "10",
+      "unit": "persons",
+      "raw": "知事家族 十人 男五人 女五人"
+    },
+    {
+      "field_jp": "蒸氣",
+      "parsed": "3",
+      "unit": "ships",
+      "raw": "蒸氣 三艘 一 原名コスモスホライト 和名凌雲丸 英製鐵船 二 原名グヲナー 和名萬里丸 佛國製木船 三 原名フェ□ャ 和名鷲進丸 國不分鐵船"
+    }
+  ],
+  "kumamoto_officials": [
+    {
+      "field_jp": "知事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "知事 一人"
+    },
+    {
+      "field_jp": "大參事",
+      "parsed": "4",
+      "unit": "persons",
+      "raw": "大參事 四人"
+    },
+    {
+      "field_jp": "権大參事",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "権大參事 五人"
+    },
+    {
+      "field_jp": "少參事",
+      "parsed": "6",
+      "unit": "persons",
+      "raw": "少參事 六人"
+    }
+  ],
+  "kanazawa_kokudaka_facing": [
+    {
+      "field_jp": "人口",
+      "parsed": "26,064",
+      "unit": "persons",
+      "raw": "人口 二萬六千六十四人 男 一萬三千七十七人 女 一萬二千九百八十七人"
+    },
+    {
+      "field_jp": "神社",
+      "parsed": "3,247",
+      "unit": "shrines",
+      "raw": "神社 三千二百四十七社"
+    },
+    {
+      "field_jp": "寺院",
+      "parsed": "2,330",
+      "unit": "temples",
+      "raw": "寺院 二千三百三十寺 僧 一千八百九十九人 尼 百九十二人"
+    },
+    {
+      "field_jp": "士卒族戸數",
+      "parsed": "16,780",
+      "unit": "households",
+      "raw": "士卒族戸數 一萬六千七百八十戸"
+    },
+    {
+      "field_jp": "人口",
+      "parsed": "37,793",
+      "unit": "persons",
+      "raw": "人口 三萬七千七百九十三人 男 一萬九千八人 女 一萬八千七百八十五人"
+    },
+    {
+      "field_jp": "社人戸數",
+      "parsed": "326",
+      "unit": "households",
+      "raw": "内 社人戸數 三百二十六戸 社人 百八十七人 女 二百三十二人"
+    },
+    {
+      "field_jp": "修驗戸數",
+      "parsed": "111",
+      "unit": "households",
+      "raw": "内 修驗 百十一戸 人口 四十六人 女 九十四人"
+    },
+    {
+      "field_jp": "戎兵",
+      "parsed": "5,076",
+      "unit": "persons",
+      "raw": "戎兵 十二大隊 五千七十六人"
+    },
+    {
+      "field_jp": "騎兵",
+      "parsed": "165",
+      "unit": "persons",
+      "raw": "騎兵 一小隊 共 隊長 百六十五人"
+    },
+    {
+      "field_jp": "砲兵",
+      "parsed": "270",
+      "unit": "persons",
+      "raw": "砲兵 一聯隊 同 二百七十人 但四小隊"
+    },
+    {
+      "field_jp": "工兵隊",
+      "parsed": "572",
+      "unit": "persons",
+      "raw": "工兵隊 同 五百七十二人"
+    },
+    {
+      "field_jp": "輜重隊",
+      "parsed": "89",
+      "unit": "persons",
+      "raw": "輜重隊 同 八十九人"
+    }
+  ],
+  "kanazawa_officials": [
+    {
+      "field_jp": "少参事",
+      "parsed": "11",
+      "unit": "persons",
+      "raw": "少参事 十一員"
+    },
+    {
+      "field_jp": "権少参事",
+      "parsed": "8",
+      "unit": "persons",
+      "raw": "権少参事 八員"
+    },
+    {
+      "field_jp": "成兵",
+      "parsed": "12",
+      "unit": "battalions",
+      "raw": "成兵十二大隊 但一大隊四百貳拾三人"
+    },
+    {
+      "field_jp": "兵員",
+      "parsed": "5,076",
+      "unit": "persons",
+      "raw": "此兵員五千七十六人"
+    },
+    {
+      "field_jp": "騎兵",
+      "parsed": "1",
+      "unit": "battalions",
+      "raw": "騎兵一小隊"
+    },
+    {
+      "field_jp": "士官兵士",
+      "parsed": "160",
+      "unit": "persons",
+      "raw": "士官兵士百六十員 馬百六十五匹"
+    },
+    {
+      "field_jp": "砲兵",
+      "parsed": "1",
+      "unit": "battalions",
+      "raw": "砲兵一聯隊 但四小隊"
+    },
+    {
+      "field_jp": "兵員",
+      "parsed": "279",
+      "unit": "persons",
+      "raw": "此貳百七十九人"
+    },
+    {
+      "field_jp": "工兵隊",
+      "parsed": "572",
+      "unit": "persons",
+      "raw": "工兵隊 五百七拾貳人"
+    },
+    {
+      "field_jp": "輜重隊",
+      "parsed": "89",
+      "unit": "persons",
+      "raw": "輜重隊 八十九人"
+    },
+    {
+      "field_jp": "知事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "知事 前田従三位菅原朝臣慶寧"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "大参事 篠原勘六豊臣一貞"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "権大参事 陸原慎太郎源惟厚"
+    }
+  ],
+  "tsurumaki_kokudaka": [
+    {
+      "field_jp": "士族 戸數",
+      "parsed": "114",
+      "unit": "households",
+      "raw": "内 士族百拾四戸 卒族百壹戸 寺七拾五ヶ寺"
+    },
+    {
+      "field_jp": "人口",
+      "parsed": "20,586",
+      "unit": "persons",
+      "raw": "人口貳萬五百八十六人 内 男壹萬五百六十三人 女壹萬六十四人"
+    },
+    {
+      "field_jp": "士族人口",
+      "parsed": "561",
+      "unit": "persons",
+      "raw": "士族人口五百六十壹人 内 男貳百七拾三人 女貳百八十八人"
+    },
+    {
+      "field_jp": "卒族人口",
+      "parsed": "341",
+      "unit": "persons",
+      "raw": "卒族同三百四拾壹人 内 男百九十三人 女百四十八人"
+    },
+    {
+      "field_jp": "社人",
+      "parsed": "61",
+      "unit": "persons",
+      "raw": "社人同六拾壹人 内 男三十五人 女二十六人"
+    },
+    {
+      "field_jp": "寺人口",
+      "parsed": "65",
+      "unit": "persons",
+      "raw": "寺同六十五人 僧（無住十ヶ寺）"
+    },
+    {
+      "field_jp": "修驗",
+      "parsed": "3",
+      "unit": "persons",
+      "raw": "修驗同三人 陰陽師貳人"
+    },
+    {
+      "field_jp": "神尾",
+      "parsed": "5",
+      "unit": "persons",
+      "raw": "神尾五人 坐頭貳人"
+    },
+    {
+      "field_jp": "神社",
+      "parsed": "19",
+      "unit": "shrines",
+      "raw": "神社十九社"
+    },
+    {
+      "field_jp": "村數",
+      "parsed": "64",
+      "unit": "",
+      "raw": "村數六十四ヶ郷"
+    },
+    {
+      "field_jp": "兵隊",
+      "parsed": "3",
+      "unit": "battalions",
+      "raw": "（兵隊三小隊 一小隊四十人）"
+    }
+  ],
+  "nakatsu_boundary": [
+    {
+      "field_jp": "草高",
+      "parsed": "100,000",
+      "unit": "koku",
+      "raw": "高拾萬石"
+    },
+    {
+      "field_jp": "物成高 米",
+      "parsed": "54,354.4457",
+      "unit": "koku",
+      "raw": "米五萬四千三百五十四石四斗四升五合七勺"
+    },
+    {
+      "field_jp": "物成高 金",
+      "parsed": "238",
+      "unit": "ryō",
+      "raw": "金貳百三拾八兩永五百四拾六文"
+    },
+    {
+      "field_jp": "正租 米",
+      "parsed": "46,310.55858",
+      "unit": "koku",
+      "raw": "正租 米四萬六千三百拾石五斗五升八合五勺八才"
+    },
+    {
+      "field_jp": "人員",
+      "parsed": "724,569",
+      "unit": "persons",
+      "raw": "人員 七十二萬四千五百六十九人"
+    },
+    {
+      "field_jp": "男",
+      "parsed": "360,899",
+      "unit": "persons",
+      "raw": "内 男三十六萬八百九十九人"
+    },
+    {
+      "field_jp": "女",
+      "parsed": "363,670",
+      "unit": "persons",
+      "raw": "女三十六萬三千六百七十人"
+    },
+    {
+      "field_jp": "商",
+      "parsed": "28,634",
+      "unit": "households",
+      "raw": "商 二萬八千六百三十四戸"
+    },
+    {
+      "field_jp": "商 人員",
+      "parsed": "91,285",
+      "unit": "persons",
+      "raw": "人員 九萬千二百八十五人"
+    },
+    {
+      "field_jp": "商 男",
+      "parsed": "43,347",
+      "unit": "persons",
+      "raw": "内 男四萬三千三百四十七人"
+    },
+    {
+      "field_jp": "商 女",
+      "parsed": "47,938",
+      "unit": "persons",
+      "raw": "女四萬七千九百三十八人"
+    },
+    {
+      "field_jp": "堂",
+      "parsed": "488",
+      "unit": "temples",
+      "raw": "堂 四百八十八宇 人員 七百三十一人"
+    },
+    {
+      "field_jp": "僧",
+      "parsed": "98",
+      "unit": "persons",
+      "raw": "内 僧九十八人"
+    },
+    {
+      "field_jp": "尼",
+      "parsed": "633",
+      "unit": "persons",
+      "raw": "尼六百三十三人"
+    },
+    {
+      "field_jp": "陰陽師",
+      "parsed": "88",
+      "unit": "households",
+      "raw": "陰陽師 八十八戸 人員 三百七十三人"
+    },
+    {
+      "field_jp": "陰陽師 男",
+      "parsed": "192",
+      "unit": "persons",
+      "raw": "内 男百九十二人"
+    },
+    {
+      "field_jp": "陰陽師 女",
+      "parsed": "181",
+      "unit": "persons",
+      "raw": "女百八十一人"
+    },
+    {
+      "field_jp": "兵隊",
+      "parsed": "15",
+      "unit": "battalions",
+      "raw": "兵隊 十五大隊（七千二百人）"
+    }
   ]
 }
