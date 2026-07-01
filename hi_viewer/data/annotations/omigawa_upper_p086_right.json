@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-omigawa_upper_p086_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（小見川）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（小見川）（はんせいいちらんひょう だいに おみがわ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: 'Hansei Ichiran-hyō, Fascicle 2 (Omigawa).' This is the provenance header identifying the page's domain as 小見川 (Omigawa) — NOT Wakayama as the MASTER entry was labeled."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二（小見川）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2064,1300,90,470"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百四十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百四十六（ひゃくよんじゅうろく）＝146"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number in the bottom margin: 146."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page 百四十六"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2064,3180,90,230"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永五百八十九貫八百十二文一分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）五百八十九貫八百十二文一分＝589,812.1文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main land tax (shōso), stated in eiraku cash: 589 kan 812 mon 1 bu = 589,812.1 mon. The 正租 heading is not printed on this fragment; the column gives the value directly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1922,1480,88,1365"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税　米壹石九斗四升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざっぜい）米一石九斗四升五合＝米1.945石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, rice component: 1 koku 9 to 4 shō 5 gō = 1.945 koku of rice. (Its cash component is the adjacent column.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税（米）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1788,1225,86,1010"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永百八十八貫六百十一文貳分壹厘貳毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）百八十八貫六百十一文二分一厘二毛＝188,611.212文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, cash component in eiraku: 188 kan 611 mon 2 bu 1 rin 2 mō = 188,611.212 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税（永）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1656,1480,84,1425"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千六百二十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）千六百二十一戸＝1,621戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of (commoner) households: 1,621."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1526,1060,80,840"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　八千二百六十四人　男四千七十一人　女四千百九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）八千二百六十四人　男四千七十一人　女四千百九十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner population: 8,264 (male 4,071, female 4,193). The 男/女 split is printed as inline small annotations beside the total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1380,1060,116,1475"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二　士卒族　八十戸〔士族七十四人　卒六戸〕　人口二百八十八人　女九十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒族（ししゅぞく）八十戸〔士族七十四人・卒六戸〕　人口二百八十八人　女九十一人（男は差引一九七人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai/sotsu (士卒族) households: 80 (of which shizoku 74, sotsu 6), with the superscript 外二 ('apart, these two [classes]'). Population 288, of which female 91 (the male figure of 197 is implied, not separately printed)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1236,1055,148,2190"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　三百七十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）三百七十七人＝377人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A separate population count of 377 people, standing between the samurai and temple columns (in HI Fascicle-2 layout this position carries the clergy/other-status population); the source labels it only 人口."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（社寺）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1120,1060,80,765"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　四十三寺　僧三十一人　修驗十一人　男四人　女七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）四十三寺　僧三十一人　修験（しゅげん）十一人　男四人　女七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 43. Monks (僧) 31; shugen ascetics (修驗) 11 (male 4, female 7)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:968,1060,116,1745"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社　二十七社　社人戸數二十九人　男十四人　女十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社（やしろ）二十七社　社人戸数（しゃにんこすう）二十九人　男十四人　女十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines: 27. Shrine-people (社人) households 29 (male 14, female 15)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:832,1060,116,1445"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數　六戸　人口三十四人　男十九人　女十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数（えたこすう）六戸　人口三十四人　男十九人　女十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households: 6. Population 34 (male 19, female 15)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:696,1060,116,1460"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村　二十四村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村（むら）二十四村＝24村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages: 24."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:584,1060,80,605"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "舊幕朱印地　高七石　木田村　木田太神社領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "旧幕朱印地（きゅうばくしゅいんち）高七石　木田村　木田太神社領（きだおおじんじゃりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note on former-shogunate vermilion-seal (shuinchi) land within the territory: 7 koku at Kida village, held by Kida Ōjinja shrine."
+      },
+      {
+        "purpose": "identifying",
+        "value": "舊幕朱印地（木田村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:442,1300,136,1365"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_upper_p086_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高三石　小見川村　正福寺領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高三石　小見川村　正福寺領（しょうふくじりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Continuation of the vermilion-seal-land note: 3 koku at Omigawa village, held by Shōfukuji temple. The village name 小見川 confirms this page is the Omigawa domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "舊幕朱印地（小見川村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p086_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:312,1300,84,1365"
+      }
+    }
+  }
+]

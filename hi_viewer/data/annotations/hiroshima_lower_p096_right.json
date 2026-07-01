@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-hiroshima_lower_p096_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（廣島）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第七（廣島＝広島）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Administration, Fascicle 7 (Hiroshima) — running header in the outer margin identifying the source survey."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2173,1250,61,359"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内高　二千百三拾三石三斗四升五合九勺　永荒等方引高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内高（うちだか）二千百三十三石三斗四升五合九勺　永荒等方（えいこうとうほう）引高（ひきだか）＝2,133.34559石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Internal (net) assessed yield: 2,133.34559 koku, annotated as the amount deducted for permanently fallow land and similar categories."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2023,1148,150,2138"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘高　四十八萬三千五百八十石七斗七升九合二勺五才）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残高（ざんだか）四十八万三千五百八十石七斗七升九合二勺五才＝483,580.77925石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remaining/residual koku: 483,580.77925 koku. (MASTER's kanji read 五千 and 六升; the scan clearly shows 三千 and 七升.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1887,1077,91,1930"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米二十四萬二千三十二石壹斗八升壹才二毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）米二十四万二千三十二石一斗八升一才二毛＝242,032.180102石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (in rice): 242,032.180 koku. (Corrected: MASTER's raw kanji had a phantom 百/合/勺; the scan reads 二千三十二石 一斗八升 一才二毛.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1756,1245,84,1574"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米一萬二千三百九十石二斗二升五合八才八毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）米一万二千三百九十石二斗二升五合八才八毛＝12,390.225088石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (in rice): 12,390.225088 koku. (Corrected: scan shows 二升 not MASTER's 一升, and 八才八毛 not 八勺壹才八毛.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1625,1245,85,1659"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢八萬六千拾八貫九百二十八文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）八万六千十八貫九百二十八文＝86,018.928貫"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash revenue: 86,018.928 kan (86,018 kan 928 mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1491,1246,79,1156"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合〆　米二十五萬四千四百二十二石四斗五合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合〆（あわせしめ）米二十五万四千四百二十二石四斗五合一勺＝254,422.4051石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total (in rice): 254,422.4051 koku. Equals 正租 (242,032.18) + 雜稅 (12,390.225088). (Corrected: 四千四百 not MASTER's 四千八百, confirmed by the internal sum; trailing 八毛 is not printed.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合〆"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1352,1296,84,1608"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下六行原書欄外）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下六行（いかろくぎょう）、原書欄外（げんしょらんがい））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: 'The following six lines are [written] in the margin of the original book.'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "（以下六行原書欄外）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1144,1057,74,573"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（別本）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（別本＝べっぽん、異本・別の写本）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Variant edition' — heading marking the following block as figures taken from an alternate copy of the source."
+      },
+      {
+        "purpose": "identifying",
+        "value": "〔別本〕"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1093,1058,85,569"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢八萬───（ヽ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭八万…（未完・欄外の断片的注記）＝a truncated marginal 'cash 80,000' notation with a rule and empty parentheses"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "An incomplete marginal notation reading 'cash 80,000-' followed by a long vertical rule and empty parentheses; a struck/unfinished entry, not a reliable data value (MASTER parsed it as 80,000 kan)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢八萬（欄外）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1227,1302,85,680"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米二十四萬二千九百九十九石四斗壹升八合五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（別本）米二十四万二千九百九十九石四斗一升八合五勺＝242,999.4185石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant edition — regular land tax (in rice): 242,999.4185 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租（別本）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:943,1079,92,1944"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米一萬四千五百九石八合七勺二才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（別本）米一万四千五百九石八合七勺二才＝14,509.00872石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant edition — miscellaneous tax (in rice): 14,509.00872 koku (0 dou, 0 sho)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅（別本）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:817,1075,95,1490"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢六萬六千九十七貫七百六十五文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（別本）六万六千九十七貫七百六十五文＝66,097.765貫"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant edition — cash revenue: 66,097.765 kan (66,097 kan 765 mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢（別本）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:682,1325,100,1240"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米八百六十一石九斗三升八合八勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此米（このこめ）八百六十一石九斗三升八合八勺六才＝861.93886石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant edition — 'this [cash converted] in rice': 861.93886 koku, i.e. the rice equivalent of the 66,097.765 kan cash line."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米（別本）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:550,1327,98,1490"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合〆　二十五萬八千三百七十三石六斗六升六合八才）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合〆（別本）二十五万八千三百七十三石六斗六升六合八才＝258,373.66608石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant edition — grand total (in rice): 258,373.66608 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合〆（別本）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:414,1236,98,1766"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十八（ひゃくろくじゅうはち）＝168"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number in the bottom margin: 168."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2146,3088,68,203"
+      }
+    }
+  }
+]
