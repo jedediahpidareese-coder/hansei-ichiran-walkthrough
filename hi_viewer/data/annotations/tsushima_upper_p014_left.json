@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-tsushima_upper_p014_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（嚴原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（厳原〔いずはら〕）（はんせいいちらんひょうだいいち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran Table, Fascicle 1 (Izuhara [Tsushima]) — running provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header 藩制一覧表第一（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:970,1342,58,1888"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三（さん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page number: 3 (bottom-margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number 三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:936,3184,68,47"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内壹萬三千三百三拾三俵壹斗七升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内〔うち〕一万三千三百三十三俵一斗七升五合（うちいちまんさんぜんさんびゃくさんじゅうさんぴょういっとななしょうごごう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 13,333 bales, 1 to 7 sho 5 go (rice subtotal)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 (white-rice subtotal)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2701,1268,67,1408"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "公木四百束ヲ以換米ニ相成候分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "公木〔こうぼく〕四百束を以て換米〔かんまい〕に相成り候分（こうぼくよんひゃくそくをもってかんまいにあいなりそうろうぶん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The portion of 400 bundles of kōboku (public tribute cloth) that was converted into rice"
+      },
+      {
+        "purpose": "identifying",
+        "value": "公木 (converted-to-rice note)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2570,1433,66,1160"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同三千二百八拾六俵四斗六合二才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同〔どう〕三千二百八十六俵四斗六合二才（どうさんぜんにひゃくはちじゅうろっぴょうよんとろくごうにさい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto (rice): 3,286 bales, 4 to 6 go 2 sai"
+      },
+      {
+        "purpose": "identifying",
+        "value": "同 (rice, same category)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2435,1266,69,1243"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "物換米其外口々取入米之分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "物換米〔ものかえまい〕其の外口々〔くちぐち〕取り入れ米の分（ものかえまいそのほかくちぐちとりいれまいのぶん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice obtained by bartering goods, and rice taken in through the various (trade) channels"
+      },
+      {
+        "purpose": "identifying",
+        "value": "物換米其外口々取入米之分 (line-item title)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2299,1429,75,992"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "代六錢壹萬九百四拾貫三百四拾四匁五分六厘六毛（壹俵五斗三升入 壹石金九兩替ニテ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代〔だい〕六銭〔ろくせん〕一万九百四十貫三百四十四匁五分六厘六毛（一俵は五斗三升入り、一石金九両替にて）（だいろくせんいちまんきゅうひゃくよんじゅっかんさんびゃくよんじゅうよんもんめ…）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Value (at 6 mon): 10,940 kan 344 monme 5 bu 6 rin 6 mo (note: 1 bale holds 5 to 3 sho; at an exchange rate of 9 ryo of gold per koku)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "物換米 price (代六錢)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2166,1182,71,2091"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一公木三萬三千貳百四拾五匹七尋貳寸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、公木〔こうぼく〕三万三千二百四十五匹七尋二寸（こうぼくさんまんさんぜんにひゃくよんじゅうごひきななひろにすん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: kōboku (public tribute cotton cloth), 33,245 hiki (bolts), 7 hiro 2 sun"
+      },
+      {
+        "purpose": "identifying",
+        "value": "公木 (kōboku cloth quantity)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2028,1121,74,1385"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "代銀三千四百四拾貫九百九匁六分壹厘九毛（壹匹金三分替）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代銀〔だいぎん〕三千四百四十貫九百九匁六分一厘九毛（一匹金三分替〔がえ〕）（だいぎんさんぜんよんひゃくよんじゅっかんきゅうひゃくきゅうもんめ…）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Value in silver: 3,440 kan 909 monme 6 bu 1 rin 9 mo (note: 1 hiki exchanges for 3 bu of gold)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "公木 price (代銀)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1897,1262,71,1987"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一大豆三百拾七俵壹斗四升三合五夕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、大豆〔だいず〕三百十七俵一斗四升三合五勺（だいずさんびゃくじゅうななひょういっとよんしょうさんごうごしゃく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: soybeans, 317 bales, 1 to 4 sho 3 go 5 shaku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大豆 (soybeans)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1763,1121,71,1298"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "代銀九拾五貫百九拾六匁壹分（壹俵三百匁替）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代銀〔だいぎん〕九十五貫百九十六匁一分（一俵三百匁替〔がえ〕）（だいぎんきゅうじゅうごかんひゃくきゅうじゅうろくもんめいちぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Value in silver: 95 kan 196 monme 1 bu (note: 1 bale exchanges for 300 monme)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大豆 price (代銀)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1630,1260,68,1482"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一小豆拾三俵四斗壹升八合貳夕五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、小豆〔あずき〕十三俵四斗一升八合二勺五才（あずきじゅうさんびょうよんといっしょうはちごうにしゃくごさい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: azuki beans, 13 bales, 4 to 1 sho 8 go 2 shaku 5 sai"
+      },
+      {
+        "purpose": "identifying",
+        "value": "小豆 (azuki beans)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1494,1114,70,1307"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "代銀四貫八百四拾二匁七分七厘五毛（壹俵三百五拾匁替）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代銀〔だいぎん〕四貫八百四十二匁七分七厘五毛（一俵三百五十匁替〔がえ〕）（だいぎんよんかんはっぴゃくよんじゅうにもんめ…）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Value in silver: 4 kan 842 monme 7 bu 7 rin 5 mo (note: 1 bale exchanges for 350 monme)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "小豆 price (代銀)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1358,1258,73,1867"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一葛綱三拾三房"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、葛綱〔くずづな〕三十三房（くずづなさんじゅうさんふさ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: kuzu-vine rope, 33 coils"
+      },
+      {
+        "purpose": "identifying",
+        "value": "葛綱 (kuzu-vine rope)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1229,1116,63,545"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一萩皮綱拾二房"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、萩皮綱〔はぎかわづな〕十二房（はぎかわづなじゅうにふさ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: hagi-bark rope, 12 coils"
+      },
+      {
+        "purpose": "identifying",
+        "value": "萩皮綱 (hagi-bark rope)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1229,1870,63,547"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一折釘五百七拾五本"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、折釘〔おれくぎ／おりくぎ〕五百七十五本（おれくぎごひゃくななじゅうごほん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: bent nails, 575 pieces"
+      },
+      {
+        "purpose": "identifying",
+        "value": "折釘 (bent nails)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1229,2625,63,628"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一折絲四百貳拾俵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、折糸〔おりいと〕四百二十俵（おりいとよんひゃくにじゅっぴょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: folded thread (floss), 420 bales"
+      },
+      {
+        "purpose": "identifying",
+        "value": "折絲 (folded thread/floss)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,1114,70,629"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一大苫百六拾枚"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、大苫〔おおとま〕百六十枚（おおとまひゃくろくじゅうまい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: large straw/rush mats, 160 sheets"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大苫 (large straw mats)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,1868,70,544"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p014_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一荒苧五百六拾四斤"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、荒苧〔あらそ／あらお〕五百六十四斤（あらそごひゃくろくじゅうよんきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One item: raw ramie (unprocessed hemp fiber), 564 kin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "荒苧 (raw ramie/hemp)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p014_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,2622,70,629"
+      }
+    }
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○二本松藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○二本松藩（にほんまつはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[domain boundary marker] Nihonmatsu Domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_marker_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,1400,116,610"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高五萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）五万石（ごまんごく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal assessed yield (kokudaka): 50,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1688,1050,114,420"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "定免 此現米壹萬千八百三拾九石貳斗三升八合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "定免（じょうめん） この現米（げんまい）一万千八百三十九石二斗三升八合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fixed tax rate (jomen). This actual rice: 11,839.2381 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1573,1058,97,1822"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一金三千九百四拾九兩壹分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、金（きん）三千九百四十九両一分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, gold: 3,949 ryo 1 bu (collected revenue)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "収納金 金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1432,1250,96,960"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "半米"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "半米（はんまい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[annotation] half in rice"
+      },
+      {
+        "purpose": "identifying",
+        "value": "shunokin_kin_hanmai_note"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1432,2300,70,180"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "収納金"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "収納金（しゅうのうきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Collected revenue (in money) [group header]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "shunokin_group_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1358,2488,70,260"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一錢貳拾八貫八百七十壹文壹り"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、銭（ぜに）二十八貫八百七十一文一（厘）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, copper cash: 28 kan 871 mon 1 (collected revenue)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "収納金 銭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1286,1298,88,1112"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（從前半石米納米石ハ金十兩ニ付三十二石替ノ仕成）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（従前、半石米の納米石は、金十両に付き三十二石替えの仕成り）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Note: formerly the half-rice tax rice was reckoned at a conversion of 32 koku per 10 ryo of gold)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "conversion_rate_note"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1166,1408,88,1514"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一金百五拾兩三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、金（きん）百五十両三分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, gold: 150 ryo 3 bu (miscellaneous taxes)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税金 金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,1248,76,500"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一錢千百八十六貫七百九拾八文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、銭（ぜに）千百八十六貫七百九十八文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, copper cash: 1,186 kan 798 mon (miscellaneous taxes)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税金 銭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1002,1248,80,954"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸税金"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸税金（しょぜいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (in money) [group header]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "shozeikin_group_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1028,2448,84,244"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第一（二本松）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（二本松）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han System Overview, Fascicle 1 (Nihonmatsu) [provenance running header]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:903,1335,94,607"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六十一（61）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page number: 61"
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page_number"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:903,3148,67,154"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數百六十八ヶ邨"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（むらかず）百六十八ヶ村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Number of villages: 168"
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2648,1150,114,670"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士卒戸數九百七拾三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒戸数（しそつこすう）九百七十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Samurai and foot-soldier households: 973"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2495,1075,115,835"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に二（ほかにに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] annotation: plus 2 additional"
+      },
+      {
+        "purpose": "identifying",
+        "value": "gaini_annotation_prevdomain"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2558,1075,70,140"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口三千貳百四拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）三千二百四十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Total population: 3,245 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2360,1265,118,845"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千五百八十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）千五百八十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Male: 1,582 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2398,2155,74,540"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千六百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）千六百六十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Female: 1,663 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2318,2155,74,540"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦不記　知事家族不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（船艦（せんかん）記さず、知事家族（ちじかぞく）記さず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] (Warships: not recorded; governor's family: not recorded)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "senkan_chiji_note_prevdomain"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2205,1075,117,935"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（士族三百十七戸　人口千五百七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族（しぞく）三百十七戸、人口千五百七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] (Shizoku: 317 households; population 1,507 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2108,1075,100,1285"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男七百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）七百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Shizoku male: 737 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2138,2430,70,465"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七百五十八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）七百五十八人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Shizoku female: 758 persons)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2062,2430,73,465"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（卒六百四十三戸　人口千六百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（卒（そつ）六百四十三戸、人口千六百六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] (Sotsu: 643 households; population 1,669 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒 戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1925,1075,103,1470"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）八百四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Sotsu male: 804 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1993,2600,75,460"
+      }
+    }
+  },
+  {
+    "id": "anno-nihonmatsu_upper_p043_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八百六十五人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）八百六十五人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[PREVIOUS domain] Sotsu female: 865 persons)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p043_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1920,2600,73,460"
+      }
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "anno-tsushima_upper_p013_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（はんせいいちらんひょうだいいち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions, Fascicle 1 (running header / provenance)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第一 (running header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2556,1146,218,841"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "嚴原藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "厳原藩（いづはらはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Izuhara (Tsushima) domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "嚴原藩 (domain header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2274,1396,120,598"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一米三百三拾七石八斗四升八夕三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、米（こめ）三百三十七石八斗四升八夕三才 ＝ 337.84803石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, rice: 337.84803 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "米（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2144,1122,100,1304"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但本藩年租粗六百七拾五石六斗八升一合六夕七才米ニ直シ如是"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、本藩の年租粗（あら）六百七十五石六斗八升一合六夕七才、米に直（なお）し如是（かくのごとし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the domain's annual land tax as unhulled rice, 675.68167 koku, when converted to hulled rice is as follows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但書 (note on rice total / conversion)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2008,1272,102,1906"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一同貳萬六千七百九拾九石壹斗八升六合八夕九才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、同（どう＝米）二万六千七百九十九石一斗八升六合八夕九才 ＝ 26799.18689石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, ditto (rice): 26,799.18689 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "同 (rice subtotal, ditto of 米)（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1861,1119,115,1802"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但九州管轄所年租五ケ年平均ノ現米如是"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、九州管轄所（きゅうしゅうかんかつしょ）の年租、五ケ年平均の現米（げんまい）如是（かくのごとし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the five-year average of the annual land tax collected as hulled rice for the Kyushu jurisdiction is as follows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但書 (note: five-year average hulled-rice tax, Kyushu jurisdiction)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1751,1268,90,1211"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一金四萬三千三百拾壹兩永五百八拾文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、金（きん）四万三千三百十一両、永（えい）五百八十文 ＝ 43311両580文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, cash: 43,311 ryō and 580 ei-mon (copper cash reckoned in Eiraku currency)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "金（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1607,1114,103,1384"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但本藩麥七千貳百拾八石五斗九升六合七夕四才／石六兩二見積"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、本藩の麥（むぎ）七千二百十八石五斗九升六合七夕四才、石（こく）に付き六両二（分）と見積（みつも）る"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the domain's barley, 7,218.59674 koku, reckoned at 6 ryō 2 [bu] per koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但書 (note: barley valued at 6 ryō 2 per koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1469,1258,123,1422"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一同壹萬千百七拾貳兩永七百拾八文八步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、同（どう＝金）一万千百七十二両、永七百十八文八歩 ＝ 11172両718文8歩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, ditto (cash): 11,172 ryō, 718 ei-mon 8 bu"
+      },
+      {
+        "purpose": "identifying",
+        "value": "同 (cash, ditto of 金)（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1329,1107,112,1468"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但下毛宇佐本途ノ大豆千八百六拾貳石壹斗壹升九合八夕／石六兩二見積凡如是"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、下毛（しもつみけ）・宇佐（うさ）本途（ほんと）の大豆（だいず）千八百六十二石一斗一升九合八夕、石に付き六両二（分）と見積り、凡（およ）そ如是（かくのごとし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the soybean from the Shimotsumike-Usa main-route lands, 1,862.1198 koku, reckoned at 6 ryō 2 [bu] per koku, roughly as follows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但書 (note: Shimotsumike-Usa mainland soybean valued at 6 ryō 2 per koku)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1196,1247,123,1699"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一同壹萬三千三百三拾七兩永七百貳拾壹文貳釐"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、同（どう＝金）一万三千三百三十七両、永七百二十一文二釐 ＝ 13337両721.2文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, ditto (cash): 13,337 ryō, 721.2 ei-mon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "同 (cash, ditto of 金)（嚴原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1055,1101,117,1554"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（嚴原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（厳原）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions, Fascicle 1 (Izuhara) — printed footer line"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第一（嚴原） (bottom-margin provenance footer)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:958,1328,82,567"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一（ページ番号：一丁目）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number: 1"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号 (printed page number)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:936,3176,60,34"
+      }
+    }
+  }
+]

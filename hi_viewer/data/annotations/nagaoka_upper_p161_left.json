@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-nagaoka_upper_p161_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○長岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○長岡藩（ながおかはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "[domain marker] Nagaoka Domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○長岡藩 (domain marker + header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2464,1380,100,557"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多非人 不分明"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多非人（えたひにん） 不分明（ふぶんめい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta and hinin (outcaste groups): indeterminate / not clearly recorded"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2614,1043,93,665"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高二萬四千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか） 二万四千石（24,000こく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed nominal yield (kokudaka): 24,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2341,1039,89,583"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Five-year average (qualifies the current-rice figure below)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均 (modifier of 現米)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2211,1042,88,406"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米 二萬二千九百九拾三俵三斗八升七合七勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米（げんまい） 二万二千九百九十三俵三斗八升七合七勺（22,993.3877俵）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current rice (net actual rice): 22,993.3877 bales (five-year average)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2058,1037,110,1761"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税現石 六百拾四石三斗五合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税現石（ざつぜいげんこく） 六百十四石三斗〇五合二勺（614.3052石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax rice (in actual koku): 614.3052 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税現石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1930,1032,98,1296"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of households [total header; no single total printed — given as the 内 breakdown below]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 (households total header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1812,1035,56,153"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which (breakdown of the household count that follows)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 (breakdown marker)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1676,1200,62,77"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族六百七軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく） 六百七軒（607軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku): 607 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 士族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,1122,84,490"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "華族一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "華族（かぞく） 一軒（1軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Peerage (kazoku, the former daimyo house): 1 house"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 華族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1514,1972,83,296"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒千百二十二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ） 千百二十二軒（1,122軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldiers (sotsu): 1,122 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 卒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1387,1122,81,656"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "在方三千九百一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "在方（ざいかた） 三千九百一軒（3,901軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rural commoners (countryside): 3,901 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 在方"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1377,1972,82,636"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "町方千八百十三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "町方（まちかた） 千八百十三軒（1,813軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Townsmen (urban commoners): 1,813 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 町方"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1253,1122,86,646"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家十軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ） 十軒（10軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine (Shinto priest) families: 10 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1247,1972,82,296"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺八十ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら） 八十ヶ寺（80ヶ寺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 80 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1125,1122,78,486"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた） 二軒（2軒）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste group): 2 houses"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數 穢多"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1112,1972,83,296"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population (total) [header only; no numeric total printed on this half-page]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 (population total header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:997,1029,79,159"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四（長岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第四（長岡）（はんせいいちらんひょう だいよん・ながおか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Overview of Domain Institutions, Fascicle 4 (Nagaoka) — running provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第四（長岡） (running provenance header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:866,1284,72,544"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_upper_p161_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百九十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百九十七（297）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page number: 297"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号 (book page number)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:837,3130,71,262"
+      }
+    }
+  }
+]
