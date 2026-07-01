@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-fukuoka_upper_p218_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五（福岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第五（福岡）／はんせいいちらんひょう だいご（ふくおか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyō, Fascicle 5 (Fukuoka) — outer-margin provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2174,1327,72,2000"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 壹萬貳千八百五人 内 男六千五百四拾四人 女六千二百六拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一万二千八百五人／じんこう いちまんにせんはっぴゃくごにん（うち 男6,544人・女6,261人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 12,805 persons (of which men 6,544; women 6,261). [MASTER misread the total as 12,855; scan and the 6,544+6,261 sex breakdown both give 12,805 — raw 八百五人, not 八百五十五人]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2024,1153,112,1600"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内／うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Of which\" — heading glyph introducing the male/female breakdown of the population block"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1928,1237,62,74"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人口 五百七人 内 男貳百五拾八人 女貳百四拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口 五百七人／しぞくじんこう ごひゃくななにん（うち 男258人・女249人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) population: 507 persons (men 258; women 249)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1754,1328,112,1290"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族人口 三百六拾五人 内 男百八拾六人 女百七拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人口 三百六十五人／そつぞくじんこう さんびゃくろくじゅうごにん（うち 男186人・女179人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-retainer-class) population: 365 persons (men 186; women 179)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1616,1325,109,1392"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家人口 百三拾九人 内 男七拾人 女六拾七人（下男一人 下女一人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家人口 百三十九人／しゃけじんこう ひゃくさんじゅうきゅうにん（うち 男70人・女67人、下男1人・下女1人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-household (Shinto clergy) population: 139 persons (men 70; women 67; incl. 1 manservant, 1 maidservant)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1456,1326,133,1548"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺人口 三拾九人 内 僧三拾人 下男九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺人口 三十九人／てらじんこう さんじゅうきゅうにん（うち 僧30人・下男9人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population: 39 persons (of which 30 monks; 9 manservants)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1356,1327,108,1087"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多人口 六拾五人 内 男三拾五人 女三拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多人口 六十五人／えたじんこう ろくじゅうごにん（うち 男35人・女30人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste-class) population: 65 persons (men 35; women 30)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1219,1327,115,1156"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數 貳拾九ヶ村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数 二十九ヶ村／そんすう にじゅうきゅうかそん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: 29"
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1110,1161,77,660"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族 不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事家族 不記／ちじかぞく ふき"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's family: not recorded (editorial parenthetical)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:980,1076,75,596"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦 不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船艦 不記／せんかん ふき"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warships/vessels: not recorded (editorial parenthetical)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:848,1074,75,426"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○福岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○福岡藩／ふくおかはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker: Fukuoka-han — begins the Fukuoka domain entry"
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:697,1414,93,553"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 四拾七萬三千百石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 四十七万三千百石／くさだか よんじゅうななまんさんぜんひゃっこく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Base assessed yield (kusadaka): 473,100 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:572,1079,78,914"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田高 九萬八千四拾壹石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "新田高 九万八千四十一石余／しんでんだか きゅうまんはっせんよんじゅういっこくよ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field assessed yield (shindendaka): 98,041 koku and more (餘)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:438,1166,76,992"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p218_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百十／よんひゃくじゅう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 410 (bottom margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page_number"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p218_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,3232,96,220"
+      }
+    }
+  }
+]

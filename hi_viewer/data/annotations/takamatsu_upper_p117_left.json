@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-takamatsu_upper_p117_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○（藩の区切りマーク・まる）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker (○) preceding the domain name; content to its right belongs to the previous domain, and everything to its left is Takamatsu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_boundary_marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2680,1372,88,86"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高松藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高松藩（たかまつはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takamatsu domain (the domain heading for this data block)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header_domain_name"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2665,1480,97,446"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○草高拾貳萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）十二万石（120,000石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Base kokudaka (assessed productive yield): 120,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2570,1038,62,570"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外込高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）込高（こみだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Label: 'besides [the base kokudaka], the added-in kokudaka (komidaka)' — heading the reclaimed/added-land figures that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外_込高_label"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2427,1100,133,492"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田高改出高　八萬五千三百八拾七石壹升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高・新田高・改出高（こみだか・しんでんだか・あらためだしだか）八万五千三百八十七石一升四合（85,387.014石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Added-in kokudaka plus new-field and re-surveyed reclaimed land: 85,387.014 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田高改出高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2153,1090,211,1945"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "別"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "別（べつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Label 'separately / additionally', heading the komidaka figure that follows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "別_label"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2085,1155,94,107"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高四萬千七百三十一石九斗八升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高（こみだか）四万一千七百三十一石九斗八升（41,731.98石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Added-in kokudaka (komidaka): 41,731.98 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1981,1108,115,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田高四萬三千六百五拾五石壹斗六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "新田高（しんでんだか）四万三千六百五十五石一斗六合（43,655.106石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field (newly reclaimed paddy) kokudaka: 43,655.106 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1742,1090,117,1492"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下四行原朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下四行、原書は朱書＝いかよんぎょう、げんしょはしゅしょ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Marginal note: 'the following four lines are written in vermilion (red ink) in the original manuscript.'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "marginal_note_vermilion"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1852,1088,62,476"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税巳年調"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税（せいぜい）巳年調（みどししらべ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, as surveyed in the snake (mi) year — label heading the rice and barley tax figures that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税_巳年調"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1902,1110,63,488"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米九萬八千二百六十二石壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米（こめ）九万八千二百六十二石一合（98,262.001石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax in rice: 98,262.001 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1585,1192,106,1076"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "麥九千六百六十二石九斗五升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "麦（むぎ）九千六百六十二石九斗五升三合（9,662.953石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax in barley: 9,662.953 koku. (MASTER misread the label as 賽; it is 麥, barley.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税麥"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1444,1182,112,1250"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税金二萬千三百五十一兩三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）金二万一千三百五十一両三分（21,351両3分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in gold: 21,351 ryō 3 bu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1313,1096,115,1251"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "〆貳拾萬五千三百八拾七石壹升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〆（しめ＝合計）二十万五千三百八十七石一升四合（205,387.014石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total (shime) kokudaka: 205,387.014 koku (= base 120,000 + added/reclaimed 85,387.014). Field missed by MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "〆"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1179,1108,110,1319"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（朱印地九百七十五石九斗一升三合）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（朱印地＝しゅいんち）九百七十五石九斗一升三合（975.913石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Vermilion-seal (tax-exempt shrine/temple) land: 975.913 koku (bracketed in the original)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱印地"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1044,1073,116,1373"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p117_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三（高松）　二百九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第三（高松）＝はんせいいちらんひょう だいさん（たかまつ）／二百九（209）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outer-margin provenance header 'Hansei Ichiran-hyō, Fascicle 3 (Takamatsu)' with the bottom-margin book page number 209 (二百九)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "provenance_header_and_page_number"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:899,1263,127,1997"
+      }
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "anno-tokushima_upper_p050_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいに（藩制一覧表 第二）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyō (Survey of Domain Administration), Fascicle 2 — running header (provenance)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header 藩制一覧表第二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2575,1067,117,911"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "〇徳島藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〇 とくしまはん（徳島藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker (〇) and domain name: Tokushima Domain. Content to the LEFT of this marker is Tokushima's entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "maru_marker + domain 〇徳島藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2187,1410,99,554"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高四十四萬貳千七百三拾五石程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか よんじゅうよんまん にせん ななひゃく さんじゅうご こく ほど（草高 442,735石程）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (nominal assessed rice yield): approx. 442,735 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2061,1166,80,1048"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此租税 現米貳十壹萬八千四百八拾壹石程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "このそぜい げんまい にじゅういちまん はっせん よんひゃく はちじゅういち こく ほど（此租税 現米 218,481石程）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This land tax, reckoned in genmai (current/hulled rice): approx. 218,481 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1928,1176,80,1448"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 四萬千六百七十五石 〔甲子ヨリ戊辰マテ五ケ年平均免〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち よんまん せん ろっぴゃく ななじゅうご こく〔きのえね（甲子）より つちのえたつ（戊辰）まで ごかねん へいきん めん〕（内 41,675石／1864-1868の5ヶ年平均免）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 41,675 koku — annotated as the five-year average tax remission for 1864 (kōshi) through 1868 (boshin)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1649,1248,225,1294"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右平均中寅年格別ノ免コモル但大水ニ丐即今収納左二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "みぎ へいきんちゅう とらどし かくべつの めん こもる ただし おおみずに □ すなわち いま しゅうのう ひだりに（右の平均には寅年の特別な免除が含まれる。ただし大水のため、現在の収納は左に示す）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Marginal note: the above average includes the exceptional (Tiger-year) tax remission; however, owing to a great flood, the present-day revenue actually collected is shown to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "note (marginal explanatory note)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1545,1506,62,1398"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳萬六千三十四石程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "にまん ろくせん さんじゅうよん こく ほど（26,034石程）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Present-day revenue actually collected (referenced by the note to its right): approx. 26,034 koku. NOT captured by MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "収納"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1394,1339,80,736"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "差引 貳拾萬貳千八百四拾石程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "さしひき にじゅうまん にせん はっぴゃく よんじゅう こく ほど（差引 202,840石程）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sashihiki (balance/deduction figure): approx. 202,840 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "差引"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1260,1168,84,1079"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸税諸産物金 貳萬八千百五拾八兩程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しょぜい しょさんぶつ きん にまん はっせん ひゃく ごじゅうはち りょう ほど（諸税諸産物金 28,158両程）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash from various taxes and products: approx. 28,158 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税諸産物金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1124,1173,84,1323"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米 三千五百十九石七斗貳升五合程 〔八兩立〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "このこめ さんぜん ごひゃく じゅうきゅう こく ななと にしょう ごごう ほど〔はちりょうだて〕（此米 3,519.725石／8両立の換算）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The rice equivalent of the above cash: approx. 3,519.725 koku (converted at an 8-ryō rate, 八兩立)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:991,1256,85,1536"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（徳島）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいに（とくしま）（藩制一覧表 第二（徳島））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Footer provenance line: Hansei Ichiran-hyō, Fascicle 2 (Tokushima)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "footer provenance 藩制一覧表第二（徳島）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:882,1346,63,563"
+      }
+    }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しちじゅうご（七十五）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed source page number: 75."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page number 七十五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:876,3183,55,155"
+      }
+    }
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "anno-yonezawa_upper_p111_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三 （米澤）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（米澤〔よねざわ〕）／はんせいいちらんひょう だいさん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: 'Han-sei ichiran-hyō, Fascicle 3 (Yonezawa).' Confirms this page belongs to the Fascicle-3 (第三) survey and to Yonezawa domain (米澤藩)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三 （米澤）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2185,1345,57,563"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸士開高并新開高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸士開高並びに新開高（しょしかいだか ならびに しんかいだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Column title: 'land reclaimed by the various samurai (諸士開高) together with (并) newly-opened land (新開高).' MASTER wrote 井 for the connective; the scan shows 并."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸士開高并新開高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1966,1226,157,688"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高拾萬八千六百八拾壹石壹斗八升五合壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）十万八千六百八十一石一斗八升五合〇勺一才 ＝ 108,681.18501 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Value of 諸士開高并新開高: 108,681.18501 koku (斗.1 升.01 合.001 勺=0 skipped 才.00001). Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸士開高并新開高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1915,1226,78,1497"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○（区切り記号）＝合高の項の起点"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru marker opening the 合高 (land-total) sub-section. Because the running header and surrounding data are all Yonezawa, this is an internal section marker, not a boundary to a different domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○ (合高 section marker)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1783,1148,70,93"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高貳拾八萬四千七百四拾八石七斗八升貳勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高（ごうだか）二十八万四千七百四十八石七斗八升〇合二勺四才 ＝ 284,748.78024 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined land total (合高): 284,748.78024 koku (斗.7 升.08 合=0 skipped 勺.0002 才.00004). CORRECTION: MASTER recorded 128,478.78204 (128,478) — the scan unambiguously reads 貳拾八萬四千七百四拾八 = 284,748, a digit transposition, and the decimal is .78024 not .78204."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1781,1245,78,1764"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○（区切り記号）＝物成（五ヶ年平均）の項の起点"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru marker (set low, to the left of the 物成 column head) opening the 物成 five-year-average-yield sub-section, whose rice/coin/gold components run to its left. Internal section marker within Yonezawa's entry, not a domain boundary."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○ (物成 section marker)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1518,1435,58,60"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "物成八萬五千四百五拾貳石六斗五升貳合九勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "物成（ものなり）八万五千四百五十二石六斗五升二合九勺三才 ＝ 85,452.65293 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yield / annual tax rice (物成), the five-year-average total: 85,452.65293 koku. CORRECTION: MASTER recorded 85,452.652933 (an extra trailing 3); the scan ends 九勺三才 = .65293."
+      },
+      {
+        "purpose": "identifying",
+        "value": "物成"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1645,1259,78,1835"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一米五萬四千三百九拾八石五升九合九勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一 米（こめ）五万四千三百九十八石〇斗五升九合九勺三才 ＝ 54,398.05993 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice component of the 物成 block: 54,398.05993 koku (斗=0 skipped, 升.05, 合.009, 勺.0009, 才.00003). Enumerated with a leading 一. MISSING from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1373,1177,77,1580"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租稅米四萬千七百三拾五石三斗壹升八合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租税米（せいそぜいまい）四万千七百三十五石三斗一升八合八勺 ＝ 41,735.3188 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax rice (正租稅米): 41,735.3188 koku. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1245,1266,75,1829"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米貳千貳百拾七石壹斗六升壹合壹勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米（ざつぜいまい）二千二百十七石一斗六升一合一勺六才 ＝ 2,217.16116 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax rice (雜稅米): 2,217.16116 koku (the rice sub-item of the 雜稅 group). Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1114,1262,75,1831"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "買米壹萬四百四拾五石五斗七升五合九勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "買米（かいまい）一万四百四十五石五斗七升五合九勺七才 ＝ 10,445.57597 石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Purchased rice (買米): 10,445.57597 koku. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "買米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:980,1264,77,1747"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "取合如上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "取り合わせ上の如し（とりあわせ うえのごとし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: 'the composition/aggregation is as above' — closing note for the 物成 five-year-average breakdown. MISSING from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "取合如上"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:845,1766,74,287"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一七萬九百六拾八兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一 七万九百六十八両（りょう）＝ 70,968 両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold component of the 物成 block: 70,968 ryō (七萬=70,000; 九百=900; 六拾八=68), enumerated with a leading 一. MISSING from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:713,1178,74,545"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租銀五百五拾六貫六百貳拾四匁八厘八毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租銀（せいそぎん）五百五十六貫六百二十四匁〔〇分〕八厘八毛 ＝ 556.62488 貫"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax silver (正租銀): 556.62488 kan (556 kan 624 monme, 8 rin 8 mō). Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:575,1263,76,1664"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Title 'miscellaneous tax' heading the parallel 錢 (coin) and 銀 (silver) sub-columns below it (its 米 rice sub-item is the 雜稅米 column to the right)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:444,1265,70,138"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢壹萬六千四百八貫四百四拾七文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）一万六千四百八貫四百四十七文 ＝ 16,408.447 貫（16,408貫447文）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax coin (雜稅・錢): 16,408 kan 447 mon = 16,408.447 kan. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:451,1595,80,1220"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀百九拾壹貫貳百九拾匁五分七厘壹毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀（ぎん）百九十一貫二百九十匁五分七厘一毛 ＝ 191.29057 貫"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax silver (雜稅・銀): 191.29057 kan (191 kan 290 monme, 5 fun 7 rin 1 mō). MISSING from MASTER's fields for this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:424,1595,49,1016"
+      }
+    }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百九十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百九十六（ひゃくきゅうじゅうろく）＝ 196 頁"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 196 (following p.195 on the preceding half-page)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2184,3184,58,205"
+      }
+    }
+  }
+]

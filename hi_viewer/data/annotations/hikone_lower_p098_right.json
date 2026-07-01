@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-hikone_lower_p098_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（彦根）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいなな（ひこね）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyō (Comprehensive Survey of Domain Institutions), Fascicle 7 — (Hikone)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2170,1010,142,838"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○彦根藩　本高二十萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひこねはん　ほんだかにじゅうまんごく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "○ Hikone Domain — base assessment (honkoku) 200,000 koku. The ○ marks the start of this domain's entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_marker_○彦根藩_本高二十萬石"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1946,1346,112,904"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事家族不記"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ちじかぞく きさず（しるさず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The governor's (chiji's) family [size] is not recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族不記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2101,1006,83,498"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "惣高　二十萬三千八百八十七石九斗九升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "そうだか　にじゅうまんさんぜんはっぴゃくはちじゅうななこく きゅうときゅうしょう（203,887.99石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed yield (sōdaka): 203,887.99 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1760,1005,132,1285"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田改出高共　物成高共小"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しんでんかいだしだかとも　ものなりだかともしょう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Subscript to the total: including newly-opened re-surveyed fields and including the tax-yield (mononari) koku (marked 'small/lesser')."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣高_subscript_新田改出高共物成高共小"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1872,2555,118,410"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米八萬三千二拾六石四升二合六勺四才二毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "せいそ　こめ はちまんさんぜんにじゅうろくこく よんしょう にごう ろくしゃく よんさい にもう（83,026.042642石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso), rice: 83,026.042642 koku. (MASTER's 83,216 was a misread — the figure is 三千二拾六 = 3,026, not 3,216.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1672,1005,120,1843"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金二千二百四十八兩壹分二朱永五十九文三分二厘六毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きん にせんにひゃくよんじゅうはちりょう いちぶ にしゅ えい ごじゅうきゅうもん さんぶ にりん ろくもう（約2,248.25両）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax in gold: 2,248 ryō 1 bu 2 shu, plus copper-cash (ei) 59 mon 3 bu 2 rin 6 mō (≈2,248.25 ryō)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1535,1344,119,1918"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税　米壹萬五百六十二石八斗二升三合壹勺五才六毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ざつぜい　こめ いちまんごひゃくろくじゅうにこく はっと にしょう さんごう いっしゃく ごさい ろくもう（10,562.823156石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (zatsuzei), rice: 10,562.823156 koku. (MASTER's 10,562.86124 was a misread of the sub-koku units.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1402,998,130,2012"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金三百四十八兩三分二朱永六十五文六分七厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きん さんびゃくよんじゅうはちりょう さんぶ にしゅ えい ろくじゅうごもん ろくぶ しちりん よんもう（約348.875両）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes in gold: 348 ryō 3 bu 2 shu, plus copper-cash (ei) 65 mon 6 bu 7 rin 4 mō (≈348.875 ryō)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1262,1335,120,1757"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢九千三百十九貫九十七文五分（内 七千九百三十七貫六百…四十八文七分諸運上税）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ぜに きゅうせんさんびゃくじゅうきゅうかん きゅうじゅうななもん ごぶ（9,319.0975貫）ないわけ しょうんじょうぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes in copper-cash: 9,319.0975 kan (subscript: of which 7,937 kan 6…48 mon 7 bu are various transit/commercial levies, shoun-jō-zei). (MASTER's 9,322.97045 was a misread — the figure is 九千三百十九 = 9,319.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1108,1330,134,1780"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合計"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごうけい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total — the bracket beneath joins the rice, gold, and copper-cash total columns below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計_header_bracket"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:862,1062,246,270"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米九萬三千五百八十八石八斗六升五合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "こめ きゅうまんさんぜんごひゃくはちじゅうはちこく はっと ろくしょう ごごう はっしゃく（93,588.8658石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total, rice: 93,588.8658 koku. (MASTER's 93,588.66658 was a misread — the sub-koku is 八斗 = 0.8, not 六斗.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1002,1336,102,1514"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金二千五百九十七兩壹分貳朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きん にせんごひゃくきゅうじゅうななりょう いちぶ にしゅ（2,597.375両）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total, gold: 2,597 ryō 1 bu 2 shu (≈2,597.375 ryō)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:864,1343,104,1017"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢九千三百拾九貫九十七文五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ぜに きゅうせんさんびゃくじゅうきゅうかん きゅうじゅうななもん ごぶ（9,319.0975貫）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total, copper-cash: 9,319.0975 kan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:728,1320,104,1110"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下十行原書欄外）辛未正月調"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（いか じゅうぎょう げんしょ らんがい）かのとひつじ しょうがつ しらべ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(The following ten lines are in the margin of the original document.) Surveyed in the first month of the metal-sheep year (kanoto-hitsuji = 1871)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "notation_以下十行原書欄外辛未正月調"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:611,1320,139,415"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米九萬四千三百四十石二升六合三勺九才三毛七五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "げんまい きゅうまんよんせんさんびゃくよんじゅうこく にしょう ろくごう さんしゃく きゅうさい さんもう ななし ごこつ（94,340.0263938石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current rice (genmai): 94,340.0263938 koku. (MASTER's 94,030.0264 was a misread — the figure is 四千三百四十 = 4,340, not 4,030.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:458,1166,114,1758"
+      }
+    }
+  }
+]

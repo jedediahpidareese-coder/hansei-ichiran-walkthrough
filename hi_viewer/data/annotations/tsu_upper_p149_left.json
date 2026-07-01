@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-tsu_upper_p149_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいよん (藩制一覧表 第四)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han System Overview Table, Fascicle 4 (outer-margin running header / provenance)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2622,1080,132,1461"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "まる (○＝藩の区切り記号)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Open-circle marker denoting the start of a domain entry (here, Tsu)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_marker_maru"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2191,1366,156,217"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "津"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "つ (津)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tsu — the domain name (first character)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_name_tsu"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2256,1446,91,154"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はん (藩)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "-han (domain); with the char above reads 津藩 = Tsu domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "domain_name_han"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2242,1776,96,91"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 貳拾九萬九千三百三十四石八斗一升八合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか にじゅうきゅうまん きゅうせん さんびゃく さんじゅうよん こく はっと いっしょう はちごう (草高 299,334石8斗1升8合)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal/registered kokudaka: 299,334.818 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2100,1076,113,1287"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 三拾貳萬三千九百五拾石貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たか さんじゅうにまん さんぜん きゅうひゃく ごじゅっこく にごう (高 323,950石0斗0升2合)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed yield: 323,950.002 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1971,1145,112,1246"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田高延／高込高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しんでんだかのべ／たかごみだかとも (新田高延・高込高共)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Inline gloss on the 高 figure: it includes newly-developed-field yield (shinden) — i.e. the total-inclusive kokudaka"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高_inline_note_shinden"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1857,1142,111,260"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 五萬三千石 外二 五千六百八拾六石二斗九合 内 久居ニ分引"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち ごまん さんぜんこく／ほかに ごせん ろっぴゃく はちじゅうろっこく にときゅうごう／うち ひさいに ぶんびき (内53,000石／外に5,686石2斗0升9合／内 久居に分引)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Breakdown (of which): 53,000 koku; separately 5,686.209 koku; note — internally split off to Hisai (久居, a Tsu sub-domain)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1676,1391,127,1862"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘而 貳拾七萬九百五拾石貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "のこりて にじゅうななまん きゅうひゃく ごじゅっこく にごう (残りて 270,950石0斗0升2合)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remainder/net after deductions: 270,950.002 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘而"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1586,1133,101,1070"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二 高込高延共 貳萬八千三百八十四石八斗一升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほかに たかごみたかのべとも にまん はっせん さんびゃく はちじゅうよんこく はっと いっしょう ろくごう (外に 28,384石8斗1升6合)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Additional (beyond the above), inclusive of new-field yield: 28,384.816 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1421,1235,137,1718"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税 現石拾貳萬四千九百六石壹斗二升壹合 子年ヨリ辰年迄五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "せいぜい げんこく じゅうにまん よんせん きゅうひゃく ろっこく いっと にしょう いちごう／ねどしより たつどしまで ごかねん へいきん (正税 現石124,906石1斗2升1合、子年〜辰年の5ヶ年平均)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in actual rice: 124,906.121 koku (five-year average, Year of the Rat to Year of the Dragon)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1296,1130,127,1773"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金貳拾二兩二歩九毛貳絲"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きん にじゅうにりょう にぶ きゅうもう にし (金22両2分9毛2糸)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monetary levy: 22 ryō 2 bu 9 mō 2 shi"
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1172,1396,99,888"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雑税 現石千五百四十四石九斗八升壹合 右同斷五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ざつぜい げんこく せん ごひゃく よんじゅうよんこく きゅうと はっしょう いちごう／みぎ どうだん ごかねん へいきん (雑税 現石1,544石9斗8升1合、右に同じく5ヶ年平均)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, in actual rice: 1,544.981 koku (same basis as above, five-year average)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1026,1122,125,1775"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四（津）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいよん（つ） (藩制一覧表 第四（津）)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running footer: Han System Overview Table, Fascicle 4 (Tsu) — provenance repeat"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_footer_tsu"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:942,1290,72,438"
+      }
+    }
+  },
+  {
+    "id": "anno-tsu_upper_p149_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百七十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "にひゃくななじゅうさん (273)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 273"
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p149_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:881,3133,63,250"
+      }
+    }
+  }
+]

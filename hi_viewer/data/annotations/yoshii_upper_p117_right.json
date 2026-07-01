@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-yoshii_upper_p117_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三（吉井）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（吉井）（はんせいいちらんひょう だいさん よしい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: 'Hansei Ichiran-hyō, Fascicle 3 (Yoshii).' This provenance header identifies the page's domain as 吉井藩 (Yoshii) — NOT Takamatsu, which the MASTER entry mislabeled. Yoshii was a small ~10,000-koku domain in Kōzuke province."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三（吉井）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2036,1328,147,395"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百八（にひゃくはち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number in the bottom margin: '208'. This is the volume's own pagination, not a data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page 二百八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2170,3168,62,162"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租雑税　合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租雑税（せいそざっぜい）　合（あわせて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fiscal category label with a bracket (合, 'combined/total'): 'Regular land tax and miscellaneous taxes, combined.' The brace groups the two components listed to the right — present rice (現米) and money (金) — as the two parts of the domain's total tax intake."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租雑税（合）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1945,1180,82,300"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米千九百八拾二石一升四合二勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米（げんまい）千九百八十二石一升四合二勺八才（1,982こく1しょう4ごう2しゃく8さい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Present rice (actual assessed rice tax): 1,982 koku, 0 to, 1 shō, 4 gō, 2 shaku, 8 sai (the to place is skipped = 0), i.e. 1,982.10428 koku. This is the rice component of the domain's combined tax intake."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1976,1176,132,1572"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金千三百九拾兩三分永百七拾四文二分六厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）千三百九十両三分（1,390りょう3ぶ）　永（えい）百七十四文二分六厘（174もん2ぶ6りん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Money (the cash component of the combined tax): 1,390 ryō 3 bu in gold, plus 174 mon 2 bu 6 rin in eizeni (永錢, a nominal cash-accounting unit). This is the monetary counterpart to the rice figure in the adjacent column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1888,1176,90,1740"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　百十一戸〔士族卒給禄之分自餘不分明〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）　百十一戸（111こ）〔士族・卒 給禄の分、自余（じよ）不分明〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of households: 111 households. The small double-column note reads 'the portion [given] as stipends to shizoku and sotsu; the remainder is unclear (不分明).' This total equals the 81 shizoku + 30 sotsu households listed to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1742,1166,112,890"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　佛閣"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）　佛閣（ぶっかく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Column heading only — 'Shrines / Buddhist temples' — with no number recorded beneath it on this half-page (the value is blank). MASTER's figures of 737 shrines and 98 temples are NOT present on the scan and appear to be spurious."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社／佛閣（右）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1618,1166,84,662"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　八十一戸〔給禄之分自餘不分明〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）　八十一戸（81こ）〔給禄の分、自余 不分明〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warrior-class (shizoku) households: 81 households. The side note reads 'the stipended portion; the remainder is unclear (不分明).'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1473,1166,116,890"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　三十戸　同上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）　三十戸（30こ）　同上（どうじょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lower-retainer (sotsu) households: 30 households. 'Same as above' (同上) applies the preceding note — the stipended portion given, the remainder unclear."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1348,1166,84,742"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　非人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）　非人（ひにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) line: recorded simply as 'hinin' (非人), i.e. reported together with / as the hinin category rather than a separate count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多（右）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1214,1166,86,660"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　百十一人〔士八十一人　卒三十人　自餘不分明〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　百十一人（111にん）〔士 八十一人、卒 三十人、自余 不分明〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total persons: 111 people. The double-column note breaks this down as 81 shizoku persons + 30 sotsu persons; 'the remainder is unclear' (自餘不分明). The 81 + 30 = 111 matches the household total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1067,1166,118,1174"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　佛閣"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）　佛閣（ぶっかく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second 'Shrines / Buddhist temples' heading (the person-count section's counterpart to the earlier one), again a label only with no numeric value recorded on this half-page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社／佛閣（左）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:943,1166,80,664"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　八十一人　卒　三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）　八十一人（81にん）　卒（そつ）　三十人（30にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warrior-class persons: 81 shizoku persons and 30 sotsu persons — the person-count version of the household figures given to the right (81 + 30)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:817,1170,84,1032"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　非人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）　非人（ひにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second outcaste (eta) heading, again recorded as 'hinin' (非人) with no separate count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多（左）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:687,1170,82,660"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（そんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Column heading 'number of villages' with no value recorded beneath it on this half-page (blank)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:556,1172,76,160"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵員　不分明"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵員（へいいん）　不分明（ふぶんめい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Military personnel: 'unclear / not distinguished' (不分明). The domain did not report a troop figure here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:424,1176,80,410"
+      }
+    }
+  }
+]

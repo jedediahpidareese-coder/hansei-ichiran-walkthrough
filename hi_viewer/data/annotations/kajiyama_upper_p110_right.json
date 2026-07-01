@@ -1,0 +1,542 @@
+[
+  {
+    "id": "anno-kajiyama_upper_p110_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三（加知山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいさん（かちやま）／藩制一覧表 第三（加知山）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Administration, Fascicle 3 (Kajiyama) — running margin header (provenance)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running header"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2196,1055,62,665"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○加知山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "かちやまはん／加知山藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kajiyama Domain — the ○ maru marks the start of this domain's entry; PRIMARY domain of this half-page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○加知山藩 (domain title + boundary maru)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1920,1400,82,600"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本高 壹萬三千九百六十九石八斗九升七合四勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほんだか いちまんさんぜんきゅうひゃくろくじゅうきゅうこく はっと きゅうしょう ななごう よんしゃく ろくさい／本高 13,969.89746石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal assessed yield: 13,969.89746 koku (MASTER read 13969.89701; corrected — the tail is 七合四勺六才)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1898,1060,102,1925"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税米五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "せいぜいまい ごかねん へいきん／正税米 五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax-rice, five-year average — caption for the current-rice (現米) figure to its left"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税米五ヶ年平均 (caption)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1768,1320,102,655"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米 四千五百六十石壹斗壹升五合八勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "げんまい よんせんごひゃくろくじゅっこく いっと いっしょう ごごう はっしゃく ごさい／現米 4,560.11585石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current (actual) tax-rice, 5-yr avg: 4,560.11585 koku (MASTER conflated as 正租米 4560.18997; corrected)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1638,1150,104,1585"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ 開發冥加米 雑税ノ内新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほかに かいはつみょうがまい ざっぜいのうち しんでん／外に開發冥加米、雑税の内新田"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Separately: reclamation myōga-rice; (new-field, within misc-tax) — annotation labeling the value column to its left"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外ニ 開發冥加米 雑税ノ内新田 (note)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1488,1240,128,565"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米 九斗貳升五合三勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "げんまい くと にしょう ごごう さんしゃく いっさい／現米 0.925311石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reclamation myōga current-rice: 0.925311 koku (MASTER logged this value under 雜税米; label is 開發冥加米)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "開發冥加米現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1368,1155,100,995"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永貳百七拾四貫八百六十七文五分貳厘八毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文528"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei (cash) 274.867528 kan-mon — MASTER MISSED this column; identical value repeated at the 合 subtotal (see other 永 box)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1230,1235,110,1585"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本高新田込高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほんだか しんでんこみだか とも／本高・新田込高共"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal yield and reclaimed-land yield, combined — caption for the ○合現米 subtotal to its left"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本高新田込高共 (caption)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1110,1320,100,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○合現米 四千六百貳十石五斗八升六合七勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごう げんまい よんせんろっぴゃくにじっこく ごと はっしょう ろくごう ななしゃく ななさい／合現米 4,620.58677石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined current-rice subtotal: 4,620.58677 koku (○ here is a subtotal marker, not a domain boundary; MASTER value correct)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:971,1072,104,1746"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永貳百七拾四貫八百六十七文五分貳厘八毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文528"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei (cash) 274.867528 kan-mon (second, identical print of the 永 line; MASTER MISSED this column)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:831,1155,109,1585"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總戸數 三千百八十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "そうこすう さんぜんひゃくはちじゅういちけん／総戸数 3,181軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households: 3,181 (MASTER value correct)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:698,1070,107,915"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 一萬六千百二人 内 男八千三十一人 女八千七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう いちまんろくせんひゃくににん うち おとこ はっせんさんじゅういちにん おんな はっせんななじゅういちにん／人口 16,102人（男8,031・女8,071）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 16,102 persons (8,031 male / 8,071 female); MASTER had 16102 but MISSED the male/female split"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:576,1065,86,1295"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 八千三十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ はっせんさんじゅういちにん／男 8,031人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 8,031 (inline sub-split of the 16,102 population)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:622,1905,40,455"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 八千七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな はっせんななじゅういちにん／女 8,071人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 8,071 (inline sub-split of the 16,102 population)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:578,1905,44,455"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 拾六戸 外二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しゃけ じゅうろっこ／社家 16戸（外に）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine families: 16 households (MASTER value correct; 外二 = 'separately' note introduces the household-population line below)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:448,1065,122,355"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口 八十三人 内 男四十一人 女四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "どうじんこう はちじゅうさんにん うち おとこ よんじゅういちにん おんな よんじゅうににん／同人口 83人（男41・女42）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Same (shrine-family) population: 83 persons (41 male / 42 female); MASTER MISSED this entire field"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家同人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:448,1600,122,1305"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百九十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくきゅうじゅうよん／194"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 194"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号 (bottom margin)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2058,3180,72,290"
+      }
+    }
+  }
+]
