@@ -1,0 +1,332 @@
+[
+  {
+    "id": "anno-nomura_kokudaka-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第四 （野村）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四冊（野村藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header in the outer margin: Domain Survey (Hansei Ichiran), fourth fascicle (the civil/economic register), Nomura section. Provenance pointer, not data; the printed page number appears separately in the lower margin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Page header 藩制一覧表第四 （野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2111,1350,57,564"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税 米六石八斗五升九合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税（せいぜい）— 米（こめ）六石八斗五升九合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (sei-zei), rice portion: 6 koku 8 to 5 sho 9 go 6 shaku of rice (about 6.86 koku). The cash portion is in the adjoining column to the left. A tiny figure confirming Nomura is a very small domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税 米（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1976,1097,69,1159"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢三貫文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "錢（ぜに）三貫文（さんかんもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash portion of the regular land tax: 3 kanmon (三貫文) in coin. With the rice portion (6.86 koku) this completes the 正税 land-tax entry for Nomura."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1847,1346,67,315"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 四十五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）四十五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of households: 45 (四十五戸). A very small household count consistent with a minor domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1714,1093,65,569"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 二百七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）二百七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 207 people (二百七人). The breakdown below (4 monks + 203 commoners) sums to exactly 207, confirming the figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1586,1094,59,564"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' header introducing the breakdown of the 207-person population into the temple (寺) and commoner (平民) sub-entries that follow to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nomura 内 (population breakdown header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1462,1177,56,64"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺 二戸 人口 僧四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）二戸 人口（じんこう）僧四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple sub-entry: 2 temple houses (二戸), population 4 monks (僧四人). First of the two components of the 内 breakdown; the 4 monks plus 203 commoners give the 207 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1311,1261,64,989"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民 四十三戸 人口 二百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民（へいみん）四十三戸 人口（じんこう）二百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner sub-entry: 43 commoner houses (四十三戸), population 203 (二百三人). With the 4 monks above, this gives 207, matching the 人員 total. The 203 commoners are split by sex in the gloss below (内 男/女)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 戸數（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1178,1262,64,1649"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' marker introducing the male/female split of the 203 commoners recorded just above; the 男 (male) and 女 (female) sub-columns follow directly below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "Nomura 平民 内 (M/F breakdown header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1176,2193,45,718"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）百六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner males: 106 (百六人). Right-hand of the paired M/F sub-columns; its top is set at the 男 glyph. With the 97 females it sums to 203, matching the commoner population."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 男（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1199,2193,46,653"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_kokudaka-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 九十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）九十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner females: 97 (九十七人). Left-hand of the paired M/F sub-columns, sharing its top with the male column at the 女/男 glyph. 106 males + 97 females = 203, the recorded commoner population."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 女（野村）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p183_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1146,2195,50,717"
+      }
+    }
+  }
+]

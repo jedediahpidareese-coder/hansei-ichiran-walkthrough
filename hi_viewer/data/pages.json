@@ -244,6 +244,23 @@
       "page_summary_en": "This is the left half (printed p.305) of a fascicle-8 spread that continues from p.163 (Kagoshima/Kōchi). It is a boundary page carrying three domains. On the right it completes the appointee-name roster of the preceding domain, 高知藩 (Kōchi/Tosa) — seven councillors including Iwasaki Yatarō (founder of Mitsubishi) — and gives Tosa's combined land-and-sea military total of 9,000 (海陸兵員九千人), which prints to the right of the next ○ marker per the fascicle-8 overflow convention. The ○山内藩 marker then opens the Yamauchi (Tosa-Shinden) domain with its 知事 (Governor) and 大参事 (Senior Councillor) office-headings, whose standing army of 89 (常備兵八十九人) overflows past the following marker. Finally the ○龜岡藩 marker opens the Kameoka (Tanba) domain, whose officials continue onto the next page; the running margin header reads 藩制一覧表第八（山内、龜岡）."
     },
     {
+      "id": "asao_civil_tail",
+      "sequence": 15,
+      "domain_canonical": "淺尾藩",
+      "domain_hi_name": "淺尾藩",
+      "domain_en": "Asao (preceding Saga on this spread)",
+      "image": "images/lower_p045_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 45,
+      "page_side": "R",
+      "book_page": "六十六",
+      "page_header_kanji": "藩制一覧表第六（浅尾）",
+      "page_header_en": "Domain Survey (Hansei Ichiran), sixth fascicle — Asao section. The vertical running header in the outer (right) margin marks this half as fascicle 6 provenance for Asao (浅尾藩).",
+      "table_number": 6,
+      "page_topic": "Closing fields of Asao domain's vol-2 civil register: status-class populations, kokudaka, and the five-year-average tax breakdown.",
+      "page_summary_en": "This right (earlier-read) half of the spread is entirely the tail of the PRECEDING domain, Asao (浅尾藩), fascicle 6 of the Domain Survey — there is NO maru domain-boundary marker on this half, so Saga (佐嘉藩) has not yet opened; its ○佐嘉藩 marker and its 貮口合 yield fall on the facing-left page (saga_kokudaka). Reading right-to-left the columns give Asao's outcaste count (非人 none), shizoku and sotsu household/population figures with male/female splits (士族 98 houses, pop. 403 = M202/F201; 卒族 72 houses, pop. 100 = M83/F17), the nominal and current kokudaka (草高 ca. 10,005 koku; 現石高 4,139 koku), and a five-year-average tax breakdown (正税 rice 3,921 koku, cash 764 ryō, plus an eisen sub-amount; 雑税 rice 114 koku). Two bracketed 1928-reprint editorial notes — （庚午調）and（以下十二行欄外原朱）— flag that the survey was taken in the Kōgo year (1870) and that the following lines stood in red ink in the manuscript margin."
+    },
+    {
       "id": "saga_kokudaka",
       "domain_canonical": "佐賀藩",
       "domain_hi_name": "佐嘉藩",
@@ -258,7 +275,7 @@
       "table_number": 6,
       "page_topic": "kokudaka via 'two-mouth combined / 5-yr average' + main tax",
       "page_summary_en": "Saga (entered only in vol2) uses an unusual phrasing for its combined yield: 貮口合 平均 = 724,739.3152 koku, the five-year average of 高 211,519 + 新田高 513,580 — Saga led the Edo period in new-field reclamation, so its real yield far exceeds the ~357k formal rating. Main tax: 正租米 213,478 and 取納現米 217,789 koku, plus a silver tax of 444.1 kanme (with its rice-equivalent 但米 ≈ 4,441 koku) and a tiny 10-ryō miscellaneous gold tax.",
-      "sequence": 15
+      "sequence": 16
     },
     {
       "id": "saga_demographics",
@@ -275,7 +292,7 @@
       "table_number": 6,
       "page_topic": "population totals (with M/F) + products",
       "page_summary_en": "Saga's demographic totals and products. Total 戸數 68,710 and total 人員 354,450 — male 183,517 + female 170,933 = 354,450, sum-validated — plus 士族戸數 5,273. The product block lists Saga's output with quantities, including the famous Hizen coal (石炭 36,000,000 jin), Arita/Imari ceramics (陶器 20,000+ bales), rice 92,719 koku, tea, wax, sōmen, sake, and dried shrimp, and a cash figure of 99,831 kan-mon. The shizoku/sotsu PERSON counts are on the facing left half (saga_status).",
-      "sequence": 16
+      "sequence": 17
     },
     {
       "id": "saga_status",
@@ -292,11 +309,11 @@
       "table_number": 6,
       "page_topic": "status-class persons + Sakura-han boundary marker",
       "page_summary_en": "The left half of Saga's demographic spread: the status-class person counts that complete the totals on the facing page. 士族 23,823 persons; 卒 9,369 households / 43,488 persons; 僧 1,032 / 4,412; shrine personnel 195 / 850; and a 'shrine count not specified' (社數不詳) note — each person figure carries an internal male/female split. The neighbouring Sakura-han (佐倉藩, a Hotta domain in Shimōsa) entry begins alongside.",
-      "sequence": 17
+      "sequence": 18
     },
     {
       "id": "saga_officials",
-      "sequence": 18,
+      "sequence": 19,
       "domain_canonical": "佐賀藩",
       "domain_hi_name": "佐賀藩",
       "domain_en": "Saga",
@@ -326,11 +343,28 @@
       "table_number": 9,
       "page_topic": "military — Saga's six-battalion army (2,972 / 36 guns)",
       "page_summary_en": "Saga's army. Its ○佐賀藩 marker and officer roster are on the facing page; the force itself is recorded here — six battalions, 2,972 personnel (officers 864 + artillery 180 + infantry 1,440 + artillery-privates 108 + infantry-privates 260 + bandsmen 120) and 36 cannon. A 少参事以下書ナラス note records that the junior-official roster was withheld.",
-      "sequence": 19
+      "sequence": 20
+    },
+    {
+      "id": "nomura_kokudaka",
+      "sequence": 21,
+      "domain_canonical": "野村藩",
+      "domain_hi_name": "野村藩",
+      "domain_en": "Nomura (preceding Kumamoto on this spread)",
+      "image": "images/upper_p183_right.jpg",
+      "volume": "vol1",
+      "pdf_page": 183,
+      "page_side": "R",
+      "book_page": "三百四十",
+      "page_header_kanji": "藩制一覧表第四 （野村）",
+      "page_header_en": "Domain Survey, fourth fascicle (civil/economic register), Nomura section. Printed page number 三百四十 (340) is in the lower margin.",
+      "table_number": 4,
+      "page_topic": "Civil register (land tax, households, population with commoner/temple and M/F breakdown) of the small Nomura domain.",
+      "page_summary_en": "This right half-page is the complete fascicle-4 civil register entry for a single very small domain, 野村 (Nomura): land tax 正税 of 6.85+ koku of rice plus 3 kanmon of cash, 45 households, and a population of 207, broken down under 内 into 2 temple houses (4 monks) and 43 commoner houses (203 people), with the 203 commoners further split into 男 106 / 女 97 (106+97=203, and 4+203=207, both internally consistent). IMPORTANT DISCREPANCY WITH THE TASK HINT: the running header clearly reads 第四 (fascicle 4), not the expected fascicle 5, and the printed domain is 野村 (Nomura) — there is NO ○-maru domain-boundary marker and NO 熊本藩/Kumamoto content anywhere on this half-page. The page holds only one domain (no boundary), so the hint's premise (maru-熊本藩 opening Kumamoto, preceding-domain tail) does not match this image."
     },
     {
       "id": "kumamoto_kokudaka",
-      "sequence": 20,
+      "sequence": 22,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -347,7 +381,7 @@
     },
     {
       "id": "kumamoto_demographics",
-      "sequence": 21,
+      "sequence": 23,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -364,7 +398,7 @@
     },
     {
       "id": "kumamoto_demographics_female",
-      "sequence": 22,
+      "sequence": 24,
       "domain_canonical": "熊本藩",
       "domain_en": "Kumamoto",
       "domain_hi_name": "熊本藩",
@@ -381,7 +415,7 @@
     },
     {
       "id": "kumamoto_households",
-      "sequence": 23,
+      "sequence": 25,
       "domain_canonical": "熊本藩",
       "domain_en": "Kumamoto",
       "domain_hi_name": "熊本藩",
@@ -398,7 +432,7 @@
     },
     {
       "id": "kurume_kokudaka_households",
-      "sequence": 24,
+      "sequence": 26,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩 → ○久留米藩",
       "domain_en": "Kumamoto",
@@ -415,7 +449,7 @@
     },
     {
       "id": "kumamoto_officials",
-      "sequence": 25,
+      "sequence": 27,
       "domain_canonical": "熊本藩",
       "domain_en": "Kumamoto",
       "domain_hi_name": "熊本藩",
@@ -432,7 +466,7 @@
     },
     {
       "id": "kumamoto_military",
-      "sequence": 26,
+      "sequence": 28,
       "domain_canonical": "熊本藩",
       "domain_hi_name": "熊本藩",
       "domain_en": "Kumamoto",
@@ -449,7 +483,7 @@
     },
     {
       "id": "kanazawa_kokudaka_facing",
-      "sequence": 27,
+      "sequence": 29,
       "domain_canonical": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
       "domain_hi_name": "金澤藩",
@@ -466,7 +500,7 @@
     },
     {
       "id": "kanazawa_kokudaka",
-      "sequence": 28,
+      "sequence": 30,
       "domain_canonical": "金澤藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -483,7 +517,7 @@
     },
     {
       "id": "kanazawa_demographics",
-      "sequence": 29,
+      "sequence": 31,
       "domain_canonical": "金澤藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -500,7 +534,7 @@
     },
     {
       "id": "kanazawa_officials",
-      "sequence": 30,
+      "sequence": 32,
       "domain_canonical": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
       "domain_hi_name": "金澤藩",
@@ -517,7 +551,7 @@
     },
     {
       "id": "kanazawa_military",
-      "sequence": 31,
+      "sequence": 33,
       "domain_canonical": "金澤藩",
       "domain_hi_name": "金澤藩",
       "domain_en": "Kanazawa (Kaga)",
@@ -534,7 +568,7 @@
     },
     {
       "id": "tsurumaki_kokudaka_open",
-      "sequence": 32,
+      "sequence": 34,
       "domain_canonical": "鶴牧藩",
       "domain_hi_name": "○鶴牧藩",
       "domain_en": "Tsurumaki",
@@ -551,7 +585,7 @@
     },
     {
       "id": "tsurumaki_kokudaka",
-      "sequence": 33,
+      "sequence": 35,
       "domain_canonical": "鶴牧藩",
       "domain_en": "Tsurumaki",
       "domain_hi_name": "鶴牧藩",
@@ -568,7 +602,7 @@
     },
     {
       "id": "tsurumaki_officials",
-      "sequence": 34,
+      "sequence": 36,
       "domain_canonical": "鶴牧藩",
       "domain_hi_name": "○鶴牧藩",
       "domain_en": "Tsurumaki",
@@ -585,7 +619,7 @@
     },
     {
       "id": "tsurumaki_military",
-      "sequence": 35,
+      "sequence": 37,
       "domain_canonical": "鶴牧藩",
       "domain_hi_name": "○鶴牧藩 → ○敦賀藩",
       "domain_en": "Tsurumaki",
@@ -602,7 +636,7 @@
     },
     {
       "id": "nagoya_kokudaka",
-      "sequence": 36,
+      "sequence": 38,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -619,7 +653,7 @@
     },
     {
       "id": "nagoya_tax_area",
-      "sequence": 37,
+      "sequence": 39,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -636,7 +670,7 @@
     },
     {
       "id": "nagoya_kokudaka_demographics",
-      "sequence": 38,
+      "sequence": 40,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -653,7 +687,7 @@
     },
     {
       "id": "nagoya_demographics",
-      "sequence": 39,
+      "sequence": 41,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -670,7 +704,7 @@
     },
     {
       "id": "nagoya_officials",
-      "sequence": 40,
+      "sequence": 42,
       "domain_canonical": "名古屋藩",
       "domain_hi_name": "名古屋藩",
       "domain_en": "Nagoya (Owari)",
@@ -687,7 +721,7 @@
     },
     {
       "id": "nakatsu_boundary",
-      "sequence": 41,
+      "sequence": 43,
       "domain_canonical": "中津藩",
       "domain_en": "Nakatsu",
       "domain_hi_name": "中津藩",
@@ -704,7 +738,7 @@
     },
     {
       "id": "nakatsu_taxes_demographics",
-      "sequence": 42,
+      "sequence": 44,
       "domain_canonical": "中津藩",
       "domain_hi_name": "中津藩",
       "domain_en": "Nakatsu",
@@ -721,7 +755,7 @@
     },
     {
       "id": "nakatsu_officials_military",
-      "sequence": 43,
+      "sequence": 45,
       "domain_canonical": "中津藩",
       "domain_hi_name": "○中津藩 → ○中村藩",
       "domain_en": "Nakatsu",

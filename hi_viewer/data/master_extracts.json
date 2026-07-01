@@ -2840,5 +2840,135 @@
       "unit": "persons",
       "raw": "大参事 欠員"
     }
+  ],
+  "asao_civil_tail": [
+    {
+      "field_jp": "非人",
+      "parsed": "0",
+      "unit": "persons",
+      "raw": "非人 ナシ"
+    },
+    {
+      "field_jp": "士族 戸數",
+      "parsed": "98",
+      "unit": "households",
+      "raw": "士族 九十八戸 人口四百三人"
+    },
+    {
+      "field_jp": "士族 男",
+      "parsed": "202",
+      "unit": "persons",
+      "raw": "男二百二人"
+    },
+    {
+      "field_jp": "士族 女",
+      "parsed": "201",
+      "unit": "persons",
+      "raw": "女二百一人"
+    },
+    {
+      "field_jp": "卒族 戸數",
+      "parsed": "72",
+      "unit": "households",
+      "raw": "卒族 七十貳戸 人口百人"
+    },
+    {
+      "field_jp": "卒族 男",
+      "parsed": "83",
+      "unit": "persons",
+      "raw": "男八十三人"
+    },
+    {
+      "field_jp": "卒族 女",
+      "parsed": "17",
+      "unit": "persons",
+      "raw": "女十七人"
+    },
+    {
+      "field_jp": "草高",
+      "parsed": "10,005.189",
+      "unit": "koku",
+      "raw": "草高 一萬五石一斗八升九合"
+    },
+    {
+      "field_jp": "現石",
+      "parsed": "4,139.8921",
+      "unit": "koku",
+      "raw": "現石 四千百三十九石八斗九升二合一勺〇才"
+    },
+    {
+      "field_jp": "正税 米",
+      "parsed": "3,921.54757",
+      "unit": "koku",
+      "raw": "米三千九百廿一石五斗四升七合五勺七才"
+    },
+    {
+      "field_jp": "正税 金",
+      "parsed": "764",
+      "unit": "ryō",
+      "raw": "金七百六十四兩"
+    },
+    {
+      "field_jp": "永",
+      "parsed": "121",
+      "unit": "mon",
+      "raw": "永百廿一文九分一厘二毛"
+    },
+    {
+      "field_jp": "雜税 米",
+      "parsed": "114.17308",
+      "unit": "koku",
+      "raw": "米百十四石一斗七升三合八才"
+    }
+  ],
+  "nomura_kokudaka": [
+    {
+      "field_jp": "正税 米",
+      "parsed": "6.8596",
+      "unit": "koku",
+      "raw": "正税 米六石八斗五升九合六勺"
+    },
+    {
+      "field_jp": "錢",
+      "parsed": "3",
+      "unit": "kan",
+      "raw": "錢三貫文"
+    },
+    {
+      "field_jp": "戸數",
+      "parsed": "45",
+      "unit": "households",
+      "raw": "戸數 四十五戸"
+    },
+    {
+      "field_jp": "人員",
+      "parsed": "207",
+      "unit": "persons",
+      "raw": "人員 二百七人"
+    },
+    {
+      "field_jp": "寺",
+      "parsed": "2",
+      "unit": "households",
+      "raw": "寺 二戸 人口 僧四人"
+    },
+    {
+      "field_jp": "平民 戸數",
+      "parsed": "43",
+      "unit": "households",
+      "raw": "平民 四十三戸 人口 二百三人"
+    },
+    {
+      "field_jp": "平民 男",
+      "parsed": "106",
+      "unit": "persons",
+      "raw": "男 百六人"
+    },
+    {
+      "field_jp": "平民 女",
+      "parsed": "97",
+      "unit": "persons",
+      "raw": "女 九十七人"
+    }
   ]
 }
