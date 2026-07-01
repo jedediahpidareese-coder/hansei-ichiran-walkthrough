@@ -885,6 +885,24 @@
       "parsed": "1,220",
       "unit": "persons",
       "raw": "千二百二十人"
+    },
+    {
+      "field_jp": "高",
+      "parsed": "110,000",
+      "unit": "koku",
+      "raw": "高 拾壹萬石"
+    },
+    {
+      "field_jp": "外 高",
+      "parsed": "22,941.20691",
+      "unit": "koku",
+      "raw": "外 高 貳萬貳千九百四十壹石貳斗六合九勺壹才 ［込高新田／高改出高］"
+    },
+    {
+      "field_jp": "高合",
+      "parsed": "132,941.20691",
+      "unit": "koku",
+      "raw": "高合 拾三萬貳千九百四十壹石貳斗六合九勺壹才"
     }
   ],
   "tosa_military": [
@@ -1097,6 +1115,18 @@
       "parsed": "1",
       "unit": "ship",
       "raw": "泰運丸 原名コリヤ 亞國製造木質"
+    },
+    {
+      "field_jp": "知事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "知事 一人"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "大參事 一人"
     }
   ],
   "kanazawa_kokudaka": [
@@ -2593,6 +2623,12 @@
       "parsed": "1",
       "unit": "persons",
       "raw": "権大参事 陸原慎太郎源惟厚"
+    },
+    {
+      "field_jp": "砲兵兵員",
+      "parsed": "279",
+      "unit": "persons",
+      "raw": "此貳百七十九人"
     }
   ],
   "tsurumaki_kokudaka": [
@@ -2771,6 +2807,38 @@
       "parsed": "15",
       "unit": "battalions",
       "raw": "兵隊 十五大隊（七千二百人）"
+    }
+  ],
+  "saga_officials": [
+    {
+      "field_jp": "知事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "知事 一人 戸田忠行"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "大参事 一人 川上廣樹"
+    },
+    {
+      "field_jp": "権大参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "権大参事 一人 善野秀"
+    },
+    {
+      "field_jp": "少参事",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "少参事 一人 佐藤保之"
+    },
+    {
+      "field_jp": "大参事",
+      "parsed": "0",
+      "unit": "persons",
+      "raw": "大参事 欠員"
     }
   ]
 }
