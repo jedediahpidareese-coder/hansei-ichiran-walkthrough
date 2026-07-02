@@ -1,0 +1,242 @@
+[
+  {
+    "id": "anno-takada_lower_p177_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（高田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八（高田）／はんせいいちらんひょう だいはち（たかだ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-System Overview Tables, Fascicle 8 (Takada) — outer-margin provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header_fascicle8_takada"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:780,1240,135,575"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○高田藩　審ナラス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○高田藩　つまびらかならず／たかだはん（しかとしれず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "○ domain-opening marker: Takada domain — annotated 審ナラス ('not ascertained / not disclosed'). The ○marker opens the Takada block; a printed reading-hook stroke sits just above the circle."
+      },
+      {
+        "purpose": "identifying",
+        "value": "maru_marker_domain_takada"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1010,125,1130"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事／ちじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) rank heading — no name and no count are printed (the knowing officer is covered by the 審ナラス 'not disclosed' note on the domain marker)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "rank_chishi_heading_no_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2025,1225,100,165"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事　五員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事　五員／だいさんじ　ごいん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji): 5 persons (heading glyphs in the top band, count 五員 hanging below)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1880,1230,105,660"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事　六員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事　六員／ごんだいさんじ　ろくいん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillor (gon-daisanji): 6 persons (heading in the top band, count 六員 below)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1198,1228,105,660"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事／ごんしょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillor (gon-shōsanji) rank heading — stands atop the roster of named appointees below it (two-register layout; the names hang in the columns beneath and to the left)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "rank_kenshosanji_heading"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2555,2312,115,240"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "菊池新三郎　鈴木盆枝　榛谷深藏　中根善次郎　村上修禮　原田孚賀美　伊藤彌惣　川上疆　村上四郎八　仁木牛　清水正太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きくち しんざぶろう／すずき ますえ／はんや ふかぞう／なかね ぜんじろう／むらかみ しゅうれい／はらだ ふかみ／いとう やそう／かわかみ きょう／むらかみ しろはち／にき うし／しみず しょうたろう（読み一部推定）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Roster of 11 named appointees (read right-to-left): Kikuchi Shinzaburō, Suzuki Masue, Hanya Fukazō, Nakane Zenjirō, Murakami Shūrei, Harada Fukami, Itō Yasō, Kawakami Kyō, Murakami Shirohachi, Niki Ushi, Shimizu Shōtarō. These hang under the 大参事 / 権大参事 / 権少参事 rank headings (some readings are best-effort). Column at x~930 (清水正太郎) is the leftmost / last name."
+      },
+      {
+        "purpose": "identifying",
+        "value": "appointee_name_roster_11names"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:900,2565,1780,895"
+      }
+    }
+  },
+  {
+    "id": "anno-takada_lower_p177_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百三十一／さんびゃくさんじゅういち（331）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed bottom-margin page number: 331 (provenance, not domain data)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book_page_number_331"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p177_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:806,3145,66,185"
+      }
+    }
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-matsuyama_lower_p208_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（松山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九（松山）／はんせいいちらんひょう だいきゅう（まつやま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions, Fascicle 9 (Matsuyama) — provenance running header in the outer margin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header (藩制一覧表第九 / 松山)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:895,1250,105,650"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百九十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百九十三／さんびゃくきゅうじゅうさん (393)"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 393 (bottom-margin kanji numerals)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number_bottom_margin"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:870,3095,65,275"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千石積 一艘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "千石積 一艘／せんごくづみ いっそう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One thousand-koku-capacity ship, 1 vessel. This naval note sits to the RIGHT of the ○松山藩 marker and therefore belongs to the PREVIOUS domain, Matsue (松江藩), whose main entry is on the facing page — not to Matsuyama."
+      },
+      {
+        "purpose": "identifying",
+        "value": "軍艦"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2540,1010,180,550"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○松山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○松山藩／まつやまはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the Matsuyama domain entry (Iyo-Matsuyama, Hisamatsu-Matsudaira house) — the primary domain of this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "marker_○松山藩 (primary domain opener)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2560,1360,150,655"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事／ちじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji). Rank heading only; no appointee name is printed for the governor on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "chiji_head (知事 — no name printed)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2372,1010,76,165"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事 三人／だいさんじ さんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji): 3 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2240,1010,80,255"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "菅淳一郎 竹内九郎兵衛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "菅淳一郎（かん じゅんいちろう）・竹内九郎兵衛（たけうち くろべえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee names hung below/right of the daisanji block: Kan Jun'ichirō; Takeuchi Kurōbei (readings approximate)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "daisanji_names (菅淳一郎 / 竹内九郎兵衛)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2480,1350,102,565"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事 三人／ごんだいさんじ さんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillor (gon-daisanji): 3 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1972,1010,80,335"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "奥平乱 戸塚助左衛門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "奥平乱（おくだいら らん？・第三字不確か）・戸塚助左衛門（とづか すけざえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee names for the gon-daisanji block: Okudaira Ran (third given-name glyph uncertain, reads 乱/亂 or 札); Tozuka Sukezaemon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "gondaisanji_names (奥平乱 / 戸塚助左衛門)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2085,2010,87,600"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事 三人／しょうさんじ さんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor (shōsanji): 3 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1700,1010,80,250"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鈴木七郎右衛門 内藤瀬兵衛 上庄八郎兵衛 河東喜一郎 久松静馬"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鈴木七郎右衛門（すずき しちろううえもん）・内藤瀬兵衛（ないとう せへえ）・上庄八郎兵衛（かみしょう はちろべえ）・河東喜一郎（かとう きいちろう）・久松静馬（ひさまつ しずま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The name columns for the junior-councillor block (with the remaining councillor names overflowing left): Suzuki Shichirō-uemon; Naitō Sehee; Kamishō Hachirobei; Katō Kiichirō; Hisamatsu Shizuma (readings approximate). Nine appointee names in total are printed across the daisanji/gon-daisanji/shōsanji ranks (3+3+3)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "shosanji_names (鈴木七郎右衛門 / 内藤瀬兵衛 / 上庄八郎兵衛 / 河東喜一郎 / 久松静馬)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1410,2010,490,1530"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊／へいたい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops / military establishment — section heading introducing the infantry, artillery and ships lines that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "heitai_head (兵隊 — military section heading)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1430,1175,80,165"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "歩兵三拾小隊 一小隊役員トモ七十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "歩兵 三十小隊、一小隊 役員とも 七十五人／ほへい さんじゅうしょうたい、いちしょうたい やくいんとも しちじゅうごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: 30 platoons; each platoon, including its officers, numbers 75 men (i.e. 30 x 75 = 2,250 infantry)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "歩兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1128,1005,250,1115"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "炮兵 三隊 一隊砲手守衛兵トモ四十三人 役員十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵 三隊、一隊 砲手・守衛兵とも 四十三人、役員十人／ほうへい さんたい、いったい ほうしゅ・しゅえいへいとも よんじゅうさんにん、やくいん じゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: 3 units; each unit, including gunners and guard-soldiers, numbers 43 men (3 x 43 = 129 troops), plus 10 officers each."
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1020,1160,225,960"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "船ナシ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船なし／ふねなし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "No ships (Matsuyama reports no warships/vessels)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "funanashi (船ナシ — no ships)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1025,1250,75,260"
+      }
+    }
+  }
+]

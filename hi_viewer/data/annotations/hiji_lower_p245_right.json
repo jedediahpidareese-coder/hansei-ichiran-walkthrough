@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-hiji_lower_p245_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（日出、一橋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九（はんせいいちらん だいきゅう）／（日出（ひじ）、一橋（ひとつばし））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: 'Han Institutions Overview, Fascicle 9', with the domains covered by this spread noted in parentheses — Hiji and Hitotsubashi. This is a provenance marker (fascicle 9 = officials + troops); it names the domains of the spread, not necessarily every column on the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "running_header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2260,1225,95,720"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百六十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百六十六（466）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 466. This is pagination, not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number_bottom_margin"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2255,3055,100,295"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）　三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillors (gon-daisanji): 3 persons. This heading belongs to the domain immediately preceding Hiji (its ○marker and daimyo/知事 are on the earlier page); its officials spill onto this page to the right of the ○日出藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2136,975,80,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "岡部與一郎・河島辨次／野津榮・加藤十左衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "岡部與一郎（おかべ よいちろう）・河島辨次（かわしま べんじ）／野津榮（のづ さかえ）・加藤十左衞門（かとう じゅうざえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointees of the preceding domain, filling the two rightmost name sub-columns below the 権大参事/少参事 headings: Okabe Yoichirō and Kawashima Benji (in the x2144 sub-column), Nozu Sakae and Katō Jūzaemon (in the x2008 sub-column). Names hang in a top register and a bottom register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "prev_domain 権大参事 appointee names（前藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1998,1975,215,1360"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）　三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillors (shō-sanji): 3 persons, of the preceding unnamed domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1870,980,82,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "天野傳四郎・加藤護助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "天野傳四郎（あまの でんしろう）・加藤護助（かとう ごすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointees hanging below the 少参事 heading of the preceding domain: Amano Denshirō and Katō Gosuke."
+      },
+      {
+        "purpose": "identifying",
+        "value": "prev_domain 少参事 appointee names（前藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1740,1985,210,600"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）　三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillors (gon-shō-sanji): 3 persons, of the preceding unnamed domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1602,982,80,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "櫻内四郎左衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "櫻内四郎左衞門（さくらうち しろうざえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointee below the 権少参事 heading of the preceding domain: Sakurauchi Shirōzaemon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "prev_domain 権少参事 appointee name（前藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1602,1985,80,600"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　百六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）　百六十人（ひゃくろくじゅうにん = 160）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 160 persons. This figure sits to the RIGHT of the ○日出藩 marker, so per the fascicle 8/9 overflow rule it belongs to the PREVIOUS domain (the one before Hiji), not to Hiji."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1472,985,78,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○日出藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○日出藩（ひじはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-opening maru-marker for Hiji domain (Bungo province, Kinoshita clan) — the primary domain of this page. Everything to its LEFT (read later) down to the ○一橋藩 marker is Hiji's officials and troops."
+      },
+      {
+        "purpose": "identifying",
+        "value": "日出藩 marker (PRIMARY domain)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1334,1320,92,565"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）　一人（ひとり = 1）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiji domain — Senior Councillor (daisanji): 1 person. (Name not printed in this column; count only.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1206,990,74,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事　二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）　二人（ふたり = 2）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiji domain — Provisional Senior Councillors (gon-daisanji): 2 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事・2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,990,75,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事　二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）　二人（ふたり = 2）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiji domain — Junior Councillors (shō-sanji): 2 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事・2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:940,995,74,580"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　五小隊　内二小隊士族・三小隊卒族"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）　五小隊（ごしょうたい = 5 platoons）　内（うち）二小隊は士族（しぞく）、三小隊は卒族（そつぞく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiji domain — Troops: 5 platoons (shōtai), of which 2 platoons are shizoku (former samurai) and 3 platoons are sotsu (lower-rank retainers). The small right-hand annotation 内二小隊士族/三小隊卒族 gives the shizoku/sotsu split of the five platoons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊・2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:758,990,148,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○一橋藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○一橋藩（ひとつばしはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-opening maru-marker for Hitotsubashi domain — the secondary domain on this page. Its data begins here and continues onto the facing page (lower_p245_left)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "一橋藩 marker (secondary domain)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:663,1330,94,560"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "執政　都筑金三郎・根岸九郎兵衞・中根長十郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "執政（しっせい）　都筑金三郎（つづき きんざぶろう）・根岸九郎兵衞（ねぎし くろべえ）・中根長十郎（なかね ちょうじゅうろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hitotsubashi domain — Regents/Executives (shissei): named appointees Tsuzuki Kinzaburō, Negishi Kurōbei, and Nakane Chōjūrō. Hitotsubashi (a gosankyō-derived house) uses the older title 執政 rather than the 大参事/参事 councillor titles; this leftmost column opens Hitotsubashi's roster, which continues onto the facing page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "一橋藩 執政 heading + appointee names"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:498,995,118,2270"
+      }
+    }
+  }
+]
