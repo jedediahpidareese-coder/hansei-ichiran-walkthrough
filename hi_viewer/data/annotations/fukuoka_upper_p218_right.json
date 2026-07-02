@@ -25,7 +25,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2174,1327,72,2000"
+        "value": "xywh=pixel:2174,1327,72,570"
       }
     }
   },
@@ -35,7 +35,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "人口 壹萬貳千八百五人 内 男六千五百四拾四人 女六千二百六拾壹人"
+        "value": "人口 壹萬貳千八百五人 内 男六千五百四拾四人 女六千貳百六拾壹人"
       },
       {
         "purpose": "modern_jp_reading",
@@ -47,7 +47,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "人口"
+        "value": "人口（松岡藩分）"
       }
     ],
     "target": {
@@ -95,7 +95,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族人口 五百七人 内 男貳百五拾八人 女貳百四拾九人"
+        "value": "士族人口 五百七人 内 男貳百五十八人 女貳百四十九人"
       },
       {
         "purpose": "modern_jp_reading",
@@ -107,7 +107,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "士族人口"
+        "value": "士族人口（松岡藩分）"
       }
     ],
     "target": {
@@ -125,7 +125,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "卒族人口 三百六拾五人 内 男百八拾六人 女百七拾九人"
+        "value": "卒族人口 三百六拾五人 内 男百八十六人 女百七十九人"
       },
       {
         "purpose": "modern_jp_reading",
@@ -137,7 +137,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "卒族人口"
+        "value": "卒族人口（松岡藩分）"
       }
     ],
     "target": {
@@ -155,7 +155,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "社家人口 百三拾九人 内 男七拾人 女六拾七人（下男一人 下女一人）"
+        "value": "社家人口 百三十九人 内 男七拾人 女六拾七人（下男一人 下女一人）"
       },
       {
         "purpose": "modern_jp_reading",
@@ -167,7 +167,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "社家人口"
+        "value": "社家人口（松岡藩分）"
       }
     ],
     "target": {
@@ -197,7 +197,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "寺人口"
+        "value": "寺人口（松岡藩分）"
       }
     ],
     "target": {
@@ -227,7 +227,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "穢多人口"
+        "value": "穢多人口（松岡藩分）"
       }
     ],
     "target": {
@@ -257,7 +257,7 @@
       },
       {
         "purpose": "identifying",
-        "value": "村數"
+        "value": "村數（松岡藩分）"
       }
     ],
     "target": {
@@ -445,7 +445,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2150,3232,96,220"
+        "value": "xywh=pixel:2173,3173,55,152"
       }
     }
   }
