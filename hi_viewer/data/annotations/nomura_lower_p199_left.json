@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-nomura_lower_p199_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○野村藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "野村藩（のむらはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nomura Domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1756,1329,100,553"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）一人（いちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor: 1 person"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_chiji_rank"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1640,1116,75,447"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）一人（いちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor: 1 person"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_daisanji_rank"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1500,1116,80,447"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事　二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）二人（ににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior senior councillor: 2 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_gondaisanji_rank"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1368,1116,80,448"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor: 3 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_shosanji_rank"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1239,1116,74,448"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "石川武"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "石川武（いしかわ たけし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ishikawa Takeshi (senior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_daisanji_name1"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1494,2000,75,574"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "有竹裕〔議員兼〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "有竹裕（ありたけ ゆたか）〔議員兼（ぎいんけん）〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Aritake Yutaka, marked 'concurrently a councillor (giin)' (second senior-councillor-rank appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_daisanji_name2_gagiin"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1490,2863,129,636"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小山小隼太"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小山小隼太（こやま こはやた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Koyama Kohayata (junior senior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_gondaisanji_name1"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1365,1998,72,317"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "松浦晋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "松浦晋（まつうら すすむ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Matsuura Susumu (junior senior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_gondaisanji_name2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1361,2923,74,270"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大高周"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大高周（おおたか しゅう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Otaka Shu (junior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_shosanji_name1"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1235,2001,71,269"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "立川東太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "立川東太郎（たちかわ とうたろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tachikawa Totaro (junior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_shosanji_name2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1097,1999,75,447"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "傍島登"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "傍島登（そばじま のぼる）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sobajima Noboru (junior councillor appointee)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_shosanji_name3"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1227,2922,72,274"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊二小隊八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）二小隊（にしょうたい）八十七人（はちじゅうしちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: 2 platoons, 87 men"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_military_infantry"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:975,993,74,609"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲隊砲六門四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲隊（ほうたい）砲六門（ほうろくもん）四十人（よんじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: 6 guns, 40 men"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nomura_military_artillery"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:970,1747,75,567"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九（野村）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第九（はんせいいちらんひょうだいきゅう）（野村）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran, Fascicle 9 (Nomura) — provenance marker"
+      },
+      {
+        "purpose": "identifying",
+        "value": "fascicle_marker"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:853,1249,62,565"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百七十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百七十五（さんびゃくななじゅうご）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Page 375 (printed bottom-margin page number)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:845,3089,60,254"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor [heading — belongs to PREVIOUS domain Nobeoka 延岡藩; overflow to right of Nomura's marker]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_hdr"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2568,2755,78,238"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior sub-councillor [heading — belongs to PREVIOUS domain Nobeoka 延岡藩]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_gonshosanji_hdr"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2108,2752,73,271"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "長谷川秀七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "長谷川秀七（はせがわ ひでしち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hasegawa Hideshichi [Nobeoka 延岡藩 junior councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_name_hasegawa"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2480,2932,60,463"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鈴木才藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鈴木才蔵（すずき さいぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Suzuki Saizo [Nobeoka 延岡藩 junior councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_name_suzuki"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2411,2929,61,469"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "今村新兵衛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "今村新兵衛（いまむら しんべえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Imamura Shinbee [Nobeoka 延岡藩 junior councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_name_imamura"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2343,2931,60,468"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藁谷丼藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藁谷丼蔵（わらや たいぞう）〔「丼」は「井」の異体・印字〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Waraya [Don/I]zo [Nobeoka 延岡藩 junior councillor — overflow; 3rd char printed as 丼, likely variant of 井]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_name_waraya"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2275,2929,60,468"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大島新四郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大島新四郎（おおしま しんしろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Oshima Shinshiro [Nobeoka 延岡藩 junior councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_shosanji_name_oshima"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2206,2931,59,468"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "堀秀實"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "堀秀実（ほり ひでみ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hori Hidemi [Nobeoka 延岡藩 junior sub-councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_gonshosanji_name_hori"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2021,2931,60,468"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "相木森之助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "相木森之助（あいき もりのすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Aiki Morinosuke [Nobeoka 延岡藩 junior sub-councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_gonshosanji_name_aiki"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1954,2932,59,468"
+      }
+    }
+  },
+  {
+    "id": "anno-nomura_lower_p199_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加藤伊織"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加藤伊織（かとう いおり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kato Iori [Nobeoka 延岡藩 junior sub-councillor — overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "nobeoka_prev_gonshosanji_name_kato"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1884,2934,61,465"
+      }
+    }
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-yoshii_lower_p176_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事 二員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ） 二員（にいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting Senior Councillor (gon-dai-sanji): 2 persons [belongs to Yoshimi / 吉見藩, overflow from the facing right page]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "yoshimi_gondaisanji_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2580,1220,87,680"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事 一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ） 一員（いちいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (shō-sanji): 1 person [belongs to Yoshimi / 吉見藩, overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "yoshimi_shosanji_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2446,1226,87,674"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事 一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ） 一員（いちいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting Junior Councillor (gon-shō-sanji): 1 person [belongs to Yoshimi / 吉見藩, overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "yoshimi_gonshosanji_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2309,1221,87,679"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃兵 三十員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃兵（じゅうへい） 三十員（さんじゅういん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Riflemen: 30 persons [belongs to Yoshimi / 吉見藩, overflow]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "yoshimi_juhei_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2176,1219,87,759"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○吉井藩 審ナラス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○吉井藩（よしいはん） 審（つまび）らかならず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yoshii Domain (primary domain of this page); annotation 審ナラス = 'not detailed / not investigated' — no official or troop figures were recorded for Yoshii"
+      },
+      {
+        "purpose": "identifying",
+        "value": "yoshii_domain_marker"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2030,1311,100,793"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○高鍋藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○高鍋藩（たかなべはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe Domain [secondary domain on this page]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_domain_marker"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1760,1307,104,567"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事 二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ） 二（に）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — Senior Councillor (dai-sanji): 2 [persons]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_daisanji_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1620,1231,107,579"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "城 勇雄"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "城（じょう） 勇雄（いさお）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — dai-sanji appointee: Jō Isao (first of two Senior Councillors)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_daisanji_name_jo"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1616,2905,86,587"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "黒水 鷲郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "黒水（くろみず） 鷲郎（わしろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — dai-sanji appointee: Kuromizu Washirō (second of two Senior Councillors)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_daisanji_name_kuromizu"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1483,2902,83,592"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事 一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ） 一（いち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — Acting Senior Councillor (gon-dai-sanji): 1 [person]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_gondaisanji_count"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1349,1225,110,590"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "坂田 蒡"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "坂田（さかた） 蒡（ぼう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — gon-dai-sanji appointee: Sakata Bō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_gondaisanji_name_sakata"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1347,2906,88,586"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃兵五小隊 但一隊六十四名"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃兵（じゅうへい）五小隊（ごしょうたい） 但（ただ）し一隊（いったい）六十四名（ろくじゅうよんめい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — Rifle infantry: 5 platoons (note: 64 men per platoon, i.e. 320 riflemen)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_juhei_5platoons"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1234,1221,88,907"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲一隊 砲手五十四名"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大砲（たいほう）一隊（いったい） 砲手（ほうしゅ）五十四名（ごじゅうよんめい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — Artillery: 1 unit, 54 gunners"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_artillery_54gunners"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,1221,97,1012"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但砲六門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但（ただ）し砲（ほう）六門（ろくもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanabe — (note appended to the artillery column): 6 cannon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "takanabe_artillery_6guns_note"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:968,1390,82,330"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八 （吉井、高鍋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第八（だいはち） （吉井（よしい）、高鍋（たかなべ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Hansei Ichiran-hyō, Fascicle 8 (Yoshii, Takanabe)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_header_fascicle"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:848,1220,79,713"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_lower_p176_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百二十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百二十九（さんびゃくにじゅうきゅう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 329"
+      },
+      {
+        "purpose": "identifying",
+        "value": "page_number_bottom_margin"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p176_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:834,3078,68,267"
+      }
+    }
+  }
+]
