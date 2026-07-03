@@ -155,66 +155,6 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男 三千四百八十人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ いちまんよんせんごひゃくろくじゅうよにん（14,564人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu, of which male: 14,564 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男・2"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1855,2205,70,605"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-06",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女 三千貳百八十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな いちまんせんよんひゃくよんじゅういちにん（11,441人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu, of which female: 11,441 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女・2"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1800,2205,68,673"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-07",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
         "value": "神職 四千五十二人"
       },
       {
@@ -240,67 +180,7 @@
     }
   },
   {
-    "id": "anno-fukuoka_upper_p219_right-08",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男 三千四百八十人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ にせんよんひゃくにじゅうににん（2,422人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto clergy, of which male: 2,422 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男・3"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1855,2205,70,605"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-09",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女 三千貳百八十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな せんろっぴゃくさんじゅうにん（1,630人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto clergy, of which female: 1,630 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女・3"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1800,2205,68,673"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-10",
+    "id": "anno-fukuoka_upper_p219_right-06",
     "type": "Annotation",
     "body": [
       {
@@ -330,67 +210,7 @@
     }
   },
   {
-    "id": "anno-fukuoka_upper_p219_right-11",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男 三千四百八十人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ せんはっぴゃくきゅうじゅうはちにん（1,898人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Buddhist clergy, of which male: 1,898 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男・4"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1855,2205,70,605"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-12",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女 三千貳百八十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな ごじゅういちにん（51人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Buddhist clergy, of which female: 51 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女・4"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1800,2205,68,673"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-13",
+    "id": "anno-fukuoka_upper_p219_right-07",
     "type": "Annotation",
     "body": [
       {
@@ -420,67 +240,7 @@
     }
   },
   {
-    "id": "anno-fukuoka_upper_p219_right-14",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男 三千四百八十人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ いちまんせんにひゃくごにん（11,205人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Kawata/eta, of which male: 11,205 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男・5"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1855,2205,70,605"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-15",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女 三千貳百八十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな いちまんにひゃくはちじゅうにん（10,280人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Kawata/eta, of which female: 10,280 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女・5"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p219_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1800,2205,68,673"
-      }
-    }
-  },
-  {
-    "id": "anno-fukuoka_upper_p219_right-16",
+    "id": "anno-fukuoka_upper_p219_right-08",
     "type": "Annotation",
     "body": [
       {
@@ -510,7 +270,7 @@
     }
   },
   {
-    "id": "anno-fukuoka_upper_p219_right-17",
+    "id": "anno-fukuoka_upper_p219_right-09",
     "type": "Annotation",
     "body": [
       {
@@ -540,7 +300,7 @@
     }
   },
   {
-    "id": "anno-fukuoka_upper_p219_right-18",
+    "id": "anno-fukuoka_upper_p219_right-10",
     "type": "Annotation",
     "body": [
       {

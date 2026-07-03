@@ -4,11 +4,11 @@
     "created": "2026-05-28"
   },
   "人口": {
-    "en": "total population",
+    "en": "Population",
     "furigana": "じんこう"
   },
   "戸數": {
-    "en": "total households",
+    "en": "Households",
     "furigana": "こすう"
   },
   "戸數 (page 89-L total)": {
@@ -20,11 +20,11 @@
     "en": "book page number (metadata)"
   },
   "總計": {
-    "en": "grand total",
+    "en": "Grand total (troops)",
     "furigana": "そうけい"
   },
   "草高": {
-    "en": "sōdaka — gross-yield kokudaka",
+    "en": "Nominal kokudaka (kusadaka)",
     "furigana": "くさだか"
   },
   "草高 (5yr avg 甲子-戊辰)": {
@@ -44,7 +44,7 @@
     "furigana": "ごうだか"
   },
   "高": {
-    "en": "omotedaka-equivalent 'high'",
+    "en": "Base kokudaka",
     "furigana": "たか"
   },
   "外高": {
@@ -116,12 +116,12 @@
     "en": "of which: hinin (non-person caste)"
   },
   "正租": {
-    "furigana": "せいそ",
-    "en": "main tax (seiso)"
+    "en": "Regular land tax (rice)",
+    "furigana": "せいそ"
   },
   "正租米": {
-    "en": "main tax rice",
-    "furigana": "せいそ まい"
+    "en": "Land-tax rice (regular land tax, koku)",
+    "furigana": "せいそまい"
   },
   "正租 現米": {
     "en": "main tax — current rice",
@@ -144,12 +144,12 @@
     "en": "current rice on hand"
   },
   "此米": {
-    "en": "this-amount rice (sub-total)",
+    "en": "Rice equivalent (of the cash, koku)",
     "furigana": "このまい"
   },
   "雜稅米": {
-    "en": "miscellaneous tax in rice",
-    "furigana": "ざつぜい まい"
+    "en": "Miscellaneous-tax rice (koku)",
+    "furigana": "ざつぜいまい"
   },
   "雜稅金": {
     "en": "miscellaneous tax in gold",
@@ -172,11 +172,11 @@
     "furigana": "ぜいぎん"
   },
   "銀": {
-    "en": "silver",
+    "en": "Silver tax (monme)",
     "furigana": "ぎん"
   },
   "士族人口": {
-    "en": "shizoku population",
+    "en": "Shizoku (samurai-class) population",
     "furigana": "しぞくじんこう"
   },
   "士族人員": {
@@ -184,7 +184,7 @@
     "furigana": "しぞく じんいん"
   },
   "士族戸數": {
-    "en": "shizoku households",
+    "en": "Shizoku (samurai-class) households",
     "furigana": "しぞくこすう"
   },
   "士族同人員 (narrow)": {
@@ -212,11 +212,11 @@
     "en": "sotsu same-persons"
   },
   "卒族人口": {
-    "en": "sotsu-class population",
+    "en": "Sotsu (lower-retainer-class) population",
     "furigana": "そつぞくじんこう"
   },
   "卒族戸數": {
-    "en": "sotsu-class households",
+    "en": "Sotsu (lower-retainer-class) households",
     "furigana": "そつぞくこすう"
   },
   "兵卒人員": {
@@ -268,8 +268,8 @@
     "furigana": "じんじゃ"
   },
   "社家": {
-    "furigana": "しゃけ",
-    "en": "shrine households"
+    "en": "Shrine-priest households",
+    "furigana": "しゃけ"
   },
   "社人人員": {
     "en": "shrine personnel (persons)",
@@ -288,7 +288,7 @@
     "en": "Ebisu performer (folk-religion entertainer)"
   },
   "穢多戸數": {
-    "en": "eta-class households (outcast caste)",
+    "en": "Eta (outcast) households",
     "furigana": "えたこすう"
   },
   "茶種": {
@@ -344,7 +344,7 @@
     "furigana": "がくそつ"
   },
   "大砲": {
-    "en": "cannon",
+    "en": "Cannon",
     "furigana": "たいほう"
   },
   "兵員 總計": {
@@ -452,7 +452,7 @@
     "furigana": "そつぞくじょ"
   },
   "穢多人口": {
-    "en": "eta-class population (page figure)",
+    "en": "Eta (outcast) population",
     "furigana": "えたじんこう"
   },
   "穢多人口 男": {
@@ -584,19 +584,19 @@
     "furigana": "かきならず"
   },
   "知事": {
-    "en": "domain governor (chiji)",
+    "en": "Governor (chiji)",
     "furigana": "ちじ"
   },
   "大参事": {
-    "en": "Senior Councillor (dai-sanji)",
+    "en": "Senior councillor (daisanji)",
     "furigana": "だいさんじ"
   },
   "権大参事": {
-    "en": "Provisional Senior Councillor",
+    "en": "Junior senior councillor (gon-daisanji)",
     "furigana": "ごんだいさんじ"
   },
   "少参事": {
-    "en": "Junior Councillor (shō-sanji)",
+    "en": "Junior councillor (shosanji)",
     "furigana": "しょうさんじ"
   },
   "外産物 石炭": {
@@ -732,7 +732,7 @@
     "furigana": "じゅうたい"
   },
   "砲隊": {
-    "en": "artillery corps (6 units = 288)",
+    "en": "Artillery corps",
     "furigana": "ほうたい"
   },
   "萬里丸": {
@@ -844,12 +844,12 @@
     "furigana": "ほうへい"
   },
   "此人員 但小隊": {
-    "en": "editorial note on the corps figures",
-    "furigana": ""
+    "en": "this personnel count (as companies)",
+    "furigana": "このじんいん ただしこたい"
   },
   "藩制一覧表第八": {
-    "en": "fascicle-8 page header",
-    "furigana": ""
+    "en": "Domain Administration Survey, Fascicle 8",
+    "furigana": "はんせいいちらんひょうだいはち"
   },
   "高 今尾藩返知": {
     "en": "high — Imao-han returned land",
@@ -884,12 +884,12 @@
     "furigana": "がいすう"
   },
   "八分出 釋": {
-    "en": "'8-bu output' full explanation",
-    "furigana": ""
+    "en": "explanation of the 'eight-tenths output' method",
+    "furigana": "はちぶだし しゃく"
   },
   "藩制一覧表第四": {
-    "en": "fascicle-4 page header",
-    "furigana": ""
+    "en": "Domain Administration Survey, Fascicle 4",
+    "furigana": "はんせいいちらんひょうだいよん"
   },
   "平民戸數": {
     "en": "commoner households",
@@ -1000,11 +1000,11 @@
     "furigana": "ていのうのぶん"
   },
   "男": {
-    "en": "male",
+    "en": "Population (male)",
     "furigana": "おとこ"
   },
   "女": {
-    "en": "female",
+    "en": "Population (female)",
     "furigana": "おんな"
   },
   "卒": {
@@ -1032,7 +1032,7 @@
     "furigana": "しぞくへい"
   },
   "兵隊": {
-    "en": "troops",
+    "en": "Troops",
     "furigana": "へいたい"
   },
   "先進隊": {
@@ -1084,8 +1084,8 @@
     "furigana": "ごう げんまい"
   },
   "合": {
-    "en": "combined total",
-    "furigana": "あわせ"
+    "en": "Grand total (koku)",
+    "furigana": "ごう"
   },
   "外 高": {
     "en": "external (additional) koku",
@@ -1104,11 +1104,11 @@
     "furigana": "このきん"
   },
   "永": {
-    "en": "eiraku cash (kan-mon)",
+    "en": "Ei (cash unit)",
     "furigana": "えい"
   },
   "金": {
-    "en": "tax in gold (ryō)",
+    "en": "Gold/cash tax (ryō)",
     "furigana": "きん"
   },
   "雜稅": {
@@ -1136,8 +1136,8 @@
     "furigana": "ざつぜい どう"
   },
   "支配地戸數": {
-    "en": "directly-administered households",
-    "furigana": "しはいち こすう"
+    "en": "Households of directly administered land (shihaichi)",
+    "furigana": "しはいちこすう"
   },
   "官員": {
     "en": "officials (count)",
@@ -1240,7 +1240,7 @@
     "furigana": "しゅげんこすう"
   },
   "僧": {
-    "en": "Buddhist clergy",
+    "en": "Buddhist clergy (monks/nuns) population",
     "furigana": "そう"
   },
   "僧家 女": {
@@ -1284,7 +1284,7 @@
     "furigana": "しぞく こすう"
   },
   "大參事": {
-    "en": "senior councillor (dai-sanji)",
+    "en": "Senior councillor (daisanji)",
     "furigana": "だいさんじ"
   },
   "寺人口": {
@@ -1292,7 +1292,7 @@
     "furigana": "てら じんこう"
   },
   "少參事": {
-    "en": "junior councillor (shō-sanji)",
+    "en": "Junior councillor (shosanji)",
     "furigana": "しょうさんじ"
   },
   "從前陪臣": {
@@ -1352,7 +1352,7 @@
     "furigana": "かんぬし"
   },
   "穢多": {
-    "en": "eta (outcaste class)",
+    "en": "Eta (outcast) households",
     "furigana": "えた"
   },
   "穢多 女": {
@@ -1392,7 +1392,7 @@
     "furigana": "おんみょうじ おとこ"
   },
   "非人": {
-    "en": "hinin (outcaste class)",
+    "en": "Hinin (outcast) households",
     "furigana": "ひにん"
   },
   "卒族 戸數": {
@@ -1468,8 +1468,8 @@
     "furigana": "し こすう"
   },
   "合米": {
-    "en": "combined rice total",
-    "furigana": "あわせ こめ"
+    "en": "Total rice (combined rice total, koku)",
+    "furigana": "ごうまい"
   },
   "村": {
     "en": "villages",
@@ -1480,136 +1480,136 @@
     "furigana": "やしろ"
   },
   "元高": {
-    "en": "元高",
-    "furigana": ""
+    "en": "base assessed yield (koku)",
+    "furigana": "もとだか"
   },
   "内": {
-    "en": "内",
-    "furigana": ""
+    "en": "of which",
+    "furigana": "うち"
   },
   "卒族": {
-    "en": "卒族",
-    "furigana": ""
+    "en": "lower-retainer class (sotsu)",
+    "furigana": "そつぞく"
   },
   "卒族女": {
-    "en": "卒族女",
-    "furigana": ""
+    "en": "lower-retainer women",
+    "furigana": "そつぞくおんな"
   },
   "卒族男": {
-    "en": "卒族男",
-    "furigana": ""
+    "en": "lower-retainer men",
+    "furigana": "そつぞくおとこ"
   },
   "合〆": {
-    "en": "合〆",
-    "furigana": ""
+    "en": "grand total (tally)",
+    "furigana": "あわせしめ"
   },
   "士卒族人口": {
-    "en": "士卒族人口",
-    "furigana": ""
+    "en": "samurai and lower-retainer population",
+    "furigana": "しそつぞくじんこう"
   },
   "士族": {
-    "en": "士族",
-    "furigana": ""
+    "en": "samurai (shizoku)",
+    "furigana": "しぞく"
   },
   "士族女": {
-    "en": "士族女",
-    "furigana": ""
+    "en": "samurai women",
+    "furigana": "しぞくおんな"
   },
   "士族男": {
-    "en": "士族男",
-    "furigana": ""
+    "en": "samurai men",
+    "furigana": "しぞくおとこ"
   },
   "大隊": {
-    "en": "大隊",
-    "furigana": ""
+    "en": "battalion",
+    "furigana": "だいたい"
   },
   "定免米": {
-    "en": "定免米",
-    "furigana": ""
+    "en": "fixed-rate tax rice",
+    "furigana": "じょうめんまい"
   },
   "庶人戸數": {
-    "en": "庶人戸數",
-    "furigana": ""
+    "en": "commoner households",
+    "furigana": "しょじんこすう"
   },
   "新田": {
-    "en": "新田",
-    "furigana": ""
+    "en": "newly-reclaimed fields",
+    "furigana": "しんでん"
   },
   "新田高": {
-    "en": "新田高",
-    "furigana": ""
+    "en": "newly-reclaimed-field yield (koku)",
+    "furigana": "しんでんだか"
   },
   "水旱減石": {
-    "en": "水旱減石",
-    "furigana": ""
+    "en": "yield reduction from flood and drought (koku)",
+    "furigana": "すいかんげんこく"
   },
   "永荒": {
-    "en": "永荒",
-    "furigana": ""
+    "en": "permanently wasted (uncultivable) land",
+    "furigana": "えいこう"
   },
   "產物稅錢": {
-    "en": "產物稅錢",
-    "furigana": ""
+    "en": "product tax in cash",
+    "furigana": "さんぶつぜいせん"
   },
   "社務人": {
-    "en": "社務人",
-    "furigana": ""
+    "en": "shrine officiants",
+    "furigana": "しゃむにん"
   },
   "社家戸數": {
-    "en": "社家戸數",
-    "furigana": ""
+    "en": "Shinto priest households",
+    "furigana": "しゃけこすう"
   },
   "穢多寺院": {
-    "en": "穢多寺院",
-    "furigana": ""
+    "en": "eta temples",
+    "furigana": "えたじいん"
   },
   "米": {
-    "en": "米",
-    "furigana": ""
+    "en": "rice",
+    "furigana": "こめ"
   },
   "艦": {
-    "en": "艦",
-    "furigana": ""
+    "en": "warship",
+    "furigana": "かん"
   },
   "虚無僧": {
-    "en": "虚無僧",
-    "furigana": ""
+    "en": "komusō (mendicant Zen monks)",
+    "furigana": "こむそう"
   },
   "銃卒": {
-    "en": "銃卒",
-    "furigana": ""
+    "en": "riflemen (lower ranks)",
+    "furigana": "じゅうそつ"
   },
   "銃士": {
-    "en": "銃士",
-    "furigana": ""
+    "en": "riflemen (samurai)",
+    "furigana": "じゅうし"
   },
   "鐵山役高": {
-    "en": "鐵山役高",
-    "furigana": ""
+    "en": "iron-mine levy yield",
+    "furigana": "てつざんやくだか"
   },
   "除地": {
-    "en": "除地",
-    "furigana": ""
+    "en": "tax-exempt land",
+    "furigana": "じょち"
   },
   "雜税米": {
-    "en": "雜税米",
-    "furigana": ""
+    "en": "miscellaneous-tax rice",
+    "furigana": "ざつぜいまい"
   },
   "非人人口": {
-    "en": "非人人口",
-    "furigana": ""
+    "en": "hinin population",
+    "furigana": "ひにんじんこう"
   },
   "非人戸數": {
-    "en": "非人戸數",
-    "furigana": ""
+    "en": "hinin households",
+    "furigana": "ひにんこすう"
   },
   "非人穢多小屋": {
-    "en": "非人穢多小屋",
-    "furigana": ""
+    "en": "hinin and eta dwellings",
+    "furigana": "ひにんえたごや"
   },
   "鹽": {
-    "en": "鹽",
-    "furigana": ""
+    "en": "salt",
+    "furigana": "しお"
   },
   "寺僧": {
     "en": "temple monks",
@@ -1620,28 +1620,28 @@
     "furigana": "てら に"
   },
   "〆": {
-    "en": "〆",
-    "furigana": ""
+    "en": "subtotal (tally)",
+    "furigana": "しめ"
   },
   "上等士": {
-    "en": "上等士",
-    "furigana": ""
+    "en": "upper-rank samurai",
+    "furigana": "じょうとうし"
   },
   "上等士族": {
-    "en": "上等士族",
-    "furigana": ""
+    "en": "upper-rank samurai households",
+    "furigana": "じょうとうしぞく"
   },
   "下等士": {
-    "en": "下等士",
-    "furigana": ""
+    "en": "lower-rank samurai",
+    "furigana": "かとうし"
   },
   "下等士族": {
-    "en": "下等士族",
-    "furigana": ""
+    "en": "lower-rank samurai households",
+    "furigana": "かとうしぞく"
   },
   "佛閣": {
-    "en": "佛閣",
-    "furigana": ""
+    "en": "Buddhist halls (temple buildings)",
+    "furigana": "ぶっかく"
   },
   "修驗 女": {
     "en": "Shugendō mountain ascetics — female",
@@ -1652,20 +1652,20 @@
     "furigana": "しゅげん おとこ"
   },
   "僧徒": {
-    "en": "僧徒",
-    "furigana": ""
+    "en": "monks",
+    "furigana": "そうと"
   },
   "兵員内訳": {
-    "en": "兵員内訳",
-    "furigana": ""
+    "en": "breakdown of troop strength",
+    "furigana": "へいいんうちわけ"
   },
   "切石砥石": {
-    "en": "切石砥石",
-    "furigana": ""
+    "en": "cut stone and whetstones",
+    "furigana": "きりいしといし"
   },
   "午房種": {
-    "en": "午房種",
-    "furigana": ""
+    "en": "burdock seed",
+    "furigana": "ごぼうだね"
   },
   "卒人口 女": {
     "en": "卒人口 — female",
@@ -1676,36 +1676,36 @@
     "furigana": "おとこ"
   },
   "収納": {
-    "en": "収納",
-    "furigana": ""
+    "en": "tax receipts",
+    "furigana": "しゅうのう"
   },
   "合計米": {
-    "en": "合計米",
-    "furigana": ""
+    "en": "total rice",
+    "furigana": "ごうけいまい"
   },
   "合計金": {
-    "en": "合計金",
-    "furigana": ""
+    "en": "total gold",
+    "furigana": "ごうけいきん"
   },
   "合計錢": {
-    "en": "合計錢",
-    "furigana": ""
+    "en": "total cash (copper coin)",
+    "furigana": "ごうけいぜに"
   },
   "同人員": {
-    "en": "同人員",
-    "furigana": ""
+    "en": "same category, number of persons",
+    "furigana": "どうじんいん"
   },
   "堂同人口": {
-    "en": "堂同人口",
-    "furigana": ""
+    "en": "Buddhist-hall population (same category)",
+    "furigana": "どうどうじんこう"
   },
   "堂庵": {
-    "en": "堂庵",
-    "furigana": ""
+    "en": "Buddhist halls and hermitages",
+    "furigana": "どうあん"
   },
   "士分並": {
-    "en": "士分並",
-    "furigana": ""
+    "en": "quasi-samurai status (ranked equivalent to samurai)",
+    "furigana": "しぶんなみ"
   },
   "士卒族人口 女": {
     "en": "士卒族人口 — female",
@@ -1716,28 +1716,28 @@
     "furigana": "おとこ"
   },
   "士族同人口": {
-    "en": "士族同人口",
-    "furigana": ""
+    "en": "upper-status samurai (shizoku) population (same category)",
+    "furigana": "しぞくどうじんこう"
   },
   "外二": {
-    "en": "外二",
-    "furigana": ""
+    "en": "in addition (separately)",
+    "furigana": "ほかに"
   },
   "外込高新田高改出高": {
-    "en": "外込高新田高改出高",
-    "furigana": ""
+    "en": "additional included yield, new-field yield, and reassessed yield",
+    "furigana": "ほかこみだかしんでんだかあらためだしだか"
   },
   "大豆": {
-    "en": "大豆",
-    "furigana": ""
+    "en": "soybeans",
+    "furigana": "だいず"
   },
   "奉書紙": {
-    "en": "奉書紙",
-    "furigana": ""
+    "en": "hōsho paper (fine official mulberry paper)",
+    "furigana": "ほうしょがみ"
   },
   "家數": {
-    "en": "家數",
-    "furigana": ""
+    "en": "number of houses (households)",
+    "furigana": "いえかず"
   },
   "寺人口 女": {
     "en": "temple (clergy) population — female",
@@ -1748,120 +1748,120 @@
     "furigana": "てら じんこう おとこ"
   },
   "寺侶": {
-    "en": "寺侶",
-    "furigana": ""
+    "en": "Buddhist clergy (temple residents)",
+    "furigana": "じりょ"
   },
   "寺庵寮": {
-    "en": "寺庵寮",
-    "furigana": ""
+    "en": "temples, hermitages, and cloisters",
+    "furigana": "じあんりょう"
   },
   "山伏": {
-    "en": "山伏",
-    "furigana": ""
+    "en": "mountain ascetics (yamabushi)",
+    "furigana": "やまぶし"
   },
   "山伏人口": {
-    "en": "山伏人口",
-    "furigana": ""
+    "en": "yamabushi (mountain ascetic) population",
+    "furigana": "やまぶしじんこう"
   },
   "山林": {
-    "en": "山林",
-    "furigana": ""
+    "en": "forests (mountain woodland)",
+    "furigana": "さんりん"
   },
   "山蠟實": {
-    "en": "山蠟實",
-    "furigana": ""
+    "en": "mountain wax-tree berries (sumac wax seeds)",
+    "furigana": "やまろうのみ"
   },
   "差引": {
-    "en": "差引",
-    "furigana": ""
+    "en": "net balance (after deductions)",
+    "furigana": "さしひき"
   },
   "平民": {
-    "en": "平民",
-    "furigana": ""
+    "en": "commoners",
+    "furigana": "へいみん"
   },
   "座等": {
-    "en": "座等",
-    "furigana": ""
+    "en": "guild houses and the like",
+    "furigana": "ざとう"
   },
   "庵": {
-    "en": "庵",
-    "furigana": ""
+    "en": "hermitages",
+    "furigana": "あん"
   },
   "朱印地": {
-    "en": "朱印地",
-    "furigana": ""
+    "en": "vermilion-seal (shogunal charter) land",
+    "furigana": "しゅいんち"
   },
   "朱印地神社": {
-    "en": "朱印地神社",
-    "furigana": ""
+    "en": "vermilion-seal (chartered) shrine land",
+    "furigana": "しゅいんちじんじゃ"
   },
   "檜柾": {
-    "en": "檜柾",
-    "furigana": ""
+    "en": "cypress straight-grained boards",
+    "furigana": "ひのきまさ"
   },
   "正": {
-    "en": "正",
-    "furigana": ""
+    "en": "regular (principal) amount",
+    "furigana": "せい"
   },
   "正租大豆": {
-    "en": "正租大豆",
-    "furigana": ""
+    "en": "regular land-tax soybeans",
+    "furigana": "せいそだいず"
   },
   "正租現米": {
-    "en": "正租現米",
-    "furigana": ""
+    "en": "regular land tax in actual rice",
+    "furigana": "せいそげんまい"
   },
   "正租稅米": {
-    "en": "正租稅米",
-    "furigana": ""
+    "en": "regular land-tax rice",
+    "furigana": "せいそぜいまい"
   },
   "正租金": {
-    "en": "正租金",
-    "furigana": ""
+    "en": "regular land tax, gold portion",
+    "furigana": "せいそきん"
   },
   "正租銀": {
-    "en": "正租銀",
-    "furigana": ""
+    "en": "regular land-tax silver",
+    "furigana": "せいそぎん"
   },
   "正税米": {
-    "en": "正税米",
-    "furigana": ""
+    "en": "regular land-tax rice",
+    "furigana": "せいぜいまい"
   },
   "正税麥": {
-    "en": "正税麥",
-    "furigana": ""
+    "en": "regular land-tax barley (wheat)",
+    "furigana": "せいぜいむぎ"
   },
   "殘而": {
-    "en": "殘而",
-    "furigana": ""
+    "en": "remainder (balance carried)",
+    "furigana": "のこりて"
   },
   "炭": {
-    "en": "炭",
-    "furigana": ""
+    "en": "charcoal",
+    "furigana": "すみ"
   },
   "物成": {
-    "en": "物成",
-    "furigana": ""
+    "en": "tax yield (levied portion)",
+    "furigana": "ものなり"
   },
   "物成米": {
-    "en": "物成米",
-    "furigana": ""
+    "en": "tax-yield rice (mononari)",
+    "furigana": "ものなりまい"
   },
   "町數": {
-    "en": "町數",
-    "furigana": ""
+    "en": "number of towns",
+    "furigana": "まちすう"
   },
   "當高": {
-    "en": "當高",
-    "furigana": ""
+    "en": "current assessed yield (koku)",
+    "furigana": "とうだか"
   },
   "皮多": {
-    "en": "皮多",
-    "furigana": ""
+    "en": "kawata (leather-worker outcaste)",
+    "furigana": "かわた"
   },
   "眞綿": {
-    "en": "眞綿",
-    "furigana": ""
+    "en": "silk floss (raw silk wadding)",
+    "furigana": "まわた"
   },
   "知事家族 女": {
     "en": "governor's family — female",
@@ -1872,172 +1872,172 @@
     "furigana": "ちじ かぞく おとこ"
   },
   "社家人口": {
-    "en": "社家人口",
-    "furigana": ""
+    "en": "Shinto priest population",
+    "furigana": "しゃけじんこう"
   },
   "社家同人口": {
-    "en": "社家同人口",
-    "furigana": ""
+    "en": "Shinto priest households, same population",
+    "furigana": "しゃけどうじんこう"
   },
   "社寺領": {
-    "en": "社寺領",
-    "furigana": ""
+    "en": "shrine and temple lands",
+    "furigana": "しゃじりょう"
   },
   "社寺領内訳": {
-    "en": "社寺領内訳",
-    "furigana": ""
+    "en": "breakdown of shrine and temple lands",
+    "furigana": "しゃじりょううちわけ"
   },
   "神職": {
-    "en": "神職",
-    "furigana": ""
+    "en": "Shinto priests",
+    "furigana": "しんしょく"
   },
   "稗": {
-    "en": "稗",
-    "furigana": ""
+    "en": "barnyard millet",
+    "furigana": "ひえ"
   },
   "穢多非人": {
-    "en": "穢多非人",
-    "furigana": ""
+    "en": "eta and hinin (outcaste groups)",
+    "furigana": "えたひにん"
   },
   "穢多非人同人口": {
-    "en": "穢多非人同人口",
-    "furigana": ""
+    "en": "eta and hinin population (same category)",
+    "furigana": "えたひにんどうじんこう"
   },
   "穢多非人戸數": {
-    "en": "穢多非人戸數",
-    "furigana": ""
+    "en": "eta and hinin (outcast) households",
+    "furigana": "えたひにんこすう"
   },
   "籾": {
-    "en": "籾",
-    "furigana": ""
+    "en": "unhulled rice",
+    "furigana": "もみ"
   },
   "紅花": {
-    "en": "紅花",
-    "furigana": ""
+    "en": "safflower",
+    "furigana": "べにばな"
   },
   "綿": {
-    "en": "綿",
-    "furigana": ""
+    "en": "cotton",
+    "furigana": "わた"
   },
   "總戸數": {
-    "en": "總戸數",
-    "furigana": ""
+    "en": "total households",
+    "furigana": "そうこすう"
   },
   "華族": {
-    "en": "華族",
-    "furigana": ""
+    "en": "kazoku (peerage nobility)",
+    "furigana": "かぞく"
   },
   "藩士": {
-    "en": "藩士",
-    "furigana": ""
+    "en": "domain retainers (samurai of the han)",
+    "furigana": "はんし"
   },
   "行屋": {
-    "en": "行屋",
-    "furigana": ""
+    "en": "ascetic retreat lodges",
+    "furigana": "ぎょうや"
   },
   "諸士開高并新開高": {
-    "en": "諸士開高并新開高",
-    "furigana": ""
+    "en": "retainers' reclaimed yield together with newly reclaimed yield",
+    "furigana": "しょしひらきだかならびにしんかいだか"
   },
   "諸役稅": {
-    "en": "諸役稅",
-    "furigana": ""
+    "en": "sundry corvée and service taxes",
+    "furigana": "しょやくぜい"
   },
   "諸役稅金": {
-    "en": "諸役稅金",
-    "furigana": ""
+    "en": "sundry corvée and service tax (gold)",
+    "furigana": "しょやくぜいきん"
   },
   "諸税諸産物金": {
-    "en": "諸税諸産物金",
-    "furigana": ""
+    "en": "cash from various taxes and products",
+    "furigana": "しょぜいしょさんぶつきん"
   },
   "諸運上": {
-    "en": "諸運上",
-    "furigana": ""
+    "en": "sundry commercial levies (unjō dues)",
+    "furigana": "しょうんじょう"
   },
   "買米": {
-    "en": "買米",
-    "furigana": ""
+    "en": "purchased rice",
+    "furigana": "かいまい"
   },
   "込高新田高改出高": {
-    "en": "込高新田高改出高",
-    "furigana": ""
+    "en": "included yield: newly-reclaimed-field yield and re-surveyed additional yield",
+    "furigana": "こみだかしんでんだかかいだしだか"
   },
   "運用舶": {
-    "en": "運用舶",
-    "furigana": ""
+    "en": "working vessel (Western-rigged)",
+    "furigana": "うんようはく"
   },
   "道場": {
-    "en": "道場",
-    "furigana": ""
+    "en": "training halls (dōjō)",
+    "furigana": "どうじょう"
   },
   "郡數": {
-    "en": "郡數",
-    "furigana": ""
+    "en": "number of districts (gun)",
+    "furigana": "ぐんすう"
   },
   "都合": {
-    "en": "都合",
-    "furigana": ""
+    "en": "grand total (sum in all)",
+    "furigana": "つごう"
   },
   "里": {
-    "en": "里",
-    "furigana": ""
+    "en": "lowland (village) crop",
+    "furigana": "さと"
   },
   "里蠟實": {
-    "en": "里蠟實",
-    "furigana": ""
+    "en": "lowland wax-tree berries",
+    "furigana": "さとろうのみ"
   },
   "銃兵": {
-    "en": "銃兵",
-    "furigana": ""
+    "en": "riflemen",
+    "furigana": "じゅうへい"
   },
   "鎌幷菜切": {
-    "en": "鎌幷菜切",
-    "furigana": ""
+    "en": "sickles and vegetable-cutting knives",
+    "furigana": "かまならびになきり"
   },
   "開發冥加米現米": {
-    "en": "開發冥加米現米",
-    "furigana": ""
+    "en": "reclamation-license rice, in actual rice",
+    "furigana": "かいはつみょうがまいげんまい"
   },
   "除地寺領": {
-    "en": "除地寺領",
-    "furigana": ""
+    "en": "tax-exempt temple land",
+    "furigana": "じょちじりょう"
   },
   "雑税": {
-    "en": "雑税",
-    "furigana": ""
+    "en": "miscellaneous taxes",
+    "furigana": "ざつぜい"
   },
   "雜租": {
-    "en": "雜租",
-    "furigana": ""
+    "en": "miscellaneous taxes",
+    "furigana": "ざっそ"
   },
   "雜稅現米": {
-    "en": "雜稅現米",
-    "furigana": ""
+    "en": "miscellaneous tax in actual rice",
+    "furigana": "ざつぜいげんまい"
   },
   "雜稅錢": {
-    "en": "雜稅錢",
-    "furigana": ""
+    "en": "miscellaneous-tax cash (coin)",
+    "furigana": "ざつぜいせん"
   },
   "雜税金": {
-    "en": "雜税金",
-    "furigana": ""
+    "en": "miscellaneous tax, gold portion",
+    "furigana": "ざつぜいきん"
   },
   "雜税錢": {
-    "en": "雜税錢",
-    "furigana": ""
+    "en": "miscellaneous tax, cash (copper coin) portion",
+    "furigana": "ざつぜいぜに"
   },
   "靑苧": {
-    "en": "靑苧",
-    "furigana": ""
+    "en": "green ramie (blue hemp)",
+    "furigana": "あおそ"
   },
   "青苧": {
-    "en": "青苧",
-    "furigana": ""
+    "en": "green ramie (blue hemp)",
+    "furigana": "あおそ"
   },
   "麥": {
-    "en": "麥",
-    "furigana": ""
+    "en": "barley/wheat",
+    "furigana": "むぎ"
   },
   "_女": {
     "en": "_ — female",
@@ -2084,28 +2084,28 @@
     "furigana": ""
   },
   "〆錢": {
-    "en": "〆錢",
-    "furigana": ""
+    "en": "subtotal (in cash/silver tally)",
+    "furigana": "しめぜに"
   },
   "一等番隊 人": {
-    "en": "一等番隊 人",
-    "furigana": ""
+    "en": "first-class guard company, persons",
+    "furigana": "いっとうばんたい にん"
   },
   "三等番隊 人": {
-    "en": "三等番隊 人",
-    "furigana": ""
+    "en": "third-class guard company, persons",
+    "furigana": "さんとうばんたい にん"
   },
   "丹木": {
-    "en": "丹木",
-    "furigana": ""
+    "en": "sappanwood (dyewood)",
+    "furigana": "たんぼく"
   },
   "二等番隊 人": {
-    "en": "二等番隊 人",
-    "furigana": ""
+    "en": "second-class guard company, persons",
+    "furigana": "にとうばんたい にん"
   },
   "人參": {
-    "en": "人參",
-    "furigana": ""
+    "en": "ginseng",
+    "furigana": "にんじん"
   },
   "人口 [Konren-ji]": {
     "en": "人口 [Konren-ji]",
@@ -2136,24 +2136,24 @@
     "furigana": "じんこう おとこ"
   },
   "代銀合計": {
-    "en": "代銀合計",
-    "furigana": ""
+    "en": "total silver equivalent",
+    "furigana": "だいぎんごうけい"
   },
   "佛堂": {
-    "en": "佛堂",
-    "furigana": ""
+    "en": "Buddhist halls",
+    "furigana": "ぶつどう"
   },
   "修験": {
-    "en": "修験",
-    "furigana": ""
+    "en": "Shugendo practitioners",
+    "furigana": "しゅげん"
   },
   "修験 戸数": {
-    "en": "修験 戸数",
-    "furigana": ""
+    "en": "Shugendō practitioner households",
+    "furigana": "しゅげん こすう"
   },
   "修験人口 俗": {
-    "en": "修験人口 俗",
-    "furigana": ""
+    "en": "Shugendō practitioner population (lay members)",
+    "furigana": "しゅげんじんこう ぞく"
   },
   "修験人口 女": {
     "en": "修験人口 — female",
@@ -2164,12 +2164,12 @@
     "furigana": "おとこ"
   },
   "修驗 戸": {
-    "en": "修驗 戸",
-    "furigana": ""
+    "en": "Shugendō practitioners (households)",
+    "furigana": "しゅげん こ"
   },
   "修驗者": {
-    "en": "修驗者",
-    "furigana": ""
+    "en": "Shugendō practitioners",
+    "furigana": "しゅげんじゃ"
   },
   "修驗者人口 女": {
     "en": "修驗者人口 — female",
@@ -2180,8 +2180,8 @@
     "furigana": "おとこ"
   },
   "僧尼": {
-    "en": "僧尼",
-    "furigana": ""
+    "en": "monks and nuns",
+    "furigana": "そうに"
   },
   "僧尼 女": {
     "en": "僧尼 — female",
@@ -2208,68 +2208,68 @@
     "furigana": "おとこ"
   },
   "兵員 兵卒": {
-    "en": "兵員 兵卒",
-    "furigana": ""
+    "en": "military personnel — soldiers and foot-soldiers",
+    "furigana": "へいいん へいそつ"
   },
   "兵隊 合計": {
-    "en": "兵隊 合計",
-    "furigana": ""
+    "en": "troops, total",
+    "furigana": "へいたい ごうけい"
   },
   "兵隊 精兵": {
-    "en": "兵隊 精兵",
-    "furigana": ""
+    "en": "troops: elite soldiers",
+    "furigana": "へいたい せいへい"
   },
   "兵隊 聚合兵": {
-    "en": "兵隊 聚合兵",
-    "furigana": ""
+    "en": "troops: assembled auxiliary soldiers",
+    "furigana": "へいたい しゅうごうへい"
   },
   "兵隊役人": {
-    "en": "兵隊役人",
-    "furigana": ""
+    "en": "troop officers",
+    "furigana": "へいたいやくにん"
   },
   "内 田高": {
-    "en": "内 田高",
-    "furigana": ""
+    "en": "paddy-field yield (of which)",
+    "furigana": "うち ただか"
   },
   "内1": {
-    "en": "内1",
-    "furigana": ""
+    "en": "of which (subtotal 1)",
+    "furigana": "うち"
   },
   "内2": {
-    "en": "内2",
-    "furigana": ""
+    "en": "of which (subtotal 2)",
+    "furigana": "うち"
   },
   "内大豆": {
-    "en": "内大豆",
-    "furigana": ""
+    "en": "of which, soybeans",
+    "furigana": "うちだいず"
   },
   "内田高": {
-    "en": "内田高",
-    "furigana": ""
+    "en": "paddy-field yield (of which)",
+    "furigana": "うちただか"
   },
   "内米": {
-    "en": "内米",
-    "furigana": ""
+    "en": "of which, rice",
+    "furigana": "うちまい"
   },
   "内金": {
-    "en": "内金",
-    "furigana": ""
+    "en": "of which, gold",
+    "furigana": "うちきん"
   },
   "内麥": {
-    "en": "内麥",
-    "furigana": ""
+    "en": "of which, barley/wheat",
+    "furigana": "うちむぎ"
   },
   "十一品": {
-    "en": "十一品",
-    "furigana": ""
+    "en": "eleven items (miscellaneous eleven articles)",
+    "furigana": "じゅういっぴん"
   },
   "卒 戸數": {
-    "en": "卒 戸數",
-    "furigana": ""
+    "en": "foot-soldier (sotsu) households",
+    "furigana": "そつ こすう"
   },
   "卒族同人口": {
-    "en": "卒族同人口",
-    "furigana": ""
+    "en": "lower-status samurai (sotsu) population (same category)",
+    "furigana": "そつぞくどうじんこう"
   },
   "卒族同人口 女": {
     "en": "卒族同人口 — female",
@@ -2280,24 +2280,24 @@
     "furigana": "おとこ"
   },
   "卒族戸": {
-    "en": "卒族戸",
-    "furigana": ""
+    "en": "lower-samurai (sotsu) households",
+    "furigana": "そつぞくこ"
   },
   "卒族戸数": {
-    "en": "卒族戸数",
-    "furigana": ""
+    "en": "lower-samurai (sotsu) households",
+    "furigana": "そつぞくこすう"
   },
   "卒族戸數 外二": {
-    "en": "卒族戸數 外二",
-    "furigana": ""
+    "en": "lower-samurai (sotsu) households, additionally",
+    "furigana": "そつぞくこすう ほかに"
   },
   "収納金 金": {
-    "en": "収納金 金",
-    "furigana": ""
+    "en": "tax receipts, gold",
+    "furigana": "しゅうのうきん きん"
   },
   "収納金 銭": {
-    "en": "収納金 銭",
-    "furigana": ""
+    "en": "tax receipts, cash",
+    "furigana": "しゅうのうきん ぜに"
   },
   "受領高 [Agan-ji]": {
     "en": "受領高 [Agan-ji]",
@@ -2316,36 +2316,36 @@
     "furigana": ""
   },
   "右合": {
-    "en": "右合",
-    "furigana": ""
+    "en": "subtotal of the above",
+    "furigana": "みぎあわせ"
   },
   "同": {
-    "en": "同",
-    "furigana": ""
+    "en": "ditto (same as above)",
+    "furigana": "どう"
   },
   "同断過上 金": {
-    "en": "同断過上 金",
-    "furigana": ""
+    "en": "same basis, surplus, in gold",
+    "furigana": "どうだんかじょう きん"
   },
   "同金 大豆": {
-    "en": "同金 大豆",
-    "furigana": ""
+    "en": "same in gold, for soybeans",
+    "furigana": "どうきん だいず"
   },
   "同金 麥": {
-    "en": "同金 麥",
-    "furigana": ""
+    "en": "same in gold, for barley/wheat",
+    "furigana": "どうきん むぎ"
   },
   "吹銅": {
-    "en": "吹銅",
-    "furigana": ""
+    "en": "smelted (refined) copper",
+    "furigana": "ふきどう"
   },
   "墨": {
-    "en": "墨",
-    "furigana": ""
+    "en": "ink sticks",
+    "furigana": "すみ"
   },
   "士卒人口": {
-    "en": "士卒人口",
-    "furigana": ""
+    "en": "samurai-and-sotsu population",
+    "furigana": "ししつじんこう"
   },
   "士卒人口 女": {
     "en": "士卒人口 — female",
@@ -2356,8 +2356,8 @@
     "furigana": "おとこ"
   },
   "士卒戸數": {
-    "en": "士卒戸數",
-    "furigana": ""
+    "en": "samurai and foot-soldier households",
+    "furigana": "しそつこすう"
   },
   "士族同人口 女": {
     "en": "士族同人口 — female",
@@ -2368,72 +2368,72 @@
     "furigana": "おとこ"
   },
   "士族戸数": {
-    "en": "士族戸数",
-    "furigana": ""
+    "en": "samurai (shizoku) households",
+    "furigana": "しぞくこすう"
   },
   "士族戸數 外二": {
-    "en": "士族戸數 外二",
-    "furigana": ""
+    "en": "samurai (shizoku) households, additionally",
+    "furigana": "しぞくこすう ほかに"
   },
   "外ニ役員": {
-    "en": "外ニ役員",
-    "furigana": ""
+    "en": "additionally, officials",
+    "furigana": "ほかに やくいん"
   },
   "外二 社家": {
-    "en": "外二 社家",
-    "furigana": ""
+    "en": "additionally, Shinto priest households",
+    "furigana": "ほかに しゃけ"
   },
   "外二 穢多人口": {
-    "en": "外二 穢多人口",
-    "furigana": ""
+    "en": "additionally, eta (outcast) population",
+    "furigana": "ほかに えたじんこう"
   },
   "外受領高": {
-    "en": "外受領高",
-    "furigana": ""
+    "en": "Additional received stipend (koku)",
+    "furigana": "ほかじゅりょうだか"
   },
   "大油紙": {
-    "en": "大油紙",
-    "furigana": ""
+    "en": "large oiled paper",
+    "furigana": "おおあぶらがみ"
   },
   "大砲隊 人": {
-    "en": "大砲隊 人",
-    "furigana": ""
+    "en": "artillery corps, persons",
+    "furigana": "たいほうたい にん"
   },
   "大砲隊 役員": {
-    "en": "大砲隊 役員",
-    "furigana": ""
+    "en": "cannon corps officers",
+    "furigana": "たいほうたい やくいん"
   },
   "大竹": {
-    "en": "大竹",
-    "furigana": ""
+    "en": "large bamboo",
+    "furigana": "おおだけ"
   },
   "大豆 price": {
     "en": "大豆 price",
     "furigana": ""
   },
   "家中空澤畑年貢 米": {
-    "en": "家中空澤畑年貢 米",
-    "furigana": ""
+    "en": "retainer-corps fallow upland-field land tax, rice",
+    "furigana": "かちゅうあきさわはたねんぐ こめ"
   },
   "家數 [Ottsu-ji]": {
     "en": "家數 [Ottsu-ji]",
     "furigana": ""
   },
   "實米": {
-    "en": "實米",
-    "furigana": ""
+    "en": "actual rice",
+    "furigana": "じつまい"
   },
   "實米豆": {
-    "en": "實米豆",
-    "furigana": ""
+    "en": "actual rice and beans",
+    "furigana": "じつまいまめ"
   },
   "寺 [Myoo-ji]": {
     "en": "寺 [Myoo-ji]",
     "furigana": ""
   },
   "寺 人口": {
-    "en": "寺 人口",
-    "furigana": ""
+    "en": "temples, population",
+    "furigana": "てら じんこう"
   },
   "寺 人口 女": {
     "en": "寺 人口 — female",
@@ -2444,8 +2444,8 @@
     "furigana": "おとこ"
   },
   "寺 同人口": {
-    "en": "寺 同人口",
-    "furigana": ""
+    "en": "temples, ditto population",
+    "furigana": "てら どうじんこう"
   },
   "寺_女": {
     "en": "寺_ — female",
@@ -2456,12 +2456,12 @@
     "furigana": "おとこ"
   },
   "寺内尼": {
-    "en": "寺内尼",
-    "furigana": ""
+    "en": "nuns within temples",
+    "furigana": "じないに"
   },
   "寺院人口": {
-    "en": "寺院人口",
-    "furigana": ""
+    "en": "temple population",
+    "furigana": "じいんじんこう"
   },
   "寺院人口 女": {
     "en": "寺院人口 — female",
@@ -2476,128 +2476,128 @@
     "furigana": ""
   },
   "差引不足 現米": {
-    "en": "差引不足 現米",
-    "furigana": ""
+    "en": "net shortfall on balance, in actual rice",
+    "furigana": "さしひきふそく げんまい"
   },
   "布平包": {
-    "en": "布平包",
-    "furigana": ""
+    "en": "cloth flat wrappers",
+    "furigana": "ぬのひらづつみ"
   },
   "帆莚": {
-    "en": "帆莚",
-    "furigana": ""
+    "en": "sail matting",
+    "furigana": "ほむしろ"
   },
   "干栗": {
-    "en": "干栗",
-    "furigana": ""
+    "en": "dried chestnuts",
+    "furigana": "ほしぐり"
   },
   "平民人口 女": {
     "en": "平民人口 — female",
     "furigana": "おんな"
   },
   "平民人員": {
-    "en": "平民人員",
-    "furigana": ""
+    "en": "commoner population",
+    "furigana": "へいみんじんいん"
   },
   "平民人員 男": {
     "en": "平民人員 — male",
     "furigana": "おとこ"
   },
   "座頭": {
-    "en": "座頭",
-    "furigana": ""
+    "en": "blind musicians (zatō)",
+    "furigana": "ざとう"
   },
   "戸数": {
-    "en": "戸数",
-    "furigana": ""
+    "en": "number of households",
+    "furigana": "こすう"
   },
   "戸數 [Konren-ji]": {
     "en": "戸數 [Konren-ji]",
     "furigana": ""
   },
   "戸數 卒": {
-    "en": "戸數 卒",
-    "furigana": ""
+    "en": "households — foot-soldiers (sotsu)",
+    "furigana": "こすう そつ"
   },
   "戸數 在方": {
-    "en": "戸數 在方",
-    "furigana": ""
+    "en": "households — rural (villages)",
+    "furigana": "こすう ざいかた"
   },
   "戸數 士族": {
-    "en": "戸數 士族",
-    "furigana": ""
+    "en": "households — samurai (shizoku)",
+    "furigana": "こすう しぞく"
   },
   "戸數 寺": {
-    "en": "戸數 寺",
-    "furigana": ""
+    "en": "households — temples",
+    "furigana": "こすう てら"
   },
   "戸數 町方": {
-    "en": "戸數 町方",
-    "furigana": ""
+    "en": "households — town (urban)",
+    "furigana": "こすう まちかた"
   },
   "戸數 社家": {
-    "en": "戸數 社家",
-    "furigana": ""
+    "en": "households — Shinto priest families",
+    "furigana": "こすう しゃけ"
   },
   "戸數 穢多": {
-    "en": "戸數 穢多",
-    "furigana": ""
+    "en": "households — outcastes (eta)",
+    "furigana": "こすう えた"
   },
   "戸數 華族": {
-    "en": "戸數 華族",
-    "furigana": ""
+    "en": "households — nobility (kazoku)",
+    "furigana": "こすう かぞく"
   },
   "折杭": {
-    "en": "折杭",
-    "furigana": ""
+    "en": "cut stakes",
+    "furigana": "おれぐい"
   },
   "折板": {
-    "en": "折板",
-    "furigana": ""
+    "en": "cut boards",
+    "furigana": "おれいた"
   },
   "整発隊 人": {
-    "en": "整発隊 人",
-    "furigana": ""
+    "en": "volley-fire corps, persons",
+    "furigana": "せいはつたい にん"
   },
   "斥候隊 人": {
-    "en": "斥候隊 人",
-    "furigana": ""
+    "en": "scout corps, persons",
+    "furigana": "せっこうたい にん"
   },
   "日本朱": {
-    "en": "日本朱",
-    "furigana": ""
+    "en": "Japanese vermilion (cinnabar)",
+    "furigana": "にほんしゅ"
   },
   "明礬": {
-    "en": "明礬",
-    "furigana": ""
+    "en": "alum",
+    "furigana": "みょうばん"
   },
   "松実": {
-    "en": "松実",
-    "furigana": ""
+    "en": "pine nuts",
+    "furigana": "まつのみ"
   },
   "檢校": {
-    "en": "檢校",
-    "furigana": ""
+    "en": "kengyō (senior blind official rank)",
+    "furigana": "けんぎょう"
   },
   "正租 永": {
-    "en": "正租 永",
-    "furigana": ""
+    "en": "regular land tax, ei (cash)",
+    "furigana": "せいそ えい"
   },
   "正租永": {
-    "en": "正租永",
-    "furigana": ""
+    "en": "regular land-tax (in ei cash)",
+    "furigana": "せいそえい"
   },
   "正租米_maru_flood_average": {
     "en": "正租米_maru_flood_average",
     "furigana": ""
   },
   "正租銭": {
-    "en": "正租銭",
-    "furigana": ""
+    "en": "regular land-tax (in copper cash)",
+    "furigana": "せいそぜに"
   },
   "此租税米": {
-    "en": "此租税米",
-    "furigana": ""
+    "en": "Tax rice on the additional stipend land (koku)",
+    "furigana": "このそぜいまい"
   },
   "此租税米 [Agan-ji]": {
     "en": "此租税米 [Agan-ji]",
@@ -2616,28 +2616,28 @@
     "furigana": ""
   },
   "此米 正租": {
-    "en": "此米 正租",
-    "furigana": ""
+    "en": "this rice, regular land tax",
+    "furigana": "このまい せいそ"
   },
   "此米_rice_equivalent": {
     "en": "此米_rice_equivalent",
     "furigana": ""
   },
   "殘リ用高": {
-    "en": "殘リ用高",
-    "furigana": ""
+    "en": "remaining allotted yield",
+    "furigana": "のこりようだか"
   },
   "油": {
-    "en": "油",
-    "furigana": ""
+    "en": "oil",
+    "furigana": "あぶら"
   },
   "油布": {
-    "en": "油布",
-    "furigana": ""
+    "en": "oiled cloth",
+    "furigana": "あぶらぬの"
   },
   "渡守": {
-    "en": "渡守",
-    "furigana": ""
+    "en": "ferrymen",
+    "furigana": "わたしもり"
   },
   "渡守 女": {
     "en": "渡守 — female",
@@ -2648,16 +2648,16 @@
     "furigana": "おとこ"
   },
   "渡守戸數": {
-    "en": "渡守戸數",
-    "furigana": ""
+    "en": "ferryman households",
+    "furigana": "わたしもりこすう"
   },
   "無住寺": {
-    "en": "無住寺",
-    "furigana": ""
+    "en": "unoccupied temples",
+    "furigana": "むじゅうじ"
   },
   "煙亡": {
-    "en": "煙亡",
-    "furigana": ""
+    "en": "crematory attendants (onbō)",
+    "furigana": "おんぼう"
   },
   "煙亡人口 女": {
     "en": "煙亡人口 — female",
@@ -2668,52 +2668,52 @@
     "furigana": ""
   },
   "狙撃隊 人": {
-    "en": "狙撃隊 人",
-    "furigana": ""
+    "en": "sharpshooter corps, persons",
+    "furigana": "そげきたい にん"
   },
   "狙撃隊 補員": {
-    "en": "狙撃隊 補員",
-    "furigana": ""
+    "en": "sharpshooter corps, reserves",
+    "furigana": "そげきたい ほいん"
   },
   "生糸": {
-    "en": "生糸",
-    "furigana": ""
+    "en": "raw silk",
+    "furigana": "きいと"
   },
   "用高": {
-    "en": "用高",
-    "furigana": ""
+    "en": "allotted yield",
+    "furigana": "ようだか"
   },
   "畑高": {
-    "en": "畑高",
-    "furigana": ""
+    "en": "upland-field yield",
+    "furigana": "はただか"
   },
   "白布": {
-    "en": "白布",
-    "furigana": ""
+    "en": "white cloth",
+    "furigana": "しろぬの"
   },
   "白木綿": {
-    "en": "白木綿",
-    "furigana": ""
+    "en": "white cotton cloth",
+    "furigana": "しろもめん"
   },
   "白米": {
-    "en": "白米",
-    "furigana": ""
+    "en": "polished (white) rice",
+    "furigana": "はくまい"
   },
   "白米 代": {
-    "en": "白米 代",
-    "furigana": ""
+    "en": "white rice, monetary equivalent",
+    "furigana": "はくまい だい"
   },
   "白紬": {
-    "en": "白紬",
-    "furigana": ""
+    "en": "white pongee silk",
+    "furigana": "しろつむぎ"
   },
   "瞽女": {
     "en": "瞽 — female",
     "furigana": "おんな"
   },
   "石灰": {
-    "en": "石灰",
-    "furigana": ""
+    "en": "lime",
+    "furigana": "せっかい"
   },
   "社家 人口 女": {
     "en": "shrine-priest population — female",
@@ -2724,16 +2724,16 @@
     "furigana": "しゃけ おとこ"
   },
   "社家 同人口": {
-    "en": "社家 同人口",
-    "furigana": ""
+    "en": "Shinto priests, ditto population",
+    "furigana": "しゃけ どうじんこう"
   },
   "社家 男": {
     "en": "shrine households — male",
     "furigana": "しゃけ おとこ"
   },
   "社家戸数": {
-    "en": "社家戸数",
-    "furigana": ""
+    "en": "Shinto priest households",
+    "furigana": "しゃけこすう"
   },
   "社寺領_女": {
     "en": "社寺領_ — female",
@@ -2744,12 +2744,12 @@
     "furigana": "おとこ"
   },
   "神子": {
-    "en": "神子",
-    "furigana": ""
+    "en": "shrine maiden (miko)",
+    "furigana": "みこ"
   },
   "神社數": {
-    "en": "神社數",
-    "furigana": ""
+    "en": "number of Shinto shrines",
+    "furigana": "じんじゃすう"
   },
   "穢多_女": {
     "en": "穢多_ — female",
@@ -2760,156 +2760,156 @@
     "furigana": "おとこ"
   },
   "穢多非人 同人口": {
-    "en": "穢多非人 同人口",
-    "furigana": ""
+    "en": "eta and hinin (outcast), ditto population",
+    "furigana": "えたひにん どうじんこう"
   },
   "笠紙": {
-    "en": "笠紙",
-    "furigana": ""
+    "en": "hat paper (kasa-gami)",
+    "furigana": "かさがみ"
   },
   "筆": {
-    "en": "筆",
-    "furigana": ""
+    "en": "writing brushes",
+    "furigana": "ふで"
   },
   "紋紙": {
-    "en": "紋紙",
-    "furigana": ""
+    "en": "patterned paper",
+    "furigana": "もんがみ"
   },
   "紺屋運上 米": {
-    "en": "紺屋運上 米",
-    "furigana": ""
+    "en": "dyer's license tax, rice",
+    "furigana": "こんやうんじょう こめ"
   },
   "胡桃子": {
-    "en": "胡桃子",
-    "furigana": ""
+    "en": "walnuts",
+    "furigana": "くるみ"
   },
   "胡椒": {
-    "en": "胡椒",
-    "furigana": ""
+    "en": "pepper",
+    "furigana": "こしょう"
   },
   "胡麻": {
-    "en": "胡麻",
-    "furigana": ""
+    "en": "sesame",
+    "furigana": "ごま"
   },
   "花席": {
-    "en": "花席",
-    "furigana": ""
+    "en": "figured mats (hanamushiro)",
+    "furigana": "はなむしろ"
   },
   "若松入船問屋運上 米": {
-    "en": "若松入船問屋運上 米",
-    "furigana": ""
+    "en": "Wakamatsu ship-arrival broker license tax, rice",
+    "furigana": "わかまついりふねどんやうんじょう こめ"
   },
   "荒銅": {
-    "en": "荒銅",
-    "furigana": ""
+    "en": "crude (unrefined) copper",
+    "furigana": "あらどう"
   },
   "蒔絵台附大硯箱": {
-    "en": "蒔絵台附大硯箱",
-    "furigana": ""
+    "en": "maki-e large inkstone boxes with stand",
+    "furigana": "まきえだいつきおおすずりばこ"
   },
   "蒔絵家入七寸鏡": {
-    "en": "蒔絵家入七寸鏡",
-    "furigana": ""
+    "en": "maki-e cased seven-sun mirrors",
+    "furigana": "まきえいえいりしちすんかがみ"
   },
   "蒔絵無足中丸盆": {
-    "en": "蒔絵無足中丸盆",
-    "furigana": ""
+    "en": "maki-e footless medium round trays",
+    "furigana": "まきえむそくちゅうまるぼん"
   },
   "藁": {
-    "en": "藁",
-    "furigana": ""
+    "en": "straw",
+    "furigana": "わら"
   },
   "虎皮": {
-    "en": "虎皮",
-    "furigana": ""
+    "en": "tiger pelts",
+    "furigana": "とらがわ"
   },
   "蝋掛平包": {
-    "en": "蝋掛平包",
-    "furigana": ""
+    "en": "wax-coated flat wrappers",
+    "furigana": "ろうがけひらづつみ"
   },
   "裹": {
-    "en": "裹",
-    "furigana": ""
+    "en": "jujubes (dates)",
+    "furigana": "なつめ"
   },
   "諸税金 金": {
-    "en": "諸税金 金",
-    "furigana": ""
+    "en": "miscellaneous taxes, gold",
+    "furigana": "しょぜいきん きん"
   },
   "諸税金 銭": {
-    "en": "諸税金 銭",
-    "furigana": ""
+    "en": "miscellaneous taxes, cash",
+    "furigana": "しょぜいきん ぜに"
   },
   "豆": {
-    "en": "豆",
-    "furigana": ""
+    "en": "beans",
+    "furigana": "まめ"
   },
   "豹皮": {
-    "en": "豹皮",
-    "furigana": ""
+    "en": "leopard pelts",
+    "furigana": "ひょうがわ"
   },
   "輕卒戸": {
-    "en": "輕卒戸",
-    "furigana": ""
+    "en": "light-foot-soldier households",
+    "furigana": "けいそつこ"
   },
   "込高新田改出高": {
-    "en": "込高新田改出高",
-    "furigana": ""
+    "en": "included yield and newly-reclaimed re-surveyed yield",
+    "furigana": "こみだかしんでんあらためだしだか"
   },
   "都合米": {
-    "en": "都合米",
-    "furigana": ""
+    "en": "grand total rice",
+    "furigana": "つごうまい"
   },
   "都合金": {
-    "en": "都合金",
-    "furigana": ""
+    "en": "grand total gold",
+    "furigana": "つごうきん"
   },
   "醫師": {
-    "en": "醫師",
-    "furigana": ""
+    "en": "physicians",
+    "furigana": "いし"
   },
   "野風呂": {
-    "en": "野風呂",
-    "furigana": ""
+    "en": "portable field bath (noburo)",
+    "furigana": "のぶろ"
   },
   "金_avg": {
     "en": "金_avg",
     "furigana": ""
   },
   "金小屏風": {
-    "en": "金小屏風",
-    "furigana": ""
+    "en": "small gold folding screens",
+    "furigana": "きんこびょうぶ"
   },
   "銅": {
-    "en": "銅",
-    "furigana": ""
+    "en": "copper",
+    "furigana": "どう"
   },
   "銅三入子手洗": {
-    "en": "銅三入子手洗",
-    "furigana": ""
+    "en": "copper three-nested washbasins",
+    "furigana": "どうみいれこてあらい"
   },
   "雑税永": {
-    "en": "雑税永",
-    "furigana": ""
+    "en": "miscellaneous tax (in ei cash)",
+    "furigana": "ざつぜいえい"
   },
   "雑税米": {
-    "en": "雑税米",
-    "furigana": ""
+    "en": "miscellaneous-tax rice",
+    "furigana": "ざつぜいまい"
   },
   "雑税金": {
-    "en": "雑税金",
-    "furigana": ""
+    "en": "miscellaneous tax (in gold)",
+    "furigana": "ざつぜいきん"
   },
   "雜稅 永": {
-    "en": "雜稅 永",
-    "furigana": ""
+    "en": "miscellaneous tax, ei (cash)",
+    "furigana": "ざつぜい えい"
   },
   "雜稅米_avg": {
     "en": "雜稅米_avg",
     "furigana": ""
   },
   "雜税現石": {
-    "en": "雜税現石",
-    "furigana": ""
+    "en": "miscellaneous-tax current koku",
+    "furigana": "ざつぜいげんこく"
   },
   "非人_女": {
     "en": "非人_ — female",
@@ -2924,12 +2924,12 @@
     "furigana": "おんな"
   },
   "馬省": {
-    "en": "馬省",
-    "furigana": ""
+    "en": "horse tackle (mashō, Korea-trade item)",
+    "furigana": "ばしょう"
   },
   "魚漁": {
-    "en": "魚漁",
-    "furigana": ""
+    "en": "fisheries (fishing catch)",
+    "furigana": "ぎょりょう"
   },
   "（知事家族）": {
     "en": "（知事家族）",
@@ -2948,96 +2948,96 @@
     "furigana": "ぶんたい"
   },
   "一砲隊": {
-    "en": "一砲隊",
-    "furigana": ""
+    "en": "one artillery company",
+    "furigana": "いちほうたい"
   },
   "一等番隊（笠間分）": {
-    "en": "一等番隊（笠間分）",
-    "furigana": ""
+    "en": "first-class guard company (Kasama's portion)",
+    "furigana": "いっとうばんたい（かさまぶん）"
   },
   "三等番隊（笠間分）": {
-    "en": "三等番隊（笠間分）",
-    "furigana": ""
+    "en": "third-class guard company (Kasama's portion)",
+    "furigana": "さんとうばんたい（かさまぶん）"
   },
   "二等番隊（笠間分）": {
-    "en": "二等番隊（笠間分）",
-    "furigana": ""
+    "en": "second-class guard company (Kasama's portion)",
+    "furigana": "にとうばんたい（かさまぶん）"
   },
   "公議人": {
-    "en": "公議人",
-    "furigana": ""
+    "en": "public assembly delegate",
+    "furigana": "こうぎにん"
   },
   "兵": {
-    "en": "兵",
-    "furigana": ""
+    "en": "troops",
+    "furigana": "へい"
   },
   "兵制諸官員": {
-    "en": "兵制諸官員",
-    "furigana": ""
+    "en": "military-system officials",
+    "furigana": "へいせいしょかんいん"
   },
   "兵員・2": {
     "en": "兵員",
     "furigana": "へいいん"
   },
   "兵士／兵卒": {
-    "en": "兵士／兵卒",
-    "furigana": ""
+    "en": "soldiers / rank-and-file troops",
+    "furigana": "へいし／へいそつ"
   },
   "兵士／兵卒（小隊）・2": {
-    "en": "兵士／兵卒（小隊）",
-    "furigana": ""
+    "en": "soldiers / rank-and-file troops (platoons)",
+    "furigana": "へいし／へいそつ（しょうたい）"
   },
   "兵隊・2": {
     "en": "兵隊",
     "furigana": "へいたい"
   },
   "兵隊（園部分）": {
-    "en": "兵隊（園部分）",
-    "furigana": ""
+    "en": "troops (Sonobe's portion)",
+    "furigana": "へいたい（そのべぶん）"
   },
   "兵隊（彦根分）": {
-    "en": "兵隊（彦根分）",
-    "furigana": ""
+    "en": "troops (Hikone's portion)",
+    "furigana": "へいたい（ひこねぶん）"
   },
   "准備兵": {
-    "en": "准備兵",
-    "furigana": ""
+    "en": "reserve troops",
+    "furigana": "じゅんびへい"
   },
   "土著之兵士": {
-    "en": "土著之兵士",
-    "furigana": ""
+    "en": "locally-settled soldiers",
+    "furigana": "どちゃくのへいし"
   },
   "大砲一隊": {
-    "en": "大砲一隊",
-    "furigana": ""
+    "en": "one artillery company",
+    "furigana": "たいほういちたい"
   },
   "大砲隊": {
-    "en": "大砲隊",
-    "furigana": ""
+    "en": "artillery company",
+    "furigana": "たいほうたい"
   },
   "大砲隊（笠間分）": {
-    "en": "大砲隊（笠間分）",
-    "furigana": ""
+    "en": "artillery company (Kasama's portion)",
+    "furigana": "たいほうたい（かさまぶん）"
   },
   "大隊・2": {
-    "en": "大隊",
-    "furigana": ""
+    "en": "battalions",
+    "furigana": "だいたい"
   },
   "少参事・2": {
     "en": "少参事",
     "furigana": "しょうさんじ"
   },
   "少參事（彦根分）": {
-    "en": "少參事（彦根分）",
-    "furigana": ""
+    "en": "junior councillor (Hikone's portion)",
+    "furigana": "しょうさんじ（ひこねぶん）"
   },
   "整発隊（笠間分）": {
-    "en": "整発隊（笠間分）",
-    "furigana": ""
+    "en": "volley-fire company (Kasama's portion)",
+    "furigana": "せいはつたい（かさまぶん）"
   },
   "斥候隊（笠間分）": {
-    "en": "斥候隊（笠間分）",
-    "furigana": ""
+    "en": "scout company (Kasama's portion)",
+    "furigana": "せっこうたい（かさまぶん）"
   },
   "権大参事・2": {
     "en": "権大参事",
@@ -3048,68 +3048,68 @@
     "furigana": "ごんしょうさんじ"
   },
   "横兵": {
-    "en": "横兵",
-    "furigana": ""
+    "en": "auxiliary troops",
+    "furigana": "おうへい"
   },
   "權少參事（彦根分）": {
-    "en": "權少參事（彦根分）",
-    "furigana": ""
+    "en": "acting junior councillor (Hikone's portion)",
+    "furigana": "ごんしょうさんじ（ひこねぶん）"
   },
   "正權大參事": {
-    "en": "正權大參事",
-    "furigana": ""
+    "en": "senior and acting senior councillors",
+    "furigana": "せいごんだいさんじ"
   },
   "正權少參事": {
-    "en": "正權少參事",
-    "furigana": ""
+    "en": "senior and acting junior councillors",
+    "furigana": "せいごんしょうさんじ"
   },
   "歩兵・2": {
     "en": "歩兵",
     "furigana": "ほへい"
   },
   "狙撃隊（笠間分）": {
-    "en": "狙撃隊（笠間分）",
-    "furigana": ""
+    "en": "sharpshooter company (Kasama's portion)",
+    "furigana": "そげきたい（かさまぶん）"
   },
   "砲兵・2": {
     "en": "砲兵",
     "furigana": "ほうへい"
   },
   "砲手／樂手": {
-    "en": "砲手／樂手",
-    "furigana": ""
+    "en": "gunners / bandsmen",
+    "furigana": "ほうしゅ／がくしゅ"
   },
   "砲臺守衞士": {
-    "en": "砲臺守衞士",
-    "furigana": ""
+    "en": "battery guard soldiers",
+    "furigana": "ほうだいしゅえいし"
   },
   "砲隊（彦根分）": {
-    "en": "砲隊（彦根分）",
-    "furigana": ""
+    "en": "artillery company (Hikone's portion)",
+    "furigana": "ほうたい（ひこねぶん）"
   },
   "総計": {
-    "en": "総計",
-    "furigana": ""
+    "en": "grand total",
+    "furigana": "そうけい"
   },
   "聚合隊": {
-    "en": "聚合隊",
-    "furigana": ""
+    "en": "combined company",
+    "furigana": "しゅうごうたい"
   },
   "船": {
-    "en": "船",
-    "furigana": ""
+    "en": "vessel",
+    "furigana": "ふね"
   },
   "船・2": {
-    "en": "船",
-    "furigana": ""
+    "en": "vessel",
+    "furigana": "ふね"
   },
   "豫備兵": {
-    "en": "豫備兵",
-    "furigana": ""
+    "en": "reserve troops",
+    "furigana": "よびへい"
   },
   "": {
-    "en": "",
-    "furigana": ""
+    "en": "governor's family members",
+    "furigana": "ちじかぞく"
   },
   "男・5": {
     "en": "male",
@@ -3128,8 +3128,8 @@
     "furigana": "おとこ"
   },
   "四百十二": {
-    "en": "四百十二",
-    "furigana": ""
+    "en": "412 (page number)",
+    "furigana": "よんひゃくじゅうに"
   },
   "女・5": {
     "en": "female",
@@ -3588,20 +3588,20 @@
     "furigana": "じんこう"
   },
   "十七大隊": {
-    "en": "十七大隊",
-    "furigana": ""
+    "en": "seventeen battalions",
+    "furigana": "じゅうななだいたい"
   },
   "合〆 米": {
-    "en": "合〆 米",
-    "furigana": ""
+    "en": "grand subtotal: rice",
+    "furigana": "ごうしめ こめ"
   },
   "合〆 金": {
-    "en": "合〆 金",
-    "furigana": ""
+    "en": "grand subtotal: gold",
+    "furigana": "ごうしめ きん"
   },
   "四坐": {
-    "en": "四坐",
-    "furigana": ""
+    "en": "four seats (units)",
+    "furigana": "よざ"
   },
   "寺人口・2": {
     "en": "寺人口",
@@ -3620,8 +3620,8 @@
     "furigana": ""
   },
   "山伏戸數": {
-    "en": "山伏戸數",
-    "furigana": ""
+    "en": "yamabushi households",
+    "furigana": "やまぶしこすう"
   },
   "此人員": {
     "en": "此人員",
@@ -3644,8 +3644,8 @@
     "furigana": "えたじんこう"
   },
   "總人口": {
-    "en": "總人口",
-    "furigana": ""
+    "en": "total population",
+    "furigana": "そうじんこう"
   },
   "mori_gaudaka（森）": {
     "en": "mori_gaudaka",
@@ -3664,12 +3664,12 @@
     "furigana": ""
   },
   "人口（女）": {
-    "en": "total population — female",
-    "furigana": "じんこう"
+    "en": "Population (female)",
+    "furigana": "じんこう（おんな）"
   },
   "人口（男）": {
-    "en": "total population — male",
-    "furigana": "じんこう"
+    "en": "Population (male)",
+    "furigana": "じんこう（おとこ）"
   },
   "兵隊（香春）": {
     "en": "troops",
@@ -3692,39 +3692,359 @@
     "furigana": "てら じんこう"
   },
   "山伏人口（女）": {
-    "en": "山伏人口 — female",
-    "furigana": ""
+    "en": "yamabushi population (female)",
+    "furigana": "やまぶしじんこう（おんな）"
   },
   "山伏人口（男）": {
-    "en": "山伏人口 — male",
-    "furigana": ""
+    "en": "yamabushi population (male)",
+    "furigana": "やまぶしじんこう（おとこ）"
   },
   "権大参事（香春）": {
     "en": "Provisional Senior Councillor",
     "furigana": "ごんだいさんじ"
   },
   "此人員（総人員）": {
-    "en": "此人員",
-    "furigana": ""
+    "en": "this personnel count (total personnel)",
+    "furigana": "このじんいん（そうじんいん）"
   },
   "砲隊（鳥取）": {
     "en": "artillery corps (6 units = 288)",
     "furigana": "ほうたい"
   },
   "社家人口（女）": {
-    "en": "社家人口 — female",
-    "furigana": ""
+    "en": "shrine-priest household population (female)",
+    "furigana": "しゃけじんこう（おんな）"
   },
   "社家人口（男）": {
-    "en": "社家人口 — male",
-    "furigana": ""
+    "en": "shrine-priest household population (male)",
+    "furigana": "しゃけじんこう（おとこ）"
   },
   "穢多人口（女）": {
-    "en": "eta-class population (page figure) — female",
-    "furigana": "えたじんこう"
+    "en": "Eta (outcast) population (female)",
+    "furigana": "えたじんこう（おんな）"
   },
   "穢多人口（男）": {
-    "en": "eta-class population (page figure) — male",
-    "furigana": "えたじんこう"
+    "en": "Eta (outcast) population (male)",
+    "furigana": "えたじんこう（おとこ）"
+  },
+  "草高（森）": {
+    "en": "Nominal domain yield (kusadaka), Mori domain",
+    "furigana": "くさだか（もり）"
+  },
+  "外高（森）": {
+    "en": "Additional yield (soto), Mori domain",
+    "furigana": "そとだか（もり）"
+  },
+  "合高（森）": {
+    "en": "Total combined yield (gōdaka), Mori domain",
+    "furigana": "ごうだか（もり）"
+  },
+  "正租米（森）": {
+    "en": "Regular land-tax rice (seiso), Mori domain",
+    "furigana": "せいそまい（もり）"
+  },
+  "鐚": {
+    "en": "Debased copper cash (akusen, kan)",
+    "furigana": "びた"
+  },
+  "現合米": {
+    "en": "Actual combined tax rice (koku)",
+    "furigana": "げんごうまい"
+  },
+  "寺庵": {
+    "en": "Temples and hermitages (households)",
+    "furigana": "じあん"
+  },
+  "上下士兵員": {
+    "en": "Samurai troops, upper and lower (number of men)",
+    "furigana": "じょうげしへいいん"
+  },
+  "上下卒兵員": {
+    "en": "Foot-soldier (sotsu) troops, upper and lower (number of men)",
+    "furigana": "じょうげそつへいいん"
+  },
+  "權大參事": {
+    "en": "Junior senior councillor (gon-daisanji)",
+    "furigana": "ごんだいさんじ"
+  },
+  "受領高（金蓮寺）": {
+    "en": "Received stipend (koku) — Konren-ji temple",
+    "furigana": "じゅりょうだか（こんれんじ）"
+  },
+  "此租税米（金蓮寺）": {
+    "en": "Tax rice on this stipend (koku) — Konren-ji",
+    "furigana": "このそぜいまい（こんれんじ）"
+  },
+  "戸數（金蓮寺）": {
+    "en": "Households — Konren-ji",
+    "furigana": "こすう（こんれんじ）"
+  },
+  "人口（金蓮寺）": {
+    "en": "Population — Konren-ji",
+    "furigana": "じんこう（こんれんじ）"
+  },
+  "受領高（妙應寺）": {
+    "en": "Received stipend (koku) — Myōō-ji",
+    "furigana": "じゅりょうだか（みょうおうじ）"
+  },
+  "此租税米（妙應寺）": {
+    "en": "Tax rice on this stipend (koku) — Myōō-ji",
+    "furigana": "このそぜいまい（みょうおうじ）"
+  },
+  "寺（妙應寺）": {
+    "en": "Temple count — Myōō-ji",
+    "furigana": "てら（みょうおうじ）"
+  },
+  "人口（妙應寺）": {
+    "en": "Population — Myōō-ji",
+    "furigana": "じんこう（みょうおうじ）"
+  },
+  "受領高（乙津寺）": {
+    "en": "Received stipend (koku) — Ottsu-ji",
+    "furigana": "じゅりょうだか（おっつじ）"
+  },
+  "此租税米（乙津寺）": {
+    "en": "Tax rice on this stipend (koku) — Ottsu-ji",
+    "furigana": "このそぜいまい（おっつじ）"
+  },
+  "家數（乙津寺）": {
+    "en": "Households — Ottsu-ji",
+    "furigana": "いえかず（おっつじ）"
+  },
+  "人口（乙津寺）": {
+    "en": "Population — Ottsu-ji",
+    "furigana": "じんこう（おっつじ）"
+  },
+  "受領高（阿願寺）": {
+    "en": "Received stipend (koku) — Agan-ji",
+    "furigana": "じゅりょうだか（あがんじ）"
+  },
+  "此租税米（阿願寺）": {
+    "en": "Tax rice on this stipend (koku) — Agan-ji",
+    "furigana": "このそぜいまい（あがんじ）"
+  },
+  "正租米（五ヶ年平均）": {
+    "en": "Land-tax rice (flood-adjusted five-year average, koku)",
+    "furigana": "せいそまい（ごかねんへいきん）"
+  },
+  "雜稅米（五ヶ年平均）": {
+    "en": "Miscellaneous-tax rice (five-year average, koku)",
+    "furigana": "ざつぜいまい（ごかねんへいきん）"
+  },
+  "金（五ヶ年平均）": {
+    "en": "Gold/cash tax (five-year average, ryō)",
+    "furigana": "きん（ごかねんへいきん）"
+  },
+  "金（合米之部）": {
+    "en": "Cash tax (kin, revenue account)",
+    "furigana": "きん"
+  },
+  "金（此米之部）": {
+    "en": "Cash tax (kin, converted to rice)",
+    "furigana": "きん"
+  },
+  "郷士族": {
+    "en": "Rural shizoku (gōshi) population",
+    "furigana": "ごうしぞく"
+  },
+  "御陵守": {
+    "en": "Imperial-tomb keepers (goryō-mori) population",
+    "furigana": "ごりょうもり"
+  },
+  "物換米代": {
+    "en": "Barter-rice — proceeds (silver monme)",
+    "furigana": "ぶっかんまいだい"
+  },
+  "公木代": {
+    "en": "Kōboku (tribute cotton) — proceeds (silver monme)",
+    "furigana": "こうぼくだい"
+  },
+  "大豆代": {
+    "en": "Soybeans — proceeds (silver monme)",
+    "furigana": "だいずだい"
+  },
+  "小豆代": {
+    "en": "Adzuki beans — proceeds (silver monme)",
+    "furigana": "あずきだい"
+  },
+  "米（漂民入費総額）": {
+    "en": "Rice (castaway-relief expense, total)",
+    "furigana": "こめ"
+  },
+  "錢（漂民入費総額）": {
+    "en": "Cash (castaway-relief expense, total)",
+    "furigana": "ぜに"
+  },
+  "米（漂民飯米・長崎迎取分）": {
+    "en": "Rice (castaway provisions incl. Nagasaki pickup)",
+    "furigana": "こめ"
+  },
+  "錢（漂民飯米・長崎迎取分）": {
+    "en": "Cash (castaway provisions incl. Nagasaki pickup)",
+    "furigana": "ぜに"
+  },
+  "米（朝鮮送還飯米分）": {
+    "en": "Rice (provisions for repatriation to Korea)",
+    "furigana": "こめ"
+  },
+  "錢（朝鮮送還飯米分）": {
+    "en": "Cash (provisions for repatriation to Korea)",
+    "furigana": "ぜに"
+  },
+  "錢（他領漂民入費分）": {
+    "en": "Cash (relief expense for other-domain castaways)",
+    "furigana": "ぜに"
+  },
+  "公貿易金〆": {
+    "en": "Public-trade total (kin, ryo): annual proceeds",
+    "furigana": "こうぼうえききんしめ"
+  },
+  "和館兩關所入費米": {
+    "en": "Wakan and two-checkpoints expense (rice, koku)",
+    "furigana": "わかんりょうせきしょにゅうひまい"
+  },
+  "和館兩關所入費錢": {
+    "en": "Wakan and two-checkpoints expense (cash, mon)",
+    "furigana": "わかんりょうせきしょにゅうひぜに"
+  },
+  "米（兩關所詰役員給米）": {
+    "en": "Subitem rice for the two-checkpoints officials' stipends and sundry costs (koku)",
+    "furigana": "まい（りょうせきしょづめやくいんきゅうまい）"
+  },
+  "錢（兩關所詰役員給料）": {
+    "en": "Subitem cash for the two-checkpoints officials and expenses (mon)",
+    "furigana": "ぜに（りょうせきしょづめやくいんきゅうりょう）"
+  },
+  "米（和館濱方詰役員給米）": {
+    "en": "Subitem rice for the Wakan beachside officials' stipends and sundry costs (koku)",
+    "furigana": "まい（わかんはまがたづめやくいんきゅうまい）"
+  },
+  "錢（和館濱方詰役員給料）": {
+    "en": "Subitem cash for the Wakan beachside officials and expenses (mon)",
+    "furigana": "ぜに（わかんはまがたづめやくいんきゅうりょう）"
+  },
+  "尼（津）": {
+    "en": "Nuns (Tsu domain)",
+    "furigana": "あま（つ）"
+  },
+  "穢多（津）": {
+    "en": "Outcast (eta) population (Tsu domain)",
+    "furigana": "えた（つ）"
+  },
+  "非人（津）": {
+    "en": "Outcast (hinin) population (Tsu domain)",
+    "furigana": "ひにん（つ）"
+  },
+  "神社（津）": {
+    "en": "Shrines (Tsu domain)",
+    "furigana": "じんじゃ（つ）"
+  },
+  "寺（津）": {
+    "en": "Temples (Tsu domain)",
+    "furigana": "てら（つ）"
+  },
+  "村數（津）": {
+    "en": "Number of villages (Tsu domain)",
+    "furigana": "むらかず（つ）"
+  },
+  "蒸氣船（津）": {
+    "en": "Steamships (Tsu domain)",
+    "furigana": "じょうきせん（つ）"
+  },
+  "兵卒（津）": {
+    "en": "Troops (Tsu domain)",
+    "furigana": "へいそつ（つ）"
+  },
+  "知事（山上）": {
+    "en": "Governor (chiji), Yamagami domain",
+    "furigana": "ちじ（やまがみ）"
+  },
+  "大参事（山上）": {
+    "en": "Senior councillor (daisanji), Yamagami domain",
+    "furigana": "だいさんじ（やまがみ）"
+  },
+  "権大参事（山上）": {
+    "en": "Junior senior councillor (gon-daisanji), Yamagami domain",
+    "furigana": "ごんだいさんじ（やまがみ）"
+  },
+  "兵隊（士族）": {
+    "en": "Troops, shizoku class (Yamagami domain)",
+    "furigana": "へいたい（しぞく）"
+  },
+  "兵隊（卒族）": {
+    "en": "Troops, sotsu class (Yamagami domain)",
+    "furigana": "へいたい（そつぞく）"
+  },
+  "知事（山家）": {
+    "en": "Governor (chiji), Yamaga domain",
+    "furigana": "ちじ（やまが）"
+  },
+  "大参事（山家）": {
+    "en": "Senior councillor (daisanji), Yamaga domain",
+    "furigana": "だいさんじ（やまが）"
+  },
+  "権大参事（山家）": {
+    "en": "Junior senior councillor (gon-daisanji), Yamaga domain",
+    "furigana": "ごんだいさんじ（やまが）"
+  },
+  "少参事（山家）": {
+    "en": "Junior councillor (shosanji), Yamaga domain",
+    "furigana": "しょうさんじ（やまが）"
+  },
+  "知事（松江）": {
+    "en": "Governor (chiji), Matsue domain",
+    "furigana": "ちじ"
+  },
+  "權大參事（吉見）": {
+    "en": "Junior senior councillors (gon-daisanji), Yoshimi",
+    "furigana": "ごんだいさんじ"
+  },
+  "少參事（吉見）": {
+    "en": "Junior councillors (shosanji), Yoshimi",
+    "furigana": "しょうさんじ"
+  },
+  "權少參事（吉見）": {
+    "en": "Junior junior councillors (gon-shosanji), Yoshimi",
+    "furigana": "ごんしょうさんじ"
+  },
+  "銃兵（吉見）": {
+    "en": "Riflemen, Yoshimi",
+    "furigana": "じゅうへい"
+  },
+  "大參事（高鍋）": {
+    "en": "Senior councillors (daisanji), Takanabe",
+    "furigana": "だいさんじ"
+  },
+  "權大參事（高鍋）": {
+    "en": "Junior senior councillors (gon-daisanji), Takanabe",
+    "furigana": "ごんだいさんじ"
+  },
+  "銃兵（高鍋）": {
+    "en": "Riflemen (five platoons), Takanabe",
+    "furigana": "じゅうへい"
+  },
+  "大砲（高鍋・砲手）": {
+    "en": "Artillery unit gunners, Takanabe",
+    "furigana": "たいほう"
+  },
+  "大砲（高鍋・砲門數）": {
+    "en": "Cannon (number of guns), Takanabe",
+    "furigana": "たいほう"
+  },
+  "少参事（吉井）": {
+    "en": "Junior councillor (shosanji), Yoshii",
+    "furigana": "しょうさんじ（よしい）"
+  },
+  "権大参事（吉井）": {
+    "en": "Junior senior councillor (gon-daisanji), Yoshii",
+    "furigana": "ごんだいさんじ（よしい）"
+  },
+  "権少参事（吉井）": {
+    "en": "Junior junior councillor (gon-shosanji), Yoshii",
+    "furigana": "ごんしょうさんじ（よしい）"
+  },
+  "兵員（吉井）": {
+    "en": "Troops (heiin), Yoshii",
+    "furigana": "へいいん（よしい）"
   }
 }
