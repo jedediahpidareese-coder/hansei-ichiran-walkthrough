@@ -238,5 +238,135 @@
         "value": "xywh=pixel:2098,2912,73,575"
       }
     }
+  },
+  {
+    "id": "anno-omigawa_lower_p161_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "杉井小市右衛門"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "権大参事 official: 杉井小市右衛門"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事（杉井小市右衛門）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1963,2912,79,656"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_lower_p161_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "荒井欽吾"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "権大参事 official: 荒井欽吾"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事（荒井欽吾）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1827,2915,80,490"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_lower_p161_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "松井瀬兵衛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "少参事 official: 松井瀬兵衛"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事（松井瀬兵衛）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1694,2917,81,528"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_lower_p161_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "發知太八郎"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "権少参事 official: 發知太八郎"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事（發知太八郎）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1555,2917,83,530"
+      }
+    }
+  },
+  {
+    "id": "anno-omigawa_lower_p161_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "額田大五郎"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "大参事 official: 額田大五郎"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事（額田大五郎）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p161_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2096,2910,77,579"
+      }
+    }
   }
 ]

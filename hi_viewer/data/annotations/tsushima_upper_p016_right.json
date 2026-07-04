@@ -448,5 +448,187 @@
         "value": "xywh=pixel:2176,3148,74,68"
       }
     }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同九百九拾八匁四分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of Japanese vermilion (nihon-shu)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（日本朱）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1281,1132,89,744"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同百四拾匁四分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of patterned paper (monshi)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（紋紙）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1147,1130,87,577"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同貳百九拾九匁九分九厘九毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of the 7-sun maki-e inlaid mirror"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（蒔絵家入七寸鏡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1007,1129,93,1086"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同百貳匁貳分六厘六毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of the footless medium maki-e round tray"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（蒔絵無足中丸盆）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:877,1127,86,832"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同三百六拾七匁壹分壹厘六毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of the large maki-e inkstone box with stand"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（蒔絵台附大硯箱）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:742,1126,89,1082"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同五拾九匁八分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of the outdoor bath (no-furo)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（野風呂）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:611,1128,88,577"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同百貳拾壹匁三分三厘三毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appraised value (silver) of the gold small folding screen"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（金小屏風）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:470,1126,92,1000"
+      }
+    }
   }
 ]

@@ -263,6 +263,42 @@
       "parsed": "890.86",
       "unit": "kanme",
       "raw": "八百九拾貫八百六拾目"
+    },
+    {
+      "field_jp": "士族人口",
+      "parsed": "293",
+      "unit": "persons",
+      "raw": "士族戸數 五十八戸 同人員 貳百九拾三人 内 男百四十三人 女百五十人"
+    },
+    {
+      "field_jp": "卒族人口",
+      "parsed": "93",
+      "unit": "persons",
+      "raw": "卒 貳十八戸 同人員 九十三人 内 男六十人 女三十三人"
+    },
+    {
+      "field_jp": "修驗",
+      "parsed": "38",
+      "unit": "persons",
+      "raw": "修驗 貳十三軒 修驗三十八人 男女不詳"
+    },
+    {
+      "field_jp": "社家",
+      "parsed": "18",
+      "unit": "persons",
+      "raw": "社家 拾一軒 社人十八人 男女不詳"
+    },
+    {
+      "field_jp": "穢多",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "穢多 壹戸 男壹人 女不詳"
+    },
+    {
+      "field_jp": "夷太夫",
+      "parsed": "1",
+      "unit": "persons",
+      "raw": "夷太夫 一軒 壹人"
     }
   ],
   "tosa_kokudaka": [
@@ -3351,6 +3387,18 @@
       "parsed": "28,688",
       "unit": "kan",
       "raw": "產物稅錢 二萬八千六百八十八貫五百七十八文"
+    },
+    {
+      "field_jp": "士族人口（男）",
+      "parsed": "4,640",
+      "unit": "persons",
+      "raw": "男四千六百四十人"
+    },
+    {
+      "field_jp": "士族人口（女）",
+      "parsed": "4,896",
+      "unit": "persons",
+      "raw": "女四千八百九十六人"
     }
   ],
   "hiroshima_lower_p096_right": [
@@ -3555,6 +3603,18 @@
       "parsed": "188,298.7914",
       "unit": "koku",
       "raw": "合 五千七百七十五石七斗五升一合"
+    },
+    {
+      "field_jp": "人口（男）",
+      "parsed": "5,304",
+      "unit": "persons",
+      "raw": "男五千三百四人"
+    },
+    {
+      "field_jp": "人口（女）",
+      "parsed": "4,434",
+      "unit": "persons",
+      "raw": "女四千四百三十四人"
     }
   ],
   "okayama_upper_p064_right": [
@@ -4877,6 +4937,12 @@
       "parsed": "4",
       "unit": "",
       "raw": "砲兵四隊但ボート八門ヲ以一隊トス"
+    },
+    {
+      "field_jp": "藩士子弟",
+      "parsed": "242",
+      "unit": "persons",
+      "raw": "二百四十二人"
     }
   ],
   "sogano_upper_p149_right": [
@@ -5931,6 +5997,12 @@
       "parsed": "10,337",
       "unit": "ryō",
       "raw": "一同貳萬六千七百九拾九石壹斗八升六合八夕九才"
+    },
+    {
+      "field_jp": "公貿易金（貳）",
+      "parsed": "10,337",
+      "unit": "ryo",
+      "raw": "一同壹萬三百三拾七兩永七百貳拾壹文貳釐"
     }
   ],
   "tsushima_upper_p014_right": [
@@ -6277,6 +6349,48 @@
       "parsed": "1",
       "unit": "",
       "raw": "金小屏風壹雙"
+    },
+    {
+      "field_jp": "代（日本朱）",
+      "parsed": "998.4",
+      "unit": "monme",
+      "raw": "同九百九拾八匁四分"
+    },
+    {
+      "field_jp": "代（紋紙）",
+      "parsed": "140.4",
+      "unit": "monme",
+      "raw": "同百四拾匁四分"
+    },
+    {
+      "field_jp": "代（蒔絵家入七寸鏡）",
+      "parsed": "299.999",
+      "unit": "monme",
+      "raw": "同貳百九拾九匁九分九厘九毛"
+    },
+    {
+      "field_jp": "代（蒔絵無足中丸盆）",
+      "parsed": "102.266",
+      "unit": "monme",
+      "raw": "同百貳匁貳分六厘六毛"
+    },
+    {
+      "field_jp": "代（蒔絵台附大硯箱）",
+      "parsed": "367.116",
+      "unit": "monme",
+      "raw": "同三百六拾七匁壹分壹厘六毛"
+    },
+    {
+      "field_jp": "代（野風呂）",
+      "parsed": "59.8",
+      "unit": "monme",
+      "raw": "同五拾九匁八分"
+    },
+    {
+      "field_jp": "代（金小屏風）",
+      "parsed": "121.333",
+      "unit": "monme",
+      "raw": "同百貳拾壹匁三分三厘三毛"
     }
   ],
   "tsushima_upper_p016_left": [
@@ -9729,6 +9843,54 @@
       "parsed": "412",
       "unit": "persons",
       "raw": "四百十二"
+    },
+    {
+      "field_jp": "卒族人口（男）",
+      "parsed": "14,564",
+      "unit": "persons",
+      "raw": "内 男14564人"
+    },
+    {
+      "field_jp": "卒族人口（女）",
+      "parsed": "11,441",
+      "unit": "persons",
+      "raw": "女11441人"
+    },
+    {
+      "field_jp": "神職人口（男）",
+      "parsed": "2,422",
+      "unit": "persons",
+      "raw": "内 男2422人"
+    },
+    {
+      "field_jp": "神職人口（女）",
+      "parsed": "1,630",
+      "unit": "persons",
+      "raw": "女1630人"
+    },
+    {
+      "field_jp": "僧徒人口（男）",
+      "parsed": "1,948",
+      "unit": "persons",
+      "raw": "内 男1948人"
+    },
+    {
+      "field_jp": "僧徒人口（女）",
+      "parsed": "51",
+      "unit": "persons",
+      "raw": "女51人"
+    },
+    {
+      "field_jp": "皮多人口（男）",
+      "parsed": "11,205",
+      "unit": "persons",
+      "raw": "内 男壹萬千貳百五人"
+    },
+    {
+      "field_jp": "皮多人口（女）",
+      "parsed": "10,280",
+      "unit": "persons",
+      "raw": "女10280人"
     }
   ],
   "obama_upper_p067_left": [
@@ -9869,6 +10031,12 @@
       "parsed": "8",
       "unit": "persons",
       "raw": "砲隊大砲八門"
+    },
+    {
+      "field_jp": "陸軍",
+      "parsed": "2",
+      "unit": "battalions",
+      "raw": "陸軍英式二大隊"
     }
   ],
   "oshi_upper_p072_left": [

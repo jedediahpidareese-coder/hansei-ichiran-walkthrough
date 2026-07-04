@@ -568,5 +568,57 @@
         "value": "xywh=pixel:2608,1160,107,1922"
       }
     }
+  },
+  {
+    "id": "anno-okayama_upper_p064_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千三百四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, male"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（男）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p064_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1459,2182,62,472"
+      }
+    }
+  },
+  {
+    "id": "anno-okayama_upper_p064_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千四百三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（女）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p064_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1401,2182,73,585"
+      }
+    }
   }
 ]

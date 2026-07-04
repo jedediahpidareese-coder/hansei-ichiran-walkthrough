@@ -688,5 +688,35 @@
         "value": "xywh=pixel:1378,1770,80,440"
       }
     }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "陸軍英式二大隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "陸軍（りくぐん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Army: two English-style (英式) battalions"
+      },
+      {
+        "purpose": "identifying",
+        "value": "陸軍"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1379,1095,58,700"
+      }
+    }
   }
 ]
