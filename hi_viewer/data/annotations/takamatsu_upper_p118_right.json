@@ -455,66 +455,6 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族 （七百壹戸）"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族（しぞく） 一万百二十二人／10,122人、内 男5,133人・女4,989人、うち地士（じざむらい）男1,863人・女1,7XX人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Samurai (shizoku) population: 10,122 persons — of which male 5,133, female 4,989; sub-annotation counts land-samurai (地士) 1,863 men and ~1,7XX women"
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p118_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1397,1107,82,597"
-      }
-    }
-  },
-  {
-    "id": "anno-takamatsu_upper_p118_right-16",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "卒族 四千四百八十六戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "卒族（そつぞく） 一万七千八百五十一人／17,851人、内 男9,348人・女8,503人、うち土着の帯刀人（たいとうにん）分 千三百…"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Foot-soldier (sotsu) population: 17,851 persons — of which male 9,348, female 8,503; sub-annotation gives the indigenous sword-bearing (帯刀) share of ~1,3XX for each sex"
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒族"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p118_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1398,1861,83,920"
-      }
-    }
-  },
-  {
-    "id": "anno-takamatsu_upper_p118_right-17",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
         "value": "男五千百三十三人 地士千八百六十三人"
       },
       {
@@ -540,7 +480,7 @@
     }
   },
   {
-    "id": "anno-takamatsu_upper_p118_right-18",
+    "id": "anno-takamatsu_upper_p118_right-16",
     "type": "Annotation",
     "body": [
       {
@@ -570,7 +510,7 @@
     }
   },
   {
-    "id": "anno-takamatsu_upper_p118_right-19",
+    "id": "anno-takamatsu_upper_p118_right-17",
     "type": "Annotation",
     "body": [
       {
@@ -600,7 +540,7 @@
     }
   },
   {
-    "id": "anno-takamatsu_upper_p118_right-20",
+    "id": "anno-takamatsu_upper_p118_right-18",
     "type": "Annotation",
     "body": [
       {

@@ -515,186 +515,6 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族三千四百二十五戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族 一万五千八百一人／しぞく いちまんごせんはっぴゃくいちにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Samurai (shizoku) population: 15,801 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1860,1308,100,832"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-18",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男六萬四千九百七十七人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男 七千五百六十五人／おとこ ななせんごひゃくろくじゅうごにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Male samurai: 7,565"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1487,2226,54,740"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-19",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女六萬二千二百七十二人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女 八千二百三十六人／おんな はっせんにひゃくさんじゅうろくにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Female samurai: 8,236"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1424,2226,63,740"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-20",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "卒族三千三百八戸"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "卒族 二万二千四百三十八人／そつぞく にまんにせんよんひゃくさんじゅうはちにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu (lower-rank retainer) population: 22,438 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒族"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1841,2233,100,668"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-21",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男六萬四千九百七十七人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男 一万千九百八十人／おとこ いちまんいっせんきゅうひゃくはちじゅうにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Male sotsu: 11,980"
-      },
-      {
-        "purpose": "identifying",
-        "value": "男"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1487,2226,54,740"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-22",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女六萬二千二百七十二人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女 一万四百五十八人／おんな いちまんよんひゃくごじゅうはちにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Female sotsu: 10,458"
-      },
-      {
-        "purpose": "identifying",
-        "value": "女"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p112_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1424,2226,63,740"
-      }
-    }
-  },
-  {
-    "id": "anno-yonezawa_upper_p112_left-23",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
         "value": "百九十九"
       },
       {
@@ -720,7 +540,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-24",
+    "id": "anno-yonezawa_upper_p112_left-18",
     "type": "Annotation",
     "body": [
       {
@@ -750,7 +570,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-25",
+    "id": "anno-yonezawa_upper_p112_left-19",
     "type": "Annotation",
     "body": [
       {
@@ -780,7 +600,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-26",
+    "id": "anno-yonezawa_upper_p112_left-20",
     "type": "Annotation",
     "body": [
       {
@@ -810,7 +630,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-27",
+    "id": "anno-yonezawa_upper_p112_left-21",
     "type": "Annotation",
     "body": [
       {
@@ -840,7 +660,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-28",
+    "id": "anno-yonezawa_upper_p112_left-22",
     "type": "Annotation",
     "body": [
       {
@@ -870,7 +690,7 @@
     }
   },
   {
-    "id": "anno-yonezawa_upper_p112_left-29",
+    "id": "anno-yonezawa_upper_p112_left-23",
     "type": "Annotation",
     "body": [
       {
