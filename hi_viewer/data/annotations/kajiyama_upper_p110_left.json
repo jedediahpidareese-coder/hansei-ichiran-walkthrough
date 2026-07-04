@@ -418,5 +418,185 @@
         "value": "xywh=pixel:1550,2016,85,740"
       }
     }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○米澤藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○米澤（よねざわ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker: ○ Yonezawa (the maru marks the start of the Yonezawa entry; the following 藩 sits below)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○米澤藩 (domain marker)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1420,1424,106,558"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 拾四萬七千貳百四拾八石七斗貳升三合貳勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか） 十四万七千二百四十八石七斗二升三合二勺三才（147,248.72323石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (assessed grass-yield / gross registered koku): 147,248.72323 koku. [MASTER read 147,148.7232 in error.]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（米澤藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1268,1084,126,1926"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 込高新田高改出高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか） 込高（こみだか）・新田高（しんでんだか）・改出高（あらためだしだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Separately (外): combined komidaka (subsumed yield) + new-paddy yield + re-surveyed added yield. [Label; value in adjacent column.]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外 込高新田高改出高 (label)（米澤藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1164,1238,137,675"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 貳萬八千八百拾八石八斗七升貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（だか） 二万八千八百十八石八斗七升二合（28,818.872石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yield of the above added/new lands: 28,818.872 koku. [Field not captured by MASTER.]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外込高新田高改出高（米澤藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1011,1165,109,1334"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三 （米澤）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第三（はんせいいちらんひょうだいさん）（米澤（よねざわ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): Han Governance Survey, Fascicle 3 (Yonezawa)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三 （米澤） (running header)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:913,1336,68,563"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百九十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百九十五（ひゃくきゅうじゅうご）（195）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page number (bottom margin): 195."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号 (page number)（米澤藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:879,3177,59,205"
+      }
+    }
   }
 ]

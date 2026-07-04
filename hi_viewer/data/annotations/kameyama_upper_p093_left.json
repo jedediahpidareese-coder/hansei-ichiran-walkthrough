@@ -358,5 +358,275 @@
         "value": "xywh=pixel:1909,1068,114,1622"
       }
     }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○川越藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○川越藩（かわごえはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "○ Kawagoe domain (domain-boundary marker + header)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○川越藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1786,1399,102,552"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 八萬千五百六十二石三斗九勺一才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか） 八万千五百六十二石三斗九升〇合〇勺一才（81,562.39001石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed kokudaka: 81,562.39 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1646,1061,110,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 六萬四百四十二石五斗一升二合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか） 六万四百四十二石五斗一升二合（60,442.512石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Additional assessed koku: 60,442.512 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1516,1141,107,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田改出高 二萬千百十九石七斗八升八合九勺一才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高新田改出高（こみだかしんでんかいだしだか） 二万千百十九石七斗八升八合九勺一才（21,119.78891石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reclaimed / new-field revised-output koku: 21,119.7889 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田改出高（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1371,1142,124,2086"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米 一萬八千二百十三石六斗二升三合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい） 一万八千二百十三石六斗二升三合八勺（18,213.6238石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal land tax in rice: 18,213.6238 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1226,1145,131,1752"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永 三千七百十五貫七百五十二文四分五厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい） 三千七百十五貫七百五十二文四分五厘（3,715.75245貫）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal land tax in cash (ei/kan): 3,715.75245 kan"
+      },
+      {
+        "purpose": "identifying",
+        "value": "永（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1105,1309,116,1584"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米 二千七百三十三石七斗三升七合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米（ざつぜいまい） 二千七百三十三石七斗三升七合六勺（2,733.7376石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax rice: 2,733.7376 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:978,1136,116,1671"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二 （川越）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第二（はんせいいちらんだいに）（川越）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran, Fascicle 2 (Kawagoe) — running provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二 （川越）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:890,1300,62,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kameyama_upper_p093_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十一（161）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page 161 (bottom margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "百六十一（川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p093_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:852,3143,64,197"
+      }
+    }
   }
 ]

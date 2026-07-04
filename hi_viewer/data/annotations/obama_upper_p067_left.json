@@ -718,5 +718,185 @@
         "value": "xywh=pixel:1379,1095,58,700"
       }
     }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○大垣藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○大垣藩（おおがきはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Ogaki domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大垣藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1235,1440,83,575"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（本高十萬石）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "本高（ほんだか）十万石（100,000石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Base assessed yield: 100,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本高（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1258,1995,60,410"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 拾三萬千百六石四斗三升壹合五勺八 込高新田改出高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか） 十三万千百六石四斗三升一合五勺八（131,106.43158石）／込高（こみだか）新田改出高（しんでんあらためだしだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (nominal yield): 131,106.43158 koku (including newly-reclaimed, re-surveyed yield)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（大垣）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1105,1103,85,2067"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Five-year average"
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:985,1190,73,405"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二 （大垣）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第二（だいに）（大垣）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Administration, Fascicle 2 (Ogaki) [provenance running header]"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:862,1300,68,625"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p067_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百九（109）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page number: 109"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:865,3195,60,110"
+      }
+    }
   }
 ]

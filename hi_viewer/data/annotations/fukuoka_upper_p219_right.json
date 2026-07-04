@@ -536,5 +536,185 @@
         "value": "xywh=pixel:1249,2274,71,610"
       }
     }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五（福井）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいご（ふくい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han System Overview Table, Fascicle 5 (Fukui) — running header / provenance"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第五（福井）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2100,1360,85,585"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○福井藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○ふくいはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-name marker: Fukui domain (maru-marker heading this domain's entry)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○福井藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:875,1426,92,564"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 三十三萬六千百九十四石三升九合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか さんじゅうさんまんろくせんひゃくきゅうじゅうよんこく さんしょうきゅうごうろくしゃく（336,194.0396石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield (kusadaka/kokudaka): 336,194.0396 koku (斗 unit skipped = 0)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（福井藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:725,1088,120,1682"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本高込高新田改出共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほんだか こみだか しんでんかいだしとも"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note on the kusadaka: includes original assessed yield, added yield, and newly-reclaimed reassessed land"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本高込高新田改出共（福井藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:622,1420,90,755"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二 朱印地神社 百石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほかに しゅいんちじんじゃ ひゃっこく（100石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Separately: shrine vermilion-seal (tax-privileged) land, 100 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱印地神社（福井藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:485,1412,143,677"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六百九十四石九斗一升九合 除地寺領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ろっぴゃくきゅうじゅうよんこく くとういっしょうきゅうごう じょち じりょう（694.919石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax-exempt temple land (jochi jiryo): 694.919 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地寺領（福井藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:325,1419,119,1147"
+      }
+    }
   }
 ]

@@ -228,5 +228,39 @@
         "value": "xywh=pixel:2270,1225,100,770"
       }
     }
+  },
+  {
+    "id": "anno-tosa_military-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鹿兒島藩 書ナラス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鹿児島藩 — 書ナラス（かきならず）＝「記載なし／書面に出さない」"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kagoshima (Satsuma) domain, Table 8. Its ENTIRE military disclosure is the two-character note 書ナラス ('not written / not specified') — a near-total refusal. Combined with Satsuma's actual ~16,000-Spencer-rifle force, this made it the most opaque military presence in the 1870 survey. Everything to the RIGHT of this ○ marker (read first, right-to-left) is the tail of the PREVIOUS domain, Kanazawa."
+      },
+      {
+        "purpose": "extracted_value",
+        "value": "書ナラス (not disclosed)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○鹿兒島藩（書ナラス）（鹿児島藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1861,1320,104,872"
+      }
+    }
   }
 ]

@@ -628,5 +628,185 @@
         "value": "xywh=pixel:2585,2478,64,735"
       }
     }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（大洲）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（大洲）／はんせいいちらんひょう だいに（おおず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyo, Fascicle 2 (Ozu) — running provenance header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二（大洲）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:861,1360,71,573"
+      }
+    }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○大洲藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○大洲藩／おおずはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker and name: Ozu domain (data to the right belongs to Ozu)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○大洲藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1237,1434,99,382"
+      }
+    }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　六萬九百六石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 六万九百六石余／くさだか ろくまんきゅうひゃくろくこくよ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (kusadaka): ca. 60,906 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（大洲）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1107,1100,83,751"
+      }
+    }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内田高　三萬六千四百七拾三石四斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 田高 三万六千四百七十三石四斗／うち ただか さんまんろくせんよんひゃくななじゅうさんこくよんと"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which paddy-field yield (tadaka): 36,473.4 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内田高（大洲藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:977,1270,80,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "用高云"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "用高と云う／ようだかという"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Interlinear side-note on the 内田高 column: 'called the working/usable assessment (yodaka)'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "内田高_用高云_note（大洲藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1056,1257,56,190"
+      }
+    }
+  },
+  {
+    "id": "anno-oshi_upper_p072_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十九／ひゃくじゅうきゅう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bottom-margin printed page number: 119"
+      },
+      {
+        "purpose": "identifying",
+        "value": "百十九（大洲藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:853,3204,70,187"
+      }
+    }
   }
 ]
