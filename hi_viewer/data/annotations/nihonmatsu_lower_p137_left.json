@@ -478,5 +478,35 @@
         "value": "xywh=pixel:0.5119,0.6525,0.0219,0.1248"
       }
     }
+  },
+  {
+    "id": "anno-nihonmatsu_lower_p137_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事員數（だいさんじいんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand councilors (daisanji): 1 official"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事員數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p137_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:947,1768,60,133"
+      }
+    }
   }
 ]

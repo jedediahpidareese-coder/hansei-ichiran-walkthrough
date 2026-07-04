@@ -448,5 +448,65 @@
         "value": "xywh=pixel:868,3065,48,144"
       }
     }
+  },
+  {
+    "id": "anno-mito_lower_p069_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　千二十石八斗二升八合（下野）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（下野）（せいそまい（しもつけ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax rice (Shimotsuke portion)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米（下野）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1123,1138,105,1432"
+      }
+    }
+  },
+  {
+    "id": "anno-mito_lower_p069_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　千三百四十六兩三分本鎰三百三十九文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（下野）（きん（しもつけ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax cash/gold, in ryo (Shimotsuke portion); 1,346 ryo 3 bu, plus 339 mon in copper cash"
+      },
+      {
+        "purpose": "identifying",
+        "value": "金（下野）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:993,1302,97,1587"
+      }
+    }
   }
 ]

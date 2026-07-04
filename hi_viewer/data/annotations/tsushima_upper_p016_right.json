@@ -630,5 +630,155 @@
         "value": "xywh=pixel:470,1126,92,1000"
       }
     }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹斤九匁六分貳厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "胡椒 代（こしょう だい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Pepper (koshō): unit price, 9.6624 monme silver per 1 kin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "胡椒 代"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1677,3066,69,656"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹斤六匁六分貳厘壹毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "丹木 代（たんぼく だい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sappanwood (tanboku): unit price, 6.6621 monme silver per 1 kin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "丹木 代"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1543,2982,70,674"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹斤壹匁三分五厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "明礬 代（みょうばん だい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Alum (myōban): unit price, 1.35 monme silver per 1 kin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "明礬 代"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1420,2562,67,541"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹斤百貳拾四匁八分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代（日本朱・斤位）（だい（にほんしゅ・きんい））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Japanese vermilion (nihon-shu): unit price, 124.8 monme silver per 1 kin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（日本朱・斤位）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1285,2471,70,608"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "匁三分三厘三毛（面二付四拾三）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "代（蒔絵家入七寸鏡・面位）（だい（まきえいえいりななすんかがみ・めんい））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Makie inlaid 7-sun mirror: unit price, 0.3333 monme silver (rate per 43 mirrors)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "代（蒔絵家入七寸鏡・面位）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:975,3067,115,474"
+      }
+    }
   }
 ]

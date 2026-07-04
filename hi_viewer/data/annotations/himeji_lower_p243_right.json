@@ -478,5 +478,95 @@
         "value": "xywh=pixel:1059,2500,144,2350"
       }
     }
+  },
+  {
+    "id": "anno-himeji_lower_p243_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "田部洗藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少參事氏名（彦根分・田部洗藏）（たなべ せんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Minor councillor (Hikone portion), personal name: Tabe Senzo"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少參事氏名（彦根分・田部洗藏）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p243_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:4419,4251,151,1193"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p243_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "石黑務"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "權少參事氏名（彦根分・石黑務）（いしぐろ つとむ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assistant minor councillor (Hikone portion), personal name: Ishiguro Tsutomu"
+      },
+      {
+        "purpose": "identifying",
+        "value": "權少參事氏名（彦根分・石黑務）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p243_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:4140,4255,159,1196"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p243_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十六小隊常備兵一隊八十人ッ、"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊内訳（彦根分・十六小隊）（じゅうろく しょうたい じょうびへい いちたい はちじゅうにん ずつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops breakdown (Hikone portion): 16 platoons; standing troops at 80 men per platoon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊内訳（彦根分・十六小隊）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p243_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:3536,3732,221,1883"
+      }
+    }
   }
 ]

@@ -262,5 +262,215 @@
         "value": "xywh=pixel:1861,1320,104,872"
       }
     }
+  },
+  {
+    "id": "anno-tosa_military-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "隊長司令士等役員千百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "隊長司令士等役員人員（たいちょうしれいしとうやくいんにんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Corps commanders (shirei) and officer-rank staff (Kagoshima military overflow)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "隊長司令士等役員人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2142,1660,80,327"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "隊士四百六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "隊士人員（たいしにんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Corps rank-and-file soldiers (Kagoshima military overflow)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "隊士人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2015,1660,80,467"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵卒人員千五百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵卒人員（へいそつにんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total rank-and-file military personnel (Kagoshima military overflow)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2143,2432,82,535"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事員数（だいさんじいんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand Councillor — number of officeholders"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事員数"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1280,642,79,245"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事九員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事員数（ごんだいさんじいんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Grand Councillor — number of officeholders"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事員数"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1194,642,98,250"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事廿一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事員数（しょうさんじいんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor — number of officeholders"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事員数"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,642,105,255"
+      }
+    }
+  },
+  {
+    "id": "anno-tosa_military-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事十六員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事員数（ごんしょうさんじいんすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillor — number of officeholders"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事員数"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p163_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1004,642,97,267"
+      }
+    }
   }
 ]

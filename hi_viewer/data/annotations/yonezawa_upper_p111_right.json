@@ -538,5 +538,35 @@
         "value": "xywh=pixel:2184,3184,58,205"
       }
     }
+  },
+  {
+    "id": "anno-yonezawa_upper_p111_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高拾萬八千六百八拾壹石壹斗八升五合壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed land yield (kokudaka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p111_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1912,1170,85,1589"
+      }
+    }
   }
 ]

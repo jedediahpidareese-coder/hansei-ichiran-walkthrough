@@ -508,5 +508,125 @@
         "value": "xywh=pixel:1398,1861,83,920"
       }
     }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千百三十三人 地士千八百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口（男）（しぞくじんこう（おとこ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) population, male"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口（男）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:620,1952,75,1149"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千九百八拾九人 地士千七百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口（女）（しぞくじんこう（おんな））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) population, female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口（女）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:580,1952,51,1082"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九千三百四十八人内土著之帯刀人千三百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人口（男）（そつぞくじんこう（おとこ））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (foot-soldier lower samurai-class) population, male"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口（男）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:498,2142,63,1556"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八千五百三人内土著之帯刀人之分千三百六十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人口（女）（そつぞくじんこう（おんな））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (foot-soldier lower samurai-class) population, female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口（女）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:441,2142,66,1491"
+      }
+    }
   }
 ]
