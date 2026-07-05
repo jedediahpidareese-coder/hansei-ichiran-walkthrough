@@ -1,0 +1,223 @@
+/* =====================================================================
+   Reading-guide section — "Reading the sources"
+   A four-layer annotated-interlinear component for N2 readers.
+   Inherits the walkthrough palette (styles.css :root tokens).
+   All classes namespaced .rg-* so nothing here touches the rest of the book.
+   ===================================================================== */
+
+/* ---------- Worked-passage container ---------- */
+
+.rg-passage {
+  margin: var(--space-5) 0 var(--space-6);
+  border: 1px solid var(--paper-rule);
+  border-radius: 12px;
+  background: #FFFDF8;
+  box-shadow: 0 1px 0 #fff inset;
+  overflow: hidden;
+}
+
+/* ---------- Toolbar (layer toggles) ---------- */
+
+.rg-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+  background: var(--paper-deep);
+  border-bottom: 1px solid var(--paper-rule);
+}
+.rg-toolbar .rg-toolbar-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: var(--space-1);
+}
+.rg-toggle {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  border: 1px solid var(--crimson);
+  background: #FFFDF8;
+  color: var(--crimson);
+  padding: 0.28em 0.85em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  line-height: 1.3;
+}
+.rg-toggle:hover { background: var(--important-bg); }
+.rg-toggle.on { background: var(--crimson); color: #fff; }
+
+/* ---------- Clause rows ---------- */
+
+.rg-clause {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px dashed var(--paper-rule);
+}
+.rg-clause:last-child { border-bottom: none; }
+
+.rg-layer {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding: var(--space-1) 0;
+}
+.rg-lab {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-align: right;
+  user-select: none;
+  padding-top: 0.35em;
+}
+.rg-text { min-width: 0; }
+
+/* Layer-specific type treatment */
+.rg-genbun .rg-text {
+  font-family: var(--font-jp);
+  font-size: 1.32rem;
+  line-height: 2.05;
+  color: var(--ink);
+}
+.rg-kaki .rg-text {
+  font-family: var(--font-jp);
+  font-size: 1.12rem;
+  line-height: 1.95;
+  color: #33291f;
+}
+.rg-yaku .rg-text {
+  font-family: var(--font-jp);
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: var(--ink-soft);
+}
+.rg-en .rg-text {
+  font-family: var(--font-serif);
+  font-size: 1.0rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* ---------- Toggle behaviour (JS flips these body classes) ---------- */
+/* Furigana lives as <rt> over hard words in the 原文 (and in the demo's 書き下し);
+   one rule hides it wherever it appears inside a passage. */
+body.rg-hide-furi .rg-passage ruby rt { visibility: hidden; }
+body.rg-hide-yaku .rg-layer.rg-yaku { display: none; }
+body.rg-hide-en   .rg-layer.rg-en   { display: none; }
+
+/* Furigana over the large 原文 line: nudge size so it reads as a gloss */
+.rg-genbun ruby rt { font-size: 0.42em; color: var(--crimson); }
+
+/* ---------- Hover-gloss tokens (pure CSS, no JS needed) ---------- */
+
+.rg-tok {
+  position: relative;
+  cursor: help;
+  border-bottom: 2px dotted var(--gold);
+  padding: 0 0.06em;
+  border-radius: 2px;
+  transition: background .12s;
+}
+.rg-tok:hover, .rg-tok:focus { background: #F3E7C8; outline: none; }
+
+.rg-pop {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 1.7em;
+  transform: translateX(-50%);
+  width: 16rem;
+  max-width: 74vw;
+  background: #2C2018;
+  color: #F6ECD9;
+  border-radius: 10px;
+  padding: 0.7em 0.85em;
+  z-index: 40;
+  box-shadow: 0 10px 30px rgba(0,0,0,.34);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  white-space: normal;
+}
+.rg-tok:hover .rg-pop, .rg-tok:focus .rg-pop { display: block; }
+.rg-pop b { display: block; color: #FFD9A0; font-size: 0.92rem; font-weight: 700; }
+.rg-pop i { display: block; color: #A9D4C2; font-style: normal; font-size: 0.78rem; margin-top: 0.12em; }
+.rg-pop u { display: block; color: #E7DDC9; text-decoration: none; margin-top: 0.45em; border-top: 1px solid #4A3A2B; padding-top: 0.4em; }
+.rg-pop .rg-mod { color: #E7DDC9; }
+
+/* ---------- Grammar / kanji / vocab reference blocks ---------- */
+
+.rg-note {
+  background: var(--note-bg);
+  border-left: 4px solid var(--note-bar);
+  border-radius: 0 8px 8px 0;
+  padding: 0.8em 1em;
+  margin: 0.7em 0;
+  font-size: 0.95rem;
+}
+.rg-note b { color: var(--ink); }
+
+.rg-uncertain {
+  background: var(--warning-bg);
+  border-left: 4px solid var(--warning-bar);
+  border-radius: 0 8px 8px 0;
+  padding: 0.8em 1em;
+  margin: 0.9em 0;
+  font-size: 0.92rem;
+}
+.rg-uncertain .rg-uncertain-h {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--warning-bar);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.rg-verify {
+  background: var(--important-bg);
+  border: 1px solid #E6C4BB;
+  border-left: 4px solid var(--crimson);
+  border-radius: 0 10px 10px 0;
+  padding: 0.9em 1.1em;
+  margin: 1em 0;
+  font-size: 0.92rem;
+}
+.rg-verify .rg-verify-h {
+  color: var(--crimson);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.35em;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+}
+.rg-verify .rg-bad  { color: var(--crimson); text-decoration: line-through; font-family: var(--font-jp); }
+.rg-verify .rg-good { color: var(--tip-bar);  font-family: var(--font-jp); }
+
+/* Kyujitai -> shinjitai pair chips */
+.rg-kanjipair {
+  font-family: var(--font-jp);
+  font-size: 1.2rem;
+  white-space: nowrap;
+  text-align: center;
+}
+.rg-kanjipair .rg-old { color: var(--crimson); }
+.rg-kanjipair .rg-arw { color: var(--ink-faint); padding: 0 0.25em; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 620px) {
+  .rg-layer { grid-template-columns: 1fr; gap: 0.15rem; }
+  .rg-lab { text-align: left; padding-top: 0; }
+  .rg-genbun .rg-text { font-size: 1.2rem; }
+}
