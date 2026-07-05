@@ -574,6 +574,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>Hover (or tap) any <span style="border-bottom:2px dotted #A88A4C">dotted word</span> in the 原文 for its reading, its modern equivalent, and a short grammar note. Buttons above each passage let you hide the furigana, the modern-Japanese layer, or the English — so you can test yourself by covering the lower rungs and climbing back up.</p>
+<p>A <strong>🔊 speaker</strong> appears on each glossed word and on the 書き下し and 現代語訳 lines: click it to hear the Japanese read aloud by your browser’s built-in voice. Hearing the classical reading (書き下し) and the modern paraphrase (現代語訳) back to back is one of the fastest ways to fix the vocabulary and the archaic verb-endings in memory. (Voice quality depends on the Japanese voice installed in your browser; on Windows and macOS a good one is built in.)</p>
 <p>Here is the method on a single famous line — the core of the 1871 abolition decree:</p>
 <div class="rg-passage">
   <div class="rg-toolbar">
@@ -583,9 +584,9 @@ ul.task-list li input[type="checkbox"] {
     <button class="rg-toggle on" data-rg="en">English</button>
   </div>
   <div class="rg-clause">
-    <div class="rg-layer rg-genbun"><span class="rg-lab">原文</span><div class="rg-text">列藩ヲ<span class="rg-tok" tabindex="0">廢<span class="rg-pop"><b>廢シテ → 廃して（はいして）</b><i>abolish</i><u>旧字体 廢 → 新字体 廃。文語サ変「廢す」＝ 現代「廃する」。シテ＝して。</u></span></span>シテ<span class="rg-tok" tabindex="0">悉ク<span class="rg-pop"><b>ことごとく</b><i>every one, without exception</i><u>副詞。布告・詔勅に頻出。</u></span></span><span class="rg-tok" tabindex="0">縣<span class="rg-pop"><b>けん</b><i>prefecture</i><u>旧字体 縣 → 新字体 県。</u></span></span>ト<span class="rg-tok" tabindex="0">爲ス<span class="rg-pop"><b>なす</b><i>make (X) into (Y)</i><u>旧字体 爲 → 為。「A ヲ B ト爲ス」＝ A を B にする。終止形 爲ス（す）。</u></span></span>。</div></div>
-    <div class="rg-layer rg-kaki"><span class="rg-lab">書き下し</span><div class="rg-text"><ruby>列藩<rt>れっぱん</rt></ruby>を<ruby>廃<rt>はい</rt></ruby>して<ruby>悉<rt>ことごと</rt></ruby>く<ruby>県<rt>けん</rt></ruby>と<ruby>為<rt>な</rt></ruby>す。</div></div>
-    <div class="rg-layer rg-yaku"><span class="rg-lab">現代語訳</span><div class="rg-text">すべての藩を廃止し、ことごとく県にする。</div></div>
+    <div class="rg-layer rg-genbun"><span class="rg-lab">原文</span><div class="rg-text">列藩ヲ<span class="rg-tok" tabindex="0">廢<span class="rg-pop"><b>廢シテ → 廃して（はいして）</b><i>abolish</i><u>旧字体 廢 → 新字体 廃。文語サ変「廢す」＝ 現代「廃する」。シテ＝して。</u><button class="rg-say" data-say="はい" title="この語を聞く">🔊 聞く</button></span></span>シテ<span class="rg-tok" tabindex="0">悉ク<span class="rg-pop"><b>ことごとく</b><i>every one, without exception</i><u>副詞。布告・詔勅に頻出。</u><button class="rg-say" data-say="ことごとく" title="この語を聞く">🔊 聞く</button></span></span><span class="rg-tok" tabindex="0">縣<span class="rg-pop"><b>けん</b><i>prefecture</i><u>旧字体 縣 → 新字体 県。</u><button class="rg-say" data-say="けん" title="この語を聞く">🔊 聞く</button></span></span>ト<span class="rg-tok" tabindex="0">爲ス<span class="rg-pop"><b>なす</b><i>make (X) into (Y)</i><u>旧字体 爲 → 為。「A ヲ B ト爲ス」＝ A を B にする。終止形 爲ス（す）。</u><button class="rg-say" data-say="なす" title="この語を聞く">🔊 聞く</button></span></span>。</div></div>
+    <div class="rg-layer rg-kaki"><span class="rg-lab">書き下し</span><div class="rg-text"><button class="rg-play" data-say="れっぱんをはいしてことごとくけんとなす" title="書き下しを聞く（古文の読み）">🔊</button><ruby>列藩<rt>れっぱん</rt></ruby>を<ruby>廃<rt>はい</rt></ruby>して<ruby>悉<rt>ことごと</rt></ruby>く<ruby>県<rt>けん</rt></ruby>と<ruby>為<rt>な</rt></ruby>す。</div></div>
+    <div class="rg-layer rg-yaku"><span class="rg-lab">現代語訳</span><div class="rg-text"><button class="rg-play" data-say="すべての藩を廃止し、ことごとく県にする" title="現代語訳を聞く">🔊</button>すべての藩を廃止し、ことごとく県にする。</div></div>
     <div class="rg-layer rg-en"><span class="rg-lab">English</span><div class="rg-text">Abolish all the domains and make them, every one, into prefectures.</div></div>
   </div>
 </div>
@@ -619,6 +620,54 @@ ul.task-list li input[type="checkbox"] {
   }
   if (document.readyState !== 'loading') bind();
   else document.addEventListener('DOMContentLoaded', bind);
+})();
+</script>
+<script>
+/* Reading-guide audio: click-to-hear via the browser's Web Speech API.
+   Buttons carry data-say="<hiragana or text>"; we speak it as ja-JP.
+   Guarded + harmless on pages with no .rg-say / .rg-play buttons. */
+(function () {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  var jaVoice = null;
+  function pickVoice() {
+    try {
+      var vs = synth.getVoices() || [];
+      var v = vs.filter(function (x) { return /^ja(\b|-|_)/i.test(x.lang) || /japan/i.test(x.name); });
+      if (v.length) {
+        // Prefer a local, natural-sounding voice if several exist.
+        v.sort(function (a, b) { return (b.localService ? 1 : 0) - (a.localService ? 1 : 0); });
+        jaVoice = v[0];
+      }
+    } catch (e) {}
+  }
+  pickVoice();
+  synth.onvoiceschanged = pickVoice;
+
+  var current = null;
+  function speak(text, btn) {
+    if (!text) return;
+    synth.cancel();
+    if (current) { current.classList.remove('rg-speaking'); current = null; }
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = 'ja-JP';
+    if (jaVoice) u.voice = jaVoice;
+    u.rate = 0.88;
+    if (btn) {
+      btn.classList.add('rg-speaking');
+      current = btn;
+      u.onend = u.onerror = function () { btn.classList.remove('rg-speaking'); if (current === btn) current = null; };
+    }
+    synth.speak(u);
+  }
+
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.rg-say, .rg-play') : null;
+    if (!b) return;
+    e.preventDefault();
+    e.stopPropagation();
+    speak(b.getAttribute('data-say'), b);
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

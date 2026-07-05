@@ -114,6 +114,61 @@ body.rg-hide-en   .rg-layer.rg-en   { display: none; }
 /* Furigana over the large 原文 line: nudge size so it reads as a gloss */
 .rg-genbun ruby rt { font-size: 0.42em; color: var(--crimson); }
 
+/* ---------- Audio: click-to-hear (Web Speech API) ---------- */
+/* Speaker buttons appear in token popups, on the 書き下し/現代語訳 lines,
+   and in the vocabulary / old-kanji reference tables. */
+.rg-say, .rg-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  line-height: 1;
+  border-radius: 5px;
+  transition: background .12s, color .12s, transform .08s;
+}
+.rg-say:active, .rg-play:active { transform: scale(0.9); }
+
+/* Per-line play buttons (start of the 書き下し / 現代語訳 text) */
+.rg-play {
+  font-size: 0.82em;
+  color: var(--ink-faint);
+  padding: 0.05em 0.3em;
+  margin-right: 0.25em;
+  vertical-align: 0.05em;
+}
+.rg-play:hover { background: var(--paper-deep); color: var(--note-bar); }
+
+/* Speaker inside a hover-gloss popup */
+.rg-pop .rg-say {
+  color: #FFD9A0;
+  font-size: 0.78rem;
+  margin-top: 0.5em;
+  border: 1px solid #4A3A2B;
+  padding: 0.18em 0.6em;
+  gap: 0.3em;
+}
+.rg-pop .rg-say:hover { background: #4A3A2B; }
+
+/* Speaking state (set by JS while an utterance plays) */
+.rg-say.rg-speaking, .rg-play.rg-speaking { color: var(--crimson); background: var(--important-bg); }
+
+/* Reference tables with a "聞く" (listen) column */
+.rg-reftable { width: 100%; border-collapse: collapse; margin: 0.6em 0 1.1em; }
+.rg-reftable th, .rg-reftable td {
+  border: 1px solid var(--paper-rule);
+  padding: 0.4em 0.7em;
+  text-align: left;
+  vertical-align: top;
+}
+.rg-reftable th { background: var(--paper-deep); font-family: var(--font-sans); font-size: 0.8rem; letter-spacing: 0.03em; }
+.rg-reftable .rg-jp { font-family: var(--font-jp); font-size: 1.05rem; }
+.rg-reftable td.rg-listen { text-align: center; width: 3rem; }
+.rg-reftable td.rg-listen .rg-say { font-size: 1.1rem; color: var(--note-bar); padding: 0.1em 0.35em; }
+.rg-reftable td.rg-listen .rg-say:hover { background: var(--note-bg); }
+
 /* ---------- Hover-gloss tokens (pure CSS, no JS needed) ---------- */
 
 .rg-tok {

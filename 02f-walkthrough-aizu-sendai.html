@@ -788,6 +788,54 @@ ul.task-list li input[type="checkbox"] {
   else document.addEventListener('DOMContentLoaded', bind);
 })();
 </script>
+<script>
+/* Reading-guide audio: click-to-hear via the browser's Web Speech API.
+   Buttons carry data-say="<hiragana or text>"; we speak it as ja-JP.
+   Guarded + harmless on pages with no .rg-say / .rg-play buttons. */
+(function () {
+  if (!('speechSynthesis' in window)) return;
+  var synth = window.speechSynthesis;
+  var jaVoice = null;
+  function pickVoice() {
+    try {
+      var vs = synth.getVoices() || [];
+      var v = vs.filter(function (x) { return /^ja(\b|-|_)/i.test(x.lang) || /japan/i.test(x.name); });
+      if (v.length) {
+        // Prefer a local, natural-sounding voice if several exist.
+        v.sort(function (a, b) { return (b.localService ? 1 : 0) - (a.localService ? 1 : 0); });
+        jaVoice = v[0];
+      }
+    } catch (e) {}
+  }
+  pickVoice();
+  synth.onvoiceschanged = pickVoice;
+
+  var current = null;
+  function speak(text, btn) {
+    if (!text) return;
+    synth.cancel();
+    if (current) { current.classList.remove('rg-speaking'); current = null; }
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = 'ja-JP';
+    if (jaVoice) u.voice = jaVoice;
+    u.rate = 0.88;
+    if (btn) {
+      btn.classList.add('rg-speaking');
+      current = btn;
+      u.onend = u.onerror = function () { btn.classList.remove('rg-speaking'); if (current === btn) current = null; };
+    }
+    synth.speak(u);
+  }
+
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.rg-say, .rg-play') : null;
+    if (!b) return;
+    e.preventDefault();
+    e.stopPropagation();
+    speak(b.getAttribute('data-say'), b);
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

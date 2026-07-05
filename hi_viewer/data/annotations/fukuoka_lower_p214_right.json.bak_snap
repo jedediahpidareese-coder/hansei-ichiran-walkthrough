@@ -1,0 +1,542 @@
+[
+  {
+    "id": "anno-fukuoka_lower_p214_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（福井）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（福井）— 版面右端の柱（走り頭）（はんせいいちらんひょう だいきゅうさつ・ふくい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header in the outer (right) margin: Domain Survey Table, ninth fascicle (Fukui). The nine 藩制一覧表 fascicles are numbered registers, not data themes; fascicles 8-9 are the officials + military register. This header names Fukui because Fukui's entry STARTS on this page at the ○福井藩 marker, but the officials/military data printed here is the preceding domain (Fukuoka). Provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header 藩制一覧表第九（福井）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2103,1256,64,572"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百四（404）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed folio number 404 in the outer margin (faint on this scan; 四／百／四 stacked). The facing page lower_p214_left carries 四百五 (405), confirming this recto is 404 and reads first."
+      },
+      {
+        "purpose": "identifying",
+        "value": "printed folio number 四百四 (404)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2094,3106,58,160"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事 六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillor (gon-dai-sanji) -- 6 persons. Belongs to the PRECEDING domain (Fukuoka), whose entry is closing on this page; the six appointees hang in the first three name columns below (八代利征・宮内成人・小河愛四郎・中村田六・松浦格彌・團平一郎). The rank sequence begins mid-list here (知事/大參事 were on the prior page)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1969,1000,80,575"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事 二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (sho-sanji) -- 2 persons. Preceding domain (Fukuoka). The two appointees are 德永織人 and 山内信實 (fourth name column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1575,1004,78,576"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillor (gon-sho-sanji). No numeral prints beneath the heading on this page; the two appointees (林元武・戸田鋤) fill the leftmost name column, so the effective count is 2. Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事 heading, no count printed (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1445,1001,76,332"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八代利征／宮内成人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "八代利征（やしろ としゆき）／宮内成人（くない なりと）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "First appointee column under 権大参事: Yashiro Toshiyuki (upper register) over Kunai Narito (lower register). The first two of the six gon-dai-sanji. Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事 names col 1: 八代利征・宮内成人 (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1956,2011,86,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小河愛四郎／中村田六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小河愛四郎（おがわ あいしろう）／中村田六（なかむら たろく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second appointee column under 権大参事: Ogawa Aishiro (upper) over Nakamura Taroku (lower). Gon-dai-sanji nos. 3-4. Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事 names col 2: 小河愛四郎・中村田六 (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1821,2010,86,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "松浦格彌／團平一郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "松浦格弥（まつうら かくや）／団平一郎（だん へいいちろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Third appointee column under 権大参事: Matsuura Kakuya (upper) over Dan Heiichiro (lower). Gon-dai-sanji nos. 5-6, completing the six. Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事 names col 3: 松浦格彌・團平一郎 (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1691,2012,82,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "德永織人／山内信實"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "徳永織人（とくなが おりと）／山内信実（やまうち のぶざね）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The two Junior Councillors (sho-sanji): Tokunaga Orito (upper) over Yamauchi Nobuzane (lower). Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事 names col: 德永織人・山内信實 (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1560,2010,85,1508"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "林元武／戸田鋤"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "林元武（はやし げんぶ）／戸田鋤（とだ すき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The two Provisional Junior Councillors (gon-sho-sanji): Hayashi Genbu (upper) over Toda Suki (lower); leftmost officials column. Preceding domain (Fukuoka)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事 names col: 林元武・戸田鋤 (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1427,2017,90,1503"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）— 陸軍の部の見出し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops -- the land-forces section heading for the preceding domain (Fukuoka). The battalion/artillery/total columns and the ship line hang below and to the left of it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊 military section heading (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1313,1170,62,157"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三大隊 士族ヲ以編ス 一大隊三百二十人ツ、外ニ役員五十六人ツ、"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三大隊（さんだいたい）士族を以て編す。一大隊三百二十人ずつ、外に役員五十六人ずつ。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Three battalions organized from shizoku; each battalion 320 men, plus 56 officers/staff each (double-column annotation). ~1,128 men. Component of Fukuoka's 4,272 total. (The MASTER H2 sweep's '327' is a misread; the printed per-battalion figure is 三百二十 = 320.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1150,1006,120,1135"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲隊 十六門 一門二十二人ツ、外ニ役員廿八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大砲隊（たいほうたい）十六門。一門二十二人ずつ、外に役員二十八人。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery corps -- 16 guns; each gun crewed by 22 men, plus 28 officers/staff (single-column annotation). 16 cannon. Component of Fukuoka's establishment."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,1004,79,915"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七大隊 上下卒ヲ以テ編ス 一大隊三百十人ツ、外ニ役員五十六人ツ、"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "七大隊（しちだいたい）上下の卒を以て編す。一大隊三百十人ずつ、外に役員五十六人ずつ。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Seven battalions organized from upper- and lower-rank sotsu; each battalion 310 men, plus 56 officers/staff each (double-column annotation). ~2,562 men. Largest component of Fukuoka's 4,272 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大隊・2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:879,1006,114,925"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總計四千二百七拾二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総計四千二百七十二人（そうけい 4,272 にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total: 4,272 men -- the summed strength of the three shizoku battalions, seven sotsu battalions, and the 16-gun artillery corps. This is Fukuoka's total military establishment (large force consistent with the ~473,000-koku Kuroda domain)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "総計"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:768,1092,77,829"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "船"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船（ふね）— 艦船の項目見出し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ships -- the naval sub-heading. A single glyph at the top of its column; the vessel count (西洋形運用舶 一艘) prints in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "船 ships section label (Fukuoka)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:633,1177,77,73"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "西洋形運用舶 一艘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "西洋形運用舶（せいようがた うんようはく）一艘（いっそう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Western-style operating (transport/service) vessel -- 1 ship. Fukuoka's sole recorded vessel under the 船 heading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "軍艦"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:492,1009,83,914"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_lower_p214_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○福井藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○福井藩（ふくいはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker ○福井藩 (Fukui domain) at the far left. It OPENS Fukui's fascicle-9 entry; everything to its RIGHT on this page (the officials roster and the 4,272-man military establishment) is the PRECEDING domain, Fukuoka. Fukui's own data (governor Matsudaira, 737 troops) begins here and continues on the facing page lower_p214_left, which is headed 四百五 (405)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○福井藩 domain-boundary marker (NEXT domain = Fukui)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:346,1352,99,555"
+      }
+    }
+  }
+]
