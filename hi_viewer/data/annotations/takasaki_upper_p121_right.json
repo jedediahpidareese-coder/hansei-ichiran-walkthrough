@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1378,1178,76,834"
+        "value": "xywh=pixel:1378,1178,76,800"
       }
     }
   },
@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1248,1175,79,839"
+        "value": "xywh=pixel:1248,1175,79,807"
       }
     }
   },
@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1108,1176,77,756"
+        "value": "xywh=pixel:1108,1176,77,727"
       }
     }
   },
@@ -475,7 +475,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:948,1177,100,666"
+        "value": "xywh=pixel:948,1177,100,637"
       }
     }
   },
@@ -595,7 +595,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:814,1882,115,810"
+        "value": "xywh=pixel:814,1930,115,762"
       }
     }
   },
@@ -655,7 +655,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:575,1172,75,924"
+        "value": "xywh=pixel:575,1172,75,873"
       }
     }
   },
@@ -685,7 +685,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:556,2048,107,806"
+        "value": "xywh=pixel:556,2048,107,751"
       }
     }
   },
@@ -776,6 +776,66 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:444,1934,66,154"
+      }
+    }
+  },
+  {
+    "id": "anno-takasaki_upper_p121_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "醫師 檢校"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "医師 検校／いし けんぎょう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household-register status labels: ishi (physicians) and kengyō (highest rank of the blind guild) — label-only column, no household count printed here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "座頭瞽女戸別（高崎）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p121_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1178,87,666"
+      }
+    }
+  },
+  {
+    "id": "anno-takasaki_upper_p121_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "座頭 瞽女"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "座頭 瞽女／ざとう ごぜ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household-register status labels: zatō (blind male guild musicians/masseurs) and goze (blind female musicians) — label-only column, no household count printed here (person counts appear in the far-left 座頭 65人 / 瞽女 41人 columns)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "醫師檢校戸別（高崎）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p121_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1915,1177,88,667"
       }
     }
   }

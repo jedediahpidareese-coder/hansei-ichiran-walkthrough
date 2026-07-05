@@ -568,5 +568,95 @@
         "value": "xywh=pixel:449,2094,49,984"
       }
     }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族壹萬百二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）壹萬百二十二人／10,122人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) population total: 10,122 persons. Distinct from the shizoku household count (701, boxed separately as 士族戸數). The M/F split below reconciles exactly: male 5,133 + female 4,989 = 10,122. Cross-verified against MASTER (士族=壹萬百二十二人=10122, includes 地士); the older lead-note figures 男5,929/女4,949 are a misread — the scan clearly reads 男五千百三十三/女四千九百八拾九."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口19"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:597,1114,80,752"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族壹萬七千八百五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）壹萬七千八百五十一人／17,851人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower samurai / foot-soldier class) population total: 17,851 persons. Distinct from the sotsu household count (4,486, boxed separately as 卒族戸數). The M/F split below reconciles exactly: male 9,348 + female 8,503 = 17,851. Cross-verified against MASTER enrichment cell 卒族人口=壹萬七千八百五十一人=17851."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口20"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:457,1122,86,1002"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百十／210"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 210 (page marker, not a data value). Consistent with MASTER, which records the adjacent domain-marker page (upper_p117_left) as 本書頁番号 二百九=209; Takamatsu spans book pages 209-210."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号二百十"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2201,3102,68,162"
+      }
+    }
   }
 ]

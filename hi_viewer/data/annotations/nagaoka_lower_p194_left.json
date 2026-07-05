@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1098,1320,306,2065"
+        "value": "xywh=pixel:1089,1329,379,2059"
       }
     }
   },
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:915,1277,145,620"
+        "value": "xywh=pixel:923,1277,137,620"
       }
     }
   },
@@ -356,6 +356,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:830,3100,48,266"
+      }
+    }
+  },
+  {
+    "id": "anno-nagaoka_lower_p194_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "武部静藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "武部静蔵／たけべ せいぞう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takebe Seizō — the 4th Gon-daisanji (acting senior councillor) appointee of Nagaoka. This name column sits in its own column at x1770-1842 (y1775-2259), to the LEFT of the 権大参事 heading column. It is listed in the anno-06 (権大参事) transcription but no box physically covers it: anno-06's box is x1889-1993 and does not reach this column, and anno-07 (少参事) ends at x1733. Cleanest fix is to WIDEN anno-06's box leftward to ~x1760 to enclose both its heading column and this 武部静藏 column (that would also fix the ~11px left-poke of anno-06's bottom 平 glyph at x1878); alternatively add this as a standalone box. Ink measured x1770-1842, y1775-2259; padded to the given rect."
+      },
+      {
+        "purpose": "identifying",
+        "value": "武部静藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1760,1765,92,504"
       }
     }
   }

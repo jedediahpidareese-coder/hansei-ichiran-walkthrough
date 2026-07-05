@@ -145,7 +145,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:4501,3136,165,1665"
+        "value": "xywh=pixel:4453,3136,234,1665"
       }
     }
   },
@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:4172,3122,188,3880"
+        "value": "xywh=pixel:4122,3134,263,3868"
       }
     }
   },
@@ -626,6 +626,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:1084,2190,213,1678"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p242_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "西村正倫"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "西村正倫（にしむら まさとも）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiroshima's single seated Provisional Senior Councillor (権大参事) appointee, read top-to-bottom: Nishimura Masatomo (西村正倫). Sits in the 権大参事 column below the heading/count (which reads 権大参事 一人 外三人 人撰中 = 1 seated, 3 more still under selection), left of the ○廣島藩 marker, so it belongs to Hiroshima. This name column (ink x2760-2916, y6107-7288) was left un-boxed: the heading box above it (権大参事 一人…, ending ~y4120) does not extend down to cover it. Glyphs verified single-character: 西 (y6107-6233), 村 (y6452-6586), 正 (y6820-6931), 倫 (人偏+侖, y7160-7288)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事appointee 西村正倫"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p242_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2750,6097,176,1201"
       }
     }
   }

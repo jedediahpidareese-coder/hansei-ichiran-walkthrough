@@ -55,7 +55,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2086,1270,60,769"
+        "value": "xywh=pixel:2084,1272,56,299"
       }
     }
   },
@@ -85,7 +85,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1994,1272,96,1107"
+        "value": "xywh=pixel:1994,1272,87,1107"
       }
     }
   },
@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1089,2325,54,461"
+        "value": "xywh=pixel:1088,2183,64,605"
       }
     }
   },
@@ -415,7 +415,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1033,2325,54,529"
+        "value": "xywh=pixel:1024,2181,62,675"
       }
     }
   },
@@ -535,7 +535,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:687,2142,54,434"
+        "value": "xywh=pixel:684,2178,58,400"
       }
     }
   },
@@ -565,7 +565,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:633,2142,52,502"
+        "value": "xywh=pixel:624,2178,58,468"
       }
     }
   },
@@ -716,6 +716,96 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:2099,3230,66,168"
+      }
+    }
+  },
+  {
+    "id": "anno-tottori_upper_p052_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' breakdown marker sitting above the male/female split of the total population (371,640): the 男 191,093 / 女 180,547 columns below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内訳marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p052_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,2116,56,56"
+      }
+    }
+  },
+  {
+    "id": "anno-tottori_upper_p052_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' breakdown marker sitting above the male/female split of the samurai (shizoku) population (8,655): the 男 4,200 / 女 4,455 columns below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族内訳marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p052_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:666,2108,54,57"
+      }
+    }
+  },
+  {
+    "id": "anno-tottori_upper_p052_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' breakdown marker sitting above the male/female split of the foot-soldier (sotsu) population (24,255 as printed): the 男 12,150 / 女 22,055 columns below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族内訳marker"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p052_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:390,2275,56,55"
       }
     }
   }

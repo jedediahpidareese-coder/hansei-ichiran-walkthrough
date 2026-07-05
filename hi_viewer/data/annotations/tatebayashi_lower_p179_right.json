@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1037,2332,78,217"
+        "value": "xywh=pixel:1033,2334,82,250"
       }
     }
   },
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1025,2498,79,1013"
+        "value": "xywh=pixel:1021,2925,90,585"
       }
     }
   },
@@ -355,7 +355,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:770,2329,79,280"
+        "value": "xywh=pixel:765,2334,84,326"
       }
     }
   },
@@ -415,7 +415,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:758,2555,89,954"
+        "value": "xywh=pixel:758,2926,80,580"
       }
     }
   },
@@ -476,6 +476,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:496,2925,78,583"
+      }
+    }
+  },
+  {
+    "id": "anno-tatebayashi_lower_p179_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百三十四／さんびゃくさんじゅうよん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 334 in the bottom margin (not data)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百三十四"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p179_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2232,3098,71,267"
       }
     }
   }

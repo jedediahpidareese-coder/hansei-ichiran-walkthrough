@@ -85,7 +85,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1938,1071,112,1852"
+        "value": "xywh=pixel:1926,1075,137,243"
       }
     }
   },
@@ -115,7 +115,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2020,1282,95,1469"
+        "value": "xywh=pixel:2020,1350,95,1401"
       }
     }
   },
@@ -145,7 +145,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1888,1288,90,1635"
+        "value": "xywh=pixel:1888,1350,93,1573"
       }
     }
   },
@@ -446,6 +446,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:424,1174,80,419"
+      }
+    }
+  },
+  {
+    "id": "anno-yoshii_upper_p117_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　八十一人　卒　三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）八十一人（81にん）　卒（そつ）三十人（30にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Standalone status-group person breakdown printed as its own full-size column (between the population section's left-side 神社/佛閣 heading at x943 and the 穢多/非人 heading at x687): 'Shizoku 81 persons; sotsu 30 persons.' These are the same figures given in the double-column warichu note under the 人員 total to the right (81 + 30 = 111 persons = the 人員 and 戸數 totals), listed here as the explicit status split. Classified is_data=false because it restates the 人員-column breakdown rather than a new headline value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族卒人員内訳"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p117_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:816,1169,90,1090"
       }
     }
   }

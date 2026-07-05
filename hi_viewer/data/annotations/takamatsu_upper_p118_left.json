@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1560,1840,130,687"
+        "value": "xywh=pixel:1560,1840,130,654"
       }
     }
   },
@@ -566,6 +566,96 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:1552,2497,70,454"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二千百五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二千百五十三人（にせんひゃくごじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops (heiin), grand total: 2,153 persons — the total military-personnel figure printed to the left of the 兵員 header (per the Kōgo/1870 11th-month survey); the 338, 18 and 1,551 columns are its sub-counts"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員総数"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1700,1122,99,576"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千五百五十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "千五百五十一人（せんごひゃくごじゅういちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry (hohei): 1,551 persons — an upper-band military sub-count of the 2,153 troop total; the 歩兵 label (existing box anno-13) sits to the right, this is its unboxed value; MASTER decomposition lists 步兵 千五百五十一人"
+      },
+      {
+        "purpose": "identifying",
+        "value": "歩兵員数"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1302,1190,94,559"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十八人（じゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "18 persons — an upper-band military sub-count of the 2,153 troop total, printed between the 338 (anno-09) and 1,551 (infantry) columns, aligned above the 士分並/輕卒 labels; currently unboxed"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員内訳十八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1440,1192,88,244"
       }
     }
   }

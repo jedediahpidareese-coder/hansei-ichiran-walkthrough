@@ -115,7 +115,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2476,2383,56,253"
+        "value": "xywh=pixel:2480,2170,49,464"
       }
     }
   },
@@ -145,7 +145,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2424,2383,50,322"
+        "value": "xywh=pixel:2419,2170,59,533"
       }
     }
   },
@@ -235,7 +235,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2221,1964,54,501"
+        "value": "xywh=pixel:2220,2000,56,462"
       }
     }
   },
@@ -265,7 +265,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2171,1964,48,432"
+        "value": "xywh=pixel:2163,2000,56,393"
       }
     }
   },
@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2096,1066,63,1334"
+        "value": "xywh=pixel:2107,1066,52,1334"
       }
     }
   },
@@ -565,7 +565,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:954,1302,112,1513"
+        "value": "xywh=pixel:973,1302,93,1513"
       }
     }
   },
@@ -596,6 +596,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:825,3146,65,215"
+      }
+    }
+  },
+  {
+    "id": "anno-kasama_upper_p094_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に二（ほかにに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small warichu side-annotation printed at the upper-right of the 士族戸數 heading: '外二' ('plus 2 outside / additional 2 [households] not counted in the 571'). Editorial notation on the Kawagoe (川越藩分) shizoku-household figure, not a data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "川越士族戸數外書（外二・川越藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p094_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2678,1082,55,112"
       }
     }
   }

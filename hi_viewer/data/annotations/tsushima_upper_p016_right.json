@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1413,1890,79,666"
+        "value": "xywh=pixel:1413,1890,79,609"
       }
     }
   },
@@ -235,7 +235,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1275,2302,17,780"
+        "value": "xywh=pixel:1275,1974,85,489"
       }
     }
   },
@@ -471,7 +471,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1281,1128,89,1228"
+        "value": "xywh=pixel:1280,1131,91,746"
       }
     }
   },
@@ -657,7 +657,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1677,3006,69,720"
+        "value": "xywh=pixel:1677,3062,69,664"
       }
     }
   },
@@ -687,7 +687,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1543,2922,70,738"
+        "value": "xywh=pixel:1543,2977,70,683"
       }
     }
   },
@@ -747,7 +747,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1285,2411,70,671"
+        "value": "xywh=pixel:1285,2471,70,608"
       }
     }
   },
@@ -777,7 +777,97 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:975,3007,115,538"
+        "value": "xywh=pixel:974,3067,118,474"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同壹貫八百九拾匁"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 一貫八百九十匁／どう 1かん890もんめ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto [appraised value 代]: 1 kan 890 monme (silver) — the appraised value of the alum (myoban, 1,400 kin) named below in this column. Arithmetic check: 1,400 kin x rate 1.35 monme/kin = 1,890 monme = confirmed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "代明礬"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1416,1130,91,670"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同四拾六貫三百八拾匁壹分五毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 四十六貫三百八十匁一分五毛／どう 46かん380もんめ1ぶ5もう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto [appraised value 代]: 46 kan 380 monme 1 bu 5 mou (silver) — the appraised value of the sappanwood (tanboku, 7,005 kin) named below in this column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "代丹木"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1542,1134,94,1168"
+      }
+    }
+  },
+  {
+    "id": "anno-tsushima_upper_p016_right-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同貳拾九貫八百三拾四匁四匁四分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 二十九貫八百三十四匁…四分／どう 29かん834もんめ…（原文に匁字が重出）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto [appraised value 代] of pepper (kosho, 3,100 kin): reads literally 29 kan 834 monme ... 4 bu. NOTE: the source prints a duplicated 匁 (…四匁四匁四分) which does not parse as a normal descending silver figure; this is a source printing anomaly (expected value from 3,100 kin x rate 9.6624 monme/kin = 29,953.44 monme differs). Transcribed as printed; value left as the head figure 29 kan 834 monme pending resolution."
+      },
+      {
+        "purpose": "identifying",
+        "value": "代胡椒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p016_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1673,1136,99,1254"
       }
     }
   }

@@ -358,5 +358,35 @@
         "value": "xywh=pixel:876,3176,55,169"
       }
     }
+  },
+  {
+    "id": "anno-tokushima_upper_p050_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち（内）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Structural sub-header '内' (of which): introduces the breakdown value in the column to its lower-left (41,675 koku, the five-year average tax remission for 1864-1868). A label glyph, not a data value. Left of the ○徳島藩 marker, so belongs to Tokushima."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内12"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p050_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1803,1242,76,80"
+      }
+    }
   }
 ]

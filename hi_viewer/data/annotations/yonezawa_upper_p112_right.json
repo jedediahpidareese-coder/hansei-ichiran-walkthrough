@@ -388,5 +388,35 @@
         "value": "xywh=pixel:2198,3135,66,218"
       }
     }
+  },
+  {
+    "id": "anno-yonezawa_upper_p112_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸役稅金"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸役税金（しょやくぜいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Miscellaneous-duty gold tax' — the printed field-label column (諸役稅金), stacked 諸/役/稅/金. It heads the value column immediately to its left (anno-11: 一金三萬三千四百五拾九兩三分三朱). Label only, not a data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸役稅金見出"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p112_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:580,1060,86,330"
+      }
+    }
   }
 ]

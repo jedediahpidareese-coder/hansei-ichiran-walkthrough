@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1881,1100,112,1589"
+        "value": "xywh=pixel:1881,1100,112,1537"
       }
     }
   },
@@ -265,7 +265,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1741,1102,113,1634"
+        "value": "xywh=pixel:1741,1102,113,1577"
       }
     }
   },
@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1622,2283,56,252"
+        "value": "xywh=pixel:1618,2286,88,248"
       }
     }
   },
@@ -476,6 +476,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:822,3114,60,267"
+      }
+    }
+  },
+  {
+    "id": "anno-nakamura_upper_p159_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内／うち（そのうち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Of which\" marker heading the status-category (華族／士族…) breakdown of the 人員 population total of 63,893 — a second 内 distinct from the one heading the gendaka tax breakdown (box 05)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員内訳内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p159_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1250,1100,73,78"
       }
     }
   }

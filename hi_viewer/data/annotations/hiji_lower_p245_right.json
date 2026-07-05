@@ -478,5 +478,65 @@
         "value": "xywh=pixel:498,993,118,2532"
       }
     }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "野津榮"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "野津榮（のづ さかえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointee of the PRECEDING (unnamed) domain — Nozu Sakae. This is the top-register name in the second name sub-column (ink x2005-2074), sitting to the RIGHT of the ○日出藩 marker; per the fascicle-9 overflow rule it belongs to the domain before Hiji, not to Hiji. Pure-name column, top register only (its bottom register is blank). Verified glyph-by-glyph: 野・津・榮 (榮 in kyūjitai). Not covered by the existing rightmost-name box (岡部與一郎・河島辨次), which is a separate column further right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "野津榮（前藩）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1997,1987,85,581"
+      }
+    }
+  },
+  {
+    "id": "anno-hiji_lower_p245_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加藤十左衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加藤十左衞門（かとう じゅうざえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointee of the PRECEDING (unnamed) domain — Katō Jūzaemon. This is the BOTTOM-register name in the same physical sub-column as 加藤護助 (which occupies the top register and is boxed separately as the existing 天野傳四郎・加藤護助 box). It sits right of the ○日出藩 marker and so belongs to the domain before Hiji. Pure-name column, six glyphs (ink y2917-3485, x1881-1950). Verified glyph-by-glyph: 加・藤・十（plain cross, NOT 千）・左・衞（kyūjitai）・門."
+      },
+      {
+        "purpose": "identifying",
+        "value": "加藤十左衞門（前藩）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p245_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1873,2909,84,584"
+      }
+    }
   }
 ]

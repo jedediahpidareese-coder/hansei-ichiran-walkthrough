@@ -475,7 +475,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1016,1157,126,1861"
+        "value": "xywh=pixel:1053,1157,89,1861"
       }
     }
   },
@@ -536,6 +536,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:803,3082,60,218"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p099_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　百八十九人　内　男九十一人　女九十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひにん（非人）　百八十九人（ひゃくはちじゅうきゅうにん）　うち　男九十一人（おとこきゅうじゅういちにん）　女九十八人（おんなきゅうじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste), population: 189 persons — of which 91 male, 98 female."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口非人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p099_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:931,1162,119,993"
       }
     }
   }

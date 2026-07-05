@@ -85,7 +85,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1368,2515,49,472"
+        "value": "xywh=pixel:1368,2239,60,751"
       }
     }
   },
@@ -115,7 +115,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1316,2515,47,610"
+        "value": "xywh=pixel:1302,2240,65,888"
       }
     }
   },
@@ -265,7 +265,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:940,1162,94,994"
+        "value": "xywh=pixel:940,1162,94,963"
       }
     }
   },
@@ -678,6 +678,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:1184,2076,47,607"
+      }
+    }
+  },
+  {
+    "id": "anno-hiroshima_lower_p096_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十九（ひゃくろくじゅうきゅう）＝169"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 169 (page-number, not data)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "廣島頁番號"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:798,3095,65,214"
       }
     }
   }

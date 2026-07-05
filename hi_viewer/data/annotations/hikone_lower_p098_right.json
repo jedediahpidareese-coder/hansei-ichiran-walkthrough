@@ -115,7 +115,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1760,1003,132,1516"
+        "value": "xywh=pixel:1783,1003,109,1516"
       }
     }
   },
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:890,1061,78,1286"
+        "value": "xywh=pixel:890,1061,78,191"
       }
     }
   },
@@ -355,7 +355,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1002,1224,102,1981"
+        "value": "xywh=pixel:1002,1224,102,1624"
       }
     }
   },
@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:871,1169,26,1178"
+        "value": "xywh=pixel:866,1256,99,1090"
       }
     }
   },
@@ -445,7 +445,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:611,1142,139,594"
+        "value": "xywh=pixel:611,1142,114,594"
       }
     }
   },
@@ -476,6 +476,66 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:458,1166,114,1757"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百七十二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくななじゅうに（172）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom outer margin: 172 (百七十二). Not data — a page folio."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁番号百七十二"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2208,3101,71,214"
+      }
+    }
+  },
+  {
+    "id": "anno-hikone_lower_p098_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "改メニヨレハ六升五合八勺チ除ク"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "あらためによれば ろくしょう ごごう はっしゃく を のぞく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-column warichu (double-column interlinear note) attached to the 合計米 rice grand total: 'By the [re-]survey/revision, 6 shō 5 gō 8 shaku (0.0658 koku) is to be deducted.' Confirmed against the total: 合計米 = 93,588.8658 koku, whose sub-koku fraction 六升五合八勺 (=0.0658) is exactly the deducted amount, and 正租米 83,026.042642 + 雜税米 10,562.823156 = 93,588.8658, so the note documents the survey adjustment behind the rice total. Not a standalone data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計米割書改メニヨレハ六升五合八勺チ除ク"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:968,2935,122,546"
       }
     }
   }

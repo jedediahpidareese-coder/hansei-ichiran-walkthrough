@@ -388,5 +388,35 @@
         "value": "xywh=pixel:2438,2374,224,1171"
       }
     }
+  },
+  {
+    "id": "anno-tatebayashi_lower_p179_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百三十五／さんびゃくさんじゅうご"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 335 in the bottom-left outer margin (not domain data)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "印刷ページ番号三百三十五"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p179_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:840,3128,74,266"
+      }
+    }
   }
 ]

@@ -418,5 +418,35 @@
         "value": "xywh=pixel:780,3057,67,219"
       }
     }
+  },
+  {
+    "id": "anno-hikone_lower_p098_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金三百四十八兩三分二朱永六十五文六分七厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）三百四十八両（さんびゃくよんじゅうはちりょう）三分二朱（さんぶにしゅ）永六十五文（えいろくじゅうごもん）六分七厘四毛（ろくぶななりんよんもう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax cash: 348 ryō 3 bu 2 shu, plus 65 mon 6 fun 7 rin 4 mō (ei/copper reckoning) — the cash counterpart of the 雜稅米 (miscellaneous-tax rice) column to its right, mirroring how the 金 (2,248 ryō) column pairs with the principal-tax rice 正租米. Previously unboxed, in the gutter between the 錢 and 雜稅米 columns."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p098_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1986,1383,105,1839"
+      }
+    }
   }
 ]

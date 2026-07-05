@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:348,1294,114,587"
+        "value": "xywh=pixel:348,1294,114,559"
       }
     }
   },
@@ -446,6 +446,66 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:354,1856,50,639"
+      }
+    }
+  },
+  {
+    "id": "anno-ozu_upper_p073_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅金 百七十二兩三步三朱餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ざつぜいきん ひゃくななじゅうにりょう さんぶ さんしゅ あまり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax cash (second sub-record): 172 ryo 3 bu 3 shu and change. A parallel misc-tax figure to the 195-ryo one at right; belongs to Ozu domain (its Niiya-branch sub-record)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大洲雜稅金弐"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p073_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:624,1224,110,1166"
+      }
+    }
+  },
+  {
+    "id": "anno-ozu_upper_p073_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "胡麻 百八十七石四斗九升餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごま ひゃくはちじゅうななこく よんと きゅうしょう あまり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sesame (second sub-record): 187.49 koku and change. A second sesame yield paralleling the 222.1-koku one at right; belongs to Ozu domain (its Niiya-branch sub-record)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大洲胡麻弐"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p073_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:757,1308,106,1082"
       }
     }
   }

@@ -355,7 +355,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:568,1064,94,799"
+        "value": "xywh=pixel:576,1064,86,799"
       }
     }
   },
@@ -475,7 +475,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:416,1825,112,1081"
+        "value": "xywh=pixel:433,1829,80,663"
       }
     }
   },
@@ -506,6 +506,66 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:2183,3159,70,219"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな よんじゅうににん／女 42人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family (社家) population, female: 42 persons (left run of the 同人口 83-person split; 41 male + 42 female = 83)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:412,2570,57,336"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ よんじゅういちにん／男 41人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family (社家) population, male: 41 persons (right run of the 同人口 83-person split; 41 male + 42 female = 83)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:471,2570,60,336"
       }
     }
   }
