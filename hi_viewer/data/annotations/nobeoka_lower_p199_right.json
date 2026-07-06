@@ -718,5 +718,35 @@
         "value": "xywh=pixel:379,2882,189,481"
       }
     }
+  },
+  {
+    "id": "anno-nobeoka_lower_p199_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "曾根富彌"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "曽根富弥／そね とみや"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sone Tomiya (acting senior councillor, per the caretaker-official's report). This name-column sits in the gap between existing box22 (right name group, x652+) and box23 (left name group, ends x568). Box23's transcription claims 曾根富彌 as its first of four names, but its rectangle stops at x568 and does not enclose this column (ink at x589-639), leaving it orphaned and unboxed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "曾根富彌"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p199_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:581,2887,66,474"
+      }
+    }
   }
 ]

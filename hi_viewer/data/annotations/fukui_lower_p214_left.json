@@ -265,7 +265,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2354,2203,76,390"
+        "value": "xywh=pixel:2354,2004,76,589"
       }
     }
   },
@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2219,2206,75,389"
+        "value": "xywh=pixel:2219,2007,75,588"
       }
     }
   },
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2088,2257,65,333"
+        "value": "xywh=pixel:2088,2000,65,590"
       }
     }
   },
@@ -355,7 +355,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1952,2176,68,416"
+        "value": "xywh=pixel:1952,2007,68,585"
       }
     }
   },
@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1819,2176,70,418"
+        "value": "xywh=pixel:1819,2003,70,591"
       }
     }
   },
@@ -415,7 +415,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1684,2204,72,380"
+        "value": "xywh=pixel:1684,1997,72,587"
       }
     }
   },
@@ -445,7 +445,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1548,2207,73,386"
+        "value": "xywh=pixel:1548,2004,73,589"
       }
     }
   },
@@ -475,7 +475,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1416,2197,69,387"
+        "value": "xywh=pixel:1416,1996,69,588"
       }
     }
   },
@@ -505,7 +505,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1281,2246,68,340"
+        "value": "xywh=pixel:1281,1994,68,592"
       }
     }
   },
@@ -806,6 +806,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:882,3091,66,164"
+      }
+    }
+  },
+  {
+    "id": "anno-fukui_lower_p214_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "松"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "松／まつ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leading glyph 松 of the governor-appointee name column 松平…方 (Matsudaira, Fukui governor) — raised top glyph above the already-boxed lower part (平方, anno-07)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "松平方頭字松"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p214_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2489,2012,83,77"
       }
     }
   }

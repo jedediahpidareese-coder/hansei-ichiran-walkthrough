@@ -658,5 +658,65 @@
         "value": "xywh=pixel:1440,1192,88,244"
       }
     }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右同藩士子弟"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右（みぎ）に同（おな）じ　藩士子弟（はんししてい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Same as at right (右同): domain samurai's sons/dependents (hanshi shitei)\" — base-of-page category label for the 藩士子弟 headcount column above (anno-18). Two-register: 右同 as small warichu at upper right, 藩士子弟 as the main column below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右同藩士子弟"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1520,3105,138,430"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右同子弟"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右（みぎ）に同（おな）じ　子弟（してい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Same as at right (右同): sons/dependents (shitei)\" — base-of-page category label for the adjacent shibun-nami/keisotsu dependents column above (anno-11/12)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右同子弟"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1388,3205,82,330"
+      }
+    }
   }
 ]

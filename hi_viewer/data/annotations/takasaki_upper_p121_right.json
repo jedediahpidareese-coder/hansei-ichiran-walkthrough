@@ -838,5 +838,35 @@
         "value": "xywh=pixel:1915,1177,88,667"
       }
     }
+  },
+  {
+    "id": "anno-takasaki_upper_p121_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四十一人／よんじゅういちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Goze (blind female musicians): 41 persons — the person-count for the 瞽女 label above (座頭/瞽女 far-left column). Printed separately below its label with a vertical gap; anno-25's box (y1934-2088) encloses only the 瞽女 label glyphs and does not geometrically cover this count at y2195-2505, so this is a genuine fill of unboxed printed data rather than a duplicate."
+      },
+      {
+        "purpose": "identifying",
+        "value": "瞽女人數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p121_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:434,2186,81,328"
+      }
+    }
   }
 ]

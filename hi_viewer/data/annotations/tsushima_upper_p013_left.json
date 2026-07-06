@@ -388,5 +388,35 @@
         "value": "xywh=pixel:1082,1094,111,1569"
       }
     }
+  },
+  {
+    "id": "anno-tsushima_upper_p013_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一同壹萬千百七拾貳兩永七百拾八文八步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、同（どう＝金）一万千百七十二両、永七百十八文八歩 ＝ 11172両718文8歩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item, ditto (cash): 11,172 ryo, 718 ei-mon 8 bu"
+      },
+      {
+        "purpose": "identifying",
+        "value": "同金・拾八文八步"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p013_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1327,1101,119,1480"
+      }
+    }
   }
 ]

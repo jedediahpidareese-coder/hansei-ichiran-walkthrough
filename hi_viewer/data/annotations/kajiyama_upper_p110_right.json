@@ -385,7 +385,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:609,2028,52,503"
+        "value": "xywh=pixel:609,1868,52,663"
       }
     }
   },
@@ -415,7 +415,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:558,2028,48,415"
+        "value": "xywh=pixel:558,1868,48,575"
       }
     }
   },
@@ -535,7 +535,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:412,2570,57,336"
+        "value": "xywh=pixel:412,2497,57,409"
       }
     }
   },
@@ -565,7 +565,37 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:471,2570,60,336"
+        "value": "xywh=pixel:471,2497,60,409"
+      }
+    }
+  },
+  {
+    "id": "anno-kajiyama_upper_p110_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永貳百七拾四貫八百六十七文五分貳厘八毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文528"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei (cash) subtotal at the ○合現米 line: 274.867528 kan-mon. This cash-tax column sits in the gap between ○合現米 (x971-1075) and 總戸數 (x698-805) and was previously unboxed; it repeats the identical value of the field-level 永 (anno-07), the reclamation-myoga cash addition being negligible."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合現米永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p110_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:838,1150,96,1593"
       }
     }
   }

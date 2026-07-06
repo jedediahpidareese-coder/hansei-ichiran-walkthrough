@@ -598,5 +598,65 @@
         "value": "xywh=pixel:1690,1429,82,163"
       }
     }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事人數／だいさんじにんずう：三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillors (daisanji): 3 persons. Rank-headcount glyph-pair (三人) printed below the 大参事 heading (box-05); ink at y1450-1588, x2239-2302, a ~175px gap below the heading box, so not enclosed by it. Matches the boxed-separately precedent set by 少参事人數 (box-19)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事人數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2229,1440,82,158"
+      }
+    }
+  },
+  {
+    "id": "anno-matsuyama_lower_p208_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事人數／ごんだいさんじにんずう：三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillors (gon-daisanji): 3 persons. Rank-headcount glyph-pair (三人) printed below the 権大参事 heading (box-07); ink at y1443-1582, x1972-2037, an ~88px gap below the heading box, so not enclosed by it. Completes the per-rank count pattern (大参事/権大参事/少参事 each 三人)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事人數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p208_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1963,1433,83,159"
+      }
+    }
   }
 ]

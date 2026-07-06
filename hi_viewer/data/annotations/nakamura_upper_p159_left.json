@@ -508,5 +508,35 @@
         "value": "xywh=pixel:1250,1100,73,78"
       }
     }
+  },
+  {
+    "id": "anno-nakamura_upper_p159_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同九拾壹石三斗七升八合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 九十一石三斗七升八合四勺／どう 91石3斗7升8合4勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto (third 'of which' component of the gendaka breakdown): 91.3784 koku. Completes the internal accounting 29,397.1428 (正租) + 6,935.1773 (同) + 91.3784 = 36,423.6985 = gendaka (現米). The 雜税納 label is printed directly below this leftmost column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同雑税納91石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p159_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1623,1104,99,1095"
+      }
+    }
   }
 ]

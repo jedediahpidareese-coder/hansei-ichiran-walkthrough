@@ -85,7 +85,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1860,2274,61,532"
+        "value": "xywh=pixel:1860,2196,61,610"
       }
     }
   },
@@ -115,7 +115,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1810,2274,48,599"
+        "value": "xywh=pixel:1810,2196,48,677"
       }
     }
   },
@@ -455,7 +455,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1451,2184,54,535"
+        "value": "xywh=pixel:1451,2107,54,612"
       }
     }
   },
@@ -481,7 +481,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1403,2184,45,327"
+        "value": "xywh=pixel:1403,2107,45,404"
       }
     }
   },
@@ -714,6 +714,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:325,1415,119,1152"
+      }
+    }
+  },
+  {
+    "id": "anno-fukuoka_upper_p219_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほかに"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Separately / in addition, [there are] two [items]\" — warichu qualifier heading Fukui's two tax-privileged land entries listed to its left: 朱印地神社 (shrine vermilion-seal land, 100 koku) and 除地寺領 (tax-exempt temple land, 694.919 koku). The glyphs sit spatially unboxed at x576-622, y1417-1515 (box 23's rectangle covers only 朱印地神社百石, not these two glyphs, though box 23's transcription string redundantly prepends 外二). Not a bare 内 marker; substantive printed text with independent meaning."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外二（福井藩朱印地）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p219_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:576,1410,46,112"
       }
     }
   }
