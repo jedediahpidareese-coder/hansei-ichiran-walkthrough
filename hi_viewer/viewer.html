@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hansei Ichiran (1870) — Source Page Viewer</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="viewer.css?v=20260706hi53">
+  <link rel="stylesheet" href="viewer.css?v=20260706hi55">
   <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/openseadragon.min.js"></script>
 </head>
 <body>
@@ -28,13 +28,7 @@
     <button id="prev-page" class="nav-arrow" disabled aria-label="Previous page">‹</button>
     <select id="page-select" aria-label="Choose a page"></select>
     <button id="next-page" class="nav-arrow" aria-label="Next page">›</button>
-    <div class="page-meta">
-      <span class="meta-domain" id="page-domain"></span>
-      <span class="meta-sep">·</span>
-      <span class="meta-topic" id="page-topic"></span>
-      <span class="meta-sep">·</span>
-      <span class="meta-bookpage" id="page-book-page"></span>
-    </div>
+    <span class="page-count" id="page-count" aria-label="Page position"></span>
   </nav>
 
   <main class="viewer-main">
@@ -119,6 +113,6 @@
     </div>
   </div>
 
-  <script src="viewer.js?v=20260706hi53"></script>
+  <script src="viewer.js?v=20260706hi55"></script>
 </body>
 </html>

@@ -105,19 +105,21 @@ body {
 .nav-arrow:active:not(:disabled) { transform: translateY(1px); }
 .nav-arrow:disabled { color: var(--ink-faint); cursor: not-allowed; opacity: 0.5; }
 .page-nav select {
-  flex: 0 1 420px; min-width: 0; padding: 5px 9px; font-size: 13.5px;
+  /* Fills the row between the arrows and the counter and truncates its option
+     text with an ellipsis. Width depends only on the window, never on the page's
+     text — so the whole nav bar is identical on every page and never overflows. */
+  flex: 0 1 560px; min-width: 0;
+  padding: 5px 9px; font-size: 13.5px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   font-family: var(--serif); color: var(--ink);
   background: #fff; border: 1px solid var(--rule); border-radius: 4px;
 }
-.page-meta {
-  display: flex; align-items: baseline; gap: 8px; margin-left: auto;
-  font-size: 13px; color: var(--ink-soft); min-width: 0;
-  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+/* stable "N / 182" position counter, pinned right — fixed content, never resizes the bar */
+.page-count {
+  flex: 0 0 auto; margin-left: auto;
+  font-family: var(--serif); font-size: 12.5px; color: var(--ink-faint);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.03em; white-space: nowrap;
 }
-.meta-domain { font-family: var(--mincho); font-size: 15px; color: var(--cinnabar); font-weight: 600; }
-.meta-sep { color: var(--rule); }
-.meta-bookpage { font-variant-numeric: oldstyle-nums; font-style: italic; }
 
 /* ---------------- Main split ---------------- */
 .viewer-main { display: flex; height: calc(100vh - 106px); }
@@ -210,6 +212,17 @@ body {
   color: var(--cinnabar); letter-spacing: 0.02em;
   font-family: var(--serif); text-transform: uppercase;
 }
+.summary-title {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 6px 14px; flex-wrap: wrap; margin-bottom: 2px;
+}
+.summary-domain { font-family: var(--mincho); font-size: 19px; font-weight: 600; color: var(--cinnabar); line-height: 1.25; }
+.summary-domain-en { font-family: var(--serif); font-size: 14px; font-weight: 600; color: var(--ink-soft); font-style: italic; }
+.summary-bookpage {
+  font-variant-numeric: oldstyle-nums; font-style: italic;
+  color: var(--ink-faint); font-size: 12.5px; white-space: nowrap; flex: 0 0 auto;
+}
+.summary-topic { font-family: var(--serif); font-size: 12.5px; color: var(--ink-soft); font-style: italic; margin-bottom: 9px; }
 .page-summary .summary-kanji {
   font-family: var(--mincho); font-size: 16px; color: var(--ink);
   display: block; margin-bottom: 2px;
@@ -341,5 +354,4 @@ body {
   .detail-grid { grid-template-columns: 1fr; }
   #detail-crop { max-height: 40vh; }
   .brand-sub { display: none; }
-  .page-meta { display: none; }
 }

@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260706hi53';
+const VER = '20260706hi55';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -72,12 +72,17 @@ function populatePageSelect() {
   });
 }
 function renderPageMeta(page) {
-  $('#page-domain').textContent = `${page.domain_canonical} (${page.domain_en})`;
-  $('#page-topic').textContent = `Table ${page.table_number} — ${page.page_topic}`;
-  $('#page-book-page').textContent = `book p. ${page.book_page}`;
+  const idx = pages.indexOf(page);
+  $('#page-count').textContent = `${idx >= 0 ? idx + 1 : '·'} / ${pages.length}`;
   $('#image-filename').textContent = `${page.image.split('/').pop()} · ${page.volume} PDF p${page.pdf_page}-${page.page_side}`;
+  // domain / book-page / topic live in the summary card (fully readable, wraps) — NOT the nav bar,
+  // which stays a fixed size page-to-page.
   $('#page-summary').innerHTML = `
-    <h3>About this page</h3>
+    <div class="summary-title">
+      <span class="summary-domain">${escapeHtml(page.domain_canonical)} <span class="summary-domain-en">(${escapeHtml(page.domain_en)})</span></span>
+      ${page.book_page ? `<span class="summary-bookpage">book p. ${escapeHtml(page.book_page)}</span>` : ''}
+    </div>
+    <div class="summary-topic">Table ${escapeHtml(String(page.table_number))} — ${escapeHtml(page.page_topic)}</div>
     <span class="summary-kanji">${escapeHtml(page.page_header_kanji)}</span>
     <span class="summary-en-head">${escapeHtml(page.page_header_en)}</span>
     <p>${escapeHtml(page.page_summary_en)}</p>
