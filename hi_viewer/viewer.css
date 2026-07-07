@@ -108,15 +108,24 @@ body {
   /* Fills the row between the arrows and the counter and truncates its option
      text with an ellipsis. Width depends only on the window, never on the page's
      text — so the whole nav bar is identical on every page and never overflows. */
-  flex: 0 1 560px; min-width: 0;
+  flex: 0 1 520px; min-width: 0;
   padding: 5px 9px; font-size: 13.5px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   font-family: var(--serif); color: var(--ink);
   background: #fff; border: 1px solid var(--rule); border-radius: 4px;
 }
-/* stable "N / 182" position counter, pinned right — fixed content, never resizes the bar */
+/* current-domain anchor filling the right side of the nav — layout-safe: shrinks and the
+   romaji ellipsizes, so it never overflows or pushes the counter off. */
+.nav-context {
+  margin-left: auto; flex: 0 1 auto; min-width: 0;
+  display: flex; align-items: baseline; gap: 8px;
+  overflow: hidden; white-space: nowrap;
+}
+.nav-domain { font-family: var(--mincho); font-size: 16px; font-weight: 600; color: var(--cinnabar); flex: 0 0 auto; }
+.nav-domain-en { font-family: var(--serif); font-size: 13px; font-style: italic; color: var(--ink-soft); overflow: hidden; text-overflow: ellipsis; }
+/* stable "N / 182" position counter, pinned far right — fixed content, never resizes the bar */
 .page-count {
-  flex: 0 0 auto; margin-left: auto;
+  flex: 0 0 auto; margin-left: 14px;
   font-family: var(--serif); font-size: 12.5px; color: var(--ink-faint);
   font-variant-numeric: tabular-nums; letter-spacing: 0.03em; white-space: nowrap;
 }
@@ -354,4 +363,5 @@ body {
   .detail-grid { grid-template-columns: 1fr; }
   #detail-crop { max-height: 40vh; }
   .brand-sub { display: none; }
+  .nav-context { display: none; }
 }

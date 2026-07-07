@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260706hi55';
+const VER = '20260706hi56';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -60,20 +60,48 @@ function findAnnotationByField(f) { const k = normField(f); return currentAnnota
 function findCropByField(pageId, f) { const k = normField(f); return (cropsManifest[pageId] || []).find(e => normField(e.ident) === k); }
 
 /* ---------------- page selector + meta ---------------- */
+/* Drop verbose parentheticals ("(preceding X on this spread)") from a domain_en so the
+   nav label stays short. */
+function cleanDomain(d) { return String(d || '').replace(/\s*\((?:preceding|sharing|shares)[^)]*\)/i, '').trim(); }
+/* A SHORT, UNIFORM page-type label derived from the (free-form, 175-distinct) page_topic +
+   its fascicle number, so the dropdown reads the same way across every domain. Fascicles 8–9
+   are the officials/military register; 1–7 are the civil register — so incidental troop
+   mentions on a civil page don't mislabel it. The full description stays in the summary card. */
+function pageType(p) {
+  const t = (p.page_topic || '').toLowerCase();
+  const tn = p.table_number || 0;
+  const off = /official|officer|職員|councill|governor|chiji|shokuin|参事|san.?ji|roster|appointee|shosanji|personnel|administrative/.test(t);
+  const mil = /militar|兵隊|\btroop|\barmy|battalion|platoon|artiller|warship|\bnavy\b|heitai|銃|砲|\bcorps\b|soldier|standing army/.test(t);
+  if (tn >= 8) {
+    if (mil && !off) return 'Military';
+    if (off && !mil) return 'Officials';
+    return 'Officials & military';
+  }
+  const pop = /demograph|population|household|status.?(class|group)|census|male|female|人口|outcaste|clerg|retainer/.test(t);
+  const fis = /kokudaka|land assess|land yield|land.?tax|fiscal|\btax|revenue|product|gendaka|currency|草高|assessed|landholding/.test(t);
+  if (pop && fis) return 'Civil register';
+  if (pop) return 'Population & households';
+  if (fis) return 'Kokudaka & taxes';
+  return 'Civil register';
+}
 function populatePageSelect() {
   const sel = $('#page-select');
   sel.innerHTML = '';
   pages.forEach((p, i) => {
     const opt = document.createElement('option');
     opt.value = i;
-    const topic = p.page_topic && p.page_topic.length > 52 ? p.page_topic.slice(0, 50).trimEnd() + '…' : (p.page_topic || '');
-    opt.textContent = `${p.sequence}. ${p.domain_en}${topic ? ' — ' + topic : ''}`;
+    opt.textContent = `${p.sequence}. ${cleanDomain(p.domain_en)} — ${pageType(p)}`;
+    opt.title = p.page_topic || '';   // full description on hover
     sel.appendChild(opt);
   });
 }
 function renderPageMeta(page) {
   const idx = pages.indexOf(page);
   $('#page-count').textContent = `${idx >= 0 ? idx + 1 : '·'} / ${pages.length}`;
+  // current-domain anchor in the nav bar (fills the right side; layout-safe, ellipsis-capped)
+  $('#nav-context').innerHTML =
+    `<span class="nav-domain">${escapeHtml(page.domain_canonical)}</span>` +
+    `<span class="nav-domain-en">${escapeHtml(cleanDomain(page.domain_en))}</span>`;
   $('#image-filename').textContent = `${page.image.split('/').pop()} · ${page.volume} PDF p${page.pdf_page}-${page.page_side}`;
   // domain / book-page / topic live in the summary card (fully readable, wraps) — NOT the nav bar,
   // which stays a fixed size page-to-page.
