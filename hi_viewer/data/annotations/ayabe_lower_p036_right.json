@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-ayabe_lower_p036_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（綾部）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（綾部）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): 'Hansei Ichiran-hyō, Fascicle 6 — Ayabe.' Fascicle 6 records civil, fiscal, product, religious-land and demographic figures; confirms this page belongs to Ayabe (綾部) domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2130,1271,68,578"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合現米七千百六十石九斗五升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（ごう）現米（げんまい）七千百六十石九斗五升九合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total net tax rice (genmai) = 7,160.959 koku (七千百六十石九斗五升九合; 九斗 0.9 + 五升 0.05 + 九合 0.009). Koku sub-units are in strict descending order. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1994,1020,84,1247"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀貳貫九百八十九匁九分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀（ぎん）二貫九百八十九匁九分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Silver = 2,989.9 monme (貳貫九百八十九匁九分 = 2 kan 989.9 monme; 1 kan = 1,000 monme). The third glyph zooms to 貫 (kan), NOT 千 as MASTER's transcription '貳千…' has it; the value 2,989.9 monme is identical either way."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銀"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1860,1185,84,912"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "産物"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "産物（さんぶつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Field label 'products,' heading the three commodity entries that follow — 茶 (tea), 絲 (silk thread) and 木綿 (cotton) — each accompanied by an explanatory note rather than a figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1728,1017,80,157"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "茶 茶蠶共出來不出來有之定額"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "茶（ちゃ）／茶・蠶（かいこ）共に出来・不出来これ有り、定額"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product — tea. Note: 'tea and silkworms both have good and bad years (出來不出來これ有り); a fixed quota (定額) is set.' Recorded categorically in MASTER as 産物 茶 (有額)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物茶"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1724,1265,84,1253"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "絲 イタシ兼"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "絲（いと）／いたし兼ね"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product — silk thread (絲). Note: 'イタシ兼' (itashi-kane = production can scarcely be managed / hard to make). Final glyph confirmed as 兼 at single-character zoom. Recorded categorically in MASTER as 産物 絲 (有額)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物絲"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1596,1273,81,578"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "木綿 木綿近年製作人少ク相成是亦額ヲ定兼"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "木綿（もめん）／木綿近年製作人少なく相成り、是も亦た額を定め兼ね"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product — cotton (木綿). Note: 'in recent years those who manufacture cotton have become few, so here too a fixed quota can scarcely be set (額ヲ定兼).' Recorded categorically in MASTER as 産物 木綿 (有額)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物木綿"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1454,1268,95,1670"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社寺領三十六石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社寺領（しゃじりょう）三十六石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-and-temple land (社寺領) = 36 koku. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社寺領"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1333,1019,82,662"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社七十二座"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）七十二座"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines = 72 (座 counter). Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1198,1017,85,661"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺三十九ヶ寺内一ヶ寺一向宗男一人女四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）三十九ヶ寺、内一ヶ寺一向宗、男一人女四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples = 39 (三十九ヶ寺). Interlinear (warichu) note: 'of which one temple is Ikkō-shū (Jōdo Shinshū); 1 man, 4 women.' Matches MASTER's 39 temples."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,1020,116,1621"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數四千二百八十四戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）四千二百八十四戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households (total) = 4,284 (四千二百八十四戸). Tail 百八十四戸 zoom-confirmed. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:924,1020,85,916"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員壹萬八千三百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）一万八千三百七十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population (total) = 18,373 persons (壹萬八千三百七十三人). Tail 百七十三人 zoom-confirmed. Matches MASTER. No whole-population male/female split is printed; a structural 内 introduces only the shizoku sub-count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:796,1019,83,1081"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族七百六十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）七百六十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) population = 762 persons (七百六十二人), introduced by the 内 ('of which') marker under the population total. Male 367 + female 395 (below) sum exactly to 762. Not separately captured in MASTER, which records only the shizoku household count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:537,1189,83,657"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百六十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三百六十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku males = 367 (三百六十七人); right half of the 内 male/female warichu. With 395 females sums to the 762 shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:570,1925,56,470"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百九十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三百九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku females = 395 (三百九十五人); left half of the 内 male/female warichu. With 367 males sums to the 762 shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:512,1924,57,471"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku households = 153 (百五十三戸); the left-most, unlabeled column governed by the 士族 heading. This is MASTER's '士族 = 153戸' row (MASTER labels it simply 士族 and captured the household figure, not the 762-person count)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:399,1354,83,413"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p036_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四十八（48頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 48."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四十八"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p036_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2114,3114,67,161"
+      }
+    }
+  }
+]

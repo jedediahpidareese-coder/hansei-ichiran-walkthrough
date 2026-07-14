@@ -1,0 +1,962 @@
+[
+  {
+    "id": "anno-sakura_lower_p047_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五萬五千七百貳十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五万五千七百二十四人／おとこ ごまんごせんななひゃくにじゅうよにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the total population, males: 55,724 (the 内 breakdown; the domain grand total is printed on the preceding right-hand page)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "総人口内訳男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2716,1162,58,743"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五萬四千九百七十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 五万四千九百七十六人／おんな ごまんよんせんきゅうひゃくななじゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the total population, females: 54,976 (the 内 breakdown; total = 55,724 + 54,976 = 110,700)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "総人口内訳女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2656,1162,56,742"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神主　二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神主 二十四人／かんぬし にじゅうよにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shintō head priests (kannushi): 24 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神主"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2538,1160,81,577"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神職　十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神職 十六人／しんしょく じゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shintō priests (shinshoku): 16 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2538,1912,82,495"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人 十九人／しゃにん じゅうくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine attendants (shanin): 19 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2405,1164,82,494"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧　三百六十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧 三百六十二人／そう さんびゃくろくじゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist monks (sō): 362 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2406,1919,83,746"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗　三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験 三十九人／しゅげん さんじゅうくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō mountain ascetics (shugen): 39 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2268,1164,84,581"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "醫師　五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "医師 五十三人／いし ごじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Physicians (ishi): 53 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "醫師"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2270,1921,83,580"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "陰陽師　壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "陰陽師 一人／おんみょうじ（おんようじ） いちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Onmyōji diviners: 1 person."
+      },
+      {
+        "purpose": "identifying",
+        "value": "陰陽師"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2137,1171,78,492"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "舞大夫　十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "舞大夫 十一人／まいだゆう じゅういちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Dancer-priests (mai-dayū): 11 persons. Printed with 大 (MASTER's 太 is a variant/misread)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "舞大夫"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2136,1925,82,578"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "座頭　二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "座頭 二十人／ざとう にじゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Blind male guild members / musicians-masseurs (zatō): 20 persons. CORRECTION: MASTER records 廿八人 (28); the printed final glyph is 人 (connected apex, matching the confirmed 人 in 道心十人), not 八, and no further counter follows — so the value is 二十人 = 20."
+      },
+      {
+        "purpose": "identifying",
+        "value": "座頭"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1995,1167,83,499"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "盲人　九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "盲人 九人／もうじん きゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Blind persons (mōjin): 9 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "盲人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1997,1924,79,411"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "道心　十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "道心 十人／どうしん じゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lay religious devotees (dōshin): 10 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "道心"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1859,1171,83,411"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "比丘尼　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "比丘尼 一人／びくに いちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist nuns (bikuni): 1 person."
+      },
+      {
+        "purpose": "identifying",
+        "value": "比丘尼"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1861,1929,81,496"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　五百貳拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 五百二十一軒／しぞくこすう ごひゃくにじゅういっけん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) households: 521."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1723,1008,86,910"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三千貳拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 三千二十一人／じんいん さんぜんにじゅういちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population total: 3,021 persons (of which 1,502 male / 1,519 female)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1588,1008,84,743"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　千五百貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千五百二人／おとこ せんごひゃくににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku males: 1,502 (right warichu of the 士族人員 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1634,1831,54,399"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　千五百十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千五百十九人／おんな せんごひゃくじゅうくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku females: 1,519 (left warichu; 1,502 + 1,519 = 3,021)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1576,1831,54,469"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數　千百拾軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 千百十軒／そつぞくこすう せんひゃくじゅっけん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-rank retainer) households: 1,110."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1449,1007,88,750"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　四千四百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 四千四百六十九人／じんいん よんせんよんひゃくろくじゅうくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population total: 4,469 persons (of which 2,763 male / 1,706 female)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1320,1011,81,914"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　二千七百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二千七百六十三人／おとこ にせんななひゃくろくじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu males: 2,763 (right warichu of the 卒族人員 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1360,2004,56,607"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　千七百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千七百六人／おんな せんななひゃくろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu females: 1,706 (left warichu; 2,763 + 1,706 = 4,469)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1305,2004,51,400"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "猿引　一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "猿引 一軒／さるひき いっけん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monkey-trainer (saruhiki) households: 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "猿引"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1186,1011,81,413"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 十人／じんいん じゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monkey-trainer population: 10 persons (of which 5 male / 5 female)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "猿引人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1189,1685,78,408"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五人／おとこ ごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monkey-trainer males: 5 (right warichu)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "猿引人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1227,2176,53,195"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 五人／おんな ごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monkey-trainer females: 5 (left warichu; 5 + 5 = 10)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "猿引人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1172,2175,51,197"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "癩病家　一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "癩病家 一軒／らいびょうけ いっけん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leprosy-afflicted households (raibyō-ke): 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "癩病家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1052,1017,83,493"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 七人／じんいん しちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leprosy-household population: 7 persons (of which 5 male / 2 female)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "癩病家人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1056,1689,77,408"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五人／おとこ ごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leprosy-household males: 5 (right warichu)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "癩病家人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1097,2177,53,197"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二人／おんな ににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leprosy-household females: 2 (left warichu; 5 + 2 = 7)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "癩病家人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1040,2176,53,199"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（佐倉）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六（佐倉）／はんせいいちらんひょう だいろく（さくら）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outer running header / provenance: Han System Survey (Hansei Ichiran), Fascicle 6 (Sakura). Names the same domain as the data on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六佐倉_header"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:934,1275,66,570"
+      }
+    }
+  },
+  {
+    "id": "anno-sakura_lower_p047_left-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "七十一／ななじゅういち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 71 (bottom margin)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "書冊頁七十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p047_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:932,3116,65,141"
+      }
+    }
+  }
+]

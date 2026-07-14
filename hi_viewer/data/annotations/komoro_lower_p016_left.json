@@ -1,0 +1,752 @@
+[
+  {
+    "id": "anno-komoro_lower_p016_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金五百五十兩二分永二百六十九貫二百三十三文四厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 五百五十両二分、永二百六十九貫二百三十三文四厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash (money tax): 550 ryō 2 bu in gold, plus eisen 269 kan 233 mon 4 rin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2628,1160,102,2015"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米百二石四斗六升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の米 百二石四斗六升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This rice (rice equivalent): 102.467 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2489,1245,103,1252"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但雜税金永石八兩立ニヲ本石高ニ結込"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、雑税金・永・石八両を立て、本石高に結び込む"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: the miscellaneous tax revenue (gold, eisen, and koku), reckoned at 8 ryō, is consolidated into the main kokudaka (本石高) figure. Provenance/explanatory note, not a standalone datum."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但書雜税金結込"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2361,1322,97,1433"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合現石一萬十六石二斗三升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合 現石 一万十六石二斗三升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total current koku (genkoku): 10,016.23 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合現石"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2232,1152,93,1103"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數六千七百四十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 六千七百四十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 6,743."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2106,988,90,925"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數百二十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 百二十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku) households: 127."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1834,1157,90,842"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族百五十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族 百五十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier (sotsu) households: 152."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1826,2166,91,678"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人 十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel (shanin) households: 13."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1701,1159,89,504"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗三十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験 三十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mountain-ascetic (shugen) households: 37."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1693,2166,92,588"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人 八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) households: 8."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1567,1154,88,425"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多百二十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多 百二十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households: 122."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1557,2164,91,674"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口三萬千九百十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 三万千九百十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 31,910 (verified against male 16,357 + female 15,553; MASTER's 31,918 has a spurious 八)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1407,990,118,838"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族六百八十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族 六百八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku) persons: 681."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1296,1160,86,752"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族九百二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族 九百二十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier (sotsu) persons: 926."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1161,1159,85,749"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人 六十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel (shanin) persons: 60 (verified against male 34 + female 26; this person-total is not in MASTER)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1026,1163,84,498"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男一萬六千三百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 一万六千三百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population: 16,357."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1468,1840,59,750"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女一萬五千五百五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 一万五千五百五十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population: 15,553."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1408,1840,58,751"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三百十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai male: 318."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1333,1918,55,407"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百六十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三百六十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai female: 363."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1272,1918,58,477"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四百三十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 四百三十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier male: 431."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1199,1916,54,477"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百九十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 四百九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier female: 495."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1140,1916,56,477"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel male: 34."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1064,1670,55,337"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel female: 26."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1005,1670,56,338"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（小諸）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六冊（小諸藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running margin header: Domain Institutions at a Glance (Hansei Ichiran), sixth fascicle, Komoro section. Provenance, not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六小諸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:901,1247,76,578"
+      }
+    }
+  },
+  {
+    "id": "anno-komoro_lower_p016_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number in the lower margin: 9 (九)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁數九"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p016_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:888,3088,70,70"
+      }
+    }
+  }
+]

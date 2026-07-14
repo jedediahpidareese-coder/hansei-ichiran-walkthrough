@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-ayabe_lower_p035_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○綾部藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "綾部藩（あやべはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ayabe domain. The ○ maru-marker opens the entry; reading right-to-left, everything to its LEFT is Ayabe's. It is the only marker on the page, so the whole leaf is Ayabe's kokudaka/tax block. Ayabe (Tanba province, ~19,500 koku, Kuki house) sits mid-page to the right of the data columns."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○綾部藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2668,1319,111,564"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高壹萬九千五百石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一万九千五百石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (nominal / gross assessed yield) = 19,500 koku — the domain's headline productive base."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2532,983,111,751"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 五拾五石四斗三升八合九勺六才 込高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）新田改出高（しんでんかいだしだか）五十五石四斗三升八合九勺六才、込高（こみだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Supplementary ('外') new-field additional-yield koku = 55.43896, reckoned into the total (込高). The explanatory warichu label 新田改出高 prints just to the left, beneath the adjacent column; this box holds the value plus its trailing 込高."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外新田改出高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2405,1050,123,1445"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外 千五百六石七斗四升二合 島田分米込高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）千五百六石七斗四升二合、島田分米込高（しまだぶんまいこみだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Supplementary ('外') koku = 1,506.742, labelled 島田分米込高 (Shimada-portion rice, reckoned in). Two warichu labels print side-by-side beneath this column — 新田改出高 (for the 55-koku 外 entry to the right) and 島田分米込高 (for this entry) — both fall inside this rectangle because HI's compact layout stacks them under the left value column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外島田分米込高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2251,1049,152,1451"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合二萬千六拾二石壹斗八升九勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（あわせて）二万千六十二石一斗八升九勺六才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total = 21,062.18096 koku = 草高 (19,500) + 島田分米込高 (1,506.742) + 新田改出高 (55.43896); the sum checks exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2130,976,110,1331"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千七百二十四石四斗六升二合 無地高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）無地高（むじだか）千七百二十四石四斗六升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of-which ('內') muji-daka — koku carried on land with no registered field = 1,724.462. NOTE: MASTER records 1,724.8692 and labels it 內高; the scan clearly reads 四斗六升二合 (verified at single-character zoom — a boxed 四 and a two-stroke 二) and the printed field label is 無地高. The scan is trusted here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "無地高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1998,1145,99,1421"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳百九十八石九斗九升 小物成高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小物成高（こものなりだか）二百九十八石九斗九升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Komononari (miscellaneous petty imposts, koku-equivalent) = 298.99 koku. Its silver equivalent is given in the 此銀 note immediately to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小物成高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1869,1146,102,1500"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此銀貳貫九百八拾九匁九分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此銀（このぎん）二貫九百八十九匁九分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'This in silver' = 2 kan 989.9 monme — the silver-equivalent of the 小物成 petty-impost assessment printed just to its right (298.99 koku at 10 monme/koku). An explanatory conversion note, not a separate survey field."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此銀"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1740,1232,94,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Five-year average' — the heading governing the four tax columns to its left (正租現米, 正租銀納現米, 大豆, 雜稅現米): each figure is an average taken over five years."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1621,979,91,410"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租現米四千五百三十石七斗七升八合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租現米（せいそげんまい）四千五百三十石七斗七升八合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, expressed in genmai (hulled-rice koku), five-year average = 4,530.7782 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1470,981,105,1594"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租銀納現米千七十五石三斗四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租銀納現米（せいそぎんのうげんまい）千七十五石三斗四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax paid in silver, restated in genmai-koku, five-year average = 1,075.304 koku (百-place skipped: 千七十五 = 1,075; 升-place skipped between 三斗 and 四合)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租銀納現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1340,983,97,1249"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大豆五百十二石七斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大豆（だいず）五百十二石七斗"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soybean tax (koku), five-year average = 512.7 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大豆"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1214,1148,85,745"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅現米千四百十二石四斗四升六合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税現米（ざつぜいげんまい）千四百十二石四斗四升六合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, in genmai-koku, five-year average = 1,412.4468 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1074,978,101,1418"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但石八兩立ニテ結込"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し（ただし）石（こく）八両立（はちりょうだて）にて結込（むすびこみ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: 'reckoned at the basis of 8 ryō per koku and consolidated in' — i.e. silver-paid components were converted to koku-equivalent at 8 ryō/koku before being folded into the tax figures above. Printed below the 雜稅現米 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但石八兩立ニテ結込"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1079,2492,70,605"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（綾部）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（綾部）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header / provenance line: 'Hansei Ichiran, Table — Fascicle 6 (Ayabe)'. Fascicle 6 is one of the civil/economic fascicles carrying kokudaka and land-tax data. Confirms the leaf's domain is Ayabe."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六（綾部）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:966,1231,74,585"
+      }
+    }
+  },
+  {
+    "id": "anno-ayabe_lower_p035_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四十七（47）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 47 in the bottom margin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四十七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p035_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:945,3077,66,168"
+      }
+    }
+  }
+]

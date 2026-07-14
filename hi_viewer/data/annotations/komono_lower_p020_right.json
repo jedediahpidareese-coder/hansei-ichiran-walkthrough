@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-komono_lower_p020_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（菰野）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六（菰野）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han Institutions Overview, Fascicle 6 (Komono)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六（菰野）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2104,1246,78,580"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸雜税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸雑税"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (section heading for the rice and cash columns to its left)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税見出"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1976,1332,76,230"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　三百九十六石六斗七升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米 三百九十六石六斗七升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, rice portion"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1838,1092,86,1072"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山年貢夫／こほき（左行の仮名判読困難）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "山年貢・夫〔米〕ほか（米納雑税の内訳注記）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Interlinear note itemizing the rice-paid miscellaneous taxes (mountain-land tax, labor levy; left kana run partly illegible)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税米割注"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1828,2252,110,272"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢　百十八貫八百拾文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭 百十八貫八百十文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, cash portion"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1705,1092,84,738"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "茶竹年貢"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "茶・竹年貢"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Interlinear note: tea and bamboo annual taxes (the cash-paid miscellaneous taxes)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税錢割注"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1715,2256,70,270"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米　五千八百二十二石九斗五升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米 五千八百二十二石九斗五升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total tax rice (grand total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1574,996,83,1342"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢　百十八貫八百拾文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭 百十八貫八百十文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total tax cash (grand total; equals the miscellaneous-tax cash, all cash tax deriving from misc taxes)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1443,1114,87,720"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總戸數　千九百八拾壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総戸数 千九百八十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households (scan reads 1,981; MASTER's 1,980 dropped the 壹)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1309,1004,86,918"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總人口　一萬六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総人口 一万六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1176,1004,80,826"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　男（マゝ）女（マゝ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 男（ママ）女（ママ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Of which' male/female breakdown left blank in the source (マゝ = mama, 'as in the original')"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總人口男女内訳注記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1156,1840,120,242"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　九十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 九十戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku) households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:906,1173,86,668"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口　四百八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口 四百八十人（士族）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku) population ('ditto' = shizoku); 480 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:775,1179,81,828"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　二百三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai population, male"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:809,2085,66,472"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　二百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai population, female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:757,2085,50,472"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數　十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier (sotsu) households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:633,1174,88,665"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口　九十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口 九十一人（卒族）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier (sotsu) population ('ditto' = sotsu); 91 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:506,1179,76,747"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier population, male"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:549,2005,52,336"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Foot-soldier population, female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:489,2005,58,269"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "農工商　千八百三十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "農工商 千八百三十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner (farmer/artisan/merchant) households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "農工商戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:368,1176,83,1008"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p020_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十六"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 16 (bottom margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁番号十六"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p020_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2102,3073,68,122"
+      }
+    }
+  }
+]

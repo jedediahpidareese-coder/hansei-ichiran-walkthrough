@@ -1,0 +1,542 @@
+[
+  {
+    "id": "anno-aso_lower_p040_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 一萬四千五百八十二石二斗五升八合五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか） 一万四千五百八十二石二斗五升八合五勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield (kusadaka): 14,582 koku 2 to 5 shō 8 gō 5 shaku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2668,1043,110,1739"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但込高新田共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し込高・新田共（ただし こみだか・しんでん とも）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: inclusive of komi-daka (supplementary assessed increments) and new fields (shinden)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高但書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2676,2885,71,402"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "荒地陣屋鍬下等引"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "荒地・陣屋・鍬下等引（あれち・じんや・くわしたとうびき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Deductions note: amounts subtracted for wasteland (荒地), the jin'ya (陣屋) domain-headquarters compound, kuwashita (鍬下, tax-exempt newly broken land) and the like (等) — the explanatory label for the following 殘 (remainder) figure. Implied deduction 草高 − 殘 = 14,582.2585 − 11,769.0162 = 2,813.2423 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "荒地陣屋鍬下等引"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2527,1202,120,683"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（殘）一萬千七百六十九石一升六合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残（のこり／ざん） 一万千七百六十九石一升六合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remainder after the wasteland/jin'ya/kuwashita deductions: 11,769 koku 1 shō 6 gō 2 shaku (the to place is zero). The label 殘 is bracketed — red ink in the original per the editors' convention; the closing bracket is barely inked. NOTE: the project dataset misread this glyph as 殺; the print is unambiguously 殘 (remainder)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2401,1100,109,1529"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（取合）米四千六百十八石七斗九升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "取合（とりあい） 米四千六百十八石七斗九升六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined take (toriai), rice: 4,618 koku 7 to 9 shō 6 gō. The label is bracketed (red ink in the original). Single-character verification shows the to-digit is 七 (7), not 四 — the dataset's 4,618.496 should read 4,618.796."
+      },
+      {
+        "purpose": "identifying",
+        "value": "取合米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2270,1090,106,1452"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永三十貫六百四十八文六分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永三十貫六百四十八文六分（えい さんじっかん ろっぴゃくよんじゅうはちもん ろくぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined take, ei cash-of-account: 30 kan 648 mon 6 bu (= 30.6486 kan-mon). Row absent from the project dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "取合永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2142,1364,97,995"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但二石五斗代永納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し二石五斗代永納（ただし にこくごとだい えいのう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: paid in ei cash at the conversion rate of 2 koku 5 to (of rice per kan-mon of ei)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "取合永但書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2144,2452,75,552"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 米三千九百四十五石一斗六合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ） 米三千九百四十五石一斗六合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, rice: 3,945 koku 1 to 6 gō 6 shaku (the shō place is zero)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1994,1115,114,1503"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此俵一萬千二百七十一俵七分三厘三毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の俵（このたわら） 一万千二百七十一俵七分三厘三毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Equivalent in bales: 11,271.733 hyō. Arithmetic check exact: 11,271.733 × 0.35 koku/bale (3 to 5 shō per bale) = 3,945.10655 = the regular-tax rice figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租此俵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1917,1278,69,1147"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此石四千六百九十六石九斗六升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の石（このこく） 四千六百九十六石九斗六升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Equivalent in koku: 4,696.965 koku — approximately the whole take expressed in rice (toriai rice 4,618.796 plus the cash lines converted ≈ 4,696.96)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租此石"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1848,1278,68,1085"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永三十二貫二百八十二文九分四厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永三十二貫二百八十二文九分四厘（えい さんじゅうにかん にひゃくはちじゅうにもん きゅうぶ よんりん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, ei cash-of-account: 32 kan 282 mon 9 bu 4 rin (= 32.28294 kan-mon). Row absent from the project dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1720,1361,103,1251"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 金二十二兩三分一朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい） 金二十二両三分一朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, gold: 22 ryō 3 bu 1 shu (= 22.8125 ryō; 1 ryō = 4 bu = 16 shu)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1597,1108,98,1003"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永三十四貫二十七文六分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永三十四貫二十七文六分（えい さんじゅうよんかん にじゅうしちもん ろくぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, ei cash-of-account: 34 kan 27 mon 6 bu (= 34.0276 kan-mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1459,1360,99,917"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢十二貫三百六十文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭十二貫三百六十文（ぜに じゅうにかん さんびゃくろくじゅうもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, copper cash: 12 kan 360 mon (= 12.36 kan-mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1326,1358,96,756"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 壹千七百二十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう） 一千七百二十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 1,723. The leading digit is a severely under-inked formal 壹 (matching the 壹萬 usage in the neighbouring Asada block); the value 1,723 is confirmed by the glyph's tall three-level stroke remnants and the plausible ratio of 5.3 persons per household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1193,1018,96,845"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 九千九十二人 原本朱書（九千二百四十九人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう） 九千九十二人 原本朱書（九千二百四十九人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 9,092 persons. The small-type editorial note beside the figure reads 'in the original, written in red ink: 9,249 persons' — the 1928 compilers preserved a variant red-ink figure from the 1870 manuscript."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1058,1022,133,1119"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（麻生）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（麻生）（はんせいいちらんひょう だいろく（あそう））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han System Survey Table, Fascicle 6 (Asō) — provenance marker naming the fascicle and the domain whose block this page carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:937,1278,75,577"
+      }
+    }
+  },
+  {
+    "id": "anno-aso_lower_p040_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五十七（ごじゅうしち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 57 (the facing right-hand page prints 56, confirming the sequence)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付（五十七）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p040_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:912,3115,73,167"
+      }
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "anno-koriyama_lower_p012_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page header: Han-sei Ichiran-hyō (Survey of Domain Administration), Fascicle 6. The upper three glyphs (藩制一) are overlaid by a rectangular library-collection seal stamped over the header."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2556,998,134,994"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○郡山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○郡山藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker (maru-jirushi): ○ Kōriyama Domain. This circle+name begins the domain block; everything to its left on the page belongs to Kōriyama."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○郡山藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2176,1410,110,552"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　十五萬二千九百十二石二斗九升九合八勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高　十五万二千九百十二石二斗九升九合八勺七才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed nominal yield (kusadaka): 152,912.29987 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2051,1063,94,1925"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　三萬四千九百三十一石五斗一升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米　三万四千九百三十一石五斗一升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax rice (seiso-mai): 34,931.513 koku. First of three rice figures that sum to the 合 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1919,1151,97,1672"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　九百二石九斗四升五合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米　九百二石九斗四升五合四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice: 902.9454 koku. Second of the three rice figures summing to the 合 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米（九百二石）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1787,1320,96,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一萬八千四百十七石三斗八升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万八千四百十七石三斗八升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice, 18,417.38 koku. This column is printed WITHOUT a field label; it is the third rice-volume component and, added to 正租米 (34,931.513) and 米 (902.9454), sums exactly to the 合 total of 54,251.8384 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米内訳一萬八千余"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1655,1511,91,1068"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合　五萬四千二百五十一石八斗三升八合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合　五万四千二百五十一石八斗三升八合四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total (gō): 54,251.8384 koku. Equals the sum of the three preceding rice figures (34,931.513 + 902.9454 + 18,417.38); arithmetic verified."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合（租米合計）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1518,1358,99,1640"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米　百一石三斗一升一合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米　百一石三斗一升一合四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax rice (zatsuzei-mai): 101.3114 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1384,1154,100,1259"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　二兩壹分二朱永十六文八分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金　二両一分二朱永十六文八分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash: 2 ryō 1 bu 2 shu, plus 16.8 mon in eisen (永). Parsed ≈ 2.3918 ryō (gold 2.375 ryō + eisen 16.8 mon at 金1両=永1,000文)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金（二兩）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1259,1324,92,1243"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　三千八百二十四石四斗七合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米　三千八百二十四石四斗七合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice: 3,824.4078 koku (four-to, zero-shō, seven-gō, eight-shaku; the 升 place is skipped = 0)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米三千八百余"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1125,1326,92,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　三十九兩永三十六文七分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金　三十九両永三十六文七分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash: 39 ryō, plus 36.7 mon in eisen (永). Parsed ≈ 39.0367 ryō. NOTE: MASTER read this as 三十九兩永三分六文七分 (39.367) — a misread; the scan clearly shows 永三十六文七分 (36.7 mon), the 十 being a plain cross, not 分."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金三十九兩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:988,1328,97,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p012_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（郡山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（郡山）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Source caption printed at the left end of the block: Han-sei Ichiran-hyō, Fascicle 6 (Kōriyama). Provenance line; corresponds to MASTER's 藩制一覧表第六 (郡山) row."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六郡山"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p012_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:872,1327,79,584"
+      }
+    }
+  }
+]

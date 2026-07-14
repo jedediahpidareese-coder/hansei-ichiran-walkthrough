@@ -1,0 +1,692 @@
+[
+  {
+    "id": "anno-akashi_lower_p024_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○明石藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "明石藩（あかしはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Akashi han — start of the Akashi block. Everything to its left on this page is Akashi."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○明石藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2494,1392,99,557"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 九萬三百四石壹斗九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）九万三百四石一斗九合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 90,304.109 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2365,1057,92,1084"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 八萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）八万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Official assessed kokudaka (omote-daka) = 80,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2234,1134,91,418"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田／高改出高 壹萬三百四石壹斗九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高新田・高改出高 一万三百四石一斗九合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field (shinden) increment folded into the assessed gross = 10,304.109 koku (草高 90,304.109 − 表高 80,000 = this figure; arithmetic checks ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2088,1140,118,1165"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社寺領 高八百五石八斗餘 右朱印墨印地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社寺領 高八百五石八斗余 右は朱印・墨印地"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-and-temple land: yield 805.8+ koku (餘 = and a fraction more). Note 右朱印墨印地 = 'the foregoing are vermilion-seal and black-seal (charter-granted) lands'."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社寺領高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1920,705,270,265"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 米 四萬三千貳百三拾五石壹升七合五勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 米 四万三千二百三十五石一升七合五勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax in rice = 43,235.01754 koku (five-year average, 1864–1868). Note: after 石 the unit is 升 (0.01), so …01754. MASTER's 43,235.1754 is a decimal-place slip — the 二口合 total only reconciles with …01754."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1955,1145,95,1838"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税 金 千八百四拾八兩三分貳朱永六文壹糸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 金 千八百四十八両三分二朱 永六文一糸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in cash = 1,848 ryō 3 bu 2 shu, plus 6 mon (ei) 1 shi. (Print begins 金千…, not 壹千… as MASTER records.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,1137,92,1674"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此現米 貳百三拾壹石壹斗壹升壹勺貳才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の現米 二百三十一石一斗一升一勺二才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The miscellaneous cash tax expressed in current rice = 231.11012 koku (five-year average)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1692,1308,89,1418"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "前同斷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "前に同断（＝前項に同じ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note under 此現米: 'same basis as the preceding' — the averaging period matches the five-year note to the right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "前同斷"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1707,2820,61,196"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "甲子ヨリ戊辰迄五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子より戊辰まで五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial footnote: five-year average from Kōshi (1864) to Boshin (1868) — the basis for the current-rice / land-tax figures."
+      },
+      {
+        "purpose": "identifying",
+        "value": "甲子ヨリ戊辰迄五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1932,3074,110,402"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二口合 現米 四萬三千四百六十六石壹斗貳升七合六勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二口合 現米 四万三千四百六十六石一斗二升七合六勺六才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined two-item total in current rice = 43,466.12766 koku (= 正租米 43,235.01754 + 此現米 231.11012; arithmetic checks ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二口合現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1555,1148,98,2165"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總戸數 壹萬六千八百九拾六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総戸数 一万六千八百九十六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 16,896."
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1432,1054,88,1169"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 七萬六千四人（男 三萬八千八百九十人 女 三萬七千百十四人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口 七万六千四人（男38,890・女37,114）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population = 76,004 (男 38,890 + 女 37,114 = 76,004 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1300,1068,90,815"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三萬八千八百九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三万八千八百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — male = 38,890."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1340,1893,58,682"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三萬七千百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三万七千百十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — female = 37,114."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1278,1893,58,682"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數 四百八拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 四百八十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) households = 481."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1162,1056,90,914"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 千八百五人（男 八百六拾九人 女 九百三拾六人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族の）同人口 千八百五人（男869・女936）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku-class population = 1,805 (男 869 + 女 936 = 1,805 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族同人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1028,1068,81,814"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 八百六拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 八百六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male = 869."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族同人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1058,1893,64,472"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 九百三拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 九百三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 936."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族同人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1007,1893,48,472"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（明石）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六（明石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): Han-sei Ichiran, Fascicle 6 — (Akashi)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六（明石）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:907,1309,71,574"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二十五"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 25."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二十五"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:896,3154,65,162"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同 人口 六拾六人（男 三十七人 女 二十九人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同 人口 六十六人（男37・女29）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tail of the PRECEDING domain (Kubota/Akita): a small ditto-population count = 66 (男 37 + 女 29 = 66 ✓). It sits to the right of the ○明石藩 marker, so it belongs to the previous domain, not Akashi."
+      },
+      {
+        "purpose": "identifying",
+        "value": "久保田同人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2621,1061,118,1083"
+      }
+    }
+  },
+  {
+    "id": "anno-akashi_lower_p024_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "庚午十月調"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "庚午（明治三年）十月調べ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Survey-date note for the Kubota tail: compiled in the 10th month of Kōgo (Meiji 3 = 1870)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "庚午十月調（久保田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p024_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2668,2225,61,331"
+      }
+    }
+  }
+]

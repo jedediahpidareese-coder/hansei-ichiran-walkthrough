@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-koromo_lower_p017_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高二千百二十五石三斗八升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）二千百二十五石三斗八升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kokudaka (assessed base yield) = 2,125.385 koku. Paired with the adjacent 外高 (~4,300 koku of external/substitute land)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2634,1177,92,1164"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外二高四千三百石余"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）に高四千三百石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "External/additional kokudaka = ~4,300 koku (石余 = 'koku and more'; approximate). The double-column note below (外高代地注記) explains it is substitute land (代地) in Katsukita-gun, Mimasaka, still being transferred and to be surveyed later."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2496,1163,133,589"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "美作國勝北郡之内代地御引渡中ニ付追テ取調書上可申候事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "美作国勝北郡の内、代地御引渡し中に付き、追って取り調べ書き上げ申すべく候こと"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Double-column interlinear note attached to the 外高: 'As [the land] within Katsukita-gun of Mimasaka Province is in the course of being handed over as substitute land (daichi), we shall investigate and submit a report in due course.' Explains the provisional ~4,300-koku external figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外高代地注記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2462,1844,131,885"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "亥ヨリ卯迄五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "亥（い）より卯（う）まで五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note qualifying the genmai figure: 'five-year average, from the Year of the Boar (i) to the Year of the Rabbit (u).' The 現米 is a five-year mean."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米五ヶ年平均注記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2357,1256,94,834"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米五千二百三十一石一斗九升五合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米（げんまい）五千二百三十一石一斗九升五合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Genmai (actual/net tax rice, five-year average) = 5,231.1958 koku. Its 内 (of-which) breakdown sums exactly: 正租 5,051.8072 + 口米 147.9556 + 雑租 24.722 + 雑税 6.711 = 5,231.1958."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2214,1008,112,1504"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米五千五拾壹石八斗七合二勺 正租"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米五千五十一石八斗七合二勺（正租）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Seiso (main land-tax rice) = 5,051.8072 koku; category caption 正租 printed at the column foot. Largest component of the genmai."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1940,1176,123,2086"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米百四十七石九斗五升五合六勺 口米"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米百四十七石九斗五升五合六勺（口米）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kuchimai (surcharge rice) = 147.9556 koku (caption 口米 at foot). NB the scan reads 九斗五升五合六勺 = 147.9556, confirmed by the arithmetic net (components sum exactly to 現米 5,231.1958); MASTER's 147.956 (九斗五升六合) is a slight misread."
+      },
+      {
+        "purpose": "identifying",
+        "value": "口米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1805,1175,121,2095"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米貳十四石七斗貳升二合 雑租"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米二十四石七斗二升二合（雑租）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zasso (miscellaneous rent, paid in rice) = 24.722 koku (caption 雑租 at foot). Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑租"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1672,1175,119,2087"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米六石七斗壹升壹合 雑税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米六石七斗一升一合（雑税）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zatsuzei (miscellaneous tax, paid in rice) = 6.711 koku (caption 雑税 at foot). Smallest genmai component; not captured in MASTER. (Distinct from the cash 雑税 in the 諸税 block.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1540,1176,116,2089"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸産物及諸税數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸産物及び諸税数（しょさんぶつおよびしょぜいすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Section header: 'various products and various-tax figures.' Introduces the gold (金) and eisen (永) tax revenues that follow. The final glyph is 數 (not MASTER's 款)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸産物及諸税數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1431,1341,88,580"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金五百二兩三分一朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金五百二両三分一朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold subtotal of the cash taxes = 502 ryō 3 bu 1 shu, printed at the head of the tax block. Equals the sum of the three labelled cash taxes below: 雑税 204 + 諸運上 119 + 普請役夫金 179 = 502 ryō, and 1 bu + 2 bu + 0 = 3 bu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸税金合計"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1162,1008,95,752"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永二十八文二分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永二十八文二分（えい にじゅうはちもん にぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eisen (eiraku-sen notional cash) figure = 28.2 mon, printed in the tax block beside the gold subtotal. It does NOT equal the sum of the component 永 amounts (31.3 + 46.7 + 12.7 = 90.7 mon), so it is a separate small levy / net figure rather than the 永 subtotal. Matches MASTER's 永 row."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,1096,89,573"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金二百四兩一分永三十一文三分 雑税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金二百四両一分 永三十一文三分（雑税）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zatsuzei (miscellaneous tax, in cash) = 204 ryō 1 bu gold + 31.3 ei-mon (caption 雑税 at foot). Matches MASTER's 金 row (204.13). Distinct from the rice 雑税 in the genmai breakdown."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1273,1845,102,1418"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金百十九兩二分永四十六文七分 諸運上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金百十九両二分 永四十六文七分（諸運上）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shoun-jō (various transit / commercial dues) = 119 ryō 2 bu gold + 46.7 ei-mon (caption 諸運上 at foot). Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸運上"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1138,1847,105,1503"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金百七十九兩永拾貳文七分 普請役夫金"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金百七十九両 永十二文七分（普請役夫金）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fushin ekifu-kin (corvée-labour commutation money for public works) = 179 ryō gold + 12.7 ei-mon (caption 普請役夫金 at foot). Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "普請役夫金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1008,1831,100,1686"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第六（挙母）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（挙母）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): 'Hansei Ichiran-hyō, Fascicle 6 — Koromo.' Fascicle 6 covers civil/fiscal figures; confirms the page belongs to Koromo (挙母) domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六（挙母）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:915,1263,75,572"
+      }
+    }
+  },
+  {
+    "id": "anno-koromo_lower_p017_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十一（11頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 11."
+      },
+      {
+        "purpose": "identifying",
+        "value": "十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p017_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:897,3097,64,95"
+      }
+    }
+  }
+]
