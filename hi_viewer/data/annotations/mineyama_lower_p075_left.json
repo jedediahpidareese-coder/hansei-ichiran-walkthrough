@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-mineyama_lower_p075_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　二百三十七石八斗九升　込高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高　二百三十七石八斗九升　込高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yield: 237.89 koku — komidaka (the supplementary yield folded into the assessment). Third component of the kokudaka reckoning, continuing from 高 11,144.441 and 新田畑 155 on the facing page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（込高）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2588,1143,108,1263"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高　壹萬千五百三十七石三斗三升一合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高　一万千五百三十七石三斗三升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed yield (gōdaka): 11,537.331 koku. Equals 高 11,144.441 + 新田畑 155 + 込高 237.89 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2440,1060,126,1509"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米五千九百五十五石六斗三升二合九勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租　米五千九百五十五石六斗三升二合九勺三才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso) — rice: 5,955.63293 koku. Heads the four-column 正租 group (米・金・永・錢)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2300,1063,132,1842"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金四十七兩二分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金四十七両二分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax — gold: 47 ryō 2 bu (= 47.5 ryō; 4 bu = 1 ryō)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2197,1312,95,586"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永七百三十文一分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永七百三十文一分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax — ei-cash (eiraku unit of account): 730.1 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2060,1310,99,668"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢四百八十一文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭四百八十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax — copper cash: 481 mon. (MASTER labels this row '錢 (雜稅)', but it sits inside the 正租 group.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1921,1310,97,585"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米六十七石一斗二升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米六十七石一斗二升四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (zatsuzei) — rice: 67.124 koku. Heads the four-column 雜稅 group (米・金・永・錢)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1057,108,1178"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金一兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金一両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — gold: 1 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1662,1307,87,251"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永六貫三百二十三文二厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永六貫三百二十三文二厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — ei-cash: 6 kan 323.02 mon (= 6,323.02 mon). MASTER labels this '永合' and parses 6.3232 kan; both are wrong — 二厘 = 0.02 mon, and 730.1 + 6,323.02 = 7,053.12 matches the printed 合永 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1512,1307,102,922"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢壹貫四百二十六文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭一貫四百二十六文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — copper cash: 1 kan 426 mon (= 1,426 mon). MASTER labels this '錢合', but it sits inside the 雜稅 group, not the totals."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1377,1304,97,752"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正雜合　米六千二十二石七斗五升六合九勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正雑合　米六千二十二石七斗五升六合九勺三才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular and miscellaneous combined (seizatsu-gō) — rice: 6,022.75693 koku. The label sets 正 (right) and 雜 (left) as a two-glyph warichu above 合. Equals 5,955.63293 + 67.124 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜合米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1227,1052,136,1686"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金四十八兩二分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金四十八両二分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined total — gold: 48 ryō 2 bu (= 48.5 ryō). Equals 47.5 + 1 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜合金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1106,1306,96,584"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米六石六斗二合五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米　六石六斗二合五勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'This [gold] in rice': 6.6025 koku — the rice equivalent of the combined gold total, printed full-size in the same column. NOTE: transcribed as printed, but almost certainly a 1928 compositor's 斗-for-升 substitution. The table's own rate is exactly 8 ryō/koku (永 7,053.12 mon → 此金 7.05312 ryō → 此米 0.88164 koku on lower_p076_right; 7.05312/0.88164 = 8.00000), which converts the 48.5 ryō here to precisely 6.0625 koku = 六石六升二合五勺 — the same glyph string with 升 for 斗. With 6.0625 the domain's 合米 chain closes to within 0.00018; with the printed 6.6025 it is off by 0.54."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜合金此米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1092,1978,97,839"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永七貫五十三文壹分二厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永七貫五十三文一分二厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined total — ei-cash: 7 kan 53.12 mon (= 7,053.12 mon). Equals 730.1 + 6,323.02 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜合永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:963,1304,102,922"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此金七兩永五十三文壹分二厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この金　七両　永五十三文一分二厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'This [ei-cash] in gold': 7 ryō and 53.12 mon ei — the standard identity 1 kanmon ei = 1 ryō, so 7,053.12 mon ei = 7.05312 ryō. Set as a true double-column warichu in smaller type: right sub-column 此金七兩永五十, left sub-column 三文壹分二厘. Its own rice conversion (此米八斗八升一合六勺四才) runs over onto lower_p076_right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜合永此金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:938,2315,125,475"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（峯山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（峯山）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Hansei Ichiran-hyō, Fascicle 7 (Mineyama)'. Provenance, printed at the outer (left) edge of a left-hand page; here it agrees with the data owner, though on the facing right-hand page the same （峯山）header sits over mostly 三日月藩 data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（峯山）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:853,1223,76,580"
+      }
+    }
+  },
+  {
+    "id": "anno-mineyama_lower_p075_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百二十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百二十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 127. Consistent with 百二十六 (126) on lower_p075_right and 百二十八 (128) on lower_p076_right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百二十七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:824,3067,71,239"
+      }
+    }
+  }
+]

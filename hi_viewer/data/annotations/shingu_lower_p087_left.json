@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-shingu_lower_p087_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高三萬五千七百四十三石壹斗四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 三万五千七百四十三石一斗四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (gross assessed yield): 35,743.104 koku. The 升 place is skipped (石 > 斗 > 合), so 壹斗四合 = .104, not .14."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2575,1004,116,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六千五百六拾九石六斗六升六合二勺　改出新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六千五百六十九石六斗六升六合二勺 改出新田"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "6,569.6662 koku of kaishutsu shinden — new paddy brought onto the register by re-survey. As in the Komatsu/Ashimori entries elsewhere in the survey, the figure prints first and the descriptive tag below it after a blank slot. It is recorded separately from the kusadaka; this page prints no 合高 combining the two."
+      },
+      {
+        "purpose": "identifying",
+        "value": "改出新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2435,1167,121,1763"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Five-year average\" — a heading, not a datum. It qualifies the four tax figures printed to its left (正租米, 雜稅米, 金, 錢)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2324,1083,97,421"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米壹萬五千百九拾石六斗三升壹合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米 一万五千百九十石六斗三升一合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main land tax (seiso), paid in rice: 15,190.6316 koku, as a five-year average. The hundreds place prints bare 百 (no 一百)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2171,1083,117,1592"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米七百九十七石四斗四升七合九勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米 七百九十七石四斗四升七合九勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (zatsuzei), paid in rice: 797.44791 koku, as a five-year average. Units run strictly descending 石 > 斗 > 升 > 合 > 勺 > 才."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2039,1078,117,1594"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金九千六百七拾八兩貳分三朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 九千六百七十八両二分三朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax in gold: 9,678 ryō 2 bu 3 shu = 9,678.6875 ryō (4 bu = 1 ryō, 4 shu = 1 bu), as a five-year average."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1908,1244,107,1097"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢十九貫五百九十貳文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭 十九貫五百九十二文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax in copper cash: 19 kan 592 mon = 19.592 kan (1 kan = 1,000 mon), as a five-year average."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1782,1245,101,839"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "惣戸數九千五百九十貳戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "惣戸数 九千五百九十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households: 9,592."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1655,995,103,924"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口五萬四千三百七十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 五万四千三百七十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 54,377 persons. Arithmetic net: male 27,512 + female 26,865 = 54,377, which reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（惣）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1520,1075,102,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳萬七千五百十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二万七千五百十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 27,512 persons. The tens glyph is a plain 十, not the 六 that prints in the facing female column; MASTER's 27,562 fails the male+female sum check against the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（惣）男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1555,2168,57,670"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳萬六千八百六十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二万六千八百六十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 26,865 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（惣）女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1491,2168,64,740"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數五百貳戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 五百二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 502."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1384,1158,101,674"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千八百九十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 千八百九十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 1,892 persons. Arithmetic net: male 874 + female 1,018 = 1,892, which reconciles exactly. The page prints 九十 (plain 十), not 九拾."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1241,1323,102,758"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八百七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 八百七十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 874 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1277,2158,59,467"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 1,018 persons. Glyph order is 千・十・八, i.e. 1,018; MASTER's 千八十 / 1,080 fails the male+female sum check against the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1219,2158,58,331"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數三百五十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 三百五十戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsuzoku (lower-rank retainer) households: 350."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1104,1157,104,759"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千二百六十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 千二百六十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsuzoku (lower-rank retainer) population: 1,265 persons. Arithmetic net: male 637 + female 628 = 1,265, which reconciles exactly. MASTER records this row (1,265, with the same 637/628 split inside its raw value) but carries no page or table pointer for it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:967,1324,100,755"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 六百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 637 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1002,2154,56,469"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六百二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 六百二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 628 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:945,2154,57,471"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（新宮）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（新宮）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance, not data): Domain Administration Survey, Fascicle 7 (Shingū). Here the header's domain agrees with the page's data, though ownership is established from the ○新宮藩 marker on the facing leaf, not from the header. The 覧/覽 glyph is over-inked on this and neighbouring pages and cannot be resolved from the scan; transcribed 覧, the form used in the large majority of the annotation corpus."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（新宮）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:855,1243,80,580"
+      }
+    }
+  },
+  {
+    "id": "anno-shingu_lower_p087_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十一"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 151. The facing right-hand half of the spread is page 150."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁百五十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p087_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:828,3067,75,218"
+      }
+    }
+  }
+]

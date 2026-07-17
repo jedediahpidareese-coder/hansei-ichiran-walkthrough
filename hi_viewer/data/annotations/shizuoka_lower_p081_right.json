@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-shizuoka_lower_p081_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（靜岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（静岡）／はんせいいちらんひょう だいしち（しずおか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain Survey Table, Fascicle 7 (Shizuoka section) — the running header in the outer margin. Provenance only, not data; it confirms the fascicle number and that this leaf sits inside the Shizuoka block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（靜岡）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2164,1193,75,579"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "牛紙牛切紙　五萬千五百貫餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "牛紙・牛切紙　五万千五百貫余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two paper grades sharing one figure: 51,500 kan and over. The column is a 2x2 warichu (right line 牛紙, left line 牛切) followed by the full-width 紙 and the value, i.e. 牛紙 and 牛切紙. NOTE: the printed label is 牛, not 半. Neither 牛紙 nor 牛切紙 is a standard paper name (半紙/半切紙 would be, and both occur elsewhere in this corpus at upper p171 and lower p49), so the 1928 compositor may have mis-set the sort — but the leaf as printed reads 牛, and that is what is transcribed. MASTER's label 牛切紙 and its 51,500 are both correct; MASTER simply omits the right-line product 牛紙."
+      },
+      {
+        "purpose": "identifying",
+        "value": "半紙半切紙"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2013,1189,121,837"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "白黑砂糖　拾壹萬五千百貫目餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "白砂糖・黒砂糖（しろざとう・くろざとう）十一万五千百貫目余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "White and black (unrefined) sugar = 115,100 kanme and over, the two grades sharing one figure. 白 (right) and 黑 (left) print as a one-row two-line warichu; the shared suffix 砂糖 and the figure then run full-width. MASTER splits this single column into two rows (白砂糖 115,100 and 黑砂糖 7,260) — there is no second sugar column on the page, and the 7,260 MASTER assigns to 黑砂糖 in fact belongs to 鰹節."
+      },
+      {
+        "purpose": "identifying",
+        "value": "白黑砂糖"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1879,1188,111,1008"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鰹節　七千貳百六拾貫目餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鰹節（かつおぶし）七千二百六十貫目余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Dried bonito (katsuobushi) = 7,260 kanme and over. MASTER records 2,187 kan here, which is a duplicate of the 椎茸 figure (and in the wrong unit — 椎茸 is measured in koku); the scan reads 七千貳百六拾, with 六 carrying its top lid."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鰹節"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1755,1197,91,921"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "椎茸　貳千百八十七石餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "椎茸（しいたけ）二千百八十七石余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shiitake mushrooms = 2,187 koku and over. Matches MASTER. The 八 splays open at the top (not 六), and 十 is a plain cross (not 千)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "椎茸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1625,1198,89,835"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藍　八千六十四貫目餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藍（あい）八千六十四貫目余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Indigo = 8,064 kanme and over. Matches MASTER. 八 (open top), then 千 (slanted stroke on top of 十), then 六 (lidded), then 十 (plain cross)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藍"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1494,1195,89,753"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "柴胡　千三百貫目餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "柴胡（さいこ）千三百貫目余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bupleurum root (saiko), a medicinal herb = 1,300 kanme and over. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柴胡"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1358,1198,93,669"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "琉球疊表　五拾萬八千枚餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "琉球畳表（りゅうきゅうたたみおもて）五十万八千枚余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ryukyu-style tatami facing = 508,000 sheets and over — by count the largest product line on the leaf. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "琉球疊表"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1222,1198,93,921"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "綿　五萬四千七百三十貫目餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "綿（わた）五万四千七百三十貫目余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cotton wool (raw/ginned cotton) = 54,730 kanme and over. Matches MASTER. Distinct from the 木綿 (cotton cloth) column to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "綿"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1086,1197,92,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "木綿　貳萬反餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "木綿（もめん）二万反余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cotton cloth = 20,000 tan and over (a tan is the bolt-length for one garment). Matches MASTER, whose field label 木綿貳萬反餘 merges the label with the value; the clean label is 木綿."
+      },
+      {
+        "purpose": "identifying",
+        "value": "木綿"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:959,1198,88,499"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "家根板　九千九百箇餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "家根板（やねいた）九千九百箇余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Roof boards (shingles) = 9,900 pieces and over. Matches MASTER. Both digits are 九 (rounded bending leg), not 七."
+      },
+      {
+        "purpose": "identifying",
+        "value": "家根板"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:824,1197,93,753"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩士戸數　一萬九十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩士戸数（はんしこすう）一万九十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (hanshi) households = 10,093. Matches MASTER. The 一 prints as a single 11-pixel horizontal stroke, easily lost; with 人員 48,064 in the next column this gives 4.76 persons per samurai household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:693,945,91,924"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）淸水附名籍　戸數五百九十七戸　人員貳千七百九十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱）清水附名籍　戸数五百九十七戸　人員二千七百九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A three-column warichu attached below 藩士戸數 and marked （原朱） — i.e. written in vermilion in the original manuscript, an editorial convention used throughout this corpus. It registers the 淸水（清水）= Shimizu attached name-register (Shimizu being the Suruga port town administratively attached to Shizuoka): 597 households and 2,795 persons — 4.68 persons per household, consistent with the leaf's other two ratios. Recorded as notation rather than data because the box carries two distinct figures."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）濟"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:631,1938,178,906"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　四萬八千六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）四万八千六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (hanshi) population = 48,064 persons. Matches MASTER. It sits immediately left of 藩士戸數 10,093 and belongs to it (4.76 persons/household); the headnote above states that shizoku/sotsu and male/female are not separated within this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員（藩士）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:558,947,91,922"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　十五萬七千二百九十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）十五万七千二百九十七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households of the domain = 157,297. Matches MASTER. The 二 prints as two separate short strokes. Its matching 人口 of 777,011 appears on the facing leaf (lower_p081_left), giving 4.94 persons per household; per the headnote the 10,093 samurai households are presumably already inside this total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:421,947,95,1177"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士卒男女不分別　藩士ノ戸口此中ニ混入セルナラン"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒・男女分別せず。藩士ノ戸口、此ノ中ニ混入セルナラン。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A five-column headnote set above the 人員 and 戸數 columns: 'Shizoku and sotsu, and male and female, are not distinguished. The samurai households and population are presumably subsumed within these figures.' MASTER ends this note 混入セルナシ ('are not mixed in') — the page prints five kana, セ・ル・ナ・ラ・ン, giving 混入セルナラン, the opposite sense. The セルナラン reading is also the one consistent with the arithmetic, since 157,297 appears to include the 10,093 samurai households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒男女不分別藩士ノ戸口此中ニ混入セルナラン"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:387,593,289,272"
+      }
+    }
+  },
+  {
+    "id": "anno-shizuoka_lower_p081_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十八（ひゃくさんじゅうはち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 138, in the bottom outer margin. The final glyph is 八 (strokes separate and splaying at the top), not 人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百三十八"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2152,3034,69,216"
+      }
+    }
+  }
+]

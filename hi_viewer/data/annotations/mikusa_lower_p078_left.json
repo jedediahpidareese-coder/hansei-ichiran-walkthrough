@@ -1,0 +1,722 @@
+[
+  {
+    "id": "anno-mikusa_lower_p078_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永十貫八百九十六文六分七厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）十貫八百九十六文六分七厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eisen (cash) tax: 10 kan 896 mon 6 bu 7 rin. This is the second component of Mikusa's 雜稅 (miscellaneous tax) — the column is indented, starting at y1271 rather than at the top line like every level-0 field, because it continues the 雜稅米百五十八石七斗二升二合六勺 column at the far left of the facing page (p. 132)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2602,1261,120,1091"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　七十九戸　人口三百九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）七十九戸、人口三百九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai): 79 households, population 309. The male/female sub-counts below (154 + 155) reconcile exactly to 309. Against Mikusa's 10,379-koku kusadaka this is roughly 7.6 shizoku households per 1,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2470,913,118,1174"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百五十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 百五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku male = 154 persons. Printed as the right-hand run of the two-column split beneath the shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2508,2112,64,419"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 百五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku female = 155 persons, marginally outnumbering the 154 males; together they give the printed shizoku total of 309."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2445,2112,63,419"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　七十五戸　人口百八十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）七十五戸、人口百八十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainers): 75 households, population 188 (男108 + 女80 = 188, reconciling). Fewer persons per household than the shizoku (2.5 vs 3.9), and a markedly skewed sex ratio."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2334,910,111,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 百八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu male = 108 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2376,2174,58,271"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu female = 80 persons — 28 fewer than the 108 males, a much wider gap than among the shizoku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2315,2174,61,271"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千九百七十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）千九百七十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households in Mikusa domain: 1,976. The leading 千 carries the slanted stroke on top (not a plain 十 cross), so the magnitude is thousands — 1,976, not 1,990. The neighbouring Mineoka domain (p. 131) is recorded with the identical household count, 千九百七十六戸; each figure is printed in its own domain's block, so the duplication sits in the source."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2214,908,105,841"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　八千九百六十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）八千九百六十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population as printed: 8,961 — about 4.5 persons per household across 1,976 households. FLAG: the male/female split below sums to only 8,832 (男4,518 + 女4,314), leaving the printed total 129 short. This cannot be a misreading of the split: both sub-counts take the form [digit]千[digit]百十[digit], so their units digits (8 and 4) must produce a total ending in 2, never in 1. The same total, 八千九百六十一人, is printed for the next domain, Miike, on p. 135, where it reconciles exactly (4,508 + 4,453); and Mikusa's household count likewise duplicates that of the preceding domain, Mineoka (p. 131). Mikusa's entry therefore sits between two duplicated figures — a transmission error in the source rather than a reading error — though which entry was copied from which is not established. Transcribed and parsed as printed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2079,905,108,922"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四千五百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 四千五百十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population = 4,518. Read glyph-by-glyph at 5.5x: 男・四・千・五・百・十・八・人 (eight evenly pitched rows)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2118,1830,58,546"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千三百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 四千三百十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population = 4,314. The run has exactly eight evenly pitched glyph rows — 女 + six digits + 人 — reading 四・千・三・百・十・四. The tens place is a bare 十 (a plain cross with no multiplier before it), giving 4,314; a reading of 4,344 would need a seventh digit that the column does not print."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2050,1830,68,546"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　九　院庵　十　僧十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 九、院庵（いんあん）十、僧 十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 9; cloisters and hermitages (院・庵): 10; monks: 15 persons. Three sub-facts printed in one column, separated by wide gaps — 19 religious buildings staffed by only 15 monks. MASTER's grouping '九院庵 十僧十五人' mis-splits the label boundaries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1929,1076,119,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　三戸　社人三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（しゃにん）三戸、社人 三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine attendants (shanin): 3 households, 3 persons — one registered attendant per household. The value prints in two parts separated by a wide gap so that 社人三人 aligns horizontally with the population figures in the adjacent columns."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1792,1072,121,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "行人派　五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "行人派（ぎょうにんは）五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gyōnin-ha (a lay ascetic / Shugendō-affiliated order): 5 households. Households only — the survey records no population for this group, unlike the shizoku, sotsu and eta entries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "行人派"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1681,1070,99,501"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數　四戸　人口二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数（えたこすう）四戸、人口 二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households: 4, population 23 (男12 + 女11 = 23, reconciling). A very small registered outcaste presence — 0.26% of the domain's recorded population."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1530,1067,113,1094"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta male = 12 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1569,2166,60,271"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta female = 11 persons; with 12 males this gives the printed total of 23."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1510,2166,59,271"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　三小隊　合百二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）三小隊、合わせて百二十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 3 platoons, 126 men in total (42 per platoon). Against Mikusa's 10,379-koku kusadaka that is about 12 soldiers per 1,000 koku — and 126 men drawn from a retainer body of 497 shizoku and sotsu persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1424,894,86,911"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ　高十石　元朱印地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）に、高 十石、元朱印地（もとしゅいんち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition: 10 koku, formerly vermilion-seal (shuinchi) land — a shogunal grant standing outside the domain's assessed kokudaka. 外ニ prints as a small right-offset superscript label, with 元朱印地 in smaller type beneath the value. This is Mikusa's, not Miike's: it stands to the RIGHT of the ○三池藩 marker, and the warichu note below names the holder as a temple in Harima — Mikusa's province. Miike's lands lay elsewhere entirely: p. 134 breaks its tax down by 筑後國三池五ヶ村 (Chikugo) and 岩代國伊達郡六ヶ村 (Iwashiro)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1289,1049,135,533"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "播磨加玉郡奥山村　奥山寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "播磨（はりま）加東郡（かとうぐん）奥山村、奥山寺（おくやまでら）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu (two-column inset note) plus a widely spaced temple name, identifying the holder of the 10 koku of former vermilion-seal land above: Okuyama-dera, Okuyama village, Harima province. Read right column top-to-bottom, then left: 播磨加玉 / 郡奥山村. The district glyph is genuinely printed 玉, giving 'Katama district' — but no such district existed in Harima. The glyph is unambiguous at high magnification: three horizontals, a single centre vertical, and a dot in the lower-right quadrant; 東 would require a 日 box (two further verticals), and the space beside the centre stroke is clean white. This is almost certainly 加東郡 (Katō) — the Harima district where Mikusa domain sat — most likely a typesetter's misreading of a cursive 東 in the manuscript. Transcribed verbatim as printed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "奥山寺所在注記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1253,2290,126,1122"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○三池藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○三池藩（みいけはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the Miike domain block — the only marker on this page. It sets the ownership boundary: everything printed to its right belongs to the previous domain, Mikusa (whose ○三草藩 marker stands on the facing page), and everything to its left is Miike's. Miike, a small Tachibana domain, held split territory in Chikugo and Iwashiro."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○三池藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1128,1228,116,565"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　壹萬千九百九十七石三斗八升五合七勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一万千九百九十七石三斗八升五合七勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miike's kusadaka (gross assessed yield): 11,997.38574 koku — the first field of the Miike block, printed immediately left of the maru-marker. Sub-units run strictly descending (石 > 斗 > 升 > 合 > 勺 > 才), confirming the parse. The tens digit is 九, not 七: at high magnification it is stroke-for-stroke the same glyph as the 九 of 九百 two positions earlier in this same column and type size, and quite unlike the 七 in the units place just below it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（三池藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:984,888,128,1849"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（三池）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（三池）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head: 'Han Institutions Overview, fascicle 7 — (Miike)'. This is PROVENANCE, naming the domain whose block opens on this page; it does not describe most of the page's contents, since 20 of the 24 boxed elements are Mikusa's. The facing page (p. 132) carries the parallel head 藩制一覧表第七（三草）."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（三池）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:889,1141,84,587"
+      }
+    }
+  },
+  {
+    "id": "anno-mikusa_lower_p078_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十三（一三三）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 133. The sequence is confirmed by the neighbouring leaves — the facing right page is 132 and lower_p079_right is 百三十四 (134), consistent with right-to-left Japanese binding where the right page of a spread is read first."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百三十三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p078_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:858,2983,71,216"
+      }
+    }
+  }
+]

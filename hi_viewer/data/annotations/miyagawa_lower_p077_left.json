@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-miyagawa_lower_p077_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　六十ヶ寺　僧七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）六十ヶ寺（ろくじっかじ）僧（そう）七十四人（しちじゅうよにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples in Miyagawa domain: 60, with 74 monks resident. The rightmost column on the leaf, read first. 六 is confirmed by its 亠 lid, which projects as two separate ink runs (y1390-1413 lid, y1422-1450 legs), ruling out 八. The women and nuns attached to these temples print below in a two-run warichu, boxed separately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2611,1211,115,1003"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）五十人（ごじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Women resident at Miyagawa's temples: 50. Right-hand run of the warichu beneath 僧七十四人, sharing its top (y2227) with the 尼二人 run to its left. MASTER records 女五十八人 (58); the scan shows only four glyph rows in this run (女 y2227-2273, 五 y2298-2338, 十 y2363-2411, 人 y2433-2479) and the 21px 十→人 gap cannot hold a glyph. At 10x the third glyph is a plain cross (十) and the fourth has strokes meeting at the apex (人, not 八), so the reading is 50."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2652,2217,64,272"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（あま）二人（ににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nuns at Miyagawa's temples: 2. Left-hand run of the warichu, three glyph rows (尼 y2228-2273, 二 y2298-2335 as two horizontal strokes, 人 y2363-2411) against the four of the 女 run beside it. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺尼"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2585,2217,67,273"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社　四十六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社（やしろ）四十六社（しじゅうろくしゃ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines in Miyagawa domain: 46. The tens glyph is a plain cross (十, no ノ), and 六 resolves into its 亠 lid (y1555-1578) plus splayed legs (y1586-1614), so 46 rather than 48 or 4,006. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2490,1211,100,500"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai houses) of Miyagawa: 312 persons. The box holds the label alone because HI prints NO combined total for this field — after 士族 (y1052-1197) the column is blank for 520px and resumes at y1718 with a male/female warichu only. The 312 is therefore the sum of the two printed runs (145 + 167), and it is confirmed downstream: 士族 312 + 卒 82 + 夫卒 40 = 434, exactly the 人口四百三十四人 printed in the 右戸數 column that totals these three. MASTER's row (百四十五人 男七十五人 女七十人) mistakes the male figure 145 for a total and supplies a 75/70 split that appears nowhere on the leaf; 145 + 82 + 40 = 267 cannot reach the printed 434."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2373,1042,90,166"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）百四十五人（ひゃくよんじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 145. Right-hand run of the split, sharing its top (y1707) with the female run and aligned on the 士族 label's own column centre (x2417). Six glyph rows, each montaged in isolation: 男 四 十 五 人 after 百."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2396,1707,58,409"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百六十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）百六十七人（ひゃくろくじゅうななにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 167. Left-hand run of the split. The hundreds digit is 六 — its 亠 lid is clear at 8x, so 167 and not 187 — and the units digit is 七 (horizontal plus hooked vertical), not 九. 145 + 167 = 312, which with 卒 82 and 夫卒 40 reconciles to the printed 右戸數 population of 434."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2323,1707,73,411"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-ranking retainers, the ashigaru-derived stratum) of Miyagawa: 82 persons. As with 士族, the box holds the single label glyph (y1047-1112) because no combined total is printed — the column is blank until the male/female warichu resumes at y1715. The 82 is the sum of the printed runs (70 + 12) and is confirmed by the 右戸數 subtotal. MASTER's row here (六十二戸 人口三百二十五人 男百六十一人 女百六十九人) is a verbatim duplicate of Mineoka's 卒族 row on p078R and is contamination, not a reading of this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2241,1037,87,86"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男七十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）七十人（しちじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 70. Right-hand run of the split (shared top y1705), four glyph rows only — 男 七 十 人 — so there is no room for the 男七十二人 (72) that a derived MASTER row asserts. The tens digit is 七, distinguished from 九 by its hooked vertical rather than a bending leg. 70 + 12 = 82 is required by the 右戸數 total of 434."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2263,1705,59,274"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）十二人（じゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 12. Left-hand run of the split, four glyph rows (女 十 二 人). The heavily skewed 70:12 ratio is what the leaf prints and is required by the arithmetic: 312 + 82 + 40 = 434."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2198,1705,65,275"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "夫卒　四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "夫卒（ふそつ）四十人（しじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fusotsu (porter-attendants, the lowest service rank carried on the domain's rolls): 40. One column, but with the same 520px blank between label (y1043-1191) and value (y1714-1938) that 士族 and 卒 show — the box spans both, flush at the label's top and the last glyph's foot. Unlike its two neighbours this field prints a bare figure with no male/female split. Matches MASTER, and closes the trio that the next column totals: 312 + 82 + 40 = 434."
+      },
+      {
+        "purpose": "identifying",
+        "value": "夫卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2082,1033,114,916"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右戸數　九十五戸　人口四百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右戸数（みぎこすう）九十五戸（きゅうじゅうごこ）人口（じんこう）四百三十四人（よんひゃくさんじゅうよにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of the above: 95, population 434. 右 (\"the right\") means the preceding columns — in vertical setting the earlier-read ones lie to the right — so this totals 士族, 卒 and 夫卒 only, the three columns immediately to its right, and it does so exactly: 312 + 82 + 40 = 434. That identity is the page's strongest verification, independently fixing all five status readings. A single unbroken run of eight glyphs after the label (人 口 四 百 三 十 四 人, ending y2613) with no warichu; MASTER's trailing 男二百二十三人 女百八十八人 is absent from the leaf and self-contradictory in any case (223 + 188 = 411, not 434)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1923,1200,132,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　四十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）四十一人（しじゅういちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) population of Miyagawa: 41 persons. Indented one register below the top-level fields (label y1290-1434 against y1044 for the status trio), marking it as a subordinate entry. The male/female split prints below in a warichu (boxed separately) and reconciles exactly: 23 + 18 = 41. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1808,1280,103,585"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二十三人（にじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male eta: 23. Right-hand run of the split beneath the 41 total, sharing its top (y1867) with the female run. The units glyph projects as three separate horizontal strokes (三)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1847,1867,65,344"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）十八人（じゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female eta: 18. Left-hand run of the split; 23 + 18 = 41 matches the printed total. The two runs' ink abuts at x1846/1847 where the splayed legs of adjacent glyphs meet, so the boxes are flush neighbours rather than padded apart."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1867,68,344"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人（ひにん）六人（ろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) population of Miyagawa: 6 persons. The last of Miyagawa's columns, immediately right of the ○峯岡藩 marker and therefore still Miyagawa's under the right-to-left rule. 六 confirmed by its 亠 lid, which projects as two runs (y1540-1563, y1572-1600). The split below reconciles: 2 + 4 = 6. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1677,1276,98,419"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二人（ににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male hinin: 2. Right-hand run of the split beneath the 6 total, shared top y1697."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1715,1697,62,204"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四人（よにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female hinin: 4. Left-hand run of the split; 2 + 4 = 6 matches the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1653,1697,62,203"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○峯岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○峯岡藩（みねおかはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the Mineoka domain entry. Four glyphs widely letter-spaced down the column: the circle (y1369-1446), 峯 (y1476-1559), 岡 (y1658-1736), 藩 (y1828-1911). This is the page's only marker and the hinge of its attribution — the eight fields to its right close Miyagawa's block (begun on p077R), the four to its left open Mineoka's (continued on p078R). 峯岡 = Mineoka, a small Awa-province domain; the leaf's running header names it as the domain current at the page's end."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○峯岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,1358,119,564"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　壹萬五千七十一石一斗四升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）一万五千七十一石一斗四升五合（いちまんごせんななじゅういちこくいっとよんしょうごごう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield of Mineoka domain: 15,071.145 koku (壹萬 10,000 + 五千 5,000 + 七十 70 + 一 1; then 一斗 0.1 + 四升 0.04 + 五合 0.005). The thousands glyph at y1451-1507 carries the ノ stroke on top, confirming 千 and not 十 — the difference would be a hundredfold error. Sub-units run strictly descending 石 > 斗 > 升 > 合, with no place skipped. Unlike Miyagawa's round 壹萬三千石 (13,000) on p077R, Mineoka's figure is a surveyed rather than a nominal assessment. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1385,1017,124,1343"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四千三百九十三石九斗七升四合三勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）四千三百九十三石九斗七升四合三勺（よんせんさんびゃくきゅうじゅうさんこくきゅうとななしょうよんごうさんしゃく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land-tax rice of Mineoka: 4,393.9743 koku (4,393 koku + 九斗 0.9 + 七升 0.07 + 四合 0.004 + 三勺 0.0003), strictly descending with no place skipped. THIS COLUMN CARRIES NO PRINTED LABEL — a high-sensitivity scan of the space above it (x1240-1380, y960-1198) returns a minimum pixel value of 196, i.e. bare paper, at thresholds up to 185, whereas the neighbouring 高 label returns thousands of dark pixels; the column simply begins with 四 at y1200. The field name is assigned by slot, not by print: it occupies the position between 高 and 戸數 that p077R fills with 正租 (Miyagawa) and p078R with 正租 (Mikusa), and its ratio to 高 — 4,393.97 / 15,071.15 = 29.2 per cent — matches Miyagawa's 4,139.69 / 13,000 = 31.8 per cent. MASTER's raw kanji agree; its parsed 4393.97743 is a parser fault, as the stored kanji resolve to .9743."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1245,1190,126,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千九百七十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）千九百七十六戸（せんきゅうひゃくななじゅうろっこ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households in Mineoka domain: 1,976. The leading 千 carries its ノ and the final 六 projects as lid (y1697-1720) plus legs (y1728-1757), confirming 六 over 八. Against the printed population of 11,040 this gives 5.6 persons per household. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1133,1015,112,839"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　一萬千四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）一万千四十人（いちまんせんよんじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of Mineoka domain: 11,040 (一萬 10,000 + 千 1,000 + 四十 40). Exactly six glyph runs follow the label even at threshold 150 — 一 y1298-1308, 萬 y1356-1418, 千 y1443-1500, 四 y1527-1583, 十 y1609-1669, 人 y1693-1750 — with no glyph merged or hidden; each was montaged in isolation. The final glyph's strokes meet at the apex (人), unlike the unmistakable 八 in the male run below, so MASTER's 一萬千四十八人 (11,048) inserts a phantom 八. FLAG: the male/female split printed beneath sums to 10,980 (5,385 + 5,595), 60 short of this total. No single-glyph correction reconciles the two, and the readings on both sides are unambiguous at 7-10x, so this is recorded as a defect in the source itself. Miyagawa's own population on p077R reconciles exactly (3,307 + 3,428 = 6,735), so the fault is specific to this entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:997,1013,109,747"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千三百八十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）五千三百八十五人（ごせんさんびゃくはちじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population of Mineoka: 5,385. Right-hand run of the split, nine glyph rows sharing their top (y1765) with the female run; the sub-run boundary was measured at the x1031 minimum of the horizontal ink profile. Every glyph montaged singly: the hundreds digit is 三 (three clean horizontals) and the tens digit is 八 (strokes separate at the top, in clear contrast to the 人 that ends the run)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1032,1765,67,614"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五千五百九十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）五千五百九十五人（ごせんごひゃくきゅうじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population of Mineoka: 5,595. Left-hand run of the split, nine glyph rows. The hundreds digit is 五 (Z-form with closed base, not 六, which would carry a lid) and the tens digit is 九 (rounded bending leg, not 五). 5,385 + 5,595 = 10,980, which falls 60 short of the printed total of 11,040 — see the 人口 note; neither run admits a reading that closes the gap."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:959,1765,73,614"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（峯岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（峯岡）（はんせいいちらんひょうだいなな・みねおか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (hashira): Han Institutions at a Glance, Fascicle 7 (Mineoka). PROVENANCE, not ownership — it names Mineoka, the domain current at the end of the leaf, while most of the page's data is Miyagawa's. The facing leaf p077R behaves identically, its header reading 藩制一覧表第七（宮川） because Miyagawa's marker falls there. Eleven glyphs including the bracketing parentheses (（ y1680-1703, 峯 y1708-1752, 岡 y1758-1804, ） y1806-1829). Its position in the left strip, together with the printed page number below it, marks the fore-edge of this verso — the stacked page-edges of the book block are visible at x360-420."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（峯岡）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:873,1262,86,579"
+      }
+    }
+  },
+  {
+    "id": "anno-miyagawa_lower_p077_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十一（ひゃくさんじゅういち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 131. Four glyphs (百 y3106-3148, 三 y3159-3229 as three strokes, 十 y3245-3265, 一 y3276-3287), set in the same left-hand strip as the running header. The facing leaf p077R carries 百三十 (130), placing this verso as its immediate successor within the Miyagawa-to-Mineoka sequence of fascicle 7."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号（峯岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p077_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:831,3096,73,202"
+      }
+    }
+  }
+]

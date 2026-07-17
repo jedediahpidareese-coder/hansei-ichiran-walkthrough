@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-shimodate_lower_p089_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（下館）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（下館）／はんせいいちらんひょう だいしち（しもだて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header set vertically in the right-hand margin: 'Han Administration Overview Table, Fascicle 7 — Shimodate.' Fascicle 7 of the Dajōkan's 1869-70 survey carries product/tax returns, religious-establishment counts, households and population. The header is provenance and can name a different domain from the data on the leaf, but here the parenthetical agrees: every column on this page is Shimodate's. 覽 is printed in kyūjitai. Not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（下館）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2203,1268,75,573"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十四（ひゃくごじゅうよん）＝154"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the outer margin: 154. Shimodate's fascicle-7 block occupies printed pages 153-155 (pdf 88-left, 89-right, 89-left); this is the middle leaf. The number is even, which places it on the right of the spread under the book's right-bound arrangement — making it the verso of printed page 153, the same physical leaf. Not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号百五十四"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2191,3099,76,217"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金百三拾九兩壹分貳朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金百三十九両一分二朱（きん ひゃくさんじゅうきゅうりょう いちぶ にしゅ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold: 139 ryō 1 bu 2 shu. The first column read on the page and the first of three cash lines that carry no group label of their own — the previous leaf (printed 153) ends with 雜稅米 33.281 koku, so in reading order these continue the miscellaneous-tax (雜稅) group, matching the 米→金→永 pattern that leaf uses for the main land tax. At 4 bu to the ryō and 4 shu to the bu this is 139 + 0.25 + 0.125 = 139.375 ryō — a negligible cash sum for a 20,000-koku domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2069,1345,92,835"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永百三拾八貫貳百九拾七文四厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永百三十八貫二百九十七文四厘四毛（えい ひゃくさんじゅうはちかん にひゃくきゅうじゅうななもん よんりん よんもう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eisen (money of account): 138 kan 297 mon 4 rin 4 mō, the second cash line of the miscellaneous-tax group. At 1,000 mon to the kan, with 厘 = 0.01 mon and 毛 = 0.001 mon (the 分 place is skipped, i.e. zero), this is 138 + 0.297044 = 138.297044 kan. NOTE — the project dataset reads this as 百三十八貫貳百四十九文二分貳厘四毛六毫 (138.24924 kan); the scan does not support it. The pitch is a uniform ~84px with no gaps and the digits re-zoomed at 8x are 貳-百-九-拾-七-文 (297, not 249), there is no 分 glyph, and the column's ink stops at 毛. The two faint glyphs below are show-through from the other side of this same leaf: they align with mirrored page 153 at a 6px offset (66% of ghost pixels coincide, vs 1.6% at a random shift) and are the tail 「六毛」 of page 153's own 永六百四十四貫四百拾七文四分壹厘六毛."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1932,1344,96,1335"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢六拾貳貫四百五拾壹文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭六十二貫四百五十一文（ぜに ろくじゅうにかん よんひゃくごじゅういちもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Copper cash: 62 kan 451 mon = 62.451 kan, the third and last cash line of the miscellaneous-tax group. Together with the 139.375 ryō in gold and 138.297044 kan in eisen, this closes Shimodate's sundry-tax receipts, which the previous leaf opens with 雜稅米 33.281 koku of rice."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1803,1345,87,917"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下四行欄外朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下四行、欄外朱書）／いか よんぎょう らんがい しゅがき"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note by the 1928 compilers, set in small type (~45px glyphs against ~61px for the main text) in the gutter: 'the following four lines were written in red in the margin' of the manuscript original. The four lines it flags are the next four columns read leftward — （產物税 / 河內國支配所 / 氷豆腐 / 稅金貳百兩）— and the compilers bracket the whole group, opening the parenthesis before 產物税 and closing it after 兩. Red marginal entries are later additions or corrections to the domain's fair copy, so this product tax was not part of the original return. Not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下四行欄外朱書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1743,1160,60,584"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（產物税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（産物税（さんぶつぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading of the four-line red-ink group: 'product tax' — a levy on a domain's commercial/manufactured output as distinct from the land tax. The box carries the group's OPENING parenthesis, which has no close in this column: the matching 」）」 stands four columns to the left, after 稅金貳百兩. A heading, not itself a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物税"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1667,1160,76,265"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "河內國支配所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "河内国支配所（かわちのくに しはいしょ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second of the four red-ink lines: 'the administered district in Kawachi Province.' It locates the taxed product. Shimodate's castle and main holding lay in Hitachi Province, but the Ishikawa house also administered scattered land in Kawachi (eastern Osaka), and the 200-ryō product tax below is attributed to that jurisdiction rather than to the home territory. A locating note, not a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "河內國支配所"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1529,1176,86,500"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "氷豆腐"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "氷豆腐（こおりどうふ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Third of the four red-ink lines: freeze-dried tofu — bean curd frozen and dried for keeping, the product on which the tax in the next column was levied. The commodity is named without a quantity; only its tax yield is recorded. Not a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "氷豆腐"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1396,1263,85,247"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "稅金貳百兩）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "税金二百両（ぜいきん にひゃくりょう））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fourth and last of the four red-ink lines: a tax of 200 ryō on the freeze-dried tofu produced in Shimodate's Kawachi district. The box carries the group's CLOSING parenthesis after 兩, matching the opening one before 產物税 four columns to the right. At 200 ryō this single commodity yields more cash than the whole miscellaneous-tax gold line (139.375 ryō) that opens the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "稅金（氷豆腐）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1265,1260,85,435"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "朱印地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "朱印地（しゅいんち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Vermilion-seal land' — land held by shrines and temples under a charter bearing the shogun's vermilion seal, and so exempt from the domain's ordinary land tax. This is the label; its assessed yield stands in the next column left. Not itself a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱印地"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1136,1178,83,245"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高百三拾七石七斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高百三十七石七斗（たか ひゃくさんじゅうななこく ななと）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield of the vermilion-seal land: 137.7 koku (斗 = 0.1 koku). Set against the domain's 20,000-koku kokudaka recorded on the opening leaf, the shrine and temple holding is 0.69% of the assessment — a small carve-out from the taxable base."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（朱印地）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1000,1264,84,663"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社寺領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社寺領（しゃじりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Shrine-and-temple lands' — the category label for the 朱印地 / 高 137.7 koku pair above it, printed low on the leaf and widely letter-spaced across the depth of the group it heads. Real ink (grey p5 = 29-30, matching the main text), not show-through. Not a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社寺領"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:983,2937,85,580"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總戸數貳千八百貳十七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総戸数二千八百二十七戸（そうこすう にせんはっぴゃくにじゅうななこ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households in the domain: 2,827. The label starts higher than the neighbouring columns, marking the head of the demographic block that runs to the end of the leaf. The 千 carries its slanted top stroke (2,827, not 287) and the 十 is a plain cross."
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:862,1017,93,915"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口壹萬五千百八拾貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口一万五千百八十二人（じんこう いちまんごせんひゃくはちじゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 15,182. Below this total the structural 内 ('of which') introduces the sex split, set as two side-by-side runs — 男 7,768 on the right, 女 7,414 on the left — which sum to 15,182 exactly. Against 2,827 households this is 5.4 persons per household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:724,1098,92,918"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男七千七百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男七千七百六十八人（おとこ ななせんななひゃくろくじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male share of the total population: 7,768. The right-hand of the two runs under 内, and so read before the female column. NOTE — the project dataset reads 男七千七百四十八人 (7,748), which with its female figure sums to 15,212 and overshoots the printed total by 30. Re-zoomed at 7x the glyphs are 七-百-六-十-八-人 (六 has its top lid; 八's strokes separate at the top; 人's meet at the apex), giving 7,768, and 7,768 + 7,414 = 15,182 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:762,2082,66,615"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七千四百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女七千四百十四人（おんな ななせんよんひゃくじゅうよにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female share of the total population: 7,414, the left-hand run under 内 and one glyph shorter than the male column beside it. NOTE — the project dataset reads 女七千四百六十四人 (7,464); the scan prints 四百十四 (no tens digit before 十), and 7,414 is what closes the arithmetic against the printed total. The resulting sex ratio is 105 men per 100 women."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:700,2082,62,547"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數貳百五十五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数二百五十五戸（しぞくこすう にひゃくごじゅうごこ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 255, or 9.0% of the domain's 2,827 households. The page prints a plain 十 here where the project dataset transcribes 拾; the value is unaffected."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:592,1181,90,836"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千百五十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口千百五十六人（じんこう せんひゃくごじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 1,156 — the leftmost column on the leaf, its status carried by position rather than a repeated label, since it follows 士族戸數 directly. Its 内 split of 590 male and 566 female sums to 1,156 exactly. At 7.6% of the domain's 15,182 people, and 4.5 persons per shizoku household against 5.4 domain-wide, the samurai establishment is modest for a 20,000-koku house. The register continues on the facing leaf with the 卒族 and other status counts."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:457,1346,88,665"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百九拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男五百九十人（おとこ ごひゃくきゅうじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male share of the shizoku population: 590. The right-hand run under 内, and the shorter of the pair by one glyph. It uses the formal 拾 for the tens where the female column beside it uses plain 十 — the two forms are mixed freely on this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:493,2085,62,404"
+      }
+    }
+  },
+  {
+    "id": "anno-shimodate_lower_p089_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百六十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女五百六十六人（おんな ごひゃくろくじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female share of the shizoku population: 566. With the 590 males this makes the printed total of 1,156 exactly. The shizoku sex ratio of 104 men per 100 women is essentially the same as the domain-wide figure of 105."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p089_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:432,2085,61,473"
+      }
+    }
+  }
+]

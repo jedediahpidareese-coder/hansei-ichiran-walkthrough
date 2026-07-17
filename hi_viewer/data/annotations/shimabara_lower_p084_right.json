@@ -1,0 +1,752 @@
+[
+  {
+    "id": "anno-shimabara_lower_p084_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（島原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（島原）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance), outer margin: Han Administration Overview, Fascicle 7 — (Shimabara). Small type (~45–50px glyphs vs ~60px in the body). Provenance only, not data; here it happens to name the same domain as the page's content."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（島原）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2233,1299,72,575"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百四十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百四十四（144）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom of the outer margin: 144. The first two glyphs are heavily over-inked; a level-stretch resolves them as 百 and 四. Confirmed by the preceding page (lower_p083_left) printing 百四十三 and the following page (lower_p084_left) printing 百四十五."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百四十四"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2216,3136,72,211"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜穀八千貳百八十石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑穀（ざっこく）八千二百八十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous grain = 8,280 koku. Printed flush at the top of the value band with no raised label of its own, so it is a further component of the 正稅 (regular land tax) account whose label and first component (現米 36,945.74116 koku) stand on the preceding page 143."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜穀"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2101,1292,84,751"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金貳千五百七十壹兩永百三十四文七分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 二千五百七十一両 永百三十四文七分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (正稅) in cash = 2,571 ryō, plus 134.7 ei-mon. Flush with 雜穀 above it, so it is the cash component of the same 正稅 account carried over from page 143. MASTER records 2,570 — the print clearly has 壹 before 兩 (verified at 9×), so the figure is 2,571."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1959,1296,96,1421"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　現米貳千九百拾九石六斗八升九合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 現米 二千九百十九石六斗八升九合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (雜稅), rice component, expressed in current rice = 2,919.6896 koku. Sub-koku units run 石>斗>升>合>勺 in strict descending order. 雜稅 is a section label in the raised band; it governs this column and the cash column to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1825,1044,93,1675"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "口米夫米小物成共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "口米・夫米・小物成 共"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu (double-column inline note) under the 雜稅 current-rice figure: 'inclusive of kuchimai (surcharge rice), fumai (corvée rice) and komonomari (petty imposts)'. Read right line (口米夫米) then left line (小物成共)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "口米夫米小物成共"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1802,2728,117,267"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金三千三百六十壹兩永八百七十文三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 三千三百六十一両 永八百七十文三分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (雜稅) in cash = 3,361 ryō, plus 870.3 ei-mon. Flush with the 現米 column to its right, so it is the second component of the 雜稅 account."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1690,1296,90,1422"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "口金夫金諸運上小物成共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "口金・夫金・諸運上・小物成 共"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu under the 雜稅 cash figure: 'inclusive of kuchikin (surcharge cash), fukin (corvée cash), sundry unjō (licence duties) and komonomari'. Read right line (口金夫金諸運) then left line (上小物成共)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "口金夫金諸運上小物成共"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1670,2728,115,400"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "國産　農牛馬九百九十疋　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "国産 農牛馬 九百九十疋 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "National products (國産), first entry: farm cattle and horses = 990 head, of which (内) the split below. 國産 is a raised-band section label governing this column and the three to its left (運上金, 櫨實, 益金); it is boxed with the column that carries it. The unit is 疋 (hiki), not 丁 as MASTER records."
+      },
+      {
+        "purpose": "identifying",
+        "value": "國産農牛馬"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1564,1047,82,987"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "牛貳百四十疋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "牛 二百四十疋"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 990 farm animals — oxen = 240 head (right line of the 内 split, read first). MASTER records 200 (牛貳百丁), which fails the sum; the print has 四十 and 240 + 750 = 990 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "農牛馬内牛"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1600,2041,60,404"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "馬七百五十疋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "馬 七百五十疋"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 990 farm animals — horses = 750 head (left line of the 内 split, read second). 240 + 750 = 990 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "農牛馬内馬"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1543,2041,56,406"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "運上金拾五兩永五百文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "運上金 十五両 永五百文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Licence duty (unjōkin) = 15 ryō, plus 500 ei-mon. Indented one glyph below the value-band top, marking it as a sub-item of the 農牛馬 entry to its right — the duty levied on the domain's cattle and horses."
+      },
+      {
+        "purpose": "identifying",
+        "value": "運上金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1429,1382,86,834"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "櫨實三百五十萬斤"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "櫨実（はぜのみ・ろじつ）三百五十万斤"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Wax-tree berries (haze no mi) = 3,500,000 kin. Flush at the value-band top, so a top-level 國産 (national products) entry alongside the farm animals; the 益金 column to its left records the profit on it. The first glyph is 櫨 (wax tree), not 樟 (camphor): it carries the 虍 tiger-top and 皿 base of 盧 and matches the well-inked 櫨實 printed for Kumamoto (upper_p183_left), while 樟's symmetric 立 top and 早 descender are absent. MASTER's 樟實 / 'camphor' is a misread. MASTER also writes 拾 where the print uses a plain 十 (same value)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "樟實"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1300,1298,83,667"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "益金三千兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "益金（えききん）三千両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Profit = 3,000 ryō. Indented one glyph, marking it as a sub-item of 櫨實 to its right — the return on the wax-berry (haze) trade. The label is 益金, not bare 金 as MASTER records."
+      },
+      {
+        "purpose": "identifying",
+        "value": "益金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1156,1385,83,413"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "華族　三人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "華族（かぞく）三人 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku (the ennobled former daimyo house) = 3 persons, of which (内) the male/female split below. Opens the status register, which continues 士族 → 卒 leftward and then onto page 145."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1019,1050,83,483"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku — male = 1 (right sub-column of the 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1061,1542,57,195"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku — female = 2 (left sub-column). MASTER records 女一人, which fails the sum; the print has two strokes (二) and 1 + 2 = 3 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1001,1542,59,196"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　三百六十九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）三百六十九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households = 369."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:882,1055,83,746"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　貳千貳百貳十人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 二千二百二十人 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 2,220 persons, of which (内) the male/female split below. This column is absent from MASTER's rows for the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:748,1054,81,904"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千七十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千七十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male = 1,070 (right sub-column). The 千 is verified against 十 at 8×."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:786,1969,58,337"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千百五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千百五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 1,150 (left sub-column). 1,070 + 1,150 = 2,220 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:728,1969,56,406"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　八百八十八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ）八百八十八軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer class) households = 888."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:612,1056,83,751"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　四千三百二十二人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員 四千三百二十二人 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population = 4,322 persons, of which (内) the male/female split below. Leftmost data column on the page; the commoner and domain-wide totals continue on page 145 (lower_p084_left)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:477,1062,84,990"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二千六十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二千六十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — male = 2,062 (right sub-column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:515,2062,56,470"
+      }
+    }
+  },
+  {
+    "id": "anno-shimabara_lower_p084_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二千二百六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二千二百六十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — female = 2,260 (left sub-column). 2,062 + 2,260 = 4,322 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p084_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:453,2062,61,537"
+      }
+    }
+  }
+]

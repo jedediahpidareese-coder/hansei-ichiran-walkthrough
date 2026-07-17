@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-mikazuki_lower_p075_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（峯山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第七（峯山）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Table of Domain Institutions, Fascicle 7 — Mineyama.' This is PROVENANCE, not attribution. It names 峯山藩, the domain whose entry only opens at the ○ marker near the left edge of this leaf; the bulk of the page is the tail of the previous domain, 三日月藩. Printed in the top outer margin of this recto leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（峯山）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2225,1230,73,580"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百二十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百二十六（ひゃくにじゅうろく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom outer margin: 126. This is a recto (right-hand) leaf, read before the facing leaf, which carries page 127; the preceding leaf carries page 125."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁百二十六"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2207,3067,82,219"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　錢四百八十四貫六百四十一文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）　銭（ぜに）四百八十四貫六百四十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (zatsuzei), cash portion: 484 kan 641 mon of copper cash. Fifteen glyphs in one column — 雜稅 then 錢 四 百 八 十 四 貫 六 百 四 十 一 文 — with the 一 printed as a lone thin horizontal at y2266-2276. This is Mikazuki's figure: the column stands right of the ○峯山藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2088,1060,96,1342"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　百五十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数（しぞくこすう）　百五十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 156. The 六 carries its top lid (亠), distinguishing it from 八."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1955,979,99,836"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六百七十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）　六百七十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the shizoku households: 679 persons. This column sits immediately LEFT of 士族戸數 (156 households), and in HI's layout each 戸數 is followed leftward by its own 人口 — so this is the SHIZOKU population, at 4.35 persons per household. (The project's MASTER dataset labels this row '人口 卒族'; that is an error.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,978,94,919"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三百三十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 679 shizoku: 335 female. Printed as the LEFT of the two side-by-side sub-columns below the total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1816,1900,59,481"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三百四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 679 shizoku: 344 male. Printed as the RIGHT of the two side-by-side sub-columns. 344 + 335 = 679, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1875,1900,59,481"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數　百五十五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数（そつぞくこすう）　百五十五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households: 155 — almost exactly level with the 156 shizoku households, an unusually even split between the two retainer grades."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1696,978,89,837"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六百六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）　六百六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the sotsu households: 664 persons, i.e. 4.28 per household. It follows 卒族戸數 (155 households) leftward, which is what identifies it as the sotsu count. (MASTER files this row under the non-committal label '人口 (一区分)'.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口卒族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1561,979,86,919"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三百二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 664 sotsu: 324 female — seven glyphs (女三百二十四人) in the LEFT sub-column. MASTER assigns 324 to the male side; the scan is unambiguous."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1542,1900,58,481"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三百四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 664 sotsu: 340 male — six glyphs (男三百四十人) in the RIGHT sub-column, one shorter than the female run beside it. 340 + 324 = 664, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1601,1900,62,409"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　四千八百二十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）　四千八百二十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-wide household total: 4,823. Subtracting the shizoku (156), sotsu (155) and shrine-personnel (12) households leaves roughly 4,500 commoner households. The 千 is distinguished from 十 by the slanted stroke on top — a ×100 trap in this source."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1428,978,86,923"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　一萬七千九百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）　一万七千九百四十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-wide population total: 17,945 persons across 4,823 households, or 3.72 per household — about 1.2 persons per koku against Mikazuki's 15,000-koku assessment (1.15 if the 564.807 koku of 外 new land on page 125 is added in). Net of the shizoku (679), sotsu (664), shrine (55) and temple (112) counts, roughly 16,435 are commoners."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1292,979,88,1086"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八千四百八十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）八千四百八十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 17,945 total: 8,486 female (LEFT sub-column). The two 八 glyphs show the splayed, separated top strokes that distinguish them from 人, and the 六 its top lid. MASTER records 9,189 here — a misread."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1274,2069,58,616"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九千四百五十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）九千四百五十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 17,945 total: 9,459 male (RIGHT sub-column); 9,459 + 8,486 = 17,945 exactly. The sex ratio is a marked 111 males per 100 females. MASTER records 8,756 here — a misread whose value happens to sum correctly against its equally wrong female figure, so only the glyphs settle it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1333,2069,59,616"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　十二戸　人口五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（しゃにん）　十二戸　人口五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel: 12 households, 55 people. MASTER reads the total as 54; the glyph is 五 (closed-bottom Z form, not 四), and the male/female split below sums to 55."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1159,978,88,1087"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 55 shrine personnel: 28 female (LEFT sub-column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1145,2068,58,345"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 55 shrine personnel: 27 male (RIGHT sub-column). 27 + 28 = 55, which corrects the printed total against MASTER's 54."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1204,2068,58,345"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院庵修驗　五十四　人口百十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院庵修験（じいん・あん・しゅげん）　五十四　人口百十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples, hermitages and shugendō (mountain-ascetic) establishments: 54 in all, housing 112 people. Mikazuki reports these three religious categories as one combined line rather than splitting temples from shugen, as some domains do."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院庵修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1014,979,92,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 112 religious: 64 monks. RIGHT-most of a three-column interlinear (warichu) breakdown, read first."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院庵修驗僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1084,2322,61,347"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼二十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（あま）二十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 112 religious: 21 nuns. Middle column of the three-column warichu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院庵修驗尼"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1033,2322,51,347"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 112 religious: 27 lay women resident in the establishments. Left-most column of the three-column warichu; 64 + 21 + 27 = 112, closing exactly on the printed total. MASTER omits this whole breakdown."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院庵修驗女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:968,2322,65,347"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　三小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）　三小隊"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Army: three platoons (shōtai). No headcount is printed here; at the ~30 men per platoon that Mibu's return uses two leaves earlier, this implies on the order of 90 troops for a 15,000-koku domain. This is the last Mikazuki column, standing immediately right of the ○峯山藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:889,977,86,507"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○峯山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○峯山藩（みねやまはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker: the circle-plus-name that OPENS the entry for Mineyama Domain (峯山藩, a small Kyōgoku house in Tango). Everything to its right on this leaf is Mikazuki's; everything to its left is Mineyama's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○峯山藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:742,1315,107,563"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　一萬千百四十四石四斗四升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）　一万千百四十四石四斗四升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mineyama's assessed kokudaka: 11,144.441 koku. The sub-koku units run strictly descending — 石 (koku) 11,144, then 四斗 = 0.4, 四升 = 0.04, 壹合 = 0.001 — with no place out of order. This is the first field of Mineyama's block, printed immediately left of its ○ marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（峯山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:618,977,88,1347"
+      }
+    }
+  },
+  {
+    "id": "anno-mikazuki_lower_p075_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外　高百五十五石　新田畑"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）　高百五十五石　新田畑（しんでんばた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition (外): 155 koku of newly opened paddy and dry field (新田畑) — land brought into cultivation after the base assessment and carried outside it. The 外 prints as a small shoulder glyph at the head of the column. Together with the 11,144.441 koku base and the 237.89 koku of 込高 on the facing leaf, this yields the 合高 of 11,537.331 koku printed there — the arithmetic that proves those facing-leaf columns are Mineyama's, not Mikazuki's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外高（峯山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p075_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:475,1142,141,1353"
+      }
+    }
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "anno-shibata_lower_p081_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 七十七萬七千十一人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）七十七万七千十一人（ななじゅうななまんななせんじゅういちにん）内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population of Shizuoka domain: 777,011 persons. This column opens the leaf and completes a pair that straddles the leaf break — the matching 戸數 (157,297 households) is the last column of the preceding page (lower_p081_right), giving 4.94 persons per household. The 内 ('of which') at the foot introduces the male/female split boxed below, which reconciles exactly: 391,788 + 385,223 = 777,011. The printed label is 人員; MASTER records this row as 人口, which is an interpretive rename rather than what the page prints."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2520,917,92,1072"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三十九萬千七百八十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三十九万千七百八十八人（さんじゅうきゅうまんせんななひゃくはちじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population of Shizuoka domain: 391,788. Right-hand run of the split beneath the 777,011 total, sharing its top with the female run at the 男/女 glyph row (y2005). Note the numeral prints 萬千七百八十八 with no digit before 千 — standard for 1,000. Sum check: 391,788 + 385,223 = 777,011, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員男（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2553,1999,60,808"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三十八萬五千二百二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三十八万五千二百二十三人（さんじゅうはちまんごせんにひゃくにじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population of Shizuoka domain: 385,223. Left-hand run of the split, one glyph longer than the male run and so extending lower. Sum check: 385,223 + 391,788 = 777,011, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員女（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2491,1999,61,877"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "轉士 八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "転士（てんし）八軒（はちけん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of tenshi (轉士, 'transferred/converted samurai') in Shizuoka domain: 8. A very small special status category — 8 households against a domain population of 777,011. The label was verified at 7x: 轉 (車 radical plus 專) and 士 (top bar longer than the bottom, distinguishing it from 土). The value glyph is 八 (strokes separate at the top and splaying), not 人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "轉士戸數（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2390,914,86,413"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）三十六人（さんじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tenshi population of Shizuoka domain: 36 persons, across the 8 households recorded in the column to the right. Unlike the other two demographic columns on this leaf, this one prints NO 内 marker — the male/female runs begin directly beneath the total (the 人 of 三十六人 ends at y1487, the 男/女 glyphs begin at y1511). The split reconciles: 14 + 22 = 36. The value's third glyph is 六 (it carries the 亠 top lid), not 八."
+      },
+      {
+        "purpose": "identifying",
+        "value": "轉士人員（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2249,916,90,579"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）十四人（じゅうよにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male tenshi: 14. Right-hand run of the split, sharing its top with the female run at the 男/女 glyph row (y1511). Sum check: 14 + 22 = 36, matching the printed total. The leading numeral is 十 (a plain cross), not 千 — 千 would carry a slanted stroke on top and inflate the figure a hundredfold."
+      },
+      {
+        "purpose": "identifying",
+        "value": "轉士人員男（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2289,1505,59,263"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二十二人（にじゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female tenshi: 22. Left-hand run of the split. Sum check: 22 + 14 = 36, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "轉士人員女（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2231,1505,58,330"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多非人 千六百五十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多非人（えたひにん）千六百五十一軒（せんろっぴゃくごじゅういっけん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of eta and hinin (the two outcaste statuses) in Shizuoka domain: 1,651. The four-glyph label makes this column's title band taller than its neighbours. Read at 6x, the value is 千六百五十一軒 — the leading glyph is 千 (slanted stroke on top of 十), and the 六 carries its top lid."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人戸數（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2113,915,93,1002"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 七千七百九人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）七千七百九人（ななせんななひゃくきゅうにん）内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta/hinin population of Shizuoka domain: 7,709 persons, across the 1,651 households recorded in the column to the right — an average of 4.67 per household, against 4.94 for the domain as a whole. The 内 at the foot introduces the male/female split boxed below, which reconciles exactly: 3,820 + 3,889 = 7,709. The tens place is empty (七百九, not 七百十九): 九 sits directly before 人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1983,917,84,817"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三千八百二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三千八百二十人（さんぜんはっぴゃくにじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male eta/hinin: 3,820. Right-hand run of the split, sharing its top with the female run at the 男/女 glyph row (y1747). Sum check: 3,820 + 3,889 = 7,709, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員男（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2017,1741,59,535"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三千八百八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三千八百八十九人（さんぜんはっぴゃくはちじゅうきゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female eta/hinin: 3,889 — women slightly outnumber men in this status group (3,889 vs 3,820), inverting the domain-wide ratio. Left-hand run of the split. Sum check: 3,889 + 3,820 = 7,709, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員女（静岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1956,1741,61,605"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○新發田藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○新発田藩（しばたはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker opening the entry for Shibata domain (Echigo province, the Mizoguchi house). This is the only marker on the leaf and it governs the whole page: everything to its RIGHT — read earlier — belongs to the previous domain (Shizuoka), and everything to its LEFT is Shibata's. Printed in kyujitai as 新發田 (not 新発田)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○新發田藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1831,1255,108,604"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "越後蒲原郡 岩代信夫郡 之内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "越後（えちご）蒲原郡（かんばらぐん）・岩代（いわしろ）信夫郡（しのぶぐん）の内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu (split-column inline note) attached to the domain name: Shibata's lands lie 'within Kanbara district of Echigo and Shinobu district of Iwashiro'. Read right sub-column first (越後蒲原郡), then left (岩代信夫郡), then the centred 之内 below. It is printed in the MARKER's column (x1827-1933), not in the 高 column (x1704-1789), so it modifies the domain name rather than the kokudaka figure — MASTER folds this text into its 高 row instead. MASTER's transcription also drops one 郡; the page prints 郡 in both half-columns. These two districts are exactly the two components itemised under 此譯 below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新發田藩郡名割書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1819,1865,122,508"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 拾三萬九千百貳石壹斗八升七合三勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）十三万九千百二石一斗八升七合三勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed kokudaka of Shibata domain: 139,102.18735 koku (139,102 koku, 1 to, 8 shō, 7 gō, 3 shaku, 5 sai). Sub-units run strictly descending 石>斗>升>合>勺>才 with no place skipped. Every glyph was re-zoomed at 6-8x because the arithmetic below is 0.9 koku short: the glyph after 百 is unmistakably 貳 (二 over 貝 with the 弋 hook) and the one after 石 is unmistakably 壹 (士 over 冖 over 豆), ruling out the 壹/貳 transposition that would have closed the gap. The 此譯 breakdown to the left splits this between the two districts named in the warichu. MASTER carries two 高 rows for this page, both valued 139,102.18735; only this one is that figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1696,915,102,1597"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此譯"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の訳（このわけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'The breakdown thereof' — a structural connector heading the itemisation of the 139,102.18735-koku total. Printed indented (top at y1087, against y923 for the 高 it breaks down). The breakdown is organised BY PROVINCE, with each district's taxes nested beneath its kokudaka: the Echigo portion (132,399.04313 koku) and its taxes run from here across to the next leaf, where the Iwashiro portion (6,702.24422 koku, 岩代國信夫郡ノ内) and its own 正租/雜稅 then follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此譯"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1574,1087,80,160"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 拾三萬二千三百九十九石四升三合壹勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）十三万二千三百九十九石四升三合一勺三才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "First component under 此譯: the Echigo (Kanbara district) portion of Shibata's kokudaka, 132,399.04313 koku — 95.2% of the domain total. The 斗 place is genuinely SKIPPED (石→升→合→勺→才, still strictly descending), so the reading is .04313 and not .4313; a 20-glyph montage confirms it. MASTER records this row's value as 139,102.18735, duplicating the total — the scan clearly disagrees and is trusted here. The remaining Iwashiro portion prints on the next leaf (lower_p082_right) as 6,702.24422 koku; the two components sum to 139,101.28735, which falls 0.9 koku short of the printed total — a genuine internal inconsistency in the source, not a misread (all three figures were re-verified glyph-by-glyph)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "越後國蒲原郡高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1421,999,98,1679"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "越後國蒲原郡ノ内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "越後国（えちごのくに）蒲原郡（かんばらぐん）の内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Locative note in smaller type beneath the 132,399.04313-koku figure: 'within Kanbara district, Echigo province'. It identifies which of the two districts named in the domain-name warichu this component covers. A faint dash sits above the 越 glyph (min gray 94, against 17 for genuine print) — it is set-off/bleed rather than a 一 item marker, since the analogous note on the next leaf (岩代國信夫郡ノ内) carries no such mark; the box therefore starts at the 越 glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "越後國蒲原郡ノ内註"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1431,2769,69,540"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 米 六萬四千百七拾石五升六合三勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）米（こめ）六万四千百七十石五升六合三勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land tax (seiso) on Shibata's Echigo holding, paid in rice: 64,170.0563 koku — 48.5% of that district's 132,399.04313-koku assessment, a high but unremarkable rate for the Echigo rice plain. The label 正租 sits in the top register (y932), marking it as a head item under 此譯; 米 is its only component here, the cash lines belonging to 雜稅. The 斗 place is skipped (石→升→合→勺). Note the formal 拾 in 百七拾 (=170)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1290,924,96,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅 米 五千三十五石四斗壹升七合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）米（こめ）五千三十五石四斗一升七合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (zatsuzei) on Shibata's Echigo holding, rice component: 5,035.4176 koku — 3.8% of that district's assessment. The label 雜稅 sits in the top register (y929). Its remaining components follow in the value register to the left (金, 永) and continue onto the next leaf (銀, 錢, 荏, 大豆, 稗). Sub-units run 石>斗>升>合>勺 with no place skipped. Printed in kyujitai as 雜稅, not 雑税."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1158,921,96,1508"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金 二十六兩壹分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）二十六両一分（にじゅうろくりょういちぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold component of the miscellaneous tax on Shibata's Echigo holding: 26 ryō 1 bu = 26.25 ryō (1 bu = 1/4 ryō). It sits in the value register (top y1175) with no top-register label of its own, following 雜稅's 米 — the same arrangement recurs on the next leaf, which is how the attribution is fixed. The next leaf prints a domain-total 金 of the same 26 ryō 1 bu, implying the Iwashiro district contributed no gold."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1032,1175,88,579"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永 三百八貫六百七十七文九分八厘五毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）三百八貫六百七十七文九分八厘五毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eiraku-sen (cash) component of the miscellaneous tax on Shibata's Echigo holding: 308.677985 kan (308 kan, 677 mon, 9 bu, 8 rin, 5 mō — where 文=.001, 分=.0001, 厘=.00001, 毛=.000001 of a kan). MASTER parses 308.67798, dropping the 毛. The scan's full reading is confirmed by an exact cross-check: the next leaf prints a domain-total 永 of 四百三十壹貫百六十九文六分四厘五毛 = 431.169645, and 308.677985 + 122.49166 (that leaf's Iwashiro 永) = 431.169645 precisely. Last column of the page's data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:890,1175,100,1421"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）庚午二月ノ調ニ據ル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱／げんしゅ）庚午（かのえうま＝明治三年）二月の調（しらべ）に拠（よ）る"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in the head margin, set in three short columns read right to left: （原朱）| 庚午二月ノ | 調ニ據ル — '(in the original, in red ink) Based on the survey of the second month of the kanoe-uma year.' Kanoe-uma = Meiji 3 = 1870, dating Shibata's return to the second month of that year. Note the page prints 庚午 alone, without 年 (MASTER's field label supplies it; the scan shows exactly five glyph slots in this sub-column — 庚 午 二 月 ノ — at a uniform ~50px pitch). 原朱 flags that the note stood in vermilion in the manuscript the 1928 movable-type edition reproduces; the scan is grayscale, so it reads as ordinary black here. It sits left of the ○新發田藩 marker and above Shibata's 高 and 此譯 columns, and so belongs to Shibata's entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）庚午年二月ノ調ニ據ル"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1526,562,179,262"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（新發田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第七（だいなな）（新発田／しばた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (hashira) in the outer margin of this left-hand page: 'Han Survey Table, fascicle 7 (Shibata)'. This is PROVENANCE, not attribution — it names the domain whose entry opens on this leaf, and does not cover the five Shizuoka columns to the right of the marker (the preceding leaf's header reads 藩制一覽表第七（靜岡）). Printed with the old form 覽, not 覧 — verified at 8x by the dense 臣+丶+又 element over 見."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（新發田）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:782,1176,73,621"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p081_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十九（ひゃくさんじゅうきゅう）＝一三九頁"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 139. Page apparatus, not data. It confirms the reading order across the spread — the facing right-hand leaf (lower_p081_right) is page 138 and is read first, and the following leaf (lower_p082_right, carrying Shibata's Iwashiro component) is page 140."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p081_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:762,3015,68,215"
+      }
+    }
+  }
+]
