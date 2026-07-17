@@ -1,0 +1,872 @@
+[
+  {
+    "id": "anno-shibamura_lower_p090_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百三拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口百三十八人（じんこうひゃくさんじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population 138 persons (male 96 + female 42; see the 内 split boxes below, 96+42=138). A bare 人口 column opening the left leaf — its category label falls on the preceding right page. Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口百三拾八人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2598,1347,88,624"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男九十六人（おとこきゅうじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 96 persons (right-hand run of the 内 split under the 138 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口百三拾八人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2638,2001,54,331"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女四十二人（おんなよんじゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 42 persons (left-hand run of the 内 split under the 138 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口百三拾八人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2581,2001,55,333"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家戸數七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家戸数（しゃけこすう）七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family households: 7. MASTER agrees."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2468,1174,85,494"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口四十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口四十三人（じんこうよんじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population 43 persons (male 15 + female 28, 15+28=43). MASTER labels this 人口(寺院)=43 but records the split as 25/18; the scan puts the 貳 on the female side (男拾五人 / 女貳拾八人), so M15/F28."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口四十三人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2323,1352,86,551"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男十五人（おとこじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 15 persons (right run of the 内 split; the male column carries no 貳). 15+28=43."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口四十三人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2365,1914,54,260"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二十八人（おんなにじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 28 persons (left run of the 内 split; the female column carries the 貳)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口四十三人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2309,1913,54,332"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院拾八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 18 (counted in 戸). MASTER agrees."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2195,1172,85,413"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口七拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口七十五人（じんこうななじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population 75 persons, split four ways in the 内 warichu: monks 30, nuns 6, lay men 13, lay women 26 (30+6+13+26=75). Pairs with the adjacent 寺院拾八戸. Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口七拾五人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2053,1344,83,542"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧三十人（そうさんじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monks: 30 (upper entry of the right-hand warichu sub-column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口七拾五人僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2089,1881,59,294"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼六人（あまろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nuns: 6 (lower entry of the right-hand warichu sub-column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口七拾五人尼"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2089,2258,50,194"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男十三人（おとこじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lay men: 13 (upper entry of the left-hand warichu sub-column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口七拾五人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2030,1881,56,297"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女廿六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二十六人（おんなにじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lay women: 26 (lower entry of the left-hand warichu sub-column). 30+6+13+26=75."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口七拾五人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2023,2258,63,264"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下五行欄外朱書）（一二云）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下五行、欄外朱書）（一二に云ふ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note (two parenthetical columns): 'the following five columns stood as red-ink marginalia in the margin of the source' followed by a variant-reading marker. It flags five of the columns as figures that were red-margin annotations; the exact five (most plausibly the five columns to the right, which pair coherently as count→population) is left as printed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下五行欄外朱書一二云"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1932,1066,119,575"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家人口三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家人口（しゃけじんこう）三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family population 39 persons (male 13 + female 26, 13+26=39). MASTER records 人口(社家)=18 (9/9); the scan unambiguously reads 39 (M13/F26)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1781,1169,93,718"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男十三人（おとこじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 13 persons (right run of the 内 split under 社家人口三十九人)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,1910,52,260"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女廿六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二十六人（おんなにじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 26 persons (left run of the 内 split under 社家人口三十九人)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1766,1909,54,264"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺十七字"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）十七字"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A 寺 count of 17, given in the 字 counter — a category distinct from the 寺院 (18 戸) at column 4 and the 佛堂 (10 字) at column 9. MASTER mis-assigned this 17 to 佛堂."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺（字）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1655,1165,81,328"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "佛堂十字"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "仏堂（ぶつどう）十字"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddha halls: 10 (counted in 字). MASTER records 佛堂=17 (拾七字); that 17 is actually the adjacent 寺 column — the true 佛堂 reads 十字 = 10."
+      },
+      {
+        "purpose": "identifying",
+        "value": "佛堂"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1525,1164,82,329"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口三十八人（じんこうさんじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population 38 persons (male 28 + female 10, 28+10=38). A closing ）prints below the female run, so the column is parenthesized (a margin annotation). Pairs with 佛堂十字 to its right. Not captured in MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口三十八人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1384,1342,86,555"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男廿八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二十八人（おとこにじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 28 persons (right run of the 内 split under the 38 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口三十八人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1424,1908,51,290"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女十人（おんなじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 10 persons (left run of the 内 split under the 38 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口三十八人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1369,1907,53,292"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數四十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数（えたこすう）四十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) households: 49. MASTER agrees."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1247,1172,90,657"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口貳百四拾貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口二百四十二人（じんこうにひゃくよんじゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) population 242 persons (male 114 + female 128, 114+128=242), pairing with 穢多戸數四十九戸. MASTER=242 total but records the split as 124/118; the scan reads 男百十四/女百廿八 = 114/128."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口貳百四拾貳人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1106,1337,79,656"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男百十四人（おとこひゃくじゅうよんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 114 persons (right run of the 内 split under the 242 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口貳百四拾貳人男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1145,2023,52,385"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百廿八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女百二十八人（おんなひゃくにじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 128 persons (left run of the 内 split under the 242 total)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口貳百四拾貳人女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1091,2023,52,385"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社三十九座"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）三十九座"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines: 39 (counted in 座). MASTER agrees."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:985,992,85,493"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（芝邨）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（芝邨）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header / provenance: Domain Administration Survey (Hansei Ichiran), Fascicle 7 — Shibamura. Confirms the page is fascicle 7 and belongs to 芝邨 (Shibamura)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七芝邨"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:864,1247,71,570"
+      }
+    }
+  },
+  {
+    "id": "anno-shibamura_lower_p090_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十七（ひゃくごじゅうしち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 157 in the bottom margin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百五十七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p090_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:829,3074,70,220"
+      }
+    }
+  }
+]
