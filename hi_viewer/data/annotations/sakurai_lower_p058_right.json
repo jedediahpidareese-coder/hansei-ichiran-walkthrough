@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-sakurai_lower_p058_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（岸和田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいろく（きしわだ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head: 'Hansei ichiran-hyō, fascicle 6 (Kishiwada)', set vertically in the outer (right) margin of this recto and starting lower than the text block. It is provenance for the fascicle section, not a label for the columns: it names Kishiwada, whereas the columns right of the ○岸和田藩 marker are Sakurai's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（岸和田）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2241,1243,74,622"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人別　三十九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "にんべつ さんじゅうくにん うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Registered persons: 39. 内 ('of which') introduces the male/female split below. This is not the domain population — Sakurai's 人員 of 12,866 is on the preceding page (lower_p057_left). The figure most likely continues that page's last column, 番人小屋 一軒 (watchman's hut, 1 building), which is left without a headcount there; HI does carry a category's 軒 count and its 人 count across a page break elsewhere (關宿藩, pdf p118L → p119R). The attachment is an inference, not stated by the source: the label here is 人別 whereas every other Sakurai headcount is 人員, and 39 persons for a single hut is far above the ratio in comparable entries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人別"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2109,986,88,650"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にじゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 20 persons. Right-hand half of the double-column (warichu) split under 内; the empirical column boundary against the female run falls at x=2144."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人別内男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2144,1641,59,270"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな じゅうくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 19 persons. Left-hand half of the warichu split under 内. 20 male + 19 female = 39, matching the 人別 total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人別内女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2087,1641,57,270"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　二十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "むらかず にじゅうしち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: 27."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1975,983,86,498"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "別冊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "べっさつ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Bessatsu' — separate volume/appendix. Printed in small type at the upper right of 草高, marking the kokudaka (and, with the brace, the tax figures below it) as taken from a separate appendix rather than from the main return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "別冊註記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1913,1053,58,132"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　一萬百六十二石壹斗九升五合壹勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか いちまんひゃくろくじゅうにこく いっと きゅうしょう ごごう いっしゃく ななさい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal kokudaka (appendix figure): 10,162.19517 koku. Compare Sakurai's main-return 高 of 10,179.11318 koku on lower_p057_right — the appendix and the main return disagree slightly, which is why the appendix set is braced and flagged as coming from an attached slip."
+      },
+      {
+        "purpose": "identifying",
+        "value": "別冊草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1815,1069,97,1589"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "符箋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ふせん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Fusen' — an attached paper slip. The two glyphs are letter-spaced and centred across the top of a brace whose diagonal hooks fall at the 永 column (left, x≈1030-1080) and the 草高 column (right, x≈1858-1908); the brace marks the seven columns beneath it — 草高 plus the five-year-average tax figures — as transcribed from a slip attached to the original manuscript. The first glyph is clearly 符; the second is an over-inked (filled) type impression whose radical is demonstrably 竹, read here as 箋. The same note appears on lower_p057_right, the other Sakurai page, spelled 附箋 — both are standard spellings of fusen."
+      },
+      {
+        "purpose": "identifying",
+        "value": "符箋頭書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1032,975,866,84"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごかねんへいきん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Five-year average' — group label governing the five tax columns to its left (paddy main tax, upland main tax, its cash counterpart, miscellaneous tax, and its cash counterpart). It carries no value of its own."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1696,1070,91,408"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米　三千百五十八石五斗八升六勺五才　田方正稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "げんまい さんぜんひゃくごじゅうはちこく ごと はっしょう ろくしゃく ごさい　たかたしょうぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Paddy-field main tax, five-year average, in hulled rice: 3,158.58065 koku. The category tag 田方正稅 prints at the foot of the same column. The 合 place is skipped (= zero): the sequence runs 五斗 八升 六勺 五才, and the 勺 at y2252-2310 is unambiguous at single-character zoom."
+      },
+      {
+        "purpose": "identifying",
+        "value": "田方正稅現米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1540,1067,113,1841"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同　二百七十六石八斗八升八合四勺五才　畑方正稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "どう にひゃくななじゅうろくこく はっと はっしょう はちごう よんしゃく ごさい　はたかたしょうぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Upland-field main tax, five-year average: 276.88845 koku. The column head 同 means 'same [unit as above]', i.e. hulled rice; the tag 畑方正稅 prints at the foot of the column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "畑方正稅同"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1405,1066,109,1840"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　五百三十三貫六百五十四文壹分四毛　同斷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えい ごひゃくさんじゅうさんかん ろっぴゃくごじゅうよんもん いちぶ よんもう　どうだん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main tax paid in cash (ei), five-year average: 533 kan 654 mon 1 bu 4 mō. 同斷 ('ditto') at the foot of the column carries the category down from 畑方正稅. The 厘 place is skipped (= zero)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "畑方正稅同斷永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1271,1063,109,1673"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　四十七石壹斗五升七合八勺五才　雜稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "こめ よんじゅうななこく いっと ごしょう ななごう はっしゃく ごさい　ざつぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in rice, five-year average: 47.15785 koku. The tag 雜稅 prints at the foot of the column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1136,1062,108,1672"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　八十二貫二十文八分二厘七毛　同斷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えい はちじゅうにかん にじゅうもん はちぶ にりん ななもう　どうだん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax paid in cash (ei), five-year average: 82 kan 20 mon 8 bu 2 rin 7 mō. 同斷 ('ditto') at the foot of the column carries the category down from 雜稅. This is the leftmost column under the 符箋 brace, whose left hook terminates just above it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅同斷永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1003,1065,103,1674"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○岸和田藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きしわだはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Kishiwada domain (Izumi province). It is indented, starting one slot below the neighbouring columns. It is the page's only domain marker and its only boundary: columns to its right are Sakurai's, columns to its left are Kishiwada's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○岸和田藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:867,1314,107,607"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　五萬三千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たか ごまんさんぜんこく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Base kokudaka: 53,000 koku. The 千 at y1322-1378 carries the slanted stroke on top (not 十), so the figure is 53,000 and not 53,010."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（岸和田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:749,973,85,505"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほか"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Hoka' — besides, in addition. Small qualifier printed at the upper right of 新田高, marking the newly-reclaimed-field kokudaka as an amount over and above the base 高 of 53,000 koku rather than a component of it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外註記（岸和田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:690,1135,56,61"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "新田高　六千貳拾八石三斗貳升三合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しんでんだか ろくせんにじゅうはちこく さんと にしょう さんごう にしゃく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kokudaka of newly reclaimed fields: 6,028.3232 koku, held outside (外) the base 高. The column terminates at 勺 — there is no 才 place."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外新田高（岸和田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:599,1146,90,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高　五萬九千貳拾八石三斗貳升三合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごうだか ごまんきゅうせんにじゅうはちこく さんと にしょう さんごう にしゃく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total kokudaka: 59,028.3232 koku. Base 高 53,000 + 外新田高 6,028.3232 = 59,028.3232, so the group closes exactly. The sub-koku reading 三斗貳升三合二勺 (= .3232) rests on the glyphs and on the absence of a 才 place (no ink below the final 勺 in either column), not on the sum — MASTER's alternative parse (.32232) closes just as exactly and is still wrong."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高（岸和田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:466,1063,99,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p058_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きゅうじゅうに"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 92, in the bottom outer margin below the running head. Consistent with lower_p057_left (九十一) and lower_p058_left (九十三)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁數九十二（岸和田藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2217,3081,65,159"
+      }
+    }
+  }
+]

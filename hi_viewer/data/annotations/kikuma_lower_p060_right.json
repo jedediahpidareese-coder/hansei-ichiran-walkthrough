@@ -1,0 +1,752 @@
+[
+  {
+    "id": "anno-kikuma_lower_p060_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（菊間）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第六（菊間）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head (provenance, not data): \"Hansei Ichiran, Fascicle 6 (Kikuma).\" It names the fascicle this page sits in and the domain section it falls in; here it agrees with the page's data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（菊間）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2240,1239,78,581"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　百三拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）百三十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households = 131."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2113,983,91,671"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五百五拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）五百五十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population = 551 persons across the 131 shizoku households (~4.2 per house)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1975,982,93,750"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳百七十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二百七十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 278."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2015,1803,63,478"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二百七十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 273. 278 + 273 = 551, reconciling with the shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1947,1803,67,477"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "准士族　百九拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "准士族（じゅんしぞく）百九十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Quasi-shizoku households = 191 — an intermediate status tier ranked below full shizoku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1839,980,95,754"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　八百四拾貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）八百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Quasi-shizoku population = 842 persons across 191 households (~4.4 per house)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1705,980,92,749"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）四百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 403. This sub-column is visibly shorter than its female partner (five glyphs vs seven), which is the layout tell that the number has no tens place."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准士族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1744,1802,59,340"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 439. 403 + 439 = 842, reconciling with the quasi-shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准士族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1679,1802,64,478"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　三百貳拾九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）三百二十九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower/foot-retainer) households = 329."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1570,979,94,752"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　千四百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）千四百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population = 1,403 persons across 329 households (~4.3 per house). The leading glyph is 千 (slanted stroke on top), not 十 — the value is 1,403, not 143."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1437,981,89,666"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）六百八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 680."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1475,1722,59,413"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七百二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）七百二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 723. 680 + 723 = 1,403, reconciling with the sotsu total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1410,1722,64,482"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民戸數　壹萬四千三百十四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民戸数（へいみんこすう）一万四千三百十四軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner households = 14,314 — the overwhelming bulk of the domain, against 651 combined shizoku, quasi-shizoku and sotsu households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1297,980,94,1171"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　七萬百九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）七万百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner population = 70,190 persons across 14,314 households (~4.9 per house). Note the place-value skip: 七萬 runs straight to 百, so the thousands place is zero."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1165,978,90,753"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三萬四千九百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）三万四千九百三十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 34,933."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1205,1802,61,750"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三萬五千貳百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）三万五千貳百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 35,257. 34,933 + 35,257 = 70,190, reconciling with the commoner total; women outnumber men by 324."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1136,1802,68,752"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　二百貳ヶ所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）二百二ヶ所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 202 sites."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1032,978,92,668"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家　四拾五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）四十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shake (hereditary shrine-priest) households = 45 — 45 priestly houses serving 202 shrines, so most shrines had no resident priest household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:905,980,89,582"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　二百三拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）二百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shake (shrine-priest) population = 239 persons across 45 households (~5.3 per house)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:766,978,92,752"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百貳拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）百二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 123."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:804,1801,63,410"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）百十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 116. 123 + 116 = 239, reconciling with the shake total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:741,1801,62,341"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　貳百十四寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）二百十四寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 214."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:634,978,90,670"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "堂　九十八所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "堂（どう）九十八所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist halls (chapels/oratories, smaller foundations than a full temple) = 98 sites. This is the leftmost — i.e. last-read — column on the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "堂"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:502,978,89,584"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p060_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十六"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: page 96."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p060_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2220,3079,73,169"
+      }
+    }
+  }
+]

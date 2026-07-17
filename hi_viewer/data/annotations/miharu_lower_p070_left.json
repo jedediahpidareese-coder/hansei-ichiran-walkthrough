@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-miharu_lower_p070_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高千三石　社領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）千三石（せんさんごく）　社領（しゃりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield 1,003 koku — shrine land (社領, land held by Shinto shrines). This is MITO domain's figure, not Miharu's: it stands to the right of the ○三春藩 marker and continues Mito's 465-shrine block from the facing leaf. MASTER mislabels this line 高（寺領） (temple land) and assigns it to 三春藩; the printed label is 社領 and the owner is 水戸藩."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社領高（水戸藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2617,1005,97,1254"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "當千七十一石七斗一升二合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "当（とう）千七十一石七斗一升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current assessed yield 1,071.712 koku for the shrine land (社領) recorded to the right. Printed as 當 alone — the 高 is dropped here, though the temple-land line spells 當高 in full; glyph pitch confirms no character is missing. Mito domain's figure (right of the ○三春藩 marker). MASTER has no row for this line."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社領當高（水戸藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2486,1175,97,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高千百五十二石六斗　寺領"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）千百五十二石六斗（せんひゃくごじゅうにこくろくと）　寺領（じりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield 1,152.6 koku — temple land (寺領), continuing Mito's 208-temple block from the facing leaf. Mito domain's figure, not Miharu's (right of the ○三春藩 marker). MASTER mislabels this line 高（社領） (shrine land), transposes the digits to 千五百十二 = 1,512.6, and assigns it to 三春藩; the printed order, verified at 6x, is 千・百・五・十・二 = 1,152."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領高（水戸藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2350,1006,99,1264"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "當高千五百一石一斗二升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "当高（とうだか）千五百一石一斗二升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current assessed yield 1,501.127 koku for the temple land (寺領) recorded to the right. Mito domain's figure (right of the ○三春藩 marker). MASTER records this as 三春藩's 當高 = 57,501.127 koku: both the owner and the value are wrong — there is no 五萬七 prefix, the column carries no ink above its first glyph, and the printed figure is 1,501.127."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領當高（水戸藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2209,1177,99,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○三春藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〇三春藩（みはるはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker: Miharu domain (三春藩), a 50,000-koku Mutsu-province domain. The marker starts Miharu's entry — everything to its LEFT on this leaf is Miharu's; everything to its right is the preceding domain, Mito (水戸藩)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○三春藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2067,1344,108,562"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　六萬千七百四十石八斗二升八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）六万千七百四十石八斗二升八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (草高) 61,740.8208 koku — Miharu's headline land assessment. The 合 place is skipped (= 0). Confirmed exactly by the components below: 本田 50,002.692 + 新田 11,738.1288 = 61,740.8208. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1934,1013,104,1436"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五萬二石六斗九升二合　本田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五万二石六斗九升二合（ごまんにこくろくときゅうしょうにごう）　本田（ほんでん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Established fields (本田): 50,002.692 koku — the long-standing cultivated base, matching Miharu's nominal 50,000-koku rating almost exactly. The label 本田 is printed at the FOOT of the column. MASTER has no row for this line at all — it is missing from the extracted dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1803,1182,101,1668"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一萬千七百三十八石一斗二升八合八勺　新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万千七百三十八石一斗二升八合八勺（いちまんせんななひゃくさんじゅうはちこくいっとにしょうはちごうはっしゃく）　新田（しんでん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Newly opened fields (新田): 11,738.1288 koku — land brought into cultivation after the original survey. The label 新田 is printed at the FOOT of the column. MASTER's parsed value (11738.1288) is correct and matches, though MASTER's own transcription string for this row (一萬三千百四十九石…) does not — evidence its extraction for this page is shifted."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1670,1206,101,1643"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　一萬七百四十九石一斗二升四勺四才　米納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）一万七百四十九石一斗二升四勺四才　米納（べいのう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (正租), the portion rendered in rice (米納): 10,749.12044 koku. The 合 place is skipped (= 0). The heading 正租 opens the column and the qualifier 米納 is printed at its foot. This figure feeds the 12,581.34-koku 合米 total on the next leaf. MASTER records this value under a bare 米納 row; its separate 正租 row (13,805.17978) is in fact the 金納 column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米納"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1530,1098,107,2006"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一萬三千八百五石一斗七升九合七勺八才　金納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万三千八百五石一斗七升九合七勺八才　金納（きんのう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (正租), the portion assessed in koku but commuted to cash (金納): 13,805.17978 koku. The label 金納 is printed at the FOOT of the column. Together with the 米納 line this makes 正租 = 24,554.30022 koku, or 39.8% of the 61,740.8208-koku 草高 — close to the conventional four-tenths (四公六民) rate. MASTER mislabels this column 正租; the printed foot-label is 金納."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租金納"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1399,1371,101,1734"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此金四千二十六兩永三百八十七文九分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この金（きん）四千二十六両（りょう）永（えい）三百八十七文（もん）九分（ぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"This in cash\": 4,026 ryō and 387.9 mon in ei-reckoning (永1,000文 = 1兩), i.e. 4,026.3879 ryō — the money actually levied on the 金納 portion of the regular land tax. Exactly eight times the 此米 figure below (503.29849 x 8 = 4,026.38792), confirming the 但石八兩立 rate note. MASTER records this as 金納 = 4026.387, mislabelling it and dropping the 九分."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1268,1429,97,1423"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米五百三石二斗九升八合四勺九才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米（こめ）五百三石二斗九升八合四勺九才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"This in rice\": 503.29849 koku — the cash sum above restated as rice at the 8-ryō-per-koku rate given in the note below. This is the figure that enters the domain's grand rice total: 10,749.12044 (米納) + 503.29849 + 602.31763 (雜米) + 726.60344 (此米 on the next leaf) = 12,581.34 koku, exactly the 合米 printed on lower_p071_right. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1135,1429,95,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但石八兩立"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し（ただし）石（こく）八両（はちりょう）立（だて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rate note, set in smaller type: \"provided that [rice is] reckoned at 8 ryō per koku.\" This is the conversion used between the 此金 and 此米 lines above (503.29849 x 8 = 4,026.3879), and the identical note governs the same conversion on the next leaf (726.60344 x 8 = 5,812.8275)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但石八兩立"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1148,2856,70,341"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜　米六百二石三斗一升七合六勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑（ざつ）　米（こめ）六百二石三斗一升七合六勺三才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous levy (雜), rice component: 602.31763 koku. The heading 雜 opens the column and the value begins with 米. The 雜 block continues onto the next leaf with its cash component (金 5,812.8275 ryō = 726.60344 koku of rice). MASTER gives 602.3176, dropping the final 三才."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1004,1093,97,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七　（三春）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第七（だいなな）　（三春／みはる）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (柱) in the outer margin: Han Administration Survey (藩制一覧表), Fascicle 7 — (Miharu). This is provenance, not data; here it names the same domain as the page's main data. Set in small type; the 覽 glyph is transcribed in its kyūjitai form per the source's typesetting."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（三春）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:887,1266,79,578"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p070_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十七（ひゃくじゅうしち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 117, in the bottom margin. Consistent with the neighbouring leaves: lower_p069_left is 百十五 (115) and the facing right half of this spread, lower_p070_right, is 百十六 (116)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:878,3108,67,164"
+      }
+    }
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-miyazu_lower_p071_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　五小隊　一隊六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）五小隊。一隊六十人。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: 5 shōtai (platoons). The smaller gloss 一隊六十人 (set in visibly smaller type, ~48px wide against ~64px for the main run) gives the establishment as 60 men per platoon, i.e. 300 troops in all. MASTER records only the 60-man per-platoon gloss as the value, which understates Miharu's infantry fivefold."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2587,1012,82,836"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲隊　一分半隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大砲隊（たいほうたい）一分半隊（いちぶはんたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery corps: one and a half 分隊 (sections). HI gives no gun count for Miharu on this page — only this fractional unit strength, a reminder of how thin domain artillery establishments were on the eve of the 1871 abolition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲隊（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2451,1012,88,656"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　四百四十五戸　人口千五百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）四百四十五戸、人口千五百八十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai): 445 households, population 1,587 (783 male, 804 female). Ownership is settled by two independent exact matches with the facing page: these 445 households plus the 459 sotsu households in the next column give 904, exactly the 士族戸數 九百四戸 that p071R prints as Miharu's aggregate samurai class; and the populations give 1,587 + 1,137 = 2,724, exactly the 士族 二千七百二十四人 printed there. Miyazu, by contrast, reports its own 士族戸數 五百二十戸 and 卒族戸數 三百十一戸 separately on p072R — different figures — so these columns cannot be the marked domain's. One caveat belongs on the record: the sexes do NOT reconcile across the two pages. This page's components sum to 1,413 male and 1,311 female, whereas p071R's aggregate prints 男千四百二十二人 (1,422) and 女千三百二人 (1,302) — a ±9 discrepancy. Each page is internally consistent (783+804=1,587; 630+507=1,137; 1,422+1,302=2,724) and every glyph has been checked at single-character magnification, so the discrepancy is HI's own, not an artefact of reading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2309,1013,94,1579"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男七百八十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）七百八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 783. The right-hand run of the two-column split printed beneath the 1,587 total; seven glyphs (男七百八十三人). Sum-validates against its own parent: 783 + 804 = 1,587 ✓. It does not, however, close across the page break — 783 + 630 (male sotsu) = 1,413 against the 男千四百二十二人 (1,422) that p071R gives for Miharu's aggregate. See the 士族 note: the reading is secure at single-character zoom; the inconsistency is the source's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男三春藩分"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2341,2607,59,467"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）八百四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 804. The left-hand run of the split, five glyphs — note the tens place is skipped (八百四 = 804, not 840). Female shizoku slightly outnumber male in this class. Sum-validates against its parent: 783 + 804 = 1,587 ✓ (but see the 士族 note on the ±9 cross-page sex discrepancy)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女三春藩分"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2285,2607,56,330"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　四百五十九戸　人口千百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）四百五十九戸、人口千百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainers): 459 households, population 1,137. The scan reads 千百三十七 — glyph segmentation shows 千, then 百, with no 三 between them. MASTER's 千三百三十七 (1,337) is a misreading: only 1,137 satisfies both 630 + 507 = 1,137 and 1,587 + 1,137 = 2,724, the aggregate p071R gives for Miharu. Note that the sotsu households (459) slightly outnumber the shizoku households (445) while their population is markedly smaller — sotsu houses were smaller."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2168,1009,99,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）六百三十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 630. Right-hand run of the split beneath the 1,137 total; six glyphs, with nothing between 十 and 人. Sum-validates against its parent: 630 + 507 = 1,137 ✓ (see the 士族 note on the ±9 cross-page sex discrepancy)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族男三春藩分"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2206,2541,59,399"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）五百七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 507. Five glyphs — 女五百七人, with no 十 between 七 and 人. MASTER's raw value 女五百七十人 (570) is wrong, though MASTER's own stray viewer row 卒族(女)=507 had it right; 630 + 507 = 1,137 matches the printed total. The sotsu sex ratio (630 M : 507 F) is markedly more male-skewed than the shizoku's (783 M : 804 F)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族女三春藩分"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2148,2541,58,332"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "受領高　二十石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "受領高（じゅりょうだか）二十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Juryōdaka ('amount received'): 20 koku — Miharu's last field, printed in plain numerals (二十石, not MASTER's 貳拾石). OWNERSHIP: it sits at x2048-2117, right of the ○宮津藩 marker (x1900-1987), so by the right-to-left rule it is Miharu's; MASTER assigns it to Miyazu. Its indent (top at y1186, one register below the y~1016 top-level fields) matches the previous domain's trailing 當高 sub-fields that print right of the ○三春藩 marker on p070L at y1184/y1186 — the same right-of-marker overflow pattern. The comparison that settles it is 母里藩 (p114L, same fascicle): there 受領高 opens the domain's own entry, prints immediately LEFT of its ○母里藩 marker, and equals that domain's own rating (10,000 koku). Miyazu's entry instead opens with 草高 to the left of its marker and contains no 受領高 at all, so the field on the right of the marker cannot be Miyazu's. Elsewhere in HI the field marks grants to religious houses (鶴牧藩 ○受領高 二十五石二斗 壹社 'one shrine'; 足利藩 寺院受領高 232.846), which fits a sum this small against Miharu's scale."
+      },
+      {
+        "purpose": "identifying",
+        "value": "受領高（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2042,1180,82,491"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "州　傳　寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "州・傳・寺（三字が大きく離れて孤立して印刷されている）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Three isolated glyphs — 州, 傳, 寺 — printed low in the 受領高 column on otherwise blank paper, spaced ~252 px apart against the column's normal ~80 px character pitch (about 3x). They are genuine printed ink, not an artifact: body-size (59-62 px) and at full ink density (darkest pixel 13-16, indistinguishable from the 11-18 range of the body text in the same column). The image is pure grayscale (R=G=B), so no red-seal or stamp explanation. Bleed-through, set-off and show-through are all excluded on two independent grounds — the glyphs are correctly oriented rather than mirrored (傳's person radical sits on the left), and the gaps between them are pristine paper (minimum 211-215, no ink at all even at a slack threshold), so nothing was faintly impressed there. They also sit ~18 px left of the 受領高 column axis (centres 2064 vs 2082), so they are not a continuation of that field. They belong to no field: both domains' blocks on this page close arithmetically without them. Most plausibly foul type — stray sorts left standing in the forme when the page was made up. Boxed for completeness and flagged as unexplained rather than guessed at; not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "州傳寺（三春藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2026,2935,77,578"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○宮津藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○宮津藩（みやづはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The maru-marker opening Miyazu domain's entry (Tango province, 70,000 koku formal rating). It is the only marker on the page. Everything to its LEFT is Miyazu's — 草高, 高, 新田改出高, the 内 deductions and their 合. Everything to its RIGHT — 受領高, 卒族, 士族, 大砲隊, 兵隊 — is the tail of the PREVIOUS domain, 三春藩, whose entry began on p070L (book page 117) and ran through p071R (118). Miyazu is written 宮津 in both kyūjitai and modern orthography."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○宮津藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1894,1345,100,558"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　七萬七百拾八石一斗九升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）七万七百十八石一斗九升四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka (gross assessed yield): 70,718.194 koku. It resolves exactly against the two columns to its left: 高 70,000 + 新田改出高 718.194 = 70,718.194 ✓. Printed with the formal 拾 in 拾八 but the plain 一斗 (MASTER transcribes 壹斗). Miyazu's new-field increment is strikingly small — only ~1% above the formal rating, unlike heavy-reclamation domains such as Saga."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1770,1010,90,1330"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　七萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）七万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Taka: 70,000 koku — Miyazu's formal (omotedaka) rating, the round title figure to which the 718.194 koku of new-field re-survey is added to reach the 草高."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1646,1093,80,411"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七百十八石一斗九升四合　新田改出高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "七百十八石一斗九升四合　新田改出高（しんでんあらためだしだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "718.194 koku of newly-reclaimed land brought onto the books by re-survey, labelled in a two-column warichu gloss (新田改 / 出高, measuring 106 px against the 76 px numeral column above). Completes the kusadaka: 70,000 + 718.194 = 70,718.194 ✓. Here the tens are written plainly (七百十八) whereas the identical sub-koku figure in the 草高 column above uses the formal 拾."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田改出高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1481,1264,118,1203"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五千四百二石七斗八升四合　永荒地鍬下引　五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五千四百二石七斗八升四合　永荒地（えいあれち）・鍬下引（くわしたびき）五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "5,402.784 koku deducted for permanently waste land (永荒地) and kuwashita remission on newly-broken ground (鍬下引) — the two terms printed as a two-column warichu, with 五ヶ年平均 (five-year average) below at full width. This is the first and much the larger of the two deductions under 内. MASTER records this row as 70,718.194 koku, a duplication of the 草高 that is arithmetically impossible: it would make the deductions (70,845.267) exceed the gross yield and drive the remainder negative. The printed figure is 五千四百二石七斗八升四合, and 5,402.784 + 127.073 = 5,529.857 = the 合 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永荒地鍬下引"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1203,1268,114,1676"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百二十七石七升三合　社寺寄附地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百二十七石七升三合　社寺寄附地（しゃじきふち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "127.073 koku of land donated to shrines and temples — the second and smaller deduction under 内, named by a single-column gloss below the figure (社寺寄附地, set at the same 68 px width as the numeral column, unlike the true double-column warichu at 永荒地・鍬下引 and 新田改・出高). Note the 斗 place is skipped, so the sub-koku digits read 七升 (0.07) + 三合 (0.003): 127 + 0.073 = 127.073."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社寺寄附地"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1087,1266,90,1250"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合　五千五百二十九石八斗五升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（ごう）五千五百二十九石八斗五升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total of the two deductions: 5,529.857 koku (5,402.784 + 127.073 ✓). Subtracting it from the 草高 70,718.194 leaves 65,188.337 koku — precisely the 殘 六萬五千百八十八石三斗三升七合 printed as Miyazu's first field on p072R, so the arithmetic closes across the page break and independently confirms every figure in this block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:958,1098,88,1338"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（宮津）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（宮津）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (hashira) in the outer margin: 'Hansei Ichiran, fascicle 7 — (Miyazu)', with 覽 in kyūjitai. Page furniture and provenance, not data: it names the domain whose maru-marker falls on this page, and 第七 is the fascicle number, not a data theme. The facing page p071R carries the same header reading （三春）, which is how the two domains' territory on this spread can be told apart at a glance."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（宮津）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:847,1272,67,574"
+      }
+    }
+  },
+  {
+    "id": "anno-miyazu_lower_p071_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十九（119）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 119, set low in the outer margin below the running header and heavily inked. Page furniture, not data. It fixes this leaf in the reading chain: 百十七 (117) on p070L carries the ○三春藩 marker, 百十八 (118) on p071R is all Miharu, and 百十九 (119) here holds Miharu's tail plus the start of Miyazu, which then continues on 百二十 (120)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百十九"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:836,3103,63,190"
+      }
+    }
+  }
+]

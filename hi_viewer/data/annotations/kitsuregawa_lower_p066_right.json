@@ -1,0 +1,542 @@
+[
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（喜連川）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第六（喜連川）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Survey of Domain Institutions, Fascicle 6 (Kitsuregawa).' This is PROVENANCE — it names the fascicle of the 1869-70 Dajōkan survey and the domain whose block the leaf belongs to. Here the header agrees with the data: everything printed on this page is Kitsuregawa's. 第六 is a fascicle number, not a data category."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第六（喜連川）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2218,1239,81,630"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百八（108）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the outer margin: 108. The preceding leaf, which carries the ○喜連川藩 marker and the domain's kokudaka, is page 107; the next domain (○結城藩, fascicle 7) begins on page 109. Bibliographic, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2207,3072,68,115"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　百七十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）　百七十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai status class) = 171 persons. The counter is 人 (persons), not households; the dependants of these 171 are counted separately in the next column (同家族 = 433), giving a shizoku population of 604 in a domain assessed at 10,209 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2083,983,95,665"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）卒族不詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱）卒族（そつぞく）不詳（ふしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial head-note printed in the top margin, in two small sub-columns read right-first: '(vermilion in the original) sotsu class — not known.' （原朱）is this edition's marker that the note stood in vermilion ink in the manuscript being reproduced; the same qualifier opens the head-note on the facing leaf (（原朱）庚午四月ノ調ニ據ル, p.109). The note records that the figure for the sotsu (lower-samurai) class was not ascertained, and no 卒族 column is printed anywhere on this page — the one gap in the domain's status return. An absence note, not a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）卒族不詳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1966,630,122,218"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同家族　四百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同家族（どうかぞく）　四百三十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Family members of the same [i.e. of the shizoku listed above] = 433 persons. 同 refers back to 士族 in the preceding column, so this is the dependant population of the domain's 171 shizoku — roughly 2.5 dependants per shizoku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同家族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1949,983,94,833"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　十七ヶ村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（そんすう）　十七ヶ村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages = 17. The territorial base of Kitsuregawa's ~10,209-koku assessment."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1818,981,92,587"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　六百八十三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）　六百八十三軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of households = 683, counted with 軒. Set against the 3,549 persons in the next column this gives about 5.2 persons per household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1683,982,90,756"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三千五百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　三千五百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population = 3,549 persons. The 内 ('of which') marker below opens a two-column split into 1,752 male and 1,797 female, which sum exactly to this total — an internal check that the figure is transcribed correctly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1545,983,96,921"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　千七百五十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）　千七百五十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male = 1,752 persons. Printed as the RIGHT-hand run of the double-column (warichu) split under the 内 marker, so it is read before the female figure. 貳 is the formal form of 2. Together with the 1,797 females this reconciles to the 3,549 total. NOTE: this sex split is on the leaf but is absent from the project's extracted MASTER dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1587,1973,59,545"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　千七百九十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）　千七百九十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female = 1,797 persons — the LEFT-hand run of the double-column split, read after the male figure. Females slightly outnumber males (1,797 vs 1,752), a sex ratio of about 97.5 males per 100 females. NOTE: like the male figure, this row is absent from the project's extracted MASTER dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1522,1973,65,545"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家　九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）　九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrine households (shake) = 9. Hereditary priestly houses attached to the domain's shrines; their head-count follows in the same column below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1417,984,87,416"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the shrine households = 38 persons, i.e. the 9 shake houses above hold 38 people (about 4.2 each)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1406,1660,89,584"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗　四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）　四軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō households = 4. Practitioners of the mountain-ascetic tradition, registered as a distinct religious status group alongside shrine houses and temples."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1280,985,91,416"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the Shugendō households = 16 persons across the 4 houses above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1271,1655,92,499"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）　十一"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 11. Printed as a bare count with no counter glyph (unlike 社家 九軒 and 修驗 四軒, which take 軒), because temples are institutions rather than households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1146,986,88,391"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　九十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　九十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population = 92 persons — the clergy and residents of the 11 temples above, the largest of the domain's religious status groups."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1135,1658,91,584"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "番非人　二十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "番非人（ばんひにん）　二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ban-hinin = 25 persons. Hinin ('non-persons') assigned to watch and guard duties — one of the hereditary outcaste statuses of the Tokugawa order. The survey was taken in 1870, a year before the 1871 Emancipation Edict (賤民廃止令) formally abolished such categories, so the domain still reports them as a separate status line."
+      },
+      {
+        "purpose": "identifying",
+        "value": "番非人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1004,985,96,670"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuregawa_lower_p066_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）　二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta = 28 persons. The other hereditary outcaste status of the Tokugawa order, associated with leather-working and related trades; the term is a discriminatory one recorded here as the source prints it. The leftmost column on the page, and — like the ban-hinin above — a category abolished by the 1871 Emancipation Edict, a year after this return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p066_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:870,985,94,587"
+      }
+    }
+  }
+]

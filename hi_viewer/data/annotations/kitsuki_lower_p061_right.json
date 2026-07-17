@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-kitsuki_lower_p061_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（杵築）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第六（杵築）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran (Conspectus of Domain Administration), Fascicle 6 — (Kitsuki). Running header in the outer margin: provenance for the printed section, not a datum about the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（杵築）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2231,1248,74,583"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十八〔第98丁〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Book page 98 — the printed folio number in the outer margin, below the running header."
+      },
+      {
+        "purpose": "identifying",
+        "value": "九十八（丁數）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2221,3082,69,166"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘米壹萬九千八百八十五石六斗貳升壹合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残米　一万九千八百八十五石六斗二升一合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Residual rice: 19,885.6211 koku. The figure is the arithmetic remainder of the previous book page: page 97 prints 正租 米貳萬百貳拾四石貳斗八升四合四勺 (20,124.2844) less 内 米貳百三十八石六斗六升三合三勺 (238.6633), and 20,124.2844 − 238.6633 = 19,885.6211 exactly. (MASTER parses this same raw string as 19885.62211 — a spurious fifth decimal; the printed sub-units are only 六斗貳升壹合壹勺 = .6211.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2098,1074,96,1678"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米貳百五拾八石七斗貳升四合三勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米　二百五十八石七斗二升四合三勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — rice: 258.7243 koku. The 雜稅 label at the head of this column governs both this rice figure and the cash figure in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1970,993,96,1509"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金千六百九十兩三分貳朱永五十八文九分七厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金　千六百九十両三分二朱　永五十八文九分七厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — cash: 1,690 ryō 3 bu 2 shu, plus 58 mon 9 bu 7 rin reckoned in ei (ei-sen accounting money). Recorded in the dataset by the project's positional convention as 1,690.32 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1830,1246,100,1674"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "惣戸數　一萬貳千貳百五十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総戸数　一万二千二百五十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households: 12,251. The ten status sub-counts that follow sum exactly to this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1700,994,94,1176"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百九十貳戸　藩士"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百九十二戸　藩士"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain samurai (hanshi): 392 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1436,1164,88,749"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百戸　藩卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百戸　藩卒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain sotsu, the lower-rank retainer stratum: 300 households. MASTER records 5 for this field; the scan plainly reads 三百戸, and the household sum only closes on 12,251 with 300 here — MASTER's 5 belongs to the adjacent 倍卒 column. The next book page (99) gives this group 男六百七十九人・女六百七十六人 = 1,355 persons, which is exactly analytic_wide's sotsu_persons for Kitsuki and implies 4.5 persons per household across 300 households; 1,355 persons in 5 households would be impossible."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1428,2171,85,502"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五戸　倍〔マヽ〕卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五戸　倍卒〔ママ＝原文のまま。陪卒の誤記か〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Baisotsu\" (attendant / sub-sotsu): 5 households. A small マヽ (mama, \"sic\") stands beside 倍 — the compiler marking the graph as it appears in the manuscript, apparently an error for 陪卒. Absent from MASTER, but required for the household total to close."
+      },
+      {
+        "purpose": "identifying",
+        "value": "倍卒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1302,1165,119,416"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十五戸　社家"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十五戸　社家"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine households (shake — hereditary Shinto priestly families): 115 households. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,2171,88,586"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百拾八戸　清僧寺院"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十八戸　清僧寺院"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples of celibate clergy (seisō jiin — the non-Ikkō Buddhist establishments): 118 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "清僧寺院"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1170,1164,91,748"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二十三戸　一向宗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二十三戸　一向宗"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ikkō-shū (Jōdo Shinshū) temples, whose clergy married and are counted apart from the celibate establishments: 23 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "一向宗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1163,2178,89,662"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二十五戸　修驗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二十五戸　修験"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō mountain ascetics (yamabushi): 25 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,1171,93,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十五戸　盲僧"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十五戸　盲僧"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Blind Buddhist priests (mōsō), a recognised occupational-religious status in Kyushu: 15 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "盲僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1027,2170,90,500"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一萬七百七十一戸　農"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万七百七十一戸　農"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Farmers: 10,771 households — 88 percent of the domain's 12,251 households. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "農"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:904,1188,87,809"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百八十七戸　商"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百八十七戸　商"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Merchants: 487 households. Absent from MASTER. This is the last of the ten status sub-counts; they sum to exactly 12,251."
+      },
+      {
+        "purpose": "identifying",
+        "value": "商"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:896,2171,90,666"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五萬千五百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員　五万千五百三十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 51,535 persons — 4.2 per household against the 12,251 households above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:770,994,91,1003"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩士"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩士〔人員の内訳見出し〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Hanshi\" — the status heading that opens the breakdown of the 51,535 population. No subtotal is printed under it; the male and female runs below belong to this heading, and the rest of the population breakdown continues on the following page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士人員内訳見出"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:500,1163,85,164"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九百九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　九百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain samurai, male: 990 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:546,1419,59,405"
+      }
+    }
+  },
+  {
+    "id": "anno-kitsuki_lower_p061_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九百九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　九百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain samurai, female: 990 persons — exactly equal to the male count. Male plus female gives 1,980 hanshi in 392 households (5.05 per household), reproducing the shizoku figure independently recorded for Kitsuki in the Meiji Shiyō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩士人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p061_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:486,1419,60,406"
+      }
+    }
+  }
+]

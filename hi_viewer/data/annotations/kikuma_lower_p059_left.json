@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-kikuma_lower_p059_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外　高貳拾石八斗七升五合三勺三才　込高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外　高二十石八斗七升五合三勺三才　込高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition (外): 20.87533 koku — komidaka, i.e. yield surveyed in over and above the registered assessment. This supplements the 社寺領高 (shrine-and-temple land, 653.26 koku) that closes the facing page 94. The small 外 sits in its own marginal column to the right of the value; the qualifier 込高 prints below the last digit in the same column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外高（込高）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2623,1147,142,1437"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　高三拾五石　境内除地歳入無之"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内　高三十五石　境内除地　歳入これ無し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 35 koku is precinct-exempt land (境内除地), from which no revenue accrues (歳入無之). The parent of this 内 is the shrine-and-temple land account as a whole — the 社寺領高 of 653.26 koku carried over from the facing page 94, plus the 20.87533 koku komidaka in the column to the right (674.13533 koku combined) — not the 20.87533 komidaka on its own, which is smaller than 35 koku. The 内 marker is a small right-shifted glyph (x2528-2569) heading the column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内高（境内除地）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2492,1244,87,1259"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米三百六拾七石五斗九升九合壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租　米三百六十七石五斗九升九合一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso), in rice: 367.59901 koku. The 勺 place is skipped (石→斗→升→合→才), so the reading is …59901, not …599. 正租 heads the group and prints atop this, its first column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租（米）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2358,1080,91,1507"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永百五拾貳貫三百五拾五文七分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永　百五十二貫三百五十五文七分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in eiraku cash (ei): 152 kan 355.7 mon = 152.3557 kan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2224,1334,90,1169"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢拾八貫九百八十五文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭　十八貫九百八十五文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in copper cash (zeni): 18 kan 985 mon = 18.985 kan. The 十 in 八十五 is a plain cross (not 千) — verified at single-character zoom."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2089,1330,90,839"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大豆壹石壹斗貳升壹合九勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大豆　一石一斗二升一合九勺八才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in soybeans (daizu): 1.12198 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租大豆"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1955,1336,88,1171"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米拾三石七斗三升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米十三石七斗三升六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (zassei), in rice: 13.736 koku. 雜稅 heads the group and prints atop this, its first column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅（米）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1823,1081,89,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永壹貫三百六十三文壹分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永　一貫三百六十三文一分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, in eiraku cash (ei): 1 kan 363.1 mon = 1.3631 kan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1691,1337,93,920"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢九百八拾三貫貳百貳拾八文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭　九百八十三貫二百二十八文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, in copper cash (zeni): 983 kan 228 mon = 983.228 kan. Verified glyph-by-glyph at 5x (九 has the bending leg, not 七; 八 splays with a gap at the top, not 六) because the figure is large relative to the 18.985 kan of copper cash under 正租."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1554,1340,89,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "除地高百拾石三斗貳升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "除地高　百十石三斗二升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax-exempt land (jochi), assessed yield: 110.323 koku. Itemised in the three-part 内 breakdown to its left, which sums exactly (100 + 6.913 + 3.41 = 110.323). Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1423,998,89,1009"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　高百石　越後國三本木村百姓彦左衛門除地歳入取調之上可申上候"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内　高百石　越後国三本木村百姓彦左衛門　除地歳入取り調べの上、申し上ぐべく候"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 100 koku — the exempt land of Hikozaemon, a peasant of Sanbongi village in Echigo Province. The attached note states that the domain will report this parcel's revenue only after investigating it, i.e. the yield was not yet ascertained at the time of the survey. The 内 marker heading the whole three-item breakdown prints at the top of this column; the note is a warichu (double-column) note too long for one line and wraps to the line at left (right line 越後國三本木村百姓彦左衛門, 13 glyphs; left line 除地歳入取調之上可申上候, 12 glyphs)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地内訳（高百石）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1268,1170,124,1653"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高六石九斗壹升三合　境内除地歳入無之"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高六石九斗一升三合　境内除地　歳入これ無し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 6.913 koku — precinct-exempt land (境内除地); no revenue accrues from it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地内訳高六石九斗壹升三合"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1196,1256,62,1229"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高三石四斗壹升　書面之通歳入有之"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高三石四斗一升　書面の通り歳入これ有り"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which: 3.41 koku — revenue does accrue, as stated in the accompanying document (書面之通). This is the only one of the three exempt parcels that yields taxable revenue, and it is the parcel the 正租 of 0.57288 koku to its left is levied on."
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地内訳高三石四斗壹升"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1134,1256,62,1231"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米五斗七升貳合八勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租　米五斗七升二合八勺八才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax on the exempt-land (jochi) account, in rice: 0.57288 koku. The value carries no 石 glyph — it opens at 斗 — so it is under one koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "除地正租（米）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1015,1174,87,1171"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（菊間）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいろく（きくま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance, printed in the outer margin): Han-sei Ichiran (Domain Administration Survey), Fascicle 6 — (Kikuma). Here the header's domain agrees with the page's data, which is Kikuma throughout. 覽 is the kyūjitai form, confirmed at 6x."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（菊間）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:898,1259,74,578"
+      }
+    }
+  },
+  {
+    "id": "anno-kikuma_lower_p059_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きゅうじゅうご"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 95. The 十 is a plain cross, not 千. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号（九十五）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:891,3095,71,166"
+      }
+    }
+  }
+]

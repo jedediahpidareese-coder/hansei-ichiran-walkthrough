@@ -1,0 +1,992 @@
+[
+  {
+    "id": "anno-miharu_lower_p071_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（三春）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（三春）／はんせいいちらんひょう だいしち（みはる）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Hansei Ichiran, Fascicle 7 (Miharu)'. Provenance only, not data — 第七 is the fascicle number (fascicles are numbered volumes, not data themes), and the parenthetical names the domain whose block the leaf belongs to. Here it agrees with the data owner."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（三春）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2158,1255,66,568"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十八（ひゃくじゅうはち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 118, set in the bottom margin. The facing page (lower_p070_left), which carries the ○三春藩 marker, is 117; the next leaf (lower_p071_left), which opens ○宮津藩, is 119."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁数百十八"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2131,3100,54,179"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金 五千八百十二兩永八百二十七文五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）五千八百十二両 永八百二十七文五分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (雜) paid in cash: 5,812 ryō plus 827.5 mon of ei (eirakusen accounting money) = 5,812.8275 ryō, since 1 ryō = 1,000 ei-mon. This column continues the 雜 block whose head (雜 / 米六百二石三斗一升七合六勺三才) is the last column of the facing page 117. The .8275 fraction is proved twice: the next column converts this sum to 726.60344 koku at 8 ryō/koku (5,812.8275 ÷ 8 = 726.6034375 ✓), and the 合米 total closes only on .8275. MASTER's parsed 5812.0827 is a digit-concatenation slip."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2009,1256,98,1409"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米 七百二十六石六斗三合四勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の米（このこめ）七百二十六石六斗三合四勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'The foregoing, restated in rice': the 5,812.8275 ryō of miscellaneous cash tax expressed as 726.60344 koku, converted at the rate given in the note below (8 ryō per koku). Sub-koku units run strictly descending with the 升 place skipped (= 0): 石 726, 斗 .6, 合 .003, 勺 .0004, 才 .00004. Arithmetic checks exactly: 5,812.8275 ÷ 8 = 726.6034375. MASTER carries no row for this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1875,1341,93,1315"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但石八兩立"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、石八両立て（ただし、こくはちりょうだて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rate note attached to the conversion above: 'reckoned at 8 ryō to the koku'. Printed lower in the same column after a gap. The same 8 ryō/koku rate is used for Miharu's other cash-to-rice conversion on the facing page 117, and it is what makes the 合米 total close."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但石八兩立"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1883,2758,61,324"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合 米壹萬二千五百八十一石三斗四升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（ごう）米 一万二千五百八十一石三斗四升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total of Miharu's tax take restated in rice: 12,581.34 koku. The 合 head sits at the top of the column and the value opens with 米. The four printed rice figures across pages 117–118 sum to it exactly: regular tax delivered in rice 10,749.12044 + the rice equivalent of the commuted portion 503.29849 + miscellaneous rice 602.31763 + this page's 726.60344 = 12,581.34000 ✓. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1742,1088,97,1410"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 七千二百五十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）七千二百五十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 7,253. Read against the 人口 column beside it this is 5.3 persons per household; the 904 shizoku/sotsu households are counted separately two columns to the left. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1619,1004,87,909"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 三萬八千六百十九人（内 男壹萬七千三十四人 女一萬六千百五十六人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）三万八千六百十九人（内 男一万七千三十四人 女一万六千百五十六人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 38,619. The 外ニ note on the next column makes clear the 2,724 shizoku/sotsu are counted OUTSIDE this figure. ⚠ The page does not balance here: the printed split below (男 17,034 + 女 16,156) sums to 33,190, leaving 5,429 unaccounted, and adding every status group on the page (2,724 + 458 + 130 + 32 + 63 = 3,407) still leaves 2,022. Every other male/female pair on this page sums perfectly, so this is a defect in the printed Miharu entry, not a reading problem — the total's nine glyph cells sit at a perfectly regular 84px pitch and read 三萬八千六百十九 unambiguously at single-character zoom. Two small printed marks (as dark as the type) sit inside this cell at the upper right of the 八 and of the 九 — i.e. against the two digits the shortfall implicates; they are enclosed in this box. MASTER's parsed 38619 is right; its transcription 三萬八千七百六拾九人 is wrong."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1489,1002,107,990"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 壹萬七千三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 一万七千三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, male: 17,034. The right-hand of the two sub-runs printed below the total (no 内 glyph is set; the pair follows the 人 directly). The 百 place is skipped (= 0). The fourth cell is 七, verified at 9x — a horizontal stroke crossed by a vertical hooking right, not 九. MASTER's 男壹萬六千百三十四人 (16,134) is a misreading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1515,2009,53,601"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 一萬六千百五十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 一万六千百五十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, female: 16,156 (百 with the implicit leading 一). The left-hand sub-run, one cell longer than the male run beside it. The 一 in the second cell is a single thin horizontal stroke at y2095-2105. MASTER's 女壹萬六千七百五十人 (16,750) is a misreading. 17,034 + 16,156 = 33,190, which does NOT reconcile with the printed total 38,619 — see the 人口 box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1459,2009,56,670"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に（ほかに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Besides / in addition' — a small marginal note set in the gutter, heading the 士族 column to its left. It states that the 2,724 shizoku are counted outside (not within) the 38,619 population total to its right. MASTER records this row simply as 外."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外ニ"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1436,1157,52,109"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族 二千七百二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）二千七百二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku: 2,724 persons, counted in addition to the commoner population (per the 外ニ note). This is the combined shizoku-and-sotsu figure: the next leaf (page 119, printed to the right of the ○宮津藩 marker and therefore still Miharu's) splits it into 士族 1,587 + 卒族 1,137 = 2,724 ✓. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1350,1173,84,906"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數 九百四戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数（しぞくこすう）九百四戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku households: 904 — again the combined shizoku-and-sotsu figure, which page 119 splits into 445 + 459 = 904 ✓. At 2,724 persons this is 3.0 per household, against 5.3 for commoners. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1225,1005,87,738"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 二千七百二十四人（内 男千四百二十二人 女千三百二人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）二千七百二十四人（内 男千四百二十二人 女千三百二人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 2,724 persons — the same figure as the 士族 column, here broken into sexes. Arithmetic checks: 1,422 + 1,302 = 2,724 ✓. MASTER carries this as '人口 (other class)'; renamed here with a Japanese prefix so the ident stays unique after parentheses are stripped."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1086,1002,90,905"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 千四百二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千四百二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, male: 1,422."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1115,1925,54,536"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千三百二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千三百二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, female: 1,302 (the 十 place is skipped = 0, which is why this run is two cells shorter than the male run beside it). 1,422 + 1,302 = 2,724 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1065,1925,50,394"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家 七十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）七十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest families: 79 households. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:952,1173,85,568"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百五十八人（内 男二百三十七人 女二百二十一人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百五十八人（内 男二百三十七人 女二百二十一人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest families: 458 persons. Arithmetic checks: 237 + 221 = 458 ✓. No 人員 label is printed — the count follows the household figure directly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:944,1846,75,482"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest families, male: 237."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:974,2347,54,464"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二百二十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百二十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest families, female: 221. 237 + 221 = 458 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:922,2347,52,463"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺 百九ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）百九ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 109. Counted with the classifier ヶ寺, not 戸. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:821,1170,77,571"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十人（内 男百二十二人 女八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十人（内 男百二十二人 女八人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy: 130 persons. Arithmetic checks: 122 + 8 = 130 ✓. ⚠ MASTER reads 百三十八人 (138); the scan has only four cells after 百九ヶ寺 (百 / 三 / 十 / 人 at an even 82-85px pitch) — there is no 八, and 138 would not reconcile with either sub-count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:811,1844,74,314"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 百二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 百二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy, male: 122."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:842,2178,52,393"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy, female: 8. Only three cells (女 / 八 / 人); the middle glyph is 八 — two strokes clearly separate at the top and splaying — verified at 9x, not 人 (which touches at the apex) or 六 (which has a top lid). ⚠ MASTER reads 女拾五人 (15); 122 + 8 = 130 ✓ matches the printed total, whereas 122 + 15 = 137 matches nothing."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:793,2178,49,186"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗 六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō mountain-ascetic households: 6. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:688,1167,79,404"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三十二人（内 男十七人 女十五人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三十二人（内 男十七人 女十五人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners: 32 persons. Arithmetic checks: 17 + 15 = 32 ✓. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:677,1842,73,316"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners, male: 17."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:709,2177,51,257"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners, female: 15. 17 + 15 = 32 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:655,2177,54,255"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "蛭兒 三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "蛭児（ひるこ）三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hiruko households: 3. A small registered status group listed here between the Shugendō ascetics and the outcaste groups, associated with the Hiruko/Ebisu cult. HI records only the household count for Miharu — no person count is printed, so these 3 households contribute nothing to the page's population arithmetic. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "蛭兒"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:555,1163,77,401"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多非人 十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多非人（えたひにん）十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta and hinin) households: 12. The two outcaste categories are given as a single combined heading here rather than as separate columns. This is the leftmost column on the page; the Miharu block continues on page 119. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:414,1161,79,656"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六十三人（内 男三十六人 女二十七人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六十三人（内 男三十六人 女二十七人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcastes: 63 persons. Arithmetic checks: 36 + 27 = 63 ✓. ⚠ MASTER's sub-counts (男二十六人 女二十三人 男七人) are corrupt — three sub-figures, none of which sum to 63."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:403,1917,77,319"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcastes, male: 36. The 三 (three horizontals) and 六 (top lid plus two legs) were checked against 二 and 七 in the facing female run."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:434,2251,52,328"
+      }
+    }
+  },
+  {
+    "id": "anno-miharu_lower_p071_right-32",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcastes, female: 27. 36 + 27 = 63 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p071_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:383,2251,51,328"
+      }
+    }
+  }
+]

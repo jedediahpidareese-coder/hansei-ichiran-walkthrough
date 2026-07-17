@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-yunagaya_lower_p068_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）同斷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱）同断 ＝ 原本では朱書き、前項に同じ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note set in the head margin, above the text block: \"(vermilion in the original) — ditto.\" The compilers flag that the source manuscript carried this remark in red ink, carrying the preceding entry forward unchanged. Printed as two half-width columns: （原朱） on the right, 同斷 on the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）同斷"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2585,644,127,171"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　金六十五兩　小物成"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）金六十五両　小物成（こものなり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: 65 ryō in gold, specified as komononari — the minor imposts levied on non-arable production (forest, water, and trade rights) rather than on paddy land."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2606,996,102,1004"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金貳百貳十兩貳分永十貳文五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金二百二十両二分　永十二文五分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold receipts: 220 ryō 2 bu — i.e. 220.5 ryō, since 4 bu = 1 ryō — plus a rider of 12.5 ei-mon (ei being the money-of-account reckoned at 1,000 mon to the ryō, so ≈0.0125 ryō). The split-column note below assigns this sum to transit/licence dues on coal and sundries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2464,1249,103,1172"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "石炭諸運上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "石炭・諸運上（せきたん・しょうんじょう）〔割注〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Split-column (warichu) note under the gold figure — right sub-column 石炭諸, left sub-column 運上: the 220.5 ryō came from unjō (licence/transit dues) on coal and sundry items. Yunagaya sat on the Jōban coalfield, making coal dues the domain's signature non-agricultural revenue. MASTER reads 石灰 (lime) here; the scan shows 炭 (厂 enclosing 山 over 火)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "石炭諸運上"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2443,2505,125,210"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永四貫六百七十一文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）四貫六百七十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei (money-of-account) receipts: 4 kan 671 mon = 4.671 kan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2332,1246,99,754"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢千三百貳十九貫四百六文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）千三百二十九貫四百六文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Copper-cash receipts: 1,329 kan 406 mon = 1,329.406 kan. The split-column note below assigns this to dues on assorted goods."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2195,1246,100,1006"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "品々運上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "品々運上（しなじなうんじょう）〔割注〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Split-column (warichu) note under the copper-cash figure — right sub-column 品々, left sub-column 運上: the 1,329.406 kan came from unjō on assorted goods. This is a second, separate note; MASTER merges it into its single 運上品 row."
+      },
+      {
+        "purpose": "identifying",
+        "value": "品々運上"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2175,2337,117,134"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　八十五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数（しぞくこすう）八十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 85."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2072,993,93,755"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三百五十九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）三百五十九人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 359 persons. The 内 opens the male/female split printed below (160 + 199 = 359 ✓). Spread over 85 households that is ≈4.2 persons per shizoku house."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1937,992,98,987"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）百六十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male: 160. Five glyph rows (男/百/六/十/人); MASTER's 百六十九人 (169) adds a sixth glyph the page does not print."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1975,1992,51,333"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百九十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）百九十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female: 199. Six glyph rows (女/百/九/十/九/人). 160 + 199 = 359 ✓ against the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1918,1992,56,403"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸數　貳十五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸数（そつこすう）二十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-samurai / footman-rank) households: 25. The label prints as three glyphs 卒戸數, not 卒族戸數."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1807,992,94,754"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　八十人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）八十人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 80 persons. The 内 opens the male/female split below (41 + 39 = 80 ✓), giving ≈3.2 persons per sotsu house. MASTER labels this block 人員 (平民); it is not commoner population — it sits directly under 卒戸數 貳十五軒, and the commoner population (7,766) is printed on the facing page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1671,992,96,735"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — male: 41."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1708,1738,55,334"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — female: 39. 41 + 39 = 80 ✓ against the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1652,1738,55,332"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小者　三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小者（こもの）三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Komono — menial servants/attendants ranked below sotsu: 38. Recorded in persons, with no household count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小者"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1531,993,97,750"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民戸數　千九百五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民戸数（へいみんこすう）千九百五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner households: 1,905 — more than twenty times the 85 shizoku households. The lone 内 in the next column left (unboxed, structural) opens the \"of which\" breakdown that runs 社家 / 修驗 on this page and continues onto the facing page with 寺 / 行屋 / 穢多."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1395,991,99,836"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家　十六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）十六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest households: 16 — the first item of the 内 (\"of which\") breakdown under the 1,905 commoner households, set one glyph-height lower in the staircase indentation. The facing page separately gives the shrine-priest headcount (38 persons)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1132,1156,94,502"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗　四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）四軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō (mountain-ascetic) households: 4 — the second item of the 内 breakdown under the commoner households. The facing page separately gives the shugendō headcount (6 persons)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:997,1153,95,420"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（湯長谷）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいしち（ゆながや）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Domain Survey Table, Fascicle 7 — Yunagaya section. Provenance, not data. 第七 is the fascicle number in the nine-fascicle Dajōkan survey, not a data-theme code. With no maru-marker printed on this page, this header is the on-page evidence that the block is Yunagaya's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（湯長谷）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:877,1238,81,633"
+      }
+    }
+  },
+  {
+    "id": "anno-yunagaya_lower_p068_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十三（ひゃくじゅうさん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 113. Not data. Heavily over-inked with reverse-side show-through; the reading is confirmed by the sequence anchors 108 (lower_p066_right) and 115 (lower_p069_left)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁百十三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p068_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:855,3061,93,185"
+      }
+    }
+  }
+]

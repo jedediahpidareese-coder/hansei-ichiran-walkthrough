@@ -1,0 +1,722 @@
+[
+  {
+    "id": "anno-kishiwada_lower_p058_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平均（へいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Average' — a bare column heading with no value of its own, standing to the RIGHT of (therefore read before) the two tax columns and marking the 正稅 and 雜稅 figures as averaged annual yields rather than one year's receipts. On the facing recto (p. 92) the equivalent heading over Sakurai domain's tax block is spelled out as 五ヶ年平均 (five-year average); here it is abbreviated to 平均 alone and no year-span is printed, so the averaging window is not stated on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2646,979,87,165"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正稅　米貳萬九千九拾九石六斗三升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税（しょうぜい）　米二万九千九十九石六斗三升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, paid in rice: 29,099.633 koku, averaged (see the 平均 heading to the right). Against the 合高 of 59,028.3232 koku printed on the facing recto this is a headline rate of about 49%. IMPORTANT: the page prints 正稅 — at 8x the second label glyph is 禾+兌 (丷 over 口 over 儿), the very same glyph MASTER transcribes as 稅 in the adjacent 雜稅 row. MASTER records this field as 正租; the scan does not support that reading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正稅 米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2519,982,91,1504"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米三千六百八拾六石四斗壹升壹合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）　米三千六百八十六石四斗一升一合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, in rice: 3,686.4111 koku. The sub-koku units descend strictly 石 > 斗(.1) > 升(.01) > 合(.001) > 勺(.0001) with none skipped or out of order, confirming the reading. Added to the 正稅 of 29,099.633 koku, the domain's averaged annual rice tax take is 32,786.0441 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅 米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2380,978,96,1677"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "華族　八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "華族（かぞく）　八人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku — the new peerage created in 1869, here the former daimyo house of Kishiwada (Okabe): 8 persons. The structural 内 ('of which') closes this column and introduces the male/female split boxed separately below, 男四人 / 女四人, which sums back to 8."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2250,978,93,487"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku males: 4. Printed as the RIGHT-hand run of the 内 split, sharing its top row with 女四人 to its left. 4 + 4 = 8, matching the printed 華族 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2292,1468,56,197"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku females: 4. The LEFT-hand run of the 内 split, sharing its top row with 男四人 to its right. 4 + 4 = 8, matching the printed 華族 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2237,1468,55,201"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　五百五拾二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）　五百五十二軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 552. The printed label is the bare 士族 — unlike the 卒戸數 and 平民戸數 columns further left, this one does not spell out 戸數 — but the counter 軒 ('houses') fixes it as a household count, with the 人員 column immediately to its left giving the matching persons. MASTER transcribes the final digit as 貳; the page prints the plain 二 (the value 552 is unaffected)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2113,981,91,750"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　貳千貳百拾貳人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　二千二百十二人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 2,212 persons living in the 552 households of the column to the right — about 4.0 persons per house. The 内 introduces the split boxed below: 男千七拾五人 / 女千百三十七人 = 1,075 + 1,137 = 2,212, an exact reconciliation. This is the one demographic split on the page that MASTER records correctly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1976,980,94,908"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千七拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）千七十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku males: 1,075. The RIGHT-hand run of the 内 split (6 glyphs), sharing its top row with 女千百三十七人 to its left. 1,075 + 1,137 = 2,212, matching the 人員 total. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2017,1894,57,404"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）千百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku females: 1,137. The LEFT-hand run of the 内 split and the longer of the pair (7 glyphs, running lower than the male run beside it). 1,137 + 1,075 = 2,212, matching the 人員 total. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族 人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1961,1894,56,475"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸數　八百五拾壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸数（そつこすう）　八百五十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households: 851. The sotsu were the lower/ashigaru-grade retainer stratum, ranked below shizoku in the 1869 status settlement and abolished as a category in 1872. Note the counter here is 戸, where the shizoku and heimin household columns use 軒."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1842,979,94,839"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　貳千三百九拾三人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　二千三百九十三人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 2,393 persons across the 851 households to the right — about 2.8 per house, notably smaller than the shizoku figure of 4.0. The 内 introduces the split boxed below: 男千三百十八人 / 女千七十五人 = 1,318 + 1,075 = 2,393. MASTER has this split's male and female values CROSSED (see the two boxes below)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1708,978,93,989"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千三百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）千三百十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu males: 1,318 — the RIGHT-hand run of the 内 split, as 男 always is in HI. MASTER records 男千七拾八人 (1,078) here, which is wrong. Because MASTER's pair also sums to 2,393, arithmetic alone cannot adjudicate; glyph counts do. This run measurably holds 7 glyphs (男千三百十八人), whereas MASTER's 1,078 would need only 6 — so its value cannot sit in this run. Read at 5x: 千 has the slanted top stroke, 十 is a plain cross, and the last two glyphs are 八 (strokes separate and splayed) then 人 (strokes touching at the apex)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1747,1973,56,473"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千七十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）千七十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu females: 1,075 — the LEFT-hand run of the 内 split, as 女 always is in HI. MASTER records 女千三百十五人 (1,315) here, which is wrong: this run measurably holds only 6 glyphs, while MASTER's value would need 7. 1,318 + 1,075 = 2,393, reconciling with the printed 人員 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族 人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1691,1973,56,410"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　九拾三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（むらかず）　九十三"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages: 93. The page prints the formal 拾 (hand radical 扌 + 合), verified at 7x; MASTER transcribes the plain 十 (the value 93 is unaffected). No counter glyph follows the number in this column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1575,978,93,500"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民戸數　壹萬貳千四百五拾九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民戸数（へいみんこすう）　一万二千四百五十九軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner households: 12,459. Place value pivots on 萬: 壹萬 + 貳千 + 四百 + 五拾 + 九 = 12,459. Together with 552 shizoku and 851 sotsu households this gives 13,862 households in the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1432,979,97,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五萬八千七百四拾八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　五万八千七百四十八人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner population: 58,748 persons across 12,459 households — about 4.7 per house. This is the bulk of the domain: with 華族 8, 士族 2,212 and 卒 2,393 the page totals 63,361 people. The 内 introduces the split boxed below: 男貳萬九千三十三人 / 女貳萬九千七百十五人 = 29,033 + 29,715 = 58,748. MASTER has this split's male and female values CROSSED (see the two boxes below)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1295,978,101,1162"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳萬九千三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二万九千三十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner males: 29,033 — the RIGHT-hand run of the 内 split. MASTER records 男貳萬九千七百拾三人 (29,713) here, which is wrong. As with the sotsu split, MASTER's pair also sums to 58,748, so only glyph counts decide: this run measurably holds 9 glyphs (男貳萬九千三十三人), while MASTER's 29,713 would need 10. Read at 5x the tail is 三 十 三 人, and the run visibly ends higher than the female run beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1338,2146,59,610"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳萬九千七百十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二万九千七百十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner females: 29,715 — the LEFT-hand run of the 内 split and the longer of the pair (10 glyphs, running lower than the male run). MASTER records 女貳萬九千三十五人 (29,035) here, which is wrong: that value would need only 9 glyphs. 29,033 + 29,715 = 58,748, reconciling with the printed 人員 total. Females slightly outnumber males among commoners, the reverse of the sotsu pattern on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民 人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1280,2146,58,678"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　貳百七拾四社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）　二百七十四社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 274, counted with the counter 社. Roughly three shrines per village across the domain's 93 villages. The vermilion note at the head of the page supplies the associated shrine-priest households (社家 17 戸)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1170,976,93,758"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　百九拾ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院（じいん）　百九十ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 190, counted with the counter ヶ寺. This is the leftmost — and therefore last-read — data column on this page, but it is not the end of Kishiwada's fascicle-6 entry. The block runs on to the next leaf (printed p. 94), where 穢多 貳千百八人 (2,108 persons) and 非人 貳百四拾壹人 (241 persons), each with its own 内 男/女 split, print to the RIGHT of the ○菊間藩 marker and therefore still belong to Kishiwada. Kikuma domain's own entry begins to the LEFT of that marker. Kishiwada's entry thus spans three pages: 92 (marker and 高/外新田高/合高), 93 (this page), and the 穢多/非人 tail on 94."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,980,91,671"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原朱）社家十七戸　人員五十人　男子三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原朱）（げんしゅ）社家（しゃけ）十七戸　人員五十人　男子三十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "An editorial note in five small-type columns, read right to left, set high above the table body. （原朱）marks the passage as written in vermilion ink in the manuscript original — an interpolation, not a printed table field, which is why it is boxed as a note rather than as data. It records the domain's Shinto shrine-priest households: 社家 17 households, 50 persons, of whom 35 male; the female count (15 by subtraction) is not printed. The final item is indented one glyph below the first two and wraps across the last two columns (男子三十 | 五人). These counts are not among MASTER's twelve rows for this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（原朱）社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1037,624,279,273"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（岸和田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第六（岸和田）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Han Institutions Overview Table, Fascicle 6 (Kishiwada)'. 第六 is the FASCICLE number of the nine-fascicle 1869–70 Dajōkan survey — a provenance pointer, not a data theme. The header's parenthetical domain name can disagree with the data on a page, but here it agrees: this verso carries Kishiwada only. The page prints the kyūjitai 覽 (MASTER normalises to 覧)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:912,1235,80,633"
+      }
+    }
+  },
+  {
+    "id": "anno-kishiwada_lower_p058_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十三（93）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 93. The facing recto, which carries the ○岸和田藩 marker and the opening of this domain's entry, is numbered 九十二 (92). This is pagination, not data — the bottom-margin numerals in HI are a known trap for extraction."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p058_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:898,3077,74,166"
+      }
+    }
+  }
+]

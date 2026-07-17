@@ -1,0 +1,842 @@
+[
+  {
+    "id": "anno-minakuchi_lower_p072_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　千二十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）千二十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 1,021 persons. This column carries no label of its own — it continues the last (leftmost) column of the facing page 120, 「外 二空也堂派鉢業ノ者二百戸」, the 200 households of Kūya-dō alms-begging practitioners counted apart from Miyazu's main population (≈5.1 persons/household). Split below into 529 male / 492 female; 529+492 = 1,021 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 (Miyazu 続)（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2579,1288,92,671"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百二十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）五百二十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 529 — the right-hand register of the male/female split printed under the 1,021 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "續人口男（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2616,1965,60,476"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百九十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四百九十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 492 — the left-hand register of the split. 529 + 492 = 1,021, reconciling with the printed total ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "續人口女（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2558,1965,58,476"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　五十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人（ひにん）五十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (an outcaste status group, lit. 'non-persons'): 58 households. Their population follows in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2447,1288,94,588"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　二百七十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）二百七十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 58 hinin households: 275 persons. Split below into 137 male / 138 female; 137+138 = 275 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2308,1288,95,754"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 137. CORRECTION — MASTER records 男百三十三人 (133). The scan prints 七 (horizontal plus hooked vertical), visibly unlike the 三 two glyphs above it in the same register, and the arithmetic decides it: 137+138 = 275 matches the printed total, whereas 133+138 = 271 does not. Read from the scan as 137."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人男（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2346,2050,58,406"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）百三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 138 — the left-hand register. Terminal digit is 八 (splayed, open at the top), distinct from the male register's 七."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人女（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2287,2050,59,406"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　百六十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）百六十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (an outcaste status group): 162 households. Their population follows in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2172,1286,97,671"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　九百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）九百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 162 eta households: 949 persons. Split below into 482 male / 467 female; 482+467 = 949 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2032,1284,95,753"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四百八十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）四百八十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 482 — the right-hand register. Tens digit is 八 (no top lid, splayed); terminal digit 二."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2071,2043,57,476"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百六十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四百六十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 467. CORRECTION — MASTER records 女四百六十二人 (462). Both terminal digits were cropped to single characters at 9x: the female register ends in 七 and the male in 二; the tens are 六 (lidded) female vs 八 (splayed) male. Arithmetic confirms: 482+467 = 949 matches the printed total, whereas 482+462 = 944 does not. Read from the scan as 467."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2013,2043,58,476"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　五十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（しゃにん）五十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine attendants (shanin): 51 households. Their population prints lower in the same column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1900,1284,97,582"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百八十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）百八十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 51 shrine-attendant households: 188 persons, printed in the same column below the household count. Split below into 98 male / 90 female; 98+90 = 188 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1890,1953,90,582"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）九十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 98 — the right-hand register, five glyphs long (it runs one glyph deeper than the female register beside it)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人男（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1930,2544,59,339"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 90 — the left-hand register, only four glyphs long. 98 + 90 = 188 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人女（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1872,2544,58,269"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　二百二十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）二百二十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 227. Printed as a bare count with no counter-suffix (no ヶ寺 or 宇). The temples' resident population follows lower in the same column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1767,1283,90,668"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口四百四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）四百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population resident in the 227 temples: 442 persons, broken down below into 377 monks, 7 nuns and 58 women; 377+7+58 = 442 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1753,2039,92,671"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧三百七十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）三百七十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monks: 377 — the right-hand register of the warichu split under the 442 temple population, seven glyphs deep."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1793,2712,58,474"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（あま）七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nuns: 7 — the left-hand register, only three glyphs deep, ending well above the monks' register beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "尼（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1736,2712,56,207"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）五十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Women: 58 — the third component of the temple population. It prints as a half-width (warichu-sized) run below the 僧/尼 register pair, continuing in the right-hand (僧) register's track once that pair has closed. 377 monks + 7 nuns + 58 women = 442 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺女（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1774,3260,70,351"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　二百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）二百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 239 men. The final field of the Miyazu block. It prints from the top of the text block (y1039) rather than the demographic indent (y≈1293), but it sits to the RIGHT of the ○水口藩 marker, so by the right-to-left rule it belongs to Miyazu, not Minakuchi. Terminal digit 九 shows its rounded bending leg (not 七)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊（宮津藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1636,1030,93,749"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○水口藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "水口藩（みなくちはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Minakuchi han (Ōmi province, Katō house) — the start of the Minakuchi block and the only maru-marker on this leaf. Everything to its LEFT on this page is Minakuchi; everything to its RIGHT is the tail of the preceding Miyazu block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○水口藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1488,1365,109,564"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　二萬五千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）二万五千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Official assessed kokudaka (omotedaka): 25,000 koku — Minakuchi's headline rating, and the first field of its block. The 千 carries the slanted ノ stroke on top (misreading it as 十 would be a hundredfold error)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1363,1026,93,590"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田　千四百九十一石八斗八升六合一勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高新田（こみだかしんでん）千四百九十一石八斗八升六合一勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field (shinden) increment folded into the assessment: 1,491.88614 koku. Sub-units run strictly descending 石 > 斗 > 升 > 合 > 勺 > 才 ✓. Added to the 25,000-koku omotedaka this implies a gross of 26,491.88614 koku (the 草高 itself is not printed on this leaf)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1209,1200,110,1754"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米一萬千三百三十三石一斗六升一合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）米 一万千三百三十三石一斗六升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso), levied in rice: 11,333.161 koku — about 42.8% of the implied 26,491.886-koku gross. The leading group was checked glyph by glyph: a single 一 then 萬 then 千 with NO 三 between them, so 一萬千 = 11,000, not 13,000."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1079,1115,108,1590"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米三百六十三石四斗一升八合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雜稅（ざつぜい）米 三百六十三石四斗一升八合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (zatsuzei), levied in rice: 363.418 koku. The 斗 (a 十 with two side dots, = 0.1) and 升 (= 0.01) are distinct in the print and were read separately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:949,1109,105,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（水口）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいしち（みなくち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): Hansei Ichiran, Fascicle 7 — Minakuchi section. It prints in the outer (left) margin. The facing leaf, page 120, carries the same header reading （宮津）, so the book re-files the page under Minakuchi at the point the Minakuchi block opens — even though Miyazu's data still occupies the right half of this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第七（水口）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:842,1280,78,577"
+      }
+    }
+  },
+  {
+    "id": "anno-minakuchi_lower_p072_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百二十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくにじゅういち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number: 121. Book apparatus rather than domain data. An odd number on a left-hand leaf, consistent with right-to-left binding — the facing right-hand page is 120."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p072_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:817,3115,72,199"
+      }
+    }
+  }
+]

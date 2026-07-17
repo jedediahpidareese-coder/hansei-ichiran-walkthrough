@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-sakurai_lower_p057_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三百貳拾壹人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　三百二十一人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the shizoku (samurai) households: 321 persons. The rightmost column on the page, and therefore the first read — it continues directly from the last column of the facing recto (p. 90), 士族戸數 八拾五軒, giving 3.78 persons per shizoku household. The small 内 ('of which') closes the run and introduces the male/female split below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2584,973,96,811"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 149 persons — the right-hand run of the 内 split, sharing its top with the female run. 149 + 172 = 321, matching the printed total exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2633,1791,54,402"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百七十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女百七十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 172 persons — the left-hand run of the 内 split. 149 + 172 = 321, matching the printed total exactly. This is the only status group on the page with a real female surplus (172 to 149, about 15 percent); the commoner split is a near-tie and every other group here leans male."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2575,1791,57,404"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數　貳十五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数（そつぞくこすう）　二十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households: 25. The scan prints the formal numeral 貳十五軒; MASTER transcribes it as 二十五軒 — the same value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2446,972,99,746"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五十四人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　五十四人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 25 sotsu households: 54 persons, or 2.16 per household — the smallest household size on the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2311,974,96,649"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 24 persons (left-hand run of the 内 split). 30 + 24 = 54, exact."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2303,1631,56,336"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男三十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 30 persons (right-hand run of the 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2360,1631,56,266"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　二千六百貳拾三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）　二千六百二十三軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner households: 2,623 — the domain's main household count. The fourth glyph was checked at 8×: it carries the slanted top stroke of 千, so the figure is 2,623 and not a 十/千 confusion. MASTER writes 二千六百二十三軒 for the printed 二千六百貳拾三軒 — same value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2172,974,99,917"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　壹萬貳千八百六十六人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　一万二千八百六十六人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner population: 12,866 persons — the domain's principal population figure, at 4.91 persons per household. The 八 of 八百 has separate splayed strokes (not 人), and 六 carries its top lid. MASTER writes 壹萬二千八百六十六人 where the scan prints the formal 貳千."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2035,976,97,1149"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六千四百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女六千四百四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female commoners: 6,444 persons (left-hand run of the 内 split). 6,422 + 6,444 = 12,866, matching the printed total exactly — a near-even sex ratio."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2027,2132,56,612"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六千四百二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男六千四百二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male commoners: 6,422 persons (right-hand run of the 内 split). The longest run on the page, at nine glyphs."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2084,2132,57,609"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家　五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家（しゃけ）　五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto priestly (shake) households: 5. This column plays the role that the neighbouring 佐貫 entry (p. 89) fills with 神職 十九軒."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1901,978,96,411"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　貳十四人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　二十四人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 5 shrine-priest households: 24 persons, or 4.8 per household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1768,981,97,646"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female members of shrine-priest households: 9 persons (left-hand run of the 内 split). 15 + 9 = 24, exact. This run is one glyph shorter than the male run beside it, so its box ends higher."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1761,1635,57,201"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male members of shrine-priest households: 15 persons (right-hand run of the 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1819,1635,56,270"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神領百姓戸數　五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神領百姓戸数（しんりょうひゃくしょうこすう）　五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of peasants cultivating shrine land (shinryō): 5. A separate tenure category from the ordinary commoner households counted above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神領百姓戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1633,982,97,746"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　貳十六人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　二十六人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the 5 shrine-land peasant households: 26 persons, or 5.2 per household — the largest household size on the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神領百姓人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1498,982,96,650"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shrine-land peasants: 13 persons (left-hand run of the 内 split). 13 + 13 = 26, exact — an even split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神領百姓人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1490,1640,57,268"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shrine-land peasants: 13 persons (right-hand run of the 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神領百姓人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1548,1640,56,265"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社　五十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社（やしろ）　五十九"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines: 59. The label prints as the bare single glyph 社 and the number carries no counter, where the neighbouring 佐貫 entry (p. 89) prints 神社　五十三社; MASTER normalises the label to 神社. No 人員 column follows, because the shrine personnel are already counted under 社家 above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1363,987,96,496"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）　四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 42. The scan prints a person-counter 人 after the number, which is anomalous for a temple count and which MASTER's raw value drops. The glyph is certainly 人: verified at single-character zoom against four known 人 on this page (the strokes touch at the apex, unlike the separated, splayed 八 of 八百 in the commoner-population column), it is full-size and sits on the same type line as the 人 in the adjacent column, and it falls in the same ink column as 四十二. The figure is nonetheless the temple count, not a headcount: the immediately preceding 佐貫 entry (p. 89) prints the exact parallel 寺　四十七寺 → 人員　七十八人　内　男七十五人　女三人, and here 寺 is likewise followed by its own 人員 五十七人 supplying the temple population. 櫻井's return is loose with counters generally — it also drops the 社 counter on the shrine count above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1227,988,95,578"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五十七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）　五十七人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population resident at the domain's 42 temples: 57 persons, or 1.36 per temple. Overwhelmingly male (54 to 3), as expected for monastic households — the same pattern as neighbouring 佐貫, whose 47 temples hold 78 persons in a 75/3 split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1087,990,98,645"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Women resident at the temples: 3 persons (left-hand run of the 内 split). 54 + 3 = 57, exact. The shortest run on the page at three glyphs, so its box ends well above the male run beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1080,1644,55,198"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Men resident at the temples: 54 persons (right-hand run of the 内 split) — the monks and their male dependants."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1136,1644,60,333"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "番人小屋　一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "番人小屋（ばんにんごや）　一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Watchman's hut (bannin-goya): 1. The last data column of Sakurai's fascicle-6 block on this page; the entry resumes on the following recto (p. 92)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "番人小屋"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:953,991,98,581"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（櫻井）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第六（櫻井）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Domain Administration Survey (Hansei ichiran-hyō), Table — that is, fascicle — 6, Sakurai. A provenance marker set in smaller type in the outer margin. Here it names the same domain whose data fills the page, which is not always the case elsewhere in the survey."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（櫻井）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:838,1248,72,572"
+      }
+    }
+  },
+  {
+    "id": "anno-sakurai_lower_p057_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十一（きゅうじゅういち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 91 in the bottom margin. Odd-numbered pages fall on the left of the spread in this right-to-left book, so the facing recto read just before this page is 90 and the neighbouring 佐貫 page is 89."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁九十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p057_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:843,3086,70,145"
+      }
+    }
+  }
+]

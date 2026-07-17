@@ -1,0 +1,692 @@
+[
+  {
+    "id": "anno-yuki_lower_p067_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山伏 六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "山伏（やまぶし）6人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yamabushi (mountain ascetics of the Shugendō tradition) = 6 persons. One of six occupational/religious categories itemised here under the 内 ('of which') breakdown of Yūki's commoner population, a list that begins on the facing right page (p067R) with 神主 13 and 社人 3."
+      },
+      {
+        "purpose": "identifying",
+        "value": "山伏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2606,1145,85,329"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧 百貳十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）128人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist monks = 128 persons — by far the largest of the religious/occupational categories on this page. Printed in the lower register of the same column as 山伏."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2587,1735,94,497"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）1人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugen (a licensed Shugendō practitioner) = 1 person — the smallest category recorded in Yūki's 内 breakdown."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2472,1146,89,326"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "醫師 十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "医師（いし）10人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Physicians = 10 persons. The value is a plain 十 (simple cross), not 千 — 10, not 1,000."
+      },
+      {
+        "purpose": "identifying",
+        "value": "醫師"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2455,1731,90,329"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "座頭 四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "座頭（ざとう）4人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Zatō (members of the blind men's guild — masseurs, musicians, moneylenders) = 4 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "座頭"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2329,1140,88,328"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "道心 八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "道心（どうしん）8人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Dōshin (lay Buddhist devotees / unordained novices attached to temples) = 8 persons. The value is 八 (splayed strokes, separate at the apex), not 六."
+      },
+      {
+        "purpose": "identifying",
+        "value": "道心"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2315,1727,89,330"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Structural marker: 'besides / in addition'. Printed one glyph-step lower than the field labels, it closes the 内 ('of which') list of groups counted INSIDE the commoner population and opens the registers counted OUTSIDE it — the 鉦打 and 穢多 households that follow to its left. MASTER folds this glyph into its field label as '外 鉦打戸數'; it is boxed separately here because it scopes both following registers, not just one."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2208,1056,83,77"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鉦打戸數 四軒 人員 六人 内 男四人 女二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鉦打戸数（かねうちこすう）4軒、人員（じんいん）6人 — 内 男4人・女2人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kane-uchi (鉦打, itinerant gong-beating mendicants — a marginal/outcaste occupational group) households = 4, persons = 6. The 内 split gives 男 4 + 女 2 = 6, internally consistent ✓. Recorded under the 外 marker, i.e. outside the commoner household and population totals carried over from p067R. Yūki's smallest register on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉦打戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2046,974,105,1248"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）4人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the kane-uchi population: male = 4. Right-hand run of the warichu split beneath 六人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉦打人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2076,2299,58,200"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）2人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the kane-uchi population: female = 2. (4 + 2 = 6 ✓, matching the printed 六人 total above.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉦打人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2021,2299,55,200"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數 六十軒 人員 貳百七十八人 内 男百四十六人 女百三十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数（えたこすう）60軒、人員（じんいん）278人 — 内 男146人・女132人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (穢多, hereditary outcaste) households = 60, persons = 278 (男 146 + 女 132 = 278 ✓) — about 4.6 persons per household, the larger of the two registers recorded under 外. MASTER ERROR: MASTER assigns this 278-person figure and its M/F split to 士卒戸數 instead, and gives 穢多戸數 the value '六十軒 人員百三十三人 士族' — the '百三十三人 士族' is actually 百三十三軒 士族, a household count printed four columns to the left in the 士卒 breakdown. On the scan 人員 貳百七十八人 sits unambiguously in this column (x 1881–2006)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1900,972,114,1587"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 百四十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）146人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the eta population: male = 146. Right-hand run of the warichu split beneath 貳百七十八人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人員男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1933,2639,59,403"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 百三十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）132人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the eta population: female = 132. (146 + 132 = 278 ✓, matching the printed total above.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人員女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1871,2639,62,403"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士卒戸數 貳百三拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒戸数（しそつこすう）231軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shi-sotsu (samurai + lower-retainer) households = 231, written with the formal numerals 貳百三拾壹 (拾 carries the 扌 hand radical; 壹 is the formal 1). The 内 breakdown immediately to the left itemises them as 133 shizoku + 74 sotsu + 24 under house-arrest = 231 ✓. MASTER ERROR: MASTER appends '人員 貳百七十八人 内男百四十六人女百三十貳人' to this field — that population belongs to 穢多戸數, the column to the RIGHT. This column prints the household count only and is blank below y≈1882."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1780,971,98,919"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十三軒 士族"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "133軒 — 士族（しぞく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 231 shi-sotsu households, 133 are shizoku (former samurai). The count is printed in the upper register with its category label 士族 below it in the lower register of the same column — the value-above / label-below convention used throughout this page. MASTER has no row for this figure; it instead appears, garbled, inside MASTER's 穢多戸數 and 謹愼ノ者 value strings."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1510,1136,93,750"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七十四軒 卒族"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "74軒 — 卒族（そつぞく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 231 shi-sotsu households, 74 are sotsu (lower retainers / foot-soldiers, the sub-samurai stratum created by the 1869–70 status reform). Leading glyph verified as 七, not 九."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1373,1136,95,748"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳十四軒 謹愼ノ者"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "24軒 — 謹慎ノ者（きんしんのもの）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the 231 shi-sotsu households, 24 are 謹愼ノ者 — households under kinshin (house-arrest / confinement), the penalty imposed on retainers in the aftermath of the Boshin War. 133 + 74 + 24 = 231 ✓, closing the 内 breakdown exactly. That a domain recorded confined retainers as a standing household category in the 1870 survey is itself notable."
+      },
+      {
+        "purpose": "identifying",
+        "value": "謹愼ノ者戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1237,1131,99,918"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 九百五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）950人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Persons in the 231 shi-sotsu households = 950 (≈4.1 per household). The status lines that break this total down reconcile exactly: 士族妻子 613 (男 289 + 女 324, printed on this page) + 卒族同斷 256 (男 144 + 女 112) + 謹愼同斷 81 (男 40 + 女 41) = 950 ✓. The latter two print on p068R to the right of the ○湯長谷藩 marker and therefore still belong to Yūki. MASTER ERROR: MASTER conflates this entry with the 士族妻子 pair into a single row, '人員 (士族妻子) = 九百五十人 男貳百八拾九人 女三百貳十四人'. They are two distinct entries a full column apart — 289 + 324 = 613, not 950 — and the M/F pair carries no 内 marker, so it is not a split of this total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1111,963,90,661"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 貳百八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）289人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku wives and children — male = 289. Right-hand run of the warichu pair. Verified glyph-by-glyph: 貳 / 百 / 八 (splayed, no top lid — not 六) / 十 (plain cross — not 千) / 九 (crossing stroke with hooked leg — not 七 or 八)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族妻子男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1020,1131,60,471"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 三百二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）324人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku wives and children — female = 324. Left-hand run of the warichu pair; its rightmost ink touches the male run's leftmost ink at x=1020, so the two boxes share that flush boundary. (289 + 324 = 613.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族妻子女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:959,1131,61,471"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 貳百八十九人 女 三百二十四人 士族妻子"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 289人・女 324人 — 士族妻子（しぞくさいし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku wives and children = 289 male + 324 female = 613 persons, the largest status component of the 950 shi-sotsu population. The category label 士族妻子 is printed BELOW its two figures (the value-above / label-below convention of this page); the box covers the label, with the two figures boxed separately above. Note this is NOT an 内-split of the 950 total: it starts higher on the page (y1139 vs y1225), sits a full column to the left, and carries no 内 marker. Yūki's status split continues on p068R with 卒族同斷 (男 144 / 女 112 = 256) and 謹愼同斷 (男 40 / 女 41 = 81), which print in the identical shape to the right of the ○湯長谷藩 marker and therefore still belong to Yūki. The three lines close the register exactly: 613 + 256 + 81 = 950."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族妻子"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:966,1717,87,327"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（結城）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第七（結城）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header / provenance, printed down the outer (left) margin: 'Hansei Ichiran-hyō, Fascicle 7 (Yūki).' Fascicle 7 belongs to the civil/economic register carried in volume 2 (lower). This is provenance, not data — on some pages the header names a different domain than the content, but here it agrees with the data, and the facing right page carries the same header. The 覧/覽 glyph is over-inked at this header type size and could not be resolved on this page; 覧 follows the convention used by every other header in the viewer."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（結城）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:852,1215,75,571"
+      }
+    }
+  },
+  {
+    "id": "anno-yuki_lower_p067_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十一（111）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 111. Consistent with the facing right page (百十 = 110) and the next right page (百十二 = 112), confirming this as the left half of the spread."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p067_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:818,3059,64,144"
+      }
+    }
+  }
+]
