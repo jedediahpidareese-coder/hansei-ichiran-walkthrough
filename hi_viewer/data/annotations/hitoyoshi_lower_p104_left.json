@@ -1,0 +1,392 @@
+[
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　知事家族　運輸舶　記セス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（むらかず）・知事家族（ちじかぞく）・運輸舶（うんゆはく）　記さず（きさず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial absence note: a curly bracket groups three fields — village count (村數), the governor's family (知事家族), and transport vessels (運輸舶) — with the shared predicate 記セス ('not recorded'). These three fields are marked as unrecorded for Hitoyoshi."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數知事家族運輸舶記セス"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2298,1040,360,695"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○人吉藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〇人吉藩（ひとよしはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Hitoyoshi han. The maru (○) opens Hitoyoshi's entry; every figure on this page belongs to Hitoyoshi."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○人吉藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2134,1326,120,588"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高貳萬貳千百石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）二万二千百石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Base assessed yield (kusadaka): 22,100 koku (a round figure, no sub-koku places)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2011,1002,101,655"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に（ほかに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading 'in addition (there are):' — introduces the three supplementary yield components (外) that, added to the base kusadaka, make up the total assessed yield (合高)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外ニ"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1893,1160,80,145"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三萬五千四百四十六石九斗八合三勺　込高幷新田高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）三万五千四百四十六石九斗八合三勺　込高並びに新田高（こみだか ならびに しんでんだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Supplementary yield (soto/hoka): 35,446 koku 9 to 0 shō 8 gō 3 shaku (= 35,446.9083; the shō place is zero). Note: komidaka (added assessed increments) plus shinden (newly-opened field) yield. NOTE: the project dataset's 35,446.90803 carries a phantom place; the print reads 三勺 (35,446.9083)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外込高幷新田高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1710,1244,116,1921"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三千三百六十三石五升八合壹勺五才　畠稅大豆幷金納ノ分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）三千三百六十三石五升八合一勺五才　畠税大豆並びに金納の分（はたぜい だいず ならびに きんのう の ぶん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Supplementary yield: 3,363 koku 0 to 5 shō 8 gō 1 shaku 5 sai (= 3,363.05815; the to place is zero). Note (warichu): the field-tax soybean portion and the cash-payment (kinnō) portion."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外畠稅大豆幷金納ノ分"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1557,1243,128,1767"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "貳千五百九石三斗六升八合四勺壹才　藩士社寺ヘ地方ニテ渡置候分改増高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）二千五百九石三斗六升八合四勺一才　藩士・社寺へ地方にて渡し置き候分、改め増高（はんし・しゃじ へ じかた にて わたしおきそうろう ぶん、あらため ぞうだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Supplementary yield: 2,509 koku 3 to 6 shō 8 gō 4 shaku 1 sai (= 2,509.36841). Note (warichu): the portion granted as land (jikata) to domain retainers (hanshi) and shrines/temples (shaji), reclassified as increase-yield (zōdaka). NOTE: the dataset's 2,509.3684 drops the closing 壹才; the print and the assessed-yield net require 2,509.36841."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外藩士社寺地方渡置改増高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1422,1236,132,1970"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高六萬三千四百十九石三斗三升四合八勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高（あいだか／ごうだか）六万三千四百十九石三斗三升四合八勺六才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed yield (gōdaka): 63,419 koku 3 to 3 shō 4 gō 8 shaku 6 sai (= 63,419.33486). Arithmetic check exact: 草高 22,100 + 外 35,446.9083 + 外 3,363.05815 + 外 2,509.36841 = 63,419.33486. NOTE: the project dataset's 63,419.3408 is wrong (its raw string was garbled '…八勺九才六才'); the correct value is 63,419.33486."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1309,1069,108,1758"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "十ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "十ヶ年平均（じっかねん へいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading 'ten-year average' — the tax figures that follow (正租米 and 大豆) are stated as ten-year averages. (Hitoyoshi's fiscal data are also given as a five-year average, 五ヶ年平均, on the continuation page p105R.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "十ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1198,1154,88,413"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米貳萬三千九百九十五石五斗七升三合五勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）二万三千九百九十五石五斗七升三合五勺六才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax rice (ten-year average): 23,995 koku 5 to 7 shō 3 gō 5 shaku 6 sai (= 23,995.57356). NOTE: the project dataset records 23,895.97356 (八百…九斗); single-glyph inspection shows 九百 (995) and 五斗 (.5…), and Hitoyoshi's own 正租高 entry on the next page (p105R) reads 二萬三千九百九十五石五斗七升三合五勺六才 — independently confirming 23,995.57356."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1038,1072,118,1921"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大豆千百七十九石六斗二升七合五勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大豆（だいず）千百七十九石六斗二升七合五勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soybean tax (ten-year average): 1,179 koku 6 to 2 shō 7 gō 5 shaku 1 sai (= 1,179.62751). Matches the project dataset exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大豆"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:908,1236,110,1505"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（人吉）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第七（人吉）（はんせいいちらんひょう だいしち（ひとよし））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han System Survey Table, Fascicle 7 (Hitoyoshi) — provenance marker naming the fascicle (7) and the domain whose block this page carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表第七）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:812,1243,74,570"
+      }
+    }
+  },
+  {
+    "id": "anno-hitoyoshi_lower_p104_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百八十五（ひゃくはちじゅうご）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 185."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付（百八十五）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p104_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:782,3078,66,212"
+      }
+    }
+  }
+]

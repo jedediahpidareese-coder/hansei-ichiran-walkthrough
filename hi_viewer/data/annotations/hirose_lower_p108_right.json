@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-hirose_lower_p108_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人（しゃにん）百三十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine attendants/personnel: 134 people (of which male 81, female 53; see split boxes)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2085,1186,80,610"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shrine attendants, 81 are male."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人男（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2115,1844,51,324"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 五十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shrine attendants, 53 are female (81+53=134 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人女（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2068,1844,46,324"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧三百七十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）三百七十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist monks: 375 people (of which male 213, female 162)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1958,1186,82,650"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the monastic clergy, 213 are male. (MASTER's 260 is a misread; 213 is what the scan shows and it reconciles.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧男（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1958,1922,70,400"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百六十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 百六十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the monastic clergy, 162 are female (213+162=375 ✓). (MASTER's 123 is a misread.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧女（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1921,1922,37,400"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（あま）六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist nuns: 6 people."
+      },
+      {
+        "purpose": "identifying",
+        "value": "尼（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1824,1176,76,320"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社數百三十貳社 内貳十壹社式内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社数 百三十二社、内 二十一社は式内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of Shinto shrines: 132, of which 21 are Engishiki (式内) shrines (listed in the 10th-century register)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社數（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1676,1007,89,1252"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事家族五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事家族 五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household of the (domain) governor: 5 people (of which male 2, female 3)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1555,1003,88,549"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the governor's household, 2 are male."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族男（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1590,1576,52,188"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the governor's household, 3 are female (2+3=5 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族女（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1536,1575,52,189"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "邨數九十三ヶ村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（邨数）九十三ヶ村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: 93. (Label is 邨數 = 村數, village count; MASTER mislabels it 郡數.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "邨數（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1419,1001,86,579"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "軍艦蒸氣運用舶ナシ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "軍艦・蒸気・運用舶 ナシ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warships, steamships, and operational vessels: none."
+      },
+      {
+        "purpose": "identifying",
+        "value": "軍艦蒸氣運用舶（久居藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1285,1000,90,730"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○廣瀬藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "廣瀬藩（ひろせはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Hirose han — start of the Hirose block. Everything to its left on this page belongs to Hirose; everything to its right is the previous domain (Hisai)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○廣瀬藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1140,1294,100,605"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "元高三萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "元高（もとだか）三万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu note beside the marker: the former/nominal kokudaka of Hirose = 30,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "元高三萬石"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1155,1899,68,331"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高三萬三千百貳拾八石九升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）三万三千百二十八石九升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 33,128.09 koku (斗 place skipped = 0)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1008,998,94,1162"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 高一萬三千三百七拾六石九斗九升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内、高 一万三千三百七十六石九斗九升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the gross: 13,376.991 koku — the 萬引 (levy/deduction) portion. Subtracted from 草高 to give 殘高 (33,128.090 − 13,376.991 = 19,751.099)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内萬引高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:877,1156,105,1421"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "萬引方除之"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "萬引方、之を除く"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu note on the 13,376.991 figure: 'the 萬引 portion — deduct this.'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "萬引方除之"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:845,2668,113,200"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内 四千五百拾四石三升貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 四千五百十四石三升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the assessment: 4,514.032 koku — the five-year average crop-loss (毛損) figure (斗 place skipped = 0)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内毛損高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:758,1229,116,924"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "甲子ヨリ戊辰迄五ヶ年平均毛損"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子より戊辰まで五ヶ年平均毛損"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu footnote on the 4,514.032 figure: five-year average crop-loss from Kōshi (1864) to Boshin (1868)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "甲子ヨリ戊辰迄五ヶ年平均毛損"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:731,2213,94,769"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘高壹萬九千七百五拾壹石九升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残高（ざんだか）一万九千七百五十一石九升九合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remaining assessment after deduction = 19,751.099 koku (石 → 九升九合, NO 斗). Confirmed by 草高 33,128.090 − 萬引 13,376.991 = 19,751.099. NOTE: MASTER's 19,751.999 has a phantom 斗."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘高"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:620,1082,72,1322"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内四百八拾石二斗二升四合新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 四百八十石二斗二升四合 新田"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu on the 殘高: of it, 480.224 koku is newly-developed field (shinden)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘高内新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:570,2505,118,573"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "物成九千九百九拾四石四斗九升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "物成（ものなり）九千九百九十四石四斗九升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Actual tax yield (nengu) = 9,994.491 koku. Internally coherent: (殘高 19,751.099 − 5-yr avg loss 4,514.032) × ~0.66 ≈ 9,994.491."
+      },
+      {
+        "purpose": "identifying",
+        "value": "物成"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:457,1188,103,1289"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "免六ツ六厘餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "免（めん）六ツ六厘余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note under 物成: the tax rate (men) ≈ 6-plus tenths and 6 rin, and a fraction more (餘) — i.e. roughly a 0.6+ effective rate on the taxable base."
+      },
+      {
+        "purpose": "identifying",
+        "value": "免六ツ六厘餘"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:436,2590,115,192"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（廣瀬）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（広瀬）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): Han Institutions Overview, Fascicle 7, Hirose section. Names the page's primary domain (Hirose)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七（廣瀬）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2215,1269,72,573"
+      }
+    }
+  },
+  {
+    "id": "anno-hirose_lower_p108_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百九十二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百九十二（192）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 192."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百九十二"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p108_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2188,3105,62,205"
+      }
+    }
+  }
+]

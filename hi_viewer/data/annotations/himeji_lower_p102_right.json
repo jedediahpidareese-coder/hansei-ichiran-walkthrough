@@ -1,0 +1,842 @@
+[
+  {
+    "id": "anno-himeji_lower_p102_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（姫路）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいしち（ひめじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Han Administration Register, Fascicle 7 (Himeji).' Provenance label naming Himeji Domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七姫路"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2235,1228,66,570"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくはちじゅう（一八〇頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number: 180."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁百八十"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2222,3070,50,160"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千六百五十人 内 僧八百九十三人 男貳百十三人 女五百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一六五〇人 — 内 僧八九三・男二一三・女五四四"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple-resident population = 1,650 (of which clergy 893, male 213, female 544; 893+213+544 = 1,650 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2109,1305,68,679"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧八百九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）八九三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the temple population: clergy (monks) = 893."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口僧"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2124,2048,62,472"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二一三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the temple population: male = 213."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2056,2051,65,397"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）五四四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the temple population: female = 544."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2056,2531,76,464"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗 十九ヶ所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）一九ヶ所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō (mountain-ascetic) establishments = 19 sites."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1971,1137,70,493"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口六十五人 内 修驗十七人 女二十八人 男二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 六五人 — 内 修験一七・女二八・男二〇"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō population = 65 (of which ordained ascetics 17, female 28, male 20; 17+28+20 = 65 ✓; MASTER omitted the 28 females)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1833,1301,74,499"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験（しゅげん）一七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shugendō population: ordained ascetics = 17."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口修驗"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1850,1878,56,327"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shugendō population: female = 28."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1796,1878,54,327"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二〇人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shugendō population: male = 20."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1848,2291,54,261"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數 貳千三百七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数（えた こすう）二三〇七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households = 2,307."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1696,1135,72,830"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口壹萬千三百八十九人 内 男五千七百五十七人 女五千六百三十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一万一三八九人 — 内 男五七五七・女五六三二"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) population = 11,389 (male 5,757 + female 5,632 = 11,389 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1545,1302,92,913"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千七百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）五七五七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the eta population: male = 5,757."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1578,2298,54,605"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五千六百三十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）五六三二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the eta population: female = 5,632."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1513,2298,64,605"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人戸數 記セス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人戸数（ひにん こすう）記さず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) households: not recorded (記セス)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人戸數記セス"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1429,1130,68,648"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百九人 内 男五十四人 女五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一〇九人 — 内 男五四・女五五"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) population = 109 (male 54 + female 55 = 109 ✓; MASTER recorded only '女五十四人', a misread of the two sub-columns)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,1304,63,408"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）五四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the hinin population: male = 54."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1314,1793,56,330"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）五五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the hinin population: female = 55."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1258,1793,53,330"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下三行欄外朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "以下三行、欄外朱書（らんがい しゅしょ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: 'the following three lines are red-ink notations written in the margin.'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下三行欄外朱書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1211,1110,66,579"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "原本神社千五十九ヶ社共合五萬千九百四十八戸然レ共内譯ニテ合算"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "原本、神社一〇五九ヶ社共（を含めて）合わせて五万一九四八戸、然れども内訳にて合算…"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Red-ink note (1/3): 'In the original, together with the 1,059 shrines, the combined total is 51,948 households; however, summing by the category breakdown...' (note prints 五萬千九百四十八, no 壹 glyph, = 51,948)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "原本神社千五十九ヶ社共合五萬千九百四十八戸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1144,1110,65,2523"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "スレハ五萬二千五百四十八戸トナル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "…すれば五万二五四八戸となる"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Red-ink note (2/3): '...it comes to 52,548 households.'"
+      },
+      {
+        "purpose": "identifying",
+        "value": "スレハ五萬二千五百四十八戸トナル"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1013,1146,69,1296"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "故二今ハ神社千五十九ヶ所引去内譯ニヨル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "故に今は神社一〇五九ヶ所を引き去り、内訳による"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Red-ink note (3/3): 'Therefore the 1,059 shrines are now subtracted, following the breakdown.' (shrine figure is 千五十九 = 1,059, matching the 神社 column; MASTER's '千五百四十八' is a misread)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "故二今ハ神社千五十九ヶ所引去内譯ニヨル"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:879,1130,69,1602"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 千五十九ヶ社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）一〇五九ヶ社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines = 1,059."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:748,959,68,744"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數 記セス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（むらかず）記さず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: not recorded (記セス)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數記セス"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:619,959,66,475"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事家族 三人 内 男壹人 女貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事家族（ちじ かぞく）三人 — 内 男一・女二"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's (chiji) household = 3 persons (male 1, female 2; 1+2 = 3 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:479,957,69,540"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the governor's household: male = 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:507,1534,54,194"
+      }
+    }
+  },
+  {
+    "id": "anno-himeji_lower_p102_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the governor's household: female = 2."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p102_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:455,1534,52,194"
+      }
+    }
+  }
+]

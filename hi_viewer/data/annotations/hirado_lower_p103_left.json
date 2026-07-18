@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-hirado_lower_p103_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "總戸數 三萬千九百九十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総戸数 三万千九百九十一戸（31,991）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households (Hirado) = 31,991."
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2563,1000,85,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 十四萬八千五百七人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 十四万八千五百七人（148,507）内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population (Hirado) = 148,507; the 内 split below gives male 76,610 + female 71,897 = 148,507 ✓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2429,1085,84,915"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 七萬六千六百十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 七万六千六百十人（76,610）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — male = 76,610. (MASTER's 76,697 is a misread; the tail reads 六百十人 = …610, and 76,610+71,897=148,507 reconciles.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2458,2007,68,745"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 七萬千八百九十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 七万千八百九十七人（71,897）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population — female = 71,897."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2408,2007,47,745"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數 五百七拾貳戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 五百七十二戸（572）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-class) households = 572. Red-ink marginal addition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2289,1252,87,834"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 貳千八百三十八人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族）人口 二千八百三十八人（2,838）内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku-class population = 2,838 (male 1,374 + female 1,464 = 2,838 ✓). Red-ink marginal addition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2151,1419,84,831"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 千三百七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千三百七十四人（1,374）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — male = 1,374."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2185,2264,62,531"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 千四百六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千四百六十四人（1,464）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population — female = 1,464."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2134,2264,48,531"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數 三千三十壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 三千三十一戸（3,031）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-samurai) households = 3,031. Red-ink marginal addition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2015,1253,88,835"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 壹萬貳千五百貳十壹人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（卒族）人口 一万二千五百二十一人（12,521）内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu-class population = 12,521 (male 6,334 + female 6,187 = 12,521 ✓). Red-ink marginal addition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1880,1419,84,1073"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 六千三百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 六千三百三十四人（6,334）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — male = 6,334."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1908,2505,64,585"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 六千百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 六千百八十七人（6,187）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population — female = 6,187."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1859,2505,46,535"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本文ノ士族卒ノ内ナルヘシト考ヘル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "本文の士族・卒の内なるべしと考える"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editor's note (main sentence): '[these figures] should be considered as [being] within the main text's shizoku and sotsu [totals].' Paired with 「但シ and （以下七行欄外朱書）; the opening bracket 「 is at the note's top and the closing 」 falls at the bottom of the last Hirado-Shinden column, so the editor bracketed the whole samurai/sub-domain breakdown as red-ink marginalia."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本文ノ士族卒ノ内ナルヘシト考ヘル"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1600,1142,99,1401"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下七行欄外朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下七行、欄外朱書）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editor's parenthetical: 'the following seven lines are red-ink writing in the margin (rangai shusho).' Marks the samurai-class breakdown as a later red-ink addition, not part of the original main text."
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下七行欄外朱書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1798,1152,86,582"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "「但シ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ただし（但し）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Opening of the bracketed editorial proviso ('however / provided that'); continues into 本文ノ士族卒ノ内ナルヘシト考ヘル. The bracket closes 「…」 at the foot of the Hirado-Shinden entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但シ"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1748,1148,52,170"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○平戸新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平戸新田藩（ひらどしんでんはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker (arc over the name): Hirado-Shinden — start of the Hirado-Shinden sub-domain. Everything to its left on this page belongs to Hirado-Shinden; everything to its right is the previous domain, Hirado."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1481,1128,117,366"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數 百廿八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 百二十八戸（128）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden shizoku households = 128 (廿 = 20)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1347,1168,85,664"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 四百九十五人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族）人口 四百九十五人（495）内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden shizoku population = 495 (male 245 + female 250 = 495 ✓)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1210,1338,81,660"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百四十五人（245）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden shizoku population — male = 245."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1237,2012,69,538"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二百五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百五十人（250）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden shizoku population — female = 250."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1191,2012,44,470"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數 百十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 百十二戸（112）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden sotsu households = 112."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1078,1168,83,663"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 百七十七人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（卒族）人口 百七十七人（177、印字ママ）内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden sotsu population = 177 AS PRINTED. But the male (258) + female (219) below sum to 477, so the printed hundreds digit 百 is very likely a source error for 四百 (intended 477). Value recorded as printed (177) with this discrepancy flagged."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:945,1336,88,676"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 二百五十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百五十八人（258）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden sotsu population — male = 258."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:965,2018,70,484"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 二百十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百十九人（219）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hirado-Shinden sotsu population — female = 219. (Male 258 + female 219 = 477, the reconciling total — see the 177/477 note above.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "平戸新田卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:916,2018,47,484"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第七（平戸）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（平戸）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): Han-sei Ichiran-hyō, Fascicle 7 — (Hirado)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第七平戸"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:818,1255,74,573"
+      }
+    }
+  },
+  {
+    "id": "anno-hirado_lower_p103_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百八十三（183）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 183."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百八十三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p103_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:810,3092,63,215"
+      }
+    }
+  }
+]
