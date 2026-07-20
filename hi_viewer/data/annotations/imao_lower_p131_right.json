@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-imao_lower_p131_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第八（今尾、伊勢崎）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八（今尾・伊勢崎）／はんせいいちらんひょう だいはち（いまお・いせさき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Administration, Fascicle 8 (Imao, Isesaki) — running header in the outer margin naming the source fascicle and the domains covered by this opening. Provenance, not data; it can name a different domain than the block printed alongside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第八（今尾、伊勢崎）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1246,82,760"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百三十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百三十八／にひゃくさんじゅうはち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Page 238 — the printed book-page number in the bottom outer margin."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二百三十八"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2141,3090,70,263"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "前ハ庚午六月十九日調後ハ年月ヲ詳カニセス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "前は庚午六月十九日調べ、後は年月を詳らかにせず／まえはこうごろくがつじゅうくにちしらべ、のちはねんげつをつまびらかにせず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial dating rubric heading the block: \"The earlier [returns] were surveyed on the 19th day of the 6th month of the kanoe-uma year (Meiji 3, 1870); for the later [returns] the year and month are not specified.\" It signals that the entries that follow arrived in more than one reporting batch."
+      },
+      {
+        "purpose": "identifying",
+        "value": "survey notation"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2013,1242,98,1660"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○今尾藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○今尾藩／いまおはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Imao han — opens Imao's fascicle-8 block. Everything printed to its left, as far as the Isesaki marker, is Imao's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○今尾藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1869,1324,113,566"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事／ちじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) of Imao — standing rank heading. No name is printed in this column and the next column to the left carries the 大参事 heading, so no incumbent is recorded here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "今尾知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1736,2335,87,167"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事　奧田忠"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事　奥田忠／だいさんじ　おくだ ただし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji) of Imao: Okuda Tadashi. The heading and this first incumbent share one column; a second daisanji, Takanose Kazuto, follows in the untitled column immediately to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1594,2338,90,1171"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高野瀨和人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高野瀬和人／たかのせ かずと"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takanose Kazuto — a second senior councillor (daisanji) of Imao. His column carries no heading of its own; under the fascicle-8 convention (verified on the facing leaf) additional holders of a rank continue in columns to the left of the headed column. MASTER assigns this name to 権大参事 instead; the printed column positions do not support that."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高野瀨和人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1460,2924,87,583"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事　小串右門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事　小串右門／ごんだいさんじ　おぐし うもん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillor (gon-daisanji) of Imao: Ogushi Uemon. Heading and first incumbent share one column; a second gon-daisanji, Okuda Matajūrō, follows in the untitled column to the left. MASTER assigns Ogushi to 小参事; the column geometry places him under 権大参事."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1328,2336,88,1173"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "奧田又十郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "奥田又十郎／おくだ またじゅうろう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Okuda Matajūrō — a second acting senior councillor (gon-daisanji) of Imao, printed in an untitled column continuing the 権大参事 group. MASTER assigns him to 権少参事; the 権少参事 heading stands three columns further left with no name beneath it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "奧田又十郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1194,2927,87,586"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小参事／しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor (shōsanji) of Imao — standing rank heading, printed 小参事 (verified 小, not 少, at 8x). No name is printed in this column and the next column to the left carries the 権少参事 heading, so no incumbent is recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1063,2339,85,249"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事／ごんしょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillor (gon-shōsanji) of Imao — standing rank heading (少 here verified against 小 in 小参事). No name follows it before the 銃兵 military column, so no incumbent is recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:924,2339,87,334"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃兵　六小隊　但シ一隊五十名宛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃兵　六小隊　但し一隊五十名宛／じゅうへい　ろくしょうたい　ただし いったい ごじゅうめい あて"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Musketeers (jūhei) of Imao: six platoons, with the note \"each platoon 50 men\" — 6 × 50 = 300 men. The 但し note is set in small type within the same column run and is boxed with its parent value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:793,1246,91,1386"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外役司　六十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外役司　六十六人／がいやくし　ろくじゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outside-duty offices (gaiyakushi) of Imao: 66 men. Final glyph confirmed 人 (strokes meeting at the apex), not 八 or 入."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外役司"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:665,1330,87,582"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○伊勢崎藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○伊勢崎藩／いせさきはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Isesaki han — opens Isesaki's fascicle-8 block. Only its 知事 heading fits on this leaf; the rest of Isesaki's officials and military continue on the facing page (printed p. 239)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○伊勢崎藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:518,1332,109,605"
+      }
+    }
+  },
+  {
+    "id": "anno-imao_lower_p131_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事／ちじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) of Isesaki — standing rank heading, the only Isesaki column on this leaf. No name is printed with it; the next heading, 大参事 (with 石原眞隅), begins on the facing left page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事（伊勢崎藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p131_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:384,2339,88,167"
+      }
+    }
+  }
+]

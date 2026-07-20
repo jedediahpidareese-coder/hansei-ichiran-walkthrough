@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-ichinoseki_lower_p125_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊數　記セス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊数　記さず（記載なし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of troops: not recorded"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2566,1222,86,572"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下三十八行原朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "以下三十八行は原本では朱書き"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: the following thirty-eight lines are written in vermilion in the original."
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下三十八行原朱書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2500,1200,65,657"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（總兵長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "総兵長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commander-in-chief of troops: 1 officer (the opening bracket marks the start of the vermilion span noted alongside)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "總兵長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2416,1199,83,779"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃士長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃士長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of the gunner-samurai: 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃士長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2282,1218,96,757"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲隊長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲隊長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery company commander: 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲隊長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2151,1217,92,758"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "輜重長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "輜重長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of the baggage and transport train: 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "輜重長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2020,1219,95,756"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵器長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵器長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of ordnance (armoury): 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵器長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1886,1218,96,757"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "軍監　二員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "軍監　二員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Army inspector: 2 officers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "軍監"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1750,1216,95,756"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃卒長　二員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃卒長　二員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of the rifle foot-soldiers: 2 officers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃卒長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1612,1215,99,755"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃士次長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃士次長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Deputy chief of the gunner-samurai: 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃士次長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1477,1213,96,757"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "坑兵長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "坑兵長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of sappers (military engineers): 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "坑兵長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1344,1212,96,758"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃卒次長　二員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃卒次長　二員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Deputy chief of the rifle foot-soldiers: 2 officers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃卒次長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1212,1210,95,755"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃士小長　四員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銃士小長　四員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior officer of the gunner-samurai: 4 officers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃士小長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1078,1209,96,755"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "豫備長　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "予備長　一員"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chief of the reserve force: 1 officer"
+      },
+      {
+        "purpose": "identifying",
+        "value": "豫備長"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:937,1207,100,755"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第八（一關）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第八（一関）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Table of Domain Institutions, Fascicle 8 (Ichinoseki)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱書藩制一覽表第八一關"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:828,1211,79,578"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_lower_p125_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百二十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百二十七（227）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 227"
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付二百二十七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p125_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:806,3058,70,268"
+      }
+    }
+  }
+]
