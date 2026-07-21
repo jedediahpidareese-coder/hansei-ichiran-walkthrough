@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-tatsuno_lower_p180_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○龍野藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "龍野藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tatsuno domain (section marker)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○龍野藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1896,1358,126,556"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 二人内一人欠"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事 二人（内一人欠）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillors (daisanji): 2 (of whom 1 post vacant)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1274,102,934"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大参事 四人内一人欠"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事 四人（内一人欠）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional senior councillors (gon-daisanji): 4 (of whom 1 post vacant)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野權大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1644,1270,95,936"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事 二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillors (shosanji): 2"
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1245,1263,96,664"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少参事 五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事 五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional junior councillors (gon-shosanji): 5"
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野權少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1104,1266,106,655"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族兵隊 二百七十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族兵隊 二百七十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai militia (shizoku troops): 270 men"
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野士族兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:969,1267,108,910"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正權少参事名欠取調中ニ付伺済上ノ御届可申上午三月届ニ見ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正権少参事名欠、取調中につき伺済、上の御届申し上ぐべし、午三月届に見ゆ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the names of the regular and provisional junior councillors are still vacant and under investigation; an inquiry has been submitted and a formal report is to follow — recorded in the report of the third month (Meiji 3, 1870)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "龍野正權少参事名欠伺済注記"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1136,2024,134,953"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（龍野）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第八（龍野）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han Regime Overview, Fascicle 8 (Tatsuno) — running header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第八（龍野）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:849,1268,95,566"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "337"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 337"
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百三十七"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:838,3108,60,262"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillors (shosanji) — rank heading for the following Takatsuki names"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高槻少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2432,2376,90,239"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional junior councillors (gon-shosanji) — rank heading for the following Takatsuki names"
+      },
+      {
+        "purpose": "identifying",
+        "value": "高槻權少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2166,2375,90,322"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "館野忠左衛門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "館野忠左衛門"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tateno Chūzaemon (Takatsuki junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "館野忠左衛門（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2556,2966,86,577"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "並木晴宇"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "並木晴宇"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Namiki Haruu (Takatsuki junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "並木晴宇（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2425,2962,82,575"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "駒野知彦"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "駒野知彦"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Komano Tomohiko (Takatsuki junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "駒野知彦（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2291,2961,82,576"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "和氣雄平"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "和気雄平"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Wake Yūhei (Takatsuki junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "和氣雄平（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2157,2958,83,572"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "關機一郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "関機一郎"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Seki Kiichirō (Takatsuki provisional junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "關機一郎（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2026,2953,80,578"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "進藤直衛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "進藤直衛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shindō Naoe (Takatsuki provisional junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "進藤直衛（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1753,2954,82,577"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加藤琢磨"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加藤琢磨"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Katō Takuma (Takatsuki provisional junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "加藤琢磨（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1619,2950,81,578"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "水谷歳助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "水谷歳助"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mizutani Toshisuke (Takatsuki provisional junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "水谷歳助（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1487,2950,80,571"
+      }
+    }
+  },
+  {
+    "id": "anno-tatsuno_lower_p180_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加集寛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加集寛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kashū Hiroshi (Takatsuki provisional junior councillor)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "加集寛（高槻藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1355,2943,80,578"
+      }
+    }
+  }
+]
