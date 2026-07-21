@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-odawara_lower_p154_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "步兵一大隊　但一小隊四十人六小隊ヲ以テ一大隊トス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "歩兵一大隊　但し、一小隊四十人、六小隊を以て一大隊とす"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: one battalion (Obi). Interlinear note: one platoon is 40 men and six platoons make one battalion — i.e. 240 infantry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "飫肥藩步兵一大隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2635,1213,94,2000"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "礮兵三拾六員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵三十六員（ほうへい さんじゅうろくいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: 36 members (Obi)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "飫肥藩礮兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2513,1211,83,675"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合三百四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合わせて三百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total military strength: 347 men (Obi), summing the infantry and artillery arms."
+      },
+      {
+        "purpose": "identifying",
+        "value": "飫肥藩兵員合計"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2372,1300,89,580"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士官四十六人　兵士三百一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士官四十六人、兵士三百一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu breakdown of the 347 total: 46 officers (士官) and 301 rank-and-file soldiers (兵士). 46 + 301 = 347. (MASTER's '兵士官四十一人 兵卒三百四十六人' misreads this — 41+346=387 does not reconcile.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "飫肥藩兵員内訳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2356,1893,118,405"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○小田原藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○小田原藩（おだわらはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the Odawara domain entry. Everything to its left on this leaf is Odawara; everything to its right is the preceding domain, Obi."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○小田原藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2231,1305,102,599"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain governor (chiji): the office is listed but left blank — no name appears in the column below it, i.e. the post was vacant / unfilled on this return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2101,2316,82,161"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji): the office heading; two men are named in the columns below (Katō Tōru and Ōkubo Tsunazō)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1964,2316,85,246"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillor (gon-daisanji): the office heading; five men are named in the columns below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1695,2314,86,331"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor (shōsanji): the office heading; one man is named below (Sanpei Gen)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1017,2323,79,240"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加藤亨"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加藤亨（かとう とおる）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Katō Tōru — first of the two Odawara senior councillors (大参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩大参事加藤亨"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1958,2901,80,588"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大久保綱三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大久保綱三（おおくぼ つなぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ōkubo Tsunazō — the SECOND senior councillor (大参事); its column carries no repeated office label and sits between Katō Tōru and the 権大参事 heading. NOTE: MASTER omits this name entirely."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩大参事大久保綱三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1822,2906,85,578"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山本部"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "山本部（やまもと）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yamamoto (given name printed as 部, a clear right-ear 阝 radical) — first of the five acting senior councillors (権大参事). MASTER reads the third glyph as 葆; the scan shows 部."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事山本部"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1690,2907,81,583"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "横井作十郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "横井作十郎（よこい さくじゅうろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yokoi Sakujūrō — an acting senior councillor (権大参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事横井作十郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1554,2908,81,581"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "向井東"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "向井東（むかい あずま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mukai Azuma — an acting senior councillor (権大参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事向井東"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1418,2909,80,584"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正木新"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正木新（まさき あらた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Masaki Arata — an acting senior councillor (権大参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事正木新"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1280,2912,84,581"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "堀江勇"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "堀江勇（ほりえ いさむ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Horie Isamu — last of the five acting senior councillors (権大参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩権大参事堀江勇"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1147,2912,82,582"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三幣玄"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三幣玄（さんぺい げん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sanpei Gen — the junior councillor (少参事)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小田原藩少参事三幣玄"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1011,2920,82,580"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（小田原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第八（小田原）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Han Institutions Overview, Fascicle Eight (Odawara)'. Provenance only — it names Odawara, the domain marked on this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第八（小田原）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:908,1240,70,626"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_lower_p154_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百八十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百八十五"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 285."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号二百八十五"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p154_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:895,3088,66,254"
+      }
+    }
+  }
+]

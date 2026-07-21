@@ -1,0 +1,272 @@
+[
+  {
+    "id": "anno-toyohashi_lower_p144_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事　（七員）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（七員）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillor (gon-shōsanji): seven members. This is the last of Toyohashi-han's councillor offices; its seven holders are among the name-block printed in the lower register below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豐橋藩權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2506,1250,90,672"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "宮脇正成・松尾正德・游佐高園・杉本良貴・五味高德・藤本有常・小野長愿・石川景祥"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "宮脇正成・松尾正徳・游佐高園・杉本良貴・五味高徳・藤本有常・小野長愿・石川景祥"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lower-register block of eight named Toyohashi-han officials, read right-to-left: Miyawaki Masanari, Matsuo Masanori, Yusa Takasono, Sugimoto Yoshitaka, Gomi Takanori, Fujimoto Aritsune, Ono Naga(yoshi?), Ishikawa Kageyoshi. The rightmost (Miyawaki) heads a higher grade whose title (少參事) is on the previous leaf p144R; the remaining seven are the 權少參事 七員 named above. NOTE: MASTER assigns these eight names to 德山藩, but they lie to the RIGHT of the ○德山藩 marker and are therefore Toyohashi's (previous-domain) officials — confirmed by p144R (○豐橋藩 + Toyohashi officials begin) and p145R (Tokuyama's real officials 大參事/權大參事/銃兵/砲兵 continue right of ○鳥羽藩)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豐橋藩職員姓名"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1705,2926,1007,601"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　貳小半隊　内　士官三十人　銃隊百五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊 二小半隊（内 士官三十人 銃隊百五十人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: two-and-a-half small companies; of which 30 officers and 150 riflemen — 180 men total (30+150=180)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豐橋藩兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1556,1262,112,1318"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲隊　一分隊　士官九人　砲隊十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲隊 一分隊（士官九人 砲隊十七人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: one platoon; 9 officers and 17 gunners — 26 men total (9+17=26). CORRECTION: MASTER records 士官19人 / total 36; the scan clearly reads 士官九人 (single 九, nine), giving a total of 26, not 36."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豐橋藩砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1425,1262,103,1160"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "樂隊　二小分隊　士官三人　喇叭十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "楽隊 二小分隊（士官三人 喇叭十七人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Band: one small platoon; 3 officers and 17 buglers — 20 men total (3+17=20). CORRECTION: MASTER reads the count-unit as 二小分隊; the scan's leading digit is a single stroke 一 (一小分隊). The person-total (20) is unaffected. No 但/内 header precedes this warichu (only 兵隊 carries 内)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豐橋藩樂隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1284,1264,108,1246"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○德山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○徳山藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker (circle + name + 藩) opening the Tokuyama-han (德山藩) entry. By the right-to-left rule, everything to its right on this page belongs to the previous domain (Toyohashi); Tokuyama's own councillors and troops continue on the next leaf p145R."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○德山藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1160,1350,96,560"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) — the first office heading of the Tokuyama-han entry. No governor's name is printed on this page; Tokuyama's officials (with names) continue on the next leaf p145R. This is the only Tokuyama datum on the page besides the marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "德山藩知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1040,1268,74,162"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第八（德山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第八（徳山）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (provenance): 'Hansei Ichiran, Fascicle 8 (Tokuyama)'. Fascicle 8 (第八) covers domain officials and military. The header names Tokuyama — the domain that opens on this leaf — even though the bulk of the page's data is Toyohashi's concluding entry (the provenance-vs-data mismatch typical of HI running headers)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁見出し藩制一覽表第八德山"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:918,1258,77,590"
+      }
+    }
+  },
+  {
+    "id": "anno-toyohashi_lower_p144_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百六十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百六十五"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number in the bottom margin: 265. Sits between p144R (264) and p145R (266)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "印刷頁番號二百六十五（德山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p144_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:918,3105,67,285"
+      }
+    }
+  }
+]
