@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-tako_lower_p187_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第八　（多古）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八冊（多古藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hanshin (版心) running head printed in small type down the outer fold margin: Domain Survey Tables, eighth fascicle — the officials-and-military register — Tako section. Provenance, not data. Re-measured by ink projection: title run y1269-1827 in one x band 2200-2255 (glyph run 藩制一覽表第八 at y1270-1618, parenthetical （多古） at y1678-1826); the proposal box encloses both flush with no clip. The parenthetical agrees with the ○多古藩 marker on the preceding leaf (lower p186 L, upper register, x1680-1773)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第八（多古）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2191,1259,75,578"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百五十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百五十（本書の頁番号）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the hanshin margin: 350. Each digit re-zoomed to single-character at 12x: 三 = three clean horizontals (2 merged strokes y3119-3143 plus a third y3151-3159), no vertical anywhere, so not 五 and not 二; 百; 五 with its top bar, vertical, Z-turn and closed bottom bar; 十 a plain cross whose vertical runs y3268-3316 with no slanted ノ on top, so not 千. Independently confirmed by sequence: the preceding leaf lower p186 L carries 三百四十九 (349) in the same margin position. Pagination, not survey data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号（三百五十）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2169,3110,68,216"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "礮手　七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "礮手（＝砲手・ほうしゅ）七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gunners (artillery crew): 7 men. The label glyph is NOT 破. It is the archaic form 礮 (= 砲, cannon). Proof, in three independent steps. (1) Same-sort identity: this glyph and the second glyph of 大礮 一門 on the preceding leaf (lower p186 L, x1158-1228, y1339-1400) are the same movable-type sort — normalised IoU 0.912, against a 0.505 control (the 手 immediately below it). That column reads 大[X] 一門, and 門 is the counter for artillery pieces, so [X] means cannon; MASTER itself already transcribes that same instance as 大砲. (2) Cross-volume: vol 1 fascicle 3 (upper p143 R, x1037-1103) records the same domain's military as 常備兵員 平章隊一小半隊 / 役人十二人 / 大[X]一門 / 役人三人 / [X]手七人, with the identical sort printed twice (IoU 0.876-0.910 against this glyph, versus 0.910 for that page's own two instances of the sort). (3) Direct disambiguation on lower p150 R (小濱 leaf, 大泉 block): the column 大[X]隊 四隊 (x1996-2060) is glossed by the adjacent column 但一隊砲四門 砲手二十四人 (x1862-1926), which prints the SIMPLE 砲 — so the complex sort is a variant of 砲, i.e. 礮 = artillery. Our glyph matches that page's complex sort at IoU 0.904 and its simple 砲 at only 0.678. The count reads 七人: 七 has the horizontal plus the right-turning hooked vertical (not 九); 人 has its two strokes touching at the apex (not 八). Structurally this column stands in the upper (military) register, rightmost on the leaf, continuing 多古藩's military from the preceding leaf, where the last data column left of the ○多古藩 marker is 役人 三人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "破手"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2054,1256,95,502"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Senior Councillor (dai-sanji), the top domain office under the 1869 reform, printed 參 in kyūjitai. Three glyph runs measured at y2358-2418 / 2440-2501 / 2524-2590 in x band 1908-1983. Two appointees follow, each in its own name column: Hara Sajima directly below this heading and Nomura Hayata one column to the left (the next heading, 權大參事, does not start until x1634)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事（多古）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1906,2349,89,251"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "原　左治馬"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "原 左治馬（はら さじま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, first of the two Senior Councillors (大参事): Hara Sajima. Four glyphs measured at y2944-3008 (原), then the standard HI roster blank, then y3201-3260 / 3329-3390 / 3460-3520 (左治馬). 左 verified against 右 by its 工 base."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 原左治馬"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1896,2934,89,597"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "野村隼太"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "野村 隼太（のむら はやた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, second of the two Senior Councillors (大参事): Nomura Hayata. Four glyph runs at y2950-3009 / 3117-3179 / 3286-3348 / 3456-3519. The final glyph carries the dot under the crossing, so 太 not 大."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 野村隼太"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1757,2940,93,590"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんのだいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Acting Senior Councillor (gon-no-dai-sanji), the deputy grade of the top office. Four glyph runs at y2355-2417 / 2441-2498 / 2521-2583 / 2606-2671. Four appointees follow before the next heading (少參事) begins at x1095: Ogura Hajime, Tsuji Yoya, Hattori Raisuke, Terai Jitarō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事（多古）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1634,2345,90,337"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小倉肇"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小倉 肇（おぐら はじめ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, first of the four Acting Senior Councillors (権大参事): Ogura Hajime. Three glyph runs at y2948-3005 / 3146-3212 / 3451-3515."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 小倉肇"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1623,2938,90,588"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "辻與彌"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "辻 與彌（つじ よや）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, second of the four Acting Senior Councillors (権大参事): Tsuji Yoya. Three glyph runs at y2948-3010 / 3252-3311 / 3454-3514. The middle glyph, zoomed to single-character at 11x, shows the 與 signature unmistakably: two flanking verticals each notched with three stacked white slits (the 臼 ticks), a 与 core of stacked horizontal bars in the centre, and at the foot a wide bar overhanging both sides with two splayed legs beneath. 奧 would show a closed 冂 box with a 釆/米 core and a 大 foot — none of that is present. MASTER's 辻奧彌 is wrong; the proposer's correction to 與 is confirmed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 辻與彌"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1486,2939,96,586"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "服部來助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "服部 來助（はっとり らいすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, third of the four Acting Senior Councillors (権大参事): Hattori Raisuke. Four glyph runs at y2942-3004 / 3115-3172 / 3280-3343 / 3451-3509. 來 is the kyūjitai of 来."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 服部來助"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1355,2932,89,588"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺井實太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺井 實太郎（てらい じつたろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, fourth of the four Acting Senior Councillors (権大参事): Terai Jitarō. Five glyph runs at y2946-3007 / 3075-3136 / 3201-3263 / 3327-3388 / 3456-3514. 實 is the kyūjitai of 実. A second Terai, Terai Keiji, appears in the leftmost column as an Acting Junior Councillor."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 寺井實太郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1220,2936,90,589"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Junior Councillor (shō-sanji), the third grade of domain office. Three glyph runs at y2348-2409 / 2433-2489 / 2514-2579. Three appointees follow before 權少參事 begins at x691: Hirano Keisuke, Takahashi Kan, Ōki Tadami."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事（多古）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1095,2338,89,252"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平野景介"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平野 景介（ひらの けいすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, first of the three Junior Councillors (少参事): Hirano Keisuke. Four glyph runs at y2937-2995 / 3108-3166 / 3274-3335 / 3443-3502."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 平野景介"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1082,2927,92,586"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高橋寛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高橋 寛（たかはし かん／ひろし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, second of the three Junior Councillors (少参事): Takahashi Kan. Three glyph runs at y2938-3002 / 3141-3205 / 3444-3505. The third glyph zoomed to single-character at 11x shows a 宀 crown with its apex dot and shoulders, a boxed 目 element with one white slit, and 儿 legs whose right member hooks upward — the 寛/寬 silhouette. The two forms cannot be separated at this inking level, so MASTER's 寛 is kept."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 高橋寛"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:944,2928,94,588"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大木但見"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大木 但見（おおき ただみ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, third of the three Junior Councillors (少参事): Ōki Tadami. Four glyph runs at y2942-3000 / 3106-3168 / 3281-3338 / 3447-3507."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 大木但見"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:815,2932,89,585"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんのしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Acting Junior Councillor (gon-no-shō-sanji), the lowest of the four councillor grades on this leaf. Four glyph runs at y2344-2407 / 2432-2491 / 2516-2572 / 2600-2659. Three appointees follow and they are the last columns on the leaf: Sekiya Kiemon, Namiki Kichibē, Terai Keiji."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事（多古）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:691,2334,90,336"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "關谷喜右衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "關谷 喜右衞門（せきや きえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, first of the three Acting Junior Councillors (権少参事): Sekiya Kiemon. Six glyph runs at y2933-2996 / 3040-3099 / 3139-3200 / 3242-3299 / 3342-3401 / 3446-3504. 關 is the kyūjitai of 関 and 衞 of 衛. The fourth glyph is 右 (the 丿 leads and the horizontal is short), not the koku unit 石."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 關谷喜右衞門"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:682,2923,88,592"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "竝木吉兵衞"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "竝木 吉兵衞（なみき きちべえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, second of the three Acting Junior Councillors (権少参事): Namiki Kichibē. Five glyph runs at y2938-2996 / 3062-3122 / 3191-3254 / 3318-3378 / 3445-3505. 竝 is the kyūjitai of 並."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 竝木吉兵衞"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:546,2928,91,588"
+      }
+    }
+  },
+  {
+    "id": "anno-tako_lower_p187_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺井啓治"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺井 啓治（てらい けいじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee name column, third of the three Acting Junior Councillors (権少参事) and the leftmost, therefore last-read, column on the leaf: Terai Keiji. Four glyph runs at y2942-3003 / 3111-3172 / 3280-3341 / 3447-3510. A second member of the same Terai house serves as Acting Senior Councillor (寺井實太郎)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "名 寺井啓治"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p187_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:418,2932,88,589"
+      }
+    }
+  }
+]

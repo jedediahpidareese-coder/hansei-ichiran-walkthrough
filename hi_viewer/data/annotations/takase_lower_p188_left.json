@@ -1,0 +1,212 @@
+[
+  {
+    "id": "anno-takase_lower_p188_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第八　（高瀨）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八（高瀬）／はんせいいちらんひょう だいはち（たかせ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han-sei Ichiran-hyō, Fascicle 8 (Takase) — outer-margin running header giving the survey title, the fascicle number, and the header-designated domain. Provenance only; it names the domain whose block this folio belongs to. Verified glyph by glyph at 3x: 藩制一覽表第八 runs y1233-1583, the parenthetical （高瀨） y1644-1793."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第八（高瀨）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:875,1223,81,580"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百五十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百五十三／さんびゃくごじゅうさん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page (folio) number 353, in the bottom of the outer margin. Verified at 3x: the fourth glyph is a plain cross 十 (no slanted top stroke), not 千, so the value is 353 and not 3053. The facing recto lower_p188_right carries 三百五十二 (352), confirming that page reads first. Ink measured x857-909, y3084-3328; box pads 10-11px on all four sides."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百五十三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:847,3074,73,265"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○高瀨藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○高瀬藩／たかせはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the Takase-domain entry. Columns to its LEFT are Takase's; the one column to its RIGHT (兵隊　不詳) belongs to the previous domain, 高富藩 (Takatomi). Printed in kyūjitai as 高瀨藩. Middle glyph checked at 8x and by counter analysis: the right-hand element carries two upper enclosed counters over three lower ones, i.e. 刀 above 貝 = 賴, so the printed form is 瀨 not 瀬 — consistent with the reprint's kyūjitai elsewhere on the page (覽, 覺, 衞, 彌, 參, 黑). Ink measured x2463-2557, y1334-1879; box pads 10-11px."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○高瀬藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2453,1324,115,566"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　不詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊 不詳／へいたい ふしょう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: not detailed (no figure returned). Takatomi's military line, not Takase's — it prints to the RIGHT of the ○高瀨藩 marker (兵隊 at x2617-2684 vs marker at x2463-2557), so by the boundary rule it closes the preceding entry. Verified against the facing recto lower_p188_right, which carries the running header 藩制一覽表第八（高富）, folio 三百五十二 (352), and whose leftmost four columns are Takatomi's own 大參事 二人 / 權大參事 一人 / 少參事 一人 / 權少參事 一人 with no military line — the standard vol2 fascicle-8 overflow, and the same pattern visible one domain earlier on that recto, where 第一小隊/第二小隊 print right of the ○高富藩 marker. MASTER files this row under 高瀬藩; the scan disagrees and the scan governs. MASTER's separate KEY_PATTERN = 不詳 row has no independent printed column and duplicates this value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊（高富藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2606,1241,89,421"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "執政　米野覺右衞門・黑澤　丹下・三友市郎右衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "執政 米野覚右衛門・黒沢丹下・三友市郎右衛門／しっせい こめのかくえもん・くろさわたんげ・みともいちろうえもん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shissei (chief executive councillors) — 3 men: Komeno Kakuemon, Kurosawa Tange, Mitomo Ichirōemon. The heading sits at the rightmost of the three name columns it governs, and the group runs leftward from there. Matches MASTER exactly. Ink measured x2043-2391, y2343-3507; box pads 8px all round, no overlap with any neighbour (nearest gap 30px to the 參政 box)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "執政"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2035,2335,364,1180"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "參政　大野　束・戸川忠右衞門・原　三右衞門・大槻彌左衞門・柴田　津司馬・平野岩之丞・西　市太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "参政 大野束・戸川忠右衛門・原三右衛門・大槻弥左衛門・柴田津司馬・平野岩之丞・西市太郎／さんせい おおのつか・とがわちゅうえもん・はらさんえもん・おおつきやざえもん・しばたつしま・ひらのいわのじょう・にしいちたろう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sansei (councillors) — 7 men: Ōno Tsuka, Togawa Chūemon, Hara San'emon, Ōtsuki Yazaemon, Shibata Tsushima, Hirano Iwanojō, Nishi Ichitarō. Heading printed with the formal 參. The eleven name columns sit on a uniform 133.8px pitch with no wider gap anywhere, so the grouping is set solely by heading position: label centres are 2358 / 1964 / 1020 against name-column centres 2342.5 (R1) / 1944.5 (R4) / 1004 (R11), a constant +15 to +20px offset, and each heading therefore opens at its rightmost name and runs leftward to the next heading. The same rule is verified on the facing recto, where 權少參事 (centre 1529) opens at 高橋文平 (centre 1521, +8) and governs 高橋・奧田・乙幡 before 公用人 (centre 1139) opens at 松下健治 (centre 1125.5, +13.5). Under that rule 參政 begins at 大野束 and ends at 西市太郎. Third glyph of the first name confirmed as 束 not 東 by counter analysis: exactly two enclosed white counters side by side at y3462-3474, i.e. 口 crossed by the 木 stem; 東 would give four in two rows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "参政"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1095,2334,910,1173"
+      }
+    }
+  },
+  {
+    "id": "anno-takase_lower_p188_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "公議人　笠間英之進"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "公議人 笠間英之進／こうぎにん かさまえいのしん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōgijin (the domain's delegate to the Kōgisho, the 1869 public deliberative assembly) — 1 man: Kasama Einoshin. The heading (centre x1020) aligns with the eleventh and leftmost name column (centre x1004), not with 柴田津司馬 at centre x1406.5, so the office takes a single name — also the expected number, one delegate per domain. Ink measured x969-1052, y2320-3487; box pads 7-8px, 35px clear of the 參政 box on the right and 4px clear of the header box on the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "公議人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:961,2312,99,1183"
+      }
+    }
+  }
+]
