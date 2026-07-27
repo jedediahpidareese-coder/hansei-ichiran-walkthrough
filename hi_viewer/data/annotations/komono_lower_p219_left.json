@@ -1,0 +1,662 @@
+[
+  {
+    "id": "anno-komono_lower_p219_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事 三人／しょうさんじ さんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillors: 3 persons. Rightmost column on the folio and therefore read first; it stands to the right of the ○菰野藩 marker at x2204, so it closes the officials list of the preceding domain, Kōizumi, whose block began on an earlier folio. Ink measured x2615-2689, y999-1545 (heading y999-1225, figure 三人 y1401-1545)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小泉少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2605,989,94,566"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　二小隊　百一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊 二小隊 百一人／へいたい にしょうたい ひゃくいちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 2 platoons, 101 men. Kōizumi's military line, printed after its officials and overflowing to the right of the next domain's marker — the standard fascicle-8/9 arrangement, so it belongs to the previous domain and not to Komono. The heading 兵隊 sits in its own narrow column at x2488-2555 (y1159-1307), with the detail 二小隊 (y1000-1223) 百一人 (y1329-1557) in the column to its left at x2352-2430; the box encloses both. MASTER records 兵隊 二小隊百一人 = 101 persons for 小泉藩 on this page, which is what the scan shows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小泉兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2342,990,223,577"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○菰野藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "菰野藩／こものはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Komono domain (Ise province, the Hijikata house). Measured within x2204-2297: the circle runs y1332-1408, 菰 y1438-1520, 野 y1618-1698, 藩 y1792-1877. This is the only maru-marker on the folio — a sweep of every ink column on the page found no second circle. Everything to the right of this column belongs to Kōizumi; everything to its left, through to the outer margin, is Komono's return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○菰野藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2194,1322,113,565"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事 一人／ちじ いちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain governor (han-chiji): 1 person. No name is printed for the post — an ink projection over the two name registers finds no column beneath x2074-2171 in either row, so the governor is counted here but left unnamed, unlike the eleven councillors below. Ink x2084-2161, y994-1557 (heading y994-1142, figure 一人 y1435-1557)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2074,984,97,583"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事　二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事 二人／だいさんじ ににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillors: 2 persons. The two men are named in the column directly below this heading — 土方彦三郎 in the upper register and 桑原鐵齋 in the lower — which reconciles the figure exactly. Ink x1951-2023, y996-1558."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1941,986,92,582"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事　三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事 三人／ごんだいさんじ さんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillors: 3 persons. The count is confirmed by the roster: 內藤彌學 and 高槻俊平 fill this heading's own name column, and the third man, 太田省吾, runs over into the next column to the left, which carries a single name and no heading of its own. Ink x1812-1882, y993-1559."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野權大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1802,983,90,586"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事　（四人）二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事 （四人）二人／しょうさんじ （よにん）ににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillors: four. The column prints the figure 二人 (two persons) at x1548-1614, and a parenthesised （四人） — four persons — is set beside it at x1616-1665 in smaller type, about 50 px wide against the main line's 67 px, raised slightly and pushed into the gutter to the right of the value column in the manner of a marginal correction. Four is the operative figure: the roster below gives four junior councillors (羽田紀一郎 and 宇佐美淳藏 in this heading's own name column, 河村小藤治 and 阿川次郎 in the headingless column that continues it to the left), and the remaining two names belong to the 權少參事 column further left. The parenthesis is the same vertical arc form used for （菰野） in the running header, so it is printed rather than a scanning artefact. Ink x1548-1665, y996-1573."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1538,986,137,597"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事／ごんしょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillors. No figure is printed: an ink projection over x1230-1420, y1350-1900 — the value band for this column and the paper on either side of it — returns no ink at all, so the count really is absent from the page rather than faint or cropped. Two men are named beneath the heading, 宇佐美久右衞門 in the upper register and 河村忠藏 in the lower, and nothing lies further left in the name band; but since the page prints no number, the parsed value is left empty rather than supplied from the roster. Ink x1284-1356, y997-1312 (four glyphs)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1274,987,92,335"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　二小隊　一小隊四十八人　役員八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊 二小隊 一小隊四十八人 役員八人／へいたい にしょうたい いっしょうたい しじゅうはちにん やくいん はちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 2 platoons, each platoon of 48 men — 96 men in all — with 8 officers additional. The heading 兵隊 occupies its own column at x1150-1219 (y1167-1311); the detail runs in the column to its left at x1017-1086, with 二小隊 in full-size type (y1007-1229) and the gloss 一小隊四十八人 (y1269-1708) and 役員八人 (y1801-2050) in smaller type below. The box encloses heading and detail together. MASTER records this as 兵隊 二小隊(48) = 96 persons, its (48) being a compression of the printed gloss 一小隊四十八人; the platoon arithmetic 2 x 48 = 96 agrees, and the 8 officers are recorded separately by the source rather than folded into that total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "菰野兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1007,997,222,1063"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "土方彦三郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "土方彦三郎／ひじかた ひこさぶろう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hijikata Hikosaburō, one of Komono's two senior councillors (大參事). His column, centred at x1975, lies 14 px left of the 大參事 heading centred at x1989, the standard offset between a heading and the names beneath it on these folios. Hijikata is the domain's own daimyo surname. Ink x1941-2010, y2001-2569."
+      },
+      {
+        "purpose": "identifying",
+        "value": "土方彦三郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1931,1991,89,588"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內藤彌學"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内藤弥学／ないとう やがく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Naitō Yagaku, one of Komono's three acting senior councillors (權大參事); his column at centre x1834 sits under the 權大參事 heading at x1847. Ink x1800-1868, y2002-2570."
+      },
+      {
+        "purpose": "identifying",
+        "value": "內藤彌學"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1790,1992,88,588"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "太田省吾"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "太田省吾／おおた しょうご"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ōta Shōgo, the third of Komono's three acting senior councillors (權大參事). His column, centre x1708, carries no heading of its own and no second name below it: it is the overflow column into which the 權大參事 group runs after filling its own column with two names, which is exactly what the printed figure 三人 requires. Ink x1673-1743, y2002-2571."
+      },
+      {
+        "purpose": "identifying",
+        "value": "太田省吾"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1663,1992,90,589"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "羽田紀一郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "羽田紀一郎／はた きいちろう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hata Kiichirō, one of Komono's four junior councillors (少參事); his column at centre x1573 sits under the 少參事 heading at x1587. Ink x1541-1605, y2005-2574."
+      },
+      {
+        "purpose": "identifying",
+        "value": "羽田紀一郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1531,1995,84,589"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "河村小藤治"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "河村小藤治／かわむら ことうじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kawamura Kotōji, one of Komono's four junior councillors (少參事). His column, centre x1447, carries no heading of its own; it is the overflow column continuing the 少參事 group leftward, and it holds a name in both registers. Ink x1413-1481, y2002-2570."
+      },
+      {
+        "purpose": "identifying",
+        "value": "河村小藤治"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1403,1992,88,588"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "宇佐美久右衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "宇佐美久右衛門／うさみ きゅうえもん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Usami Kyūemon, one of Komono's two acting junior councillors (權少參事); his column at centre x1310 sits under the 權少參事 heading at x1320. Seven glyphs are compressed into the same 570-px column height the shorter names occupy. The sixth glyph was checked at 3.2x and is the kyūjitai 衞 (韋 inside 行), not 衛. Ink x1274-1347, y2005-2575."
+      },
+      {
+        "purpose": "identifying",
+        "value": "宇佐美久右衞門"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1264,1995,93,590"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "桑原鐵齋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "桑原鉄斎／くわばら てっさい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kuwahara Tessai, the second of Komono's two senior councillors (大參事), printed in the lower name register of the same column as 土方彦三郎. The final glyph was checked at 3.2x and is 齋 (示 within the 齊 frame), not 齊. Ink x1934-2003, y2927-3494."
+      },
+      {
+        "purpose": "identifying",
+        "value": "桑原鐵齋"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1924,2917,89,587"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高槻俊平"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高槻俊平／たかつき しゅんぺい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Takatsuki Shunpei, one of Komono's three acting senior councillors (權大參事), in the lower register of the same column as 內藤彌學. Ink x1794-1864, y2929-3496."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高槻俊平"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1784,2919,90,587"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "宇佐美淳藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "宇佐美淳蔵／うさみ じゅんぞう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Usami Junzō, one of Komono's four junior councillors (少參事), in the lower register of the same column as 羽田紀一郎. Ink x1534-1600, y2932-3502."
+      },
+      {
+        "purpose": "identifying",
+        "value": "宇佐美淳藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,2922,86,590"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "阿川次郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "阿川次郎／あがわ じろう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Agawa Jirō, one of Komono's four junior councillors (少參事), in the lower register of the headingless overflow column that continues the 少參事 group. Ink x1408-1474, y2930-3499."
+      },
+      {
+        "purpose": "identifying",
+        "value": "阿川次郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1398,2920,86,589"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "河村忠藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "河村忠蔵／かわむら ちゅうぞう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kawamura Chūzō, the second of Komono's two acting junior councillors (權少參事), in the lower register of the same column as 宇佐美久右衞門. This is the leftmost name on the folio: the lower register holds no ink at all left of x1271, and the only ink further left in the upper register is the tail of Komono's military column (役員八人, x1017-1086), which is not a name. Ink x1271-1340, y2934-3505."
+      },
+      {
+        "purpose": "identifying",
+        "value": "河村忠藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1261,2924,89,591"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九　（菰野）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九（菰野）／はんせいいちらんひょう だいきゅう（こもの）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han-sei Ichiran-hyō, Fascicle 9 (Komono) — the outer-margin running header, giving the survey title, the fascicle number and the header-designated domain. Provenance only, not data. Here it names Komono, the domain whose block occupies most of the folio, and fascicle 9 is the officials-and-troops fascicle, which matches the content. Verified at 2.6x: 藩制一覽表第九 runs y1255-1608 and the parenthetical （菰野） y1664-1814, all within x899-953."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第九（菰野）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:889,1245,74,579"
+      }
+    }
+  },
+  {
+    "id": "anno-komono_lower_p219_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百十五／よんひゃくじゅうご"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page (folio) number 415, low in the outer margin, in the same narrow strip as the running header. Checked at 3x: the third glyph is a plain cross 十 with no slanted top stroke, so the value is 415 and not 4005. Ink x893-943, y3100-3295."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四百十五"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p219_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:883,3090,70,215"
+      }
+    }
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "id": "anno-funai_lower_p216_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九（福知山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九冊（福知山）— 版面右端の柱書（はんせいいちらんひょう だいきゅうさつ・ふくちやま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running page-header in the outer (right) margin: Domain Survey Table, ninth fascicle (Fukuchiyama). The nine 藩制一覽表 fascicles are numbered registers, not data themes; fascicles 8-9 carry officials and military strength. The header names Fukuchiyama because Fukuchiyama's entry STARTS on this leaf at the ○福知山藩 marker, but the officials and troop figures printed to the right of that marker are the preceding domain's (Funai). Provenance, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱藩制一覽表第九福知山"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2134,1257,77,631"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百八（408）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed folio number 408 in the outer margin, set 四 / 百 / 八 stacked. Read at 6x: the final glyph is 八 (two strokes clearly separate at the top and splaying outward), not 人 and not 入. The figure checks out against the neighbouring leaves already in the viewer: lower_p214_right carries 四百四 (404), so 404-405 are the two halves of p214, 406-407 those of p215, and 408 is this recto. Page furniture, not survey data — it belongs to the leaf rather than to either domain printed on it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付四百八"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2116,3105,65,160"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事 三人 マヽ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）三人 — 数字の右に小書きで「マヽ」（原文のまま、の注記）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (sho-sanji) -- 3 persons. Belongs to the PRECEDING domain, Funai, whose entry is closing on this leaf; its earlier ranks (知事, 大參事, 權大參事) printed on the previous page. The two small marks to the right of the numeral are not stray ink and not bleed-through: they are the compilers' half-size sic note マヽ (ma-ma, 'thus in the original'). The upper mark is a wedge-shaped マ with a flat top narrowing to a point, the lower a comma-shaped ヽ; they print at half type size and match, stroke for stroke, the （マヽ）note set beside 大參事 一人 on lower_p201_right. The compilers flagged the figure because only two appointees are named beneath this heading, Ota Soma over Nakamura Seia. In this fascicle a rank's roster fills its own columns two names to a column and the next rank's heading opens a fresh column, so the third junior councillor is simply not printed here; he does not run on into the 權少參事 column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "府内少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2003,1006,114,583"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillor (gon-sho-sanji), preceding domain (Funai). No numeral prints beneath this heading: the count band at x1870-1975, y1350-1650 holds zero pixels darker than 120, checked by projection. Five names occupy the three columns running leftward from this heading (Takeda Goroemon, Yoshida Shinobu, Kamiya Shikiemon, Masuda Shintaro, Nakamura Ichiemon), so the effective strength is five. All five belong to this rank: the heading sits directly over the first column of its own group, which is how the fascicle marks a rank boundary, so none of them counts against the 三人 printed one column to the right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "府内權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1875,1005,88,333"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "太田相馬／中村井蛙"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "太田相馬（おおた そうま）／中村井蛙（なかむら せいあ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "First appointee column under 少參事: Ota Soma in the upper register over Nakamura Seia in the lower. Preceding domain (Funai). The second element of the lower name is 蛙 (insect radical plus 圭), a literary sobriquet rather than an ordinary given name; readings of both names are tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "太田相馬中村井蛙"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1978,2011,99,1509"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "竹田五郎右衞門／吉田忍"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "竹田五郎右衛門（たけだ ごろうえもん）／吉田忍（よしだ しのぶ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Name column standing under the 權少參事 heading: Takeda Goroemon in the upper register over Yoshida Shinobu in the lower. Preceding domain (Funai). Both are provisional junior councillors. The heading stands at the head of this column, and in this fascicle a rank's roster begins at the column its heading sits above, so neither name counts against the 三人 recorded for 少參事 in the column to the right — that shortfall is what the printed マヽ beside the numeral flags."
+      },
+      {
+        "purpose": "identifying",
+        "value": "竹田五郎右衞門吉田忍"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1846,2014,101,1507"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神屋式右衞門／益田新太郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神屋式右衛門（かみや しきえもん）／益田新太郎（ますだ しんたろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second name column of the 權少參事 group: Kamiya Shikiemon in the upper register over Masuda Shintaro in the lower. Preceding domain (Funai). Readings tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神屋式右衞門益田新太郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1713,2008,103,1513"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "中村市右衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "中村市右衛門（なかむら いちえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Last name column of the Funai roster: Nakamura Ichiemon. The upper register only -- the lower register of this column is blank, which is what closes the domain's list of officials at seven names. Reading tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "中村市右衞門"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1594,2012,85,582"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Section heading for troops, set lower than the entry columns in the fascicle-9 convention. It governs the two entries in the column to its left. Preceding domain (Funai): in fascicles 8-9 a domain's military prints AFTER its officials and here it still falls to the right of the ○福知山藩 marker, so it belongs to Funai, not to Fukuchiyama."
+      },
+      {
+        "purpose": "identifying",
+        "value": "府内兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1481,1170,80,163"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族兵隊 二百二十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族兵隊（しぞくへいたい）二百二十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops raised from the shizoku (the former samurai stratum) -- 221 men. Each numeral was re-zoomed character by character: 二 / 百 / 二 / 十 / 壹 / 人, with 十 a plain cross (not 千, which would multiply the figure by ten) and 壹 the formal form of 1. Preceding domain (Funai). Matches MASTER's 士族兵221 for this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "府内士族兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1340,1003,92,914"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族兵隊 百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族兵隊（そつぞくへいたい）百四十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops raised from the sotsu (the lower retainer stratum abolished in 1872) -- 145 men. Read 百 / 四 / 十 / 五 / 人 at high magnification; the fourth glyph is 五, not 三. Preceding domain (Funai). With the 221 shizoku troops above, Funai's total force is 366, which is the figure MASTER carries as the parsed 兵隊 total for this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "府内卒族兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1324,2094,93,838"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○福知山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○福知山藩（ふくちやまはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-boundary marker: an open circle followed by 福 / 知 / 山 / 藩. This starts the Fukuchiyama entry. Everything to its right was read first and closes the preceding domain (Funai); everything to its left is Fukuchiyama's. Fukuchiyama was a 32,000-koku Tanba domain held by the Kutsuki; its troop figures print on the facing leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山藩丸印"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1193,1338,109,601"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（藩）知事（ちはんじ）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain governor (chihanji) -- 1 person. This is the office created in 1869 when the daimyo surrendered their registers and were reappointed as imperial officials over their own former domains. No name prints in the register below this heading; the name columns on this leaf begin one column to the left, under 大參事."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1078,1002,86,576"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事 人員未詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）人員未詳（じんいん みしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior Councillor (dai-sanji). In place of a count the return prints the two-column warichu note 人員未詳, 'number of personnel not known' -- 人員 in the right half-column, 未詳 in the left. Fukuchiyama therefore reported names but not strengths for its councillor grades. Three officers stand under this heading and the untitled column beside it: Shimizu Yasuzaemon, Nakanome Gonbee and Nakano Shigeaki."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:921,1002,119,568"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事 同上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）同上（どうじょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Senior Councillor (gon-dai-sanji), with the count given as 同上, 'the same as above' -- that is, also unrecorded, carrying forward the 人員未詳 of the 大參事 line. One officer, Kondo Danzo, stands in the column below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山權大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:672,999,88,582"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事 同上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）同上（どうじょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor (sho-sanji), count again 同上 and so unrecorded. Two officers stand in the column below, Hattori Daisuke over Saito Tsutomu. Distinguished from Funai's 少參事 heading on the right half of the same leaf, which does carry a figure (three persons)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:538,1001,86,584"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provisional Junior Councillor (gon-sho-sanji), the last and leftmost heading on this leaf. Unlike the three headings to its right it carries no 同上 and no figure at all -- the count band beneath it is blank. Two officers stand below, Sakakibara Kiso over Iida Takaaki, so the effective strength is two."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福知山權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:405,998,85,335"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "清水安左衞門／中目權兵衞"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "清水安左衛門（しみず やすざえもん）／中目権兵衛（なかのめ ごんべえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "First appointee column under 大參事: Shimizu Yasuzaemon in the upper register over Nakanome Gonbee in the lower. Fukuchiyama. Readings tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "清水安左衞門中目權兵衞（福知山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:910,2007,104,1516"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "中野重明"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "中野重明（なかの しげあき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nakano Shigeaki, upper register only; the lower register of this column is blank. The column carries no heading of its own, so by the fascicle-9 convention it continues the 大參事 group begun in the column to its right, making three senior councillors in all. Reading tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "中野重明（福知山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:794,2010,82,580"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "近藤團藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "近藤団蔵（こんどう だんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kondo Danzo, upper register only, standing directly under the 權大參事 heading -- the domain's single provisional senior councillor. Reading tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "近藤團藏（福知山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:661,2010,85,584"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "服部大助／齋藤務"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "服部大助（はっとり だいすけ）／斎藤務（さいとう つとむ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Name column under the 少參事 heading: Hattori Daisuke in the upper register over Saito Tsutomu in the lower -- the domain's two junior councillors. An isolated 8x7 pixel speck sits 28 rows above the first glyph and is excluded from this box. Readings tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "服部大助齋藤務（福知山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:513,2017,97,1503"
+      }
+    }
+  },
+  {
+    "id": "anno-funai_lower_p216_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "榊原競／飯田高明"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "榊原競（さかきばら きそう）／飯田高明（いいだ たかあき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Leftmost name column, under the 權少參事 heading: Sakakibara Kiso in the upper register over Iida Takaaki in the lower. The third glyph of the upper name is 競, two 竟 elements side by side beneath a single lid -- checked at 7x and NOT 鏡. Readings tentative."
+      },
+      {
+        "purpose": "identifying",
+        "value": "榊原競飯田高明（福知山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p216_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:381,2015,96,1502"
+      }
+    }
+  }
+]

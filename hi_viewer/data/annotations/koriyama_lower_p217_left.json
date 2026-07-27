@@ -1,0 +1,362 @@
+[
+  {
+    "id": "anno-koriyama_lower_p217_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事　堀內爲太郎・堀江幾左衞門・片山新三郎・三神格之進・早川最右衞門・岡山半左衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事　堀内為太郎・堀江幾左衛門・片山新三郎・三神格之進・早川最右衛門・岡山半左衛門／ごんしょうさんじ　ほりうち ためたろう・ほりえ いくざえもん・かたやま しんざぶろう・みかみ かくのしん・はやかわ もうえもん・おかやま はんざえもん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillors (gon-shōsanji) of Fukiage domain: Horiuchi Tametarō, Horie Ikuzaemon, Katayama Shinzaburō, Mikami Kakunoshin, Hayakawa Mouemon and Okayama Hanzaemon. The office heading 權少參事 prints once, at the top of the rightmost column (x2531-2601, y1016-1331); the two columns to its left carry no heading of their own and continue the same office. Each of the three columns holds two names, an upper register (y~2021-2595) and a lower one (y~2951-3518); within a column the upper name is read before the lower, and one then moves left. The third glyph of the last name was cropped to a single character at 9x: two splayed dots sit over two horizontal strokes with the vertical driven through, which gives 半 and not 牛. These columns stand to the right of the ○郡山藩 marker and so belong to the preceding domain. The facing recto, lower_p217_right (printed page 四百十, running header 藩制一覽表第九（吹上）), carries the ○吹上藩 marker with Fukiage's 知事一人, 大參事一人, 權大參事四人 and 少參事四人, and its name columns run to the left edge of that leaf, so 權少參事 is the grade that continues here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "吹上藩權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2251,1007,360,2522"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　二小隊　百二十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊　二小隊　百二十九人／へいたい　にしょうたい　ひゃくにじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops of Fukiage domain: two platoons, 129 men. The field label 兵隊 sits in its own column (x2133-2202, y1187-1333), one glyph lower than the heading line, and the value runs in the column immediately to its left (x1998-2069, y1030-1753). 十 is a plain cross with no slanted stroke on top, so the count is 129 and not 1029; the final glyph's strokes meet at the apex, giving 人 rather than 八 or 入. Standing to the right of the ○郡山藩 marker, this is Fukiage's military line, printed after its officials in the fascicle-9 manner."
+      },
+      {
+        "purpose": "identifying",
+        "value": "吹上藩兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1988,1020,224,744"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○郡山藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○郡山藩／こおりやまはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Kōriyama domain (Yamato province; Yanagisawa house). Read at 3x: circle y1357-1434, 郡 y1467-1549, 山 y1644-1723, 藩 y1817-1900. Columns to its left are Kōriyama's; the five columns to its right — the 權少參事 roster and the 兵隊 二小隊百二十九人 line — belong to the previous domain, 吹上藩, whose own marker stands on the facing recto. This is the only maru-marker on the folio."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○郡山藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1840,1347,109,564"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事　柳澤"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事　柳沢／ちじ　やなぎさわ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chiji) of Kōriyama: Yanagisawa. The heading 知事 occupies y1024-1171 and the name y2030-2178. Only two glyphs are printed and both were checked at 3.5x — the surname alone, with no personal name. The han governorship was the office created when the daimyo surrendered their domain registers in the 1869 hanseki hōkan (版籍奉還) settlement, and at Kōriyama the last daimyo, Yanagisawa Yasunobu, was the holder."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1716,1014,91,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事　新田三郎（義雄）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事　新田三郎（義雄）／だいさんじ　にった さぶろう（よしお）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor (daisanji) of Kōriyama: Nitta Saburō, personal name Yoshio. The heading 大參事 runs y1024-1253 and the name register y2029-2752. The bracketed 義雄 is printed in smaller type inside round brackets, stacked in the same single column below 郎 rather than split into two half-width lines, and was read at 2.6x to confirm 義 above 雄. Only one holder is printed for this grade."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1584,1014,93,1748"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事　安元彦助（司直）・茂木亨左衞門（道一）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事　安元彦助（司直）・茂木亨左衛門（道一）／ごんだいさんじ　やすもと ひこすけ（しなお）・もてぎ きょうざえもん（みちかず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillors (gon-daisanji) of Kōriyama: Yasumoto Hikosuke, personal name Shinao, and Motegi Kyōzaemon, personal name Michikazu. The heading 權大參事 runs y1023-1339; the upper name register holds 安元彦助（司直）at y2035-2754 and the lower register 茂木亨左衞門（道一）at y2960-3683, both in the same column. Each bracketed personal name is printed in smaller type inside round brackets within that single column, not split into two half-width lines. 亨 was cropped to a single character at 7x and shows the bare 了 hook at the foot, so it is 亨 and not 享."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩權大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1451,1013,92,2680"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事　平岡宇右衞門（留守官届ニ内田成之ト爲シ平岡ナシ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事　平岡宇右衛門（留守官届に内田成之とし平岡なし）／しょうさんじ　ひらおか うえもん（るすかんとどけに うちだ なりゆきとし ひらおかなし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor (shōsanji) of Kōriyama: Hiraoka Uemon, followed by a compilers' note. The heading 少參事 runs y1025-1254 and the name y2047-2615. The note is a true two-line warichu: the right half-line reads 留守官届ニ and the left half-line 内田成之ト爲シ平岡ナシ — the return filed through the Rusukan (the custodial office) gives Uchida Nariyuki in this place and carries no Hiraoka. It is an editorial flag of a discrepancy between the returns the compilers held, not a datum about the domain. The column measures 105 px across only because the second half-line sits to the left of the main glyph run."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1292,1015,127,2519"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事　野口左織・青木益義"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事　野口左織・青木益義／ごんしょうさんじ　のぐち さおり・あおき ますよし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillors (gon-shōsanji) of Kōriyama: Noguchi Saori and Aoki Masuyoshi. The heading 權少參事 runs y1027-1340; the upper name register holds 野口左織 at y2049-2613 and the lower register 青木益義 at y2967-3537, both in the same column. Fukiage's roster on the right of this folio carries the same office title, so the two are distinguished here by domain prefix. The given-name readings are conjectural; the page prints kanji only."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1171,1017,97,2530"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　士族兵隊　八百八拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊　士族兵隊　八百八十九人／へいたい　しぞくへいたい　はっぴゃくはちじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōriyama's troops drawn from the shizoku (former samurai) class: 889 men. The column label 兵隊 stands in its own column at x1054-1120, y1198-1345 and is enclosed with this, the first of the two status sub-counts; the sub-label 士族兵隊 runs y1030-1342 and the figure 八百八拾九人 y1452-1927 in the column to its left. The numeral uses the formal 拾 for ten, and both 八 glyphs were checked for the top lid that would make them 六 — neither has one, so the reading is 889. Together with the 472 sotsu troops immediately below, this gives the 1,361-man total the project dataset records for the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩士族兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:910,1020,220,917"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族兵隊　四百七拾二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族兵隊　四百七十二人／そつぞくへいたい　よんひゃくななじゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōriyama's troops drawn from the sotsu (lower retainer) class: 472 men. The sub-label 卒族兵隊 runs y2037-2353 and the figure 四百七拾二人 y2462-2942, continuing the same column as the shizoku count above. 七 was distinguished from 九 at high magnification (a plain horizontal with a single hooked vertical, no left descender), and 拾 is the formal ten. 889 shizoku + 472 sotsu = 1,361, which reconciles exactly with the domain total in the project dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡山藩卒族兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:906,2027,89,926"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九　（郡山）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九（郡山）／はんせいいちらんひょう だいきゅう（こおりやま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han-sei Ichiran-hyō, Fascicle 9 (Kōriyama) — the running header in the outer (left) margin, giving the survey title, the fascicle number and the header-designated domain. This is provenance only: fascicle 9 is the numbered ninth fascicle of the Dajōkan survey, carrying officials and military, and the parenthetical names the domain whose block the folio principally belongs to. The facing recto carries the same header with （吹上）."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第九（郡山）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:795,1273,74,581"
+      }
+    }
+  },
+  {
+    "id": "anno-koriyama_lower_p217_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百十一／よんひゃくじゅういち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page (folio) number 411, set in the bottom of the outer margin. Cropped to a single character at 10x: the third glyph is a plain cross 十 with the vertical passing straight through and no slanted stroke on top, so the value is 411 and not 4011. The facing recto is numbered 四百十. This is page furniture, not domain data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四百十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p217_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:792,3119,72,199"
+      }
+    }
+  }
+]
