@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-asada_lower_p225_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第九（麻田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第九（麻田）（はんせいいちらんひょう だいきゅう・あさだ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head: Table of Domain Systems, fascicle 9 (Asada). This line is provenance, naming the fascicle and the domain whose block the leaf belongs to. It can name a different domain from part of the data printed on the page, as it does here, where the three right-hand columns still carry Annaka's material."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱書藩制一覽表第九"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1228,72,588"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事　貳員（以下名姓不詳）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事　二員（以下名姓不詳）（しょうさんじ にいん・いか めいせい ふしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillors: two members. The parenthesised note, set as a two-sub-column warichu (right sub-column 以下名姓, left sub-column 不詳), records that the given names and surnames of the officials listed from here on are not known. This column stands to the right of the ○麻田藩 marker, so it belongs to Annaka Domain, and it explains why Annaka's name register is empty on this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "安中藩少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1993,1229,123,945"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權少參事　四員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事　四員（ごんしょうさんじ よんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting junior councillors: four members. Also to the right of the ○麻田藩 marker, so this belongs to Annaka Domain. No names are given, the preceding note having declared them unknown."
+      },
+      {
+        "purpose": "identifying",
+        "value": "安中藩權少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1876,1230,88,588"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　三小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊　三小隊（へいたい さんしょうたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: three platoons. This is the last column of Annaka Domain's return; in fascicles 8 and 9 the military prints after the officials and, as here, can run past the next domain's marker. The return gives no strength per platoon for Annaka."
+      },
+      {
+        "purpose": "identifying",
+        "value": "安中藩兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1746,1232,93,418"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○麻田　藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○麻田藩（あさだはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Asada Domain, a small Settsu holding of the Aoki house. The circle plus domain name plus 藩 marks the start of the domain's block: everything printed to its right was read earlier and belongs to Annaka, everything to its left belongs to Asada."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩マル標"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1601,1317,112,560"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）＝知藩事"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor (chihanji), the office heading that opens Asada's roster. The name register below this column is blank, so the return supplies no name against the office. The same thing happens in Annaka's roster on the facing leaf, so a blank here is a feature of the form rather than a gap in the scan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1482,1227,86,170"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior councillor. The name in the register directly below this column, Seki Kingo, is the holder. Asada's headings, unlike Annaka's, print no 員 count, so the number of holders has to be read off the name register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1349,1229,88,251"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "權大參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting senior councillor. Two names stand under this heading: Fukui Daizō directly below it, and Muraoka Shirō one column further left, that column having no heading of its own."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩權大參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1211,1227,89,338"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少參事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior councillor. Four names run leftward from this heading with no further heading intervening: Toda Tetsuya, Aoki Kuhachirō, Morimoto Rokuzō and Iwata Keizō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩少參事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:947,1228,86,250"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "「權少參事　戸田鐵彌　巳十二月屆」"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "「権少参事　戸田鉄弥　巳十二月届」（ごんしょうさんじ とだ てつや・みどし じゅうにがつ とどけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bracketed insert in the upper register, three small runs read right to left: office, name, and the return that reports it. It records that in the return of the 12th month of the snake year (Meiji 2/12, early 1870) Toda Tetsuya holds the post of acting junior councillor, whereas the main table lists him among the junior councillors. The square brackets mark it as an amendment carried into the compiled table rather than part of the original return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "權少參事戸田鐵彌屆書"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:630,1013,192,613"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一小隊六十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一小隊六十人（いっしょうたい ろくじゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: one platoon, sixty men. This is the leftmost and therefore last column of Asada Domain's entry, and it is the only per-platoon strength printed on the leaf. The final glyph is 人, not 八: its two strokes merge at the apex for the first twenty-four pixels, whereas the 八 in the name Aoki Kuhachirō lower on the page shows two separated stroke groups from its first inked row."
+      },
+      {
+        "purpose": "identifying",
+        "value": "麻田藩兵隊一小隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:412,1246,87,478"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "關謹吾"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "関謹吾（せき きんご）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Seki Kingo, senior councillor (daisanji) of Asada Domain. His name sits in the name register directly below the 大參事 heading. The column carries only three glyphs, so they are spaced out to fill the same slot as the four-glyph names beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "關謹吾"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1330,2535,88,591"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "福井大造"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "福井大造（ふくい だいぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Fukui Daizō, acting senior councillor (gon-daisanji) of Asada Domain, printed directly below the 權大參事 heading. A small-type note hangs beneath his name questioning whether he still held the post."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福井大造"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1196,2530,90,574"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "巳十二月屆（一ニ田村春馬　福井ナシ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "巳十二月届（一に田村春馬　福井なし）（みどし じゅうにがつ とどけ・いつに たむら はるま・ふくい なし）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type note under Fukui Daizō's name, set as three short runs. In the return of the 12th month of the snake year (Meiji 2/12, early 1870) this post is given as Tamura Haruma, and Fukui does not appear at all. The date tag stands in the rightmost run and is therefore read first; the parenthesis opens at the head of the middle run and closes at the foot of the leftmost. It is the second of the two amendments on this leaf drawn from the same 12th-month return, the other being the bracketed insert in the upper register about Toda Tetsuya."
+      },
+      {
+        "purpose": "identifying",
+        "value": "福井大造割註"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1143,3105,170,574"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村岡四郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村岡四郎（むらおか しろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Muraoka Shirō, the second acting senior councillor (gon-daisanji) of Asada Domain. His column carries no heading of its own in the upper register, so he continues the run opened by 權大參事 one column to the right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村岡四郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1060,2539,83,588"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸田鐵彌"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸田鉄弥（とだ てつや）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Toda Tetsuya, junior councillor (shōsanji) of Asada Domain, printed directly below the 少參事 heading. The bracketed insert in the upper register to the left of this column reassigns him to acting junior councillor on the authority of the 12th-month return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸田鐵彌"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:927,2539,86,588"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "靑木九八郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "青木九八郎（あおき くはちろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Aoki Kuhachirō, junior councillor of Asada Domain, second in the run leftward from the 少參事 heading. Aoki was also the surname of the domain's ruling house."
+      },
+      {
+        "purpose": "identifying",
+        "value": "靑木九八郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:798,2535,89,591"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "森本六藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "森本六蔵（もりもと ろくぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Morimoto Rokuzō, junior councillor of Asada Domain, third in the run leftward from the 少參事 heading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "森本六藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:663,2536,90,587"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "岩田啓造"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "岩田啓造（いわた けいぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Iwata Keizō, junior councillor of Asada Domain and the last name in the register, fourth in the run leftward from the 少參事 heading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "岩田啓造"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:525,2536,93,586"
+      }
+    }
+  },
+  {
+    "id": "anno-asada_lower_p225_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百二十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百二十六（426）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 426, set in smaller type at the foot of the fold column. It follows 425 on the facing leaf lower_p224_left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付四百二十六"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p225_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2134,3078,72,266"
+      }
+    }
+  }
+]
