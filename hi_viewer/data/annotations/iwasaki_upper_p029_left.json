@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-iwasaki_upper_p029_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○岩崎藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○岩崎藩（いわさきはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the domain block: Iwasaki Domain. It stands in the rightmost column, so every entry to its left on this page belongs to Iwasaki."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○岩崎藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2638,1396,109,562"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）── 数値の印刷なし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka, the nominal assessed yield: the label is printed but no figure follows it anywhere in the column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2534,1056,78,163"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　現米　壹萬四百拾九石貳斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 現米 一万四百十九石二斗"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Main land tax, taken in actual rice: 10,419.2 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2372,1144,105,1250"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "申子ヨリ戊辰マテ五ケ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "申子より戊辰まで五ケ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu note in two small side-by-side sub-columns qualifying the land-tax figure: a five-year average running from the 申子 year to Boshin (1868). 申子 is not a valid sexagenary pair and is printed here for 甲子 (1864), which makes the span 1864-1868."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租現米五ケ年平均註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2345,2402,123,468"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざっぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading for miscellaneous taxes. Unlike 正租 it carries no figure of its own; its components print in the five columns that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2257,1135,86,169"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米　六百三拾石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米 六百三十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes taken in actual rice: 630 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2115,1221,95,670"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　六千六百四拾兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 六千六百四十両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes taken in cash: 6,640 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1984,1223,94,836"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小役銀"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小役銀（こやくぎん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sub-label at the foot of the same column identifying the 6,640 ryō as koyakugin, the minor-corvee silver levy."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小役銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1977,2150,83,247"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米八百三拾石五斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此米 八百三十石五斗"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The rice equivalent of the koyakugin cash: 830.5 koku. At the stated rate of 8 ryō per koku the 6,640 ryō would give 830.0, so the source is internally inconsistent by 0.5 koku here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1857,1304,89,748"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但石八兩立"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し石八両立"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type note giving the conversion rate used for both cash-to-rice equivalents on this page: 8 ryō to the koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但石八兩立"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1862,2149,69,339"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　貳百五拾三兩永三百文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 二百五十三両 永三百文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A second miscellaneous cash item: 253 ryō and 300 ei-mon, i.e. 253.3 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金貳"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1719,1222,102,1087"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米三拾壹石六斗六升貳合五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此米 三十一石六斗六升二合五勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The rice equivalent of that second cash item: 31.6625 koku. This reconciles exactly, since 253.3 ryō at 8 ryō per koku is 31.6625."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税此米貳"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1578,1301,108,1177"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　三千百八拾軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 三千百八十軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 3,180."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1463,1044,98,757"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　壹萬七千三百九拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一万七千三百九十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 17,397 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1338,1042,93,1087"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九千五百九拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 九千五百九十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the total population, male: 9,591."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1363,2206,60,617"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七千八百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 七千八百六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the total population, female: 7,806. With the male count this sums exactly to 17,397."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1299,2206,63,477"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　百七拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族 百七十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 171."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1204,1041,94,667"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　五百四拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 五百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 547 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1191,1797,87,752"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳百六拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二百六十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shizoku population, male: 263."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1221,2626,58,486"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百八拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百八十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shizoku population, female: 284. With the male count this sums exactly to 547."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1157,2626,63,485"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　九拾八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族 九十八軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer estate) households: 98."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1075,1037,93,581"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　貳百四拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 二百四十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 243 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1061,1711,87,752"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百四拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 百四十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu population, male: 148."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1087,2540,60,408"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu population, female: 95. With the male count this sums exactly to 243."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1024,2540,62,338"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（岩崎）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（岩崎）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the left margin: Table of Domain Institutions, fascicle 1, with the provenance name Iwasaki. The header names the same domain as the data on this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第一（岩崎）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:953,1293,79,574"
+      }
+    }
+  },
+  {
+    "id": "anno-iwasaki_upper_p029_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三十三"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 33."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:914,3140,70,159"
+      }
+    }
+  }
+]

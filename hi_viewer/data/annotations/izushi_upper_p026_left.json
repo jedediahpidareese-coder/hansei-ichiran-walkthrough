@@ -1,0 +1,902 @@
+[
+  {
+    "id": "anno-izushi_upper_p026_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○出石藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "出石藩（いずしはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Izushi han. The maru-marker starts the Izushi block — everything to its LEFT on this page is Izushi; everything to its RIGHT is the tail of the previous domain (Inuyama)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○出石藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1241,1411,101,554"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　三萬貳千八百拾八石六斗四升四勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）三万二千八百十八石六斗四升四勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 32,818.64045 koku. The box also carries the right half of the wide printed bracket that ties this column to the 高 column beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1096,1027,110,1717"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　三萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）三万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Official assessed kokudaka (omote-daka) = 30,000 koku — the figure by which Izushi was ranked. The surveyed 草高 beside it exceeds it by 2,818.64045 koku. The box also carries the left half of the two-column printed bracket joining 高 to 草高."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:990,1025,106,462"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（出石）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第一（出石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head (hashira) in the outer column: 'Hansei ichiran-hyō, fascicle 1 (Izushi)'. Provenance only — it names the domain the page is filed under, not necessarily the owner of every column on it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第一（出石）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:871,1330,70,574"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二十七（本書頁番号）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number of the 1928 reprint: 27. The preceding cropped leaf (upper_p025_left) carries folio 二十五 (25), so folio 26 is the uncropped right half of this PDF opening."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:853,3170,66,162"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（人口　五萬三千三百九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（人口　五万三千三百九人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Revised total population, 53,309 persons, entered as a bracketed correction. The original entry on printed page 25 gives 五萬三千三百貳人 (53,302), and the footnote below reconciles the two as a net gain of 7. Note the printed sex components below sum to 53,307, two short of this total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山改正人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1376,1069,97,1030"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　二萬六千四百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　二万六千四百十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male share of the revised population = 26,413. Against the original 26,408 on printed page 25 this is +5, exactly the male increment stated in the footnote."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山改正人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1416,2104,55,777"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　二萬六千八百九十四人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二万六千八百九十四人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female share of the revised population as printed = 26,894, and the closing bracket of the field. This is identical to the original figure on printed page 25, although the total (53,309) and the footnote (+2 women) both require 26,896 — so the printed female figure is two short."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山改正人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1349,2104,66,777"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（改正）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（改正）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in small type: 'revised'. It stands immediately to the right of the corrected population figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山人口改正註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1473,1067,57,185"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（改正閏十月）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（改正　閏十月）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in small type: 'revised, intercalary tenth month' — dating the correction to the leap 10th month of Meiji 3 (1870)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山人口改正閏十月註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1530,1129,73,408"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（戸數　一萬千八百戸）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（戸数　一万千八百戸）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Revised household count = 11,800 households, entered as a bracketed correction. The original on printed page 25 reads 壹萬千七百八拾二軒 (11,782), and the footnote below records the difference as a net gain of 18 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山改正戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1652,1065,88,702"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（改正）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（改正）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in small type: 'revised', standing beside the corrected household count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山戸數改正註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1740,1063,51,183"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（改正閏十月）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（改正　閏十月）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in small type: 'revised, intercalary tenth month', dating the household correction."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山戸數改正閏十月註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1791,1129,80,405"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院陰陽師堂守修驗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院・陰陽師・堂守・修験"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Category heading for the religious-personnel return: temple clergy, onmyōji diviners, hall keepers (dōmori), and shugendō practitioners."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山寺院陰陽師堂守修驗"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2040,1151,88,746"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "閏十月調合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "閏十月調べ　合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type qualifier: 'combined figure, as surveyed in the intercalary tenth month'."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山閏十月調合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1983,1217,57,336"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Religious personnel, intercalary-tenth-month survey: 442 persons. The sex split below (306 + 136) reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山寺社人員閏十月調合計"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1911,1235,72,493"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　三百六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male religious personnel in the intercalary-tenth-month survey = 306."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山寺社人員閏十月調合計男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1945,1888,55,336"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　百三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female religious personnel in the intercalary-tenth-month survey = 136. 306 + 136 = 442, matching the total above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山寺社人員閏十月調合計女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1886,1888,59,403"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（照會　四百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（照会　四百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cross-check (shōkai) figure for the same religious personnel: 457 persons. It exceeds the intercalary-tenth-month figure of 442 by 15, the discrepancy set out in the footnote below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山照會人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2172,1057,109,784"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　三百八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male component of the cross-check figure = 308 (2 more than the 306 of the intercalary-tenth-month survey)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山照會人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2212,1848,59,435"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百四十九人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　百四十九人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female component of the cross-check figure = 149 (13 more than 136), plus the closing bracket. 308 + 149 = 457, matching the total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山照會人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2156,1848,56,435"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（十月二日調　寺院修驗堂守陰陽師合人口）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（十月二日調べ　寺院・修験・堂守・陰陽師　合人口）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Bracketed note set in double columns: 'surveyed on the 2nd day of the 10th month — combined population of temples, shugendō practitioners, hall keepers and onmyōji'. It dates the cross-check return standing to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山十月二日調註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2293,1062,129,798"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合（あわせて）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Label 'total' for the domain's whole religious-personnel block, with the wide printed bracket above it (x2542-2670) that ties the two sex columns below to this label. No combined number is printed; the sexes below give 383 + 224 = 607. That figure reconciles exactly: 442, the intercalary-tenth-month temple-side survey, plus 165 shrine personnel — the 143 recorded on printed page 25 raised by the 22 of the footnote below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山合人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2521,1015,158,293"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百八拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　三百八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Males in the combined religious-personnel total = 383. It splits as 306 from the temple-side survey plus 77 on the shrine side: printed page 25 (upper_p025_left) records 神社 百九拾社 with a population of 143 persons, 70 male and 73 female, and the footnote below adds 7 men, giving 77."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山合人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2589,1314,84,577"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳百二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二百二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Females in the combined religious-personnel total = 224; with the males this gives an unprinted grand total of 607 persons. The 224 splits as 136 women from the temple-side survey plus 88 on the shrine side — the 73 recorded on printed page 25 plus the 15 women of the footnote below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山合人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2449,1314,87,577"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "────────"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（罫線）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed horizontal rule running under the right-hand columns. It separates the table proper from the four bracketed reconciliation notes set beneath it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "脚注罫線（犬山藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2036,2397,629,51"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（差引十八戸増）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（差引　十八戸増）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reconciliation note below the rule: 'on balance, an increase of 18 households'. Revised 11,800 less the original 11,782 = 18, so the arithmetic checks."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山註記差引十八戸増"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2550,2539,124,388"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（△増社人廿二人　男七人　女十五人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（△増　社人二十二人　男七人・女十五人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reconciliation note: an increase of 22 shrine personnel (shajin), 7 male and 15 female. 7 + 15 = 22. Printed page 25 gives the shrine population as 143 (70 male, 73 female), so the corrected shrine figure is 165 (77 male, 88 female) — which added to the 442 of the intercalary-tenth-month temple survey produces the 607 implied by the 合 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山註記増社人廿二人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2410,2457,121,812"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（△減十五人　男二人　女十三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（△減　十五人　男二人・女十三人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reconciliation note: a decrease of 15 persons, 2 male and 13 female — the gap between the cross-check figure of 457 and the intercalary-tenth-month figure of 442 (male 308−306 = 2; female 149−136 = 13)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山註記減十五人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2146,2460,148,738"
+      }
+    }
+  },
+  {
+    "id": "anno-izushi_upper_p026_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（差引七人増　内　男五人　女二人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（差引　七人増　内　男五人・女二人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Closing reconciliation: 'on balance, an increase of 7 persons — of which 5 male and 2 female'. −15 + 22 = +7 overall (males −2 + 7 = +5; females −13 + 15 = +2), and the revised population 53,309 exceeds the original 53,302 by exactly 7."
+      },
+      {
+        "purpose": "identifying",
+        "value": "犬山註記差引七人増"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p026_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2009,2539,118,744"
+      }
+    }
+  }
+]

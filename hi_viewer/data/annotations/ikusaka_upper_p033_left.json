@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "anno-ikusaka_upper_p033_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　五千六百八拾石三斗三升四合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（しょうそまい）五千六百八十石三斗三升四合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land-tax rice = 5,680.3348 koku. Sub-koku units run strictly descending (3 to, 3 shō, 4 gō, 8 shaku), so the reading is sound."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2639,1146,97,1595"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "從甲子至戊辰五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子（こうし）より戊辰（ぼしん）に至る五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Qualifying note in smaller type, printed below the tax figure: \"five-year average from the kōshi year (1864) to the boshin year (1868).\" The land-tax rice figure is therefore an 1864-68 mean, not a single-year return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米五ヶ年平均註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2641,2746,79,739"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千七百七拾二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）千七百七十二軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households = 1,772. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2518,1061,93,840"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　九千九十七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）九千九十七人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population = 9,097 (matches MASTER). The 内 (\"of which\") below the figure introduces the male and female runs. Note that the printed components do not reconcile: 男 4,854 + 女 4,167 = 9,021, seventy-six short of this total. All three numbers were re-checked glyph by glyph and are recorded as printed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2385,1059,90,817"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四千八百五十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四千八百五十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population, male = 4,854. Right-hand of the two runs below 内."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2423,1884,61,610"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千百六十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四千百六十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population, female = 4,167. Left-hand of the two runs below 内, and one digit shorter than the male run. With the male figure this sums to 9,021 against a printed total of 9,097."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2363,1884,60,541"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　士族戸數　八十六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）士族戸数（しぞくこすう）八十六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku (upper-samurai) households = 86. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2250,1060,94,836"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　士族人口　三百二十二人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）士族人口（しぞくじんこう）三百二十二人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku population = 322 (男 156 + 女 166 = 322, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2110,1059,98,1077"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百五十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）百五十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, male = 156."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2148,2143,63,404"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百六十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）百六十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, female = 166."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2087,2143,61,403"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　卒族戸數　六十二軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）卒族戸数（そつぞくこすう）六十二軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu (lower-samurai) households = 62. Matches MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1984,1058,90,835"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　卒族人口　百七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）卒族人口（そつぞくじんこう）百七十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu population = 174 (男 89 + 女 85 = 174, internally consistent). No 内 is printed before the split here; the two runs follow 人 directly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1852,1060,89,919"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population, male = 89."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1889,1988,59,334"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）八十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population, female = 85."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1829,1988,60,334"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　輕卒戸數　六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）軽卒戸数（けいそつこすう）六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which light-sotsu (輕卒, the lowest retainer grade) households = 6. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "輕卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1723,1062,86,662"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　輕卒人口　七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）軽卒人口（けいそつじんこう）七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which light-sotsu population = 7 (男 6 + 女 1 = 7, internally consistent). Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "輕卒人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1715,1822,88,663"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Light-sotsu population, male = 6. The 六 carries its top lid, so this is not 八."
+      },
+      {
+        "purpose": "identifying",
+        "value": "輕卒人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1754,2496,56,200"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Light-sotsu population, female = 1, written with the formal 壹."
+      },
+      {
+        "purpose": "identifying",
+        "value": "輕卒人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1693,2496,60,195"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　穢多戸數　五十軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）穢多戸数（えたこすう）五十軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which eta (outcaste) households = 50. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1593,1059,88,750"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　穢多人口　九百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）穢多人口（えたじんこう）九百三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which eta population = 938 (男 501 + 女 437 = 938, internally consistent). Absent from MASTER; at 938 persons in 50 households this is by far the densest household group on the leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1579,1902,93,1002"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）五百一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta population, male = 501, written with the formal 壹 in the units place."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1622,2915,58,335"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta population, female = 437."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1557,2915,64,474"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　神社　二十二社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）神社（じんじゃ）二十二社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which Shinto shrines = 22, counted in 社. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1457,1060,91,666"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　寺　五ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）寺（てら）五ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which Buddhist temples = 5, counted in ヶ寺. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1452,1821,89,496"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monks resident in those temples = 9, printed in smaller type below the temple count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺僧人數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1465,2325,71,202"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　社家　十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）社家（しゃけ）十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shake (hereditary shrine-attendant) households = 16. The label 社家 is printed once and governs both this household figure and the person figure below it. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1322,1059,88,586"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六十七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（社家の）六十七人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shake population = 67 (男 37 + 女 30 = 67, internally consistent). No repeated label is printed; the figure sits directly under 十六戸 in the same 社家 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1318,1738,87,396"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shake population, male = 37."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1356,2141,59,339"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）三十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shake population, female = 30. One digit shorter than the male run, which is why its 人 sits a row higher."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,2141,62,266"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　隱亡　十五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）隠亡（おんぼう）十五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which onbō (crematory and funeral-service) households = 15. As with 社家, the label is printed once for both the household and the person figure. Absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "隱亡戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1196,1063,86,581"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（隠亡の）九十人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Onbō population = 90 (男 46 + 女 44 = 90, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "隱亡人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1190,1737,85,313"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）四十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Onbō population, male = 46."
+      },
+      {
+        "purpose": "identifying",
+        "value": "隱亡人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1226,2057,61,337"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-32",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Onbō population, female = 44."
+      },
+      {
+        "purpose": "identifying",
+        "value": "隱亡人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1166,2057,60,337"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-33",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○石岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○石岡藩（いしおかはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Ishioka domain (Hitachi province). It closes the Ikusaka block: everything to its right on this leaf is Ikusaka's, and Ishioka's own figures start on the next right-hand leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○石岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1044,1398,109,557"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-34",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（石岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第一（石岡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han Regulations Overview, fascicle 1, signature keyed to Ishioka. This is provenance for the gathering, not a label for the data on the leaf, which is Ikusaka's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覽表）（石岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:940,1314,73,578"
+      }
+    }
+  },
+  {
+    "id": "anno-ikusaka_upper_p033_left-35",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四十一"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 41 in the bottom margin. MASTER records this as 四一; the page in fact prints three glyphs, 四十一, which parses to the same value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book page（四十一）（石岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p033_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:922,3163,67,145"
+      }
+    }
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "anno-ichinoseki_upper_p029_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第一（一關）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第一（一関）／はんせいいちらん だいいち（いちのせき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: Hansei Ichiran (Survey of Domain Administration), Fascicle 1 — (Ichinoseki). A provenance marker for the fascicle and domain, not survey data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第一（一關）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2160,1323,80,580"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三十二"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三十二／32"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 32. The facing page (upper_p028_left) is 31 and the next page (upper_p029_left) is 33."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2141,3166,74,164"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田高　壹萬三千三百四拾七石三斗七升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高・新田高 一万三千三百四十七石三斗七升／こみだか しんでんだか 13,347.37こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Incorporated yield together with newly reclaimed (shinden) field yield, as printed: 13,347.37 koku. The label is a two-line warichu — right line 込高新 (x2076-2127), left line 田高 (x2025-2072), read right line first. FLAG, cross-page arithmetic does not reconcile: the same 一關藩 return on the facing page (upper_p028_left, printed 31) gives 草高 三萬三百四拾七石三斗七升 = 30,347.37 and 高 二萬七千石 = 27,000, so 27,000 + 13,347.37 = 40,347.37, which exceeds the printed 草高 by exactly 10,000. Every glyph of this column was checked at 8x and the leading 壹 is unmistakable, and the column carries exactly fourteen value glyphs on a regular pitch, so this is not a misreading. Two explanations remain open: the print may carry a spurious 壹萬, since 30,347.37 − 27,000 = 3,347.37 reproduces the rest of this figure exactly; or the 27,000 is the shogunate-facing omotedaka rather than a component of the 草高, in which case 30,347.37 − 13,347.37 = 17,000 would be the base honden yield. The figure is recorded as printed and the discrepancy left open. MASTER carries 草高 30,347.37 for 一關藩 (with the note 高(omote) 二萬七千石) but no row for this field."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2015,1241,122,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（庚午四月）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "庚午四月／こうご しがつ（明治三年四月）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Dating note printed high in the column, above the field labels: fourth month of the kōgo year, that is Meiji 3, fourth month = 1870. It dates Ichinoseki's return. Not survey data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（庚午四月）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1911,717,73,271"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　壹萬六百三拾五石八升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米 一万六百三十五石八升／せいそまい 10,635.08こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal land tax rendered in rice: 10,635.08 koku. Agrees exactly with MASTER. The warichu below qualifies it as a five-year average."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1882,1162,97,1171"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "萬延元申年ヨリ元治元子年迄五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "万延元申年より元治元子年まで五ヶ年平均／まんえんがんしんねんより げんじがんねどしまで ごかねんへいきん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-line warichu qualifying the rice tax: a five-year average from Man'en 1 (1860, the monkey year) to Genji 1 (1864, the rat year). Nine glyph rows, each carrying one character in the right line and one in the left. 1860 through 1864 inclusive is exactly five years."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米五ヶ年平均註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1856,2339,125,610"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "豆　千四百石二斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "豆 千四百石二斗／まめ 1,400.2こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Beans (pulses) rendered in tax: 1,400.2 koku. Units descend correctly, 石 then 斗."
+      },
+      {
+        "purpose": "identifying",
+        "value": "豆"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1754,1327,87,667"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　千百七拾兩三分ト永七文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 千百七十両三分と永七文／きん 1,170りょう3ぶ と えい7もん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Principal land tax rendered in cash: 1,170 ryō 3 bu, plus a remainder of 7 mon in ei (Eiraku) reckoning. Since 4 bu make 1 ryō, 3 bu = 0.75 ryō, giving 1,170.75 ryō. This column stands under no separate heading and so belongs with the principal tax, unlike the 金 column further left which sits under 雜税."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1621,1325,95,1084"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金壹兩ニ付錢拾貫文替"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金一両につき銭十貫文替／きん いちりょうにつき ぜに じゅっかんもんがえ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-line warichu giving the conversion rate applied to the cash figures: ten kan of copper cash exchanged per one ryō of gold. Five glyph rows, right line 金壹兩ニ付, left line 錢拾貫文替."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金壹兩ニ付錢拾貫文替"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1596,2413,124,342"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税／ざつぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Section heading reading 'miscellaneous taxes'. It occupies a column of its own with no figure attached; the amount is printed in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税欄見出"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1497,1153,91,167"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　五百八拾兩三分ト永四拾五文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 五百八十両三分と永四十五文／きん 580りょう3ぶ と えい45もん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes rendered in cash, under the 雜税 heading to its right: 580 ryō 3 bu, plus 45 mon in ei reckoning. 3 bu = 0.75 ryō, giving 580.75 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1352,1325,99,1257"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　四千五百九拾五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 四千五百九十五軒／こすう 4,595けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 4,595. The third digit is 九, not 七. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1229,1073,96,921"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　貳萬六千百貳拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 二万六千百二十三人／じんこう 26,123にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 26,123. Agrees with MASTER, and the 内 split printed below reconciles to it exactly (13,551 male + 12,572 female = 26,123)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1102,1073,90,1004"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　一萬三千五百五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 一万三千五百五十一人／おとこ 13,551にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population: 13,551. This is the right-hand run of the 内 split beneath the total; the digits read 五百五十一, not 五百七十一."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1137,2084,58,749"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　一萬二千五百七十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 一万二千五百七十二人／おんな 12,572にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population: 12,572, the left-hand run of the split. 13,551 + 12,572 = 26,123, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,2084,64,749"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　士族　三百三拾三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 士族 三百三十三軒／うち しぞく 333けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which, shizoku (former samurai) households: 333. The small 内 sits at the top right of the column and heads the whole shizoku sub-block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:969,1073,132,755"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　千六百五拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 千六百五十八人／じんこう 1,658にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 1,658. The sex split below reconciles exactly: 787 male + 871 female = 1,658."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:948,1914,98,834"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　七百八拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 七百八十七人／おとこ 787にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku male population: 787, the right-hand run of the 内 split below the shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:984,2924,58,476"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　八百七拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 八百七十一人／おんな 871にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku female population: 871, the left-hand run. 787 + 871 = 1,658, matching the shizoku total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:923,2924,60,476"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　卒族　貳百八拾五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 卒族 二百八十五軒／うち そつぞく 285けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which, sotsu (lower military retainer) households: 285. The small 内 at the top right of the column heads the whole sotsu sub-block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:834,1071,134,759"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　千百四拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 千百四十九人／じんこう 1,149にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 1,149. The glyph order is 千 百 四 拾 九, so the figure is 1,149 and not 1,419; the sex split below confirms it, 551 male + 598 female = 1,149."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:816,1919,93,750"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　五百五拾壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五百五十一人／おとこ 551にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu male population: 551, the right-hand run of the 内 split below the sotsu total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:852,2847,56,471"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　五百九拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 五百九十八人／おんな 598にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu female population: 598, the left-hand run. 551 + 598 = 1,149, matching the sotsu total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:786,2847,65,471"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　貳拾四社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 二十四社／じんじゃ 24しゃ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 24. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:708,1069,85,588"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　三十六ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 三十六ヶ寺／てら 36かじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 36. Agrees with MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:576,1074,88,667"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内僧五十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 僧 五十六人／うち そう 56にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Subtext to the temple count: of these, 56 monks. Printed in a narrower indented run directly below the temple figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺内僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:559,1828,94,500"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　廿四戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人 二十四戸／しゃにん 24こ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine attendants (shanin): 24 households. 廿 is the compressed form of 二十, so the figure is 24, not 4."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:444,1073,92,499"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 四十七人／じんこう 47にん（男女合計は147にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant population as printed: 47. The sex split immediately below gives 79 male + 68 female = 147, so the printed total appears to have dropped 百; 147 is also the figure consistent with 24 households at this page's roughly 5.7 persons per household. I zoomed every glyph and confirmed the page reads 四十七人 with no room for a missing character, so I record 47 as printed and flag the discrepancy rather than silently correcting it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:432,1658,90,496"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　七十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 七十九人／おとこ 79にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant male population: 79, the right-hand run of the split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:471,2161,57,337"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p029_right-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 六十八人／おんな 68にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant female population: 68, the left-hand run. 79 + 68 = 147, which exceeds the printed total of 47 by exactly 100 — see the note on the total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p029_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:411,2161,59,337"
+      }
+    }
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-ichinoseki_upper_p028_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　穢多"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人・穢多（ひにん・えた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Category label for the outcast population: 非人 sits in the label slot (y1085-1231) and 穢多 one blank character slot below it (y1339-1485), both on the same column axis (glyph centres 2684/2680/2680/2677), so the four glyphs form one column. The counts printed to its lower left are this category's. The column stands right of the ○一關藩 marker, so it belongs to the preceding domain, Izushi. One refinement on the proposer's account: Izushi's main fascicle-1 register ends on the preceding leaf (upper_p027_left, printed page 29), where a second maru-marker ○追補（出石藩）— 'Supplement (Izushi Domain)' — opens a separate supplementary return. This leaf continues that supplement, so the owner is Izushi but the block is its 追補, not its home-territory register."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人穢多（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2639,1077,84,416"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast households: 13. Right-hand run of the two-run warichu under the 非人/穢多 label. Glyphs 戸(1507-1552) 數(1574-1620) 十(1642-1687) 三(1713-1752, three strokes) 戸(1780-1824). Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人戸數（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2679,1499,58,334"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）百二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast population: 102 persons. Left-hand run of the warichu. Glyphs 人(1508-1551) 口(1577-1617) 百(1642-1687) 二(1715-1748, two strokes) 人(1780-1823). The sex split immediately below sums to it exactly: 47 + 55 = 102. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人人口（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2620,1500,59,332"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四十七人、"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male outcast population: 47 persons. The proposer read the layout correctly: here the sexes print as one inline run in the left sub-column (glyph centres all at x≈2651) rather than as two side-by-side columns, so the two boxes stack vertically instead of sharing a top. Glyphs 男(1916-1960) 四(1988-2028) 十(2051-2097) 七(2121-2165) 人(2192-2233) followed by the separator comma (2237-2253). Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人男（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2618,1908,60,348"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female outcast population: 55 persons. Glyphs 女(2257-2302) 五(2329-2368) 十(2392-2438) 五(2465-2505) 人(2531-2576). With the 47 males this reproduces the printed total of 102 exactly. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人女（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2618,2256,60,330"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　貳百九拾六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）二百九十六社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 296. Glyphs 神(1085-1150) 社(1160-1235), one blank slot, then 貳(1320-1400) 百(1410-1480) 九(1500-1560) 拾(1580-1650) 六(1665-1740, top lid present, so 六 not 八) 社(1750-1820). This count belongs to Izushi's supplementary return, which the marker ○追補（出石藩）opens on upper_p027_left (printed page 29), not to the domain's own territory. That resolves rather than creates the clash with the 307 shrines MASTER records for Izushi on that same leaf: the two figures cover different territorial blocks."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本領神社（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2501,1076,92,753"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　六拾五ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）六十五ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 65. Glyphs 寺(1920-1990), one blank slot, then 六(2095-2155) 拾(2170-2245) 五(2260-2340) ヶ(2355-2415) 寺(2425-2495). Printed in the same column as the 296 shrines. Like that count it belongs to Izushi's supplementary return, so it stands beside — not against — the 90 temples (寺院) MASTER records for Izushi's own territory on printed page 29."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本領寺（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2501,1915,92,587"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（そんすう）〔値印刷無〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Village count — the label is printed and the figure is not. I scanned the whole column (x2370-2465) from y300 to y4240: it holds only 村(1087-1149) and 數(1171-1233), plus a 5-by-5-pixel speck at y3499-3504. The number is absent from the print, not merely faint. Part of Izushi's supplementary return. Recording it the way MASTER records 岩崎藩's missing 草高 — as 村數 (値印刷無) — keeps it consistent with the existing dataset."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本領村數（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2375,1077,87,166"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "美濃國土岐郡戸籍追加"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "美濃国土岐郡戸籍追加（みののくに ときぐん こせき ついか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: 'Supplementary household register, Toki district, Mino province.' Ten glyphs, y1254-2071, evenly pitched at about 85 pixels. It introduces the block of figures printed to its left — assessed yield, households, population with its sex and status breakdowns, shrines, temples and villages — recording a detached holding entered inside Izushi's supplementary return. Not itself a data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃國土岐郡戸籍追加（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2233,1244,86,837"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　五千貳百七拾八石八斗六升二合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）五千二百七十八石八斗六升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield of the Toki-district holding: 5,278.862 koku. Fourteen value glyphs, each checked singly: 五 千(slanted top stroke) 貳 百 七 拾 八(separate splayed strokes) 石 八 斗 六(top lid) 升 二(two strokes) 合. Sub-units run strictly descending, 石 > 斗 (0.8) > 升 (0.06) > 合 (0.002). Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡高（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2096,1164,89,1339"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千三百五拾四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）千三百五十四軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households in the Toki-district holding: 1,354. Glyphs 戸(1092-1155) 數(1175-1236) 千(1347-1403, slanted top stroke, so 1,354 and not 154) 三(three separate strokes at 1431-1440, 1451-1459, 1475-1483) 百(1512-1574) 五(1598-1651) 拾(1679-1741) 四(1766-1820) 軒(1848-1907). Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡戸數（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1966,1082,85,835"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　五千七百八拾八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）五千七百八十八人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the Toki-district holding: 5,788 persons. Eleven glyphs, 人(1094-1154) 口(1183-1233) 五(1346-1401) 千(1430-1486) 七(1513-1570) 百(1595-1657) 八(1682-1739) 拾(1762-1824) 八(1849-1904) 人(1932-1987) 内(2014-2056); the box encloses the structural 内 ('of which') rather than boxing it alone. The printed total does not close. The male and female runs below give 5,690, so the total exceeds its own components by 98. I re-read every digit at eight-times magnification and compared the two ambiguous characters against a confirmed 八 and a confirmed 六 elsewhere on the page: the total is 五千七百八拾八 (eight glyphs, so no seven-glyph reading such as 五千六百九拾 is available), and the components are 貳千八百八拾九 and 貳千八百壹. Adding the three status groups printed below (24 + 27 + 20 = 71) gives 5,761 and still leaves a gap. The discrepancy is in the print, not in the reading. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡人口（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1829,1084,89,982"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳千八百八拾九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二千八百八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population of the Toki-district holding: 2,889 persons. Right-hand run of the side-by-side split under 内, sharing its top row (y2084) with the female run. Nine glyphs: 男(2084-2127) 貳(2151-2197) 千(2220-2262) 八(2290-2329) 百(2357-2400) 八(2425-2460) 拾(2493-2538) 九(2562-2607) 人(2632-2675). The two characters that would change the value most were cropped singly at eight times and both are 八, not 九, so the alternative reading 貳千九百八拾七人 (2,987), which would have closed the sum against the printed 5,788, is ruled out. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡男（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1867,2076,56,608"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳千八百壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二千八百一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population of the Toki-district holding: 2,801 persons. Left-hand run of the split, seven glyphs: 女(2083-2128) 貳(2151-2197) 千(2219-2261) 八(2291-2331) 百(2357-2398) 壹(2423-2469) 人(2494-2538). The run ends at y2538 while the male run continues to y2675, which confirms seven glyphs against the male run's nine, so a nine-glyph reading such as 貳千八百九拾九人 (2,899) is not available. 壹 was cropped singly at eight times and is unmistakable. With the 2,889 males this gives 5,690, ninety-eight fewer than the printed total. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡女（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1810,2075,57,472"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧尼二十四人　男十六人、女十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧尼（そうに）二十四人　男十六人・女十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy, monks and nuns, in the Toki-district holding: printed total 24 persons, with 16 male and 14 female. Glyphs 僧(2697-2745) 尼(2769-2813) 二(2840-2872, two strokes) 十(2903-2949) 四(2976-3015) 人(3044-3085) 男(3145-3188) 十(3213-3257) 六(3286-3321, top lid) 人(3353-3400) 、 女(3425-3461) 十(3485-3530) 四(3558-3596) 人(3626-3666). The components sum to 30, so the printed total falls 6 short; the total carries exactly two horizontal strokes, and a three-glyph reading such as 三十人 is excluded because four glyphs stand between 尼 and 男. Rightmost of three warichu sub-columns under the population split. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧尼（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1892,2689,50,986"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神職二十七人　男十一人、女十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神職（しんしょく）二十七人　男十一人・女十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto officiants in the Toki-district holding: 27 persons, 11 male and 16 female. Glyphs 神(2700-2745) 職(2768-2813) 二(2842-2874) 十(2905-2950) 七(2978-3018) 人(3042-3082) 男(3145-3187) 十(3213-3257) 一(3301-3308, one stroke) 人(3351-3400) 、 女(3425-3462) 十(3486-3530) 六(3558-3596, top lid) 人(3626-3667). The components close exactly on the total: 11 + 16 = 27. Middle warichu sub-column. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神職（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1838,2692,54,984"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人番二十人　男十一人、女九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人番（ひにんばん）二十人　男十一人・女九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin-ban (outcast watchmen) in the Toki-district holding: 20 persons, 11 male and 9 female. Glyphs 非(2698-2743) 人(2771-2814) 番(2837-2883) 二(2909-2940) 十(2972-3016) 人(3045-3087) 男(3145-3188) 十(3209-3254) 一(3298-3306) 人(3351-3400) 、 女(3425-3462) 九(3486-3532, rounded bending leg) 人(3556-3600). The components close exactly on the total: 11 + 9 = 20. Leftmost warichu sub-column. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人番（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,2690,59,919"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）六社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines in the Toki-district holding: 6. Glyphs 神(1094-1158) 社(1182-1241), one blank slot, then 六(1351-1407, cropped at five times: top lid and two splayed legs, so 六 not 八) 社(1435-1493). Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡神社（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1702,1084,97,419"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　拾五ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）十五ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples in the Toki-district holding: 15. Glyphs 寺(1771-1830), one blank slot, then 拾(1939-2001) 五(2025-2080) ヶ(2112-2155) 寺(2191-2251). Printed in the same column as the shrine count. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡寺（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1702,1761,97,500"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　七村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数（そんすう）七村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages in the Toki-district holding: 7. Glyphs 村(1095-1158) 數(1182-1244), one blank slot, then 七(1350-1410) 村(1432-1492). The last field of the Mino supplement. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "美濃土岐郡村數（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1572,1085,87,417"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵官　二拾四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵官（へいかん）二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Military officers: 24. Glyphs 兵(1097-1158) 官(1182-1247), one blank slot, then 二(1359-1403, two strokes) 拾(1436-1498) 四(1524-1577) 人(1605-1664). The column stands right of the ○一關藩 marker, so the count is Izushi's, printed inside its supplementary return and after the Mino register in the normal fascicle-1 order. It shares its column with the troop total below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵官（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1428,1087,95,587"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵士兵卒　百八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵士兵卒（へいし・へいそつ）百八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soldiers and sotsu-class troops: 180. Label glyphs 兵(1772-1832) 士(1858-1914) 兵(1941-2000) 卒(2023-2087) run contiguously, then one blank slot, then 百(2194-2255) 八(2279-2335) 十(2362-2421, plain cross with no slanted top stroke, so 十 and not 千) 人(2446-2506). Second field in the same column as the 24 officers. Izushi Domain's supplementary return."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵士兵卒（出石藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1428,1762,95,754"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○一關藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一関藩（いちのせきはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ichinoseki Domain — the maru-marker opening this domain's entry. ○(1436-1515) 一(1575-1588) 關(1722-1802) 藩(1899-1980). I scanned the whole page for circles and this is the only maru-marker on the leaf. Everything to its left is Ichinoseki's; everything to its right continues Izushi's supplementary return, which the marker ○追補（出石藩）opens on upper_p027_left. Ichinoseki's entry then runs on to upper_p029_right, where MASTER already carries its 戸數, 人口, 神社, 寺 and 正租米."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○一關藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1288,1426,102,564"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　三萬三百四拾七石三斗七升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）三万三百四十七石三斗七升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (kusadaka) of Ichinoseki Domain: 30,347.37 koku. Label 草(1102-1164) 高(1183-1244), one blank slot, then 三(three separate strokes at 1355-1365, 1376-1385, 1399-1408) 萬(1437-1497) 三(three strokes at 1523-1531, 1543-1551, 1567-1575) 百(1607-1668) 四(1693-1745) 拾(1776-1837) 七(1859-1918) 石(1943-2003) 三(2031-2082) 斗(2108-2168) 七(2195-2255) 升(2280-2342). Sub-units descend 石 > 斗 (0.3) > 升 (0.07). Matches MASTER exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1158,1092,95,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　二萬七千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）二萬七千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed kokudaka of Ichinoseki Domain: 27,000 koku. Label 高(1267-1330), then 二(two strokes at 1363-1370 and 1396-1405) 萬(1439-1499) 七(1522-1581) 千(1609-1664, slanted stroke on top) 石(1688-1749). The label sits about two character slots lower than 草高's in the column to its right — HI's indent for a figure subordinate to the one above it. The 二 here carries exactly two horizontal strokes against the three of 草高's 三萬 in the next column, which gives a same-page control for the distinction."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1032,1257,87,502"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（一關）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいいち（いちのせき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain Survey Table, Fascicle 1 (Ichinoseki section) — running header in the outer margin, provenance rather than data. Read at seven times: 藩(1358-1400) 制(1408-1452) 一(1479-1487) 覽(1511-1560) 表(1565-1610) 第(1615-1660) 一(1683-1690), then the vertical parenthesis pair enclosing 一(1812-1820) 關(1842-1890). It names Ichinoseki, the domain whose marker opens on this leaf, not Izushi, which owns most of the ink here. The corresponding header on the preceding leaf reads 藩制一覽表第一（出石）, which confirms that HI names the current domain rather than the page's majority owner."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第一（一關）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:903,1348,85,578"
+      }
+    }
+  },
+  {
+    "id": "anno-ichinoseki_upper_p028_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三十一（さんじゅういち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the outer margin: 31. 三 (three strokes, 3203-3239) 十 (3250-3294) 一 (3319-3330). MASTER records the same page as 三一 / 31. The page-number sequence also confirms the leaf mapping: this pdf page's left half is book page 31, and upper_p027_left carries 二十九 (29), so Izushi's supplementary return runs 27L to 28R to the right-hand part of this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p028_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:903,3193,65,147"
+      }
+    }
+  }
+]
