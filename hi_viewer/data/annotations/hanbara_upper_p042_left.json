@@ -1,0 +1,872 @@
+[
+  {
+    "id": "anno-hanbara_upper_p042_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　百六十八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ）百六十八人　内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) population: 168 persons, of which the following are broken out."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2608,1054,90,649"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小者七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小者（こもの）七十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu, 74 are komono (menial servants). Right-hand run of the two-column breakdown, so read first."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族内小者"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2649,1709,61,406"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒女五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒女（そつじょ）五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu, 55 are women of sotsu households. Left-hand run of the two-column breakdown, so read second. With the 74 komono this accounts for 129 of the 168; the residual 39 are male sotsu proper."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族卒女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2588,1711,60,406"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　六十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒（そつ）六十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households: 62."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2603,2230,86,499"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人人口　六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人人口（ひにんじんこう）六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcast) population: 6 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2472,1052,88,582"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin men: 2. Right-hand run of the sex split, read before the female run."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2510,1644,60,201"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin women: 4. Left-hand run of the sex split; 2 men plus 4 women equals the printed total of 6."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2450,1644,59,202"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同戸數　一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同戸數（どうこすう）一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of the same (hinin) group: 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人同戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2466,1900,86,499"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多人口　二百四拾二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多人口（えたじんこう）二百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcast) population: 242 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2331,1052,91,922"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）百十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta men: 116. Right-hand run of the sex split (five glyphs), read before the female run."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2373,1983,59,335"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）百二十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta women: 126. Left-hand run of the sex split (six glyphs, the extra one being 二); 116 men plus 126 women equals the printed total of 242."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2312,1983,60,404"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數　四十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸數（えたこすう）四十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta households: 41."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2323,2485,89,755"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（總戸數三千四百十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（総戸数（そうこすう）三千四百十戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total of households in Hanbara domain: 3,410. Printed inside a bracket together with the total population that follows."
+      },
+      {
+        "purpose": "identifying",
+        "value": "總戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2196,1054,89,756"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口一萬五千百二十二人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）一万五千百二十二人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total population of Hanbara domain: 15,122 persons. The bracket closes here. The scan prints the plain 一 before 萬, not the formal 壹 that the project dataset records; the figure is the same."
+      },
+      {
+        "purpose": "identifying",
+        "value": "總人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2192,1896,83,942"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊　一聯隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊（へいたい）一聯隊（いちれんたい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: one regiment. This column stands to the right of the ○西尾藩 marker and therefore still belongs to Hanbara — the standard trailing-military overflow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2054,1058,100,500"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但一小隊四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し（ただし）一小隊（いちしょうたい）四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Qualifying note set in two small runs: one platoon numbers 47 men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊但書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2050,1566,117,268"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲手　十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲手（ほうしゅ）十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gunners: 16 men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲手"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2063,1898,83,495"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "皷手吹角手　四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鼓手（こしゅ）吹角手（すいかくしゅ）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Drummers and buglers: 4 men. The first glyph is the 皷 variant of 鼓."
+      },
+      {
+        "purpose": "identifying",
+        "value": "皷手吹角手"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2061,2489,85,664"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○西尾藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "西尾藩（にしおはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Nishio han. It starts Nishio's entry, so everything to its left on this page is Nishio and everything to its right is still Hanbara."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○西尾藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1919,1400,104,559"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　六萬三千貳百五石六斗三升壹合五勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）六万三千二百五石六斗三升一合五勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) for Nishio: 63,205.63154 koku. The project dataset reads the integer part as 63,156; at single-character magnification the glyphs after 三千 are plainly 貳百五石, so the scan gives 63,205."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1800,1061,91,1759"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Marginal note set small in the gutter at the head of the tax columns: the revenue figures are five-year averages."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1745,1132,55,335"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　貳萬九拾三石八升貳合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）二万九十三石八升二合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax paid in rice: 20,093.0826 koku. The 斗 place is skipped, so it reads as zero."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1663,1149,81,1255"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　三百貳十壹貫七百九文三分壹厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）三百二十一貫七百九文三分一厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash half of the regular land tax, reckoned in eiraku currency: 321 kan 709 mon 3 bu 1 rin, that is 321,709.31 mon at 1,000 mon to the kan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租永（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1522,1316,90,1253"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税米　三千五百七拾五石四斗六升四合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米（ざつぜいまい）三千五百七十五石四斗六升四合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes paid in rice: 3,575.4648 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税米（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1393,1148,88,1597"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　百五兩銀七百七拾貳匁四分壹厘壹毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）百五両　銀（ぎん）七百七十二匁四分一厘一毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes paid in specie: 105 ryo in gold, together with 772.411 monme of silver. The parsed figure below is the gold only."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1261,1320,89,1420"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　貳百四拾七貫貳百八十壹文九分二厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）二百四十七貫二百八十一文九分二厘四毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes in eiraku cash: 247 kan 281 mon 9 bu 2 rin 4 mo, that is 247,281.924 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税永（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1125,1320,93,1588"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢　千貳百七拾貫貳百五十九文八分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）千二百七十貫二百五十九文八分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes in copper cash: 1,270 kan 259 mon 8 bu, that is 1,270,259.8 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢（西尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:994,1322,90,1256"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（西尾）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第一（西尾）（はんせいいちらんひょう だいいち にしお）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: Domain Survey, Fascicle One (Nishio). This is provenance for the folio, and it names Nishio because Nishio is the block current at the end of the leaf; the columns to the right of the marker are still Hanbara's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第一（西尾）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:878,1326,73,574"
+      }
+    }
+  },
+  {
+    "id": "anno-hanbara_upper_p042_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五十九（ごじゅうきゅう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed folio number in the bottom margin: 59. The next leaf, which continues Nishio, is numbered 60."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五十九"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p042_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:871,3167,64,165"
+      }
+    }
+  }
+]

@@ -2,7 +2,7 @@
  "_meta": {
   "description": "Page manifest for the focal-4 HI viewer. Each entry corresponds to one HI page-side (left or right half of a 2-page PDF spread). The 'sequence' field is the navigation order in the viewer (left-to-right within a domain, then next domain). The 'book_page' is the printed page number visible at the bottom margin of the page.",
   "created": "2026-05-28",
-  "scope": "Whole-book expansion in progress: 548 pages, 245 domains (target 803 pages / 300 domains)."
+  "scope": "Whole-book expansion in progress: 563 pages, 246 domains (target 803 pages / 300 domains)."
  },
  "pages": [
   {
@@ -7061,8 +7061,25 @@
    "page_summary_en": "This verso carries the end of the 岩國藩 (Iwakuni) entry and the opening of the 今治藩 (Imabari) entry in Fascicle 8 of the Hansei ichiran, printed book-page 221. Right of the ○今治藩 marker, Iwakuni's roster closes with three acting junior councillors (權少參事) — Kasai Jirōemon, Hara Shichiemon and Moriwaki Taizō — preceded by two further named officials, Katsura Kanzaemon and Katsura Kurōbee, whose office heading falls on the facing recto. Iwakuni's forces are recorded as two rifle battalions (銃兵二大隊) at 800 men per battalion and 50 men per company, i.e. 1,600 men, with 7 additional officers, plus one artillery battery (砲隊一砲隊) of 36 men with 11 additional officers. Left of the marker, Imabari's entry begins with its governor Hisamatsu of Junior Fifth Rank (知事 久松從五位), senior councillor Hisamatsu Osamu (大參事 久松修) and acting senior councillor Kidokoro Chikara (權大參事 城所力)."
   },
   {
-   "id": "iiyama_lower_p123_right",
+   "id": "iiyama_upper_p024_left",
    "sequence": 416,
+   "domain_canonical": "飯山藩",
+   "domain_hi_name": "飯山藩",
+   "domain_en": "Iiyama",
+   "image": "images/upper_p024_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 24,
+   "page_side": "L",
+   "book_page": "二十三",
+   "page_header_kanji": "藩制一覽表第一（飯山）",
+   "page_header_en": "Table of Domain Administration, Fascicle 1 (Iiyama)",
+   "table_number": 1,
+   "page_topic": "Iiyama domain: reclaimed-land assessment, land and miscellaneous taxes, households and population",
+   "page_summary_en": "This left-hand leaf continues the entry for Iiyama Domain (Shinano, Honda house) in fascicle 1 of the 1870 Hansei ichiran-hyō; the ○飯山藩 marker and the 草高 column stand on the facing right-hand half, so every column here belongs to Iiyama. Reading right to left, the domain reports 15,192.297 koku of newly reclaimed paddy above its 20,000-koku nominal assessment, a regular rice tax of 11,513.433 koku struck as a five-year average from Genji 1 (1864) to Meiji 1 (1868), and miscellaneous taxes of 63.814 koku of rice, 1 ryō 2 bu in gold, 20 kan 123 monme 5 fun 4 rin in silver, and 19,548 mon in copper cash. The population section gives 6,739 households and 30,365 people, split 14,785 male and 15,580 female, with 30 Shinto priests, 180 Buddhist monks and 18 yamabushi among the men and 5 nuns and 2 miko among the women. Printed notes state that samurai and sotsu, and the hinin and eta, are all excluded from those totals; the outcaste groups are then listed apart as 3 hinin households, 27 hinin persons (12 male, 15 female), and 56 eta households."
+  },
+  {
+   "id": "iiyama_lower_p123_right",
+   "sequence": 417,
    "domain_canonical": "飯山藩",
    "domain_hi_name": "飯山藩",
    "domain_en": "Iiyama",
@@ -7079,7 +7096,7 @@
   },
   {
    "id": "inuyama_upper_p025_left",
-   "sequence": 417,
+   "sequence": 418,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7096,7 +7113,7 @@
   },
   {
    "id": "inuyama_lower_p123_left",
-   "sequence": 418,
+   "sequence": 419,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7113,7 +7130,7 @@
   },
   {
    "id": "inuyama_lower_p124_right",
-   "sequence": 419,
+   "sequence": 420,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7130,7 +7147,7 @@
   },
   {
    "id": "izushi_upper_p026_left",
-   "sequence": 420,
+   "sequence": 421,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7147,7 +7164,7 @@
   },
   {
    "id": "izushi_upper_p027_left",
-   "sequence": 421,
+   "sequence": 422,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7164,7 +7181,7 @@
   },
   {
    "id": "izushi_lower_p124_left",
-   "sequence": 422,
+   "sequence": 423,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7181,7 +7198,7 @@
   },
   {
    "id": "iwamura_lower_p125_right",
-   "sequence": 423,
+   "sequence": 424,
    "domain_canonical": "岩邨藩",
    "domain_hi_name": "岩邨藩",
    "domain_en": "Iwamura",
@@ -7198,7 +7215,7 @@
   },
   {
    "id": "ichinoseki_upper_p028_left",
-   "sequence": 424,
+   "sequence": 425,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7215,7 +7232,7 @@
   },
   {
    "id": "ichinoseki_upper_p029_right",
-   "sequence": 425,
+   "sequence": 426,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7232,7 +7249,7 @@
   },
   {
    "id": "ichinoseki_lower_p125_left",
-   "sequence": 426,
+   "sequence": 427,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7249,7 +7266,7 @@
   },
   {
    "id": "ichinoseki_lower_p126_right",
-   "sequence": 427,
+   "sequence": 428,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7266,7 +7283,7 @@
   },
   {
    "id": "ichinoseki_lower_p126_left",
-   "sequence": 428,
+   "sequence": 429,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7283,7 +7300,7 @@
   },
   {
    "id": "iwasaki_upper_p029_left",
-   "sequence": 429,
+   "sequence": 430,
    "domain_canonical": "岩崎藩",
    "domain_hi_name": "岩崎藩",
    "domain_en": "Iwasaki",
@@ -7300,7 +7317,7 @@
   },
   {
    "id": "iwasaki_lower_p127_right",
-   "sequence": 430,
+   "sequence": 431,
    "domain_canonical": "岩崎藩",
    "domain_hi_name": "岩崎藩",
    "domain_en": "Iwasaki",
@@ -7317,7 +7334,7 @@
   },
   {
    "id": "iwatsuki_upper_p030_right",
-   "sequence": 431,
+   "sequence": 432,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻藩",
    "domain_en": "Iwatsuki",
@@ -7334,7 +7351,7 @@
   },
   {
    "id": "iwatsuki_upper_p030_left",
-   "sequence": 432,
+   "sequence": 433,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻",
    "domain_en": "Iwatsuki",
@@ -7351,7 +7368,7 @@
   },
   {
    "id": "iwatsuki_lower_p127_left",
-   "sequence": 433,
+   "sequence": 434,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻藩",
    "domain_en": "Iwatsuki",
@@ -7368,7 +7385,7 @@
   },
   {
    "id": "iino_upper_p031_right",
-   "sequence": 434,
+   "sequence": 435,
    "domain_canonical": "飯野藩",
    "domain_hi_name": "飯野藩",
    "domain_en": "Iino",
@@ -7385,7 +7402,7 @@
   },
   {
    "id": "iino_lower_p128_right",
-   "sequence": 435,
+   "sequence": 436,
    "domain_canonical": "飯野藩",
    "domain_hi_name": "飯野藩",
    "domain_en": "Iino",
@@ -7402,7 +7419,7 @@
   },
   {
    "id": "iida_upper_p031_left",
-   "sequence": 436,
+   "sequence": 437,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7419,7 +7436,7 @@
   },
   {
    "id": "iida_lower_p128_left",
-   "sequence": 437,
+   "sequence": 438,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7436,7 +7453,7 @@
   },
   {
    "id": "iida_lower_p129_right",
-   "sequence": 438,
+   "sequence": 439,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7453,7 +7470,7 @@
   },
   {
    "id": "iwakidaira_upper_p032_left",
-   "sequence": 439,
+   "sequence": 440,
    "domain_canonical": "磐城平藩",
    "domain_hi_name": "磐城平藩",
    "domain_en": "Iwakitaira",
@@ -7470,7 +7487,7 @@
   },
   {
    "id": "iwakitaira_lower_p129_left",
-   "sequence": 440,
+   "sequence": 441,
    "domain_canonical": "磐城平藩",
    "domain_hi_name": "磐城平藩",
    "domain_en": "Iwakitaira",
@@ -7487,7 +7504,7 @@
   },
   {
    "id": "ikusaka_upper_p033_right",
-   "sequence": 441,
+   "sequence": 442,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7504,7 +7521,7 @@
   },
   {
    "id": "ikusaka_upper_p033_left",
-   "sequence": 442,
+   "sequence": 443,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7521,7 +7538,7 @@
   },
   {
    "id": "ikusaka_lower_p130_right",
-   "sequence": 443,
+   "sequence": 444,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7537,8 +7554,25 @@
    "page_summary_en": "A fascicle-8 boundary leaf: the right two-thirds close out Iwakitaira domain (磐城平藩) and the left third opens Ikusaka domain (生坂藩) at the maru-marker ○生坂藩. For Iwakitaira the page lists five acting junior councillors of the first and second grades (一二權少參事) — Nonoyama Noboru, Murakami Hisashi, Urushibara Ugenta, Matsuura Kyūnai, and Nakamura Mohei — followed by the domain's troop strength: 20 standing samurai-rank soldiers and 20 standing rank-and-file, plus 18 reserve soldiers and 12 reserve rank-and-file, 70 men in all. Ikusaka's entry begins with its three senior officers: Governor Ikeda Masanori (知事 池田政禮), Senior Councillor Miyake Kei (大參事 三宅敬), and Acting Senior Councillor Takao Takenobu (權大參事 高尾武信). The leaf carries the printed book page 236."
   },
   {
+   "id": "ishioka_upper_p034_right",
+   "sequence": 445,
+   "domain_canonical": "石岡藩",
+   "domain_hi_name": "石岡",
+   "domain_en": "Ishioka",
+   "image": "images/upper_p034_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 34,
+   "page_side": "R",
+   "book_page": "四十二",
+   "page_header_kanji": "藩制一覽表第一（石岡）",
+   "page_header_en": "Han-sei ichiran, Fascicle 1 (Ishioka)",
+   "table_number": 1,
+   "page_topic": "Ishioka kokudaka, land tax, miscellaneous taxes, households and population",
+   "page_summary_en": "This page carries the whole fascicle-1 civil return for Ishioka domain in Hitachi province. Its assessed yield is 29,069.6831 koku, made up of a 20,000-koku base enfeoffment plus 9,069.6831 koku of newly opened fields brought onto the register; the regular land tax runs 5,253.995 koku of rice on a stated five-year average, together with a cash portion of 1,244 kan 237.92 mon. Miscellaneous taxes are reported in three currencies at once: 676.75 ryo in gold, 29,874.2 mon in ei-cash and 183,502.6 mon in copper cash. The commoner return is 2,774 households and 16,913 people (8,591 male, 8,322 female), with a separately counted samurai population of 198 households and 901 people (418 male, 483 female), so the samurai class is about 5.3 percent of the domain's recorded population."
+  },
+  {
    "id": "ishioka_upper_p034_left",
-   "sequence": 444,
+   "sequence": 446,
    "domain_canonical": "石岡藩",
    "domain_hi_name": "石岡藩",
    "domain_en": "Ishioka",
@@ -7555,7 +7589,7 @@
   },
   {
    "id": "ishioka_lower_p130_left",
-   "sequence": 445,
+   "sequence": 447,
    "domain_canonical": "石岡藩",
    "domain_hi_name": "石岡藩",
    "domain_en": "Ishioka",
@@ -7571,8 +7605,25 @@
    "page_summary_en": "Fascicle 8 (officials and military) of the 1870 Hansei ichiran, printed book page 237. The right-hand columns close out the preceding domain, Ikusaka (生坂藩), with two named officials — Kisabe Takanobu, holding the same post as the entry carried over from the facing page, and Junior Councillor (少參事) Habara Takamasa — followed by its military return, which records the troop total as 不詳 (\"not ascertained\") and enumerates only officer posts: one inspector-of-troops (監軍), one platoon commander (小隊長), and one half-platoon commander (半隊長). The maru-marker ○石岡藩 then opens the block for Ishioka Domain (Hitachi, ~20,000 koku), whose administrative establishment is given by headcount: three Senior Councillors (大參事), four Acting Senior Councillors (權大參事), three Junior Councillors (小參事), two Acting Junior Councillors (權小參事), and two clerks (役司). Its forces comprise two rifle platoons of 68 men each (136 riflemen) plus twelve artillerymen (礮手), with a small variant note, 一ニ曰ク (\"one account states\"), giving an alternative return of four platoons totalling 200 men at 52 per platoon."
   },
   {
+   "id": "imao_upper_p035_right",
+   "sequence": 448,
+   "domain_canonical": "今尾藩",
+   "domain_hi_name": "今尾藩",
+   "domain_en": "Imao",
+   "image": "images/upper_p035_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 35,
+   "page_side": "R",
+   "book_page": "四十四",
+   "page_header_kanji": "藩制一覽表第一（今尾）",
+   "page_header_en": "Han-sei ichiran, Fascicle 1 (Imao)",
+   "table_number": 1,
+   "page_topic": "Imao domain fiscal and demographic record (fascicle 1)",
+   "page_summary_en": "Book page 44 carries the fascicle-1 record of Imao (今尾藩), a small Mino holding whose Takenokoshi lords had served as hereditary chief retainers of Owari. The surveyed yield (草高) is 17,906.913 koku against a nominal assessment (高) of 30,000 koku, from which a marginal note records that 10,000 koku had been returned to Nagoya domain, leaving 20,000. Regular land tax in rice is given as 5,444.337 koku, a five-year average on the 20,000-koku figure, with a further 47.011 koku from mitori fields and newly broken moor and thicket dry fields, 201.441 koku of kuchimai surcharge rice, and cash levies of 32 ryo 1 bu plus 5 monme 6 fun 5 rin in silver. The demographic side records 5,732 households and 26,411 people (13,314 male, 13,097 female), 9 shrines and 71 temples with their resident clergy, and separately 1,337 shizoku (661 male, 676 female) for whom the source states that no household count exists."
+  },
+  {
    "id": "imao_lower_p131_right",
-   "sequence": 446,
+   "sequence": 449,
    "domain_canonical": "今尾藩",
    "domain_hi_name": "今尾藩",
    "domain_en": "Imao",
@@ -7588,8 +7639,42 @@
    "page_summary_en": "This is the fascicle-8 (officials and military) opening page for Imao domain (今尾藩), a small Owari cadet house in Mino. A dating note at the head of the block records that the earlier returns were surveyed on 1870/6/19 (kanoe-uma, 6th month, 19th day) while the later returns carry no stated year or month. Imao's councillor block prints five standing rank headings — 知事, 大参事, 権大参事, 小参事, 権少参事 — of which only 大参事 and 権大参事 carry names: 奧田忠 and 高野瀨和人 under 大参事, 小串右門 and 奧田又十郎 under 権大参事. The domain also reports 66 men in outside-duty offices (外役司) and six musketeer platoons (銃兵 六小隊) at a stated 50 men per platoon, i.e. 300 men. The Isesaki (伊勢崎藩) marker opens at the left edge of the page with only its 知事 heading; Isesaki's own councillors and troops continue on the facing left page (printed p. 239)."
   },
   {
+   "id": "isesaki_upper_p035_left",
+   "sequence": 450,
+   "domain_canonical": "伊勢崎藩",
+   "domain_hi_name": "伊勢崎藩",
+   "domain_en": "Isesaki",
+   "image": "images/upper_p035_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 35,
+   "page_side": "L",
+   "book_page": "四十五",
+   "page_header_kanji": "藩制一覧表第一（伊勢崎）",
+   "page_header_en": "Hansei Ichiran, Fascicle One (Isesaki)",
+   "table_number": 1,
+   "page_topic": "Close of Imao's fascicle-1 return; opening of Isesaki",
+   "page_summary_en": "Printed page 45 of fascicle one carries the tail of Imao domain's return and then opens Isesaki's. Right of the ○伊勢崎藩 marker, Imao reports 353 sotsu (176 male, 177 female) with no separate household count, 29 villages, no eta or hinin, and a military establishment of six rifle platoons at fifty men each plus 66 officers — 366 troops in all, exactly the figure given in the small note that excludes them from the civil counts. Eight Shugendō halls holding 34 people (18 male, 16 female) and two hermitage cells holding two women are counted within the total households. A collator's note flags the last three lines as red-ink additions: a received holding assessed at 52 koku, the lands of Shin-Hasedera temple in Yoshida village, Muge district, Mino province, yielding a five-year average of 19.5 koku of rice."
+  },
+  {
+   "id": "isesaki_upper_p036_right",
+   "sequence": 451,
+   "domain_canonical": "伊勢崎藩",
+   "domain_hi_name": "伊勢崎",
+   "domain_en": "Isesaki",
+   "image": "images/upper_p036_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 36,
+   "page_side": "R",
+   "book_page": "四十六",
+   "page_header_kanji": "藩制一覧表第一（伊勢崎）",
+   "page_header_en": "Han Administration Overview, Fascicle 1 (Isesaki)",
+   "table_number": 1,
+   "page_topic": "Isesaki domain: land assessment, tax revenue, households and population by status",
+   "page_summary_en": "This leaf, printed page 46, carries the continuation of the Isesaki-han entry in Fascicle 1 of the Hansei ichiran; the domain's opening maru-marker stands on the preceding leaf, so the whole page belongs to Isesaki. The domain returns a nominal assessment (草高) of 25,492.363 koku, of which 5,492.363 koku is newly opened land (改出新田高), leaving exactly the 20,000 koku of the domain's formal rating. Tax revenue, averaged over the five years from the year of the rat to the year of the dragon, is 12,830.276 hyō of rice in regular land tax, 1,832 ryō 2 bu in gold plus 28 monme 6 fun of silver on dry fields, and 106 ryō 2 shu plus 5 monme 9 fun in miscellaneous imposts. Population is 3,978 households and 20,056 people (10,167 male, 9,889 female), itemised as 191 shizoku households with 815 people, 25 sotsu households with 115, 123 eta households with 584, 10 hinin households with 34, and 61 shrines served by 21 priestly households with 70 people; a further 163 men are recorded as soldiers and 39 as sotsu-equivalent."
+  },
+  {
    "id": "isesaki_lower_p131_left",
-   "sequence": 447,
+   "sequence": 452,
    "domain_canonical": "伊勢崎藩",
    "domain_hi_name": "伊勢崎藩",
    "domain_en": "Isesaki",
@@ -7605,8 +7690,25 @@
    "page_summary_en": "Printed page 239 continues the fascicle-8 entry for Isesaki domain, whose ○伊勢崎藩 marker and blank 知事 line stand at the end of the facing page 238. The leaf records two overlapping registers of domain officials: a first listing 大參事 Ishihara Masumi and Nagao Okujirō with three 小參事 (Tomioka Hajime, Nagaya Yasujirō, Igarashi Rai), and a second listing a 一二大參事 Nakamura Jinbee, 權大參事 Ishihara Masumi and Suzuki Nobori, and 少參事 Kawada Tōzō and Hōnoki Jihei — the duplication of Ishihara and the alternation of 小參事/少參事 reflecting the two-submission note printed at the head of the section. Military strength is given as 兵士隊 two platoons at forty men each (80 samurai troops), 卒隊 one platoon on the same establishment (40 foot troops), and 大砲 two cannon, for roughly 120 men under arms. The page carries no maru-marker of its own; the running header names Isesaki as provenance."
   },
   {
+   "id": "ichinomiya_upper_p036_left",
+   "sequence": 453,
+   "domain_canonical": "一宮藩",
+   "domain_hi_name": "一宮藩",
+   "domain_en": "Ichinomiya",
+   "image": "images/upper_p036_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 36,
+   "page_side": "L",
+   "book_page": "四十七",
+   "page_header_kanji": "藩制一覧表第一（一宮）",
+   "page_header_en": "Table of Domain Institutions, Fascicle 1 (Ichinomiya)",
+   "table_number": 1,
+   "page_topic": "Ichinomiya domain: land assessment, rice revenue, households and population",
+   "page_summary_en": "This leaf opens the Hansei Ichiran entry for Ichinomiya domain (Kazusa province) in fascicle 1 of the 1869-70 Dajōkan survey. Ichinomiya's assessed yield is given as a base 高 of 13,000 koku plus a 込高 of 3,106.40636 koku, summing exactly to the 草高 of 16,106.40636 koku, of which 537.76 koku is newly reclaimed field; five-year average rice revenue is 5,465.80373 koku. The domain reports 2,884 households and a population of 14,204, with a samurai (士族) segment of 73 households and 319 people including 33 bearing arms, and 45 卒族 households whose population count runs over onto the next leaf. The four columns to the right of the ○一宮藩 marker are trailing fields of the preceding domain, Isesaki: 50 temples with 74 monks, three infantry platoons of 40 men each under 3 platoon commanders and 22 staff, and 2 cannon."
+  },
+  {
    "id": "ichinomiya_lower_p132_right",
-   "sequence": 448,
+   "sequence": 454,
    "domain_canonical": "一宮藩",
    "domain_hi_name": "一宮藩",
    "domain_en": "Ichinomiya",
@@ -7622,8 +7724,25 @@
    "page_summary_en": "This leaf of fascicle 8 records the administrative establishment and troop strength of Ichinomiya domain (Kazusa) and opens the entry for Izumi domain (Iwaki). Ichinomiya's authorized complements are two senior councillors (daisanji), four acting senior councillors (gon-daisanji), seven junior councillors (shōsanji) and nine acting junior councillors (gon-shōsanji); the warichu notes attached to the two senior grades explain that the domain's kōgi-nin (public-assembly delegate) is drawn from those ranks, raising the effective totals to three and five respectively. Its forces number 33 heishi (samurai-rank soldiers) and 47 heisotsu (rank-and-file), the latter annotated as the Seiyū-tai. No governor's name is printed for Ichinomiya, whereas Izumi's governor is given as Honda no Fujiwara Tadanobu. Three acting junior councillors of the preceding domain, Isesaki — Tomioka Shinpachi, Nagaya Yasujirō and Igarashi Kitaru — overflow into the right margin of this page."
   },
   {
+   "id": "iwamurada_upper_p037_left",
+   "sequence": 455,
+   "domain_canonical": "岩村田藩",
+   "domain_hi_name": "岩村田藩",
+   "domain_en": "Iwamurata",
+   "image": "images/upper_p037_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 37,
+   "page_side": "L",
+   "book_page": "四十九",
+   "page_header_kanji": "藩制一覽表第一（岩村田）",
+   "page_header_en": "Table of Domain Institutions, Fascicle 1 (Iwamurada)",
+   "table_number": 1,
+   "page_topic": "Fascicle-1 fiscal and religious-establishment data: end of Izumi's entry, opening of Iwamurada's",
+   "page_summary_en": "This left-hand page of the spread (printed book page 49) carries the tail of Izumi Domain's fascicle-1 entry and the opening of Iwamurada Domain's, divided by the single maru-marker ○岩村田藩. The Izumi columns to the right of the marker record 39 shrines staffed by 16 shrine attendants and 2 negi priests, 72 temples with 27 monks, 3 halls and 5 hermitages, and 24 eta households holding 98 people (54 male, 44 female); the 村數 (village count) label prints with no figure beside it. To the left of the marker Iwamurada's entry opens with a kusadaka of 15,125.04949 koku against a nominal assessment (高) of 15,000 koku, a land tax in rice (正租米) of 3,653.5623 koku noted as a five-year average of actual collections, and a rate on the assessment of 2分4厘3毛 and over — which is exactly 3,653.5623 ÷ 15,000. Miscellaneous mountain and forest dues follow in three media: 50 kan 901.5 mon in ei-cash, 10.1803 koku of rice, and 34 kan 563 mon in copper cash."
+  },
+  {
    "id": "iwamurata_lower_p132_left",
-   "sequence": 449,
+   "sequence": 456,
    "domain_canonical": "岩村田藩",
    "domain_hi_name": "岩村田藩",
    "domain_en": "Iwamurata",
@@ -7639,8 +7758,25 @@
    "page_summary_en": "A fascicle-8 leaf carrying the tail of Izumi Domain's entry and the opening of Iwamurata Domain's. Right of the ○岩村田藩 marker, Izumi's officials are listed under three office headings — 大参事 (Kuwabara Fujiwara Shigenobu and Hirano Fujiwara Rensuke), 権大参事 (Kitagō Taira Yasusada), and 小参事 (Kameda Tachibana Akira, Takigawa Ōtomo Kazumasa, and Yamauchi Fujiwara Yamahiko) — followed by Izumi's military strength: 30 standing troops (常備兵) and 30 reserve troops (豫備兵), 60 men in all. Left of the marker, Iwamurata's roster begins: the 知事 (governor) heading is printed with no incumbent name beneath it, then 大参事 Takahashi Tōta Norimichi, 権大参事 Uehara Sakunoshin Satotsugu, and 少参事 Inoue Ryōzō Yasuchika. Iwamurata's own troop figures do not appear on this leaf. The printed page number in the bottom margin is 241."
   },
   {
+   "id": "hasunoike_upper_p038_left",
+   "sequence": 457,
+   "domain_canonical": "蓮池藩",
+   "domain_hi_name": "蓮池藩",
+   "domain_en": "Hasunoike",
+   "image": "images/upper_p038_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 38,
+   "page_side": "L",
+   "book_page": "五十一",
+   "page_header_kanji": "藩制一覽表第一（蓮池）",
+   "page_header_en": "Han Administration Survey Table, Fascicle 1 (Hasunoike)",
+   "table_number": 1,
+   "page_topic": "Kokudaka assessment, rent, and population",
+   "page_summary_en": "This is the fascicle-1 entry for Hasunoike, a branch domain of Saga in Hizen. The survey reports a gross assessed yield (草高) of 59,659.784875 koku, against a register base (本高) of 52,625 koku plus 3,225.32275 koku of re-surveyed and newly opened land. Rent (租額) comes to 23,863.91395 koku, exactly forty percent of the gross assessment, made up of 21,050 koku on the base holding together with 1,523.77235 koku of karimai and kuchimai surcharge rice, and 1,290.1416 koku on the new land; miscellaneous taxes add 74.2 koku, the rice equivalent of 371 ryō in cash. Actual collection averaged 23,335.2601 koku over five years, and the domain counted 6,232 households and 31,349 people (15,801 male, 15,548 female), of whom 354 shizoku houses held 1,770 people (865 male, 905 female)."
+  },
+  {
    "id": "hasunoike_lower_p133_right",
-   "sequence": 450,
+   "sequence": 458,
    "domain_canonical": "蓮池藩",
    "domain_hi_name": "蓮池藩",
    "domain_en": "Hasunoike",
@@ -7656,8 +7792,42 @@
    "page_summary_en": "This is the opening page of Hasunoike domain's Fascicle 8 entry, the survey's roster of domain officers. It names the governor Nabeshima Naonori (Junior Sixth Rank), one senior councillor pair (Naritomi Seiki and Ishii Kyūma), one provisional-senior pair (Naritomi Shin and Ōno Kanae), and a junior-councillor group of six — Tsuruta Seizō, Nagata Yūsuke (flagged 公議人, the domain's delegate to the public assembly), Shibayama Daizō, Tsuruta Bungo, Kagiama Shōgo and Kawazoe Ikuta / Nagasaki Shūzō. Two editorial notes survive in small type: one records that a variant copy writes Shibayama's name as 代之進, the other that Nagasaki Shūzō does not appear in the caretaker-office register (留守官書ニナシ). The right-hand quarter of the page still belongs to the preceding domain, Iwamurata: its four provisional junior councillors and its military line, 兵隊 二小隊 = 43 shizoku plus 51 sotsu, 94 men in two platoons."
   },
   {
+   "id": "hanabusa_upper_p039_right",
+   "sequence": 459,
+   "domain_canonical": "花房藩",
+   "domain_hi_name": "花房藩",
+   "domain_en": "Hanabusa",
+   "image": "images/upper_p039_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 39,
+   "page_side": "R",
+   "book_page": "五十二",
+   "page_header_kanji": "藩制一覽表第一（花房）",
+   "page_header_en": "Domain Administration Survey, Fascicle 1 (Hanabusa)",
+   "table_number": 1,
+   "page_topic": "Tail of Hasunoike's population, shrine, temple and outcaste counts, then Hanabusa's assessed yield, actual rice income and miscellaneous taxes",
+   "page_summary_en": "The right-hand third of this sheet closes out the preceding domain's fascicle-1 return: 679 sotsu-class houses holding 3,562 people (1,810 male, 1,752 female), 293 shrines with 17 shrine-attendant households (38 male, 52 female), 54 temples with 151 male and 68 female residents, and 11 outcaste households holding 84 people (40 male, 44 female). The maru-marker ○花房藩 then opens Hanabusa Domain, whose block runs to the left margin. Hanabusa reports an assessed yield (kusadaka) of 43,743.39766 koku and an actual rice income (genmai) of 14,571.554 koku averaged over the five years from 1864 to 1868, plus a supplementary 226.57666 koku drawn from surveyed-yield levies, boat duty, forest and embankment licences, grass-field rice, sailor corvée, upland land tax and mountain grass licences; the two rice figures sum exactly to the printed total of 14,798.13066 koku. Miscellaneous taxes are recorded in three currencies: 875.5 ei-mon, 8 ryo 3 bu in gold, and 659,492 mon in copper cash."
+  },
+  {
+   "id": "hanabusa_upper_p039_left",
+   "sequence": 460,
+   "domain_canonical": "花房藩",
+   "domain_hi_name": "花房藩",
+   "domain_en": "Hanabusa",
+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 39,
+   "page_side": "L",
+   "book_page": "五十三",
+   "page_header_kanji": "藩制一覧表第一（八戸）",
+   "page_header_en": "Survey of Domain Administration, Fascicle 1 (Hachinohe)",
+   "table_number": 1,
+   "page_topic": "Households, population and religious establishments (Hanabusa)",
+   "page_summary_en": "Book page 53 of the Hansei ichiran, fascicle 1. Every data column on this leaf belongs to Hanabusa domain, whose entry opened on the facing page 52; the one maru-marker here, ○八戸藩, stands at the far left and merely opens Hachinohe domain, whose own figures begin on the next page. Hanabusa is recorded with 12,063 households and a population of 61,410, against a male/female split of 32,426 and 32,078 that the printed note （改正男女減數未詳）marks as not reconciled with the revised total. Status counts are 1,288 shizoku in 312 households, 700 sotsu in 177 households, 137 eta in 19 households and 111 hinin in 20 households; the religious establishments are 564 shrines with 68 shrine-officer households (334 persons), 281 temples and 9 halls with 319 residents, plus 5 shugendō and 16 onmyōji households, while the rightmost column carries the tail of the miscellaneous-tax list from page 52 — 85 kan 245 mon 6 bu of cash as the salt-flat annual tax."
+  },
+  {
    "id": "hanabusa_lower_p133_left",
-   "sequence": 451,
+   "sequence": 461,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房藩",
    "domain_en": "Hanabusa",
@@ -7674,7 +7844,7 @@
   },
   {
    "id": "hanabusa_lower_p134_right",
-   "sequence": 452,
+   "sequence": 462,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房",
    "domain_en": "Hanabusa",
@@ -7690,8 +7860,25 @@
    "page_summary_en": "This fascicle-8 page continues the official roster of Hanabusa domain (花房藩). At right, two names (青山儀一郎, 永富織衞) complete the five-position Provisional Senior Councillor (權大參事) establishment carried over from the preceding half. The center-right heads the Junior Councillor office (少參事), with an establishment of six positions and an interlinear note recording that four serve per day, three at present, and that provisional appointees are not listed; its six holders are named. At left the Provisional Junior Councillor office (權少參事) is headed with an establishment of eight positions, of which four holders are named on this half. The printed page number is 244."
   },
   {
+   "id": "hachinohe_upper_p040_right",
+   "sequence": 463,
+   "domain_canonical": "八戸藩",
+   "domain_hi_name": "八戸藩",
+   "domain_en": "Hachinohe",
+   "image": "images/upper_p040_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 40,
+   "page_side": "R",
+   "book_page": "五十四",
+   "page_header_kanji": "藩制一覽表第一（八戸）",
+   "page_header_en": "Han Administration Survey, Fascicle 1 (Hachinohe)",
+   "table_number": 1,
+   "page_topic": "Land assessment, land and miscellaneous tax revenue, households and population",
+   "page_summary_en": "This page carries the opening economic and demographic run of the Hachinohe entry in fascicle 1 of the 1870 Han Administration Survey. It records a gross assessed yield of 40,074 koku, made up of a base assessment of 20,000 koku plus 20,074 koku of added yield, against which the regular land tax runs to 6,031.277 koku of rice and 91,642 kan 388 mon of copper cash, both stated as a five-year average covering 1864 through 1868. Miscellaneous taxes come in two forms, 12,660 ryō 2 bu 1 shu in gold and 33,261 kan 181 mon in copper cash, each followed by its rice equivalent (1,582.82031 koku and 415.765 koku) computed at the rates printed in the inline note, ten kanmon to one ryō and eight ryō to one koku of rice. The sheet closes with 13,386 households and a population of 67,647, split into 35,352 men and 32,295 women."
+  },
+  {
    "id": "hachinohe_lower_p134_left",
-   "sequence": 453,
+   "sequence": 464,
    "domain_canonical": "八戸藩",
    "domain_hi_name": "八戸藩",
    "domain_en": "Hachinohe",
@@ -7708,7 +7895,7 @@
   },
   {
    "id": "hakata_lower_p135_right",
-   "sequence": 454,
+   "sequence": 465,
    "domain_canonical": "伯太藩",
    "domain_hi_name": "伯太藩",
    "domain_en": "Hakata (Izumi Province; Watanabe clan)",
@@ -7725,7 +7912,7 @@
   },
   {
    "id": "hayashida_lower_p135_left",
-   "sequence": 455,
+   "sequence": 466,
    "domain_canonical": "林田藩",
    "domain_hi_name": "八戸藩",
    "domain_en": "Hayashida",
@@ -7741,8 +7928,42 @@
    "page_summary_en": "This fascicle-8 (officials/military) page carries the tail of the Hachinohe (八戸藩) entry followed by the opening of the Hayashida (林田藩) entry. The Hachinohe portion is an 1870 (庚午) revision, which the editor flags at top right as \"(the following eight lines were originally in red ink)\": two daisanji (Satake Yūzaburō, Nonomura Takashi), two gon-daisanji (Shiratori Seigo, Sugiura Yoshimi), two shōsanji (Ishii Arata, Kajiwara Tan) and one gon-shōsanji (Yamada Giheita), plus a troop strength of 84 men and a separate 9-man military band. At the ○林田藩 marker the Hayashida entry begins with the governor (知事, printed without a name here) and a daisanji surnamed Tatebe (建部). The outer-margin running header files the page under Hayashida; the printed page number is 247."
   },
   {
+   "id": "hanbara_upper_p042_right",
+   "sequence": 467,
+   "domain_canonical": "半原藩",
+   "domain_hi_name": "半原藩",
+   "domain_en": "Hanbara",
+   "image": "images/upper_p042_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 42,
+   "page_side": "R",
+   "book_page": "五十八",
+   "page_header_kanji": "藩制一覽表第一（半原）",
+   "page_header_en": "Table of Domain Institutions, Fascicle One — (Hanbara)",
+   "table_number": 1,
+   "page_topic": "Hanbara domain: assessed yield, tax, population, shrines, temples, villages",
+   "page_summary_en": "This page opens the fascicle-1 entry for Hanbara domain (Mikawa province, Andō house), marked by the ○半原藩 device in the fifth substantive column from the right. The domain is assessed at 22,228.137 koku of kusadaka, plus 837.23 koku of komidaka and 1,138.807 koku of new-field yield; it renders 5,829.38233 koku in regular rice tax and 892,306.075 mon of eiraku cash in miscellaneous taxes. The commoner register gives 3,029 households and 13,824 people (7,000 male, 6,824 female) in 53 villages, alongside 44 shrines staffed by 101 people and 73 temples with 122 clergy; counted separately under the heading （外ニ）are 657 samurai (343 male, 314 female) in 162 households. The four columns to the right of the marker close out the preceding entry, Hayashida domain, recording 3 shrine-office households with 12 residents and 13 temples with 68 residents."
+  },
+  {
+   "id": "hanbara_upper_p042_left",
+   "sequence": 468,
+   "domain_canonical": "半原藩",
+   "domain_hi_name": "半原藩",
+   "domain_en": "Hanbara",
+   "image": "images/upper_p042_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 42,
+   "page_side": "L",
+   "book_page": "五十九",
+   "page_header_kanji": "藩制一覽表第一（西尾）",
+   "page_header_en": "Domain Survey (Hansei ichiran), Fascicle 1 — running head names Nishio (西尾), the domain whose block opens on this leaf; the right-hand columns still belong to Hanbara.",
+   "table_number": 1,
+   "page_topic": "Close of Hanbara's status-group and population totals, then the opening of Nishio's land and revenue columns",
+   "page_summary_en": "This fascicle-1 leaf straddles two domains. It closes Hanbara (半原藩) with the bottom of its status register — 168 sotsu in 62 households (of whom 74 servants and 55 sotsu women), 242 eta in 41 households (116 men, 126 women), 6 hinin in a single household — and then a bracketed grand total for the whole domain of 3,410 households and 15,122 people, followed by Hanbara's military establishment of one regiment (a platoon being 47 men), 16 gunners, and 4 drummers and buglers. The ○西尾藩 marker then opens Nishio (西尾藩) with its assessed yield, 草高 63,205.63154 koku, and six revenue columns: regular land tax of 20,093.0826 koku of rice plus 321 kan 709 mon in cash, and miscellaneous taxes of 3,575.4648 koku of rice, 105 ryō in gold with 772.411 monme of silver, 247 kan 281 mon in eiraku cash, and 1,270 kan 259 mon in copper cash, all under a marginal note that the figures are five-year averages. The printed folio number is 59."
+  },
+  {
    "id": "hanbara_lower_p136_right",
-   "sequence": 456,
+   "sequence": 469,
    "domain_canonical": "半原藩",
    "domain_hi_name": "牟原藩",
    "domain_en": "Hanbara",
@@ -7759,7 +7980,7 @@
   },
   {
    "id": "hanbara_lower_p136_left",
-   "sequence": 457,
+   "sequence": 470,
    "domain_canonical": "半原藩",
    "domain_hi_name": "半原藩",
    "domain_en": "Hanbara",
@@ -7776,7 +7997,7 @@
   },
   {
    "id": "niimi_lower_p138_left",
-   "sequence": 458,
+   "sequence": 471,
    "domain_canonical": "新見藩",
    "domain_hi_name": "新見藩",
    "domain_en": "Niimi",
@@ -7793,7 +8014,7 @@
   },
   {
    "id": "niimi_lower_p139_right",
-   "sequence": 459,
+   "sequence": 472,
    "domain_canonical": "新見藩",
    "domain_hi_name": "新見藩",
    "domain_en": "Niimi",
@@ -7810,7 +8031,7 @@
   },
   {
    "id": "niiya_lower_p139_left",
-   "sequence": 460,
+   "sequence": 473,
    "domain_canonical": "新谷藩",
    "domain_hi_name": "新谷藩",
    "domain_en": "Niiya",
@@ -7826,8 +8047,25 @@
    "page_summary_en": "This page is the fascicle-8 (officials and military) entry for 新谷藩 (Niiya), a small Iyo-province sub-domain, printed as book page 255. It records the domain's administrative establishment: 1 governor (知事, Katō Yasunori 加藤泰令), and councillors at their current strength — 1 senior councillor (大参事), 2 acting senior councillors (権大参事), 3 junior councillors (少参事), and 3 acting junior councillors (権少参事) — with nine named officers listed, whose count (1+2+3+3) exactly matches the nine names. Military strength is given as two platoons totaling 80 persons including officers (二小隊役員共八十人). The ○新谷藩 marker sits at the block's left (tail) edge; the facing right page (254) carries the separate 西大路藩 entry."
   },
   {
+   "id": "nishibata_upper_p047_left",
+   "sequence": 474,
+   "domain_canonical": "西端藩",
+   "domain_hi_name": "西端藩",
+   "domain_en": "Nishihata",
+   "image": "images/upper_p047_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 47,
+   "page_side": "L",
+   "book_page": "六十九",
+   "page_header_kanji": "藩制一覽表第一（西大平）",
+   "page_header_en": "Domain Survey (藩制一覧表), Fascicle 1 — running head names Nishiōdaira (西大平藩), the entry that opens on this leaf; the bulk of the leaf is the tail of the preceding Nishibata (西端藩) entry",
+   "table_number": 1,
+   "page_topic": "Nishibata clergy, shrine/temple/village counts and samurai population; opening of the Nishiōdaira entry",
+   "page_summary_en": "This fascicle-1 leaf (book page 69) closes the survey entry for Nishibata (西端藩) and opens the entry for Nishiōdaira (西大平藩). For Nishibata it records 133 samurai-and-sotsu households (83 shizoku, 50 sotsu) and 362 people in that class (275 shizoku, 87 sotsu; 187 male and 175 female), alongside 41 villages, 202 Shinto shrines and 96 Buddhist temples, 101 Shinto priests in 20 households, 111 monks and nuns, and 2 Shugendō practitioners in 2 households. It then itemises four temple stipend grants in Tama district of Musashi province — Kisshōin at Yokozawa village and Kōgonji at Tokura village at 20 koku each, Myōdaiji at Ajiro village at 5 koku, and Saifukuji at Ōkuno village at 5.3 koku — bracketed under a stated total of 50.3 koku, which the four items reproduce exactly. Left of the maru-marker, Nishiōdaira's entry begins with an assessed yield (草高) of 10,416.1454 koku followed by a bare 高 sub-heading for which no figure is printed on this leaf; the entry resumes on the next leaf with a new-paddy yield of 414.5239 koku."
+  },
+  {
    "id": "nishihata_lower_p140_right",
-   "sequence": 461,
+   "sequence": 475,
    "domain_canonical": "西端藩",
    "domain_hi_name": "西端藩",
    "domain_en": "Nishihata",
@@ -7844,7 +8082,7 @@
   },
   {
    "id": "nishiohira_lower_p140_left",
-   "sequence": 462,
+   "sequence": 476,
    "domain_canonical": "西大平藩",
    "domain_hi_name": "西大平藩",
    "domain_en": "Nishiōhira",
@@ -7861,7 +8099,7 @@
   },
   {
    "id": "honjo_lower_p141_right",
-   "sequence": 463,
+   "sequence": 477,
    "domain_canonical": "本荘藩",
    "domain_hi_name": "本莊藩",
    "domain_en": "Honjō",
@@ -7878,7 +8116,7 @@
   },
   {
    "id": "toyama_lower_p143_left",
-   "sequence": 464,
+   "sequence": 478,
    "domain_canonical": "富山藩",
    "domain_hi_name": "富山藩",
    "domain_en": "Toyama",
@@ -7895,7 +8133,7 @@
   },
   {
    "id": "toyohashi_lower_p144_right",
-   "sequence": 465,
+   "sequence": 479,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -7912,7 +8150,7 @@
   },
   {
    "id": "toyohashi_lower_p144_left",
-   "sequence": 466,
+   "sequence": 480,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -7929,7 +8167,7 @@
   },
   {
    "id": "toba_lower_p145_right",
-   "sequence": 467,
+   "sequence": 481,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -7946,7 +8184,7 @@
   },
   {
    "id": "toba_lower_p145_left",
-   "sequence": 468,
+   "sequence": 482,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -7963,7 +8201,7 @@
   },
   {
    "id": "toyooka_lower_p146_right",
-   "sequence": 469,
+   "sequence": 483,
    "domain_canonical": "豐岡藩",
    "domain_hi_name": "豐岡藩",
    "domain_en": "Toyooka",
@@ -7980,7 +8218,7 @@
   },
   {
    "id": "tonami_lower_p146_left",
-   "sequence": 470,
+   "sequence": 484,
    "domain_canonical": "斗南藩",
    "domain_hi_name": "斗南藩",
    "domain_en": "Tonami",
@@ -7997,7 +8235,7 @@
   },
   {
    "id": "toyotsu_lower_p147_right",
-   "sequence": 471,
+   "sequence": 485,
    "domain_canonical": "豐津藩",
    "domain_hi_name": "豐津藩",
    "domain_en": "Toyotsu",
@@ -8014,7 +8252,7 @@
   },
   {
    "id": "oami_lower_p147_left",
-   "sequence": 472,
+   "sequence": 486,
    "domain_canonical": "大網藩",
    "domain_hi_name": "大網藩",
    "domain_en": "Ōami",
@@ -8031,7 +8269,7 @@
   },
   {
    "id": "ogi_lower_p153_left",
-   "sequence": 473,
+   "sequence": 487,
    "domain_canonical": "小城藩",
    "domain_hi_name": "小城藩",
    "domain_en": "Ogi",
@@ -8048,7 +8286,7 @@
   },
   {
    "id": "obi_lower_p154_right",
-   "sequence": 474,
+   "sequence": 488,
    "domain_canonical": "飫肥藩",
    "domain_hi_name": "飫肥藩",
    "domain_en": "Obi",
@@ -8065,7 +8303,7 @@
   },
   {
    "id": "odawara_lower_p154_left",
-   "sequence": 475,
+   "sequence": 489,
    "domain_canonical": "小田原藩",
    "domain_hi_name": "小田原藩",
    "domain_en": "Odawara",
@@ -8082,7 +8320,7 @@
   },
   {
    "id": "odawara_lower_p155_right",
-   "sequence": 476,
+   "sequence": 490,
    "domain_canonical": "小田原藩",
    "domain_hi_name": "小田原藩",
    "domain_en": "Odawara",
@@ -8099,7 +8337,7 @@
   },
   {
    "id": "okazaki_lower_p155_left",
-   "sequence": 477,
+   "sequence": 491,
    "domain_canonical": "岡崎藩",
    "domain_hi_name": "岡崎藩",
    "domain_en": "Okazaki",
@@ -8116,7 +8354,7 @@
   },
   {
    "id": "ono_lower_p156_right",
-   "sequence": 478,
+   "sequence": 492,
    "domain_canonical": "大野藩",
    "domain_hi_name": "大野藩",
    "domain_en": "Ōno",
@@ -8133,7 +8371,7 @@
   },
   {
    "id": "ono_lower_p156_left",
-   "sequence": 479,
+   "sequence": 493,
    "domain_canonical": "大野藩",
    "domain_hi_name": "大野藩",
    "domain_en": "Ōno",
@@ -8150,7 +8388,7 @@
   },
   {
    "id": "otaki_lower_p157_right",
-   "sequence": 480,
+   "sequence": 494,
    "domain_canonical": "大多喜藩",
    "domain_hi_name": "大多喜藩",
    "domain_en": "Ōtaki",
@@ -8167,7 +8405,7 @@
   },
   {
    "id": "okada_lower_p157_left",
-   "sequence": 481,
+   "sequence": 495,
    "domain_canonical": "岡田藩",
    "domain_hi_name": "岡田藩",
    "domain_en": "Okada",
@@ -8184,7 +8422,7 @@
   },
   {
    "id": "ono_lower_p158_right",
-   "sequence": 482,
+   "sequence": 496,
    "domain_canonical": "小野藩",
    "domain_hi_name": "小野藩",
    "domain_en": "Ono",
@@ -8201,7 +8439,7 @@
   },
   {
    "id": "obata_lower_p158_left",
-   "sequence": 483,
+   "sequence": 497,
    "domain_canonical": "小幡藩",
    "domain_hi_name": "小幡藩",
    "domain_en": "Obata",
@@ -8218,7 +8456,7 @@
   },
   {
    "id": "obata_lower_p159_right",
-   "sequence": 484,
+   "sequence": 498,
    "domain_canonical": "小幡藩",
    "domain_hi_name": "小幡藩",
    "domain_en": "Obata",
@@ -8235,7 +8473,7 @@
   },
   {
    "id": "kokubo_lower_p159_left",
-   "sequence": 485,
+   "sequence": 499,
    "domain_canonical": "小久保藩",
    "domain_hi_name": "小久保藩",
    "domain_en": "Kokubo",
@@ -8252,7 +8490,7 @@
   },
   {
    "id": "oyumi_lower_p160_right",
-   "sequence": 486,
+   "sequence": 500,
    "domain_canonical": "生實藩",
    "domain_hi_name": "生實藩",
    "domain_en": "Oyumi",
@@ -8269,7 +8507,7 @@
   },
   {
    "id": "oyumi_lower_p160_left",
-   "sequence": 487,
+   "sequence": 501,
    "domain_canonical": "生實藩",
    "domain_hi_name": "生實藩",
    "domain_en": "Oyumi",
@@ -8286,7 +8524,7 @@
   },
   {
    "id": "yamauchi_lower_p164_left",
-   "sequence": 488,
+   "sequence": 502,
    "domain_canonical": "山内藩",
    "domain_hi_name": "山内藩",
    "domain_en": "Yamauchi",
@@ -8303,7 +8541,7 @@
   },
   {
    "id": "kameoka_lower_p165_right",
-   "sequence": 489,
+   "sequence": 503,
    "domain_canonical": "龜岡藩",
    "domain_hi_name": "龜岡藩",
    "domain_en": "Kameoka",
@@ -8320,7 +8558,7 @@
   },
   {
    "id": "karatsu_lower_p165_left",
-   "sequence": 490,
+   "sequence": 504,
    "domain_canonical": "唐津藩",
    "domain_hi_name": "唐津藩",
    "domain_en": "Karatsu",
@@ -8337,7 +8575,7 @@
   },
   {
    "id": "kameda_lower_p168_left",
-   "sequence": 491,
+   "sequence": 505,
    "domain_canonical": "龜田藩",
    "domain_hi_name": "龜田藩",
    "domain_en": "Kameda",
@@ -8354,7 +8592,7 @@
   },
   {
    "id": "kashima_lower_p169_right",
-   "sequence": 492,
+   "sequence": 506,
    "domain_canonical": "鹿島藩",
    "domain_hi_name": "鹿島藩",
    "domain_en": "Kashima (Hizen)",
@@ -8371,7 +8609,7 @@
   },
   {
    "id": "kamogata_lower_p169_left",
-   "sequence": 493,
+   "sequence": 507,
    "domain_canonical": "鴨方藩",
    "domain_hi_name": "鴨方藩",
    "domain_en": "Kamogata",
@@ -8388,7 +8626,7 @@
   },
   {
    "id": "kashiwara_lower_p170_right",
-   "sequence": 494,
+   "sequence": 508,
    "domain_canonical": "柏原藩",
    "domain_hi_name": "柏原藩",
    "domain_en": "Kashiwara",
@@ -8405,7 +8643,7 @@
   },
   {
    "id": "karasuyama_lower_p170_left",
-   "sequence": 495,
+   "sequence": 509,
    "domain_canonical": "烏山藩",
    "domain_hi_name": "烏山藩",
    "domain_en": "Karasuyama",
@@ -8422,7 +8660,7 @@
   },
   {
    "id": "karasuyama_lower_p171_right",
-   "sequence": 496,
+   "sequence": 510,
    "domain_canonical": "烏山藩",
    "domain_hi_name": "烏山藩",
    "domain_en": "Karasuyama",
@@ -8439,7 +8677,7 @@
   },
   {
    "id": "kariya_lower_p171_left",
-   "sequence": 497,
+   "sequence": 511,
    "domain_canonical": "刈谷藩",
    "domain_hi_name": "刈谷藩",
    "domain_en": "Kariya",
@@ -8456,7 +8694,7 @@
   },
   {
    "id": "katsuyama_lower_p172_right",
-   "sequence": 498,
+   "sequence": 512,
    "domain_canonical": "勝山藩",
    "domain_hi_name": "勝山藩",
    "domain_en": "Katsuyama (Awa)",
@@ -8473,7 +8711,7 @@
   },
   {
    "id": "kanbe_lower_p172_left",
-   "sequence": 499,
+   "sequence": 513,
    "domain_canonical": "神戸藩",
    "domain_hi_name": "神戸藩",
    "domain_en": "Kanbe",
@@ -8490,7 +8728,7 @@
   },
   {
    "id": "yodo_lower_p174_right",
-   "sequence": 500,
+   "sequence": 514,
    "domain_canonical": "淀藩",
    "domain_hi_name": "淀藩",
    "domain_en": "Yodo",
@@ -8507,7 +8745,7 @@
   },
   {
    "id": "yodo_lower_p174_left",
-   "sequence": 501,
+   "sequence": 515,
    "domain_canonical": "淀藩",
    "domain_hi_name": "淀藩",
    "domain_en": "Yodo",
@@ -8524,7 +8762,7 @@
   },
   {
    "id": "yoshida_lower_p175_right",
-   "sequence": 502,
+   "sequence": 516,
    "domain_canonical": "吉田藩",
    "domain_hi_name": "吉田藩",
    "domain_en": "Yoshida (Iyo)",
@@ -8541,7 +8779,7 @@
   },
   {
    "id": "yoita_lower_p175_left",
-   "sequence": 503,
+   "sequence": 517,
    "domain_canonical": "與板藩",
    "domain_hi_name": "與板藩",
    "domain_en": "Yoita",
@@ -8558,7 +8796,7 @@
   },
   {
    "id": "takatsuki_lower_p180_right",
-   "sequence": 504,
+   "sequence": 518,
    "domain_canonical": "高槻藩",
    "domain_hi_name": "高槻藩",
    "domain_en": "Takatsuki",
@@ -8575,7 +8813,7 @@
   },
   {
    "id": "tatsuno_lower_p180_left",
-   "sequence": 505,
+   "sequence": 519,
    "domain_canonical": "龍野藩",
    "domain_hi_name": "龍野藩",
    "domain_en": "Tatsuno",
@@ -8592,7 +8830,7 @@
   },
   {
    "id": "tanabe_lower_p181_right",
-   "sequence": 506,
+   "sequence": 520,
    "domain_canonical": "田邊藩",
    "domain_hi_name": "田邊藩",
    "domain_en": "Tanabe",
@@ -8609,7 +8847,7 @@
   },
   {
    "id": "takashima_lower_p181_left",
-   "sequence": 507,
+   "sequence": 521,
    "domain_canonical": "高島藩",
    "domain_hi_name": "高島藩",
    "domain_en": "Takashima (Suwa)",
@@ -8626,7 +8864,7 @@
   },
   {
    "id": "takashima_lower_p182_right",
-   "sequence": 508,
+   "sequence": 522,
    "domain_canonical": "高島藩",
    "domain_hi_name": "高島藩",
    "domain_en": "Takashima (Suwa)",
@@ -8643,7 +8881,7 @@
   },
   {
    "id": "takato_lower_p182_left",
-   "sequence": 509,
+   "sequence": 523,
    "domain_canonical": "高遠藩",
    "domain_hi_name": "高遠藩",
    "domain_en": "Takatō",
@@ -8660,7 +8898,7 @@
   },
   {
    "id": "tsuruta_lower_p183_right",
-   "sequence": 510,
+   "sequence": 524,
    "domain_canonical": "鶴田藩",
    "domain_hi_name": "鶴田藩",
    "domain_en": "Tsuruta",
@@ -8677,7 +8915,7 @@
   },
   {
    "id": "takatori_lower_p183_left",
-   "sequence": 511,
+   "sequence": 525,
    "domain_canonical": "高取藩",
    "domain_hi_name": "高取藩",
    "domain_en": "Takatori",
@@ -8694,7 +8932,7 @@
   },
   {
    "id": "tanagura_lower_p184_right",
-   "sequence": 512,
+   "sequence": 526,
    "domain_canonical": "棚倉藩",
    "domain_hi_name": "棚倉藩",
    "domain_en": "Tanagura",
@@ -8711,7 +8949,7 @@
   },
   {
    "id": "tadotsu_lower_p184_left",
-   "sequence": 513,
+   "sequence": 527,
    "domain_canonical": "多度津藩",
    "domain_hi_name": "多度津藩",
    "domain_en": "Tadotsu",
@@ -8728,7 +8966,7 @@
   },
   {
    "id": "takasu_lower_p185_right",
-   "sequence": 514,
+   "sequence": 528,
    "domain_canonical": "高須藩",
    "domain_hi_name": "高須藩",
    "domain_en": "Takasu",
@@ -8745,7 +8983,7 @@
   },
   {
    "id": "tahara_lower_p185_left",
-   "sequence": 515,
+   "sequence": 529,
    "domain_canonical": "田原藩",
    "domain_hi_name": "田原藩",
    "domain_en": "Tahara",
@@ -8762,7 +9000,7 @@
   },
   {
    "id": "tannan_lower_p186_right",
-   "sequence": 516,
+   "sequence": 530,
    "domain_canonical": "丹南藩",
    "domain_hi_name": "丹南藩",
    "domain_en": "Tannan",
@@ -8779,7 +9017,7 @@
   },
   {
    "id": "tako_lower_p186_left",
-   "sequence": 517,
+   "sequence": 531,
    "domain_canonical": "多古藩",
    "domain_hi_name": "多古藩",
    "domain_en": "Tako",
@@ -8796,7 +9034,7 @@
   },
   {
    "id": "tako_lower_p187_right",
-   "sequence": 518,
+   "sequence": 532,
    "domain_canonical": "多古藩",
    "domain_hi_name": "多古藩",
    "domain_en": "Tako",
@@ -8813,7 +9051,7 @@
   },
   {
    "id": "tawaramoto_lower_p187_left",
-   "sequence": 519,
+   "sequence": 533,
    "domain_canonical": "田原本藩",
    "domain_hi_name": "田原本藩",
    "domain_en": "Tawaramoto",
@@ -8830,7 +9068,7 @@
   },
   {
    "id": "tateyama_lower_p188_right",
-   "sequence": 520,
+   "sequence": 534,
    "domain_canonical": "館山藩",
    "domain_hi_name": "館山藩",
    "domain_en": "Tateyama",
@@ -8847,7 +9085,7 @@
   },
   {
    "id": "takase_lower_p188_left",
-   "sequence": 521,
+   "sequence": 535,
    "domain_canonical": "高瀬藩",
    "domain_hi_name": "高瀨藩",
    "domain_en": "Takase",
@@ -8864,7 +9102,7 @@
   },
   {
    "id": "sonobe_lower_p189_left",
-   "sequence": 522,
+   "sequence": 536,
    "domain_canonical": "園部藩",
    "domain_hi_name": "園部藩",
    "domain_en": "Sonobe",
@@ -8881,7 +9119,7 @@
   },
   {
    "id": "tayasu_lower_p189_right",
-   "sequence": 523,
+   "sequence": 537,
    "domain_canonical": "田安藩",
    "domain_hi_name": "田安藩",
    "domain_en": "Tayasu",
@@ -8898,7 +9136,7 @@
   },
   {
    "id": "nariwa_lower_p195_right",
-   "sequence": 524,
+   "sequence": 538,
    "domain_canonical": "成羽藩",
    "domain_hi_name": "成羽藩",
    "domain_en": "Nariwa",
@@ -8915,7 +9153,7 @@
   },
   {
    "id": "murakami_lower_p196_right",
-   "sequence": 525,
+   "sequence": 539,
    "domain_canonical": "村上藩",
    "domain_hi_name": "村上藩",
    "domain_en": "Murakami",
@@ -8932,7 +9170,7 @@
   },
   {
    "id": "mutsuura_lower_p197_right",
-   "sequence": 526,
+   "sequence": 540,
    "domain_canonical": "六浦藩",
    "domain_hi_name": "六浦藩",
    "domain_en": "Mutsuura",
@@ -8949,7 +9187,7 @@
   },
   {
    "id": "ushiku_lower_p198_left",
-   "sequence": 527,
+   "sequence": 541,
    "domain_canonical": "牛久藩",
    "domain_hi_name": "牛久藩",
    "domain_en": "Ushiku",
@@ -8966,7 +9204,7 @@
   },
   {
    "id": "kurume_lower_p201_right",
-   "sequence": 528,
+   "sequence": 542,
    "domain_canonical": "久留米藩",
    "domain_hi_name": "久留米藩",
    "domain_en": "Kurume",
@@ -8983,7 +9221,7 @@
   },
   {
    "id": "gujo_lower_p201_left",
-   "sequence": 529,
+   "sequence": 543,
    "domain_canonical": "郡上藩",
    "domain_hi_name": "郡上藩",
    "domain_en": "Gujō",
@@ -9000,7 +9238,7 @@
   },
   {
    "id": "kururi_lower_p202_right",
-   "sequence": 530,
+   "sequence": 544,
    "domain_canonical": "久留里藩",
    "domain_hi_name": "久留里藩",
    "domain_en": "Kururi",
@@ -9017,7 +9255,7 @@
   },
   {
    "id": "kurobane_lower_p203_right",
-   "sequence": 531,
+   "sequence": 545,
    "domain_canonical": "黒羽藩",
    "domain_hi_name": "黒羽",
    "domain_en": "Kurobane",
@@ -9034,7 +9272,7 @@
   },
   {
    "id": "yanagawa_lower_p205_right",
-   "sequence": 532,
+   "sequence": 546,
    "domain_canonical": "柳河藩",
    "domain_hi_name": "柳河藩",
    "domain_en": "Yanagawa",
@@ -9051,7 +9289,7 @@
   },
   {
    "id": "yanagimoto_lower_p205_left",
-   "sequence": 533,
+   "sequence": 547,
    "domain_canonical": "柳本藩",
    "domain_hi_name": "柳本藩",
    "domain_en": "Yanagimoto",
@@ -9068,7 +9306,7 @@
   },
   {
    "id": "yamasaki_lower_p206_right",
-   "sequence": 534,
+   "sequence": 548,
    "domain_canonical": "山崎藩",
    "domain_hi_name": "山崎藩",
    "domain_en": "Yamasaki",
@@ -9085,7 +9323,7 @@
   },
   {
    "id": "yajima_lower_p206_left",
-   "sequence": 535,
+   "sequence": 549,
    "domain_canonical": "矢島藩",
    "domain_hi_name": "矢島藩",
    "domain_en": "Yajima",
@@ -9102,7 +9340,7 @@
   },
   {
    "id": "matsushiro_lower_p209_right",
-   "sequence": 536,
+   "sequence": 550,
    "domain_canonical": "松代藩",
    "domain_hi_name": "松代藩",
    "domain_en": "Matsushiro",
@@ -9119,7 +9357,7 @@
   },
   {
    "id": "maebashi_lower_p209_left",
-   "sequence": 537,
+   "sequence": 551,
    "domain_canonical": "前橋藩",
    "domain_hi_name": "前橋藩",
    "domain_en": "Maebashi",
@@ -9136,7 +9374,7 @@
   },
   {
    "id": "matsumoto_lower_p210_right",
-   "sequence": 538,
+   "sequence": 552,
    "domain_canonical": "松本藩",
    "domain_hi_name": "松本藩",
    "domain_en": "Matsumoto",
@@ -9153,7 +9391,7 @@
   },
   {
    "id": "marugame_lower_p210_left",
-   "sequence": 539,
+   "sequence": 553,
    "domain_canonical": "丸亀藩",
    "domain_hi_name": "丸龜藩",
    "domain_en": "Marugame",
@@ -9170,7 +9408,7 @@
   },
   {
    "id": "maizuru_lower_p211_right",
-   "sequence": 540,
+   "sequence": 554,
    "domain_canonical": "舞鶴藩",
    "domain_hi_name": "舞鶴藩",
    "domain_en": "Maizuru",
@@ -9187,7 +9425,7 @@
   },
   {
    "id": "maruoka_lower_p211_left",
-   "sequence": 541,
+   "sequence": 555,
    "domain_canonical": "丸岡藩",
    "domain_hi_name": "丸岡藩",
    "domain_en": "Maruoka",
@@ -9204,7 +9442,7 @@
   },
   {
    "id": "mashima_lower_p212_right",
-   "sequence": 542,
+   "sequence": 556,
    "domain_canonical": "眞島藩",
    "domain_hi_name": "眞島藩",
    "domain_en": "Mashima",
@@ -9221,7 +9459,7 @@
   },
   {
    "id": "matsumine_lower_p212_left",
-   "sequence": 543,
+   "sequence": 557,
    "domain_canonical": "松嶺藩",
    "domain_hi_name": "松嶺藩",
    "domain_en": "Matsumine",
@@ -9238,7 +9476,7 @@
   },
   {
    "id": "matsukawa_lower_p213_right",
-   "sequence": 544,
+   "sequence": 558,
    "domain_canonical": "松川藩",
    "domain_hi_name": "松川藩",
    "domain_en": "Matsukawa",
@@ -9255,7 +9493,7 @@
   },
   {
    "id": "funai_lower_p216_right",
-   "sequence": 545,
+   "sequence": 559,
    "domain_canonical": "府内藩",
    "domain_hi_name": "福知山藩",
    "domain_en": "Funai",
@@ -9272,7 +9510,7 @@
   },
   {
    "id": "fukue_lower_p216_left",
-   "sequence": 546,
+   "sequence": 560,
    "domain_canonical": "福江藩",
    "domain_hi_name": "福江藩",
    "domain_en": "Fukue",
@@ -9289,7 +9527,7 @@
   },
   {
    "id": "fukiage_lower_p217_right",
-   "sequence": 547,
+   "sequence": 561,
    "domain_canonical": "吹上藩",
    "domain_hi_name": "吹上藩",
    "domain_en": "Fukiage",
@@ -9306,7 +9544,7 @@
   },
   {
    "id": "moriyama_lower_p246_right",
-   "sequence": 548,
+   "sequence": 562,
    "domain_canonical": "守山藩",
    "domain_hi_name": "守山藩",
    "domain_en": "Moriyama",
@@ -9320,6 +9558,23 @@
    "table_number": 9,
    "page_topic": "Domain officials, with Mori's military establishment",
    "page_summary_en": "Page 468 of the Hansei ichiran, fascicle 9, opens the officials rosters of Moriyama (Mutsu) and Mori (Bungo). Moriyama returns twelve named officers: one daisanji (Sakaba Hikosuke), five gon-daisanji (Noguchi Katsuzo, Komuro Kan, Miura Taira, Okada Shinro, Kataoka Shichiroji), two shosanji (Shirato Seiji, Kataoka Hi), and four gon-shosanji (Kurabe Kuwasaku, Hanawa Jugoro, Seimiya Sohei, Mashiko Kongozaburo); two of the four office columns overflow leftward into unheaded continuation columns. Mori prints its senior post 正權大參事 with no incumbent at all, lists three shosanji (Murakami Hisashi, Kato Ryohei, Oshima Tange), and then gives its forces as three infantry platoons of forty rank-and-file plus one supervising officer each, together with one artillery company at the same complement, which comes to 164 men. A second, later return follows the military entry with a daisanji (Miyano Magoichi) and a gon-daisanji (Sakuma Sunao), and it runs on to the facing leaf."
+  },
+  {
+   "id": "izumi_upper_p037_right",
+   "sequence": 563,
+   "domain_canonical": "泉藩",
+   "domain_hi_name": "泉藩",
+   "domain_en": "Izumi",
+   "image": "images/upper_p037_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 37,
+   "page_side": "R",
+   "book_page": "四十八",
+   "page_header_kanji": "藩制一覽表第一（泉）",
+   "page_header_en": "Hansei ichiran-hyō, fascicle 1 (Izumi)",
+   "table_number": 1,
+   "page_topic": "Izumi domain opens: kokudaka, rice tax and household register (fascicle 1)",
+   "page_summary_en": "Book page 48 of fascicle 1 of the Hansei ichiran-hyō, the Dajōkan's 1869–70 domain survey. The right-hand third of the page closes out the previous domain, Ichinomiya (43 villages, 7 shrines, 55 temples, 2 hermitages and 1 hall; 13 outcaste households totalling 60 people; 47 soldiers), after which the maru-marker ○泉藩 opens the Izumi entry. Izumi reports a nominal kokudaka of 18,000 koku against an inclusive figure of 19,543.51775 koku with new-field re-surveys added, a rice tax of 4,550.24558 koku averaged over 1864–68 and 3,966.88085 koku averaged over the five years from Keiō 1 to Meiji 2, and miscellaneous cash taxes of 1,391 ryō 1 bu 1 shu plus 612 mon. The domain returns 2,049 households and a population of 9,603, with 209 shizoku and 51 sotsu; the household count for shizoku and sotsu is entered as 不詳, \"not known\", and the printed male and female figures (4,834 and 4,620) fall 149 short of the stated population total."
   }
  ]
 }
