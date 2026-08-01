@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-toyooka_upper_p060_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族六人 男二人 女四人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事家族（ちじかぞく）六人　男二人・女四人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's household: 6 persons — 2 male, 4 female. This column stands to the right of the ○豐岡藩 marker, so it is the closing field of the preceding Toba block, not Toyooka's. Sum check: 2 + 4 = 6."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鳥羽知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2643,1082,121,739"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○豐岡藩（本高壹萬五千石）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○豊岡藩（本高（ほんだか）一万五千石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Toyooka han, opening the Toyooka block. Everything to the left of this marker on the page is Toyooka. The parenthetical gives the nominal assessed yield (honkoku) as 15,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○豐岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2512,1422,106,1081"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 壹萬五千八百六石三斗三合八勺五札"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一万五千八百六石三斗三合八勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Surveyed gross yield (kusadaka) = 15,806.30385 koku. MASTER's transcription inserts a 拾 after 六; the page prints 八百六石 with no 拾, and MASTER's own parsed figure agrees with the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2364,1091,118,1515"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高新田高改出高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高（こみだか）は新田高・改出高共"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note set in two small sub-columns below the kusadaka figure: the koku folded into the figure above comprises both newly reclaimed field yield (shinden-daka) and yield added by re-survey (kaidashi-daka). Checks out against the other figures on the page: 15,806.30385 − 15,000 = 806.30385 koku of increment."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高新田高改出高共"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2364,2612,118,341"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: five-year average. It governs the three tax figures that follow — land tax rice, miscellaneous tax rice, and miscellaneous tax cash."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2258,1174,85,412"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米 五千七百八拾五石六斗四升壹合六勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）五千七百八十五石六斗四升一合六勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land tax rice, five-year average = 5,785.64165 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2112,1178,100,1756"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米 貳百貳拾石六升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米（ざつぜいまい）二百二十石六升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax rice, five-year average = 220.067 koku (the 斗 place is skipped, i.e. zero)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1982,1171,95,1007"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢 貳千六拾三貫九百廿七文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）二千六十三貫九百二十七文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax paid in cash, five-year average = 2,063 kan 927 mon (2,063,927 mon). The column is indented one step deeper than the two rice figures because the cash is the cash portion of the miscellaneous tax above it — the red-ink counterpart line labels it 同錢, 'the same, in cash'."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1856,1342,87,1004"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（◎以下七行朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（◎以下七行は朱書（しゅがき））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: the seven lines that follow were written in vermilion in the manuscript. Four of those lines are on this page (the two tax figures, the cash figure, and its rice equivalent) plus two lines of prose explanation; the seventh runs onto the facing page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "以下七行朱書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1799,1306,56,524"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（正租米 五千百三十五石八斗壹升六合貳勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（正租米（せいそまい）五千百三十五石八斗一升六合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land tax rice in the vermilion set = 5,135.8162 koku. The large opening bracket above 正 begins the parenthesis that wraps the whole seven-line vermilion block; its closing bracket falls on the facing page, where upper_p061_right opens with 通リ）. Per the prose note in the two columns that follow, this is the plain 1864-68 average, which includes the 1866 crop failure, and it therefore sits 649.83 koku below the main-text figure of 5,785.64165."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1708,1321,90,1534"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米 貳百拾九石九斗八升七合壹勺壹札"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米（ざつぜいまい）二百十九石九斗八升七合一勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax rice in the vermilion set = 219.98711 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1569,1341,103,1512"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同錢 貳千六拾壹貫貳百十九文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同銭（どうぜに）二千六十一貫二百十九文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The same miscellaneous tax paid in cash, vermilion set = 2,061 kan 219 mon (2,061,219 mon). The label 同 confirms that the cash line belongs under the miscellaneous tax heading above it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書同錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1440,1343,96,1088"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米 貳拾五石七斗六升五合貳勺三札"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此米（このこめ）二十五石七斗六升五合二勺三才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The cash figure above rendered in rice = 25.76523 koku. Arithmetic check: 25.76523 × 80,000 = 2,061,218.4 mon against the printed 2,061,219 mon, so the survey converted at 80 kan per koku and the two readings confirm each other to under one mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1307,1342,95,1344"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "是ハ甲子ヨリ戊辰マテ五ヶ年平均然ルニ右平均中丙寅年ハ非常ノ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "これは甲子（1864）より戊辰（1868）まで五ヶ年の平均なり。然るに右の平均中、丙寅年（1866）は非常の"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "First line of the explanatory note: 'These are the five-year average from the kinoe-ne year (1864) through the tsuchinoe-tatsu year (1868). However, within that average the hinoe-tora year (1866) was an extraordinary —' (continues in the next column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "凶年注記前行"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1160,1340,107,2423"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "凶作ニ而此凶年ヲ除キ癸亥ヨリ數ヘ戊辰マテ平常ノ平均額本文ノ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "凶作にて、この凶年を除き、癸亥（1863）より数えて戊辰（1868）まで、平常の平均額は本文の…"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second line of the note: '— crop failure, so excluding that famine year and counting from the mizunoto-i year (1863) through the tsuchinoe-tatsu year (1868), the normal average amount is as in the main text …'. The sentence breaks off here and runs onto the facing page, where upper_p061_right opens with 通リ）, completing it. This is what distinguishes the two sets of figures on the page: the main-text set excludes 1866, the vermilion set does not."
+      },
+      {
+        "purpose": "identifying",
+        "value": "凶年注記後行"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1029,1340,111,2423"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（豐岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第二（豊岡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: Hansei Ichiran, Table (fascicle) Two — Toyooka. Provenance only; here it names the same domain as the body of the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱題藩制一覽表第二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:931,1351,75,575"
+      }
+    }
+  },
+  {
+    "id": "anno-toyooka_upper_p060_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十五（きゅうじゅうご）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed folio number in the bottom margin: page 95. The facing page (upper_p060_right, Toba) is folio 94, and the next page (upper_p061_right, Toyooka) is folio 96."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付九十五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p060_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:909,3193,70,166"
+      }
+    }
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-toyotsu_upper_p053_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "アリイカ、後チニ見ヘタルト較フレハ恐ラク五千ハ千ノ誤リカ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〔御蔵米本文と差引とを照合すれば五千石の違ひ〕あり。イカ〔=以下カ〕、後ちに見えたるものと較ぶれば、恐らく「五千」は「千」の誤りか。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editor's head-note in the top margin, set in six short katakana columns. It completes the head-note printed in the top margin of the facing page (book p. 80), which reads 御藏米本文ト差引ト照合スレハ五千石ノ違ヒ — set the granary rice given in the body against the granary rice deducted and the two differ by 5,000 koku. This page's half runs: \"...there is [such a difference]; and comparing it with the figure that appears further on, the 五千 is probably an error for 千.\" Small emphasis circles are printed beside 五千 and beside the second 千 to mark the two readings in dispute. The figures at issue are the granary rice: p. 80 enters 企救郡代御藏米 at 31,981.2 koku among the components but deducts 36,981.2 koku, while the 但御藏米高 note on this page and 此高 on book p. 82 both give 31,981.2 again."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頭註（五千ハ千ノ誤リカ）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2406,765,340,264"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘拾六萬五千六百拾七石三斗五升貳合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残 十六万五千六百十七石三斗五升二合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remainder: 165,617.352 koku. The label 殘 is set in smaller type than the figure. The deductions it is the residue of stand on the facing page (book p. 80), where a combined assessment of 212,598.552 koku has 10,000 koku administered by Chizuka domain and 36,981.2 koku of granary rice taken off it; 212,598.552 - 10,000 - 36,981.2 = 165,617.352."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2650,1205,99,1422"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租七萬三千三拾石六斗八合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 七万三千三十石六斗八合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (shōso) in rice: 73,030.6081 koku. The 升 place is skipped, so the sub-koku run is 六斗 (0.6) + 八合 (0.008) + 壹勺 (0.0001)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2520,1209,95,1253"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ケ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Five-year average\" — a small-type qualifier printed at the foot of the regular land-tax column, stating that the 73,030.6081-koku figure is a five-year mean rather than a single year's collection."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租五ケ年平均註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2533,2468,65,337"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "壹萬千百九拾三石四斗貳升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一万千百九十三石四斗二升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "11,193.42 koku. The column carries no printed label and is indented one character below the regular land-tax line. It is exactly 35 percent of the 31,981.2-koku granary assessment named in the 但 note immediately to its left (31,981.2 x 0.35 = 11,193.42), so it is the tax taken on the domain's granary land, entered as a second head under the regular land tax. The facing page (book p. 80) calls the same quantity 企救郡代御藏米, the granary rice of the Kiku district deputy, and book p. 82 gives its 1871 counterpart as 企救郡ノ藏米."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租御藏米分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2388,1371,90,1007"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但御藏米高三萬千九百八十一石貳斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、御蔵米高 三万千九百八十一石二斗"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Note: the granary-rice assessment is 31,981.2 koku.\" This is the base on which the unlabelled 11,193.42-koku figure to its right was reckoned, at the three-and-a-half-tenths rate given in the small note at its foot."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但御藏米高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2261,1458,85,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "免三ツ五ト"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "免 三ツ五〔分〕と"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Rate: three and a half tenths\" — a small-type note at the foot of the granary-assessment line giving the tax rate as 0.35. Applied to the 31,981.2-koku base it yields the 11,193.42 koku printed two columns to the right. Book p. 82 sets the same rate note on the same assessment as 三ッ五分."
+      },
+      {
+        "purpose": "identifying",
+        "value": "御藏米免"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2208,2481,53,331"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米六千三百拾七石八斗八升四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米 六千三百十七石八斗八升四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes paid in rice: 6,317.8804 koku. The 合 place is skipped: 八斗 (0.8) + 八升 (0.08) + 四勺 (0.0004)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2118,1203,90,1346"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢壹萬五千六百拾三貫七百六文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭 一万五千六百十三貫七百六文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash: 15,613 kan 706 mon — the coin component of the miscellaneous taxes, printed indented under the 雜稅米 line."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1983,1376,91,1174"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現合米九萬五百四拾壹石九斗八合五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現合米 九万五百四十一石九斗八合五勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined rice actually received: 90,541.9085 koku. Arithmetic check: 73,030.6081 (regular land tax) + 11,193.42 (granary-land tax) + 6,317.8804 (miscellaneous rice) = 90,541.9085 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1837,1208,101,1425"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢壹萬五千六百拾三貫七百六文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭 一万五千六百十三貫七百六文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash total: 15,613 kan 706 mon. It repeats the miscellaneous-tax cash figure exactly, since that was the domain's only coin revenue head on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現合錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1711,1375,88,1170"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一高五千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、高 五千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Item: an assessment of 5,000 koku. This is the base against which the imperial reward grant (御賞典) is reckoned. The facing page (book p. 80) enters the same item as 一五千石　御賞典米, and the red-ink block lower on this page takes two and a half tenths of it to give the 1,250-koku grant, so the figure is confirmed on both sides of the spread."
+      },
+      {
+        "purpose": "identifying",
+        "value": "一高五千石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1588,1142,82,391"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但シ御賞典歩合被仰出候上本文入候心得"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、御賞典の歩合仰せ出され候上は、本文へ入れ候心得"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Note: once the proportion of the imperial reward grant has been decreed, this amount is to be understood as entered into the main text.\" A procedural caveat: the 5,000-koku item was still provisional when the return was filed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但シ御賞典歩合註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1588,1623,78,1220"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（以下六行朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（以下六行は朱書）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note in small type and parentheses: \"the following six lines are written in red ink\" in the manuscript the 1928 reprint was set from. Four of those six lines stand on this page and the remaining two on book p. 82."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（以下六行朱書）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1527,1268,56,444"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（○辛未十月廿四日ノ調査ニヨルト"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（○辛未十月二十四日の調査によると"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"(According to the survey of the 24th day of the 10th month of the kanoto-hitsuji year\" — Meiji 4/10/24, i.e. 6 December 1871, some four months after the abolition of the domains. The opening parenthesis brackets the six red-ink lines; the closing parenthesis is printed at the end of the sixth line on book p. 82. The small circle is a bullet opening the note, not a domain marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "辛未十月廿四日調査註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1447,1269,80,1259"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現米八萬九千四百二十石四斗四升七合四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現米 八万九千四百二十石四斗四升七合四〔勺〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Current rice, on the December 1871 re-survey: 89,420.4474 koku. The final 四 is printed without its 勺 unit glyph; the arithmetic of the block fixes it at the 勺 place."
+      },
+      {
+        "purpose": "identifying",
+        "value": "現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1305,1287,98,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此內千二百五十石御賞典"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の内 千二百五十石 御賞典"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Of this, 1,250 koku is the imperial reward grant\" — the shōten awarded for Boshin War service, carved out of the 89,420.4474-koku current rice figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "御賞典"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1176,1373,89,876"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但高五千石二ツ五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、高五千石の二ツ五分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Note: two and a half tenths of an assessment of 5,000 koku.\" The arithmetic holds: 5,000 x 0.25 = 1,250 koku, the reward-grant figure above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但高五千石二ツ五分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1171,2307,83,680"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "七萬六千九百七十七石貳升七合四勺　正雜"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "七万六千九百七十七石二升七合四勺　正雑"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "76,977.0274 koku, labelled 正雜 (\"regular and miscellaneous\") in a separate two-character run below the figure. Arithmetic on the 1871 block: 1,250 (reward grant) + 11,193.42 (granary rice) + 76,977.0274 = 89,420.4474, the current-rice total. The granary-rice term is printed as the fifth red-ink line on book p. 82, where it is set as 11,193.44 and leaves the block 0.02 koku over; 11,193.42, the figure printed on this page and equal to 31,981.2 x 0.35, closes it exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正雜"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1034,1283,98,1593"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（豐津）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二 （豊津）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head in the outer margin: \"Table of Domain Institutions, fascicle 2 (Toyotsu).\" It names both the fascicle (the second of the nine-fascicle 1869-70 Dajōkan survey) and the domain whose entry the page carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二（豐津）欄外標題"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:932,1372,71,573"
+      }
+    }
+  },
+  {
+    "id": "anno-toyotsu_upper_p053_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "八十一"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 81, set in the bottom of the outer margin below the running head."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁數八十一"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p053_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:916,3211,65,145"
+      }
+    }
+  }
+]

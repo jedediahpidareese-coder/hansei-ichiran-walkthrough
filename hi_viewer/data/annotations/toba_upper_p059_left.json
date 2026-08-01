@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-toba_upper_p059_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金四千貳十八兩三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金四千二十八両三分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold: 4,028 ryo 3 bu. This is the gold component of the miscellaneous-tax (雜稅) entry whose rice figure is the last column on the facing leaf; 4 bu = 1 ryo."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2613,1340,86,750"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永百九十壹文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永百九十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei-currency: 191 mon. This is the ei component of the same miscellaneous-tax (雜稅) entry as the gold figure to its right; 1,000 ei-mon = 1 ryo."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2484,1344,84,579"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢四十貫四十壹文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭四十貫四十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Copper cash: 40 kan 41 mon, that is 40,041 mon at 1,000 mon to the kan. It is the copper component of the miscellaneous-tax (雜稅) entry and the only copper item in Toba's revenue list, which is why it equals the copper total printed further left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2349,1344,83,662"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金六百六拾貳兩壹分永百廿三文鮭鰡漁其外諸運上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金六百六十二両一分　永百二十三文　鮭・鰡漁その外諸運上"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold 662 ryo 1 bu and 123 ei-mon: licence dues (unjo) on the salmon and mullet fisheries and on sundry other undertakings."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鮭鰡漁其外諸運上"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2207,1345,94,1840"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但年々不同"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し年々同じからず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the amount differs from year to year. Small-type qualifier printed beneath the fishery licence-dues entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "但年々不同"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2222,3195,66,335"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米壹萬貳千九百八十九石六斗貳升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米一万二千九百八十九石六斗二升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice, total: 12,989.625 koku (12,989 koku 6 to 2 sho 5 go)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2079,1094,94,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金壹萬五千三十貳兩三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金一万五千三十二両三分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gold, total: 15,032 ryo 3 bu. This is the gold component of the 合 total block that 合米 heads."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1948,1181,89,916"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永四十六文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永四十六文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ei-currency, total: 46 mon. This is the ei component of the 合 total block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1818,1181,85,493"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢四十貫四十壹文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭四十貫四十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Copper cash, total: 40 kan 41 mon (40,041 mon). This is the copper component of the 合 total block, and it equals the single copper item printed above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1681,1181,84,748"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數壹萬百六十壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数一万百六十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 10,161."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1548,1097,86,748"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "長屋百五十竈"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "長屋百五十竈"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Row-house tenements: 150 hearths."
+      },
+      {
+        "purpose": "identifying",
+        "value": "長屋"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1544,1935,81,500"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口五萬三千五百貳十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口五万三千五百二十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 53,521 persons. The male and female sub-counts printed below under 内 sum exactly to this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1412,1098,86,1003"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳萬六千貳百十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二万六千二百十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 26,216 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1448,2178,55,680"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳萬七千三百五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二万七千三百五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 27,305 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1388,2178,58,611"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内譯"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内訳"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Breakdown. Structural heading that opens the status-group itemisation of the household and population totals; the shizoku figures follow to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内譯"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1287,1182,77,159"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數貳百四十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数二百四十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku households: 249."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1145,1268,85,829"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千百九十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口千百九十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 1,191 persons. The label prints as a bare 人口, but it stands under the 内譯 heading and so counts the shizoku only."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1009,1429,98,663"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男六百二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku male: 602 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1046,2102,59,336"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女五百八十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku female: 589 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:983,2102,61,471"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（鳥羽）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第二（鳥羽）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Hansei Ichiran, Table Two (Toba). Provenance line printed in the outer margin, naming fascicle two and the domain whose entry runs across this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱題"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:890,1351,68,571"
+      }
+    }
+  },
+  {
+    "id": "anno-toba_upper_p059_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十三"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 93."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁付"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p059_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:874,3192,67,159"
+      }
+    }
+  }
+]
