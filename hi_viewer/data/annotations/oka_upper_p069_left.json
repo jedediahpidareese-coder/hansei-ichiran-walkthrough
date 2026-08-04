@@ -1,0 +1,572 @@
+[
+  {
+    "id": "anno-oka_upper_p069_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○岡藩（本高七萬四百四十石壹斗七升）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "岡藩（本高七万四百四十石一斗七升）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Oka Domain (original assessed yield, honkadaka: 70,440 koku 1 to 7 shō = 70,440.17 koku)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1556,1420,109,1406"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺三百六所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 三百六ヶ所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 306"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2635,1260,105,502"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口千八百五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 千八百五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population attached to the temples: 1,805 persons; the 内 split below gives 1,080 male and 725 female"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2635,1852,105,586"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 1,080 (right warichū run of the 内 split under the temple population; 1,080 + 725 = 1,805)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "男（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2666,2514,63,334"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七百廿五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 七百二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 725 (left warichū run of the 内 split; 廿 = 20)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "女（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2603,2514,63,406"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多非人シレス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多非人 知れず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta and hinin (outcaste groups): not ascertained (shiresu)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2514,1260,90,609"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社七百五十六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 七百五十六社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shintō shrines: 756"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2372,1177,102,668"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數シレス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数 知れず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: not ascertained (shiresu)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2255,1176,87,358"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "郡數七郡"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "郡数 七郡"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of counties: 7"
+      },
+      {
+        "purpose": "identifying",
+        "value": "郡數（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2233,1869,87,326"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦不所持）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "船艦 不所持"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Warships: none possessed)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2118,1090,92,433"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族五人男二人女三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事家族 五人（男二人・女三人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Domain governor's family: 5 persons — 2 male, 3 female)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1960,1089,130,753"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（步兵一大隊六百人一小隊六十人外ニ役員百五人夫方百五十人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "歩兵 一大隊六百人（一小隊六十人）、外に役員百五人・夫方百五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Infantry: one battalion of 600 men, a platoon being 60 men; besides these, 105 officers/staff and 150 laborers)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "步兵（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1813,1089,141,1425"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（砲兵一砲隊百四十四人一分隊四十八人役員六十一人夫方九十人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵 一砲隊百四十四人（一分隊四十八人）、役員六十一人・夫方九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Artillery: one company of 144 men, a squad being 48 men — 3 x 48 = 144; officers/staff 61, laborers 90)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲兵（大垣藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1667,1088,145,1719"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高九萬千八百四十四石六斗貳升三合七八込高新高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 九万千八百四十四石六斗二升三合七勺八才（込高・新高共）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (kusadaka): 91,844.62378 koku, inclusive of komi-daka and new-development yield (込高新高共); the final 七八 print without unit glyphs, giving 7 shaku 8 sai by descending place value"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1402,1085,133,1817"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "甲子ヨリ戊辰マテ五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子より戊辰まで五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Five-year average, from Kōshi (1864) to Boshin (1868) — qualifier note attached to the regular tax rice figure to its left"
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,1168,109,748"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米五萬千貳百貳十壹石九斗六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米 五万千二百二十一石九斗六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax rice: 51,221.906 koku (a five-year 1864-1868 average, per the note column to its right; the 升 place is skipped, so 9 to 0 shō 6 gō)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1150,1170,117,1336"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅米千百八拾石七斗九升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米 千百八十石七斗九升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax rice: 1,180.791 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1028,1165,110,1172"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第二（岡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Overview of Domain Administration, Table 2 (Oka) — provenance marker; here it names the domain whose block begins on this page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:927,1337,79,524"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p069_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくじゅうさん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 113 in the bottom margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "百十三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:891,3176,66,163"
+      }
+    }
+  }
+]

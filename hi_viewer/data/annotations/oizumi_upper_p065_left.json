@@ -1,0 +1,512 @@
+[
+  {
+    "id": "anno-oizumi_upper_p065_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (kusadaka) — section heading of the fiscal block. The figure itself is printed in the next column to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2617,1123,81,164"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　十二萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高　十二万石／たか 120,000こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yield: 120,000 koku — Ōizumi's (Shōnai's) gross assessed yield under the 草高 heading. Matches MASTER (120,000 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2474,1205,90,502"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　六萬八千十三石九斗九升八合五勺三才　五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米　六万八千十三石九斗九升八合五勺三才（五ヶ年平均）／せいそまい 68,013.99853こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax in rice: 68,013.99853 koku. The small print at the foot of the column, 五ヶ年平均, states that this figure is a five-year average. Matches MASTER (68,013.99853 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2332,1212,100,2105"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸雜稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸雑税（しょざつぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — section heading. The seven itemized receipts in kind and cash (rice, gold, copper cash, wax, lacquer, salt, dried squid) follow in the columns to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2212,1209,87,247"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米二千三百六十二石三斗一升三合五勺三才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米　二千三百六十二石三斗一升三合五勺三才／こめ 2,362.31353こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax rice: 2,362.31353 koku. Matches MASTER (2,362.31353 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2065,1292,103,1591"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金千百五拾一兩二分ト銀二匁七分六厘二毛六弗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金　千百五十一両二分と銀二匁七分六厘二毛六弗／きん 1,151りょう2ぶ、ぎん 2もんめ7ふん6りん2もう6ふつ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax money: 1,151 ryō 2 bu in gold, plus (ト) a silver remainder of 2 monme 7 bu 6 rin 2 mō 6 futsu. Parsed as 1,151.5 ryō for the gold portion, following MASTER (2 bu = half a ryō). The scan prints the silver tail out to 二毛六弗; the MASTER raw string stops at 二毛, so this box carries two printed glyphs MASTER does not record."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1927,1292,102,1760"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢二千五百六十四貫六百六十貳文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭　二千五百六十四貫六百六十二文／ぜに 2,564かん662もん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax copper cash: 2,564 kan 662 mon. Matches MASTER (2,564.662 kanmon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "錢"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1802,1297,94,1253"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "蠟九十五貫七百九十七匁壹分五厘五毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "蝋　九十五貫七百九十七匁一分五厘五毛／ろう 95かん797.155もんめ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax wax: 95 kan 797 monme 1 bu 5 rin 5 mō = 95.797155 kanme. Matches MASTER (95.797155 kanme)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "蠟"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1673,1294,96,1423"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "漆二十五貫二百五十七匁六分五厘四毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "漆　二十五貫二百五十七匁六分五厘四毛／うるし 25かん257.654もんめ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax lacquer: 25 kan 257 monme 6 bu 5 rin 4 mō = 25.257654 kanme. Matches MASTER (25.257654 kanme)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "漆"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1536,1292,99,1427"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鹽三石六斗"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "塩　三石六斗／しお 3.6こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax salt: 3 koku 6 to = 3.6 koku. Matches MASTER (3.6 koku)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鹽"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1410,1289,86,419"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鯣十萬枚"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鯣　十万枚／するめ 100,000まい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-tax dried squid (surume): 100,000 sheets. MASTER records this field as 鍋 (pot), but the scan reads 鯣: at single-character zoom the left radical is 魚 (hooked ⺈ top, boxy body, compressed 灬 base — not the triangular kanehen roof) and the right side is 易 (日 over the hooked diagonals of 勿), confirmed against the large-type 鍋 of the ○高鍋藩 marker on upper p127 right, whose 咼 with solid closing 口 looks entirely different. Dried squid counted in 枚 also fits a Sea-of-Japan coastal domain, and 鯣 is attested elsewhere in HI product/tax lists (館藩 鯣類・鯣粕, 高鍋藩 鯣魚)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "鯣"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1275,1294,87,331"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　一萬四千七百四十四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　一万四千七百四十四軒／こすう 14,744けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of households: 14,744. Matches MASTER (14,744 households)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1138,1126,95,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　七萬九千九百三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　七万九千九百三十四人／じんこう 79,934にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 79,934 persons. The 內 (of which) marker below introduces the male/female split printed in small double columns: 40,122 male + 39,812 female = 79,934, which reconciles exactly. Matches MASTER (79,934 persons)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1010,1126,87,1085"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四萬百二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　四万百二十二人／おとこ 40,122にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population (right small column of the 內 split): 40,122 persons. Sum-validates: 40,122 + 39,812 = 79,934, the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1046,2288,55,543"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三萬九千八百十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　三万九千八百十二人／おんな 39,812にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population (left small column of the 內 split): 39,812 persons. Sum-validates: 40,122 + 39,812 = 79,934, the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:988,2288,57,681"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（大泉）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（大泉）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer (left) margin: Han Administration Survey Table, Fascicle 2 — (Ōizumi). Provenance marker for the fascicle and domain, not survey data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二（大泉）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:890,1383,74,579"
+      }
+    }
+  },
+  {
+    "id": "anno-oizumi_upper_p065_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五／105"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the outer margin: 105."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁百五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p065_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:883,3224,63,112"
+      }
+    }
+  }
+]

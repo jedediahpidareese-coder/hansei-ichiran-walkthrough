@@ -1,0 +1,752 @@
+[
+  {
+    "id": "anno-numata_upper_p063_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米四百十七石三斗四升五合五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米 四百十七石三斗四升五合五才／このまい 417.34505こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in rice: 417 koku 3 to 4 sho 5 go 5 sai (417.34505; the shaku place is skipped) — the rice equivalent of the 畑方正租 (dry-field land tax paid in cash) printed as the last column of the facing right leaf, 金貳千四百九拾兩永五文八分 = 2,490.0058 ryo, converted at the five-year average price given in the adjacent note: 417.34505 x 5.9663 = 2,490.0058 ryo exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "前頁雜税此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2665,1534,101,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "甲子ヨリ戊辰マテ五ヶ年平均代金五兩三分永二百十六文三分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "甲子より戊辰まで五ヶ年平均 代金五両三分永二百十六文三分／かっしよりぼしんまで ごかねんへいきん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note (two sub-columns, right then left): averaged over the five years from Kasshi (1864) through Boshin (1868); price 5 ryo 3 bu and ei 216.3 mon = 5.9663 ryo per koku. Applying it to the preceding 417.34505 koku returns 2,490.0058 ryo, the 畑方正租 cash figure on the facing leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "甲子戊辰平均注記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2516,1539,129,957"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税米千七百三拾壹石八斗四升六合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税米 千七百三十一石八斗四升六合八勺／ざつぜいまい 1731.8468こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax rice: 1,731.8468 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2396,1190,105,1602"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金五百二兩一分永百六拾七文三分八厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 五百二両一分永百六十七文三分八厘／きん 502りょう1ぶ えい167.38もん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash (miscellaneous tax): 502 ryo 1 bu and ei 167.38 mon (= 502.41738 ryo; ei 1,000 mon = 1 ryo)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2257,1526,108,1428"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米六拾二石八斗二合壹勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米 六十二石八斗二合一勺七才／このまい 62.80217こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in rice: 62.80217 koku (the sho place is skipped) — the preceding 502.41738 ryo converted at 8 ryo per koku; 62.80217 x 8 = 502.417 ryo, confirming both figures"
+      },
+      {
+        "purpose": "identifying",
+        "value": "金五百二兩此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2131,1525,99,1179"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但石八兩立"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し石八両立て／ただし こく はちりょうだて"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: reckoned at 8 ryo per koku (the conversion rate for the rice figure above)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "但石八兩立注記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2111,2710,117,204"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米壹萬五千百拾壹石九斗七升二合八勺二才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米 一万五千百十一石九斗七升二合八勺二才／ごうまい 15111.97282こく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total rice: 15,111.97282 koku — equals regular tax rice 12,899.9788 (facing leaf) + 417.34505 + 1,731.8468 + 62.80217 exactly"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1987,1276,111,1765"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "成物高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "成物高／なりものだか"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Produce yield — heading printed at the foot of the total-rice column; no accompanying value appears on this page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "成物高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1997,3129,72,204"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數九千八百四軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 九千八百四軒／こすう 9804けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 9,804"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1874,1106,96,753"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口四萬二千四百九十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 四万二千四百九十九人／じんこう 42499にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 42,499 persons (MASTER writes 九拾九; the scan prints plain 十 — value unchanged)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1746,1103,93,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二萬二千七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二万二千七人／おとこ 22007にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 22,007 (22,007 + 20,492 = 42,499, matching the total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1777,2201,62,477"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二萬四百九十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二万四百九十二人／おんな 20492にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 20,492"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1709,2201,67,614"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數二百八拾軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 二百八十軒／しぞくこすう 280けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai (shizoku) households: 280 — under the structural 内 (of which) marker, left unboxed"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1608,1106,94,836"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口千百六拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同人口 千百六十七人／どうじんこう 1167にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto (samurai) population: 1,167 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1468,1105,98,922"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百六拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五百六十三人／おとこ 563にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 563 (563 + 604 = 1,167, matching the samurai total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1504,2028,66,480"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 六百四人／おんな 604にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 604"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1445,2028,58,341"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數二百二十九軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数 二百二十九軒／そつぞくこすう 229けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households: 229"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1338,1103,97,921"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口五百九拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同人口 五百九十八人／どうじんこう 598にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto (sotsu) population: 598 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1206,1104,92,918"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三百十二人／おとこ 312にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 312 (312 + 286 = 598, matching the sotsu total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1240,2030,58,403"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百八十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百八十六人／おんな 286にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 286"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1176,2030,63,474"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社五百拾社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 五百十社／じんじゃ 510しゃ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 510"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,1099,100,753"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人戸數二十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人戸数 二十一軒／しゃにんこすう 21けん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant households: 21 (right sub-column of the small-type note under the shrine count)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1108,1853,64,548"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同人口男四十八人女三十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同人口 男四十八人 女三十四人／どうじんこう おとこ48にん おんな34にん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto (shrine-attendant) population: 48 male and 34 female, 82 in all — left sub-column of the small-type note under the shrine count."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1036,1854,71,961"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（沼田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（沼田）／はんせいいちらんひょう だいに（ぬまた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran (Survey of Domain Administration), Table 2 (Numata) — running header / provenance marker in the outer margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二（沼田）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:955,1355,79,582"
+      }
+    }
+  },
+  {
+    "id": "anno-numata_upper_p063_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百一／ひゃくいち（101ページ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 101 in the bottom margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁番號百一"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p063_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:926,3202,70,100"
+      }
+    }
+  }
+]

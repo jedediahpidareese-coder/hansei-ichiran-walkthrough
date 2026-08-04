@@ -2,7 +2,7 @@
  "_meta": {
   "description": "Page manifest for the focal-4 HI viewer. Each entry corresponds to one HI page-side (left or right half of a 2-page PDF spread). The 'sequence' field is the navigation order in the viewer (left-to-right within a domain, then next domain). The 'book_page' is the printed page number visible at the bottom margin of the page.",
   "created": "2026-05-28",
-  "scope": "Whole-book expansion in progress: 578 pages, 248 domains (target 803 pages / 300 domains)."
+  "scope": "Whole-book expansion in progress: 593 pages, 250 domains (target 803 pages / 300 domains)."
  },
  "pages": [
   {
@@ -2182,8 +2182,25 @@
    "page_summary_en": "This fascicle-8 page (職員及職制, personnel and office-structure) records domain officials and military strength. Most of the page belongs to Nihonmatsu Domain (二本松藩): its office-structure counts appear in the upper register — 2 deputy senior councilors (權大參事), 3 junior councilors (少參事), a deputy junior councilor post (權少參事, no count printed), 30 standing troops (常備兵) and 30 reserve troops (豫備兵) — while its named personnel fill the lower register: six senior councilors (脇屋舍, 平山外衞, 廣瀨七郎左衞門, 崎田傳, 梅原新吾, 千賀正雄) and three public assemblymen (公議人: 森安靜夫, 德田金雄, 三宅礼). The maru-marker ○庭瀨藩 opens the entry for Niwase Domain (庭瀨藩) to its left, showing only the governor post (知事) and 3 deputy senior councilors (權大參事) before the entry continues on the following page. The printed page number is 252."
   },
   {
-   "id": "obama_upper_p067_right",
+   "id": "obama_upper_p066_left",
    "sequence": 129,
+   "domain_canonical": "小濱藩",
+   "domain_hi_name": "小濱藩",
+   "domain_en": "Obama",
+   "image": "images/upper_p066_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 66,
+   "page_side": "L",
+   "book_page": "百七",
+   "page_header_kanji": "藩制一覽表第二（小濱）",
+   "page_header_en": "Domain Administration Survey Table No. 2 (Obama)",
+   "table_number": 2,
+   "page_topic": "Obama kokudaka, tax rice, and products; Oizumi (Shonai) military overflow",
+   "page_summary_en": "This leaf opens the Obama domain's entry in Fascicle 2 of the Hansei Ichiran (1870 Dajokan domain survey). Left of the ○小濱藩 marker, Obama reports a gross assessed yield (kusadaka) of 106,599.3482 koku (original assessment, new fields, and reassessed output combined), regular tax rice of 130,102 bales 3 to 7 sho 1 go (4 to per bale), and, under 'various products and taxes,' lacquerware worth 564 ryo, 90 kanme of arrowroot starch, 14,576 kan 24 me of candles, and 8,750 nails; the 高 (yield) field prints with no figure. Right of the marker, the tail of the preceding Oizumi (Shonai) entry overflows onto the page: 34 shrines and temples, 35 rifle platoons of 40-60 men each, 4 artillery units, and 4 further units of 30 attached gunners apiece."
+  },
+  {
+   "id": "obama_upper_p067_right",
+   "sequence": 130,
    "domain_canonical": "小濱藩",
    "domain_hi_name": "小濱藩",
    "domain_en": "Obama",
@@ -2200,7 +2217,7 @@
   },
   {
    "id": "obama_upper_p067_left",
-   "sequence": 130,
+   "sequence": 131,
    "domain_canonical": "小濱藩",
    "domain_hi_name": "小濱藩",
    "domain_en": "Obama",
@@ -2217,7 +2234,7 @@
   },
   {
    "id": "obama_lower_p150_right",
-   "sequence": 131,
+   "sequence": 132,
    "domain_canonical": "小濱藩",
    "domain_hi_name": "小濱藩",
    "domain_en": "Obama",
@@ -2234,7 +2251,7 @@
   },
   {
    "id": "obama_lower_p150_left",
-   "sequence": 132,
+   "sequence": 133,
    "domain_canonical": "小濱藩",
    "domain_hi_name": "小濱藩",
    "domain_en": "Obama",
@@ -2251,7 +2268,7 @@
   },
   {
    "id": "ogaki_upper_p067_left",
-   "sequence": 133,
+   "sequence": 134,
    "domain_canonical": "大垣藩",
    "domain_hi_name": "大垣藩",
    "domain_en": "Ogaki",
@@ -2268,7 +2285,7 @@
   },
   {
    "id": "ogaki_upper_p068_right",
-   "sequence": 134,
+   "sequence": 135,
    "domain_canonical": "大垣藩",
    "domain_hi_name": "大垣藩",
    "domain_en": "Ogaki",
@@ -2285,7 +2302,7 @@
   },
   {
    "id": "ogaki_upper_p068_left",
-   "sequence": 135,
+   "sequence": 136,
    "domain_canonical": "大垣藩",
    "domain_hi_name": "大垣藩",
    "domain_en": "Ogaki",
@@ -2301,8 +2318,25 @@
    "page_summary_en": "This left half-page continues the Fascicle 2 entry for Ogaki domain (大垣藩) with a register of 寺領 (temple landholdings). Reading right to left, it lists four temples — 金蓮寺 (Konren-ji), 妙應寺 (Myōō-ji), 乙津寺 (Ottsu-ji) in Kagashima, and 阿願寺 (Agan-ji) in Higashijima — each with its 受領高 (received grant), the 租税米 (tax rice) levied on it, a household count, and a resident population broken into men, women, and 僧 (monks). Konren-ji, for example, is recorded with a 35-koku grant, 17.37 koku of tax rice, 43 households, and 194 residents; the grants for the other three run from 10 to about 55 koku."
   },
   {
+   "id": "ogaki_upper_p069_right",
+   "sequence": 137,
+   "domain_canonical": "大垣藩",
+   "domain_hi_name": "大垣藩",
+   "domain_en": "Ogaki",
+   "image": "images/upper_p069_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 69,
+   "page_side": "R",
+   "book_page": "百十二",
+   "page_header_kanji": "藩制一覽表第二（大垣）",
+   "page_header_en": "Hansei Ichiran, Table 2 (Ōgaki)",
+   "table_number": 2,
+   "page_topic": "Ōgaki domain households and population, with supervised former-hatamoto fief parcels",
+   "page_summary_en": "Continuation of Ōgaki domain's entry in Table 2 (households and population). The page first closes an itemization of former hatamoto fiefs under the domain's temporary supervision: one parcel of 4 households (1 temple) and 21 residents (9 male, 8 female, 4 monks), and a parcel at Norimatsu village, Katagata district assessed at 520.888 koku with 135.167 koku tax rice, noted as the former holdings of Uemura Umenosuke and Maeda Shinpachirō. The domain totals follow: 18,320 households and 78,667 people, though the printed male-female split (40,527 / 38,350) over-adds that total by 210 — an inconsistency in the source itself. A status breakdown lists 589 shizoku households (3,115 people), 653 sotsu households (2,640 people), and 14 Shinto-priest households (81 people)."
+  },
+  {
    "id": "ogaki_lower_p151_right",
-   "sequence": 136,
+   "sequence": 138,
    "domain_canonical": "大垣藩",
    "domain_hi_name": "大垣藩",
    "domain_en": "Ogaki",
@@ -2318,8 +2352,25 @@
    "page_summary_en": "This Fascicle 8 page covers the officials and military of Ogaki domain (大垣藩), opened by the ○ domain-boundary marker (○大垣藩). The officials section lists the domain governor (知事, with no appointee named here), one 大参事 (senior councillor, Ōhara Zesui), two 権大参事 (acting senior councillors, Takaoka and Ōhara Susumu), and one 少参事 (junior councillor, Onozaki Kurao), with the appointees' names set in a lower register. The military figures give a 銃隊 (rifle corps) of six platoons totalling 360 men, a 砲隊 (artillery corps) of 8 cannon, and 77 砲臺守衞士 (battery-guard soldiers)."
   },
   {
+   "id": "oshi_upper_p071_left",
+   "sequence": 139,
+   "domain_canonical": "忍藩",
+   "domain_hi_name": "忍藩",
+   "domain_en": "Oshi",
+   "image": "images/upper_p071_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 71,
+   "page_side": "L",
+   "book_page": "百十七",
+   "page_header_kanji": "藩制一覽表第二（忍）",
+   "page_header_en": "Domain Administration Survey, Fascicle 2 (Oshi)",
+   "table_number": 2,
+   "page_topic": "Oshi domain tax receipts (five-year averages) and shrine/temple grant total",
+   "page_summary_en": "Continuation of the Oshi domain (忍藩) fiscal entry in fascicle 2. The first five columns close an eight-line block that the Meiji compilers note was written in red ink in the original manuscript: miscellaneous tax rice 2,597.4934 koku, ei cash 2,469.98988 kanmon, gold 476.625 ryō, silver 7,453.064 monme, and chōsen coin 454.067 kanmon, all stated as five-year averages. The total current revenue (合現) is printed as 39,217.4222 koku, with a compiler's parenthetical noting that the itemized components actually sum to 39,217.3722 koku — a 0.05-koku discrepancy they preserved as found. An \"extra\" (外) block records 635.7 koku of grants received by 5 shrines and 28 temples, collected as 112.6054 koku of regular tax rice, 23.0625 ryō in gold, and 39.28708 kanmon in ei cash."
+  },
+  {
    "id": "oshi_upper_p072_right",
-   "sequence": 137,
+   "sequence": 140,
    "domain_canonical": "忍藩",
    "domain_hi_name": "忍藩",
    "domain_en": "Oshi",
@@ -2336,7 +2387,7 @@
   },
   {
    "id": "oshi_upper_p072_left",
-   "sequence": 138,
+   "sequence": 141,
    "domain_canonical": "忍藩",
    "domain_hi_name": "忍藩",
    "domain_en": "Oshi",
@@ -2353,7 +2404,7 @@
   },
   {
    "id": "ozu_upper_p072_left",
-   "sequence": 139,
+   "sequence": 142,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2370,7 +2421,7 @@
   },
   {
    "id": "ozu_upper_p073_right",
-   "sequence": 140,
+   "sequence": 143,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2387,7 +2438,7 @@
   },
   {
    "id": "ozu_upper_p073_left",
-   "sequence": 141,
+   "sequence": 144,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2404,7 +2455,7 @@
   },
   {
    "id": "ozu_lower_p152_right",
-   "sequence": 142,
+   "sequence": 145,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2421,7 +2472,7 @@
   },
   {
    "id": "ozu_lower_p152_left",
-   "sequence": 143,
+   "sequence": 146,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2438,7 +2489,7 @@
   },
   {
    "id": "ozu_lower_p153_right",
-   "sequence": 144,
+   "sequence": 147,
    "domain_canonical": "大洲藩",
    "domain_hi_name": "大洲藩",
    "domain_en": "Ozu",
@@ -2455,7 +2506,7 @@
   },
   {
    "id": "kameyama_upper_p093_right",
-   "sequence": 145,
+   "sequence": 148,
    "domain_canonical": "龜山藩",
    "domain_hi_name": "龜山藩",
    "domain_en": "Kameyama",
@@ -2472,7 +2523,7 @@
   },
   {
    "id": "kameyama_upper_p093_left",
-   "sequence": 146,
+   "sequence": 149,
    "domain_canonical": "龜山藩",
    "domain_hi_name": "龜山藩",
    "domain_en": "Kameyama",
@@ -2489,7 +2540,7 @@
   },
   {
    "id": "kameyama_lower_p166_right",
-   "sequence": 147,
+   "sequence": 150,
    "domain_canonical": "龜山藩",
    "domain_hi_name": "龜山藩",
    "domain_en": "Kameyama",
@@ -2506,7 +2557,7 @@
   },
   {
    "id": "kawagoe_upper_p093_left",
-   "sequence": 148,
+   "sequence": 151,
    "domain_canonical": "川越藩",
    "domain_hi_name": "川越藩",
    "domain_en": "Kawagoe",
@@ -2523,7 +2574,7 @@
   },
   {
    "id": "kawagoe_upper_p094_right",
-   "sequence": 149,
+   "sequence": 152,
    "domain_canonical": "川越藩",
    "domain_hi_name": "川越藩",
    "domain_en": "Kawagoe",
@@ -2540,7 +2591,7 @@
   },
   {
    "id": "kawagoe_upper_p094_left",
-   "sequence": 150,
+   "sequence": 153,
    "domain_canonical": "川越藩",
    "domain_hi_name": "川越藩",
    "domain_en": "Kawagoe",
@@ -2557,7 +2608,7 @@
   },
   {
    "id": "kawagoe_lower_p166_left",
-   "sequence": 151,
+   "sequence": 154,
    "domain_canonical": "川越藩",
    "domain_hi_name": "川越藩",
    "domain_en": "Kawagoe",
@@ -2574,7 +2625,7 @@
   },
   {
    "id": "kasama_upper_p094_left",
-   "sequence": 152,
+   "sequence": 155,
    "domain_canonical": "笠間藩",
    "domain_hi_name": "笠間藩",
    "domain_en": "Kasama",
@@ -2591,7 +2642,7 @@
   },
   {
    "id": "kasama_upper_p095_right",
-   "sequence": 153,
+   "sequence": 156,
    "domain_canonical": "笠間藩",
    "domain_hi_name": "笠間藩",
    "domain_en": "Kasama",
@@ -2608,7 +2659,7 @@
   },
   {
    "id": "kasama_upper_p095_left",
-   "sequence": 154,
+   "sequence": 157,
    "domain_canonical": "笠間藩",
    "domain_hi_name": "笠間藩",
    "domain_en": "Kasama",
@@ -2625,7 +2676,7 @@
   },
   {
    "id": "kasama_lower_p167_right",
-   "sequence": 155,
+   "sequence": 158,
    "domain_canonical": "笠間藩",
    "domain_hi_name": "笠間藩",
    "domain_en": "Kasama",
@@ -2642,7 +2693,7 @@
   },
   {
    "id": "takasaki_upper_p120_right",
-   "sequence": 156,
+   "sequence": 159,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2659,7 +2710,7 @@
   },
   {
    "id": "takasaki_upper_p120_left",
-   "sequence": 157,
+   "sequence": 160,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2676,7 +2727,7 @@
   },
   {
    "id": "takasaki_upper_p121_right",
-   "sequence": 158,
+   "sequence": 161,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2693,7 +2744,7 @@
   },
   {
    "id": "takasaki_upper_p121_left",
-   "sequence": 159,
+   "sequence": 162,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2710,7 +2761,7 @@
   },
   {
    "id": "takasaki_lower_p178_right",
-   "sequence": 160,
+   "sequence": 163,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2727,7 +2778,7 @@
   },
   {
    "id": "takasaki_lower_p178_left",
-   "sequence": 161,
+   "sequence": 164,
    "domain_canonical": "高崎藩",
    "domain_hi_name": "高崎藩",
    "domain_en": "Takasaki",
@@ -2744,7 +2795,7 @@
   },
   {
    "id": "tatebayashi_upper_p121_left",
-   "sequence": 162,
+   "sequence": 165,
    "domain_canonical": "館林藩",
    "domain_hi_name": "館林藩",
    "domain_en": "Tatebayashi",
@@ -2761,7 +2812,7 @@
   },
   {
    "id": "tatebayashi_upper_p122_right",
-   "sequence": 163,
+   "sequence": 166,
    "domain_canonical": "館林藩",
    "domain_hi_name": "館林藩",
    "domain_en": "Tatebayashi",
@@ -2778,7 +2829,7 @@
   },
   {
    "id": "tatebayashi_upper_p122_left",
-   "sequence": 164,
+   "sequence": 167,
    "domain_canonical": "館林藩",
    "domain_hi_name": "館林藩",
    "domain_en": "Tatebayashi",
@@ -2795,7 +2846,7 @@
   },
   {
    "id": "tatebayashi_lower_p179_right",
-   "sequence": 165,
+   "sequence": 168,
    "domain_canonical": "館林藩",
    "domain_hi_name": "館林藩",
    "domain_en": "Tatebayashi",
@@ -2812,7 +2863,7 @@
   },
   {
    "id": "tatebayashi_lower_p179_left",
-   "sequence": 166,
+   "sequence": 169,
    "domain_canonical": "館林藩",
    "domain_hi_name": "館林藩",
    "domain_en": "Tatebayashi",
@@ -2829,7 +2880,7 @@
   },
   {
    "id": "nakamura_upper_p159_left",
-   "sequence": 167,
+   "sequence": 170,
    "domain_canonical": "中村藩",
    "domain_hi_name": "中村藩",
    "domain_en": "Nakamura",
@@ -2846,7 +2897,7 @@
   },
   {
    "id": "nagao_upper_p161_right",
-   "sequence": 168,
+   "sequence": 171,
    "domain_canonical": "長尾藩",
    "domain_hi_name": "長尾藩",
    "domain_en": "Nagao",
@@ -2863,7 +2914,7 @@
   },
   {
    "id": "nagao_lower_p194_right",
-   "sequence": 169,
+   "sequence": 172,
    "domain_canonical": "長尾藩",
    "domain_hi_name": "長尾藩",
    "domain_en": "Nagao",
@@ -2880,7 +2931,7 @@
   },
   {
    "id": "nagaoka_upper_p161_left",
-   "sequence": 170,
+   "sequence": 173,
    "domain_canonical": "長岡藩",
    "domain_hi_name": "長岡藩",
    "domain_en": "Nagaoka",
@@ -2897,7 +2948,7 @@
   },
   {
    "id": "nagaoka_lower_p194_left",
-   "sequence": 171,
+   "sequence": 174,
    "domain_canonical": "長岡藩",
    "domain_hi_name": "長岡藩",
    "domain_en": "Nagaoka",
@@ -2913,8 +2964,59 @@
    "page_summary_en": "This fascicle-9 officials-and-military leaf names both Nagaoka and Nagashima in its running header. The primary domain is Nagaoka (長岡藩), whose ○ marker opens the block: its army (兵隊) is recorded as 828 troops, its officials headcount (官員) is undisclosed (不詳), and its named appointees run through the senior councillors (大参事: Makino Tanomo 牧野頼母, Mishima Okuchōrō, Kobayashi Torasaburō), the acting senior councillors (権大参事: Nagino Kahei, Akita Motome, Hara Ichihei, Takebe Seizō), and longer junior-councillor rosters. The note printed to the right of the Nagaoka marker (以上大参事以下姓名届留守官) belongs to the previous domain, Nakamura (中村藩), on the facing leaf. At the far left, the ○長島藩 marker opens the next domain, Nagashima, whose own officials continue on the following leaf."
   },
   {
+   "id": "oka_upper_p069_left",
+   "sequence": 175,
+   "domain_canonical": "岡藩",
+   "domain_hi_name": "岡藩",
+   "domain_en": "Oka",
+   "image": "images/upper_p069_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 69,
+   "page_side": "L",
+   "book_page": "百十三",
+   "page_header_kanji": "藩制一覽表第二（岡）",
+   "page_header_en": "Overview of Domain Administration, Table 2 (Oka)",
+   "table_number": 2,
+   "page_topic": "Fascicle-2 civil/fiscal block: end of Ōgaki entry, opening of Oka entry",
+   "page_summary_en": "This page closes the Ōgaki 大垣藩 entry in fascicle 2 of the Hansei Ichiran and opens the Oka 岡藩 entry. Ōgaki's tail records 306 temples with an attached population of 1,805 (1,080 male, 725 female), 756 shrines, 7 counties, with village count and outcaste (eta/hinin) numbers marked \"not ascertained\" (シレス), followed by parenthetical notes: no warships possessed, a governor's family of five, an infantry battalion of 600 men (60-man platoons, plus 105 officers and 150 laborers besides), and a 144-man artillery company (48-man squads, with 61 officers and 90 laborers). The ○岡藩 marker gives Oka's base assessment as 70,440.17 koku, and its block begins with a gross assessed yield of 91,844.62378 koku (inclusive of komi-daka and new-development yield), regular tax rice of 51,221.906 koku stated as a five-year average from 1864 to 1868, and miscellaneous tax rice of 1,180.791 koku."
+  },
+  {
+   "id": "oka_upper_p070_right",
+   "sequence": 176,
+   "domain_canonical": "岡藩",
+   "domain_hi_name": "岡藩",
+   "domain_en": "Oka",
+   "image": "images/upper_p070_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 70,
+   "page_side": "R",
+   "book_page": "百十四",
+   "page_header_kanji": "藩制一覧表第二（岡）",
+   "page_header_en": "Han System Overview, Fascicle 2 (Oka)",
+   "table_number": 2,
+   "page_topic": "Regular land-tax breakdown and household/population registers of Oka Domain",
+   "page_summary_en": "Continuation of the Oka Domain (Taketa, Bungo Province) entry in Fascicle 2. A red-ink block in the original manuscript, flagged by an editorial note, totals the regular land tax at 52,402 koku 6 to 9 shō 7 gō and breaks it into rice (32,788.735 koku), rice commuted to cash (4,950.747 koku, equal to 28,801 ryō 2 bu plus 24 mon in ei-cash), and rice paid in soybeans (13,482.424 koku, equal to 18,875.393 koku of soybeans); the printed components sum to 51,221.906 koku, 1,180.791 short of the printed total. The page then records 17,657 households and a population of 77,574 (39,244 male, 38,330 female), with a status breakdown giving 354 shizoku households of 2,295 persons (1,106 male, 1,189 female) and 1,273 sotsu households."
+  },
+  {
+   "id": "oka_upper_p070_left",
+   "sequence": 177,
+   "domain_canonical": "岡藩",
+   "domain_hi_name": "岡藩",
+   "domain_en": "Oka",
+   "image": "images/upper_p070_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 70,
+   "page_side": "L",
+   "book_page": "百十五",
+   "page_header_kanji": "藩制一覽表第二（岡）",
+   "page_header_en": "Han System Survey Table, Fascicle 2 (Oka)",
+   "table_number": 2,
+   "page_topic": "Oka domain status-group census, shrines and temples, villages, and military strength",
+   "page_summary_en": "Continuation of the Oka domain (Bungo province, Nakagawa house) entry in fascicle 2. The page completes the status-group census: the soldier-class (sotsu) population of 4,104 (2,269 male, 1,835 female), 141 shrine-official households with 617 persons recorded, 71 temples with 548 persons, 21 shugen (mountain-ascetic) households with 109 persons, 23 blind performers (zato), 116 eta households with 643 persons, and 7 hinin households with 51 persons. It then records 2,786 shrines, a village count marked \"not ascertainable,\" no warships, a governor's family of seven, and a force of two infantry battalions (a note explains six platoons form a battalion) plus one artillery unit. The printed shrine-official population of 617 conflicts with its own male/female split (328 + 389 = 717), an arithmetic slip in the source itself."
+  },
+  {
    "id": "oka_lower_p151_left",
-   "sequence": 172,
+   "sequence": 178,
    "domain_canonical": "岡藩",
    "domain_hi_name": "岡藩",
    "domain_en": "Oka",
@@ -2931,7 +3033,7 @@
   },
   {
    "id": "kadano_lower_p167_left",
-   "sequence": 173,
+   "sequence": 179,
    "domain_canonical": "加納藩",
    "domain_hi_name": "加納藩",
    "domain_en": "Kadano",
@@ -2948,7 +3050,7 @@
   },
   {
    "id": "kano_lower_p168_right",
-   "sequence": 174,
+   "sequence": 180,
    "domain_canonical": "加納藩",
    "domain_hi_name": "加納藩",
    "domain_en": "Kadano",
@@ -2965,7 +3067,7 @@
   },
   {
    "id": "takada_lower_p177_left",
-   "sequence": 175,
+   "sequence": 181,
    "domain_canonical": "高田藩",
    "domain_hi_name": "高田藩",
    "domain_en": "Takada",
@@ -2982,7 +3084,7 @@
   },
   {
    "id": "tsuyama_upper_p150_left",
-   "sequence": 176,
+   "sequence": 182,
    "domain_canonical": "津山藩",
    "domain_hi_name": "津山藩",
    "domain_en": "Tsuyama",
@@ -2999,7 +3101,7 @@
   },
   {
    "id": "tsuyama_lower_p190_left",
-   "sequence": 177,
+   "sequence": 183,
    "domain_canonical": "津山藩",
    "domain_hi_name": "津山藩",
    "domain_en": "Tsuyama",
@@ -3016,7 +3118,7 @@
   },
   {
    "id": "tsuwano_lower_p191_right",
-   "sequence": 178,
+   "sequence": 184,
    "domain_canonical": "津和野藩",
    "domain_hi_name": "津和野藩",
    "domain_en": "Tsuwano",
@@ -3033,7 +3135,7 @@
   },
   {
    "id": "tsuchiura_lower_p191_left",
-   "sequence": 179,
+   "sequence": 185,
    "domain_canonical": "土浦藩",
    "domain_hi_name": "土浦藩",
    "domain_en": "Tsuchiura",
@@ -3050,7 +3152,7 @@
   },
   {
    "id": "matsuyama_lower_p208_left",
-   "sequence": 180,
+   "sequence": 186,
    "domain_canonical": "松山藩",
    "domain_hi_name": "松山藩",
    "domain_en": "Matsuyama",
@@ -3067,7 +3169,7 @@
   },
   {
    "id": "himeji_lower_p100_left",
-   "sequence": 181,
+   "sequence": 187,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3084,7 +3186,7 @@
   },
   {
    "id": "himeji_lower_p101_right",
-   "sequence": 182,
+   "sequence": 188,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3101,7 +3203,7 @@
   },
   {
    "id": "himeji_lower_p101_left",
-   "sequence": 183,
+   "sequence": 189,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3118,7 +3220,7 @@
   },
   {
    "id": "himeji_lower_p102_right",
-   "sequence": 184,
+   "sequence": 190,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3135,7 +3237,7 @@
   },
   {
    "id": "himeji_lower_p102_left",
-   "sequence": 185,
+   "sequence": 191,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3152,7 +3254,7 @@
   },
   {
    "id": "himeji_lower_p243_right",
-   "sequence": 186,
+   "sequence": 192,
    "domain_canonical": "姫路藩",
    "domain_hi_name": "姫路藩",
    "domain_en": "Himeji",
@@ -3169,7 +3271,7 @@
   },
   {
    "id": "hiji_lower_p109_left",
-   "sequence": 187,
+   "sequence": 193,
    "domain_canonical": "日出藩",
    "domain_hi_name": "日出藩",
    "domain_en": "Hiji",
@@ -3186,7 +3288,7 @@
   },
   {
    "id": "hiji_lower_p110_right",
-   "sequence": 188,
+   "sequence": 194,
    "domain_canonical": "日出藩",
    "domain_hi_name": "日出藩",
    "domain_en": "Hiji",
@@ -3203,7 +3305,7 @@
   },
   {
    "id": "hiji_lower_p245_right",
-   "sequence": 189,
+   "sequence": 195,
    "domain_canonical": "日出藩",
    "domain_hi_name": "日出藩",
    "domain_en": "Hiji",
@@ -3220,7 +3322,7 @@
   },
   {
    "id": "matsuoka_upper_p218_right",
-   "sequence": 190,
+   "sequence": 196,
    "domain_canonical": "松岡藩",
    "domain_hi_name": "松岡藩",
    "domain_en": "Matsuoka",
@@ -3237,7 +3339,7 @@
   },
   {
    "id": "matsuoka_lower_p213_left",
-   "sequence": 191,
+   "sequence": 197,
    "domain_canonical": "松岡藩",
    "domain_hi_name": "松岡藩",
    "domain_en": "Matsuoka",
@@ -3254,7 +3356,7 @@
   },
   {
    "id": "shonai_upper_p065_right",
-   "sequence": 192,
+   "sequence": 198,
    "domain_canonical": "大泉藩",
    "domain_hi_name": "大泉藩",
    "domain_en": "Shōnai (Ōizumi)",
@@ -3270,8 +3372,42 @@
    "page_summary_en": "This page comes from Fascicle 2 of the survey, the demographic register, and carries the closing portion of the Okayama domain (岡山藩) entry. The ○ (domain-boundary marker) for the next domain, Ōizumi (大泉藩), appears at the lower left, so every column to the right of it belongs to Okayama. It records a commoner population of 328,341 (172,475 male, 155,874 female), broken down by status group: Shinto-priest households and population (642 households, 2,772 persons), 709 temple clergy, mountain-ascetic (山伏) households and population (105 / 323), and outcast (穢多) households and population (993 / 9,128). The grand totals are 85,431 households and 358,827 persons, and the domain reports 701 shrines, 464 temples, and one warship."
   },
   {
+   "id": "oizumi_upper_p065_left",
+   "sequence": 199,
+   "domain_canonical": "大泉藩",
+   "domain_hi_name": "大泉藩",
+   "domain_en": "Shōnai (Ōizumi)",
+   "image": "images/upper_p065_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 65,
+   "page_side": "L",
+   "book_page": "百五",
+   "page_header_kanji": "藩制一覽表第二（大泉）",
+   "page_header_en": "Han Administration Survey Table, Fascicle 2 (Ōizumi)",
+   "table_number": 2,
+   "page_topic": "Ōizumi (Shōnai) yield, taxes, households, population",
+   "page_summary_en": "Fascicle-2 fiscal and demographic block for Ōizumi domain (the renamed Shōnai domain, Dewa; castle town Tsuruoka). The page records a gross assessed yield (草高) of 120,000 koku and a regular rice tax (正租米) of 68,013.99853 koku, flagged in small print as a five-year average. Under miscellaneous taxes (諸雜稅) it itemizes 2,362.31353 koku of rice, 1,151 ryō 2 bu in gold with a small silver remainder, 2,564 kan 662 mon of copper cash, 95.797155 kanme of wax, 25.257654 kanme of lacquer, 3.6 koku of salt, and 100,000 sheets of dried squid. The page closes with 14,744 households and a population of 79,934 (40,122 male, 39,812 female)."
+  },
+  {
+   "id": "oizumi_upper_p066_right",
+   "sequence": 200,
+   "domain_canonical": "大泉藩",
+   "domain_hi_name": "大泉藩",
+   "domain_en": "Shōnai (Ōizumi)",
+   "image": "images/upper_p066_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 66,
+   "page_side": "R",
+   "book_page": "百六",
+   "page_header_kanji": "藩制一覽表第二（大泉）",
+   "page_header_en": "Hansei Ichiran, Table 2 (Ōizumi)",
+   "table_number": 2,
+   "page_topic": "Status-group and religious households and population",
+   "page_summary_en": "Continuation of the Ōizumi (Shōnai) domain entry in fascicle 2. Beyond the commoner totals reported on the preceding page, the domain lists as additional categories 48 eta/hinin households (296 persons), 930 shizoku households (5,392 persons), and 930 sotsu households (9,705 persons), each with a male/female split. A religious block headed 神社 records 526 temples (population printed as 1,604, though its own male/female components print as 1,416 and 558), 128 shrine-priest households with 673 persons, 181 shugen households with 283 persons, and 4 miko households with 16 persons. A parenthetical note states a received grant of 1,752.88343 koku, of which 1,452.31116 koku is actual rice."
+  },
+  {
    "id": "shonai_lower_p149_right",
-   "sequence": 193,
+   "sequence": 201,
    "domain_canonical": "大泉藩",
    "domain_hi_name": "大泉藩",
    "domain_en": "Shōnai (Ōizumi)",
@@ -3288,7 +3424,7 @@
   },
   {
    "id": "oizumi_lower_p149_left",
-   "sequence": 194,
+   "sequence": 202,
    "domain_canonical": "大泉藩",
    "domain_hi_name": "大泉藩",
    "domain_en": "Shōnai (Ōizumi)",
@@ -3305,7 +3441,7 @@
   },
   {
    "id": "hirosaki_lower_p097_right",
-   "sequence": 195,
+   "sequence": 203,
    "domain_canonical": "弘前藩",
    "domain_hi_name": "弘前藩",
    "domain_en": "Hirosaki",
@@ -3322,7 +3458,7 @@
   },
   {
    "id": "hirosaki_lower_p097_left",
-   "sequence": 196,
+   "sequence": 204,
    "domain_canonical": "弘前藩",
    "domain_hi_name": "弘前藩",
    "domain_en": "Hirosaki",
@@ -3339,7 +3475,7 @@
   },
   {
    "id": "mori_lower_p113_left",
-   "sequence": 197,
+   "sequence": 205,
    "domain_canonical": "森藩",
    "domain_hi_name": "森藩",
    "domain_en": "Mori",
@@ -3356,7 +3492,7 @@
   },
   {
    "id": "mori_lower_p114_right",
-   "sequence": 198,
+   "sequence": 206,
    "domain_canonical": "森藩",
    "domain_hi_name": "森藩",
    "domain_en": "Mori",
@@ -3373,7 +3509,7 @@
   },
   {
    "id": "kokura_lower_p143_right",
-   "sequence": 199,
+   "sequence": 207,
    "domain_canonical": "香春藩",
    "domain_hi_name": "香春藩",
    "domain_en": "Kokura (Kawara)",
@@ -3389,8 +3525,42 @@
    "page_summary_en": "This is a Fascicle 8 leaf recording domain officials and military strength, sitting on the boundary between two domains. The ○ (domain-boundary marker) reads ○香春藩, so the block to the left of it opens the entry for Kōharu (香春藩): a governor (知事), one senior councillor (大参事), four acting senior councillors (権大参事), and a force of forty-six companies totaling roughly 2,700 men. Everything to the right of the marker is the overflow of the preceding domain, Tottori (鳥取藩): its 権少参事 (acting junior counsellor) rank with six named appointees, and its army of ten battalions (3,734 men) plus an artillery corps (砲隊) of 240 men."
   },
   {
+   "id": "numata_upper_p063_right",
+   "sequence": 208,
+   "domain_canonical": "沼田藩",
+   "domain_hi_name": "沼田藩",
+   "domain_en": "Numata",
+   "image": "images/upper_p063_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 63,
+   "page_side": "R",
+   "book_page": "百",
+   "page_header_kanji": "藩制一覧表第二（沼田）",
+   "page_header_en": "Overview of Domain Administration, Table 2 (Numata)",
+   "table_number": 2,
+   "page_topic": "Ryūgasaki block tail (households, shrines, temples, villages) and Numata kokudaka and land-tax block",
+   "page_summary_en": "The right half of this leaf closes out the Ryūgasaki block begun on the previous page and opens the Numata block. Ryūgasaki's tail records 26 additional sotsu (foot-soldier) households with 76 persons (39 male, 37 female), 17 watchmen-hinin households with 36 persons (23 male, 13 female), 93 Shintō shrines served by 17 priest households of 73 persons (38 male, 35 female), 40 Buddhist temples with 57 residents (49 male, 8 female), and 45 villages. After the ○沼田藩 marker, Numata reports a gross assessed yield of 44,154.21279 koku, broken down into the listed 35,000 koku and 9,154.21279 koku of added-in yield, a regular land tax in rice of 12,899.9788 koku, and a regular tax on dry fields of 2,490 ryō in gold plus 5 mon 8 bu in eisen."
+  },
+  {
+   "id": "numata_upper_p063_left",
+   "sequence": 209,
+   "domain_canonical": "沼田藩",
+   "domain_hi_name": "沼田藩",
+   "domain_en": "Numata",
+   "image": "images/upper_p063_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 63,
+   "page_side": "L",
+   "book_page": "百一",
+   "page_header_kanji": "藩制一覧表第二（沼田）",
+   "page_header_en": "Hansei Ichiran (Survey of Domain Administration), Table 2 (Numata)",
+   "table_number": 2,
+   "page_topic": "Numata domain tax-rice totals, households, and status-group population",
+   "page_summary_en": "Continuation of the Numata domain entry in fascicle 2. The tax account closes here: miscellaneous tax rice of 1,731.8468 koku, a cash tax of 502.41738 ryō converted at 8 ryō per koku into 62.80217 koku, and a further conversion of 417.34505 koku priced at the 1864-1868 five-year average, bringing total tax rice to 15,111.97282 koku. The domain counts 9,804 households and 42,499 people (22,007 male, 20,492 female), of which samurai households number 280 (1,167 people) and sotsu households 229 (598 people). The page closes with 510 Shinto shrines served by 21 shrine-attendant households of 82 people, and a bare heading 成物高 (produce yield) with no value printed on this leaf."
+  },
+  {
    "id": "numata_lower_p148_right",
-   "sequence": 200,
+   "sequence": 210,
    "domain_canonical": "沼田藩",
    "domain_hi_name": "沼田藩",
    "domain_en": "Numata",
@@ -3407,7 +3577,7 @@
   },
   {
    "id": "otawara_lower_p161_right",
-   "sequence": 201,
+   "sequence": 211,
    "domain_canonical": "大田原藩",
    "domain_hi_name": "大田原藩",
    "domain_en": "Ōtawara",
@@ -3424,7 +3594,7 @@
   },
   {
    "id": "yoshimi_lower_p176_right",
-   "sequence": 202,
+   "sequence": 212,
    "domain_canonical": "吉見藩",
    "domain_hi_name": "吉見藩",
    "domain_en": "Yoshimi",
@@ -3441,7 +3611,7 @@
   },
   {
    "id": "nobeoka_lower_p199_right",
-   "sequence": 203,
+   "sequence": 213,
    "domain_canonical": "延岡藩",
    "domain_hi_name": "延岡藩",
    "domain_en": "Nobeoka",
@@ -3458,7 +3628,7 @@
   },
   {
    "id": "yamaga_lower_p207_right",
-   "sequence": 204,
+   "sequence": 214,
    "domain_canonical": "山家藩",
    "domain_hi_name": "山家藩",
    "domain_en": "Yamaga",
@@ -3475,7 +3645,7 @@
   },
   {
    "id": "yatabe_lower_p207_left",
-   "sequence": 205,
+   "sequence": 215,
    "domain_canonical": "谷田部藩",
    "domain_hi_name": "谷田部藩",
    "domain_en": "Yatabe",
@@ -3492,7 +3662,7 @@
   },
   {
    "id": "koriyama_lower_p012_left",
-   "sequence": 206,
+   "sequence": 216,
    "domain_canonical": "郡山藩",
    "domain_hi_name": "郡山藩",
    "domain_en": "Kōriyama (Yamato-Kōriyama)",
@@ -3509,7 +3679,7 @@
   },
   {
    "id": "koriyama_lower_p013_right",
-   "sequence": 207,
+   "sequence": 217,
    "domain_canonical": "郡山藩",
    "domain_hi_name": "郡山藩",
    "domain_en": "Kōriyama (Yamato-Kōriyama)",
@@ -3526,7 +3696,7 @@
   },
   {
    "id": "koriyama_lower_p013_left",
-   "sequence": 208,
+   "sequence": 218,
    "domain_canonical": "郡山藩",
    "domain_hi_name": "郡山藩",
    "domain_en": "Kōriyama (Yamato-Kōriyama)",
@@ -3543,7 +3713,7 @@
   },
   {
    "id": "koriyama_lower_p217_left",
-   "sequence": 209,
+   "sequence": 219,
    "domain_canonical": "郡山藩",
    "domain_hi_name": "郡山藩",
    "domain_en": "Kōriyama (Yamato-Kōriyama)",
@@ -3560,7 +3730,7 @@
   },
   {
    "id": "koga_lower_p015_right",
-   "sequence": 210,
+   "sequence": 220,
    "domain_canonical": "古河藩",
    "domain_hi_name": "古河藩",
    "domain_en": "Koga",
@@ -3577,7 +3747,7 @@
   },
   {
    "id": "koga_lower_p015_left",
-   "sequence": 211,
+   "sequence": 221,
    "domain_canonical": "古河藩",
    "domain_hi_name": "古河",
    "domain_en": "Koga",
@@ -3594,7 +3764,7 @@
   },
   {
    "id": "komoro_lower_p016_right",
-   "sequence": 212,
+   "sequence": 222,
    "domain_canonical": "小諸藩",
    "domain_hi_name": "小諸藩",
    "domain_en": "Komoro",
@@ -3611,7 +3781,7 @@
   },
   {
    "id": "komoro_lower_p016_left",
-   "sequence": 213,
+   "sequence": 223,
    "domain_canonical": "小諸藩",
    "domain_hi_name": "小諸",
    "domain_en": "Komoro",
@@ -3628,7 +3798,7 @@
   },
   {
    "id": "komoro_lower_p017_right",
-   "sequence": 214,
+   "sequence": 224,
    "domain_canonical": "小諸藩",
    "domain_hi_name": "小諸藩",
    "domain_en": "Komoro",
@@ -3645,7 +3815,7 @@
   },
   {
    "id": "koromo_lower_p017_left",
-   "sequence": 215,
+   "sequence": 225,
    "domain_canonical": "挙母藩",
    "domain_hi_name": "挙母",
    "domain_en": "Koromo",
@@ -3662,7 +3832,7 @@
   },
   {
    "id": "koromo_lower_p018_right",
-   "sequence": 216,
+   "sequence": 226,
    "domain_canonical": "挙母藩",
    "domain_hi_name": "擧母藩",
    "domain_en": "Koromo",
@@ -3679,7 +3849,7 @@
   },
   {
    "id": "koizumi_lower_p018_left",
-   "sequence": 217,
+   "sequence": 227,
    "domain_canonical": "小泉藩",
    "domain_hi_name": "小泉藩",
    "domain_en": "Koizumi",
@@ -3696,7 +3866,7 @@
   },
   {
    "id": "koizumi_lower_p019_right",
-   "sequence": 218,
+   "sequence": 228,
    "domain_canonical": "小泉藩",
    "domain_hi_name": "小泉藩",
    "domain_en": "Koizumi",
@@ -3713,7 +3883,7 @@
   },
   {
    "id": "komono_lower_p019_left",
-   "sequence": 219,
+   "sequence": 229,
    "domain_canonical": "菰野藩",
    "domain_hi_name": "菰野藩",
    "domain_en": "Komono",
@@ -3730,7 +3900,7 @@
   },
   {
    "id": "komono_lower_p020_right",
-   "sequence": 220,
+   "sequence": 230,
    "domain_canonical": "菰野藩",
    "domain_hi_name": "菰野",
    "domain_en": "Komono",
@@ -3747,7 +3917,7 @@
   },
   {
    "id": "komono_lower_p219_left",
-   "sequence": 221,
+   "sequence": 231,
    "domain_canonical": "菰野藩",
    "domain_hi_name": "菰野藩",
    "domain_en": "Komono",
@@ -3764,7 +3934,7 @@
   },
   {
    "id": "komatsu_lower_p020_left",
-   "sequence": 222,
+   "sequence": 232,
    "domain_canonical": "小松藩",
    "domain_hi_name": "小松藩",
    "domain_en": "Komatsu (Iyo-Komatsu)",
@@ -3781,7 +3951,7 @@
   },
   {
    "id": "komatsu_lower_p021_right",
-   "sequence": 223,
+   "sequence": 233,
    "domain_canonical": "小松藩",
    "domain_hi_name": "小松",
    "domain_en": "Komatsu (Iyo-Komatsu)",
@@ -3798,7 +3968,7 @@
   },
   {
    "id": "komatsu_lower_p021_left",
-   "sequence": 224,
+   "sequence": 234,
    "domain_canonical": "小松藩",
    "domain_hi_name": "小松藩",
    "domain_en": "Komatsu (Iyo-Komatsu)",
@@ -3815,7 +3985,7 @@
   },
   {
    "id": "komatsu_lower_p220_right",
-   "sequence": 225,
+   "sequence": 235,
    "domain_canonical": "小松藩",
    "domain_hi_name": "天童藩",
    "domain_en": "Komatsu (Iyo-Komatsu)",
@@ -3832,7 +4002,7 @@
   },
   {
    "id": "tendo_lower_p022_right",
-   "sequence": 226,
+   "sequence": 236,
    "domain_canonical": "天童藩",
    "domain_hi_name": "天童（藩制一覧表第六（天童））",
    "domain_en": "Tendō",
@@ -3849,7 +4019,7 @@
   },
   {
    "id": "tendo_lower_p022_left",
-   "sequence": 227,
+   "sequence": 237,
    "domain_canonical": "天童藩",
    "domain_hi_name": "天童藩",
    "domain_en": "Tendō",
@@ -3866,7 +4036,7 @@
   },
   {
    "id": "akita_lower_p023_right",
-   "sequence": 228,
+   "sequence": 238,
    "domain_canonical": "秋田藩",
    "domain_hi_name": "秋田藩",
    "domain_en": "Akita",
@@ -3883,7 +4053,7 @@
   },
   {
    "id": "akita_lower_p023_left",
-   "sequence": 229,
+   "sequence": 239,
    "domain_canonical": "秋田藩",
    "domain_hi_name": "秋田藩",
    "domain_en": "Akita",
@@ -3900,7 +4070,7 @@
   },
   {
    "id": "akita_lower_p024_right",
-   "sequence": 230,
+   "sequence": 240,
    "domain_canonical": "秋田藩",
    "domain_hi_name": "秋田藩",
    "domain_en": "Akita",
@@ -3917,7 +4087,7 @@
   },
   {
    "id": "akita_lower_p220_left",
-   "sequence": 231,
+   "sequence": 241,
    "domain_canonical": "秋田藩",
    "domain_hi_name": "秋田藩",
    "domain_en": "Akita",
@@ -3934,7 +4104,7 @@
   },
   {
    "id": "akashi_lower_p024_left",
-   "sequence": 232,
+   "sequence": 242,
    "domain_canonical": "明石藩",
    "domain_hi_name": "明石藩",
    "domain_en": "Akashi",
@@ -3951,7 +4121,7 @@
   },
   {
    "id": "akashi_lower_p025_right",
-   "sequence": 233,
+   "sequence": 243,
    "domain_canonical": "明石藩",
    "domain_hi_name": "明石藩",
    "domain_en": "Akashi",
@@ -3968,7 +4138,7 @@
   },
   {
    "id": "akashi_lower_p221_right",
-   "sequence": 234,
+   "sequence": 244,
    "domain_canonical": "明石藩",
    "domain_hi_name": "明石藩",
    "domain_en": "Akashi",
@@ -3985,7 +4155,7 @@
   },
   {
    "id": "akizuki_lower_p025_left",
-   "sequence": 235,
+   "sequence": 245,
    "domain_canonical": "秋月藩",
    "domain_hi_name": "秋月藩",
    "domain_en": "Akizuki",
@@ -4002,7 +4172,7 @@
   },
   {
    "id": "akizuki_lower_p026_right",
-   "sequence": 236,
+   "sequence": 246,
    "domain_canonical": "秋月藩",
    "domain_hi_name": "秋月",
    "domain_en": "Akizuki",
@@ -4019,7 +4189,7 @@
   },
   {
    "id": "akizuki_lower_p026_left",
-   "sequence": 237,
+   "sequence": 247,
    "domain_canonical": "秋月藩",
    "domain_hi_name": "秋月藩",
    "domain_en": "Akizuki",
@@ -4036,7 +4206,7 @@
   },
   {
    "id": "akizuki_lower_p221_left",
-   "sequence": 238,
+   "sequence": 248,
    "domain_canonical": "秋月藩",
    "domain_hi_name": "秋月藩",
    "domain_en": "Akizuki",
@@ -4053,7 +4223,7 @@
   },
   {
    "id": "asahiyama_lower_p027_right",
-   "sequence": 239,
+   "sequence": 249,
    "domain_canonical": "朝日山藩",
    "domain_hi_name": "朝日山藩",
    "domain_en": "Asahiyama",
@@ -4070,7 +4240,7 @@
   },
   {
    "id": "asahiyama_lower_p027_left",
-   "sequence": 240,
+   "sequence": 250,
    "domain_canonical": "朝日山藩",
    "domain_hi_name": "朝日山藩",
    "domain_en": "Asahiyama",
@@ -4087,7 +4257,7 @@
   },
   {
    "id": "asahiyama_lower_p028_right",
-   "sequence": 241,
+   "sequence": 251,
    "domain_canonical": "朝日山藩",
    "domain_hi_name": "朝日山藩",
    "domain_en": "Asahiyama",
@@ -4104,7 +4274,7 @@
   },
   {
    "id": "asahiyama_lower_p029_right",
-   "sequence": 242,
+   "sequence": 252,
    "domain_canonical": "朝日山藩",
    "domain_hi_name": "朝日山藩",
    "domain_en": "Asahiyama",
@@ -4121,7 +4291,7 @@
   },
   {
    "id": "amagasaki_lower_p029_left",
-   "sequence": 243,
+   "sequence": 253,
    "domain_canonical": "尼崎藩",
    "domain_hi_name": "尼崎藩",
    "domain_en": "Amagasaki",
@@ -4138,7 +4308,7 @@
   },
   {
    "id": "amagasaki_lower_p030_right",
-   "sequence": 244,
+   "sequence": 254,
    "domain_canonical": "尼崎藩",
    "domain_hi_name": "尼崎",
    "domain_en": "Amagasaki",
@@ -4155,7 +4325,7 @@
   },
   {
    "id": "amagasaki_lower_p222_left",
-   "sequence": 245,
+   "sequence": 255,
    "domain_canonical": "尼崎藩",
    "domain_hi_name": "尼崎藩",
    "domain_en": "Amagasaki",
@@ -4172,7 +4342,7 @@
   },
   {
    "id": "ashimori_lower_p030_left",
-   "sequence": 246,
+   "sequence": 256,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守藩",
    "domain_en": "Ashimori",
@@ -4189,7 +4359,7 @@
   },
   {
    "id": "ashimori_lower_p031_right",
-   "sequence": 247,
+   "sequence": 257,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守",
    "domain_en": "Ashimori",
@@ -4206,7 +4376,7 @@
   },
   {
    "id": "ashimori_lower_p032_right",
-   "sequence": 248,
+   "sequence": 258,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守藩",
    "domain_en": "Ashimori",
@@ -4223,7 +4393,7 @@
   },
   {
    "id": "ashimori_lower_p032_left",
-   "sequence": 249,
+   "sequence": 259,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守",
    "domain_en": "Ashimori",
@@ -4240,7 +4410,7 @@
   },
   {
    "id": "ashimori_lower_p033_right",
-   "sequence": 250,
+   "sequence": 260,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守",
    "domain_en": "Ashimori",
@@ -4257,7 +4427,7 @@
   },
   {
    "id": "ashimori_lower_p223_right",
-   "sequence": 251,
+   "sequence": 261,
    "domain_canonical": "足守藩",
    "domain_hi_name": "足守藩",
    "domain_en": "Ashimori",
@@ -4274,7 +4444,7 @@
   },
   {
    "id": "ako_lower_p033_left",
-   "sequence": 252,
+   "sequence": 262,
    "domain_canonical": "赤穂藩",
    "domain_hi_name": "赤穗藩",
    "domain_en": "Akō",
@@ -4291,7 +4461,7 @@
   },
   {
    "id": "ako_lower_p034_right",
-   "sequence": 253,
+   "sequence": 263,
    "domain_canonical": "赤穂藩",
    "domain_hi_name": "赤穗",
    "domain_en": "Akō",
@@ -4308,7 +4478,7 @@
   },
   {
    "id": "ako_lower_p034_left",
-   "sequence": 254,
+   "sequence": 264,
    "domain_canonical": "赤穂藩",
    "domain_hi_name": "赤穂藩",
    "domain_en": "Akō",
@@ -4325,7 +4495,7 @@
   },
   {
    "id": "ako_lower_p035_right",
-   "sequence": 255,
+   "sequence": 265,
    "domain_canonical": "赤穂藩",
    "domain_hi_name": "赤穂藩",
    "domain_en": "Akō",
@@ -4342,7 +4512,7 @@
   },
   {
    "id": "ako_lower_p223_left",
-   "sequence": 256,
+   "sequence": 266,
    "domain_canonical": "赤穂藩",
    "domain_hi_name": "赤穗藩",
    "domain_en": "Akō",
@@ -4359,7 +4529,7 @@
   },
   {
    "id": "ayabe_lower_p035_left",
-   "sequence": 257,
+   "sequence": 267,
    "domain_canonical": "綾部藩",
    "domain_hi_name": "綾部藩",
    "domain_en": "Ayabe",
@@ -4376,7 +4546,7 @@
   },
   {
    "id": "ayabe_lower_p036_right",
-   "sequence": 258,
+   "sequence": 268,
    "domain_canonical": "綾部藩",
    "domain_hi_name": "綾部藩",
    "domain_en": "Ayabe",
@@ -4393,7 +4563,7 @@
   },
   {
    "id": "ayabe_lower_p036_left",
-   "sequence": 259,
+   "sequence": 269,
    "domain_canonical": "綾部藩",
    "domain_hi_name": "綾部藩",
    "domain_en": "Ayabe",
@@ -4410,7 +4580,7 @@
   },
   {
    "id": "ayabe_lower_p037_right",
-   "sequence": 260,
+   "sequence": 270,
    "domain_canonical": "綾部藩",
    "domain_hi_name": "綾部藩",
    "domain_en": "Ayabe",
@@ -4427,7 +4597,7 @@
   },
   {
    "id": "annaka_lower_p037_left",
-   "sequence": 261,
+   "sequence": 271,
    "domain_canonical": "安中藩",
    "domain_hi_name": "安中藩",
    "domain_en": "Annaka",
@@ -4444,7 +4614,7 @@
   },
   {
    "id": "annaka_lower_p038_right",
-   "sequence": 262,
+   "sequence": 272,
    "domain_canonical": "安中藩",
    "domain_hi_name": "安中藩",
    "domain_en": "Annaka",
@@ -4461,7 +4631,7 @@
   },
   {
    "id": "annaka_lower_p038_left",
-   "sequence": 263,
+   "sequence": 273,
    "domain_canonical": "安中藩",
    "domain_hi_name": "安中藩",
    "domain_en": "Annaka",
@@ -4478,7 +4648,7 @@
   },
   {
    "id": "annaka_lower_p224_left",
-   "sequence": 264,
+   "sequence": 274,
    "domain_canonical": "安中藩",
    "domain_hi_name": "安中藩",
    "domain_en": "Annaka",
@@ -4495,7 +4665,7 @@
   },
   {
    "id": "asada_lower_p039_right",
-   "sequence": 265,
+   "sequence": 275,
    "domain_canonical": "麻田藩",
    "domain_hi_name": "麻田藩",
    "domain_en": "Asada",
@@ -4512,7 +4682,7 @@
   },
   {
    "id": "asada_lower_p039_left",
-   "sequence": 266,
+   "sequence": 276,
    "domain_canonical": "麻田藩",
    "domain_hi_name": "麻田藩",
    "domain_en": "Asada",
@@ -4529,7 +4699,7 @@
   },
   {
    "id": "asada_lower_p040_right",
-   "sequence": 267,
+   "sequence": 277,
    "domain_canonical": "麻田藩",
    "domain_hi_name": "麻田藩",
    "domain_en": "Asada",
@@ -4546,7 +4716,7 @@
   },
   {
    "id": "asada_lower_p225_right",
-   "sequence": 268,
+   "sequence": 278,
    "domain_canonical": "麻田藩",
    "domain_hi_name": "麻田藩",
    "domain_en": "Asada",
@@ -4563,7 +4733,7 @@
   },
   {
    "id": "aso_lower_p040_left",
-   "sequence": 269,
+   "sequence": 279,
    "domain_canonical": "麻生藩",
    "domain_hi_name": "麻生藩",
    "domain_en": "Asō",
@@ -4580,7 +4750,7 @@
   },
   {
    "id": "aso_lower_p041_right",
-   "sequence": 270,
+   "sequence": 280,
    "domain_canonical": "麻生藩",
    "domain_hi_name": "麻生藩",
    "domain_en": "Asō",
@@ -4597,7 +4767,7 @@
   },
   {
    "id": "ashikaga_lower_p041_left",
-   "sequence": 271,
+   "sequence": 281,
    "domain_canonical": "足利藩",
    "domain_hi_name": "足利藩",
    "domain_en": "Ashikaga",
@@ -4614,7 +4784,7 @@
   },
   {
    "id": "ashikaga_lower_p042_right",
-   "sequence": 272,
+   "sequence": 282,
    "domain_canonical": "足利藩",
    "domain_hi_name": "足利",
    "domain_en": "Ashikaga",
@@ -4631,7 +4801,7 @@
   },
   {
    "id": "anji_lower_p042_left",
-   "sequence": 273,
+   "sequence": 283,
    "domain_canonical": "安志藩",
    "domain_hi_name": "安志藩",
    "domain_en": "Anshi",
@@ -4648,7 +4818,7 @@
   },
   {
    "id": "anshi_lower_p043_right",
-   "sequence": 274,
+   "sequence": 284,
    "domain_canonical": "安志藩",
    "domain_hi_name": "安志",
    "domain_en": "Anshi",
@@ -4665,7 +4835,7 @@
   },
   {
    "id": "anshi_lower_p043_left",
-   "sequence": 275,
+   "sequence": 285,
    "domain_canonical": "安志藩",
    "domain_hi_name": "安志",
    "domain_en": "Anshi",
@@ -4682,7 +4852,7 @@
   },
   {
    "id": "asao_lower_p044_right",
-   "sequence": 276,
+   "sequence": 286,
    "domain_canonical": "浅尾藩",
    "domain_hi_name": "淺尾藩",
    "domain_en": "Asao",
@@ -4699,7 +4869,7 @@
   },
   {
    "id": "asao_lower_p044_left",
-   "sequence": 277,
+   "sequence": 287,
    "domain_canonical": "浅尾藩",
    "domain_hi_name": "浅尾藩",
    "domain_en": "Asao",
@@ -4716,7 +4886,7 @@
   },
   {
    "id": "sakura_lower_p047_right",
-   "sequence": 278,
+   "sequence": 288,
    "domain_canonical": "佐倉藩",
    "domain_hi_name": "佐倉藩",
    "domain_en": "Sakura",
@@ -4733,7 +4903,7 @@
   },
   {
    "id": "sakura_lower_p047_left",
-   "sequence": 279,
+   "sequence": 289,
    "domain_canonical": "佐倉藩",
    "domain_hi_name": "佐倉藩",
    "domain_en": "Sakura",
@@ -4750,7 +4920,7 @@
   },
   {
    "id": "sakura_lower_p227_left",
-   "sequence": 280,
+   "sequence": 290,
    "domain_canonical": "佐倉藩",
    "domain_hi_name": "佐倉藩",
    "domain_en": "Sakura",
@@ -4767,7 +4937,7 @@
   },
   {
    "id": "shinoyama_lower_p048_right",
-   "sequence": 281,
+   "sequence": 291,
    "domain_canonical": "篠山藩",
    "domain_hi_name": "篠山藩",
    "domain_en": "Sasayama",
@@ -4784,7 +4954,7 @@
   },
   {
    "id": "sasayama_lower_p048_left",
-   "sequence": 282,
+   "sequence": 292,
    "domain_canonical": "篠山藩",
    "domain_hi_name": "篠山藩",
    "domain_en": "Sasayama",
@@ -4801,7 +4971,7 @@
   },
   {
    "id": "sasayama_lower_p228_right",
-   "sequence": 283,
+   "sequence": 293,
    "domain_canonical": "篠山藩",
    "domain_hi_name": "篠山藩",
    "domain_en": "Sasayama",
@@ -4818,7 +4988,7 @@
   },
   {
    "id": "sadowara_lower_p049_right",
-   "sequence": 284,
+   "sequence": 294,
    "domain_canonical": "佐土原藩",
    "domain_hi_name": "佐土原藩",
    "domain_en": "Sadowara",
@@ -4835,7 +5005,7 @@
   },
   {
    "id": "sadowara_lower_p049_left",
-   "sequence": 285,
+   "sequence": 295,
    "domain_canonical": "佐土原藩",
    "domain_hi_name": "佐土原",
    "domain_en": "Sadowara",
@@ -4852,7 +5022,7 @@
   },
   {
    "id": "sadowara_lower_p050_right",
-   "sequence": 286,
+   "sequence": 296,
    "domain_canonical": "佐土原藩",
    "domain_hi_name": "佐土原藩",
    "domain_en": "Sadowara",
@@ -4869,7 +5039,7 @@
   },
   {
    "id": "saijo_lower_p050_left",
-   "sequence": 287,
+   "sequence": 297,
    "domain_canonical": "西條藩",
    "domain_hi_name": "西條藩",
    "domain_en": "Saijō",
@@ -4886,7 +5056,7 @@
   },
   {
    "id": "saijo_lower_p051_right",
-   "sequence": 288,
+   "sequence": 298,
    "domain_canonical": "西條藩",
    "domain_hi_name": "西條藩",
    "domain_en": "Saijō",
@@ -4903,7 +5073,7 @@
   },
   {
    "id": "saijo_lower_p051_left",
-   "sequence": 289,
+   "sequence": 299,
    "domain_canonical": "西條藩",
    "domain_hi_name": "西條藩",
    "domain_en": "Saijō",
@@ -4920,7 +5090,7 @@
   },
   {
    "id": "saeki_lower_p052_right",
-   "sequence": 290,
+   "sequence": 300,
    "domain_canonical": "佐伯藩",
    "domain_hi_name": "佐伯藩",
    "domain_en": "Saeki",
@@ -4937,7 +5107,7 @@
   },
   {
    "id": "saeki_lower_p052_left",
-   "sequence": 291,
+   "sequence": 301,
    "domain_canonical": "佐伯藩",
    "domain_hi_name": "佐伯藩",
    "domain_en": "Saeki",
@@ -4954,7 +5124,7 @@
   },
   {
    "id": "sanda_lower_p053_right",
-   "sequence": 292,
+   "sequence": 302,
    "domain_canonical": "三田藩",
    "domain_hi_name": "三田藩",
    "domain_en": "Sanda",
@@ -4971,7 +5141,7 @@
   },
   {
    "id": "mita_lower_p053_left",
-   "sequence": 293,
+   "sequence": 303,
    "domain_canonical": "三田藩",
    "domain_hi_name": "三田藩",
    "domain_en": "Sanda",
@@ -4988,7 +5158,7 @@
   },
   {
    "id": "sanda_lower_p229_right",
-   "sequence": 294,
+   "sequence": 304,
    "domain_canonical": "三田藩",
    "domain_hi_name": "三田藩",
    "domain_en": "Sanda",
@@ -5005,7 +5175,7 @@
   },
   {
    "id": "sabae_lower_p054_right",
-   "sequence": 295,
+   "sequence": 305,
    "domain_canonical": "鯖江藩",
    "domain_hi_name": "鯖江",
    "domain_en": "Sabae",
@@ -5022,7 +5192,7 @@
   },
   {
    "id": "sayama_lower_p054_left",
-   "sequence": 296,
+   "sequence": 306,
    "domain_canonical": "狹山藩",
    "domain_hi_name": "狹山藩",
    "domain_en": "Sayama",
@@ -5039,7 +5209,7 @@
   },
   {
    "id": "sano_lower_p055_right",
-   "sequence": 297,
+   "sequence": 307,
    "domain_canonical": "佐野藩",
    "domain_hi_name": "佐野藩",
    "domain_en": "Sano",
@@ -5056,7 +5226,7 @@
   },
   {
    "id": "sano_lower_p055_left",
-   "sequence": 298,
+   "sequence": 308,
    "domain_canonical": "佐野藩",
    "domain_hi_name": "佐野",
    "domain_en": "Sano",
@@ -5073,7 +5243,7 @@
   },
   {
    "id": "sano_lower_p229_left",
-   "sequence": 299,
+   "sequence": 309,
    "domain_canonical": "佐野藩",
    "domain_hi_name": "佐野藩",
    "domain_en": "Sano",
@@ -5090,7 +5260,7 @@
   },
   {
    "id": "sanuki_lower_p056_right",
-   "sequence": 300,
+   "sequence": 310,
    "domain_canonical": "佐貫藩",
    "domain_hi_name": "佐貫藩",
    "domain_en": "Sanuki",
@@ -5107,7 +5277,7 @@
   },
   {
    "id": "sanuki_lower_p056_left",
-   "sequence": 301,
+   "sequence": 311,
    "domain_canonical": "佐貫藩",
    "domain_hi_name": "佐貫藩",
    "domain_en": "Sanuki",
@@ -5124,7 +5294,7 @@
   },
   {
    "id": "sanuki_lower_p230_right",
-   "sequence": 302,
+   "sequence": 312,
    "domain_canonical": "佐貫藩",
    "domain_hi_name": "佐貫藩",
    "domain_en": "Sanuki",
@@ -5141,7 +5311,7 @@
   },
   {
    "id": "sakurai_lower_p057_right",
-   "sequence": 303,
+   "sequence": 313,
    "domain_canonical": "櫻井藩",
    "domain_hi_name": "櫻井藩",
    "domain_en": "Sakurai",
@@ -5158,7 +5328,7 @@
   },
   {
    "id": "sakurai_lower_p057_left",
-   "sequence": 304,
+   "sequence": 314,
    "domain_canonical": "櫻井藩",
    "domain_hi_name": "櫻井藩",
    "domain_en": "Sakurai",
@@ -5175,7 +5345,7 @@
   },
   {
    "id": "sakurai_lower_p058_right",
-   "sequence": 305,
+   "sequence": 315,
    "domain_canonical": "櫻井藩",
    "domain_hi_name": "櫻井藩",
    "domain_en": "Sakurai",
@@ -5192,7 +5362,7 @@
   },
   {
    "id": "sakurai_lower_p230_left",
-   "sequence": 306,
+   "sequence": 316,
    "domain_canonical": "櫻井藩",
    "domain_hi_name": "櫻井藩",
    "domain_en": "Sakurai",
@@ -5209,7 +5379,7 @@
   },
   {
    "id": "kishiwada_lower_p058_left",
-   "sequence": 307,
+   "sequence": 317,
    "domain_canonical": "岸和田藩",
    "domain_hi_name": "岸和田藩",
    "domain_en": "Kishiwada",
@@ -5226,7 +5396,7 @@
   },
   {
    "id": "kikuma_lower_p059_right",
-   "sequence": 308,
+   "sequence": 318,
    "domain_canonical": "菊間藩",
    "domain_hi_name": "菊間藩",
    "domain_en": "Kikuma",
@@ -5243,7 +5413,7 @@
   },
   {
    "id": "kikuma_lower_p059_left",
-   "sequence": 309,
+   "sequence": 319,
    "domain_canonical": "菊間藩",
    "domain_hi_name": "菊間藩",
    "domain_en": "Kikuma",
@@ -5260,7 +5430,7 @@
   },
   {
    "id": "kikuma_lower_p060_right",
-   "sequence": 310,
+   "sequence": 320,
    "domain_canonical": "菊間藩",
    "domain_hi_name": "菊間藩",
    "domain_en": "Kikuma",
@@ -5277,7 +5447,7 @@
   },
   {
    "id": "kikuma_lower_p231_right",
-   "sequence": 311,
+   "sequence": 321,
    "domain_canonical": "菊間藩",
    "domain_hi_name": "菊間藩",
    "domain_en": "Kikuma",
@@ -5294,7 +5464,7 @@
   },
   {
    "id": "kitsuki_lower_p061_right",
-   "sequence": 312,
+   "sequence": 322,
    "domain_canonical": "杵築藩",
    "domain_hi_name": "杵築藩",
    "domain_en": "Kitsuki",
@@ -5311,7 +5481,7 @@
   },
   {
    "id": "kiyosue_lower_p062_right",
-   "sequence": 313,
+   "sequence": 323,
    "domain_canonical": "清末藩",
    "domain_hi_name": "清末藩",
    "domain_en": "Kiyosue",
@@ -5328,7 +5498,7 @@
   },
   {
    "id": "kiyosue_lower_p232_right",
-   "sequence": 314,
+   "sequence": 324,
    "domain_canonical": "清末藩",
    "domain_hi_name": "清末藩",
    "domain_en": "Kiyosue",
@@ -5345,7 +5515,7 @@
   },
   {
    "id": "kiyosaki_lower_p063_right",
-   "sequence": 315,
+   "sequence": 325,
    "domain_canonical": "清崎藩",
    "domain_hi_name": "清崎藩",
    "domain_en": "Kiyosaki",
@@ -5362,7 +5532,7 @@
   },
   {
    "id": "kiyosaki_lower_p064_right",
-   "sequence": 316,
+   "sequence": 326,
    "domain_canonical": "清崎藩",
    "domain_hi_name": "清崎藩",
    "domain_en": "Kiyosaki",
@@ -5379,7 +5549,7 @@
   },
   {
    "id": "kiyosaki_lower_p232_left",
-   "sequence": 317,
+   "sequence": 327,
    "domain_canonical": "清崎藩",
    "domain_hi_name": "清崎藩",
    "domain_en": "Kiyosaki",
@@ -5396,7 +5566,7 @@
   },
   {
    "id": "kitsuregawa_lower_p065_left",
-   "sequence": 318,
+   "sequence": 328,
    "domain_canonical": "喜連川藩",
    "domain_hi_name": "喜連川藩",
    "domain_en": "Kitsuregawa",
@@ -5413,7 +5583,7 @@
   },
   {
    "id": "kitsuregawa_lower_p066_right",
-   "sequence": 319,
+   "sequence": 329,
    "domain_canonical": "喜連川藩",
    "domain_hi_name": "喜連川藩",
    "domain_en": "Kitsuregawa",
@@ -5430,7 +5600,7 @@
   },
   {
    "id": "yuki_lower_p066_left",
-   "sequence": 320,
+   "sequence": 330,
    "domain_canonical": "結城藩",
    "domain_hi_name": "結城藩",
    "domain_en": "Yūki",
@@ -5447,7 +5617,7 @@
   },
   {
    "id": "yuki_lower_p067_right",
-   "sequence": 321,
+   "sequence": 331,
    "domain_canonical": "結城藩",
    "domain_hi_name": "結城藩",
    "domain_en": "Yūki",
@@ -5464,7 +5634,7 @@
   },
   {
    "id": "yuki_lower_p067_left",
-   "sequence": 322,
+   "sequence": 332,
    "domain_canonical": "結城藩",
    "domain_hi_name": "結城藩",
    "domain_en": "Yūki",
@@ -5481,7 +5651,7 @@
   },
   {
    "id": "yuki_lower_p233_right",
-   "sequence": 323,
+   "sequence": 333,
    "domain_canonical": "結城藩",
    "domain_hi_name": "結城藩",
    "domain_en": "Yūki",
@@ -5498,7 +5668,7 @@
   },
   {
    "id": "yunagaya_lower_p068_right",
-   "sequence": 324,
+   "sequence": 334,
    "domain_canonical": "湯長谷藩",
    "domain_hi_name": "湯長谷藩",
    "domain_en": "Yunagaya",
@@ -5515,7 +5685,7 @@
   },
   {
    "id": "yunagaya_lower_p068_left",
-   "sequence": 325,
+   "sequence": 335,
    "domain_canonical": "湯長谷藩",
    "domain_hi_name": "湯長谷藩",
    "domain_en": "Yunagaya",
@@ -5532,7 +5702,7 @@
   },
   {
    "id": "miharu_lower_p070_left",
-   "sequence": 326,
+   "sequence": 336,
    "domain_canonical": "三春藩",
    "domain_hi_name": "三春藩",
    "domain_en": "Miharu",
@@ -5549,7 +5719,7 @@
   },
   {
    "id": "miharu_lower_p071_right",
-   "sequence": 327,
+   "sequence": 337,
    "domain_canonical": "三春藩",
    "domain_hi_name": "三春藩",
    "domain_en": "Miharu",
@@ -5566,7 +5736,7 @@
   },
   {
    "id": "miyazu_lower_p071_left",
-   "sequence": 328,
+   "sequence": 338,
    "domain_canonical": "宮津藩",
    "domain_hi_name": "宮津藩",
    "domain_en": "Miyazu",
@@ -5583,7 +5753,7 @@
   },
   {
    "id": "miyazu_lower_p072_right",
-   "sequence": 329,
+   "sequence": 339,
    "domain_canonical": "宮津藩",
    "domain_hi_name": "宮津藩",
    "domain_en": "Miyazu",
@@ -5600,7 +5770,7 @@
   },
   {
    "id": "minakuchi_lower_p072_left",
-   "sequence": 330,
+   "sequence": 340,
    "domain_canonical": "水口藩",
    "domain_hi_name": "水口藩",
    "domain_en": "Minakuchi",
@@ -5617,7 +5787,7 @@
   },
   {
    "id": "minakuchi_lower_p073_right",
-   "sequence": 331,
+   "sequence": 341,
    "domain_canonical": "水口藩",
    "domain_hi_name": "水口藩",
    "domain_en": "Minakuchi",
@@ -5634,7 +5804,7 @@
   },
   {
    "id": "mibu_lower_p073_left",
-   "sequence": 332,
+   "sequence": 342,
    "domain_canonical": "壬生藩",
    "domain_hi_name": "壬生藩",
    "domain_en": "Mibu",
@@ -5651,7 +5821,7 @@
   },
   {
    "id": "mibu_lower_p074_right",
-   "sequence": 333,
+   "sequence": 343,
    "domain_canonical": "壬生藩",
    "domain_hi_name": "壬生藩",
    "domain_en": "Mibu",
@@ -5668,7 +5838,7 @@
   },
   {
    "id": "mibu_lower_p074_left",
-   "sequence": 334,
+   "sequence": 344,
    "domain_canonical": "壬生藩",
    "domain_hi_name": "壬生藩 / ○三日月藩",
    "domain_en": "Mibu",
@@ -5685,7 +5855,7 @@
   },
   {
    "id": "mikazuki_lower_p075_right",
-   "sequence": 335,
+   "sequence": 345,
    "domain_canonical": "三日月藩",
    "domain_hi_name": "三日月藩 / ○峯山藩",
    "domain_en": "Mikazuki",
@@ -5702,7 +5872,7 @@
   },
   {
    "id": "mikazuki_lower_p235_left",
-   "sequence": 336,
+   "sequence": 346,
    "domain_canonical": "三日月藩",
    "domain_hi_name": "三日月藩",
    "domain_en": "Mikazuki",
@@ -5719,7 +5889,7 @@
   },
   {
    "id": "mineyama_lower_p075_left",
-   "sequence": 337,
+   "sequence": 347,
    "domain_canonical": "峯山藩",
    "domain_hi_name": "峯山藩",
    "domain_en": "Mineyama",
@@ -5736,7 +5906,7 @@
   },
   {
    "id": "mineyama_lower_p076_right",
-   "sequence": 338,
+   "sequence": 348,
    "domain_canonical": "峯山藩",
    "domain_hi_name": "峯山藩",
    "domain_en": "Mineyama",
@@ -5753,7 +5923,7 @@
   },
   {
    "id": "mikkaichi_lower_p076_left",
-   "sequence": 339,
+   "sequence": 349,
    "domain_canonical": "三日市藩",
    "domain_hi_name": "三日市藩",
    "domain_en": "Mikkaichi",
@@ -5770,7 +5940,7 @@
   },
   {
    "id": "miyagawa_lower_p077_right",
-   "sequence": 340,
+   "sequence": 350,
    "domain_canonical": "宮川藩",
    "domain_hi_name": "宮川藩",
    "domain_en": "Miyagawa",
@@ -5787,7 +5957,7 @@
   },
   {
    "id": "miyagawa_lower_p077_left",
-   "sequence": 341,
+   "sequence": 351,
    "domain_canonical": "宮川藩",
    "domain_hi_name": "宮川藩",
    "domain_en": "Miyagawa",
@@ -5804,7 +5974,7 @@
   },
   {
    "id": "miyagawa_lower_p237_right",
-   "sequence": 342,
+   "sequence": 352,
    "domain_canonical": "宮川藩",
    "domain_hi_name": "宮川藩",
    "domain_en": "Miyagawa",
@@ -5821,7 +5991,7 @@
   },
   {
    "id": "mineoka_lower_p078_right",
-   "sequence": 343,
+   "sequence": 353,
    "domain_canonical": "峯岡藩",
    "domain_hi_name": "三草藩",
    "domain_en": "Mineoka",
@@ -5838,7 +6008,7 @@
   },
   {
    "id": "mikusa_lower_p078_left",
-   "sequence": 344,
+   "sequence": 354,
    "domain_canonical": "三草藩",
    "domain_hi_name": "三草藩",
    "domain_en": "Mikusa",
@@ -5855,7 +6025,7 @@
   },
   {
    "id": "miike_lower_p079_right",
-   "sequence": 345,
+   "sequence": 355,
    "domain_canonical": "三池藩",
    "domain_hi_name": "三池藩",
    "domain_en": "Miike",
@@ -5872,7 +6042,7 @@
   },
   {
    "id": "miike_lower_p079_left",
-   "sequence": 346,
+   "sequence": 356,
    "domain_canonical": "三池藩",
    "domain_hi_name": "三池藩",
    "domain_en": "Miike",
@@ -5889,7 +6059,7 @@
   },
   {
    "id": "shizuoka_lower_p080_right",
-   "sequence": 347,
+   "sequence": 357,
    "domain_canonical": "静岡藩",
    "domain_hi_name": "靜岡藩",
    "domain_en": "Shizuoka",
@@ -5906,7 +6076,7 @@
   },
   {
    "id": "shizuoka_lower_p080_left",
-   "sequence": 348,
+   "sequence": 358,
    "domain_canonical": "静岡藩",
    "domain_hi_name": "靜岡藩",
    "domain_en": "Shizuoka",
@@ -5923,7 +6093,7 @@
   },
   {
    "id": "shizuoka_lower_p081_right",
-   "sequence": 349,
+   "sequence": 359,
    "domain_canonical": "静岡藩",
    "domain_hi_name": "靜岡藩",
    "domain_en": "Shizuoka",
@@ -5940,7 +6110,7 @@
   },
   {
    "id": "shibata_lower_p081_left",
-   "sequence": 350,
+   "sequence": 360,
    "domain_canonical": "新發田藩",
    "domain_hi_name": "新發田藩",
    "domain_en": "Shibata",
@@ -5957,7 +6127,7 @@
   },
   {
    "id": "shibata_lower_p082_right",
-   "sequence": 351,
+   "sequence": 361,
    "domain_canonical": "新發田藩",
    "domain_hi_name": "新發田藩",
    "domain_en": "Shibata",
@@ -5974,7 +6144,7 @@
   },
   {
    "id": "shibata_lower_p082_left",
-   "sequence": 352,
+   "sequence": 362,
    "domain_canonical": "新發田藩",
    "domain_hi_name": "新發田藩",
    "domain_en": "Shibata",
@@ -5991,7 +6161,7 @@
   },
   {
    "id": "shibata_lower_p083_right",
-   "sequence": 353,
+   "sequence": 363,
    "domain_canonical": "新發田藩",
    "domain_hi_name": "新發田藩",
    "domain_en": "Shibata",
@@ -6008,7 +6178,7 @@
   },
   {
    "id": "shibata_lower_p083_left",
-   "sequence": 354,
+   "sequence": 364,
    "domain_canonical": "新發田藩",
    "domain_hi_name": "新發田藩",
    "domain_en": "Shibata",
@@ -6025,7 +6195,7 @@
   },
   {
    "id": "shimabara_lower_p084_right",
-   "sequence": 355,
+   "sequence": 365,
    "domain_canonical": "島原藩",
    "domain_hi_name": "島原藩",
    "domain_en": "Shimabara",
@@ -6042,7 +6212,7 @@
   },
   {
    "id": "shimabara_lower_p084_left",
-   "sequence": 356,
+   "sequence": 366,
    "domain_canonical": "島原藩",
    "domain_hi_name": "島原藩",
    "domain_en": "Shimabara",
@@ -6059,7 +6229,7 @@
   },
   {
    "id": "shinjo_lower_p085_right",
-   "sequence": 357,
+   "sequence": 367,
    "domain_canonical": "新庄藩",
    "domain_hi_name": "新庄藩",
    "domain_en": "Shinjō",
@@ -6076,7 +6246,7 @@
   },
   {
    "id": "shinjo_lower_p085_left",
-   "sequence": 358,
+   "sequence": 368,
    "domain_canonical": "新庄藩",
    "domain_hi_name": "新庄藩",
    "domain_en": "Shinjō",
@@ -6093,7 +6263,7 @@
   },
   {
    "id": "shigehara_lower_p086_right",
-   "sequence": 359,
+   "sequence": 369,
    "domain_canonical": "重原藩",
    "domain_hi_name": "重原藩",
    "domain_en": "Shigehara",
@@ -6110,7 +6280,7 @@
   },
   {
    "id": "shigehara_lower_p086_left",
-   "sequence": 360,
+   "sequence": 370,
    "domain_canonical": "重原藩",
    "domain_hi_name": "重原藩",
    "domain_en": "Shigehara",
@@ -6127,7 +6297,7 @@
   },
   {
    "id": "shigehara_lower_p087_right",
-   "sequence": 361,
+   "sequence": 371,
    "domain_canonical": "重原藩",
    "domain_hi_name": "重原藩",
    "domain_en": "Shigehara",
@@ -6144,7 +6314,7 @@
   },
   {
    "id": "shingu_lower_p087_left",
-   "sequence": 362,
+   "sequence": 372,
    "domain_canonical": "新宮藩",
    "domain_hi_name": "新宮藩",
    "domain_en": "Shingū",
@@ -6161,7 +6331,7 @@
   },
   {
    "id": "shingu_lower_p088_right",
-   "sequence": 363,
+   "sequence": 373,
    "domain_canonical": "新宮藩",
    "domain_hi_name": "新宮藩",
    "domain_en": "Shingū",
@@ -6178,7 +6348,7 @@
   },
   {
    "id": "shingu_lower_p239_left",
-   "sequence": 364,
+   "sequence": 374,
    "domain_canonical": "新宮藩",
    "domain_hi_name": "新宮藩",
    "domain_en": "Shingū",
@@ -6195,7 +6365,7 @@
   },
   {
    "id": "shimodate_lower_p088_left",
-   "sequence": 365,
+   "sequence": 375,
    "domain_canonical": "下館藩",
    "domain_hi_name": "下館藩",
    "domain_en": "Shimodate",
@@ -6212,7 +6382,7 @@
   },
   {
    "id": "shimodate_lower_p089_right",
-   "sequence": 366,
+   "sequence": 376,
    "domain_canonical": "下館藩",
    "domain_hi_name": "下館藩",
    "domain_en": "Shimodate",
@@ -6229,7 +6399,7 @@
   },
   {
    "id": "shimodate_lower_p089_left",
-   "sequence": 367,
+   "sequence": 377,
    "domain_canonical": "下館藩",
    "domain_hi_name": "下館藩",
    "domain_en": "Shimodate",
@@ -6246,7 +6416,7 @@
   },
   {
    "id": "shimodate_lower_p240_right",
-   "sequence": 368,
+   "sequence": 378,
    "domain_canonical": "下館藩",
    "domain_hi_name": "下館藩",
    "domain_en": "Shimodate",
@@ -6263,7 +6433,7 @@
   },
   {
    "id": "shibamura_lower_p090_right",
-   "sequence": 369,
+   "sequence": 379,
    "domain_canonical": "芝邨藩",
    "domain_hi_name": "芝邨藩",
    "domain_en": "Shibamura",
@@ -6280,7 +6450,7 @@
   },
   {
    "id": "shibamura_lower_p090_left",
-   "sequence": 370,
+   "sequence": 380,
    "domain_canonical": "芝邨藩",
    "domain_hi_name": "芝邨",
    "domain_en": "Shibamura",
@@ -6297,7 +6467,7 @@
   },
   {
    "id": "shiiya_lower_p091_right",
-   "sequence": 371,
+   "sequence": 381,
    "domain_canonical": "椎谷藩",
    "domain_hi_name": "椎谷藩",
    "domain_en": "Shiiya",
@@ -6314,7 +6484,7 @@
   },
   {
    "id": "shiiya_lower_p091_left",
-   "sequence": 372,
+   "sequence": 382,
    "domain_canonical": "椎谷藩",
    "domain_hi_name": "椎谷藩",
    "domain_en": "Shiiya",
@@ -6331,7 +6501,7 @@
   },
   {
    "id": "shiiya_lower_p240_left",
-   "sequence": 373,
+   "sequence": 383,
    "domain_canonical": "椎谷藩",
    "domain_hi_name": "椎谷藩",
    "domain_en": "Shiiya",
@@ -6348,7 +6518,7 @@
   },
   {
    "id": "shimotsuma_lower_p092_right",
-   "sequence": 374,
+   "sequence": 384,
    "domain_canonical": "下妻藩",
    "domain_hi_name": "下妻藩",
    "domain_en": "Shimotsuma",
@@ -6365,7 +6535,7 @@
   },
   {
    "id": "shimotsuma_lower_p092_left",
-   "sequence": 375,
+   "sequence": 385,
    "domain_canonical": "下妻藩",
    "domain_hi_name": "下妻藩",
    "domain_en": "Shimotsuma",
@@ -6382,7 +6552,7 @@
   },
   {
    "id": "shizuku_lower_p093_right",
-   "sequence": 376,
+   "sequence": 386,
    "domain_canonical": "志筑藩",
    "domain_hi_name": "志筑藩",
    "domain_en": "Shizuku",
@@ -6399,7 +6569,7 @@
   },
   {
    "id": "shizuku_lower_p093_left",
-   "sequence": 377,
+   "sequence": 387,
    "domain_canonical": "志筑藩",
    "domain_hi_name": "志筑藩",
    "domain_en": "Shizuku",
@@ -6416,7 +6586,7 @@
   },
   {
    "id": "shishido_lower_p094_right",
-   "sequence": 378,
+   "sequence": 388,
    "domain_canonical": "宍戸藩",
    "domain_hi_name": "宍戸藩",
    "domain_en": "Shishido",
@@ -6433,7 +6603,7 @@
   },
   {
    "id": "shichinohe_lower_p094_left",
-   "sequence": 379,
+   "sequence": 389,
    "domain_canonical": "七戸藩",
    "domain_hi_name": "七戸藩",
    "domain_en": "Shichinohe",
@@ -6450,7 +6620,7 @@
   },
   {
    "id": "shichinohe_lower_p095_right",
-   "sequence": 380,
+   "sequence": 390,
    "domain_canonical": "七戸藩",
    "domain_hi_name": "七戸藩",
    "domain_en": "Shichinohe",
@@ -6467,7 +6637,7 @@
   },
   {
    "id": "hirado_lower_p103_right",
-   "sequence": 381,
+   "sequence": 391,
    "domain_canonical": "平戸藩",
    "domain_hi_name": "平戸藩",
    "domain_en": "Hirado",
@@ -6484,7 +6654,7 @@
   },
   {
    "id": "hirado_lower_p103_left",
-   "sequence": 382,
+   "sequence": 392,
    "domain_canonical": "平戸藩",
    "domain_hi_name": "平戸藩",
    "domain_en": "Hirado",
@@ -6501,7 +6671,7 @@
   },
   {
    "id": "hirado_lower_p104_right",
-   "sequence": 383,
+   "sequence": 393,
    "domain_canonical": "平戸藩",
    "domain_hi_name": "平戸藩",
    "domain_en": "Hirado",
@@ -6518,7 +6688,7 @@
   },
   {
    "id": "hitoyoshi_lower_p104_left",
-   "sequence": 384,
+   "sequence": 394,
    "domain_canonical": "人吉藩",
    "domain_hi_name": "人吉藩",
    "domain_en": "Hitoyoshi",
@@ -6535,7 +6705,7 @@
   },
   {
    "id": "hitoyoshi_lower_p105_right",
-   "sequence": 385,
+   "sequence": 395,
    "domain_canonical": "人吉藩",
    "domain_hi_name": "人吉藩",
    "domain_en": "Hitoyoshi",
@@ -6552,7 +6722,7 @@
   },
   {
    "id": "hitoyoshi_lower_p105_left",
-   "sequence": 386,
+   "sequence": 396,
    "domain_canonical": "人吉藩",
    "domain_hi_name": "人吉",
    "domain_en": "Hitoyoshi",
@@ -6569,7 +6739,7 @@
   },
   {
    "id": "hitoyoshi_lower_p106_right",
-   "sequence": 387,
+   "sequence": 397,
    "domain_canonical": "人吉藩",
    "domain_hi_name": "人吉藩",
    "domain_en": "Hitoyoshi",
@@ -6586,7 +6756,7 @@
   },
   {
    "id": "hitoyoshi_lower_p244_right",
-   "sequence": 388,
+   "sequence": 398,
    "domain_canonical": "人吉藩",
    "domain_hi_name": "人吉藩",
    "domain_en": "Hitoyoshi",
@@ -6603,7 +6773,7 @@
   },
   {
    "id": "hisai_lower_p106_left",
-   "sequence": 389,
+   "sequence": 399,
    "domain_canonical": "久居藩",
    "domain_hi_name": "久居",
    "domain_en": "Hisai",
@@ -6620,7 +6790,7 @@
   },
   {
    "id": "hisai_lower_p107_right",
-   "sequence": 390,
+   "sequence": 400,
    "domain_canonical": "久居藩",
    "domain_hi_name": "久居",
    "domain_en": "Hisai",
@@ -6637,7 +6807,7 @@
   },
   {
    "id": "hisai_lower_p107_left",
-   "sequence": 391,
+   "sequence": 401,
    "domain_canonical": "久居藩",
    "domain_hi_name": "久居",
    "domain_en": "Hisai",
@@ -6654,7 +6824,7 @@
   },
   {
    "id": "hisai_lower_p244_left",
-   "sequence": 392,
+   "sequence": 402,
    "domain_canonical": "久居藩",
    "domain_hi_name": "久居藩",
    "domain_en": "Hisai",
@@ -6671,7 +6841,7 @@
   },
   {
    "id": "hirose_lower_p108_right",
-   "sequence": 393,
+   "sequence": 403,
    "domain_canonical": "廣瀬藩",
    "domain_hi_name": "廣瀬藩",
    "domain_en": "Hirose",
@@ -6688,7 +6858,7 @@
   },
   {
    "id": "hirose_lower_p108_left",
-   "sequence": 394,
+   "sequence": 404,
    "domain_canonical": "廣瀬藩",
    "domain_hi_name": "廣瀬藩",
    "domain_en": "Hirose",
@@ -6705,7 +6875,7 @@
   },
   {
    "id": "hirose_lower_p109_right",
-   "sequence": 395,
+   "sequence": 405,
    "domain_canonical": "廣瀬藩",
    "domain_hi_name": "廣瀬藩",
    "domain_en": "Hirose",
@@ -6722,7 +6892,7 @@
   },
   {
    "id": "mori_lower_p114_left",
-   "sequence": 396,
+   "sequence": 406,
    "domain_canonical": "母里藩",
    "domain_hi_name": "母里藩",
    "domain_en": "Mori",
@@ -6739,7 +6909,7 @@
   },
   {
    "id": "mori_lower_p115_right",
-   "sequence": 397,
+   "sequence": 407,
    "domain_canonical": "母里藩",
    "domain_hi_name": "母里藩",
    "domain_en": "Mori",
@@ -6756,7 +6926,7 @@
   },
   {
    "id": "mori_lower_p115_left",
-   "sequence": 398,
+   "sequence": 408,
    "domain_canonical": "母里藩",
    "domain_hi_name": "母里藩",
    "domain_en": "Mori",
@@ -6773,7 +6943,7 @@
   },
   {
    "id": "mori_lower_p246_left",
-   "sequence": 399,
+   "sequence": 409,
    "domain_canonical": "母里藩",
    "domain_hi_name": "母里藩",
    "domain_en": "Mori",
@@ -6790,7 +6960,7 @@
   },
   {
    "id": "sendai_lower_p116_right",
-   "sequence": 400,
+   "sequence": 410,
    "domain_canonical": "仙臺藩",
    "domain_hi_name": "仙臺藩",
    "domain_en": "Sendai",
@@ -6807,7 +6977,7 @@
   },
   {
    "id": "zeze_lower_p116_left",
-   "sequence": 401,
+   "sequence": 411,
    "domain_canonical": "膳所藩",
    "domain_hi_name": "膳所藩",
    "domain_en": "Zeze",
@@ -6824,7 +6994,7 @@
   },
   {
    "id": "zeze_lower_p117_right",
-   "sequence": 402,
+   "sequence": 412,
    "domain_canonical": "膳所藩",
    "domain_hi_name": "膳所藩",
    "domain_en": "Zeze",
@@ -6841,7 +7011,7 @@
   },
   {
    "id": "sekiyado_lower_p117_left",
-   "sequence": 403,
+   "sequence": 413,
    "domain_canonical": "關宿藩",
    "domain_hi_name": "關宿藩",
    "domain_en": "Sekiyado",
@@ -6858,7 +7028,7 @@
   },
   {
    "id": "sekiyado_lower_p118_right",
-   "sequence": 404,
+   "sequence": 414,
    "domain_canonical": "關宿藩",
    "domain_hi_name": "關宿藩",
    "domain_en": "Sekiyado",
@@ -6875,7 +7045,7 @@
   },
   {
    "id": "sekiyado_lower_p118_left",
-   "sequence": 405,
+   "sequence": 415,
    "domain_canonical": "關宿藩",
    "domain_hi_name": "關宿藩",
    "domain_en": "Sekiyado",
@@ -6892,7 +7062,7 @@
   },
   {
    "id": "sekiyado_lower_p247_left",
-   "sequence": 406,
+   "sequence": 416,
    "domain_canonical": "關宿藩",
    "domain_hi_name": "關宿藩",
    "domain_en": "Sekiyado",
@@ -6909,7 +7079,7 @@
   },
   {
    "id": "susaka_lower_p119_right",
-   "sequence": 407,
+   "sequence": 417,
    "domain_canonical": "須坂藩",
    "domain_hi_name": "須坂藩",
    "domain_en": "Susaka",
@@ -6926,7 +7096,7 @@
   },
   {
    "id": "suzaka_lower_p119_left",
-   "sequence": 408,
+   "sequence": 418,
    "domain_canonical": "須坂藩",
    "domain_hi_name": "須坂藩",
    "domain_en": "Susaka",
@@ -6943,7 +7113,7 @@
   },
   {
    "id": "suzaka_lower_p120_right",
-   "sequence": 409,
+   "sequence": 419,
    "domain_canonical": "須坂藩",
    "domain_hi_name": "須坂",
    "domain_en": "Susaka",
@@ -6960,7 +7130,7 @@
   },
   {
    "id": "suzaka_lower_p120_left",
-   "sequence": 410,
+   "sequence": 420,
    "domain_canonical": "須坂藩",
    "domain_hi_name": "須坂藩",
    "domain_en": "Susaka",
@@ -6977,7 +7147,7 @@
   },
   {
    "id": "suzaka_lower_p248_right",
-   "sequence": 411,
+   "sequence": 421,
    "domain_canonical": "須坂藩",
    "domain_hi_name": "須坂藩",
    "domain_en": "Susaka",
@@ -6994,7 +7164,7 @@
   },
   {
    "id": "iwakuni_upper_p023_right",
-   "sequence": 412,
+   "sequence": 422,
    "domain_canonical": "岩國藩",
    "domain_hi_name": "岩國藩",
    "domain_en": "Iwakuni",
@@ -7011,7 +7181,7 @@
   },
   {
    "id": "iwakuni_lower_p122_right",
-   "sequence": 413,
+   "sequence": 423,
    "domain_canonical": "岩國藩",
    "domain_hi_name": "岩國藩",
    "domain_en": "Iwakuni",
@@ -7028,7 +7198,7 @@
   },
   {
    "id": "imabari_upper_p023_left",
-   "sequence": 414,
+   "sequence": 424,
    "domain_canonical": "今治藩",
    "domain_hi_name": "今治藩",
    "domain_en": "Imabari",
@@ -7045,7 +7215,7 @@
   },
   {
    "id": "imabari_lower_p122_left",
-   "sequence": 415,
+   "sequence": 425,
    "domain_canonical": "今治藩",
    "domain_hi_name": "今治藩",
    "domain_en": "Imabari",
@@ -7062,7 +7232,7 @@
   },
   {
    "id": "iiyama_upper_p024_left",
-   "sequence": 416,
+   "sequence": 426,
    "domain_canonical": "飯山藩",
    "domain_hi_name": "飯山藩",
    "domain_en": "Iiyama",
@@ -7079,7 +7249,7 @@
   },
   {
    "id": "iiyama_lower_p123_right",
-   "sequence": 417,
+   "sequence": 427,
    "domain_canonical": "飯山藩",
    "domain_hi_name": "飯山藩",
    "domain_en": "Iiyama",
@@ -7096,7 +7266,7 @@
   },
   {
    "id": "inuyama_upper_p025_left",
-   "sequence": 418,
+   "sequence": 428,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7113,7 +7283,7 @@
   },
   {
    "id": "inuyama_lower_p123_left",
-   "sequence": 419,
+   "sequence": 429,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7130,7 +7300,7 @@
   },
   {
    "id": "inuyama_lower_p124_right",
-   "sequence": 420,
+   "sequence": 430,
    "domain_canonical": "犬山藩",
    "domain_hi_name": "犬山藩",
    "domain_en": "Inuyama",
@@ -7147,7 +7317,7 @@
   },
   {
    "id": "izushi_upper_p026_left",
-   "sequence": 421,
+   "sequence": 431,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7164,7 +7334,7 @@
   },
   {
    "id": "izushi_upper_p027_left",
-   "sequence": 422,
+   "sequence": 432,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7181,7 +7351,7 @@
   },
   {
    "id": "izushi_lower_p124_left",
-   "sequence": 423,
+   "sequence": 433,
    "domain_canonical": "出石藩",
    "domain_hi_name": "出石藩",
    "domain_en": "Izushi",
@@ -7198,7 +7368,7 @@
   },
   {
    "id": "iwamura_lower_p125_right",
-   "sequence": 424,
+   "sequence": 434,
    "domain_canonical": "岩邨藩",
    "domain_hi_name": "岩邨藩",
    "domain_en": "Iwamura",
@@ -7215,7 +7385,7 @@
   },
   {
    "id": "ichinoseki_upper_p028_left",
-   "sequence": 425,
+   "sequence": 435,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7232,7 +7402,7 @@
   },
   {
    "id": "ichinoseki_upper_p029_right",
-   "sequence": 426,
+   "sequence": 436,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7249,7 +7419,7 @@
   },
   {
    "id": "ichinoseki_lower_p125_left",
-   "sequence": 427,
+   "sequence": 437,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7266,7 +7436,7 @@
   },
   {
    "id": "ichinoseki_lower_p126_right",
-   "sequence": 428,
+   "sequence": 438,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7283,7 +7453,7 @@
   },
   {
    "id": "ichinoseki_lower_p126_left",
-   "sequence": 429,
+   "sequence": 439,
    "domain_canonical": "一關藩",
    "domain_hi_name": "一關藩",
    "domain_en": "Ichinoseki",
@@ -7300,7 +7470,7 @@
   },
   {
    "id": "iwasaki_upper_p029_left",
-   "sequence": 430,
+   "sequence": 440,
    "domain_canonical": "岩崎藩",
    "domain_hi_name": "岩崎藩",
    "domain_en": "Iwasaki",
@@ -7317,7 +7487,7 @@
   },
   {
    "id": "iwasaki_lower_p127_right",
-   "sequence": 431,
+   "sequence": 441,
    "domain_canonical": "岩崎藩",
    "domain_hi_name": "岩崎藩",
    "domain_en": "Iwasaki",
@@ -7334,7 +7504,7 @@
   },
   {
    "id": "iwatsuki_upper_p030_right",
-   "sequence": 432,
+   "sequence": 442,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻藩",
    "domain_en": "Iwatsuki",
@@ -7351,7 +7521,7 @@
   },
   {
    "id": "iwatsuki_upper_p030_left",
-   "sequence": 433,
+   "sequence": 443,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻",
    "domain_en": "Iwatsuki",
@@ -7368,7 +7538,7 @@
   },
   {
    "id": "iwatsuki_lower_p127_left",
-   "sequence": 434,
+   "sequence": 444,
    "domain_canonical": "岩槻藩",
    "domain_hi_name": "岩槻藩",
    "domain_en": "Iwatsuki",
@@ -7385,7 +7555,7 @@
   },
   {
    "id": "iino_upper_p031_right",
-   "sequence": 435,
+   "sequence": 445,
    "domain_canonical": "飯野藩",
    "domain_hi_name": "飯野藩",
    "domain_en": "Iino",
@@ -7402,7 +7572,7 @@
   },
   {
    "id": "iino_lower_p128_right",
-   "sequence": 436,
+   "sequence": 446,
    "domain_canonical": "飯野藩",
    "domain_hi_name": "飯野藩",
    "domain_en": "Iino",
@@ -7419,7 +7589,7 @@
   },
   {
    "id": "iida_upper_p031_left",
-   "sequence": 437,
+   "sequence": 447,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7436,7 +7606,7 @@
   },
   {
    "id": "iida_lower_p128_left",
-   "sequence": 438,
+   "sequence": 448,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7453,7 +7623,7 @@
   },
   {
    "id": "iida_lower_p129_right",
-   "sequence": 439,
+   "sequence": 449,
    "domain_canonical": "飯田藩",
    "domain_hi_name": "飯田藩",
    "domain_en": "Iida",
@@ -7470,7 +7640,7 @@
   },
   {
    "id": "iwakidaira_upper_p032_left",
-   "sequence": 440,
+   "sequence": 450,
    "domain_canonical": "磐城平藩",
    "domain_hi_name": "磐城平藩",
    "domain_en": "Iwakitaira",
@@ -7487,7 +7657,7 @@
   },
   {
    "id": "iwakitaira_lower_p129_left",
-   "sequence": 441,
+   "sequence": 451,
    "domain_canonical": "磐城平藩",
    "domain_hi_name": "磐城平藩",
    "domain_en": "Iwakitaira",
@@ -7504,7 +7674,7 @@
   },
   {
    "id": "ikusaka_upper_p033_right",
-   "sequence": 442,
+   "sequence": 452,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7521,7 +7691,7 @@
   },
   {
    "id": "ikusaka_upper_p033_left",
-   "sequence": 443,
+   "sequence": 453,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7538,7 +7708,7 @@
   },
   {
    "id": "ikusaka_lower_p130_right",
-   "sequence": 444,
+   "sequence": 454,
    "domain_canonical": "生坂藩",
    "domain_hi_name": "生坂藩",
    "domain_en": "Ikusaka",
@@ -7555,7 +7725,7 @@
   },
   {
    "id": "ishioka_upper_p034_right",
-   "sequence": 445,
+   "sequence": 455,
    "domain_canonical": "石岡藩",
    "domain_hi_name": "石岡",
    "domain_en": "Ishioka",
@@ -7572,7 +7742,7 @@
   },
   {
    "id": "ishioka_upper_p034_left",
-   "sequence": 446,
+   "sequence": 456,
    "domain_canonical": "石岡藩",
    "domain_hi_name": "石岡藩",
    "domain_en": "Ishioka",
@@ -7589,7 +7759,7 @@
   },
   {
    "id": "ishioka_lower_p130_left",
-   "sequence": 447,
+   "sequence": 457,
    "domain_canonical": "石岡藩",
    "domain_hi_name": "石岡藩",
    "domain_en": "Ishioka",
@@ -7606,7 +7776,7 @@
   },
   {
    "id": "imao_upper_p035_right",
-   "sequence": 448,
+   "sequence": 458,
    "domain_canonical": "今尾藩",
    "domain_hi_name": "今尾藩",
    "domain_en": "Imao",
@@ -7623,7 +7793,7 @@
   },
   {
    "id": "imao_lower_p131_right",
-   "sequence": 449,
+   "sequence": 459,
    "domain_canonical": "今尾藩",
    "domain_hi_name": "今尾藩",
    "domain_en": "Imao",
@@ -7640,7 +7810,7 @@
   },
   {
    "id": "isesaki_upper_p035_left",
-   "sequence": 450,
+   "sequence": 460,
    "domain_canonical": "伊勢崎藩",
    "domain_hi_name": "伊勢崎藩",
    "domain_en": "Isesaki",
@@ -7657,7 +7827,7 @@
   },
   {
    "id": "isesaki_upper_p036_right",
-   "sequence": 451,
+   "sequence": 461,
    "domain_canonical": "伊勢崎藩",
    "domain_hi_name": "伊勢崎",
    "domain_en": "Isesaki",
@@ -7674,7 +7844,7 @@
   },
   {
    "id": "isesaki_lower_p131_left",
-   "sequence": 452,
+   "sequence": 462,
    "domain_canonical": "伊勢崎藩",
    "domain_hi_name": "伊勢崎藩",
    "domain_en": "Isesaki",
@@ -7691,7 +7861,7 @@
   },
   {
    "id": "ichinomiya_upper_p036_left",
-   "sequence": 453,
+   "sequence": 463,
    "domain_canonical": "一宮藩",
    "domain_hi_name": "一宮藩",
    "domain_en": "Ichinomiya",
@@ -7708,7 +7878,7 @@
   },
   {
    "id": "ichinomiya_lower_p132_right",
-   "sequence": 454,
+   "sequence": 464,
    "domain_canonical": "一宮藩",
    "domain_hi_name": "一宮藩",
    "domain_en": "Ichinomiya",
@@ -7725,7 +7895,7 @@
   },
   {
    "id": "iwamurada_upper_p037_left",
-   "sequence": 455,
+   "sequence": 465,
    "domain_canonical": "岩村田藩",
    "domain_hi_name": "岩村田藩",
    "domain_en": "Iwamurata",
@@ -7742,7 +7912,7 @@
   },
   {
    "id": "iwamurata_lower_p132_left",
-   "sequence": 456,
+   "sequence": 466,
    "domain_canonical": "岩村田藩",
    "domain_hi_name": "岩村田藩",
    "domain_en": "Iwamurata",
@@ -7759,7 +7929,7 @@
   },
   {
    "id": "hasunoike_upper_p038_left",
-   "sequence": 457,
+   "sequence": 467,
    "domain_canonical": "蓮池藩",
    "domain_hi_name": "蓮池藩",
    "domain_en": "Hasunoike",
@@ -7776,7 +7946,7 @@
   },
   {
    "id": "hasunoike_lower_p133_right",
-   "sequence": 458,
+   "sequence": 468,
    "domain_canonical": "蓮池藩",
    "domain_hi_name": "蓮池藩",
    "domain_en": "Hasunoike",
@@ -7793,7 +7963,7 @@
   },
   {
    "id": "hanabusa_upper_p039_right",
-   "sequence": 459,
+   "sequence": 469,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房藩",
    "domain_en": "Hanabusa",
@@ -7810,7 +7980,7 @@
   },
   {
    "id": "hanabusa_upper_p039_left",
-   "sequence": 460,
+   "sequence": 470,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房藩",
    "domain_en": "Hanabusa",
@@ -7827,7 +7997,7 @@
   },
   {
    "id": "hanabusa_lower_p133_left",
-   "sequence": 461,
+   "sequence": 471,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房藩",
    "domain_en": "Hanabusa",
@@ -7844,7 +8014,7 @@
   },
   {
    "id": "hanabusa_lower_p134_right",
-   "sequence": 462,
+   "sequence": 472,
    "domain_canonical": "花房藩",
    "domain_hi_name": "花房",
    "domain_en": "Hanabusa",
@@ -7861,7 +8031,7 @@
   },
   {
    "id": "hachinohe_upper_p040_right",
-   "sequence": 463,
+   "sequence": 473,
    "domain_canonical": "八戸藩",
    "domain_hi_name": "八戸藩",
    "domain_en": "Hachinohe",
@@ -7878,7 +8048,7 @@
   },
   {
    "id": "hachinohe_lower_p134_left",
-   "sequence": 464,
+   "sequence": 474,
    "domain_canonical": "八戸藩",
    "domain_hi_name": "八戸藩",
    "domain_en": "Hachinohe",
@@ -7895,7 +8065,7 @@
   },
   {
    "id": "hakata_lower_p135_right",
-   "sequence": 465,
+   "sequence": 475,
    "domain_canonical": "伯太藩",
    "domain_hi_name": "伯太藩",
    "domain_en": "Hakata (Izumi Province; Watanabe clan)",
@@ -7912,7 +8082,7 @@
   },
   {
    "id": "hayashida_lower_p135_left",
-   "sequence": 466,
+   "sequence": 476,
    "domain_canonical": "林田藩",
    "domain_hi_name": "八戸藩",
    "domain_en": "Hayashida",
@@ -7929,7 +8099,7 @@
   },
   {
    "id": "hanbara_upper_p042_right",
-   "sequence": 467,
+   "sequence": 477,
    "domain_canonical": "半原藩",
    "domain_hi_name": "半原藩",
    "domain_en": "Hanbara",
@@ -7946,7 +8116,7 @@
   },
   {
    "id": "hanbara_upper_p042_left",
-   "sequence": 468,
+   "sequence": 478,
    "domain_canonical": "半原藩",
    "domain_hi_name": "半原藩",
    "domain_en": "Hanbara",
@@ -7963,7 +8133,7 @@
   },
   {
    "id": "hanbara_lower_p136_right",
-   "sequence": 469,
+   "sequence": 479,
    "domain_canonical": "半原藩",
    "domain_hi_name": "牟原藩",
    "domain_en": "Hanbara",
@@ -7980,7 +8150,7 @@
   },
   {
    "id": "hanbara_lower_p136_left",
-   "sequence": 470,
+   "sequence": 480,
    "domain_canonical": "半原藩",
    "domain_hi_name": "半原藩",
    "domain_en": "Hanbara",
@@ -7997,7 +8167,7 @@
   },
   {
    "id": "niimi_lower_p138_left",
-   "sequence": 471,
+   "sequence": 481,
    "domain_canonical": "新見藩",
    "domain_hi_name": "新見藩",
    "domain_en": "Niimi",
@@ -8014,7 +8184,7 @@
   },
   {
    "id": "niimi_lower_p139_right",
-   "sequence": 472,
+   "sequence": 482,
    "domain_canonical": "新見藩",
    "domain_hi_name": "新見藩",
    "domain_en": "Niimi",
@@ -8031,7 +8201,7 @@
   },
   {
    "id": "niiya_lower_p139_left",
-   "sequence": 473,
+   "sequence": 483,
    "domain_canonical": "新谷藩",
    "domain_hi_name": "新谷藩",
    "domain_en": "Niiya",
@@ -8048,7 +8218,7 @@
   },
   {
    "id": "nishibata_upper_p047_left",
-   "sequence": 474,
+   "sequence": 484,
    "domain_canonical": "西端藩",
    "domain_hi_name": "西端藩",
    "domain_en": "Nishihata",
@@ -8065,7 +8235,7 @@
   },
   {
    "id": "nishihata_lower_p140_right",
-   "sequence": 475,
+   "sequence": 485,
    "domain_canonical": "西端藩",
    "domain_hi_name": "西端藩",
    "domain_en": "Nishihata",
@@ -8082,7 +8252,7 @@
   },
   {
    "id": "nishiohira_lower_p140_left",
-   "sequence": 476,
+   "sequence": 486,
    "domain_canonical": "西大平藩",
    "domain_hi_name": "西大平藩",
    "domain_en": "Nishiōhira",
@@ -8099,7 +8269,7 @@
   },
   {
    "id": "honjo_lower_p141_right",
-   "sequence": 477,
+   "sequence": 487,
    "domain_canonical": "本荘藩",
    "domain_hi_name": "本莊藩",
    "domain_en": "Honjō",
@@ -8116,7 +8286,7 @@
   },
   {
    "id": "toyama_upper_p054_left",
-   "sequence": 478,
+   "sequence": 488,
    "domain_canonical": "富山藩",
    "domain_hi_name": "富山藩",
    "domain_en": "Toyama",
@@ -8133,7 +8303,7 @@
   },
   {
    "id": "toyama_upper_p055_right",
-   "sequence": 479,
+   "sequence": 489,
    "domain_canonical": "富山藩",
    "domain_hi_name": "富山",
    "domain_en": "Toyama",
@@ -8150,7 +8320,7 @@
   },
   {
    "id": "toyama_lower_p143_left",
-   "sequence": 480,
+   "sequence": 490,
    "domain_canonical": "富山藩",
    "domain_hi_name": "富山藩",
    "domain_en": "Toyama",
@@ -8167,7 +8337,7 @@
   },
   {
    "id": "toyohashi_upper_p057_right",
-   "sequence": 481,
+   "sequence": 491,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -8184,7 +8354,7 @@
   },
   {
    "id": "toyohashi_upper_p057_left",
-   "sequence": 482,
+   "sequence": 492,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -8201,7 +8371,7 @@
   },
   {
    "id": "toyohashi_lower_p144_right",
-   "sequence": 483,
+   "sequence": 493,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -8218,7 +8388,7 @@
   },
   {
    "id": "toyohashi_lower_p144_left",
-   "sequence": 484,
+   "sequence": 494,
    "domain_canonical": "豐橋藩",
    "domain_hi_name": "豐橋藩",
    "domain_en": "Toyohashi",
@@ -8235,7 +8405,7 @@
   },
   {
    "id": "toba_upper_p059_right",
-   "sequence": 485,
+   "sequence": 495,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -8252,7 +8422,7 @@
   },
   {
    "id": "toba_upper_p059_left",
-   "sequence": 486,
+   "sequence": 496,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -8268,8 +8438,25 @@
    "page_summary_en": "This leaf continues the fascicle-two entry for Toba domain (Shima province) with no maru-marker of its own, so every figure on it belongs to Toba. The right-hand columns close out the itemised revenue list: 4,218 ryo 3 bu in gold, 191 ei-mon, 40 kan 41 mon in copper cash, and a further 662 ryo 1 bu plus 123 ei-mon in licence dues on the salmon and mullet fisheries and sundry other undertakings, with a note that the fishery figure differs from year to year. The 合 totals follow at 12,989.625 koku of rice, 15,032 ryo 3 bu in gold, 46 ei-mon and 40 kan 41 mon in copper cash. The demographic block records 10,161 households plus 150 tenement hearths and a population of 53,521 (26,216 male, 27,305 female), of which the shizoku breakdown accounts for 249 households and 1,191 people (602 male, 589 female)."
   },
   {
+   "id": "toba_upper_p060_right",
+   "sequence": 497,
+   "domain_canonical": "鳥羽藩",
+   "domain_hi_name": "鳥羽藩",
+   "domain_en": "Toba",
+   "image": "images/upper_p060_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 60,
+   "page_side": "R",
+   "book_page": "九十四",
+   "page_header_kanji": "藩制一覽表第二（鳥羽）",
+   "page_header_en": "Domain Administration Survey, Table 2 (Toba)",
+   "table_number": 2,
+   "page_topic": "Toba Domain status-group demographics, villages, shrines, temples, and vessels",
+   "page_summary_en": "Continuation of Toba Domain's fascicle-2 civil entry. The page records household and population counts by status group: sotsu (foot-soldier) families occupying 150 row-house hearths with 542 persons (310 male, 232 female); 43 shrine-priest households with 285 persons (140 male, 145 female); 155 temples with a population of 228, of whom the 206 males are all monks; 50 eta households with 289 persons (156 male, 133 female); and 10 hinin households with 94 persons (53 male, 41 female). It closes with 73 villages (a note states the town of Toba is included) across 5 districts, 253 shrines served by the priesthood, and one Western-style sail-rigged working vessel of 200 koku capacity."
+  },
+  {
    "id": "toba_lower_p145_right",
-   "sequence": 487,
+   "sequence": 498,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -8286,7 +8473,7 @@
   },
   {
    "id": "toba_lower_p145_left",
-   "sequence": 488,
+   "sequence": 499,
    "domain_canonical": "鳥羽藩",
    "domain_hi_name": "鳥羽藩",
    "domain_en": "Toba",
@@ -8303,7 +8490,7 @@
   },
   {
    "id": "toyooka_upper_p060_left",
-   "sequence": 489,
+   "sequence": 500,
    "domain_canonical": "豐岡藩",
    "domain_hi_name": "豐岡藩",
    "domain_en": "Toyooka",
@@ -8319,8 +8506,25 @@
    "page_summary_en": "This is the opening page of the Toyooka domain block in fascicle 2 of the Hansei Ichiran, printed as folio 95. The domain's nominal assessed yield (honkoku) is 15,000 koku and its surveyed gross yield (kusadaka) 15,806.30385 koku, the 806.30385 koku difference being new-field and re-survey increments folded in, as the small note below the figure states. Under the heading \"five-year average\" the survey reports land tax rice of 5,785.64165 koku, miscellaneous tax rice of 220.067 koku, and miscellaneous tax cash of 2,063 kan 927 mon. A bracketed editorial note then flags seven lines that stood in vermilion in the manuscript, giving a second, lower set — 5,135.8162 koku, 219.98711 koku, 2,061 kan 219 mon, and that cash converted to 25.76523 koku of rice — and explains the gap: the red-ink set is the straight 1864-68 average, while the main-text set drops the catastrophic 1866 harvest and averages 1863-68 instead. The prose explanation breaks off mid-sentence and runs on to the facing page."
   },
   {
+   "id": "toyooka_upper_p061_right",
+   "sequence": 501,
+   "domain_canonical": "豐岡藩",
+   "domain_hi_name": "豐岡藩",
+   "domain_en": "Toyooka",
+   "image": "images/upper_p061_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 61,
+   "page_side": "R",
+   "book_page": "九十六",
+   "page_header_kanji": "藩制一覽表第二（豐岡）",
+   "page_header_en": "Domain System Survey, Table 2 (Toyooka)",
+   "table_number": 2,
+   "page_topic": "Households and population by status group",
+   "page_summary_en": "Continuation page of the Toyooka domain entry in fascicle 2, giving the domain's demographics per the Snake-year (Meiji 2, 1869) survey: 3,809 households and a population of 18,725 (9,415 male, 9,310 female), with an interlinear note recording the Horse-year (Meiji 3, 1870) survey totals of 3,873 households and 19,033 persons. A breakdown follows by status group: shizoku 83 households with 431 persons, sotsu 62 households with 362 persons, shrine families (households not recorded) with 50 persons, and 42 temples with 129 persons plus a note of 8 nuns besides. All male/female splits sum exactly to their printed totals."
+  },
+  {
    "id": "toyooka_lower_p146_right",
-   "sequence": 490,
+   "sequence": 502,
    "domain_canonical": "豐岡藩",
    "domain_hi_name": "豐岡藩",
    "domain_en": "Toyooka",
@@ -8337,7 +8541,7 @@
   },
   {
    "id": "tonami_lower_p146_left",
-   "sequence": 491,
+   "sequence": 503,
    "domain_canonical": "斗南藩",
    "domain_hi_name": "斗南藩",
    "domain_en": "Tonami",
@@ -8354,7 +8558,7 @@
   },
   {
    "id": "toyotsu_upper_p053_right",
-   "sequence": 492,
+   "sequence": 504,
    "domain_canonical": "豐津藩",
    "domain_hi_name": "豐津藩",
    "domain_en": "Toyotsu",
@@ -8371,7 +8575,7 @@
   },
   {
    "id": "toyotsu_upper_p053_left",
-   "sequence": 493,
+   "sequence": 505,
    "domain_canonical": "豐津藩",
    "domain_hi_name": "豐津",
    "domain_en": "Toyotsu",
@@ -8388,7 +8592,7 @@
   },
   {
    "id": "toyotsu_upper_p054_right",
-   "sequence": 494,
+   "sequence": 506,
    "domain_canonical": "豐津藩",
    "domain_hi_name": "豐津藩",
    "domain_en": "Toyotsu",
@@ -8405,7 +8609,7 @@
   },
   {
    "id": "toyotsu_lower_p147_right",
-   "sequence": 495,
+   "sequence": 507,
    "domain_canonical": "豐津藩",
    "domain_hi_name": "豐津藩",
    "domain_en": "Toyotsu",
@@ -8422,7 +8626,7 @@
   },
   {
    "id": "oami_lower_p147_left",
-   "sequence": 496,
+   "sequence": 508,
    "domain_canonical": "大網藩",
    "domain_hi_name": "大網藩",
    "domain_en": "Ōami",
@@ -8439,7 +8643,7 @@
   },
   {
    "id": "ogi_lower_p153_left",
-   "sequence": 497,
+   "sequence": 509,
    "domain_canonical": "小城藩",
    "domain_hi_name": "小城藩",
    "domain_en": "Ogi",
@@ -8456,7 +8660,7 @@
   },
   {
    "id": "obi_lower_p154_right",
-   "sequence": 498,
+   "sequence": 510,
    "domain_canonical": "飫肥藩",
    "domain_hi_name": "飫肥藩",
    "domain_en": "Obi",
@@ -8473,7 +8677,7 @@
   },
   {
    "id": "odawara_lower_p154_left",
-   "sequence": 499,
+   "sequence": 511,
    "domain_canonical": "小田原藩",
    "domain_hi_name": "小田原藩",
    "domain_en": "Odawara",
@@ -8490,7 +8694,7 @@
   },
   {
    "id": "odawara_lower_p155_right",
-   "sequence": 500,
+   "sequence": 512,
    "domain_canonical": "小田原藩",
    "domain_hi_name": "小田原藩",
    "domain_en": "Odawara",
@@ -8507,7 +8711,7 @@
   },
   {
    "id": "okazaki_lower_p155_left",
-   "sequence": 501,
+   "sequence": 513,
    "domain_canonical": "岡崎藩",
    "domain_hi_name": "岡崎藩",
    "domain_en": "Okazaki",
@@ -8524,7 +8728,7 @@
   },
   {
    "id": "ono_lower_p156_right",
-   "sequence": 502,
+   "sequence": 514,
    "domain_canonical": "大野藩",
    "domain_hi_name": "大野藩",
    "domain_en": "Ōno",
@@ -8541,7 +8745,7 @@
   },
   {
    "id": "ono_lower_p156_left",
-   "sequence": 503,
+   "sequence": 515,
    "domain_canonical": "大野藩",
    "domain_hi_name": "大野藩",
    "domain_en": "Ōno",
@@ -8558,7 +8762,7 @@
   },
   {
    "id": "otaki_lower_p157_right",
-   "sequence": 504,
+   "sequence": 516,
    "domain_canonical": "大多喜藩",
    "domain_hi_name": "大多喜藩",
    "domain_en": "Ōtaki",
@@ -8575,7 +8779,7 @@
   },
   {
    "id": "okada_lower_p157_left",
-   "sequence": 505,
+   "sequence": 517,
    "domain_canonical": "岡田藩",
    "domain_hi_name": "岡田藩",
    "domain_en": "Okada",
@@ -8592,7 +8796,7 @@
   },
   {
    "id": "ono_lower_p158_right",
-   "sequence": 506,
+   "sequence": 518,
    "domain_canonical": "小野藩",
    "domain_hi_name": "小野藩",
    "domain_en": "Ono",
@@ -8609,7 +8813,7 @@
   },
   {
    "id": "obata_lower_p158_left",
-   "sequence": 507,
+   "sequence": 519,
    "domain_canonical": "小幡藩",
    "domain_hi_name": "小幡藩",
    "domain_en": "Obata",
@@ -8626,7 +8830,7 @@
   },
   {
    "id": "obata_lower_p159_right",
-   "sequence": 508,
+   "sequence": 520,
    "domain_canonical": "小幡藩",
    "domain_hi_name": "小幡藩",
    "domain_en": "Obata",
@@ -8643,7 +8847,7 @@
   },
   {
    "id": "kokubo_lower_p159_left",
-   "sequence": 509,
+   "sequence": 521,
    "domain_canonical": "小久保藩",
    "domain_hi_name": "小久保藩",
    "domain_en": "Kokubo",
@@ -8660,7 +8864,7 @@
   },
   {
    "id": "oyumi_lower_p160_right",
-   "sequence": 510,
+   "sequence": 522,
    "domain_canonical": "生實藩",
    "domain_hi_name": "生實藩",
    "domain_en": "Oyumi",
@@ -8677,7 +8881,7 @@
   },
   {
    "id": "oyumi_lower_p160_left",
-   "sequence": 511,
+   "sequence": 523,
    "domain_canonical": "生實藩",
    "domain_hi_name": "生實藩",
    "domain_en": "Oyumi",
@@ -8694,7 +8898,7 @@
   },
   {
    "id": "yamauchi_lower_p164_left",
-   "sequence": 512,
+   "sequence": 524,
    "domain_canonical": "山内藩",
    "domain_hi_name": "山内藩",
    "domain_en": "Yamauchi",
@@ -8711,7 +8915,7 @@
   },
   {
    "id": "kameoka_lower_p165_right",
-   "sequence": 513,
+   "sequence": 525,
    "domain_canonical": "龜岡藩",
    "domain_hi_name": "龜岡藩",
    "domain_en": "Kameoka",
@@ -8728,7 +8932,7 @@
   },
   {
    "id": "karatsu_lower_p165_left",
-   "sequence": 514,
+   "sequence": 526,
    "domain_canonical": "唐津藩",
    "domain_hi_name": "唐津藩",
    "domain_en": "Karatsu",
@@ -8745,7 +8949,7 @@
   },
   {
    "id": "kameda_lower_p168_left",
-   "sequence": 515,
+   "sequence": 527,
    "domain_canonical": "龜田藩",
    "domain_hi_name": "龜田藩",
    "domain_en": "Kameda",
@@ -8762,7 +8966,7 @@
   },
   {
    "id": "kashima_lower_p169_right",
-   "sequence": 516,
+   "sequence": 528,
    "domain_canonical": "鹿島藩",
    "domain_hi_name": "鹿島藩",
    "domain_en": "Kashima (Hizen)",
@@ -8779,7 +8983,7 @@
   },
   {
    "id": "kamogata_lower_p169_left",
-   "sequence": 517,
+   "sequence": 529,
    "domain_canonical": "鴨方藩",
    "domain_hi_name": "鴨方藩",
    "domain_en": "Kamogata",
@@ -8796,7 +9000,7 @@
   },
   {
    "id": "kashiwara_lower_p170_right",
-   "sequence": 518,
+   "sequence": 530,
    "domain_canonical": "柏原藩",
    "domain_hi_name": "柏原藩",
    "domain_en": "Kashiwara",
@@ -8813,7 +9017,7 @@
   },
   {
    "id": "karasuyama_lower_p170_left",
-   "sequence": 519,
+   "sequence": 531,
    "domain_canonical": "烏山藩",
    "domain_hi_name": "烏山藩",
    "domain_en": "Karasuyama",
@@ -8830,7 +9034,7 @@
   },
   {
    "id": "karasuyama_lower_p171_right",
-   "sequence": 520,
+   "sequence": 532,
    "domain_canonical": "烏山藩",
    "domain_hi_name": "烏山藩",
    "domain_en": "Karasuyama",
@@ -8847,7 +9051,7 @@
   },
   {
    "id": "kariya_lower_p171_left",
-   "sequence": 521,
+   "sequence": 533,
    "domain_canonical": "刈谷藩",
    "domain_hi_name": "刈谷藩",
    "domain_en": "Kariya",
@@ -8864,7 +9068,7 @@
   },
   {
    "id": "katsuyama_lower_p172_right",
-   "sequence": 522,
+   "sequence": 534,
    "domain_canonical": "勝山藩",
    "domain_hi_name": "勝山藩",
    "domain_en": "Katsuyama (Awa)",
@@ -8881,7 +9085,7 @@
   },
   {
    "id": "kanbe_lower_p172_left",
-   "sequence": 523,
+   "sequence": 535,
    "domain_canonical": "神戸藩",
    "domain_hi_name": "神戸藩",
    "domain_en": "Kanbe",
@@ -8898,7 +9102,7 @@
   },
   {
    "id": "yodo_lower_p174_right",
-   "sequence": 524,
+   "sequence": 536,
    "domain_canonical": "淀藩",
    "domain_hi_name": "淀藩",
    "domain_en": "Yodo",
@@ -8915,7 +9119,7 @@
   },
   {
    "id": "yodo_lower_p174_left",
-   "sequence": 525,
+   "sequence": 537,
    "domain_canonical": "淀藩",
    "domain_hi_name": "淀藩",
    "domain_en": "Yodo",
@@ -8932,7 +9136,7 @@
   },
   {
    "id": "yoshida_lower_p175_right",
-   "sequence": 526,
+   "sequence": 538,
    "domain_canonical": "吉田藩",
    "domain_hi_name": "吉田藩",
    "domain_en": "Yoshida (Iyo)",
@@ -8949,7 +9153,7 @@
   },
   {
    "id": "yoita_lower_p175_left",
-   "sequence": 527,
+   "sequence": 539,
    "domain_canonical": "與板藩",
    "domain_hi_name": "與板藩",
    "domain_en": "Yoita",
@@ -8966,7 +9170,7 @@
   },
   {
    "id": "takatsuki_lower_p180_right",
-   "sequence": 528,
+   "sequence": 540,
    "domain_canonical": "高槻藩",
    "domain_hi_name": "高槻藩",
    "domain_en": "Takatsuki",
@@ -8983,7 +9187,7 @@
   },
   {
    "id": "tatsuno_lower_p180_left",
-   "sequence": 529,
+   "sequence": 541,
    "domain_canonical": "龍野藩",
    "domain_hi_name": "龍野藩",
    "domain_en": "Tatsuno",
@@ -9000,7 +9204,7 @@
   },
   {
    "id": "tanabe_lower_p181_right",
-   "sequence": 530,
+   "sequence": 542,
    "domain_canonical": "田邊藩",
    "domain_hi_name": "田邊藩",
    "domain_en": "Tanabe",
@@ -9017,7 +9221,7 @@
   },
   {
    "id": "takashima_lower_p181_left",
-   "sequence": 531,
+   "sequence": 543,
    "domain_canonical": "高島藩",
    "domain_hi_name": "高島藩",
    "domain_en": "Takashima (Suwa)",
@@ -9034,7 +9238,7 @@
   },
   {
    "id": "takashima_lower_p182_right",
-   "sequence": 532,
+   "sequence": 544,
    "domain_canonical": "高島藩",
    "domain_hi_name": "高島藩",
    "domain_en": "Takashima (Suwa)",
@@ -9051,7 +9255,7 @@
   },
   {
    "id": "takato_lower_p182_left",
-   "sequence": 533,
+   "sequence": 545,
    "domain_canonical": "高遠藩",
    "domain_hi_name": "高遠藩",
    "domain_en": "Takatō",
@@ -9068,7 +9272,7 @@
   },
   {
    "id": "tsuruta_lower_p183_right",
-   "sequence": 534,
+   "sequence": 546,
    "domain_canonical": "鶴田藩",
    "domain_hi_name": "鶴田藩",
    "domain_en": "Tsuruta",
@@ -9085,7 +9289,7 @@
   },
   {
    "id": "takatori_lower_p183_left",
-   "sequence": 535,
+   "sequence": 547,
    "domain_canonical": "高取藩",
    "domain_hi_name": "高取藩",
    "domain_en": "Takatori",
@@ -9102,7 +9306,7 @@
   },
   {
    "id": "tanagura_lower_p184_right",
-   "sequence": 536,
+   "sequence": 548,
    "domain_canonical": "棚倉藩",
    "domain_hi_name": "棚倉藩",
    "domain_en": "Tanagura",
@@ -9119,7 +9323,7 @@
   },
   {
    "id": "tadotsu_lower_p184_left",
-   "sequence": 537,
+   "sequence": 549,
    "domain_canonical": "多度津藩",
    "domain_hi_name": "多度津藩",
    "domain_en": "Tadotsu",
@@ -9136,7 +9340,7 @@
   },
   {
    "id": "takasu_lower_p185_right",
-   "sequence": 538,
+   "sequence": 550,
    "domain_canonical": "高須藩",
    "domain_hi_name": "高須藩",
    "domain_en": "Takasu",
@@ -9153,7 +9357,7 @@
   },
   {
    "id": "tahara_lower_p185_left",
-   "sequence": 539,
+   "sequence": 551,
    "domain_canonical": "田原藩",
    "domain_hi_name": "田原藩",
    "domain_en": "Tahara",
@@ -9170,7 +9374,7 @@
   },
   {
    "id": "tannan_lower_p186_right",
-   "sequence": 540,
+   "sequence": 552,
    "domain_canonical": "丹南藩",
    "domain_hi_name": "丹南藩",
    "domain_en": "Tannan",
@@ -9187,7 +9391,7 @@
   },
   {
    "id": "tako_lower_p186_left",
-   "sequence": 541,
+   "sequence": 553,
    "domain_canonical": "多古藩",
    "domain_hi_name": "多古藩",
    "domain_en": "Tako",
@@ -9204,7 +9408,7 @@
   },
   {
    "id": "tako_lower_p187_right",
-   "sequence": 542,
+   "sequence": 554,
    "domain_canonical": "多古藩",
    "domain_hi_name": "多古藩",
    "domain_en": "Tako",
@@ -9221,7 +9425,7 @@
   },
   {
    "id": "tawaramoto_lower_p187_left",
-   "sequence": 543,
+   "sequence": 555,
    "domain_canonical": "田原本藩",
    "domain_hi_name": "田原本藩",
    "domain_en": "Tawaramoto",
@@ -9238,7 +9442,7 @@
   },
   {
    "id": "tateyama_lower_p188_right",
-   "sequence": 544,
+   "sequence": 556,
    "domain_canonical": "館山藩",
    "domain_hi_name": "館山藩",
    "domain_en": "Tateyama",
@@ -9255,7 +9459,7 @@
   },
   {
    "id": "takase_lower_p188_left",
-   "sequence": 545,
+   "sequence": 557,
    "domain_canonical": "高瀬藩",
    "domain_hi_name": "高瀨藩",
    "domain_en": "Takase",
@@ -9272,7 +9476,7 @@
   },
   {
    "id": "sonobe_lower_p189_left",
-   "sequence": 546,
+   "sequence": 558,
    "domain_canonical": "園部藩",
    "domain_hi_name": "園部藩",
    "domain_en": "Sonobe",
@@ -9289,7 +9493,7 @@
   },
   {
    "id": "tayasu_lower_p189_right",
-   "sequence": 547,
+   "sequence": 559,
    "domain_canonical": "田安藩",
    "domain_hi_name": "田安藩",
    "domain_en": "Tayasu",
@@ -9306,7 +9510,7 @@
   },
   {
    "id": "nariwa_lower_p195_right",
-   "sequence": 548,
+   "sequence": 560,
    "domain_canonical": "成羽藩",
    "domain_hi_name": "成羽藩",
    "domain_en": "Nariwa",
@@ -9323,7 +9527,7 @@
   },
   {
    "id": "murakami_lower_p196_right",
-   "sequence": 549,
+   "sequence": 561,
    "domain_canonical": "村上藩",
    "domain_hi_name": "村上藩",
    "domain_en": "Murakami",
@@ -9340,7 +9544,7 @@
   },
   {
    "id": "mutsuura_lower_p197_right",
-   "sequence": 550,
+   "sequence": 562,
    "domain_canonical": "六浦藩",
    "domain_hi_name": "六浦藩",
    "domain_en": "Mutsuura",
@@ -9357,7 +9561,7 @@
   },
   {
    "id": "ushiku_lower_p198_left",
-   "sequence": 551,
+   "sequence": 563,
    "domain_canonical": "牛久藩",
    "domain_hi_name": "牛久藩",
    "domain_en": "Ushiku",
@@ -9374,7 +9578,7 @@
   },
   {
    "id": "kurume_lower_p201_right",
-   "sequence": 552,
+   "sequence": 564,
    "domain_canonical": "久留米藩",
    "domain_hi_name": "久留米藩",
    "domain_en": "Kurume",
@@ -9391,7 +9595,7 @@
   },
   {
    "id": "gujo_lower_p201_left",
-   "sequence": 553,
+   "sequence": 565,
    "domain_canonical": "郡上藩",
    "domain_hi_name": "郡上藩",
    "domain_en": "Gujō",
@@ -9408,7 +9612,7 @@
   },
   {
    "id": "kururi_lower_p202_right",
-   "sequence": 554,
+   "sequence": 566,
    "domain_canonical": "久留里藩",
    "domain_hi_name": "久留里藩",
    "domain_en": "Kururi",
@@ -9425,7 +9629,7 @@
   },
   {
    "id": "kurobane_lower_p203_right",
-   "sequence": 555,
+   "sequence": 567,
    "domain_canonical": "黒羽藩",
    "domain_hi_name": "黒羽",
    "domain_en": "Kurobane",
@@ -9442,7 +9646,7 @@
   },
   {
    "id": "yanagawa_lower_p205_right",
-   "sequence": 556,
+   "sequence": 568,
    "domain_canonical": "柳河藩",
    "domain_hi_name": "柳河藩",
    "domain_en": "Yanagawa",
@@ -9459,7 +9663,7 @@
   },
   {
    "id": "yanagimoto_lower_p205_left",
-   "sequence": 557,
+   "sequence": 569,
    "domain_canonical": "柳本藩",
    "domain_hi_name": "柳本藩",
    "domain_en": "Yanagimoto",
@@ -9476,7 +9680,7 @@
   },
   {
    "id": "yamasaki_lower_p206_right",
-   "sequence": 558,
+   "sequence": 570,
    "domain_canonical": "山崎藩",
    "domain_hi_name": "山崎藩",
    "domain_en": "Yamasaki",
@@ -9493,7 +9697,7 @@
   },
   {
    "id": "yajima_lower_p206_left",
-   "sequence": 559,
+   "sequence": 571,
    "domain_canonical": "矢島藩",
    "domain_hi_name": "矢島藩",
    "domain_en": "Yajima",
@@ -9510,7 +9714,7 @@
   },
   {
    "id": "matsushiro_lower_p209_right",
-   "sequence": 560,
+   "sequence": 572,
    "domain_canonical": "松代藩",
    "domain_hi_name": "松代藩",
    "domain_en": "Matsushiro",
@@ -9527,7 +9731,7 @@
   },
   {
    "id": "maebashi_lower_p209_left",
-   "sequence": 561,
+   "sequence": 573,
    "domain_canonical": "前橋藩",
    "domain_hi_name": "前橋藩",
    "domain_en": "Maebashi",
@@ -9544,7 +9748,7 @@
   },
   {
    "id": "matsumoto_lower_p210_right",
-   "sequence": 562,
+   "sequence": 574,
    "domain_canonical": "松本藩",
    "domain_hi_name": "松本藩",
    "domain_en": "Matsumoto",
@@ -9561,7 +9765,7 @@
   },
   {
    "id": "marugame_lower_p210_left",
-   "sequence": 563,
+   "sequence": 575,
    "domain_canonical": "丸亀藩",
    "domain_hi_name": "丸龜藩",
    "domain_en": "Marugame",
@@ -9578,7 +9782,7 @@
   },
   {
    "id": "maizuru_lower_p211_right",
-   "sequence": 564,
+   "sequence": 576,
    "domain_canonical": "舞鶴藩",
    "domain_hi_name": "舞鶴藩",
    "domain_en": "Maizuru",
@@ -9595,7 +9799,7 @@
   },
   {
    "id": "maruoka_lower_p211_left",
-   "sequence": 565,
+   "sequence": 577,
    "domain_canonical": "丸岡藩",
    "domain_hi_name": "丸岡藩",
    "domain_en": "Maruoka",
@@ -9612,7 +9816,7 @@
   },
   {
    "id": "mashima_lower_p212_right",
-   "sequence": 566,
+   "sequence": 578,
    "domain_canonical": "眞島藩",
    "domain_hi_name": "眞島藩",
    "domain_en": "Mashima",
@@ -9629,7 +9833,7 @@
   },
   {
    "id": "matsumine_lower_p212_left",
-   "sequence": 567,
+   "sequence": 579,
    "domain_canonical": "松嶺藩",
    "domain_hi_name": "松嶺藩",
    "domain_en": "Matsumine",
@@ -9646,7 +9850,7 @@
   },
   {
    "id": "matsukawa_lower_p213_right",
-   "sequence": 568,
+   "sequence": 580,
    "domain_canonical": "松川藩",
    "domain_hi_name": "松川藩",
    "domain_en": "Matsukawa",
@@ -9663,7 +9867,7 @@
   },
   {
    "id": "funai_lower_p216_right",
-   "sequence": 569,
+   "sequence": 581,
    "domain_canonical": "府内藩",
    "domain_hi_name": "福知山藩",
    "domain_en": "Funai",
@@ -9680,7 +9884,7 @@
   },
   {
    "id": "fukue_lower_p216_left",
-   "sequence": 570,
+   "sequence": 582,
    "domain_canonical": "福江藩",
    "domain_hi_name": "福江藩",
    "domain_en": "Fukue",
@@ -9697,7 +9901,7 @@
   },
   {
    "id": "fukiage_lower_p217_right",
-   "sequence": 571,
+   "sequence": 583,
    "domain_canonical": "吹上藩",
    "domain_hi_name": "吹上藩",
    "domain_en": "Fukiage",
@@ -9714,7 +9918,7 @@
   },
   {
    "id": "moriyama_lower_p246_right",
-   "sequence": 572,
+   "sequence": 584,
    "domain_canonical": "守山藩",
    "domain_hi_name": "守山藩",
    "domain_en": "Moriyama",
@@ -9731,7 +9935,7 @@
   },
   {
    "id": "izumi_upper_p037_right",
-   "sequence": 573,
+   "sequence": 585,
    "domain_canonical": "泉藩",
    "domain_hi_name": "泉藩",
    "domain_en": "Izumi",
@@ -9748,7 +9952,7 @@
   },
   {
    "id": "toyoura_upper_p055_left",
-   "sequence": 574,
+   "sequence": 586,
    "domain_canonical": "豐浦藩",
    "domain_hi_name": "豐浦藩",
    "domain_en": "Toyoura (Chōfu, Nagato province)",
@@ -9765,7 +9969,7 @@
   },
   {
    "id": "toyoura_upper_p056_right",
-   "sequence": 575,
+   "sequence": 587,
    "domain_canonical": "豐浦藩",
    "domain_hi_name": "豐浦",
    "domain_en": "Toyoura (Chōfu, Nagato province)",
@@ -9782,7 +9986,7 @@
   },
   {
    "id": "toyoura_upper_p056_left",
-   "sequence": 576,
+   "sequence": 588,
    "domain_canonical": "豐浦藩",
    "domain_hi_name": "豐浦藩",
    "domain_en": "Toyoura (Chōfu, Nagato province)",
@@ -9799,7 +10003,7 @@
   },
   {
    "id": "tokuyama_upper_p058_right",
-   "sequence": 577,
+   "sequence": 589,
    "domain_canonical": "德山藩",
    "domain_hi_name": "德山藩",
    "domain_en": "Tokuyama",
@@ -9816,7 +10020,7 @@
   },
   {
    "id": "tokuyama_upper_p058_left",
-   "sequence": 578,
+   "sequence": 590,
    "domain_canonical": "德山藩",
    "domain_hi_name": "德山藩",
    "domain_en": "Tokuyama",
@@ -9830,6 +10034,57 @@
    "table_number": 2,
    "page_topic": "Tokuyama tax receipts, products, households and population",
    "page_summary_en": "This leaf continues the Tokuyama entry in fascicle 2 of the 1870 Hansei Ichiran; no maru-marker appears on it, so every column belongs to Tokuyama. The domain reports regular land tax (正租) of 17,870 koku of rice and 129.8 kanme of silver, plus miscellaneous taxes (諸税) of 2,805 koku of rice, 509 ryō 3 bu 3 shu in gold, and a second silver figure of 194.2 kanme that the project's extracted dataset omits. Two products are recorded under a single brace annotated 年々不同, \"differs from year to year\": 1,000 bundles of hanshi paper and about 2,500 kin of dried sea cucumber. The demographic block gives 12,337 households and 54,471 people (28,173 male, 26,298 female), of which the shizoku-and-sotsu classes account for 975 households and 4,150 people, and the shizoku alone for 446 households and 2,003 people."
+  },
+  {
+   "id": "chizuka_upper_p061_left",
+   "sequence": 591,
+   "domain_canonical": "千束藩",
+   "domain_hi_name": "千束藩",
+   "domain_en": "Chizuka",
+   "image": "images/upper_p061_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 61,
+   "page_side": "L",
+   "book_page": "九十七",
+   "page_header_kanji": "藩制一覽表第二（斗南）",
+   "page_header_en": "Domain Administration Overview, Table 2 (Tonami)",
+   "table_number": 2,
+   "page_topic": "Fascicle-2 kokudaka and land-tax register (Chizuka block; Tonami unrecorded; Toyooka civil-register tail)",
+   "page_summary_en": "This page closes Toyooka's fascicle-2 civil register and opens the entries for Tonami and Chizuka. Toyooka's tail records outcaste (eta) households as \"not known\" with a population of 214 (96 male, 118 female), hinin households likewise unknown with a printed population of 145 — though the printed split of 61 male and 81 female sums to only 142 — plus 68 villages, 236 shrines, and a governor's family of 3. Tonami, the relocated Aizu domain, prints only 未記 (\"not recorded\"). Chizuka's block gives a base assessment (高) of 10,000 koku, new-land taka of 172.2126 koku, total kusadaka of 10,172.2126 koku (exactly the sum), and a tax yield (物成) of 5,413.076 koku at a fixed rate computed as the five-year average from Genji 1 (1864) through the boshin year (1868)."
+  },
+  {
+   "id": "chizuka_upper_p062_right",
+   "sequence": 592,
+   "domain_canonical": "千束藩",
+   "domain_hi_name": "千束藩",
+   "domain_en": "Chizuka",
+   "image": "images/upper_p062_right.jpg",
+   "volume": "vol1",
+   "pdf_page": 62,
+   "page_side": "R",
+   "book_page": "九十八",
+   "page_header_kanji": "藩制一覧表第二（千束）",
+   "page_header_en": "Hansei Ichiran, Table 2 (Chizuka)",
+   "table_number": 2,
+   "page_topic": "Chizuka Domain taxes, households, population, shrines and temples (block continuation)",
+   "page_summary_en": "This page continues the Table 2 entry for Chizuka Domain (千束藩), a small Buzen-province holding of the Okudaira house, begun on the preceding page. It records a ditto tax figure of 4,431.8241 koku carried over from the previous page's category, miscellaneous taxes (雜稅) of 4,800.39321 koku plus 13 ryō and 48.13 mon in Ei cash, 1,380 commoner households, and a population of 5,787 (2,838 male, 2,949 female). The status breakdown gives roughly 317 samurai-and-soldier households, 446 shizoku (213 male, 233 female) and 483 sotsu (244 male, 239 female), alongside 3 huts, 12 outcasts, 27 shrines with 2 shrine-keeper households (5 male, 4 female), and 5 temples housing 13 males and 17 females. The village-count label (村數) stands at the page edge with its value printed on the following page."
+  },
+  {
+   "id": "ryugasaki_upper_p062_left",
+   "sequence": 593,
+   "domain_canonical": "龍崎藩",
+   "domain_hi_name": "龍崎藩",
+   "domain_en": "Ryūgasaki",
+   "image": "images/upper_p062_left.jpg",
+   "volume": "vol1",
+   "pdf_page": 62,
+   "page_side": "L",
+   "book_page": "九十九",
+   "page_header_kanji": "藩制一覽表第二（龍崎）",
+   "page_header_en": "Survey of Domain Administration, Table 2 (Ryūgasaki)",
+   "table_number": 2,
+   "page_topic": "Fiscal and demographic summary of Ryūgasaki Domain",
+   "page_summary_en": "This page opens the Table 2 block for Ryūgasaki Domain (龍崎藩), a small eastern domain assessed at a grass yield of 12,425.53838 koku. Its regular land tax brought in 2,686.07228 koku of rice plus 587 ryō 3 shu and 359 mon in cash, and miscellaneous taxes added 545.7648 koku and 181 ryō 2 bu 2 shu with 110 mon; the printed totals of 3,231.83708 koku and 768 ryō 3 bu 1 shu with 469 mon reconcile exactly with these components. The domain counted 1,669 commoner households with 9,167 residents (4,688 male, 4,479 female), and in addition 61 shizoku households with 237 persons (114 male, 123 female). A single overflow column at the far right — one infantry platoon of 60 men — belongs to the preceding domain, Chizuka (千束藩)."
   }
  ]
 }

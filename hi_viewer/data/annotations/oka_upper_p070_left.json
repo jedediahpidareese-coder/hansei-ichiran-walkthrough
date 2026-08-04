@@ -1,0 +1,992 @@
+[
+  {
+    "id": "anno-oka_upper_p070_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口四千百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう よんせんひゃくよにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 4,104 persons (soldier-class households; the category label 卒族戸數 prints at the end of the facing page)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2606,1339,85,577"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳千貳百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にせんにひゃくろくじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 2,269 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2645,1994,58,610"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千八百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな せんはっぴゃくさんじゅうごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 1,835 persons (2,269 + 1,835 = 4,104, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2582,1994,61,543"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社務戸數百四拾壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しゃむこすう ひゃくよんじゅういっこ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-official households: 141 (the print labels the field 社務戸數; MASTER records it as 社家)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2469,1255,89,748"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口六百拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう ろっぴゃくじゅうしちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of shrine-official households: 617 persons as printed — the source's own male/female split (328 + 389) sums to 717, so the printed total is an arithmetic misprint in the original"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2334,1341,86,581"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ さんびゃくにじゅうはちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 328 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2373,2001,56,474"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな さんびゃくはちじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 389 persons (328 + 389 = 717, conflicting with the printed total 617)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2312,2000,59,473"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺七十壹所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "てら ななじゅういっしょ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 71"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2208,1260,85,499"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口五百四拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう ごひゃくよんじゅうはちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population: 548 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2202,1849,82,662"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ さんびゃくななじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 373 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2241,2592,57,473"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百七十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな ひゃくななじゅうごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 175 persons (373 + 175 = 548, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2185,2592,54,405"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗戸數貳十壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しゅげんこすう にじゅういっこ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mountain-ascetic (shugen) households: 21"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2072,1260,89,666"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう ひゃくきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugen population: 109 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2065,2016,85,411"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ よんじゅうしちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 47 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2105,2505,59,334"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな ろくじゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 62 persons (47 + 62 = 109, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2047,2505,56,335"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（座頭廿三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ざとう にじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Blind performers [zato]: 23 persons)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "座頭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1939,1322,85,451"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數百拾六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えたこすう ひゃくじゅうろっこ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) households: 116"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1804,1257,86,667"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口六百四拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう ろっぴゃくよんじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta population: 643 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1796,2015,83,663"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ さんびゃくはちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 308 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1834,2756,57,336"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな さんびゃくさんじゅうごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 335 persons (308 + 335 = 643, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1773,2757,59,475"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人戸數七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひにんこすう ななこ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) households: 7"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1671,1262,84,499"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口五十壹人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう ごじゅういちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin population: 51 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1664,1852,82,497"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男廿九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which male: 29 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1699,2427,57,268"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女廿貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな にじゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which female: 22 persons (29 + 22 = 51, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1640,2425,57,272"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社數貳千七百八十六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しゃすう にせんななひゃくはちじゅうろくしゃ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of shrines: 2,786 (the print labels the field 社數; MASTER records it as 神社)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1530,1095,91,831"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數不分明"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "そんすう ふぶんめい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Number of villages: not clearly ascertainable (no numeral printed)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1405,1094,83,414"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦ナシ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "せんかん なし"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Warships: none)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1271,1092,84,351"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族七人男四人女三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ちじかぞく しちにん おとこよにん おんなさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Governor's family: 7 persons — 4 male, 3 female; 4 + 3 = 7, reconciles)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1113,1094,120,739"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊二大隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "へいたい にだいたい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: 2 battalions"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1000,1097,82,413"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但六小隊ヲ以爲大隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ただし ろくしょうたいをもって だいたいとなす"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: six platoons constitute one battalion"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊但書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1007,1517,71,606"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲一隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たいほう いったい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: 1 unit"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲隊"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:984,2188,85,330"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいに（おか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han System Survey Table, Fascicle 2 (Oka) — provenance marker naming the domain of this block"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二（岡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:878,1352,71,523"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_upper_p070_left-32",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくじゅうご"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 115"
+      },
+      {
+        "purpose": "identifying",
+        "value": "百十五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p070_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:862,3194,66,159"
+      }
+    }
+  }
+]

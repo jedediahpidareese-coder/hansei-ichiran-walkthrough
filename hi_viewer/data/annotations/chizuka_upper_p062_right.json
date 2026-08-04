@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-chizuka_upper_p062_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第二（千束）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいに（ちづか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Hansei Ichiran Table 2 (Chizuka) — provenance marker naming the fascicle and the domain block continuing on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二（千束）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2105,1353,75,578"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "きゅうじゅうはち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number 98."
+      },
+      {
+        "purpose": "identifying",
+        "value": "九十八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2084,3191,69,166"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同　四千四百三拾壹石八斗二升四合一勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "どう　よんせんよんひゃくさんじゅういっこく はっと にしょう よんごう いっしゃく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ditto — 4,431 koku 8 to 2 sho 4 go 1 shaku. The label this repeats is 物成 (land-tax yield), the last column of the preceding page (book page 97, upper_p061_left), where Chizuka's first 物成 figure is 五千四百拾三石七升六合 但定免 = 5,413.076 koku on a fixed quota. This is therefore a second 物成 figure for the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "同"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1958,1271,102,1591"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　四千八百石三斗九升三合二勺壹才拾三兩ト永四拾八文壹步三厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ざつぜい　よんせんはっぴゃっこく さんと きゅうしょう さんごう にしゃく いっさい、じゅうさんりょう と えい よんじゅうはちもん いちぶ さんりん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: 4,800 koku 3 to 9 sho 3 go 2 shaku 1 sai, plus 13 ryo and Ei 48 mon 1 bu 3 rin in cash. The final glyph 厘 wraps to the top of the next column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1709,1267,223,2509"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千三百八拾軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "こすう　せんさんびゃくはちじゅっけん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 1,380."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1576,1099,91,753"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　五千七百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんこう　ごせんななひゃくはちじゅうななにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 5,787 persons. (Scan prints plain 十 in the tens place; MASTER's 八拾七 is a glyph-level transcription difference, same value.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1438,1097,97,922"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二千八百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にせんはっぴゃくさんじゅうはちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the population, male: 2,838 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1478,2022,62,615"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二千九百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな にせんきゅうひゃくよんじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the population, female: 2,949 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1410,2022,67,615"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族卒戸數　三百拾七軒程"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しぞくそつこすう　さんびゃくじゅうななけん ほど"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku and sotsu households (combined): approximately 317 (程 marks the figure as approximate). Preceded by a small structural 內 (of-which) marker, not boxed."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1301,1182,91,1004"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人口　四百四拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しぞくじんこう　よんひゃくよんじゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai-status) population: 446 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1164,1349,100,916"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にひゃくじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shizoku population, male: 213 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1206,2271,61,410"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな にひゃくさんじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the shizoku population, female: 233 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1140,2271,65,477"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族人口　四百八十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "そつぞくじんこう　よんひゃくはちじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (foot-soldier-status) population: 483 persons. (Scan prints plain 十; MASTER's 八拾三 is a glyph-level transcription difference, same value.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1029,1348,98,913"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にひゃくよんじゅうよにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu population, male: 244 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1069,2267,62,480"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな にひゃくさんじゅうきゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of the sotsu population, female: 239 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1006,2267,62,479"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小屋　三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "こや　さんげん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Huts: 3. Present on the page but absent from MASTER's row list for this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小屋"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:905,1347,85,416"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　男女十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひにん　だんじょ じゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcasts): 12 persons, male and female combined."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:770,1343,90,671"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　二十七社　戸數神主二戸同人口男五人女四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じんじゃ　にじゅうななしゃ　こすう かんぬし にこ、どうじんこう おとこ ごにん おんな よにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrines: 27. Subtext: shrine-keeper households 2; their population 5 male, 4 female."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:606,1255,129,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　五ヶ寺　人口男十三人女十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "てら　ごかじ　じんこう おとこ じゅうさんにん おんな じゅうななにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 5. Subtext: temple population 13 male, 17 female."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:475,1255,122,1027"
+      }
+    }
+  },
+  {
+    "id": "anno-chizuka_upper_p062_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "むらかず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Village count — the label is printed but no figure follows it. The column holds these two glyphs and nothing else, and the figure does not appear anywhere else in the Chizuka block: the next page read (upper_p062_left, book page 99) opens with 兵隊　一小隊六十人, which is Chizuka's military entry standing to the right of the ○龍崎藩 marker. Treated as a label with no datum."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p062_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:372,1257,86,166"
+      }
+    }
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-obama_upper_p066_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（社寺三十四ヶ所）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しゃじ さんじゅうよんかしょ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Shrines and temples: 34 sites) — a parenthesized item at the tail of the previous domain's (Oizumi / Shonai) block, printed right of the Obama marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社寺（大泉藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2600,1199,89,624"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銃兵　三十五小隊　一隊四十人ヨリ六十人マテ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じゅうへい さんじゅうごしょうたい（いったいよんじゅうにんよりろくじゅうにんまで）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Riflemen: 35 platoons; small-type note: each platoon runs from 40 up to 60 men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銃兵（大泉藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2467,1051,91,1641"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲隊　四隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たいほうたい よんたい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery corps: 4 units."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲隊（大泉藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2331,1055,88,500"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ破隊附屬銃手　四隊一隊三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほかに はたいふぞくじゅうしゅ よんたい いったいさんじゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition: riflemen attached to the 破隊 — 4 units, 30 men per unit. The page clearly prints 破 (石 + 皮), not 砲. The same domain's entry in the volume-2 officials-and-military table also prints 大破隊, and two columns to the right this page prints 大砲隊 四隊 with the same count of four, so these 破隊 are almost certainly the four artillery units written with a variant character."
+      },
+      {
+        "purpose": "identifying",
+        "value": "破隊附属銃手（大泉藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2192,1143,91,1233"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○小濱藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おばまはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Obama domain — the maru-marker opening the domain's block. Everything to its left on this leaf is Obama's; everything to its right belongs to the preceding Oizumi (Shonai) entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○小濱藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2045,1396,109,564"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　十萬六千五百九十九石三斗四升八合二勺　但シ本高新田改出共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか じゅうまんろくせんごひゃくきゅうじゅうきゅうこく さんとよんしょうはちごうにしゃく（ただし ほんだか・しんでん・あらためだし とも）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield: 106,599 koku 3 to 4 sho 8 go 2 shaku; note: original assessment, new fields and reassessed output combined."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1923,1062,94,2478"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たか"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yield (taka) — the field label prints with no figure beneath it; the value column is blank. On comparable pages (for example Akashi at lower_p024_left) this slot carries the official assessed kokudaka, but here the survey folded everything into 草高, whose note reads 但シ本高新田改出共."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1795,1148,76,83"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　十三萬百二俵三斗七升一合　但シ四斗入"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "せいそまい じゅうさんまんひゃくにひょう さんとななしょういちごう（ただし よんといり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax rice: 130,102 bales 3 to 7 sho 1 go; note: bales of 4 to each."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1658,1153,92,1769"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸產物及諸稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "しょさんぶつおよびしょぜい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Various products and taxes — section heading for the product columns that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸產物及諸稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1520,1155,88,498"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "塗物　代金五百六十四兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ぬりもの だいきんごひゃくろくじゅうよんりょう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Lacquerware: value 564 ryo."
+      },
+      {
+        "purpose": "identifying",
+        "value": "塗物"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1385,1240,89,925"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "葛　目方九十貫目"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くず めかたきゅうじゅっかんめ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kuzu (arrowroot starch): weight 90 kanme."
+      },
+      {
+        "purpose": "identifying",
+        "value": "葛"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1253,1242,82,755"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "蠟燭　目方一萬四千五百七十六貫二十四目"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ろうそく めかたいちまんよんせんごひゃくななじゅうろっかん にじゅうよんめ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Candles: weight 14,576 kan 24 me (momme)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "蠟燭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1117,1245,85,1594"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "釘　八千七百五十箇"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くぎ はっせんななひゃくごじゅっこ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nails: 8,750 pieces."
+      },
+      {
+        "purpose": "identifying",
+        "value": "釘"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:984,1247,86,842"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（小濱）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょうだいに（おばま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Domain Administration Survey, Fascicle 2 (Obama) — the provenance marker naming the fascicle and the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:869,1334,71,577"
+      }
+    }
+  },
+  {
+    "id": "anno-obama_upper_p066_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくしち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 107, in the left margin well below the running header."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百七"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p066_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:870,3175,67,117"
+      }
+    }
+  }
+]
