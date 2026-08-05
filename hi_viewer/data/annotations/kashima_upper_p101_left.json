@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-kashima_upper_p101_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○鹿島藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鹿島藩（かしまはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kashima Domain — section marker opening the domain's entry"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○鹿島藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2571,1387,117,564"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高二萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 二万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield (kusadaka): 20,000 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2459,1050,95,419"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內田畠千九百三十九町八段六畝十六步小半"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 田畠 千九百三十九町八段六畝十六歩小半"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which, paddy and dry field: 1,939 chō 8 tan 6 se 16 bu and a small fraction"
+      },
+      {
+        "purpose": "identifying",
+        "value": "內田畠"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2289,1201,168,1526"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "地米一萬三千七百十一石一斗四升四合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "地米 一万三千七百十一石一斗四升四合四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land-rice from the arable: 13,711.1444 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "田畠地米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2157,1220,129,1593"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山野千五百拾五町一畝八步半"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "山野 千五百十五町一畝八歩半"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hill and moor: 1,515 chō 1 se 8.5 bu"
+      },
+      {
+        "purpose": "identifying",
+        "value": "山野"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2039,1213,110,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "地米六千二百八十八石八斗五升五合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "地米 六千二百八十八石八斗五升五合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land-rice from hill and moor: 6,288.8556 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "山野地米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1892,1213,125,1514"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "地米二萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "地米 二万石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land-rice, total: 20,000 koku (13,711.1444 + 6,288.8556)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合計地米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1786,1298,96,415"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Five-year average — heading over the tax figures that follow"
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1660,1039,100,417"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租一萬四十七石二斗六升八合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 一万四十七石二斗六升八合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax: 10,047.2682 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1490,1039,130,1430"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅銀二十八貫百五十九文目九釐"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 銀二十八貫百五十九匁九厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: silver, 28 kan 159 monme 9 rin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1358,1035,128,1345"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "石八兩立ニシテ現米五十八石六斗六升四合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一石につき八両立にして、現米 五十八石六斗六升四合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Reckoned at eight ryō of silver to the koku, this equals 58.6648 koku of current rice (genmai)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅現米換算"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1216,1371,125,1766"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合現米一萬百五石九斗三升三合餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合 現米 一万百五石九斗三升三合余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined current rice (genmai): 10,105.933 koku and a remainder"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1099,1031,115,1265"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右十分之一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右十分の一"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "One tenth of the above — the amount itself is not printed on this page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "右十分之一"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:994,1115,92,391"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第三（鹿島）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（鹿島）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Table of Domain Administration, Fascicle 3 (Kashima)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:865,1283,85,580"
+      }
+    }
+  },
+  {
+    "id": "anno-kashima_upper_p101_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百七十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百七十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number: 177"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p101_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:819,3128,69,230"
+      }
+    }
+  }
+]

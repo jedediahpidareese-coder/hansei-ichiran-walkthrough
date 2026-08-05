@@ -1,572 +1,572 @@
 [
-  {
-    "id": "anno-ryugasaki_upper_p062_left-00",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "兵隊 一小隊六十人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "へいたい いっしょうたい ろくじゅうにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Infantry: one platoon, 60 men"
-      },
-      {
-        "purpose": "identifying",
-        "value": "兵隊（千束藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2675,1242,84,655"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-01",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "○龍崎藩 大綱"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "りゅうがさきはん たいこう"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Ryūgasaki Domain — general summary (domain marker with section subheading)"
-      },
-      {
-        "purpose": "identifying",
-        "value": "○龍崎藩"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2523,1410,109,696"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-02",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "草高 壹萬貳千四百貳拾五石五斗三升八合三勺八才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "くさだか いちまんにせんよんひゃくにじゅうごこく ごと さんしょう はちごう さんしゃく はっさい"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Gross assessed yield (grass yield): 12,425.53838 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "草高"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2399,1074,92,1932"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-03",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "正租 米二千六百八十六石七升二合二勺八才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "せいそ こめ にせんろっぴゃくはちじゅうろっこく ななしょう にごう にしゃく はっさい"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Regular land tax, rice: 2,686.07228 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "正租米"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2266,1162,96,1677"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-04",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "金五百八拾七兩三朱ト錢三百五拾九文"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "きん ごひゃくはちじゅうななりょう さんしゅ と ぜに さんびゃくごじゅうきゅうもん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Regular land tax, cash: 587 ryō 3 shu, plus 359 mon in coin"
-      },
-      {
-        "purpose": "identifying",
-        "value": "正租金"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2134,1413,92,1429"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-05",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "雜稅 米五百四拾五石七斗六升四合八勺"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "ざつぜい こめ ごひゃくよんじゅうごこく ななと ろくしょう よんごう はっしゃく"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Miscellaneous taxes, rice: 545.7648 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "雜稅米"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2002,1160,93,1517"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-06",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "金百八拾壹兩貳分貳朱ト錢百拾文"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "きん ひゃくはちじゅういちりょう にぶ にしゅ と ぜに ひゃくじゅうもん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Miscellaneous taxes, cash: 181 ryō 2 bu 2 shu, plus 110 mon in coin"
-      },
-      {
-        "purpose": "identifying",
-        "value": "雜稅金"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1867,1415,90,1258"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-07",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "合 米三千貳百三拾壹石八斗三升七合八才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "ごう こめ さんぜんにひゃくさんじゅういっこく はっと さんしょう ななごう はっさい"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Total, rice: 3,231.83708 koku"
-      },
-      {
-        "purpose": "identifying",
-        "value": "合米"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1731,1162,95,1681"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-08",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "金七百六拾八兩三分壹朱ト錢四百六拾九文"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "きん ななひゃくろくじゅうはちりょう さんぶ いっしゅ と ぜに よんひゃくろくじゅうきゅうもん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Total, cash: 768 ryō 3 bu 1 shu, plus 469 mon in coin"
-      },
-      {
-        "purpose": "identifying",
-        "value": "合金"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1592,1421,95,1595"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-09",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "戸數 千六百六拾九軒"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "こすう せんろっぴゃくろくじゅうきゅうけん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Households: 1,669"
-      },
-      {
-        "purpose": "identifying",
-        "value": "戸數"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1468,1081,90,835"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-10",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "人口 九千百六拾七人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "じんこう きゅうせんひゃくろくじゅうななにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Population: 9,167 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "人口"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1336,1084,91,832"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-11",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男四千六百八十八人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ よんせんろっぴゃくはちじゅうはちにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Of which male: 4,688 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "人口男"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1374,1923,58,616"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-12",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女四千四百七拾九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな よんせんよんひゃくななじゅうきゅうにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Of which female: 4,479 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "人口女"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1309,1923,65,616"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-13",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "外 士族戸數 六拾壹軒"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "ほか しぞくこすう ろくじゅういっけん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "In addition — shizoku (former samurai) households: 61"
-      },
-      {
-        "purpose": "identifying",
-        "value": "外士族戸數"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1200,1086,134,754"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-14",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "同 人口 貳百三十七人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "どう じんこう にひゃくさんじゅうななにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Population of the same (shizoku): 237 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "同人口"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1058,1088,94,917"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-15",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男百十四人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おとこ ひゃくじゅうよにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Of which male: 114 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "同人口男"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1105,2011,58,339"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-16",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女百二十三人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "おんな ひゃくにじゅうさんにん"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Of which female: 123 persons"
-      },
-      {
-        "purpose": "identifying",
-        "value": "同人口女"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1039,2011,65,411"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-17",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "藩制一覽表第二（龍崎）"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "はんせいいちらんひょう だいに（りゅうがさき）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Running header: Survey of Domain Administration, Table 2 (Ryūgasaki)"
-      },
-      {
-        "purpose": "identifying",
-        "value": "藩制一覽表第二（龍崎）"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:940,1344,77,579"
-      }
-    }
-  },
-  {
-    "id": "anno-ryugasaki_upper_p062_left-18",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "九十九"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "きゅうじゅうきゅう"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Printed book page number: 99"
-      },
-      {
-        "purpose": "identifying",
-        "value": "九十九"
-      }
-    ],
-    "target": {
-      "source": "images/upper_p062_left.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:928,3188,72,170"
-      }
-    }
+ {
+  "id": "anno-ryugasaki_upper_p062_left-00",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "兵隊 一小隊六十人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "へいたい いっしょうたい ろくじゅうにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Infantry: one platoon, 60 men"
+   },
+   {
+    "purpose": "identifying",
+    "value": "兵隊（千束藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2675,1242,84,655"
+   }
   }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-01",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "○龍崎藩 大綱"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "りゅうがさきはん（おおあみ）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Domain marker: Ryūgasaki Domain. The smaller characters give the domain's former name, Ōami (大網藩) in Kazusa — its seat moved to Ryūgasaki and it was renamed in the 2nd month of Meiji 4 (April 1871), five months before the abolition of the domains. Note that the second character is heavily inked on this impression and could be read 綱 or 網."
+   },
+   {
+    "purpose": "identifying",
+    "value": "○龍崎藩"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2523,1410,109,696"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-02",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "草高 壹萬貳千四百貳拾五石五斗三升八合三勺八才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "くさだか いちまんにせんよんひゃくにじゅうごこく ごと さんしょう はちごう さんしゃく はっさい"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Gross assessed yield (grass yield): 12,425.53838 koku"
+   },
+   {
+    "purpose": "identifying",
+    "value": "草高"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2399,1074,92,1932"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-03",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "正租 米二千六百八十六石七升二合二勺八才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "せいそ こめ にせんろっぴゃくはちじゅうろっこく ななしょう にごう にしゃく はっさい"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Regular land tax, rice: 2,686.07228 koku"
+   },
+   {
+    "purpose": "identifying",
+    "value": "正租米"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2266,1162,96,1677"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-04",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "金五百八拾七兩三朱ト錢三百五拾九文"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "きん ごひゃくはちじゅうななりょう さんしゅ と ぜに さんびゃくごじゅうきゅうもん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Regular land tax, cash: 587 ryō 3 shu, plus 359 mon in coin"
+   },
+   {
+    "purpose": "identifying",
+    "value": "正租金"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2134,1413,92,1429"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-05",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "雜稅 米五百四拾五石七斗六升四合八勺"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "ざつぜい こめ ごひゃくよんじゅうごこく ななと ろくしょう よんごう はっしゃく"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Miscellaneous taxes, rice: 545.7648 koku"
+   },
+   {
+    "purpose": "identifying",
+    "value": "雜稅米"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2002,1160,93,1517"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-06",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "金百八拾壹兩貳分貳朱ト錢百拾文"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "きん ひゃくはちじゅういちりょう にぶ にしゅ と ぜに ひゃくじゅうもん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Miscellaneous taxes, cash: 181 ryō 2 bu 2 shu, plus 110 mon in coin"
+   },
+   {
+    "purpose": "identifying",
+    "value": "雜稅金"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1867,1415,90,1258"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-07",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "合 米三千貳百三拾壹石八斗三升七合八才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "ごう こめ さんぜんにひゃくさんじゅういっこく はっと さんしょう ななごう はっさい"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Total, rice: 3,231.83708 koku"
+   },
+   {
+    "purpose": "identifying",
+    "value": "合米"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1731,1162,95,1681"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-08",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "金七百六拾八兩三分壹朱ト錢四百六拾九文"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "きん ななひゃくろくじゅうはちりょう さんぶ いっしゅ と ぜに よんひゃくろくじゅうきゅうもん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Total, cash: 768 ryō 3 bu 1 shu, plus 469 mon in coin"
+   },
+   {
+    "purpose": "identifying",
+    "value": "合金"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1592,1421,95,1595"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-09",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "戸數 千六百六拾九軒"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "こすう せんろっぴゃくろくじゅうきゅうけん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Households: 1,669"
+   },
+   {
+    "purpose": "identifying",
+    "value": "戸數"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1468,1081,90,835"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-10",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "人口 九千百六拾七人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "じんこう きゅうせんひゃくろくじゅうななにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Population: 9,167 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "人口"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1336,1084,91,832"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-11",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男四千六百八十八人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "おとこ よんせんろっぴゃくはちじゅうはちにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Of which male: 4,688 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "人口男"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1374,1923,58,616"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-12",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女四千四百七拾九人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "おんな よんせんよんひゃくななじゅうきゅうにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Of which female: 4,479 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "人口女"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1309,1923,65,616"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-13",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "外 士族戸數 六拾壹軒"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "ほか しぞくこすう ろくじゅういっけん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "In addition — shizoku (former samurai) households: 61"
+   },
+   {
+    "purpose": "identifying",
+    "value": "外士族戸數"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1200,1086,134,754"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-14",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "同 人口 貳百三十七人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "どう じんこう にひゃくさんじゅうななにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Population of the same (shizoku): 237 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "同人口"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1058,1088,94,917"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-15",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男百十四人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "おとこ ひゃくじゅうよにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Of which male: 114 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "同人口男"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1105,2011,58,339"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-16",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女百二十三人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "おんな ひゃくにじゅうさんにん"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Of which female: 123 persons"
+   },
+   {
+    "purpose": "identifying",
+    "value": "同人口女"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1039,2011,65,411"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-17",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "藩制一覽表第二（龍崎）"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "はんせいいちらんひょう だいに（りゅうがさき）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Running header: Survey of Domain Administration, Table 2 (Ryūgasaki)"
+   },
+   {
+    "purpose": "identifying",
+    "value": "藩制一覽表第二（龍崎）"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:940,1344,77,579"
+   }
+  }
+ },
+ {
+  "id": "anno-ryugasaki_upper_p062_left-18",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "九十九"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "きゅうじゅうきゅう"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Printed book page number: 99"
+   },
+   {
+    "purpose": "identifying",
+    "value": "九十九"
+   }
+  ],
+  "target": {
+   "source": "images/upper_p062_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:928,3188,72,170"
+   }
+  }
+ }
 ]
