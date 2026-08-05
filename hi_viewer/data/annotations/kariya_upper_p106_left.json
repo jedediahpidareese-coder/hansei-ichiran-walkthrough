@@ -1,0 +1,662 @@
+[
+  {
+    "id": "anno-kariya_upper_p106_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○刈屋藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "刈屋藩（かりやはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Kariya han (刈屋, modern 刈谷) — the circle opens this domain's block. The margin to its right is blank, so no earlier domain's data spills onto this leaf; everything to its left belongs to Kariya."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○刈屋藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2679,1421,113,562"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 二萬七千七百三十四石六斗八升三合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）二万七千七百三十四石六斗八升三合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 27,734.68338 koku. The two columns to its left give the breakdown: the 23,000-koku official assessment (高) plus 4,734.68338 koku of newly surveyed field (込高改出新田高). 23,000 + 4,734.68338 = 27,734.68338, exact. MASTER files 23,000 under this label; that figure is the sub-component, not the total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2529,1082,129,1767"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 二萬三千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか）二万三千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Official assessed kokudaka (omotedaka) = 23,000 koku — the figure Kariya was formally rated at. MASTER has no row for this column and files this value under 草高 instead."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2427,1162,98,584"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込高改出新田高 四千七百三十四石六斗八升三合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込高改出新田高（こみだかあらためだししんでんだか）四千七百三十四石六斗八升三合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "New-field yield brought onto the books at re-survey = 4,734.68338 koku. Added to the 23,000-koku official assessment it produces the 27,734.68338-koku gross. The label is set as two half-width sub-columns (込高改 / 出新田) with a shared 高 beneath them."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高改出新田高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2261,1161,148,1761"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米 六千九百七十四石三斗八升七合五勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米（せいそまい）六千九百七十四石三斗八升七合五勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (正租) collected in rice = 6,974.38751 koku, about 25 percent of the 27,734.68338-koku assessed gross. Read at single-character zoom the tail is 七合五勺壹才; MASTER's 七合一勺 and its parsed 6974.38771 are both wrong."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2118,1163,136,1842"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金 貳百拾九兩二分壹朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）二百十九両二分一朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax rendered in gold = 219 ryō 2 bu 1 shu (4 bu = 1 ryō, 4 shu = 1 bu). The column sits one indent below the 正租 heading, alongside 米, 銀, 錢 and 永."
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2013,1327,103,920"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀 二十八匁三分四厘二毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀（ぎん）二十八匁三分四厘二毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Silver revenue = 28.342 monme."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1879,1327,106,1001"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "錢 二百六十九貫三百四十一文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銭（ぜに）二百六十九貫三百四十一文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Copper cash revenue = 269 kan 341 mon (1 kan = 1,000 mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銭"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1739,1323,110,1169"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永 六百八十九貫八百八十七文三分壹毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）六百八十九貫八百八十七文三分一毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax reckoned in eiraku cash (ei) = 689 kan 887 mon 3 bu 1 mō. Like 金, 銀 and 錢 the column sits one indent below the 正租 heading. MASTER has no row for it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1597,1319,119,1504"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數 五千九百五十七軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）五千九百五十七軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households = 5,957."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1488,1062,106,919"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口 二萬六千二百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）二万六千二百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population = 26,257 persons. The 内 split printed below divides it into 13,079 male and 13,178 female, which sum exactly to this total. A further 10 shrine personnel and 171 Buddhist clergy are entered 外ニ ('besides') at the foot of the column, outside the 26,257. Against 5,957 households that is about 4.4 people per household."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1353,1056,102,1088"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 壹萬三千七十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）一万三千七十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population = 13,079 (the right-hand run of the 内 split)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1377,2219,61,611"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 一萬三千百七十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）一万三千百七十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population = 13,178 (the left-hand run of the 内 split). 13,079 + 13,178 = 26,257, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1307,2219,69,683"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ 社人十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に、社人（しゃにん）十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "外ニ ('besides') heads the two-column note at the foot of the population block. Right-hand half: shrine personnel = 10. The heading covers both halves — this one and the 171 clergy to its left — and both counts stand outside the 26,257 population total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外ニ社人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1354,2906,66,409"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧百七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）百七十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy = 171 — the left-hand half of the 外ニ note at the foot of the population block, counted outside the 26,257."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,3040,60,408"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に（ほかに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Besides / in addition' (外ニ) — a half-width qualifier set in the gap immediately before the 神社 entry, so in the right-to-left reading order it heads that entry: the 22 shrines are returned separately from the household and population figures given to the right. It carries no number of its own."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社外ニ"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1314,1056,38,116"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 二十二社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社（じんじゃ）二十二社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines = 22, headed by the 外ニ ('besides') qualifier printed in the gap to its right. The 10 shrine personnel returned in the note at the foot of the population column are recorded separately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1231,1054,83,584"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に（ほかに）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Besides / in addition' (外ニ) — the matching half-width qualifier set in the gap immediately before the 寺 entry, heading it in the right-to-left reading order: the 140 temples are returned separately from the household and population figures. It carries no number of its own."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺外ニ"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1178,1053,52,117"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺 百四十ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）百四十ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples = 140, headed by the 外ニ ('besides') qualifier printed in the gap to its right. The 171 clergy returned in the note at the foot of the population column are recorded separately."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1094,1052,83,663"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "付箋〔寺修驗神社等ハ村々調ラベ書出候〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "付箋（ふせん）〔寺・修験・神社等は村々調べ書き出し候〕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Attached slip (fusen), printed in small type inside brackets: 'Temples, Shugendo practitioners, shrines and the like were surveyed village by village and written out.' A compiler's note on how the religious-establishment counts in this entry were gathered, not a data value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "付箋"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1043,2023,180,599"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第三（刈屋）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（刈屋）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: 'Han Institutions at a Glance, Fascicle 3 (Kariya)'. Provenance for the leaf; here it names the same domain whose data the page carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:968,1304,76,575"
+      }
+    }
+  },
+  {
+    "id": "anno-kariya_upper_p106_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百八十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 187."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p106_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:921,3147,67,217"
+      }
+    }
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-kaibara_upper_p105_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第三　（柏原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（柏原）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Administration, Fascicle 3 (Kaibara)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第三（柏原）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2223,1311,73,573"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百八十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百八十四（184ページ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number: 184"
+      },
+      {
+        "purpose": "identifying",
+        "value": "書頁（百八十四）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2216,3150,69,219"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸雜稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸雑税（しょざつぜい）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — group heading for the three entries that follow (rice, gold, eiraku cash)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2096,1141,84,246"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　百七十三石一斗一升三勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米 173石1斗1升3勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, rice portion: 173.1103 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1960,1309,87,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金　二十兩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 20両"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, gold portion: 20 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1832,1312,81,413"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　百七十九文一分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永 179文1分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, eiraku-cash portion: 179.1 mon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1700,1312,81,750"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（外）士族戸數　百三十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（外）士族戸数 139戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households, counted separately from the domain totals: 139 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1565,1059,134,834"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同　人口　六百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（士族）人口 633人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 633 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1438,1059,79,915"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 300人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, male: 300"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1475,1985,56,265"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 333人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population, female: 333"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1415,1984,59,472"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（外）卒族戸數　七十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（外）卒族戸数 70戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households, counted separately from the domain totals: 70 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1304,1053,132,674"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同　人口　二百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（卒族）人口 273人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 273 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1168,1053,83,921"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 135人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population, male: 135"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1206,1980,58,405"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 138人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population, female: 138"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1146,1980,59,405"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　四千二十四戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 4,024戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 4,024"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1030,1052,86,755"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　一萬七千五百六十九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 17,569人 うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 17,569 persons, of which (the male/female split follows below)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:892,1053,88,1159"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八千九百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 8,900人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, male: 8,900"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:930,2222,55,402"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八千六百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 8,669人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, female: 8,669"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:874,2221,56,608"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　社家廿戸　人口六十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（内）神社 社家 20戸 人口 61人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines — priestly (shake) households: 20; their population: 61 persons. The group marker 内 ('of which') printed above this column heads the shrine/temple/Shugendo block and is not boxed on its own."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:762,1050,79,1176"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 33人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest population, male: 33"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社社家男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:798,2235,56,334"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 28人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest population, female: 28"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社社家女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:741,2235,57,334"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　六十六ヶ寺　人口百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 66か寺 人口 149人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 66; their population: 149 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:628,1054,86,1345"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 123人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population, male: 123"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:664,2411,56,402"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 26人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population, female: 26"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:607,2410,57,334"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗　八戸　人口二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験 8戸 人口 24人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendo (mountain ascetic) households: 8; their population: 24 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:495,1055,80,1006"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 12人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendo population, male: 12"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:531,2070,59,264"
+      }
+    }
+  },
+  {
+    "id": "anno-kaibara_upper_p105_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 12人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendo population, female: 12"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p105_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:474,2071,57,266"
+      }
+    }
+  }
+]
