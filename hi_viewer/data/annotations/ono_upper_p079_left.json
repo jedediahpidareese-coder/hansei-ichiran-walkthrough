@@ -1,0 +1,842 @@
+[
+  {
+    "id": "anno-ono_upper_p079_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘高　三萬九千三百貳拾石五斗七升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残高　三万九千三百二十石五斗七升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Residual assessed yield (zandaka): 39,320.577 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "残高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2550,1104,112,1506"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Five-year average\" — a heading, not a figure. It governs the three tax columns that follow to its left: the regular land tax in rice, the miscellaneous tax in rice, and the cash component."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2436,1356,89,414"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米三萬七拾五俵四升二合九勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租　米三万七十五俵四升二合九勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso), rice: 30,075.0429 hyō (five-year average)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2297,1107,102,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税　米三萬千五百五拾六俵三斗九合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米三万千五百五十六俵三斗九合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (zatsuzei), rice: 31,556.3096 hyō (five-year average). MASTER records 三萬七千五百五拾六俵 (37,556.3096); the scan prints 千 directly after 萬 with no 七 between them, and the glyph pitch leaves no room for a ninth digit, so the figure is 31,556.3096."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2156,1104,110,1596"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金百九兩一分永二百三十八文納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金百九両一分永二百三十八文納"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cash component of the miscellaneous tax: 109 ryō 1 bu, plus 238 mon in ei-currency, remitted (nō)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2024,1359,102,1172"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　六千四百七拾六軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　六千四百七十六軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 6,476. MASTER records 6,475; the seventh glyph is 六, and the three sub-entries below (275 + 398 + 5,803) sum to exactly 6,476."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1896,1108,102,918"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族二百七拾五軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族二百七十五軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku (former samurai) households: 275"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1764,1277,86,664"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒三百九拾八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒三百九十八軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu (lower retainer) households: 398"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1748,2279,92,586"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五千八百三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五千八百三軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The remaining households, printed without a status label (i.e. commoners): 5,803"
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1626,1443,89,496"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家七軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家七軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Within those 5,803 households, shrine-family (shake) households: 7"
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數内社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1666,2012,60,268"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺六拾七ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺六十七ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Within those 5,803 households, temples: 67"
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數内寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1601,2012,64,476"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　三萬千三拾一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員　三万千三十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 31,031 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1497,1108,90,837"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　千三百四拾三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族　千三百四十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku: 1,343 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1360,1277,92,830"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百五拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男六百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku, male: 657 persons (657 + 686 = 1,343)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1396,2113,56,476"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六百八拾六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女六百八十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku, female: 686 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1337,2113,58,477"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　四百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒　四百八十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu: 487 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1225,1277,97,754"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu, male: 242 persons (242 + 245 = 487)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1263,2038,58,473"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二百四十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu, female: 245 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1202,2038,60,475"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家戸數　七戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家戸数　七戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family households: 7"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1094,1278,92,583"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Population\" — the label heading the two-part split of the shrine-family population printed immediately below it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1089,1948,80,164"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人二十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family population, shrine attendants (shanin, i.e. the male side): 27 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口社人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1126,2122,57,405"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-family population, female: 25 persons (27 + 25 = 52)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1068,2122,57,406"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　六拾七ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺　六十七ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 67"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:960,1278,93,583"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Population\" — the label heading the male/female split of the temple population printed immediately below it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:953,1945,82,162"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百八十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男百八十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population, male: 185 persons (185 + 105 = 290)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:991,2118,59,406"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女百五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population, female: 105 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:932,2118,58,270"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（大野）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第二（大野）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Hansei ichiran-hyō, Fascicle 2 (Ōno). This is provenance — it names the fascicle and the domain whose return the leaf carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:838,1360,79,576"
+      }
+    }
+  },
+  {
+    "id": "anno-ono_upper_p079_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十三"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed leaf number in the bottom margin: 133"
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p079_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:809,3182,73,226"
+      }
+    }
+  }
+]

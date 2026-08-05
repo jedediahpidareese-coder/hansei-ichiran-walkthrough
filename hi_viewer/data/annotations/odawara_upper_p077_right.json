@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-odawara_upper_p077_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（小田原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいに（おだわら）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Domain Survey Table, Fascicle 2 (Odawara). Provenance for the leaf, not data; the seven columns to its left belong to the preceding Obi (飫肥藩) entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第二 (小田原)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2111,1360,79,626"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "山伏　六百五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "やまぶし　ろっぴゃくごじゅういちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yamabushi (mountain ascetics): 651 persons. The facing leaf upper p.76 left gives Obi's corresponding household count as 139."
+      },
+      {
+        "purpose": "identifying",
+        "value": "山伏人口 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1971,1271,100,917"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ さんびゃくさんじゅうごにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 335 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "山伏人口男 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2009,2195,62,480"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな さんびゃくじゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 316 persons. 335 + 316 = 651, matching the total above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "山伏人口女 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1944,2195,64,480"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　二百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "じいん　にひゃくななじゅうさんにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy: 273 persons. The facing leaf gives Obi's temple count as 八十一寺 (81 temples)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1831,1271,102,918"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ にひゃくいちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 201 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口男 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1873,2199,58,339"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな ななじゅうににん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 72 persons. 201 + 72 = 273, matching the total above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口女 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1805,2199,66,339"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多鷗居來　二百七十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "えた おうきょらい（読み未詳）　にひゃくななじゅうよにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) residents entered under Obi's own five-character heading 穢多鷗居來: 274 persons. The third character is 鷗, the kyūjitai of 鴎 — its left half is 區 (a 匚 enclosure closed top and bottom with 品 inside), not 氏. The identical heading appears on the facing leaf upper p.76 left, where the count is 61 households. The compound is a domain-specific status label, not a standard Hansei Ichiran field name, and its reading is not established."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多鴟居來人口 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1697,1265,99,921"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おとこ ひゃくさんじゅうしちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 137 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多鴟居來人口男 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1733,2192,60,409"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おんな ひゃくさんじゅうしちにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 137 persons. 137 + 137 = 274, matching the total above; the two components print identically and were each re-checked glyph by glyph."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多鴟居來人口女 (飫肥藩分)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1669,2192,62,409"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "步兵　一大隊　兵員二百四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほへい　いちだいたい　へいいん にひゃくよんじゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: one battalion, 240 men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "步兵（飫肥藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1573,1099,90,980"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但一小隊四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ただし いちしょうたい よんじゅうにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Provided that one platoon numbers 40 men — six platoons of 40 give the 240-man battalion above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "步兵但書一小隊人員（飫肥藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1451,1267,75,474"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "礮兵　三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ほうへい　さんじゅうろくにん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: 36 men. The head character is the older 礮, not 砲; MASTER records this row as 砲兵, but the value is unaffected."
+      },
+      {
+        "purpose": "identifying",
+        "value": "礮兵（飫肥藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1304,1097,92,501"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合　三百四十七人　士官四十六人　兵士三百一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ごう　さんびゃくよんじゅうしちにん（しかん よんじゅうろくにん・へいし さんびゃくいちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined total: 347 men — 46 officers and 301 rank and file (46 + 301 = 347). The figure exceeds the 240 infantry plus 36 artillery printed alongside, so it covers arms this leaf does not itemise."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合（飫肥藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1135,1265,128,1001"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○小田原藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "おだわらはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Odawara (小田原藩). Everything to the left of this marker belongs to Odawara; everything to the right closes the preceding Obi (飫肥藩) entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○小田原藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1012,1432,111,610"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　七萬五千五百三拾貳石四斗三合壹勺四才　五ケ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "くさだか　しちまんごせんごひゃくさんじゅうにこく よんと さんごう いっしゃく よんさい　ごかねんへいきん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield (kusadaka): 75,532.40314 koku, stated as a five-year average. The sub-koku units run 四斗 (0.4), no 升, 三合 (0.003), 壹勺 (0.0001), 四才 (0.00004). MASTER carries 75532.43014, which reads the 三合 into the 升 place; the scan is unambiguous."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:852,1092,137,1971"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　七萬五千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "たか　しちまんごせんごく"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal assessment (taka): 75,000 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:761,1173,88,588"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内高　九千五百九石五斗七升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うちだか　きゅうせんごひゃくきゅうこく ごと ななしょう きゅうごう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of that nominal 75,000 koku: 9,509.579 koku. The note in the next column explains that this is the part the yield register shows was never handed over."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:613,1260,107,1177"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "是ゟ高帳未タ御渡不相成不足之分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "これより たかちょう いまだ おわたし あいならず ふそくのぶん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Explanatory note on the 9,509.579 koku entered above: this is the shortfall which the yield register (高帳) shows was never handed over."
+      },
+      {
+        "purpose": "identifying",
+        "value": "是ゟ高帳未タ御渡不相成不足之分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:475,1341,113,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "差引殘高　六萬五千四百九拾石四斗貳升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "さしひき ざんだか　ろくまんごせんよんひゃくきゅうじっこく よんと にしょう いちごう"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Balance after deduction: 65,490.421 koku. 75,000 − 9,509.579 = 65,490.421, so the three Odawara land figures on this leaf reconcile exactly. 差引 is printed small at the upper right of the 殘高 label and is boxed with it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:340,1168,131,1515"
+      }
+    }
+  },
+  {
+    "id": "anno-odawara_upper_p077_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百二十八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ひゃくにじゅうはち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 128."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百二十八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p077_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2081,3199,69,216"
+      }
+    }
+  }
+]

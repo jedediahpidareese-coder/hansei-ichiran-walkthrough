@@ -1,0 +1,992 @@
+[
+  {
+    "id": "anno-omizo_upper_p080_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　二萬千四百八十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　二万千四百八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 21,481 persons (Ōtaki domain's commoner population; the male and female sub-counts printed below sum to this figure exactly)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2603,1089,82,1168"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男一萬六百十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　一万六百十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 10,610 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2632,2266,57,471"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女一萬八百七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　一万八百七十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 10,871 persons. With the 10,610 males this gives 21,481, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2568,2265,63,611"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ　神社　十八社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に　神社　十八社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition (外ニ): 18 Shinto shrines. The small 外ニ heads the group of religious and outcaste counts that follows the commoner population."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2464,1086,137,666"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社務戸數十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社務戸数　十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-service households: 19 households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務戸數（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2474,1760,71,473"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading \"population\" for the shrine-service households. No total is printed here; the value is carried by the male and female runs immediately below, which come to 87."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社人口（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2457,2257,77,157"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　四十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shrine-household residents: 48 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社人口男（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2494,2427,58,335"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shrine-household residents: 39 persons; 48 + 39 = 87 in all."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社人口女（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2434,2424,59,338"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　百七十八寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺　百七十八寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 178."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2329,1085,88,835"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　二百七十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　二百七十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population: 276 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2319,2011,85,665"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　二百五十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male temple residents: 253 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口男（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2356,2685,58,471"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female temple residents: 23 persons; 253 + 23 = 276, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人口女（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2298,2684,57,335"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人人口　八十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人人口　八十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste) population: 86 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2200,1082,90,751"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male hinin: 50 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口男（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2235,1841,58,267"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female hinin: 36 persons; 50 + 36 = 86, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口女（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2174,1841,60,335"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多人口　三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多人口　三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) population: 37 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2179,2345,91,753"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　二十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male eta: 23 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口男（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2218,3106,59,335"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female eta: 14 persons; 23 + 14 = 37, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口女（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2160,3104,57,268"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村　六十四村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村　六十四村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages: 64. This column stands immediately to the right of the ○大溝藩 marker and so closes the Ōtaki entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村（大多喜藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2061,1083,92,755"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○大溝藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○大溝藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Ōmizo domain (Ōmi province, Wakebe house). Everything to its left on this page is Ōmizo's; everything to its right belongs to the preceding domain, Ōtaki."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○大溝藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1909,1415,112,565"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　二萬九十七石六斗七升五勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高　二万九十七石六斗七升五勺八才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield: 20,097.67058 koku. The sub-koku places run 6 斗 (.6), 7 升 (.07), the 合 place skipped, 5 勺 (.0005) and 8 才 (.00008)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1085,99,1424"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "改出新田　九十六石四斗七升五勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "改出新田　九十六石四斗七升五勺八才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Re-surveyed new-field increment: 96.47058 koku. The four-character label is set as a 2x2 warichu; read right sub-column first, as the project's own convention requires, it prints 改出新田. MASTER records the row under the label 新田改出, so field_jp should stay 新田改出 for matching even though the printed order is 改出新田. MASTER's value 九千六百石四斗七升五勺八才 (9,600.47058) is a 十/千 misreading: the column holds only twelve glyphs and the second is a plain cross with no slanted top stroke."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田改出"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1643,1251,114,1255"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租米　五千八百二十三石一斗三合五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租米　五千八百二十三石一斗三合五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax in rice: 5,823.10305 koku (1 斗 = .1, 3 合 = .003, 5 才 = .00005; the 升 and 勺 places are skipped). MASTER parses 5823.13035, which the 合米 identity rules out."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1512,1171,98,1504"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　現米九百五石九斗五升二合三勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　現米　九百五石九斗五升二合三勺七才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous imposts, expressed in rice equivalent (現米): 905.95237 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1375,1168,103,1675"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米　六千七百二十九石五升五合四勺二才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米　六千七百二十九石五升五合四勺二才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined rice revenue: 6,729.05542 koku. Land tax 5,823.10305 plus miscellaneous imposts 905.95237 comes to exactly this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1247,1253,98,1590"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人口　五百三十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口　五百三十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) population: 537 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1123,1088,92,913"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　二百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 257 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1160,2011,60,473"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二百八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 280 persons; 257 + 280 = 537, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1099,2009,59,405"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　三百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族　三百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) population: 349 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:990,1084,89,916"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百八十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　百八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 181 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1025,2009,59,404"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　百六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 168 persons; 181 + 168 = 349, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:965,2007,58,408"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（大溝）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第二（大溝）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Hansei ichiran-hyō, fascicle 2, Ōmizo. Provenance only — it names the domain whose entry opens on this leaf, not the domain that supplies most of the printed cells, which is Ōtaki."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二大溝"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:874,1341,71,573"
+      }
+    }
+  },
+  {
+    "id": "anno-omizo_upper_p080_left-32",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十五"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 135."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百三十五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p080_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:850,3179,70,212"
+      }
+    }
+  }
+]
