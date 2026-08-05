@@ -1,0 +1,422 @@
+[
+  {
+    "id": "anno-kano_upper_p096_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（はんせいいちらんひょう だいさん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Display-type fascicle heading: Han-sei Ichiran, Table (Fascicle) 3. A structural heading rather than domain data; it is the only column standing to the right of the ○加納藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大見出 藩制一覧表第三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2559,1069,130,926"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○加納藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加納藩（かのうはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Kanō han — start of the Kanō block. Everything to its left on this leaf is Kanō; the only column to its right is the fascicle heading, so no preceding domain has data here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○加納藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2177,1403,106,564"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　三萬貳千石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）三万二千石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 32,000 koku — the figure at which Kanō was ranked."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2055,1065,92,671"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外　三千八百五十六石六斗三升四合二勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外（ほか）三千八百五十六石六斗三升四合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Additional yield beyond the assessed gross = 3,856.6342 koku. Added to the 32,000-koku 草高 this gives 35,856.6342, against the printed 合高 of 35,856.63402; the two agree through the 合 place and differ only in the final character, which prints 勺 here and 才 in the total — a typesetting slip in the 1928 edition."
+      },
+      {
+        "purpose": "identifying",
+        "value": "外"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1906,1231,102,1431"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高　三萬五千八百五拾六石六斗三升四合二才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高（ごうだか）三万五千八百五十六石六斗三升四合二才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined yield = 35,856.63402 koku, the sum of the 32,000-koku 草高 and the 3,856.6342-koku 外 entry. The printed components differ from this total by 0.00018 koku, a 勺/才 slip in the last character of the 外 column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1772,1147,97,1676"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均（ごかねんへいきん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: five-year average. It governs the three revenue columns to its left — 正租, 雜税 and their 合高 — which are averaged annual figures rather than a single year's receipts."
+      },
+      {
+        "purpose": "identifying",
+        "value": "五ヶ年平均"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1654,1067,87,414"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　現米壹萬千六百五拾六石四斗八升七合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）現米（げんまい）一万千六百五十六石四斗八升七合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, reckoned in hulled rice (genmai) = 11,656.487 koku, five-year average. The page prints 六百五拾六, not 六百五十: adding this to the 1,396.27415-koku 雜税 reproduces the printed total of 13,052.76115 koku exactly, which the alternative reading 11,650.487 would miss by 6 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租 現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1507,1068,102,1675"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税　千三百九十六石貳斗七升四合壹勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）千三百九十六石二斗七升四合一勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, expressed in rice = 1,396.27415 koku, five-year average."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1378,1063,101,1677"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高　壹萬三千五十二石七斗六升壹合壹勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高（ごうだか）一万三千五十二石七斗六升一合一勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined tax revenue = 13,052.76115 koku, the sum of the 11,656.487-koku land tax and the 1,396.27415-koku miscellaneous tax; the components reproduce this total to the last 才."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高 壹"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1242,1232,103,1676"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "產物"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "産物（さんぶつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Section heading: products. It introduces the two commodity entries in the column to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "產物"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1126,1063,87,165"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "縮細　凡八千疋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "縮細（ちぢみほそ）およそ八千疋"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product — fine crepe cloth (chijimi): approximately 8,000 bolts (疋). 凡 marks the figure as a round estimate."
+      },
+      {
+        "purpose": "identifying",
+        "value": "產物 縮細"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:988,1152,87,582"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "傘　凡三十萬本"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "傘（かさ）およそ三十万本"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product — umbrellas: approximately 300,000 (本). 凡 marks the figure as a round estimate. This is the oiled-paper umbrella trade of the Gifu/Kanō area, by far the largest single product entered for the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "產物 傘"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:977,1989,91,588"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第三（加納）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（加納）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running footer in the outer margin, giving source and domain: Han-sei Ichiran, Fascicle 3 — (Kanō). Provenance rather than data; here it names the same domain as the block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:866,1322,79,577"
+      }
+    }
+  },
+  {
+    "id": "anno-kano_upper_p096_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十七（167）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 167."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:850,3162,68,220"
+      }
+    }
+  }
+]

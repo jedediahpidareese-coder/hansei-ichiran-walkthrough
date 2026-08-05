@@ -1,0 +1,872 @@
+[
+  {
+    "id": "anno-obata_upper_p082_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "現石　三千六百三十一石三斗三升四合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "現石 三千六百三十一石三斗三升四合八勺（げんこく 3631.3348こく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Actual rice yield (genkoku): 3,631.3348 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租現石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2624,1268,103,1594"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "畑稅　永三千二百三十四貫百八十四文六分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "畑税 永三千二百三十四貫百八十四文六分（えい 3234貫184文6分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Dry-field tax: 3,234 kan 184 mon 6 bu in eiraku cash (3,234.1846 kanmon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "畑稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2489,1264,101,1590"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此永石八兩現石四百四石貳斗七升三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の永、石八両、現石四百四石二斗七升三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type note under the dry-field tax: this cash, reckoned at 8 ryo per koku, comes to 404.273 koku of actual rice. The rate checks out exactly (3,234.1846 divided by 8 = 404.2731)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "畑稅換算註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2374,1599,76,1151"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　永千七十貫八百九十五文五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 永千七十貫八百九十五文五分（えい 1070貫895文5分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: 1,070 kan 895 mon 5 bu in eiraku cash (1,070.8955 kanmon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2227,1263,96,1340"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此永石八兩九分ニ百三十三石八斗六升壹合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の永、石八両九分にて、百三十三石八斗六升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type note under the miscellaneous taxes: this cash comes to 133.861 koku of rice. The printed rate reads 8 ryo 9 bu per koku, but the figure was actually computed at 8 per koku (1,070.8955 divided by 8 = 133.8619), and the parenthetical three-item total below confirms 133.86."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅換算註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2105,1598,80,1288"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（三口現穀ニ直シ四千百六十九石四斗六升九合七勺）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（三口、現穀に直して四千百六十九石四斗六升九合七勺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Parenthetical line: the three items converted into actual grain come to 4,169.4697 koku. This is the sum of 3,631.3348 (rice yield) + 404.273 (dry-field tax) + 133.8619 (miscellaneous taxes)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三口現穀換算註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1941,1326,125,1879"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　二千九百七十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数 二千九百七十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 2,979."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1830,1092,92,918"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　壹萬三千二百五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 一万三千二百五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 13,257 persons. (The male and female sub-counts printed below add to 13,243, fourteen short of this total; the discrepancy is in the source.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1690,1092,92,1084"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六千七百七十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 六千七百七十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 6,773 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1726,2188,58,604"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六千四百七十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 六千四百七十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 6,470 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1664,2186,61,539"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　二百十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数 二百十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (samurai) households: 212."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1561,1093,86,830"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内　卒族六十五戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 卒族六十五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu (lower-rank retainer) households: 65."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1552,2015,82,586"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 六百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the samurai and sotsu households: 639 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1434,1090,85,746"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三百四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 349 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1469,1848,58,469"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二百九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 290 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士卒人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1409,1847,59,402"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　六十二寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 六十二寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 62."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1299,1091,81,579"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外ニ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外に"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small heading beside the temple entry: \"besides these\", introducing the counts of monks and temple servants."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺外書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1381,1090,52,116"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧五十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧 五十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monks: 57 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1335,1676,60,336"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僕十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僕 十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple servants: 19 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僕"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1277,1676,57,268"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○修驗三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○修験 三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendo (mountain-ascetic) households: 3. The circle here opens a sub-entry; it is not a domain marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1167,1092,82,411"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 5 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1202,1513,57,193"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 7 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1145,1512,56,195"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　八社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 八社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 8."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1030,1088,88,415"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家 十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-priest (shake) households: 11."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1066,1509,60,334"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the shrine-priest households: 39 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1004,1512,61,398"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二十五人、"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 二十五人、"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 25 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:999,1989,66,346"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 14 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:994,2336,65,262"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（小幡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（小幡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the left margin: Table of Domain Institutions, Fascicle 2 (Obata). This is provenance, and here it names the same domain as the data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "邊柱藩制一覽表第二"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:903,1347,73,572"
+      }
+    }
+  },
+  {
+    "id": "anno-obata_upper_p082_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百三十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百三十九（139）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 139."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付百三十九"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p082_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:882,3187,62,211"
+      }
+    }
+  }
+]

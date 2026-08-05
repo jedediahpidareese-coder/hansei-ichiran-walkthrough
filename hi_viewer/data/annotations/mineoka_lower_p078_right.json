@@ -1,782 +1,782 @@
 [
-  {
-    "id": "anno-mineoka_lower_p078_right-00",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "藩制一覽表第七（三草）"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "藩制一覧表（はんせいいちらん）第七（三草）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Running head: Hansei Ichiran, Fascicle 7 — (Mikusa). The printer's provenance line, naming the domain the leaf is filed under. It names Mikusa even though all seven data columns to its left, as far as the ○三草藩 marker, still belong to Mineoka. Provenance, not an attribution of the data."
-      },
-      {
-        "purpose": "identifying",
-        "value": "藩制一覧表第七（三草）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2146,1264,74,577"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-01",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "百三十三"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "百三十三（頁）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Printed book-page number 133, set in the bottom margin of the header column."
-      },
-      {
-        "purpose": "identifying",
-        "value": "頁百三十三（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2139,3098,71,213"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-02",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "士族　六十六戸　人口三百三十四人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "士族（しぞく）六十六戸　人口三百三十四人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku (former samurai): 66 households, population 334. Printed under the 外ニ ('in addition') structural marker at its top right. The male/female split below reconciles exactly: 159 + 175 = 334."
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2005,1179,84,1334"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-03",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男百五十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男（おとこ）百五十九人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku males: 159. The right-hand run of the 内 split, sharing its top with the 女 run to its left."
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族人口男"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:2046,2519,57,405"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-04",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女百七十五人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女（おんな）百七十五人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shizoku females: 175. Left-hand run of the split; 159 + 175 = 334, matching the stated population."
-      },
-      {
-        "purpose": "identifying",
-        "value": "士族人口女"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1992,2519,52,406"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-05",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "卒族　六十二戸　人口三百二十五人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "卒族（そつぞく）六十二戸　人口三百二十五人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu (lower retainers): 62 households, population 325. Continues the 外ニ group begun at 士族. NOTE: the printed male/female sub-counts (159 + 66) sum to only 225, one hundred short of this stated 325 — a source-level defect, verified at 12x (the total's 三 resolves into three distinct stroke-rows, and the 女 run is one glyph shorter than the 男 run, i.e. it lacks a 百). The intended female figure was almost certainly 百六十六人 (325 − 159 = 166)."
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒族"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1872,1182,92,1341"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-06",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男百五十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男（おとこ）百五十九人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu males: 159. The 五 and 九 were isolated at 9x to exclude a 六/一 misreading. MASTER records 161 here; the scan does not support it."
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒族人口男"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1913,2528,54,405"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-07",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女六十六人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女（おんな）六十六人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sotsu females: 66 as printed — five glyphs only (女六十六人), against the six of the 男 run. With 159 males this yields 225, not the stated 325, so the source has dropped a 百 (166 would reconcile). Transcribed verbatim; MASTER's 169 is unsupported."
-      },
-      {
-        "purpose": "identifying",
-        "value": "卒族人口女"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1857,2528,54,337"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-08",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "神職　一戸　人口三人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "神職（しんしょく）一戸　人口三人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto priests: 1 household, population 3. Headed by the 内ニ ('of which') structural marker at its top right, which also governs the 寺 and 穢多 columns that follow. The split below reconciles: 1 + 2 = 3."
-      },
-      {
-        "purpose": "identifying",
-        "value": "神職"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1739,1176,85,1002"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-09",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男一人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男（おとこ）一人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto-priest household males: 1. The digit is a single horizontal stroke (一), not the two of 二; MASTER's '男二人' is a misreading of the adjacent female run."
-      },
-      {
-        "purpose": "identifying",
-        "value": "神職人口男"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1782,2184,53,198"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-10",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女二人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女（おんな）二人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto-priest household females: 2. Left-hand run of the split; 1 + 2 = 3, matching the stated population."
-      },
-      {
-        "purpose": "identifying",
-        "value": "神職人口女"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1725,2184,55,199"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-11",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "寺　十五寺　人口百二十七人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "寺（てら）十五寺　人口百二十七人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Temples: 15, with a resident population of 127. Unusually, the breakdown below is three-way rather than a plain male/female pair — 49 monks, 42 men, 36 women — and 49 + 42 + 36 = 127 exactly. MASTER omits the breakdown entirely."
-      },
-      {
-        "purpose": "identifying",
-        "value": "寺"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1603,1181,90,1254"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-12",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "僧四十九人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "僧（そう）四十九人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Ordained monks: 49. The right-hand run of the temple breakdown, sharing a top with the 男 run to its left."
-      },
-      {
-        "purpose": "identifying",
-        "value": "寺僧"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1642,2441,58,339"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-13",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男四十二人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男（おとこ）四十二人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Non-ordained males resident at the temples: 42. Left-hand run, sharing its top with 僧四十九人."
-      },
-      {
-        "purpose": "identifying",
-        "value": "寺男"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1585,2441,55,342"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-14",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女三十六人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女（おんな）三十六人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Females resident at the temples: 36. Printed below 男四十二人 in the same left-hand run rather than beside it, the compositor having filled the right column with 僧四十九人 first. Completes the three-way sum 49 + 42 + 36 = 127."
-      },
-      {
-        "purpose": "identifying",
-        "value": "寺女"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1580,2852,69,337"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-15",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "穢多　六戸　人口四十八人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "穢多（えた）六戸　人口四十八人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Eta (outcaste) households: 6, population 48. Last of the 内ニ group. The split reconciles: 25 + 23 = 48."
-      },
-      {
-        "purpose": "identifying",
-        "value": "穢多"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1460,1180,95,1168"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-16",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "男二十五人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "男（おとこ）二十五人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Eta males: 25. MASTER assigns 25 to the female run and 23 to the male; the geometry (男 always the RIGHT run) shows they are swapped there. Both orderings sum to 48, so only the layout disambiguates."
-      },
-      {
-        "purpose": "identifying",
-        "value": "穢多人口男"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1504,2353,57,337"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-17",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "女二十三人"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "女（おんな）二十三人"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Eta females: 23. Left-hand run of the split; 25 + 23 = 48, matching the stated population."
-      },
-      {
-        "purpose": "identifying",
-        "value": "穢多人口女"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1443,2353,59,339"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-18",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "神社　六十八社"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "神社（じんじゃ）六十八社"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Shinto shrines: 68. Set at the top level of the column grid (its label starts ~170px above the indented 内ニ/外ニ group), i.e. a headline item rather than a sub-count."
-      },
-      {
-        "purpose": "identifying",
-        "value": "神社"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1327,1009,90,584"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-19",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "（兵員　五十八人）"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "（兵員（へいいん）五十八人）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Troop strength: 58 men. The entire entry — label and figure alike — is enclosed in editorial parentheses: the opening 「（」 prints above 兵 and the closing 「）」 below 人 at the very foot of the column, not after 員. The compiler is supplying the whole item, not merely a heading the manuscript left implicit. A strikingly small force for a domain assessed at 15,071 koku."
-      },
-      {
-        "purpose": "identifying",
-        "value": "（兵員）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1194,1006,88,603"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-20",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "○三草藩"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "○三草藩（みくさはん）"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Maru-marker opening the entry for Mikusa domain (Harima Province, Niwa house). This is the page's only marker and its domain boundary: everything to its right belongs to Mineoka, everything to its left to Mikusa."
-      },
-      {
-        "purpose": "identifying",
-        "value": "○三草藩"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1050,1347,103,558"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-21",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "草高　壹萬三百七十九石五升六勺八才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "草高（くさだか）一万三百七十九石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Sōdaka (gross assessed yield) = 10,379.05068 koku. The page decomposes it exactly into 高 10,000 + 込高新田 379.05068. Note the formal 壹萬 here, against the plain 一萬 used in the 高 column two positions to the left. Sub-koku places skip 斗 and 合 (both zero): 5 升 + 6 勺 + 8 才."
-      },
-      {
-        "purpose": "identifying",
-        "value": "草高（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:921,1009,91,1338"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-22",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "高　一萬石"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "高（たか）一万石"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Base assessed yield: 10,000 koku exactly — the minimum threshold qualifying a holding as a domain. Printed with a plain single-stroke 一, not the formal 壹 that MASTER records; the value is unaffected."
-      },
-      {
-        "purpose": "identifying",
-        "value": "高（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:793,1091,86,419"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-23",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "込高新田　高三百七十九石五升六勺八才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "込高新田（こみだかしんでん）高三百七十九石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Komidaka new-field increment: 379.05068 koku — the reclamation uplift carried above the 10,000-koku base. Added to 高 it returns the sōdaka exactly (10,000 + 379.05068 = 10,379.05068), so all three columns are internally consistent."
-      },
-      {
-        "purpose": "identifying",
-        "value": "込高新田（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:647,1179,98,1418"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-24",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "正租　米四千六百七十八石五斗六升八合九勺六才"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "正租（せいそ）米四千六百七十八石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Regular land tax in rice: 4,678.56896 koku — about 45% of the 10,379-koku sōdaka. The 千 in 四千 was checked at 11x (the ノ stroke sits on top of 十) to rule out a hundredfold place-value error."
-      },
-      {
-        "purpose": "identifying",
-        "value": "正租米（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:510,1094,96,1841"
-      }
-    }
-  },
-  {
-    "id": "anno-mineoka_lower_p078_right-25",
-    "type": "Annotation",
-    "body": [
-      {
-        "purpose": "transcribing",
-        "value": "雜稅　米百五十八石七斗二升二合六勺"
-      },
-      {
-        "purpose": "modern_jp_reading",
-        "value": "雑税（ざつぜい）米百五十八石余"
-      },
-      {
-        "purpose": "english_translation",
-        "value": "Miscellaneous taxes in rice: 158.7226 koku — a trivial 3.4% of the regular land tax. The value terminates at 六勺 (no 才 place: no ink at all below y2510 in this column), so the correct parse is 158.7226; MASTER's 158.72226 carries one place too many."
-      },
-      {
-        "purpose": "identifying",
-        "value": "雜稅米（三草藩分）"
-      }
-    ],
-    "target": {
-      "source": "images/lower_p078_right.jpg",
-      "selector": {
-        "type": "FragmentSelector",
-        "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:380,1092,94,1423"
-      }
-    }
+ {
+  "id": "anno-mineoka_lower_p078_right-00",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "藩制一覽表第七（三草）"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "藩制一覧表（はんせいいちらん）第七（三草）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Running head: Hansei Ichiran, Fascicle 7 — (Mikusa). The printer's provenance line, naming the domain the leaf is filed under. It names Mikusa even though all seven data columns to its left, as far as the ○三草藩 marker, still belong to Mineoka. Provenance, not an attribution of the data."
+   },
+   {
+    "purpose": "identifying",
+    "value": "藩制一覧表第七（三草）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2146,1264,74,577"
+   }
   }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-01",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "百三十二"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "百三十二（頁）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Printed book-page number 132, set in the bottom margin of the header column."
+   },
+   {
+    "purpose": "identifying",
+    "value": "頁百三十二（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2139,3098,71,213"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-02",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "士族　六十六戸　人口三百三十四人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "士族（しぞく）六十六戸　人口三百三十四人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shizoku (former samurai): 66 households, population 334. Printed under the 外ニ ('in addition') structural marker at its top right. The male/female split below reconciles exactly: 159 + 175 = 334."
+   },
+   {
+    "purpose": "identifying",
+    "value": "士族"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2005,1179,84,1334"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-03",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男百五十九人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "男（おとこ）百五十九人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shizoku males: 159. The right-hand run of the 内 split, sharing its top with the 女 run to its left."
+   },
+   {
+    "purpose": "identifying",
+    "value": "士族人口男"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2046,2519,57,405"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-04",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女百七十五人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "女（おんな）百七十五人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shizoku females: 175. Left-hand run of the split; 159 + 175 = 334, matching the stated population."
+   },
+   {
+    "purpose": "identifying",
+    "value": "士族人口女"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1992,2519,52,406"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-05",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "卒族　六十二戸　人口三百二十五人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "卒族（そつぞく）六十二戸　人口三百二十五人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Sotsu (lower retainers): 62 households, population 325. Continues the 外ニ group begun at 士族. NOTE: the printed male/female sub-counts (159 + 66) sum to only 225, one hundred short of this stated 325 — a source-level defect, verified at 12x (the total's 三 resolves into three distinct stroke-rows, and the 女 run is one glyph shorter than the 男 run, i.e. it lacks a 百). The intended female figure was almost certainly 百六十六人 (325 − 159 = 166)."
+   },
+   {
+    "purpose": "identifying",
+    "value": "卒族"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1872,1182,92,1341"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-06",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男百五十九人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "男（おとこ）百五十九人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Sotsu males: 159. The 五 and 九 were isolated at 9x to exclude a 六/一 misreading. MASTER records 161 here; the scan does not support it."
+   },
+   {
+    "purpose": "identifying",
+    "value": "卒族人口男"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1913,2528,54,405"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-07",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女六十六人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "女（おんな）六十六人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Sotsu females: 66 as printed — five glyphs only (女六十六人), against the six of the 男 run. With 159 males this yields 225, not the stated 325, so the source has dropped a 百 (166 would reconcile). Transcribed verbatim; MASTER's 169 is unsupported."
+   },
+   {
+    "purpose": "identifying",
+    "value": "卒族人口女"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1857,2528,54,337"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-08",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "神職　一戸　人口三人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "神職（しんしょく）一戸　人口三人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shinto priests: 1 household, population 3. Headed by the 内ニ ('of which') structural marker at its top right, which also governs the 寺 and 穢多 columns that follow. The split below reconciles: 1 + 2 = 3."
+   },
+   {
+    "purpose": "identifying",
+    "value": "神職"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1739,1176,85,1002"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-09",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男一人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "男（おとこ）一人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shinto-priest household males: 1. The digit is a single horizontal stroke (一), not the two of 二; MASTER's '男二人' is a misreading of the adjacent female run."
+   },
+   {
+    "purpose": "identifying",
+    "value": "神職人口男"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1782,2184,53,198"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-10",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女二人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "女（おんな）二人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shinto-priest household females: 2. Left-hand run of the split; 1 + 2 = 3, matching the stated population."
+   },
+   {
+    "purpose": "identifying",
+    "value": "神職人口女"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1725,2184,55,199"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-11",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "寺　十五寺　人口百二十七人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "寺（てら）十五寺　人口百二十七人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Temples: 15, with a resident population of 127. Unusually, the breakdown below is three-way rather than a plain male/female pair — 49 monks, 42 men, 36 women — and 49 + 42 + 36 = 127 exactly. MASTER omits the breakdown entirely."
+   },
+   {
+    "purpose": "identifying",
+    "value": "寺"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1603,1181,90,1254"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-12",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "僧四十九人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "僧（そう）四十九人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Ordained monks: 49. The right-hand run of the temple breakdown, sharing a top with the 男 run to its left."
+   },
+   {
+    "purpose": "identifying",
+    "value": "寺僧"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1642,2441,58,339"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-13",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男四十二人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "男（おとこ）四十二人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Non-ordained males resident at the temples: 42. Left-hand run, sharing its top with 僧四十九人."
+   },
+   {
+    "purpose": "identifying",
+    "value": "寺男"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1585,2441,55,342"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-14",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女三十六人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "女（おんな）三十六人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Females resident at the temples: 36. Printed below 男四十二人 in the same left-hand run rather than beside it, the compositor having filled the right column with 僧四十九人 first. Completes the three-way sum 49 + 42 + 36 = 127."
+   },
+   {
+    "purpose": "identifying",
+    "value": "寺女"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1580,2852,69,337"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-15",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "穢多　六戸　人口四十八人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "穢多（えた）六戸　人口四十八人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Eta (outcaste) households: 6, population 48. Last of the 内ニ group. The split reconciles: 25 + 23 = 48."
+   },
+   {
+    "purpose": "identifying",
+    "value": "穢多"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1460,1180,95,1168"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-16",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "男二十五人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "男（おとこ）二十五人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Eta males: 25. MASTER assigns 25 to the female run and 23 to the male; the geometry (男 always the RIGHT run) shows they are swapped there. Both orderings sum to 48, so only the layout disambiguates."
+   },
+   {
+    "purpose": "identifying",
+    "value": "穢多人口男"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1504,2353,57,337"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-17",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "女二十三人"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "女（おんな）二十三人"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Eta females: 23. Left-hand run of the split; 25 + 23 = 48, matching the stated population."
+   },
+   {
+    "purpose": "identifying",
+    "value": "穢多人口女"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1443,2353,59,339"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-18",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "神社　六十八社"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "神社（じんじゃ）六十八社"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Shinto shrines: 68. Set at the top level of the column grid (its label starts ~170px above the indented 内ニ/外ニ group), i.e. a headline item rather than a sub-count."
+   },
+   {
+    "purpose": "identifying",
+    "value": "神社"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1327,1009,90,584"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-19",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "（兵員　五十八人）"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "（兵員（へいいん）五十八人）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Troop strength: 58 men. The entire entry — label and figure alike — is enclosed in editorial parentheses: the opening 「（」 prints above 兵 and the closing 「）」 below 人 at the very foot of the column, not after 員. The compiler is supplying the whole item, not merely a heading the manuscript left implicit. A strikingly small force for a domain assessed at 15,071 koku."
+   },
+   {
+    "purpose": "identifying",
+    "value": "（兵員）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1194,1006,88,603"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-20",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "○三草藩"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "○三草藩（みくさはん）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Maru-marker opening the entry for Mikusa domain (Harima Province, Niwa house). This is the page's only marker and its domain boundary: everything to its right belongs to Mineoka, everything to its left to Mikusa."
+   },
+   {
+    "purpose": "identifying",
+    "value": "○三草藩"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1050,1347,103,558"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-21",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "草高　壹萬三百七十九石五升六勺八才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "草高（くさだか）一万三百七十九石余"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Sōdaka (gross assessed yield) = 10,379.05068 koku. The page decomposes it exactly into 高 10,000 + 込高新田 379.05068. Note the formal 壹萬 here, against the plain 一萬 used in the 高 column two positions to the left. Sub-koku places skip 斗 and 合 (both zero): 5 升 + 6 勺 + 8 才."
+   },
+   {
+    "purpose": "identifying",
+    "value": "草高（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:921,1009,91,1338"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-22",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "高　一萬石"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "高（たか）一万石"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Base assessed yield: 10,000 koku exactly — the minimum threshold qualifying a holding as a domain. Printed with a plain single-stroke 一, not the formal 壹 that MASTER records; the value is unaffected."
+   },
+   {
+    "purpose": "identifying",
+    "value": "高（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:793,1091,86,419"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-23",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "込高新田　高三百七十九石五升六勺八才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "込高新田（こみだかしんでん）高三百七十九石余"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Komidaka new-field increment: 379.05068 koku — the reclamation uplift carried above the 10,000-koku base. Added to 高 it returns the sōdaka exactly (10,000 + 379.05068 = 10,379.05068), so all three columns are internally consistent."
+   },
+   {
+    "purpose": "identifying",
+    "value": "込高新田（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:647,1179,98,1418"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-24",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "正租　米四千六百七十八石五斗六升八合九勺六才"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "正租（せいそ）米四千六百七十八石余"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Regular land tax in rice: 4,678.56896 koku — about 45% of the 10,379-koku sōdaka. The 千 in 四千 was checked at 11x (the ノ stroke sits on top of 十) to rule out a hundredfold place-value error."
+   },
+   {
+    "purpose": "identifying",
+    "value": "正租米（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:510,1094,96,1841"
+   }
+  }
+ },
+ {
+  "id": "anno-mineoka_lower_p078_right-25",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "雜稅　米百五十八石七斗二升二合六勺"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "雑税（ざつぜい）米百五十八石余"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Miscellaneous taxes in rice: 158.7226 koku — a trivial 3.4% of the regular land tax. The value terminates at 六勺 (no 才 place: no ink at all below y2510 in this column), so the correct parse is 158.7226; MASTER's 158.72226 carries one place too many."
+   },
+   {
+    "purpose": "identifying",
+    "value": "雜稅米（三草藩分）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p078_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:380,1092,94,1423"
+   }
+  }
+ }
 ]
