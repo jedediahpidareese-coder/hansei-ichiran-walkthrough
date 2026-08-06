@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-tanabe_upper_p130_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第三（田邊）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第三（田辺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions at a Glance, Fascicle 3 (Tanabe) — the running header printed in the fold margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第三"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2133,1312,73,576"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百三十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百三十四"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page 234"
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2119,3155,68,265"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　貳千七百九十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族 二千七百九十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai): 2,796 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2000,1062,92,912"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士戸數　四百九十四軒　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士戸数 四百九十四軒 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku households: 494 dwellings; the following 内 (\"of which\") introduces the male/female split of the 2,796 shizoku persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士戸數（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1992,2071,88,818"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千二百九十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 千二百九十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shizoku: 1,293 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族内男（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2028,2893,59,545"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千五百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 千五百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shizoku: 1,503 persons (1,293 + 1,503 = 2,796, the shizoku total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族内女（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1971,2893,56,408"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　五百四拾人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒 五百四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainers): 540 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1869,1059,90,668"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸數　貳百拾貳戸　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸数 二百十二戸 内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu households: 212; the following 内 (\"of which\") introduces the male/female split of the 540 sotsu persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1862,1815,90,738"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百四十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三百四十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male sotsu: 342 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒内男（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1899,2558,58,475"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百九十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 百九十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female sotsu: 198 persons (342 + 198 = 540, the sotsu total)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒内女（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1840,2558,58,406"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste status category) — the label is printed with no figure beside it on this page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1737,1062,91,166"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste status category) — the label is printed with no figure beside it on this page"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1737,1566,91,165"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（兵隊　士族兵隊二百七十人　卒同二百十九人　農兵百七十二人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（兵隊 士族兵隊 二百七十人 卒同 二百十九人 農兵 百七十二人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops (bracketed entry): shizoku troops 270 men, sotsu troops likewise 219 men, peasant troops 172 men"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊（龍野藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1448,1060,240,2206"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○田　邊　藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○田辺藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Marker opening the entry for Tanabe domain"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○田邊藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1318,1399,107,562"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "領知高　三萬七千六拾五石九斗九升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "領知高 三万七千六十五石九斗九升六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Registered domain assessment: 37,065.996 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "領知高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1196,1062,91,1508"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "外　二千三百石四斗四升五合八勺四才　新田"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "外 二千三百石四斗四升五合八勺四才 新田"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In addition, 2,300.44584 koku of newly opened fields (37,065.996 + 2,300.44584 = 39,366.44184, the combined assessment printed next)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "外新田"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1053,1215,142,1612"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高　三萬九千三百六拾六石四斗四升壹合八勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高 三万九千三百六十六石四斗四升一合八勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined assessment: 39,366.44184 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:917,1148,99,1845"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米壹萬五千三百拾石三斗貳升七合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 米 一万五千三百十石三斗二升七合八勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax: 15,310.3278 koku of rice"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:785,1070,99,1675"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米拾五石八斗四升貳合四勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 米 十五石八斗四升二合四勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: 15.8424 koku of rice"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:654,1067,95,1262"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（產物稅　五千五百三拾五兩貳朱）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（産物税 五千五百三十五両二朱）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product tax (bracketed entry): 5,535 ryō 2 shu, i.e. 5,535.125 ryō"
+      },
+      {
+        "purpose": "identifying",
+        "value": "產物稅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:516,1304,96,1207"
+      }
+    }
+  },
+  {
+    "id": "anno-tanabe_upper_p130_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀　三百三拾三貫貳百六拾匁九厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀 三百三十三貫二百六十匁九厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Silver: 333 kan 260 monme 9 rin (the bu place is empty, so 333.26009 kan)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p130_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:382,1325,94,1166"
+      }
+    }
+  }
+]
