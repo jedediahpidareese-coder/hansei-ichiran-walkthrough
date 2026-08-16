@@ -1,0 +1,902 @@
+[
+  {
+    "id": "anno-fukue_upper_p225_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六萬二千二百九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　六万二千二百九十四人（じんこう　62,294にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 62,294 persons. The domain total; the 内 breakdown below gives 32,311 male and 29,983 female, which sums exactly to this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2602,1058,98,1091"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三萬二千三百十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　三万二千三百十一人（おとこ　32,311にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population: 32,311 persons. Right-hand run of the 内 split under the population total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2642,2223,61,680"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二萬九千九百八十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二万九千九百八十三人（おんな　29,983にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population: 29,983 persons. Left-hand run of the 内 split; 32,311 + 29,983 = 62,294."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2576,2223,66,753"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　千七百十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族　千七百十八人（しぞく　1,718にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai): 1,718 persons. The printed male and female sub-counts below add to 1,719, one more than this total; the one-person discrepancy is in the printed source, not in the reading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2331,1233,93,753"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　八百十四人（おとこ　814にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku, male: 814 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2369,2057,63,411"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九百五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　九百五人（おんな　905にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku, female: 905 persons. 814 + 905 = 1,719 against a printed total of 1,718."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2312,2057,57,341"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　千二百七十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族　千二百七十九人（そつぞく　1,279にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainers): 1,279 persons. 669 male + 610 female reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2195,1229,92,838"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　六百六十九人（おとこ　669にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu, male: 669 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2229,2141,65,479"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六百十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　六百十人（おんな　610にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu, female: 610 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2171,2140,58,342"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　千百八十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人　千百八十七人（しゃにん　1,187にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel: 1,187 persons. 603 male + 584 female reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2058,1232,92,754"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　六百三人（おとこ　603にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel, male: 603 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2101,2060,57,339"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百八十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　五百八十四人（おんな　584にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel, female: 584 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2035,2060,66,480"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺人　九十九人　皆僧ニテ女ナシ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺人　九十九人　皆僧にて女なし（じにん　99にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple persons: 99. The small-type note appended in the same column reads \"all are monks; there are no women\", which is why no male/female split is printed for this status."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1924,1233,87,1056"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修驗　十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験　十五人（しゅげん　15にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners: 15 persons. Printed lower in the same column as 寺人; 9 male + 6 female reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1912,2369,91,503"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　九人（おとこ　9にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners, male: 9 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1954,2946,58,204"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　六人（おんな　6にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners, female: 6 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修驗人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1892,2945,62,203"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多　二十三人（えた　23にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste status group): 23 persons. 9 male + 14 female reconciles exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1786,1235,89,587"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　九人（おとこ　9にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta, male: 9 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1827,1892,60,203"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　十四人（おんな　14にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta, female: 14 persons."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1764,1892,63,273"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　四十社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社　四十社（じんじゃ　40しゃ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 40. Set at the top-level indentation, level with the population heading rather than with the indented status breakdown."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1652,1061,94,506"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族　七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事家族　七人（ちじかぞく　7にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Household of the domain governor (chiji): 7 persons. The whole entry is set inside vertical parentheses, opening here and closing beneath the male/female runs."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1504,1064,116,595"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　四人（おとこ　4にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's household, male: 4 persons. Right-hand run, so male; 4 + 3 = 7."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1557,1663,62,228"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　三人）（おんな　3にん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's household, female: 3 persons. Left-hand run; the closing parenthesis of the whole entry sits at the foot of these two runs."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1496,1661,61,231"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　二萬三千九百七十二石八升二合四勺三才一扎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高　二万三千九百七十二石八升二合四勺三才一扎（くさだか　23,972.082431こく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal assessed yield (kusadaka): 23,972.082431 koku. The 斗 place is not printed, so that place is zero; the sub-units run 升 (.01), 合 (.001), 勺 (.0001), 才 (.00001), 扎 (.000001). Bracketed with the two figures below under the 符箋 (attached-slip) label."
+      },
+      {
+        "purpose": "identifying",
+        "value": "符箋草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1374,1069,99,1928"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　米八千四十二石六斗九升七勺六才二扎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租　米八千四十二石六斗九升七勺六才二扎（せいそ　こめ 8,042.690762こく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in rice: 8,042.690762 koku. The 合 place is not printed, so that place is zero. The hundreds place is likewise absent from the whole number, which reads 八千四十二 (8,042), not 8,412."
+      },
+      {
+        "purpose": "identifying",
+        "value": "符箋正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1244,1071,102,1674"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税　金六千七百七十八兩三分二朱ト錢壹貫七百六十八文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　金六千七百七十八両三分二朱と銭一貫七百六十八文（ざつぜい　金 6,778.875りょう、銭 1,768もん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes: 6,778 ryō 3 bu 2 shu in gold, plus 1 kanmon 768 mon in copper cash. Four bu make a ryō and four shu a bu, so 3 bu 2 shu = 0.875 ryō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "符箋雜税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1105,1068,109,2179"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "符箋"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "符箋（ふせん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"Attached slip\". The two-glyph label and the horizontal brace beneath it bracket the three value columns to the right (kusadaka, regular land tax, miscellaneous taxes), marking them as figures taken from a slip pasted into the manuscript rather than from the main text. The brace's left tip drops toward the explanatory note."
+      },
+      {
+        "purpose": "identifying",
+        "value": "符箋"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1030,945,432,119"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此附紙ハ五島銃之丞舊菜地共合計之分　後長崎縣ヘ引渡シ殘ノ分ハ本書之通リナリ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この付紙は五島銃之丞旧菜地とも合計の分、後、長崎県へ引き渡し、残りの分は本書の通りなり（菜地＝采地、知行地の意）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"This attached slip gives the combined totals including the former landholding of Gotō Jūnojō; that portion was afterwards handed over to Nagasaki Prefecture, and the remaining portion is as given in the main text.\" The closing clause is set as a two-column warichu, the right sub-column reading 後長崎縣ヘ引渡シ殘ノ and the left 分ハ本書之通リナリ. The eleventh glyph is printed 菜, which here stands for 采 in 采地 (fief, enfeoffed land)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "附紙注記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:962,1240,123,2100"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五（福江）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第五（福江）（はんせいいちらんひょう だいご ふくえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: \"Table of Domain Systems, Fascicle 5 (Fukue)\". Provenance only; here it names the same domain as the data on the leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第五（福江）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:870,1322,76,580"
+      }
+    }
+  },
+  {
+    "id": "anno-fukue_upper_p225_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百二十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百二十五（425）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number in the bottom margin: 425."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本書頁番号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p225_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:848,3168,74,264"
+      }
+    }
+  }
+]
