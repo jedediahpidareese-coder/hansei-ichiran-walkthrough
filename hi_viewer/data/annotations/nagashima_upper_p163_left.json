@@ -1,0 +1,752 @@
+[
+  {
+    "id": "anno-nagashima_upper_p163_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多　三十軒　人員　百三十三人　內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多（えた）三十軒　人員百三十三人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste) group: 30 households, 133 persons. The 内 marker at the foot of the column introduces the sex split printed below it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2594,1081,111,1410"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男六十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male persons in the eta households: 64."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2628,2503,60,335"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female persons in the eta households: 69. 64 + 69 = 133, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2569,2503,57,335"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　千四拾七軒　上總國支配地之內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　千四十七軒　上総国支配地の内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 1,047, in the domain's administered territory in Kazusa Province. Nagashima held detached land outside its Ise home territory, and this count is kept separate from the 1,653 households of the Ise administered territory printed on the facing page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "上總支配地戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2451,1082,117,942"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　五千六百四人　內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員　五千六百四人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Persons in the Kazusa administered territory: 5,604. The 内 marker introduces the sex split below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "上總支配地人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2334,1080,95,817"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳千七百八拾貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二千七百八十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male persons in the Kazusa administered territory: 2,782."
+      },
+      {
+        "purpose": "identifying",
+        "value": "上總支配地人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2366,1908,62,608"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳千八百貳十貳人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二千八百二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female persons in the Kazusa administered territory: 2,822. 2,782 + 2,822 = 5,604, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "上總支配地人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2302,1908,62,608"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　貳拾壹ヶ寺　僧侶　五拾八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院　二十一ヶ寺　僧侶五十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 21, with 58 resident monks."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2183,1078,110,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　百五軒　寺領之戸數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　百五軒　寺領の戸数"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households on temple-held land: 105. The interlinear note names the category explicitly as the household count of the temple domains."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2057,1074,117,697"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員　四百九拾四人　內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員　四百九十四人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Persons resident on temple-held land: 494. The 内 marker introduces the sex split below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1936,1072,95,817"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳百五十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二百五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male persons on temple-held land: 255."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1971,1897,58,476"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female persons on temple-held land: 239. 255 + 239 = 494, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺領人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1906,1897,63,476"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數　百四拾七軒　人員　六百五拾貳人　內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数　百四十七軒　人員六百五十二人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 147, with 652 persons. Nariwa's own shizoku figures are quite different (81 households, 389 persons) and print on the next page, which is why these belong to Nagashima."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1777,1073,123,1745"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百拾七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男三百十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male persons in shizoku households: 317."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1812,2826,60,404"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女三百三十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female persons in shizoku households: 335. 317 + 335 = 652, matching the printed total. The female run carries one glyph more than the male run, so this box extends further down the page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1750,2826,60,471"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒戸數　百貳拾三軒　人員　五百貳人　內"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒戸数　百二十三軒　人員五百二人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households: 123, with 502 persons. MASTER records 620 persons here with a 255/245 sex split, which does not add up; the scan prints 五百貳人 and 255/247, which does."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1644,1071,120,1572"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男貳百五拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男二百五十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male persons in sotsu households: 255."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1677,2653,60,471"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女貳百四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女二百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female persons in sotsu households: 247. 255 + 247 = 502, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒人員女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1616,2653,59,471"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "輕卒戸數　三十八軒　人員　五十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "軽卒戸数　三十八軒　人員五十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Light-sotsu (keisotsu, the lowest retainer grade) households: 38, with 53 persons. No sex split is printed for this category."
+      },
+      {
+        "purpose": "identifying",
+        "value": "輕卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1517,1069,115,1422"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　八座"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社　八座"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 8, counted in za. This is the last Nagashima column on the page; the ○成羽藩 marker follows immediately to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1407,1064,92,412"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○成羽藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "成羽藩（なりわはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Nariwa han, in Bitchū Province. The circle opens Nariwa's fascicle-4 block. Everything to its right on this page was read earlier and belongs to Nagashima; everything to its left is Nariwa's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○成羽藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1253,1402,106,559"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kusadaka, the gross assessed yield — printed here as a bare section heading with no figure beneath it in its own column. The figure itself is entered in the next column to the left, under 高."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（成羽藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1151,1064,77,159"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　壹萬貳千七百四拾六石貳斗七合三勺壹才　此免五ヶ年平均三ツ五厘四毛四弗余"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高　一万二千七百四十六石二斗七合三勺一才　此の免、五ヶ年平均三ツ五厘四毛四弗余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nariwa's assessed gross yield: 12,746.20731 koku (12,746 koku, 2 to, 7 gō, 3 shaku, 1 sai; the shō place is skipped, so it is zero). The interlinear note gives the domain's land-tax rate averaged over five years as 3-tsu 5-rin 4-mō 4-futsu and a fraction, that is roughly 30.5 percent of the assessed yield."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（成羽藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:955,1143,135,2225"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四（成羽）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第四（成羽）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the outer margin: Table of Domain Institutions, Fascicle 4 (Nariwa). This is provenance for the sheet, not an attribution of the data on it — ten of the twelve data columns here are Nagashima's. The header names Nariwa because Nariwa's block opens on this page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第四（成羽）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:886,1319,67,566"
+      }
+    }
+  },
+  {
+    "id": "anno-nagashima_upper_p163_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百一（頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom of the outer margin: 301. The facing page is 300 and the next recto is 302."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁三百一（成羽藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p163_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:850,3163,63,140"
+      }
+    }
+  }
+]
