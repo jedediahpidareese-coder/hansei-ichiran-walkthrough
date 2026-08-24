@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anno-kujira_upper_p191_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　米百九拾七石九斗貳升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米 百九十七石九斗二升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — rice: 197.925 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2550,1073,100,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金七百三十五兩貳分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 七百三十五両二分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — gold: 735 ryō 2 bu (735.5 ryō)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2416,1324,95,753"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永四十八文貳分九厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永 四十八文二分九厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes — ei-coin: 48 mon 2 bu 9 rin (48.29 mon)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2290,1324,85,754"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（◎校訂者云以下十行原書欄外朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（◎校訂者いわく、以下十行は原書欄外の朱書なり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(◎ The editor states: the following ten lines are written in red ink in the margin of the original manuscript.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "校訂者註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2226,1071,63,1077"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（一本ニ但シ共ニ巳ノ十月調ナリ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（一本に「但し共に巳の十月調なり」）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(In one copy of the original: 'but both are as surveyed in the tenth month of the snake year' — i.e. the tenth month of Meiji 2, 1869. No closing bracket is printed.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "一本註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2121,1136,104,675"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租四千二百五石七斗五升五合六勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 四千二百五石七斗五升五合六勺八才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax: 4,205.75568 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2001,1242,107,1509"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes (heading of the red-ink marginal group; its rice, gold and ei-coin components follow in the next three columns)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書雜稅標目"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1887,1237,88,164"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百二十九石八斗七升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百二十九石八斗七升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, red-ink revision — rice: 329.875 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書雜稅米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1730,1325,100,1003"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金百十五兩壹分三朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金 百十五両一分三朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, red-ink revision — gold: 115 ryō 1 bu 3 shu (115.4375 ryō)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書雜稅金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1600,1320,96,755"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永五文六分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永 五文六分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, red-ink revision — ei-coin: 5 mon 6 bu (5.6 mon)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書雜稅永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1469,1319,91,415"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米十九石二斗四升五勺貳才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米 十九石二斗四升五勺二才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The above cash expressed in rice: 19.24052 koku (the 合 place is zero and is skipped). This equals 115.4375 ryō plus 5.6 ei-mon converted at six ryō to the koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1330,1318,98,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但シ石六兩替或ハ五兩一分替ニシテ算ス然ルトキハ二十一石九斗八升九合壹勺六才　何レカ正ナルヲ見出スヘカラス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し、石六両替あるいは五両一分替にして算す。然るときは二十一石九斗八升九合一勺六才。何れが正なるを見出すべからず。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: the conversion is reckoned either at six ryō to the koku or at five ryō one bu to the koku. On the latter rate the figure becomes 21.98916 koku. Which of the two is correct cannot be determined."
+      },
+      {
+        "purpose": "identifying",
+        "value": "朱書但書換算註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1055,1397,237,2347"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "都合四千五百五十四石八斗七升一合貳勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "都合 四千五百五十四石八斗七升一合二勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total: 4,554.8712 koku. This is exactly 4,205.75568 (regular land tax) + 329.875 (miscellaneous-tax rice) + 19.24052 (cash converted to rice)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "都合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:919,1228,113,1525"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五（櫛羅）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第五（櫛羅）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han Institutions Overview, fascicle five (Kujira)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第五櫛羅"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:819,1313,78,583"
+      }
+    }
+  },
+  {
+    "id": "anno-kujira_upper_p191_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百五十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百五十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number: 357"
+      },
+      {
+        "purpose": "identifying",
+        "value": "書籍頁三百五十七"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p191_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:792,3155,74,271"
+      }
+    }
+  }
+]

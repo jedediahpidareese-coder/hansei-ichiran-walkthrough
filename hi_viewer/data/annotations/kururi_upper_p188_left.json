@@ -1,0 +1,902 @@
+[
+  {
+    "id": "anno-kururi_upper_p188_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　二千百六拾七貫十七文　五ヶ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）二千百六十七貫十七文　五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eiraku cash: 2,167 kan 17 mon, stated as a five-year average (the small type at the foot of the column reads 五ヶ年平均). This is the domain's total tax receipt expressed in eiraku-denominated cash; the gloss two columns to the left states that this eiraku figure is the sum of all the various taxes. The column immediately to the left converts it to rice at eight ryo to the koku, and the conversion checks out exactly: 2,167.017 divided by 8 is 270.8771, which that column prints as 270.877 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2587,1064,121,1427"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此現米二百七十石八斗七升七合　但石八兩立"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この現米（げんまい）二百七十石八斗七升七合　但し石（こく）八両立て"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in current rice: 270.877 koku, reckoned at eight ryo to the koku (但石八兩立). The figure is the eiraku-cash total of the column to the right converted at the stated rate: 2,167 kan 17 mon is 2,167.017, and 2,167.017 divided by 8 is 270.8771, printed here as 270.877."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此現米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2438,1397,118,1510"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永高ハ即チ諸税ノ高ナリ"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永高（えいだか）はすなわち諸税の高なり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial gloss: \"the eiraku total is simply the total of the various taxes.\" It tells the reader that the 永 figure in the rightmost column is not a separate levy but the aggregate of every tax head listed for the domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "永高ハ即チ諸税ノ高ナリ"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2326,1392,100,902"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二口合一萬千百二十六石四斗二升一合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二口合（にくちあわせ）一万千百二十六石四斗二升一合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The two heads combined: 11,126.421 koku. Confirmed by the column to its left, where the house stipend is stated as one tenth of this figure and works out to exactly 1,112.6421 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二口合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2186,1057,122,1422"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此十分一　家祿　千百十二石六斗四升二合一勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この十分の一、家禄（かろく）千百十二石六斗四升二合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "House stipend: 1,112.6421 koku, printed as one tenth of the 11,126.421 koku combined total. The head of the column is a double-column warichu in small type — the right line reads 此十分, the left line 一家祿, so the two lines run together as 此十分一・家祿 — and the value follows in full-size type. 11,126.421 divided by 10 is 1,112.6421 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "一家祿"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2048,1049,136,1342"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社二ケ所領地高　二十六石八斗餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社二ヶ所領地高（りょうちだか）二十六石八斗余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Landholding of the two shrines: 26.8 koku and over (餘). The warichu below the temple column to the left notes that the original manuscript does not say whether the shrine and temple grants were vermilion-seal or black-seal land."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社二ケ所領地高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1909,1044,137,1341"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院九ヶ寺領地高　百二十五石三斗餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院九ヶ寺領地高（りょうちだか）百二十五石三斗余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Landholding of the nine temples: 125.3 koku and over (餘). MASTER's kanji string for this cell reads 八斗 but its parsed value is 125.3; the scan shows three separate horizontal bars at that position, so the printed reading is 三斗 and the parsed 125.3 is correct."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院九ヶ寺領地高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1774,1042,124,1426"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（原書朱印乎黑印カ記セス）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（原書、朱印か黒印か記せず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Parenthesised editorial note printed as a two-line warichu below the temple-land figure: \"the original manuscript does not record whether [these grants] were vermilion-seal or black-seal.\" Shrine and temple lands were held either as shuinchi (朱印地, granted under the shogun's vermilion seal) or as kokuinchi (黒印地, under a daimyo's black seal); the compilers are flagging that the source they worked from left the category unstated."
+      },
+      {
+        "purpose": "identifying",
+        "value": "原書朱印乎黑印カ記セス"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1737,2606,125,458"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　千百八十九人　士族"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　千百八十九人　士族（しぞく）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population — shizoku (former samurai): 1,189 persons. 人口 heads the whole demographic block that runs across this and the four columns to its left; the count and the status label share this column, with the sex split printed below under 内. 595 male + 594 female = 1,189."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口士族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1656,1039,116,1006"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百九十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五百九十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku males: 595. The right-hand run of the two-line split printed under 内; with the 594 females it sums to the stated total of 1,189."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1692,2120,58,475"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　五百九十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku females: 594. The left-hand run of the split under 内; 595 + 594 = 1,189, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1627,2119,63,476"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男ノ内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男の内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Group heading: \"of the males.\" It introduces the two-line warichu directly beneath (officeholders / the old and young) and the soldier count below that, all of them subdivisions of the 595 shizoku males."
+      },
+      {
+        "purpose": "identifying",
+        "value": "男ノ内"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1548,1288,72,246"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "職員百二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "職員　百二十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Officeholders among the males: 128. The right-hand line of the warichu under 男ノ内; MASTER labels this cell 老兵, but the two label glyphs read 職員 (耳+戠 over 員) at high magnification, and 老 belongs to the left-hand line 老少."
+      },
+      {
+        "purpose": "identifying",
+        "value": "男ノ内職員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1578,1543,62,470"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "老少三百三十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "老少（ろうしょう）三百三十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The old and the young among the males: 333. The left-hand line of the warichu under 男ノ内; MASTER omits this cell. Together with the 128 officeholders and the 130 soldiers below it accounts for 591 of the 595 shizoku males, a four-person shortfall in the source itself."
+      },
+      {
+        "purpose": "identifying",
+        "value": "男ノ内老少"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1508,1541,68,544"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵士百三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵士　百三十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soldiers: 130, printed in full-size type below the warichu as the third subdivision of the male shizoku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵士"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1544,2090,76,403"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百四十三人　卒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百四十三人　卒（そつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-ranking retainers, the class created in 1869 below shizoku): 143 persons. The count precedes the status label, as in every column of this demographic block. 114 male + 29 female = 143."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1393,1290,103,585"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　百十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu males: 114. Right-hand run of the split under 内; with the 29 females it sums to the stated 143."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1428,1949,62,336"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu females: 29. Left-hand run of the split under 内; 114 + 29 = 143, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1364,1944,62,340"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二萬七百六十六人　平民"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二万七百六十六人　平民（へいみん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoners: 20,766 persons — by far the largest status group on the page, roughly 92 percent of the domain's recorded population. 10,478 male + 10,288 female = 20,766."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1250,1293,107,908"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男一萬四百七十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　一万四百七十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner males: 10,478. Right-hand run of the split under 内."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1279,2279,61,611"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女一萬二百八十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　一万二百八十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Commoner females: 10,288. Left-hand run of the split under 内; 10,478 + 10,288 = 20,766, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1203,2275,74,614"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "九十二人　社家"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "九十二人　社家（しゃけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine households (hereditary Shinto priestly families): 92 persons. The sex split printed below gives 50 males and 40 females, which sums to 90 rather than 92; both sub-columns hold exactly four glyphs and the total was re-read character by character, so the two-person gap is in the source."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1120,1285,96,582"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-household males: 50. Right-hand run of the split under 内."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1154,1942,60,267"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　四十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-household females: 40. Left-hand run of the split under 内; 50 + 40 = 90 against the printed total of 92."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1089,1942,63,268"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百九十八人　寺院"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百九十八人　寺院（じいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple people: 298 persons. The column below splits them twice — first 141 clergy, then a male/female pair of 81 and 76 for the remainder; 141 + 81 + 76 = 298."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:977,1288,104,740"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧百四十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）百四十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Clergy: 141 persons, printed under the first 内 as a subdivision of the 298 temple people. The remaining 157 are itemised under a second 内 as 81 men and 76 women."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:997,2105,78,404"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple males (other than the 141 clergy): 81. Right-hand run of the split under the second 内."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:992,2591,62,335"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　七十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple females: 76. Left-hand run of the split under the second 内; 141 + 81 + 76 = 298, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:931,2589,59,336"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五　（久留里）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第五　（久留里）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the left margin: Domain Survey (Hansei ichiran), Fascicle 5, Kururi. This is provenance printed by the 1928 Nihon Shiseki Kyokai edition, not source data; it names the domain whose entry the leaf belongs to and the fascicle (fascicle 5 covers land assessment, taxes and population)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第五（久留里）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:863,1280,84,625"
+      }
+    }
+  },
+  {
+    "id": "anno-kururi_upper_p188_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百五十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百五十一（頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 351."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁三百五十一"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p188_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:807,3128,71,244"
+      }
+    }
+  }
+]
