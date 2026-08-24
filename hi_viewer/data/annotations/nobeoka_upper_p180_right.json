@@ -1,0 +1,362 @@
+[
+  {
+    "id": "anno-nobeoka_upper_p180_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四（延岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四（延岡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running head: Han Institutions Survey Table, Fascicle Four (Nobeoka). Provenance only — it names the fascicle and the domain whose entry the leaf belongs to."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第四（延岡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2093,1340,73,575"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百三十四（三三四頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 334."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百三十四"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2069,3182,69,264"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "千三百十五石二斗四升八合九勺七才　延享四卯年後改出高　（引高）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一三一五石二斗四升八合九勺七才（延享四年卯年以後の改出高）／（引高）は左に続く控除項目の見出し"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The column prints 1,315.24897 koku, with the note beneath it reading \"yield newly surveyed after Enkyō 4\" (1747, a rabbit year). The figure is an addition, not a deduction: book page 333 (upper_p179_left) prints 本高 70,000 koku and 前々出高 10,499.82411 koku, and 70,000 + 10,499.82411 + 1,315.24897 = 81,815.07308, which is the 草高 printed there. The bracketed （引高） squeezed into the gutter at the left of this box heads the deduction that follows — the 8,942.45138 koku of waste ground — and does not label the 1,315.24897."
+      },
+      {
+        "purpose": "identifying",
+        "value": "引高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1901,1313,144,2063"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "八千九百四十二石四斗五升一合三勺八才　前々無地高侍屋鋪長屋地幷道代溝敷土手敷藪敷川欠石沙入　荒地高引"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "荒地高引 八九四二石四斗五升一合三勺八才（前々無地高・侍屋敷・長屋地并びに道代・溝敷・土手敷・藪敷・川欠・石砂入）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Waste-land deduction: 8,942.45138 koku. The two-column note lists what it covers — land long carried as untaxed, samurai residence lots, row-house plots and road allowances, ditch beds, embankment beds, thicket beds, river washouts, and ground buried under gravel and sand. Subtracting it from the 草高 of 81,815.07308 koku on book page 333 gives the 殘 of 72,872.6217 koku in the next column: 81,815.07308 − 8,942.45138 = 72,872.6217."
+      },
+      {
+        "purpose": "identifying",
+        "value": "荒地高引"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1680,1336,220,2431"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "殘七萬二千八百七十二石六斗二升一合七勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "残 七万二八七二石六斗二升一合七勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Remainder: 72,872.6217 koku. It is the 草高 of 81,815.07308 koku printed on book page 333 less the one deduction on this leaf, the 8,942.45138 koku of waste ground: 81,815.07308 − 8,942.45138 = 72,872.6217."
+      },
+      {
+        "purpose": "identifying",
+        "value": "殘"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1538,1163,105,1598"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租高　現米二萬八千十石六升二合六勺〔五ヶ年平均　免三ツ四分九厘七毛〕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租高 現米 二万八〇一〇石六升二合六勺（五ヶ年平均 免 三ツ四分九厘七毛）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax: 28,010.0626 koku reckoned in actual rice, at a five-year average tax rate of 0.3497. The six components entered under 内 — four on this leaf, two on the facing one — sum to it exactly, and adding the 雜稅高 rice of 896.29525 koku on book page 335 gives the 合米 of 28,906.35785 koku printed there."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1246,1083,266,1948"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "眞米二萬二千九百四十八石一斗七升四合七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "真米 二万二九四八石一斗七升四合七才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "True rice: 22,948.17407 koku, the largest of the six components of the 28,010.0626 koku land tax."
+      },
+      {
+        "purpose": "identifying",
+        "value": "眞米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:999,1242,106,1684"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二千百二十五石四斗五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二一二五石四斗五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "2,125.405 koku — the portion of the land tax taken in red rice, entered without a label; the 升 place is skipped. Multiplied by 1.2 it gives the 此赤米 figure in the next column exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二千百二十五石四斗五合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:877,1251,96,910"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此赤米二千五百五十石四斗八升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此赤米 二五五〇石四斗八升六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This, in red rice: 2,550.486 koku — the 2,125.405 koku of the preceding column commuted at exactly 1.2 to 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此赤米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:733,1329,102,1337"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二千百三十五石五斗五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二一三五石五斗五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "2,135.505 koku — the portion of the land tax taken in soybeans, entered without a label; the 升 place is skipped. Multiplied by 1.6 it gives the 此大豆 figure in the next column exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "二千百三十五石五斗五合"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:608,1249,97,911"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此大豆三千四百十六石八斗八合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此大豆 三四一六石八斗八合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This, in soybeans: 3,416.808 koku — the 2,135.505 koku of the preceding column commuted at exactly 1.6 to 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此大豆"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:468,1324,98,1167"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百五十六石六合六勺六才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四五六石六合六勺六才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "456.00666 koku — a further unlabelled component of the land tax and the leftmost column on this leaf. The facing leaf (book page 335) opens with 此大麥千九十四石四斗一升六合 = 1,094.416 koku, this figure commuted into barley at exactly 2.4 to 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四百五十六石六合六勺六才"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:340,1241,99,1000"
+      }
+    }
+  }
+]

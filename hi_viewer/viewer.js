@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260711hi84';
+const VER = '20260711hi85';
 
 async function loadJson(path) {
   const r = await fetch(path);

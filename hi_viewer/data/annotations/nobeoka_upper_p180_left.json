@@ -1,0 +1,392 @@
+[
+  {
+    "id": "anno-nobeoka_upper_p180_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此大麥千九十四石四斗一升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この大麦 千九十四石四斗一升六合（1,094.416石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This [converted] into barley: 1,094.416 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此大麥"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2550,1319,104,1173"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十八石六斗二升五勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十八石六斗二升五勺（158.6205石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "158.6205 koku. The 合 place is not printed, so that decimal place is zero."
+      },
+      {
+        "purpose": "identifying",
+        "value": "百五十八石六斗二升五勺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2421,1236,100,925"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此小麥三百十七石二斗四升一合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この小麦 三百十七石二斗四升一合（317.241石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This [converted] into wheat: 317.241 koku, exactly twice the 158.6205 koku printed in the column to the right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此小麥"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2282,1320,99,1174"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米百八十六石三斗五升一合三勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米 百八十六石三斗五升一合三勺七才（186.35137石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rice: 186.35137 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "米百八十六石三斗五升一合三勺七才"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2150,1239,104,1338"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此金千四百九十兩永八百十壹文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この金 千四百九十両 永八百十一文（1,490.811両）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in cash: 1,490 ryō and 811 ei-mon, that is 1,490.811 ryō — exactly eight ryō for each koku of the 186.35137 koku above. MASTER has no row for this column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此金千四百九十兩永八百十壹文"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2022,1323,99,1169"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "〆"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〆（しめ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Closing mark (shime), set at value level to end the list of items printed to its right, before the miscellaneous-tax heading begins."
+      },
+      {
+        "purpose": "identifying",
+        "value": "〆印"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1924,1164,72,63"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅高　米八百九十六石二斗九升五合二勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税高 米八百九十六石二斗九升五合二勺五才（896.29525石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax total: 896.29525 koku of rice. The heading stands in the right column of this box and its value in the column immediately to the left, so the two are enclosed together."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜稅高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1621,1070,247,1509"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米三百五石八斗三升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 米三百五石八斗三升六合（305.836石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which, rice: 305.836 koku. MASTER carries this both as 305.836 and, in a second row, as 350.836; the column prints only eleven characters, with 百 五 石 consecutive at 83px pitch and no 十 between 五 and 石, and the sum below settles it at 305.836."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内米三百五石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1365,1242,102,918"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米五百九十石四斗五升九合二勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内 米五百九十石四斗五升九合二勺五才（590.45925石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which, rice: 590.45925 koku. Added to the 305.836 koku above it gives 896.29525 koku, exactly the miscellaneous-tax total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内米五百九十石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1225,1242,105,1333"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此金四千七百二十三兩永六百七十四文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この金 四千七百二十三両 永六百七十四文（4,723.674両）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in cash: 4,723 ryō and 674 ei-mon, that is 4,723.674 ryō — again exactly eight ryō for each koku of the 590.45925 koku above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1091,1326,102,1420"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米二萬八千九百六石三斗五升七合八勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米 二万八千九百六石三斗五升七合八勺五才（28,906.35785石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total rice: 28,906.35785 koku, closing the domain's fascicle-4 revenue block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:956,1156,113,1677"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第四（延岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第四（延岡）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Table of Domain Institutions, Fascicle 4 (Nobeoka). Printed in small type; it records provenance, naming the fascicle and the domain whose block this leaf belongs to."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第四（延岡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:859,1328,75,573"
+      }
+    }
+  },
+  {
+    "id": "anno-nobeoka_upper_p180_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百三十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百三十五（335）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 335."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百三十五"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p180_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:832,3164,68,265"
+      }
+    }
+  }
+]
