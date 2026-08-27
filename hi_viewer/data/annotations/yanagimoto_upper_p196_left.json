@@ -1,0 +1,932 @@
+[
+  {
+    "id": "anno-yanagimoto_upper_p196_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社　貳ヶ所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社（やしろ）二ヶ所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 2 sites."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2559,1413,89,413"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺庵　九ヶ所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺庵（じあん）九ヶ所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples and hermitages: 9 sites."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺庵"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2540,2081,91,418"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多非人ノ戸數　四十一軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多非人の戸数（こすう）四十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta and hinin households: 41."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多非人ノ戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2409,1409,107,1005"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（前後ノ調ヲ合セ違フモノヲ以穢多非人ノ戸數ト見做ス）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（前後の調べを合わせて違うものをもって穢多非人の戸数とみなす）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial note: comparing the earlier and the later returns, the entries that do not agree are taken to be the eta and hinin households."
+      },
+      {
+        "purpose": "identifying",
+        "value": "編者註（穢多非人ノ戸數）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2248,1476,130,2049"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六千八百十四人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口（じんこう）六千八百十四人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 6,814 persons, of which the male and female sub-totals follow. The printed male 3,083 and female 3,138 sum to 6,221, which is 593 short of this printed total; the 1928 editors set attention marks in the right margin beside the 八 and the 四 of this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2145,1070,103,905"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　三千八十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）三千八十三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, male: 3,083."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2178,1981,63,472"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　三千百三十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）三千百三十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population, female: 3,138."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2114,1980,63,542"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人員　三百九十六人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人員（しぞくじんいん）三百九十六人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) persons: 396 (男 200 + 女 196 = 396, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1878,1240,104,907"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　二百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）二百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku persons, male: 200."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1915,2151,58,267"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　百九十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）百九十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku persons, female: 196."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1847,2148,67,408"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族人員　百九十七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人員（そつぞくじんいん）百九十七人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) persons: 197 (男 103 + 女 94 = 197, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1746,1237,101,823"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　百三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）百三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu persons, male: 103."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1780,2065,58,268"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）九十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu persons, female: 94."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1718,2063,61,338"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社務人員　五人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社務人員（しゃむじんいん）五人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine officiants: 5 persons (男 1 + 女 4 = 5, internally consistent). Note: the project dataset records this split as 男 4 / 女 1; the page prints the right-hand run as 男一人 and the left-hand run as 女四人."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1616,1242,96,564"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine officiants, male: 1."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人員 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1654,1814,57,201"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine officiants, female: 4."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社務人員 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1590,1812,63,202"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺庵人員　十八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺庵人員（じあんじんいん）十八人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple and hermitage clergy: 18 persons (僧 14 + 尼 4 = 18, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺庵人員"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1475,1232,100,650"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧　十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧（そう）十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy, monks: 14."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺庵人員 僧"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1510,1891,65,267"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "尼　四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "尼（に）四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple clergy, nuns: 4."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺庵人員 尼"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1450,1890,59,198"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（一本ハ僧十七人尼一人ニ作ル）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（一本は僧十七人・尼一人に作る）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Variant reading: one manuscript copy gives 17 monks and 1 nun (which also totals 18)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "校異（寺庵人員）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1435,2230,112,1094"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "巫　女二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "巫（かんなぎ）女二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine mediums (miko): 2, both female."
+      },
+      {
+        "purpose": "identifying",
+        "value": "巫"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1350,1231,90,412"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多人數　百三拾七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多人数（えたにんずう）百三十七人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta outcaste persons: 137 (男 66 + 女 71 = 137, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1204,1229,104,828"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　六十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）六十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta persons, male: 66."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人數 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1239,2062,62,337"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）七十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta persons, female: 71."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人數 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1176,2060,62,338"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　百八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人（ひにん）百八人　内"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin outcaste persons: 108 (男 59 + 女 49 = 108, internally consistent)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1178,2472,96,570"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男　五十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（だん）五十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin persons, male: 59."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人 男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1213,3046,65,336"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女　四十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（じょ）四十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin persons, female: 49."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人 女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1154,3045,58,337"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族　四人　男二人　女二人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事家族（ちじかぞく）四人　男二人・女二人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's household: 4 persons, 2 male and 2 female (2 + 2 = 4, internally consistent). Printed as a bracketed insertion whose closing parenthesis spans both sub-runs, so the male and female runs are kept inside this single box."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1058,1057,132,828"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（船艦無之）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（船艦（せんかん）これ無し）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "No warships: the domain held none."
+      },
+      {
+        "purpose": "identifying",
+        "value": "船艦無之"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:958,1053,88,353"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五（柳本）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表（はんせいいちらんひょう）第五（柳本）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han Regulations Overview Table, fascicle 5 (Yanagimoto). Provenance, not data."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:825,1310,84,574"
+      }
+    }
+  },
+  {
+    "id": "anno-yanagimoto_upper_p196_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百六十七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百六十七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 367."
+      },
+      {
+        "purpose": "identifying",
+        "value": "book page（三百六十七）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p196_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:788,3154,72,266"
+      }
+    }
+  }
+]

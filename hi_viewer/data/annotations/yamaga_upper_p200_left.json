@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-yamaga_upper_p200_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　一萬八拾貳石八斗三升"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高（くさだか）一万八十二石八斗三升"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed gross yield (kusadaka) = 10,082.83 koku. The leading numeral is printed 一, not the formal 壹 that MASTER records."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2587,1045,99,1093"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此取米　四千三百七拾石五斗貳升六合四勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "此の取米（このとりまい）四千三百七十石五斗二升六合四勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tax rice actually taken on that assessment = 4,370.52641 koku. It equals the two components listed under 內 to its left: 3,460.52641 koku in rice plus 910 koku commuted to silver."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此取米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2441,1131,109,1757"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ヶ年平均　壹ヶ年分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均、一ヶ年分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small double-column note at the foot of the collected-rice column: the figure is a five-year average, given as one year's share."
+      },
+      {
+        "purpose": "identifying",
+        "value": "此取米五ヶ年平均註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2419,2893,122,340"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租　三千四百六十石五斗貳升六合四勺壹才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租（せいそ）三千四百六十石五斗二升六合四勺一才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax (seiso) = 3,460.52641 koku, the rice-delivered part of the 4,370.52641 koku collected. The project's MASTER dataset reads 3,465.42641; the page prints 六 十 石 五 斗, and the arithmetic confirms the page — 3,460.52641 + 910 = 4,370.52641, the printed 此取米, whereas MASTER's figure gives 4,375.42641, which matches nothing here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2173,1130,109,1673"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米納（べいのう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note at the foot of the regular-land-tax column: this part was paid in rice."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米納註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2167,2974,88,164"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米　九百拾石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米（こめ）九百十石"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The second component under 內: 910 koku of rice, converted to a silver payment (see the 銀納 note at the foot of this column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租米（銀納）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2052,1380,91,423"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀納"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀納（ぎんのう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note at the foot of the 910-koku column: this part was rendered in silver rather than in rice."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租銀納註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2035,2975,84,162"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜稅　拾五石四斗七升五合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税（ざつぜい）十五石四斗七升五合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous taxes, in kind = 15.475 koku, taken in rice and soybeans (see the 米大豆 note at the foot of this column). The cash side is the 3,202.82 monme of silver in the next column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1912,1126,99,1006"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米大豆"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米・大豆（こめ・だいず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note at the foot of the miscellaneous-tax column: the levy in kind consists of rice and soybeans."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税米大豆註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1897,2977,83,248"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "銀　三貫貳百貳匁八分貳厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "銀（ぎん）三貫二百二匁八分二厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Silver component of the miscellaneous tax = 3 kan 202.82 monme, i.e. 3,202.82 monme."
+      },
+      {
+        "purpose": "identifying",
+        "value": "銀"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1779,1382,96,916"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "〆　米四千三百八十六石壹合四勺壹才　銀三貫貳百貳匁八分貳厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〆（しめ）米四千三百八十六石一合四勺一才、銀三貫二百二匁八分二厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand total (shime), printed as a shime mark over a two-run double column: 4,386.00141 koku of rice and 3,202.82 monme of silver. The grain total checks exactly — 4,370.52641 (tax rice collected) + 15.475 (miscellaneous tax in kind) = 4,386.00141 — and the silver line repeats the 3,202.82 monme given above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "〆合計（米・銀）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1630,1225,127,1099"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戶數"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading of the household block. No domain-wide total is printed, because the commoner households were not reported — see the note lower in the same column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數見出し"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1525,1044,86,165"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平民戶數不詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平民戸数（へいみんこすう）不詳"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small note in the household-heading column: the number of commoner households is not known. This is why the 戶數 heading carries no total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平民戸數不詳註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1526,1972,71,403"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　七十六戶"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族（しぞく）七十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households = 76."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1254,1217,92,583"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　貳十五戶"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺（てら）二十五戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple households = 25. It prints in the lower register of the shizoku column, the same slot the previous domain's page uses for its 寺 四十三戶."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1242,1972,92,505"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　三十八戶"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族（そつぞく）三十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households = 38. With the shizoku that is 114 retainer households; no grand total can be formed because the commoner count is missing."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1121,1216,89,586"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading of the population block. No figure follows it on this leaf; the breakdown prints on the next page (book page 376), where 內 gives 士族 343 persons, 卒族 131, 寺人 47, 社人 1, 神社 1軒 and 知事家族 7 — all still Yamaga, since they stand to the right of the ○谷田部藩 marker there."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員見出し"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:994,1050,83,168"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（どう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A small-type 同 (\"ditto\") in the population column, printed in the second band of the page at the same height as the 寺 label and the 平民戶數不詳 note beside it. On the facing leaf (book page 374) the same slot in the 人員 column carries the small 內 that opens the male/female split; here no split is printed, and the page does not spell out what this 同 repeats."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員欄同印上"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1003,1969,59,63"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（どう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A second small-type 同 (\"ditto\") set two small-type slots below the first, in the band where the facing leaf prints the 男 and 女 figures of the population. Like its companion it carries no explicit referent on this leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員欄同印下"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1001,2108,60,63"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五（山家）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第五（山家）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Han Administration Survey, fascicle 5, (Yamaga). Here the header names the same domain as the data on the leaf."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱書（藩制一覧表第五 山家）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:872,1306,74,574"
+      }
+    }
+  },
+  {
+    "id": "anno-yamaga_upper_p200_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百七十五"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百七十五（375）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 375. The facing right-hand half is 374 and the next leaf is 376."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付（三百七十五）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p200_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:855,3146,70,262"
+      }
+    }
+  }
+]
