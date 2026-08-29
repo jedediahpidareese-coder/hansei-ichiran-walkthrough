@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anno-tsuruga_upper_p216_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百八十石四斗四升四合二勺二才込高云々前同斷"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百八十石四斗四升四合二勺二才　込高　云々前同断"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "480.44422 koku — komidaka (yield folded into the assessment); the particulars are as in the preceding entry."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2673,1349,90,1738"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百十七石八斗六升五勺新田畑改高"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百十七石八斗六升五勺　新田畑改高"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "117.8605 koku — revised assessed yield of newly opened paddy and dry field (the gō place is left empty, hence zero)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新田畑改高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2544,1346,85,1182"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合高九千四百十六石三斗六升七合一勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合高　九千四百十六石三斗六升七合一勺七才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total assessed yield: 9,416.36717 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2409,1263,86,1595"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "原本算ヲ失ス但シ之ヲ改メス七合一勺七才ハ六合九勺ナル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "原本、算を失す。但し之を改めず。七合一勺七才は六合九勺なる。"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editors' note, set as a two-column warichu beneath the total: the original miscalculates, but we leave it unemended; the figure 7 gō 1 shaku 7 sai should read 6 gō 9 shaku, which would make the total 9,416.3669 koku rather than 9,416.36717."
+      },
+      {
+        "purpose": "identifying",
+        "value": "校訂註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2392,2890,124,878"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "込"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "込"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "A single hand-inked mark standing alone in the otherwise empty column slot between the 合高 and 正税 columns. Its stroke structure matches the printed 込 of 込高 (the 辶 cluster at upper left, 入 as the chevron at upper right, and the long sweeping base), but it is 94 px wide against a 68 px type body and its stroke ends are rounded, so it is written by hand rather than printed. Probable reading, not certain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "欄間手書記号"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2260,1439,114,82"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税米四千三百拾五石壹斗五升六合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税　米　四千三百十五石一斗五升六合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, in rice: 4,315.1566 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2131,1184,89,1593"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米四百九拾六石九升七合七勺六才（替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米　四百九十六石九升七合七勺六才（替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax in rice, the share drawn from exchanged land (kaechi): 496.09776 koku (the to place is left empty, hence zero)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税米替地分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2002,1435,87,1552"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雜税米六拾六石五斗九升九合五勺七才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税　米　六十六石五斗九升九合五勺七才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, in rice: 66.59957 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1868,1187,88,1507"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金六百五拾四兩貳分永貳百八拾壹文四分九厘貳毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金　六百五十四両二分　永二百八十一文四分九厘二毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, in cash: 654 ryō 2 bu, which is 654.5 ryō since 4 bu make 1 ryō, together with 281.492 mon in eiraku currency. MASTER records only the ryō portion; the eiraku tail is printed on the scan and is restored here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1738,1439,87,1842"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米九石三斗七升八合（替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米　九石三斗七升八合（替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in rice, the share drawn from exchanged land: 9.378 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税米替地分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1603,1441,89,1047"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永拾貳貫九百四拾八文七分（替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永　十二貫九百四十八文七分（替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax in eiraku cash, the share drawn from exchanged land: 12 kan 948.7 mon, that is 12,948.7 mon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税永替地分"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1468,1443,89,1300"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數千七百九拾九軒内（貳百五十三戸　寺六ヶ寺　替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　千七百九十九軒　内（二百五十三戸　寺六ヶ寺　替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 1,799. Of these, 253 households and six temples belong to the exchanged-land portion. MASTER records only the bare total; the warichu breakdown is restored here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1318,1190,121,1558"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族戸數四拾八軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族戸数　四十八軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai) households: 48."
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1072,1363,86,748"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族戸數七拾壹軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族戸数　七十一軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower retainer) households: 71."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1070,2284,86,754"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五（敦賀）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第五（敦賀）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header in the left margin: Hansei ichiran-hyō, Fascicle Five (Tsuruga). Provenance for the page, naming the fascicle of the 1869-70 Dajōkan survey and the domain whose entry the page carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第五（敦賀）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:950,1367,70,574"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p216_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百七"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百七"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the margin: 407."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付四百七"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p216_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:949,3211,70,161"
+      }
+    }
+  }
+]

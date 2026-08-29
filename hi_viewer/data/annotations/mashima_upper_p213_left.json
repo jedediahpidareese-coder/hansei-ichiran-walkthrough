@@ -1,0 +1,782 @@
+[
+  {
+    "id": "anno-mashima_upper_p213_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第五（眞島）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいご（ましま）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei ichiran-hyō, Fascicle 5 (Mashima) — the running header in the fold column, giving the survey's title, the fascicle number and the domain whose block this leaf carries."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第五眞島"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:872,1247,76,578"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "よんひゃくいち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Page 401 — the printed book-page number at the foot of the fold column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "四百一"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:832,3097,64,142"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但シ雑税千三百八十四石七斗四升壹合四勺八才ヲ算入ス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ただし、雑税千三百八十四石七斗四升一合四勺八才を算入す"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: this includes miscellaneous tax of 1,384.74148 koku. This is the only place on the leaf where the combined miscellaneous-tax figure is printed; it equals the rice portion 1,334.24904 koku plus the rice-equivalent 50.49244 koku of the cash portion."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:950,1338,128,2066"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但シ辛未ノ調）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "ただし、辛未（かのとひつじ）の調べ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(…the Shin'i survey, the return of 1871.) A two-column warichu closing the miscellaneous-tax note; the closing arc printed beneath it shuts the parenthesis opened four columns to the right, above 正租雑税."
+      },
+      {
+        "purpose": "identifying",
+        "value": "辛未調注記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:918,3406,119,252"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（正租雑税 一萬千九百三十二石六斗餘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（正租雑税 一万千九百三十二石六斗余"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Land tax and miscellaneous tax combined: 11,932.6-odd koku. The bracketed label stands in its own column with the figure in the column to its left; this is the 1871 return of the same total that the gōmai line reports for 1869."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租雑税"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1109,1069,250,1189"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "合米壹萬千九百三十二石六斗七合四勺八才（但シ己巳ノ調ヘナリ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "合米一万千九百三十二石六斗七合四勺八才（ただし、己巳の調べなり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total rice: 11,932.60748 koku. (Note: this is the Kishi survey, the return of 1869.) The figure equals land tax 10,547.866 plus miscellaneous tax 1,384.74148 exactly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "合米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1366,1173,118,2229"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "此米五十石四斗九升二合四勺四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "この米五十石四斗九升二合四勺四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "This in rice: 50.49244 koku — the rice equivalent of the cash portion of the miscellaneous tax, printed as a two-column warichu below the cash figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税金此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1484,2783,114,536"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金二百五十二兩永四百六十二文貳分五毛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金二百五十二両永四百六十二文二分五毛"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, cash portion: 252 ryō plus 462 mon 2 bu 5 mō in eiraku cash."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1501,1263,118,1508"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "雑税 米千三百三十四石二斗四升九合四才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "雑税 米千三百三十四石二斗四升九合四才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax, rice portion: 1,334.24904 koku. The label 雑税 heads this column; MASTER files this line under 正租, but both the layout and the arithmetic place it under 雑税."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雑税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1640,1008,119,1595"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正租 一萬五百四十七石八斗六升六合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正租 一万五百四十七石八斗六升六合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax: 10,547.866 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正租"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1773,1015,103,1425"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "改出新田六十七石四斗五升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "改出新田六十七石四斗五升四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Newly surveyed reclaimed paddy: 67.454 koku. The left column of the two-column warichu beneath kusadaka."
+      },
+      {
+        "purpose": "identifying",
+        "value": "込高改出新田"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1877,2103,54,955"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内込高七千七百四十壹石六斗四升九合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち、込高七千七百四十一石六斗四升九合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which komidaka (assessment carried in): 7,741.649 koku. The right column of the two-column warichu beneath kusadaka; this figure is absent from MASTER."
+      },
+      {
+        "purpose": "identifying",
+        "value": "内込高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1932,2103,64,1156"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高 三萬八百九石一斗三合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 三万八百九石一斗三合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal assessed yield (kusadaka): 30,809.103 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1912,1011,106,1084"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○眞島藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "〇真島藩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mashima Domain — the maru-marker that opens this domain's entry. Everything to its right belongs to the preceding domain, Matsuo; everything to its left is Mashima's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○眞島藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2040,1341,121,572"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "美作國眞島郡ノ内九十六ヶ村 大庭郡ノ内一ヶ村 合 二郡九十七ヶ村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "美作国真島郡のうち九十六ヶ村、大庭郡のうち一ヶ村、合わせて二郡九十七ヶ村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "In Mimasaka Province: 96 villages within Mashima District and 1 village within Ōba District — 97 villages in 2 districts in all. A two-column warichu below the domain name, with a further two-column block nested under 合."
+      },
+      {
+        "purpose": "identifying",
+        "value": "眞島藩領郡村注記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2003,1922,144,1312"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族 不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事家族 記さず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's family: not recorded. Label and value sit inside a single printed parenthesis."
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2191,1017,97,603"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社 七十七社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 七十七社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 77."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2324,1015,98,585"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "番非人 二百一人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "番非人 二百一人 うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Banhinin (watch-duty outcaste group): 201 persons, of which —"
+      },
+      {
+        "purpose": "identifying",
+        "value": "番非人（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2431,2054,94,653"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女九十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女九十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female banhinin: 90."
+      },
+      {
+        "purpose": "identifying",
+        "value": "番非人女（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2402,2712,61,269"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男百十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male banhinin: 111."
+      },
+      {
+        "purpose": "identifying",
+        "value": "番非人男（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2463,2712,58,342"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多 十二人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多 十二人 うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste status group): 12 persons, of which —"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2458,1187,88,572"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female eta: 7."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2430,1765,57,200"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male eta: 5."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2488,1765,54,200"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "修験 十人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "修験 十人 うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shugendō practitioners: 10 persons, of which —"
+      },
+      {
+        "purpose": "identifying",
+        "value": "修験（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2592,1188,92,488"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female shugendō practitioners: 5."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修験女（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2571,1682,57,198"
+      }
+    }
+  },
+  {
+    "id": "anno-mashima_upper_p213_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male shugendō practitioners: 5."
+      },
+      {
+        "purpose": "identifying",
+        "value": "修験男（松尾藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p213_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2628,1682,56,198"
+      }
+    }
+  }
+]

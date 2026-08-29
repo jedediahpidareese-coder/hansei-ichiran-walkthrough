@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-tsuruga_upper_p217_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五（松岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "はんせいいちらんひょう だいご（まつおか）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions, Fascicle 5 (Matsuoka) -- running header"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第五（松岡）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2247,1341,78,577"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社　壹戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社　一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine households: 1 household"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2116,1337,95,584"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院戸　七拾ヶ寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院戸　七十ヶ寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple households: 70 temples"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院戸"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2098,2258,94,755"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　七千五百八十四人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　七千五百八十四人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 7,584 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口 (TOTAL)"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1975,1162,100,995"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三千七百六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三千七百六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 3,769 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2011,2160,64,613"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三千八百拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三千八百十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 3,815 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1946,2160,64,613"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（内千五十二人　内　男四百九十七人　女五百三十七人　替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（うち千五十二人　うち　男四百九十七人　女五百三十七人　替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Of which 1,052 persons -- 497 male, 537 female -- being the portion on land received in exchange.) The compiler has set a dot beside the 五 and the 二 of the total: the male and female figures sum to 1,034, not 1,052."
+      },
+      {
+        "purpose": "identifying",
+        "value": "替地ノ分人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1792,1381,149,1445"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族人口　百四十九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族人口　百四十九人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 149 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1557,1323,101,908"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 68 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1597,2237,59,336"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 八十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 81 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1535,2237,61,336"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族人口　百六十八人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族人口　百六十八人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 168 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1423,1319,100,910"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男九十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 九十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 97 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1460,2235,58,330"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 七十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 71 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1401,2235,58,330"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（本書失算　内譯ニ依ル）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（本書失算　内訳による）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(The original book miscalculated; the figure given follows the itemised breakdown.) 97 male + 71 female = 168."
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1393,2567,120,384"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人々口　七人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人人口　七人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine personnel population: 7 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人々口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1293,1320,93,655"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 4 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人々口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1329,1982,57,199"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 3 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人々口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1270,1982,58,199"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院人口　八十九人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院人口　八十九人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple personnel population: 89 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1151,1319,97,825"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 六十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 65 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1190,2148,57,331"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 24 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1131,2148,58,331"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（外ニ九人僧　替地ノ分）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（ほかに九人 僧　替地の分）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Besides these, 9 monks, being the portion on land received in exchange.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院人口註記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1118,2481,124,597"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（社　壹社）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（社　一社）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "(Shrines: 1 shrine) -- a bracketed entry closing Tsuruga's block, supplying the shrine count that the domain's own return left out of sequence."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社數（補記）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1037,1063,89,435"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○松岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "まつおかはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Matsuoka Domain -- maru-marker opening Matsuoka's entry; everything to its left on this page is Matsuoka's, everything to its right is Tsuruga's"
+      },
+      {
+        "purpose": "identifying",
+        "value": "○松岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:882,1399,113,564"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　不分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高　不分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nominal assessed yield (kusadaka): not itemised -- the source gives no figure"
+      },
+      {
+        "purpose": "identifying",
+        "value": "草高（松岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:766,1061,88,418"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税　現米三千八百貳拾四石四斗壹升八合七勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税　現米 三千八百二十四石四斗一升八合七勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax, in actual rice (現米): 3,824.41875 koku"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税 現米（松岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:606,1146,117,1927"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永　六百六拾六貫六百貳拾三文五分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永　六百六十六貫六百二十三文五分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular tax, in cash (ei): 666 kan 623.5 mon = 666,623.5 mon"
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税 永（松岡藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:482,1394,104,1260"
+      }
+    }
+  },
+  {
+    "id": "anno-tsuruga_upper_p217_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四百八"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四百八"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page 408 (bottom margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付四百八"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p217_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2219,3181,70,165"
+      }
+    }
+  }
+]
