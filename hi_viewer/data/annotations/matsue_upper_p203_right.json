@@ -1,0 +1,932 @@
+[
+  {
+    "id": "anno-matsue_upper_p203_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第五　（松江）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第五　（松江）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han System Overview Table, Fascicle 5 (Matsue)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第五（松江）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2184,1312,78,573"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百八十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百八十（頁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page 380"
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁數三百八十"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2153,3153,70,217"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　九百五十一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族　九百五十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku (former samurai): 951 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2052,1223,94,749"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　千二百五十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒　千二百五十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu (lower-rank retainers): 1,256 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2031,2144,97,835"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社家　六百三十八戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社家　六百三十八戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine households (shake): 638 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1918,1223,95,746"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺院　七百三十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺院　七百三十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temples: 732 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺院戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1900,2141,94,752"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鉢屋穢多　九百六十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鉢屋・穢多　九百六十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hachiya-eta (outcaste group, locally called hachiya): 966 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉢屋穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1778,1218,120,756"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鉢屋非人　百五十二戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鉢屋・非人　百五十二戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hachiya-hinin (outcaste group, locally called hachiya): 152 households"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉢屋非人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1759,2145,120,670"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　二十九萬五千五百二十一人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　二十九万五千五百二十一人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total population: 295,521 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口總數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1643,1050,102,1322"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女十四萬二千三百四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　十四万二千三百四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 142,304 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1611,2374,63,644"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男十五萬二千九百二十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　十五万二千九百二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 152,925 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1676,2377,60,769"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "内非人二百九十二人男女未詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "うち　非人二百九十二人　男女未詳"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which 292 hinin, sex not distinguished (152,925 + 142,304 + 292 = 295,521)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "人口内非人男女未詳"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1601,3155,119,575"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族　九千九百二十四人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族　九千九百二十四人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shizoku population: 9,924 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1491,1219,103,985"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千八百六十二人内千六百八十一人召仕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　四千八百六十二人　うち千六百八十一人召仕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 4,862 persons, of whom 1,681 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1450,2209,72,1296"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千六十二人内二千十三人召仕"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五千六十二人　うち二千十三人召仕"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 5,062 persons, of whom 2,013 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "士族人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1524,2211,63,1016"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒族　九千六百九十三人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒族　九千六百九十三人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sotsu population: 9,693 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1354,1218,102,983"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四千三百四十九人内召仕五百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　四千三百四十九人　うち召仕五百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 4,349 persons, of whom 500 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1322,2207,64,1023"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千三百四十四人内召仕三十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五千三百四十四人　うち召仕三十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 5,344 persons, of whom 36 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "卒族人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1388,2209,60,1090"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人　三千四百十人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人　三千四百十人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine people: 3,410 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1232,1218,96,820"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女千七百人内召仕二百三十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　千七百人　うち召仕二百三十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 1,700 persons, of whom 230 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1197,2041,67,884"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千七百十人内召仕二百五十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　千七百十人　うち召仕二百五十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 1,710 persons, of whom 250 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1266,2044,55,951"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺人　千九百八十六人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺人　千九百八十六人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple people: 1,986 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1098,1216,95,909"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五百三十六人内召仕百一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　五百三十六人　うち召仕百一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 536 persons, of whom 101 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1060,2128,69,888"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千四百五十人内召仕二百四十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　千四百五十人　うち召仕二百四十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 1,450 persons, of whom 245 are servants"
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺人人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1131,2131,58,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鉢屋穢多　四千三百九十五人　内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鉢屋・穢多　四千三百九十五人　うち"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hachiya-eta population: 4,395 persons, of which:"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉢屋穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:955,1218,105,1162"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二千百二十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二千百二十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female: 2,125 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉢屋穢多人口内女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:930,2383,62,544"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二千二百七十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　二千二百七十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male: 2,270 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "鉢屋穢多人口内男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:994,2387,57,542"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人　二百九十二人　男女未詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人　二百九十二人　男女未詳"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin: 292 persons, sex not distinguished"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:827,1211,101,1175"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　千八百七十二所"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社　千八百七十二所"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 1,872 sites"
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:707,1042,96,840"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（運輸船　三艘　千四百六十石積　千四百石積　千石積）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（運輸船　三艘　千四百六十石積・千四百石積・千石積）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Transport vessels: 3 ships, of 1,460 koku, 1,400 koku and 1,000 koku carrying capacity"
+      },
+      {
+        "purpose": "identifying",
+        "value": "運輸船"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:553,1041,117,1761"
+      }
+    }
+  },
+  {
+    "id": "anno-matsue_upper_p203_right-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（知事家族不記）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（知事家族　記さず）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor's family: not recorded"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事家族不記"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p203_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:446,1044,91,518"
+      }
+    }
+  }
+]
