@@ -1,0 +1,842 @@
+[
+  {
+    "id": "anno-nagao_lower_p194_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九（長尾）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第九（長尾）／はんせいいちらんひょう だいきゅう（ながお）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han Administration Survey, Fascicle 9 (Nagao) — outer-margin running header naming the provenance fascicle and domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第九（長尾）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2146,1269,127,584"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百六十四"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百六十四／さんびゃくろくじゅうよん（364）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 364 in the bottom margin (not data)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百六十四"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2184,3115,58,269"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊／へいたい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: 'troops'. This column sits to the RIGHT of the ○長尾藩 marker, so per fascicle-8/9 overflow rules it belongs to the PREVIOUS domain, not Nagao."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2085,1076,75,324"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六百二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六百二十七人／ろっぴゃくにじゅうしちにん（627）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "627 troops. Overflow figure belonging to the domain that precedes ○長尾藩; MASTER's _mil_prep.json wrongly assigns this 627 to Nakamura/Nagao. Nagao's own troops are the 常備兵161 + 准備兵155 columns to the left of the marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "六百二十七人"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2077,1349,77,500"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○長尾藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○長尾藩／ながおはん"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain-opening maru-marker: Nagao Domain. Everything to the LEFT (officials, standing/reserve troops) is Nagao's; the 兵隊627 to the RIGHT belongs to the previous domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○長尾藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1931,1351,96,565"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事／だいさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Grand Councillor (Nagao). Heads the compact surname+rank roster column to its left/below."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1814,1019,77,237"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本多□大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "本多〔某〕大参事／ほんだ〔なにがし〕だいさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Honda [—], Grand Councillor (upper entry of the 大参事 column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "本多□大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1791,2022,84,590"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "増田□大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "増田〔某〕大参事／ますだ〔なにがし〕だいさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Masuda [—], Grand Councillor (lower entry of the 大参事 column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "増田□大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1775,2951,85,586"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事／しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Junior Councillor (Nagao), right/compact roster block."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1680,1019,76,237"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "重富□少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "重富〔某〕少参事／しげとみ〔なにがし〕しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Shigetomi [—], Junior Councillor (upper entry)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "重富□少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1662,2018,79,592"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "龜田□少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "亀田〔某〕少参事／かめだ〔なにがし〕しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Kameda [—], Junior Councillor (lower entry)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "龜田□少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1644,2942,79,592"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "石井□少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "石井〔某〕少参事／いしい〔なにがし〕しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Ishii [—], Junior Councillor (third column of the compact 少参事 roster, upper entry)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "石井□少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1504,2020,106,853"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "奥村□少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "奥村〔某〕少参事／おくむら〔なにがし〕しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Appointee: Okumura [—], Junior Councillor (lower entry of the third 少参事 column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "奥村□少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1504,2834,90,703"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（留守官届ニ）（福井岡藏アリ）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（留守官届に）（福井岡蔵あり）／（るすかんとどけに）（ふくいおかぞうあり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Editorial parenthetical beside the 少参事 roster: '(per the caretaker officials' report)' '(a Fukui Okazō is [also listed])'."
+      },
+      {
+        "purpose": "identifying",
+        "value": "（留守官届ニ）（福井岡藏アリ）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1386,2721,125,667"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "常備兵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "常備兵／じょうびへい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: standing troops (Nagao's own military; LEFT of the marker)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "常備兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1417,1008,74,251"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十一員／ひゃくろくじゅういちいん（161）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "161 standing troops (Nagao)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "常備兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1406,1432,81,421"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "准備兵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "准備兵（準備兵）／じゅんびへい"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: reserve troops (准 = variant of 準; Nagao's own military)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准備兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1286,1006,72,426"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百五十五員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百五十五員／ひゃくごじゅうごいん（155）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "155 reserve troops (Nagao). Nagao's total = 常備161 + 准備155 = 316, which differs from the 627 overflow, confirming 627 is the previous domain's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "准備兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1275,1389,78,464"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事（以下七行原朱書）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（以下七行原朱書）／だいさんじ（いか しちぎょう もと しゅがき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading 'Grand Councillor' for the detailed full-name roster, carrying the editorial note '(the following seven lines were originally written in vermillion)'."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事（以下七行原朱書）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1150,1003,128,446"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高瀬彦六郎／都筑亦九郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高瀬彦六郎／都筑亦九郎（たかせ ひころくろう／つづき またくろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named 大参事 appointees (detailed roster): Takase Hikorokurō; Tsuzuki Matakurō."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高瀬彦六郎／都筑亦九郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1124,1406,119,1452"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事／ごんだいさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Provisional Grand Councillor."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1016,1016,75,287"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "平野源之丞／龜田源五郎／増田貢"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "平野源之丞／亀田源五郎／増田貢（ひらの げんのじょう／かめだ げんごろう／ますだ みつぎ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named 権大参事 appointees: Hirano Gennojō; Kameda Gengorō; Masuda Mitsugu."
+      },
+      {
+        "purpose": "identifying",
+        "value": "平野源之丞／龜田源五郎／増田貢"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:982,1766,96,1683"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事／しょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Junior Councillor (detailed full-name roster)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:881,1014,78,238"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "仙葉彌平太／平野藏／奥田衞守"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "仙葉弥平太／平野蔵／奥田衛守（せんば やへいた／ひらの くら／おくだ えもり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named 少参事 appointees: Senba Yaheita; Hirano Kura; Okuda Emori."
+      },
+      {
+        "purpose": "identifying",
+        "value": "仙葉彌平太／平野藏／奥田衞守"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:847,1765,98,1684"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "都筑彌助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "都筑弥助（つづき やすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named appointee Tsuzuki Yasuke (single-name column adjacent to the 少参事/権少参事 block)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "都筑彌助"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:732,1765,79,501"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事／ごんしょうさんじ"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rank heading: Provisional Junior Councillor (leftmost rank block)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:611,1013,81,300"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "岩崎磐／遠藤舎人／恩田豹太"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "岩崎磐／遠藤舎人／恩田豹太（いわさき いわお／えんどう とねり／おんだ ひょうた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named 権少参事 appointees: Iwasaki Iwao; Endō Toneri; Onda Hyōta."
+      },
+      {
+        "purpose": "identifying",
+        "value": "岩崎磐／遠藤舎人／恩田豹太"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:573,1764,102,1683"
+      }
+    }
+  },
+  {
+    "id": "anno-nagao_lower_p194_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "遠藤甚藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "遠藤甚蔵（えんどう じんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Named 権少参事 appointee Endō Jinzō (leftmost name column)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "遠藤甚藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p194_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:462,1763,82,504"
+      }
+    }
+  }
+]

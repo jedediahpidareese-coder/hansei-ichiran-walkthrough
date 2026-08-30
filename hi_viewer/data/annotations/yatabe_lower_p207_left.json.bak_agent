@@ -1,0 +1,632 @@
+[
+  {
+    "id": "anno-yatabe_lower_p207_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊未詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊未詳（へいたいみしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: not detailed. (Prints to the RIGHT of the ○谷田部藩 marker, so this military notation belongs to the PREVIOUS domain — the one preceding Yatabe on the prior page — not to Yatabe.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊未詳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2574,1161,74,337"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○谷田部藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "谷田部藩（やたべはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yatabe Domain (domain-opening ○ marker). PRIMARY domain of this half-page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○谷田部藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2427,1334,94,608"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）一人（いちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor: 1 person. (Yatabe)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2310,1008,73,566"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）一人（いちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Senior Councillor: 1 person. (Yatabe)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2177,1008,74,573"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事 三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんのだいさんじ）三人（さんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Acting Senior Councillor: 3 persons. (Yatabe)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2042,1008,101,572"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事 四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）四人（よにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Junior Councillor: 4 persons. (Yatabe)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1774,1014,74,566"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "熊谷市之進"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "熊谷市之進（くまがい いちのしん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kumagai Ichinoshin — the governor (知事) of Yatabe."
+      },
+      {
+        "purpose": "identifying",
+        "value": "熊谷市之進"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2173,1957,74,649"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "公議人 熊谷貞蔵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "公議人（こうぎにん）熊谷貞蔵（くまがい ていぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kōginin (public-assembly delegate): Kumagai Teizō. (Yatabe official; 公議人 is a small right-side annotation.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "公議人 熊谷貞蔵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2038,1939,126,667"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大日向清熙"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大日向清熙（おおひなた きよひろ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ōhinata Kiyohiro — a councillor of Yatabe."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大日向清熙"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1903,2012,72,593"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三岡金左衞門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三岡金左衛門（みつおか きんざえもん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Mitsuoka Kinzaemon — a councillor of Yatabe."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三岡金左衞門"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1770,2021,72,585"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "井戸東四郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "井戸東四郎（いど とうしろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ido Tōshirō — a councillor of Yatabe."
+      },
+      {
+        "purpose": "identifying",
+        "value": "井戸東四郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1637,2011,70,593"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "中村勇三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "中村勇三（なかむら ゆうぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nakamura Yūzō — a councillor of Yatabe (lower name band, continuing the appointee list)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "中村勇三"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2037,2940,72,586"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "關口湛藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "関口湛蔵（せきぐち たんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Sekiguchi Tanzō — a councillor of Yatabe (lower name band)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "關口湛藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1768,2941,71,593"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "馬籠唯七郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "馬籠唯七郎（まごめ ただしちろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Magome Tadashichirō — a councillor of Yatabe (lower name band)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "馬籠唯七郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1635,2943,68,590"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵隊未詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵隊未詳（へいたいみしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: not detailed. (Yatabe's military. Prints to the RIGHT of the next marker ○谷地藩, so per the overflow rule it belongs to the previous domain, Yatabe.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵隊未詳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1513,1172,72,337"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○谷地藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "谷地藩（やちはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yachi Domain (domain-opening ○ marker). Neighbouring domain."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○谷地藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1364,1339,93,571"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "職員兵數不詳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "職員兵数不詳（しょくいんへいすうふしょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Officials and troop numbers: not detailed. (Yachi's entire entry — no officials or military data recorded.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "職員兵數不詳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1236,1092,78,507"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○松江藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "松江藩（まつえはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Matsue Domain (domain-opening ○ marker). Neighbouring domain; its data continues on the next page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○松江藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1090,1347,93,566"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事 一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）一人（いちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Governor: 1 person. (Matsue)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事（松江）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:966,1013,73,583"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第九 （谷田部、谷地、松江）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表第九（はんせいいちらんひょう だいきゅう）（谷田部・谷地・松江）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyō, Fascicle 9 (Yatabe, Yachi, Matsue) — page/section caption identifying the fascicle and the three domains covered."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第九 （谷田部、谷地、松江）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:846,1476,57,685"
+      }
+    }
+  },
+  {
+    "id": "anno-yatabe_lower_p207_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "三百九十一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "三百九十一（さんびゃくきゅうじゅういち）＝391"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book page number: 391 (bottom margin)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "三百九十一"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p207_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:844,3120,53,253"
+      }
+    }
+  }
+]

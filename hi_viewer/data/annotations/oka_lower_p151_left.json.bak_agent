@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anno-oka_lower_p151_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覧表第八（岡）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第八（岡）（はんせいいちらんひょう だいはち（おか））"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hansei Ichiran-hyō, Fascicle 8 (Oka) — running header in the outer margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覧表第八（岡）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:846,1185,80,530"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "二百七十九"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "二百七十九（にひゃくななじゅうきゅう）＝279"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed page number 279 (bottom margin)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "二百七十九"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:843,3042,86,269"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "〇岡藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○岡藩（おかはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Domain marker: Oka han (opens the Oka entry; a single-character domain name 岡, not 大垣)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "〇岡藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2158,1271,120,478"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）　一員（いちいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gon-shōsanji (junior councillor, provisional), 1 person — PREVIOUS domain (right of the 〇岡 marker)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2560,1180,115,600"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "桐山辰次郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "桐山辰次郎（きりやま たつじろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kiriyama Tatsujirō — the previous domain's gon-shōsanji appointee"
+      },
+      {
+        "purpose": "identifying",
+        "value": "桐山辰次郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2560,2863,115,589"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "歩兵　一大隊　六百人　但一小隊六百人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "歩兵（ほへい）　一大隊（いちだいたい）六百人（ろっぴゃくにん）　但し一小隊（ひとしょうたい）六百人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: one battalion, 600 men; note: one company 600 men — PREVIOUS domain (military overflows right of the 〇岡 marker). (Source prints 六百 for the company figure; MASTER's '60' is an OCR error.)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "歩兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2432,1178,105,1767"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲兵　一砲隊　百四十四人　但一分隊四十八人　外二役員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵（ほうへい）　一砲隊（いっぽうたい）百四十四人（ひゃくよんじゅうよにん）　但し一分隊（いちぶんたい）四十八人（よんじゅうはちにん）　外に二役員（ふたやくいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillery: one battery, 144 men; note: one section 48 men, plus 2 officers — PREVIOUS domain (overflows right of the 〇岡 marker)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2298,1179,110,2367"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "知事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "知事（ちじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Chiji (governor) — heading only; no appointee name printed on this page (Oka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "知事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2044,1185,92,165"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大参事　一員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大参事（だいさんじ）　一員（いちいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Daisanji (senior councillor), 1 person (Oka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1894,1188,105,670"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "田近新次郎"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "田近新次郎（たぢか しんじろう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tajika Shinjirō — Oka's daisanji appointee"
+      },
+      {
+        "purpose": "identifying",
+        "value": "田近新次郎"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1900,2867,80,592"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権大参事　四員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権大参事（ごんだいさんじ）　四員（よんいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gon-daisanji (senior councillor, provisional), 4 persons (Oka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権大参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1749,1185,112,675"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "中川眞澄"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "中川眞澄（なかがわ ますみ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Nakagawa Masumi — Oka gon-daisanji (1 of 4)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "中川眞澄"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1765,2869,78,588"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小原隼太"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小原隼太（おはら はやた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ohara Hayata — Oka gon-daisanji (2 of 4)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "小原隼太"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1631,2870,78,589"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸伏男吏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸伏男吏（とぶせ おのり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Tobuse Onori — Oka gon-daisanji (3 of 4)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸伏男吏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1507,2877,59,69"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "加藤條之助"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "加藤條之助（かとう じょうのすけ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Katō Jōnosuke — Oka gon-daisanji (4 of 4)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "加藤條之助"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1365,2871,78,584"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "少参事（しょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shōsanji (junior councillor) — heading; 2 appointees named below (Oka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "少参事"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1219,1190,102,245"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小河結城"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小河結城（おがわ ゆうき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ogawa Yūki — Oka shōsanji (1 of 2)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "小河結城"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1229,2869,78,585"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "吉田小膳"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "吉田小膳（よしだ こぜん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Yoshida Kozen — Oka shōsanji (2 of 2)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "吉田小膳"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1097,2868,78,591"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "権少参事"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "権少参事（ごんしょうさんじ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gon-shōsanji (junior councillor, provisional) — heading; 1 appointee named below (Oka)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "権少参事・2"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:949,1183,112,340"
+      }
+    }
+  },
+  {
+    "id": "anno-oka_lower_p151_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "衣笠文藏"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "衣笠文藏（きぬがさ ぶんぞう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kinugasa Bunzō — Oka gon-shōsanji appointee"
+      },
+      {
+        "purpose": "identifying",
+        "value": "衣笠文藏"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p151_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:965,2872,78,585"
+      }
+    }
+  }
+]

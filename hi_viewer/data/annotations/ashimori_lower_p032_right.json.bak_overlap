@@ -1,0 +1,722 @@
+[
+  {
+    "id": "anno-ashimori_lower_p032_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第六（足守）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第六冊（足守藩）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running margin header: Domain Survey (Hansei Ichiran), sixth fascicle, Ashimori (足守) section. Provenance, not data — it names the domain whose entry this page belongs to."
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第六（足守）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2123,1205,74,577"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "惣計"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "惣計（総計）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Grand total' heading. Introduces the domain's total tax revenue, given in cash in the two columns to its left (gold 金 and Eiraku cash 永)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣計"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1997,953,84,164"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "金七百壹兩三分壹朱"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "金（きん）七百壱両三分一朱"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand-total tax in gold currency: 701 ryō 3 bu 1 shu. The Eiraku-cash remainder (31 mon 6 bu) is the adjacent column at left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣計 金"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1862,1041,86,750"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "永三十壹文六分"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "永（えい）三十一文六分"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Grand-total tax in Eiraku cash (永): 31 mon 6 bu — the fractional remainder appended to the 701-ryō gold total at right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "惣計 永"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1730,1140,88,569"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "産物"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "産物（さんぶつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Products' heading for the Bitchū home territory. The commodities follow below: raw cotton, cotton cloth, lamp oil, cast-metal wares, charcoal and firewood."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物（本領）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1599,959,85,163"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "綿"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "綿（わた）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: raw cotton (wata). Listed as a product without a recorded quantity."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 綿"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1598,1207,84,84"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "木綿"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "木綿（もめん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: cotton cloth (momen). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 木綿"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1597,1381,85,160"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "燈油"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "灯油（とうゆ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: lamp oil (tōyu). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 燈油"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1596,1629,86,162"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "鍋釜其外鑄物"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "鍋・釜その外の鋳物（いもの）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: pots, kettles, and other cast-metal goods (imono). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 鍋釜其外鑄物"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1594,1880,89,502"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "炭薪"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "炭・薪（すみ・まき）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: charcoal and firewood. No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 炭薪"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1593,2468,87,167"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右之外雜品共稅左之通"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右のほか、雑品ともに税は左のとおり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: 'Besides the above, the combined tax on the miscellaneous items is as recorded at left' — introduces the two home-territory tax lines (rice and gold) that follow."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右之外雜品共稅左之通（本領）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1462,1212,89,838"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一米壹石六斗九升七合七勺五才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、米 一石六斗九升七合七勺五才"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-goods tax paid in rice: 1.69775 koku (1 koku 6 to 9 shō 7 gō 7 shaku 5 sai). The strictly descending koku sub-units confirm the reading."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜品稅 米（本領）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1328,1071,85,1147"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一金百七十三兩永八十四文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、金 百七十三両 永八十四文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous-goods tax paid in cash: 173 ryō plus 84 mon of Eiraku cash."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜品稅 金（本領）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1194,1074,89,980"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "岩代瀬上"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "岩代瀬上（いわしろ せのうえ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Place label 'Iwashiro Senoue' — a detached-territory (tobichi) holding of Ashimori in Iwashiro province (present-day Fukushima). The second products list and its tax below pertain to this exclave."
+      },
+      {
+        "purpose": "identifying",
+        "value": "岩代瀬上（飛地）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1067,967,84,330"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "産物"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "産物（さんぶつ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Products' heading for the Iwashiro-Senoue exclave. The commodities follow: oil-pressing, fishing, and water-wheels."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物岩代瀬上"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:929,968,89,164"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "油絞"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "油絞（あぶらしぼり）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: oil-pressing (extraction of vegetable oil). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 油絞"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:934,1222,85,161"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "魚獵"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "魚猟（ぎょりょう）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: fishing / fish catch (gyoryō). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 魚獵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:932,1470,86,166"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "水車"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "水車（すいしゃ）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Product: water-wheels (suisha). No quantity recorded."
+      },
+      {
+        "purpose": "identifying",
+        "value": "産物 水車"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:931,1726,87,162"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右之外雜品共稅數左之通"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右のほか、雑品ともに税数は左のとおり"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: 'Besides the above, the combined tax figures for the miscellaneous items are as at left' — introduces the Eiraku-cash tax line that follows for the exclave."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右之外雜品共稅數左之通（岩代瀬上）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:798,1240,90,906"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "一永六拾七貫四百七拾四文六步"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "一、永 六十七貫四百七十四文六歩"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Exclave miscellaneous-goods tax in Eiraku cash: 67 kan 474 mon 6 bu (= 67,474.6 mon)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜品稅 永（岩代瀬上）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:663,1078,94,1148"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "右稅數者前ノ稅數ノ中ニ入ル"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "右の税数は前の税数の中に入る"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note: 'The above tax figure is included within the preceding tax figure' — flags that the exclave's Eiraku-cash tax is already counted in the domain total, not additional."
+      },
+      {
+        "purpose": "identifying",
+        "value": "右稅數者前ノ稅數ノ中ニ入ル"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:527,1070,93,1089"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數四千三百二十四戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数（こすう）四千三百二十四戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Total households: 4,324 (matches the MASTER extraction). The double-column note below breaks the figure across the Bitchū and Iwashiro territories and by status group."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:395,973,87,840"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "備中士卒平民　岩代合寺院戸口"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "備中・岩代の、士・卒・平民および寺院を合わせた戸口"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Inline double-column note glossing the 4,324 households (read right sub-column then left): the count combines the Bitchū home territory and the Iwashiro (Senoue) exclave, spanning samurai (士), foot-soldiers (卒), commoners (平民) and temples (寺院) — i.e. the combined household/population figure (戸口)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "戸數内訳（割書）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:380,501,121,510"
+      }
+    }
+  },
+  {
+    "id": "anno-ashimori_lower_p032_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "四十"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "四十（40丁）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed leaf/page number in the lower outer margin: 40. Consistent with the fascicle-6 pagination (the Asao pages a few sheets later print 64-66; Ashimori sits earlier in the fascicle)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁數 四十"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p032_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2119,3044,70,125"
+      }
+    }
+  }
+]

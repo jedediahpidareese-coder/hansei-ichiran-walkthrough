@@ -1,0 +1,692 @@
+[
+  {
+    "id": "anno-shibata_lower_p083_left-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "非人戸數 十三軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "非人戸数（ひにんこすう） 十三軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcast) households: 13. This is the RIGHTMOST column on the page and so is read first; sitting to the right of the ○島原藩 marker, it belongs to the preceding domain, 新發田藩 (Shibata). The 十 is a plain cross, not 千."
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2611,1010,88,668"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 九十七人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん） 九十七人 内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the hinin households: 97 persons. The 内 ('of which') closing this centred run introduces the male/female breakdown printed in two half-width runs directly below. Arithmetic check: 51 male + 46 female = 97 ✓. At 7.5 people per household the ratio is high, but that is what the source prints."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 (非人)"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2474,1014,90,650"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 五十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ） 五十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male hinin: 51. The RIGHT-hand run of the 内 split — in this survey male always prints right, female left. Shares its top (y 1670) with the female run beside it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 (非人) 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2464,1670,56,340"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 四十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな） 四十六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female hinin: 46. The LEFT-hand run of the 内 split, read after the male run. 51 + 46 = 97, reconciling with the 人員 total above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 (非人) 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2464,1670,56,340"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "渡守 十七軒"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "渡守（わたしもり） 十七軒"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Ferrymen: 17 households. 渡守 are the licensed keepers of river crossings — a corvée-linked occupational category the survey counts apart from the general commoner population. Echigo's river crossings made this a live category for Shibata."
+      },
+      {
+        "purpose": "identifying",
+        "value": "渡守"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2340,1014,87,504"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人員 百四十九人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人員（じんいん） 百四十九人 内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the ferryman households: 149 persons. Arithmetic check: 80 male + 69 female = 149 ✓. The label/value pairing is fixed by the layout — this 人員 sits immediately left of the 渡守 十七軒 column it belongs to."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 渡守"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2204,1019,90,738"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ） 八十人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male ferry population: 80. The RIGHT-hand run of the 内 split. The first glyph is 八 — its two strokes splay and stay separate at the top, distinguishing it from 人 (strokes touch at the apex)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 渡守 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2251,1763,54,267"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 六十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな） 六十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female ferry population: 69. The LEFT-hand run of the 内 split. 六 carries its top lid (not 八), and 九 not 七. 80 + 69 = 149, reconciling with the 人員 total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "人員 渡守 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2193,1763,58,339"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "華族 十人 内"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "華族（かぞく） 十人 内（うち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Kazoku (peerage) household: 10 persons — the domain lord's immediate family, the Mizoguchi house, ennobled under the 1869 hanseki hōkan settlement. Arithmetic check: 4 male + 6 female = 10 ✓. A single house, so no 戸數 line precedes it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2067,1021,87,488"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男 四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ） 四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male kazoku: 4. The RIGHT-hand run of the 内 split, sharing its top (y 1513) with the female run."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族 男"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2114,1513,51,198"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女 六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな） 六人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female kazoku: 6. The LEFT-hand run of the 内 split. 4 + 6 = 10, reconciling with the 華族 total above."
+      },
+      {
+        "purpose": "identifying",
+        "value": "華族 女"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2058,1513,56,199"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵員"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵員（へいいん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "'Troops' — a section heading carrying no value of its own. It opens the military block that follows to its left (步兵, 砲兵, 大砲, 小銃), all still 新發田藩's since all of it stands right of the ○島原藩 marker."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1933,1024,87,168"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "步兵 三大隊 一小隊六十人 八小隊ヲ以テ一大隊トナス"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "歩兵（ほへい） 三大隊　一小隊六十人、八小隊をもって一大隊となす"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Infantry: 3 battalions. The warichu (double-column note) beneath defines the establishment — read the RIGHT sub-run first ('one platoon is 60 men'), then the LEFT ('eight platoons make one battalion'). The strength therefore computes as 3 × 8 × 60 = 1,440 foot soldiers. The note matters: the headline figure is 3 battalions, and only the gloss converts it into men."
+      },
+      {
+        "purpose": "identifying",
+        "value": "步兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1785,1196,121,1315"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "砲兵 二百人 但各砲大小有之 人員不一"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "砲兵（ほうへい） 二百人　但し各砲大小これ有り、人員一ならず"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Artillerymen: 200. The warichu qualifies the figure — RIGHT sub-run: 'however, the guns vary in calibre'; LEFT sub-run: 'so the crew size is not uniform.' The 200 is thus a total headcount, not a per-gun establishment that could be multiplied against the 24 cannon."
+      },
+      {
+        "purpose": "identifying",
+        "value": "砲兵"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1651,1197,125,982"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大砲 二十四門"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大砲（たいほう） 二十四門"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Cannon: 24 pieces (門 is the counter for artillery). The 十 here is a plain cross; it sits at the same height as the 千 of 二千挺 in the neighbouring 小銃 column, letting the two be compared directly."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大砲"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1528,1202,91,585"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "小銃 二千挺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "小銃（しょうじゅう） 二千挺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small arms: 2,000 (挺 is the counter for firearms). The 千 carries the diagonal stroke on top that separates it from 十 — confirmed side by side against the 十 of 大砲 二十四門 at the same height, which forecloses the ×100 misread."
+      },
+      {
+        "purpose": "identifying",
+        "value": "小銃"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1392,1205,88,502"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○島原藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "島原藩（しまばらはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The maru-marker opening Shimabara domain's entry — the only marker on this page. Everything to its RIGHT is read earlier and closes the preceding domain, 新發田藩; everything to its LEFT is Shimabara's. Shimabara is the Matsudaira (Fukōzu) domain on the Hizen peninsula, best known as the seat of the 1637-38 Shimabara Rebellion."
+      },
+      {
+        "purpose": "identifying",
+        "value": "○島原藩"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1245,1376,107,559"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "肥前高來郡 豐後宇佐郡 豐後國東郡"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "肥前高来郡（ひぜんたかくぐん）・豊後宇佐郡（ぶんごうさぐん）・豊後国東郡（ぶんごくにさきぐん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "The districts holding Shimabara's lands, printed as a warichu under the marker: Takaku district in Hizen (the Shimabara peninsula itself), plus Usa and Kunisaki districts across the strait in Bungo. Read the RIGHT sub-run first (肥前高來郡), then the LEFT (豐後宇佐郡), then the second right-hand run (豐後國東郡). The scattered Bungo holdings are a reminder that a domain's kokudaka often aggregated non-contiguous parcels."
+      },
+      {
+        "purpose": "identifying",
+        "value": "島原藩領郡名"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1240,1942,126,748"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高 七萬四千八百七十貳石三斗壹升壹合壹勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高（たか） 七万四千八百七十二石三斗一升一合一勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed kokudaka: 74,872.3111 koku. Place value pivots on 萬 and reads right to left: 7×10,000 + 4×1,000 + 8×100 + 7×10 + 2. The sub-koku units run strictly descending — 石 > 斗 (.1) > 升 (.01) > 合 (.001) > 勺 (.0001) — and terminate at 勺. Note the formal numerals (貳, 壹) used for the fiscal figure, against the plain 二 of the military counts on the same page."
+      },
+      {
+        "purpose": "identifying",
+        "value": "高（島原藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1122,1042,87,1604"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "本高井新田畑改出高共"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "本高並びに新田・畑改出高共（ほんだかならびにしんでん・はたかいでだかとも）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Warichu note qualifying the 高 above: 'base high together with the new-paddy and dry-field reclamation increases.' Read the RIGHT sub-run first (本高井新田), then the LEFT (畑改出高共). The 井 is the standard Edo/Meiji abbreviation for 幷/並 ('and, together with') — verified at 10x as a true 井 (continuous verticals through both crossbars, no detached 丷). The note matters analytically: the 74,872 koku is a combined working figure, not the bare formal rating."
+      },
+      {
+        "purpose": "identifying",
+        "value": "(原朱) 本高井新田畑改出高共（島原藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1112,2733,118,340"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税 現米三萬六千九百四十五石七斗四升壹合六勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税（せいぜい） 現米三万六千九百四十五石七斗四升一合六勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax, stated in 現米 ('actual rice', the rice actually delivered rather than a nominal assessment): 36,945.7416 koku — about 49 percent of the 74,872.3111 koku high in the column to the right. Sub-units descend 石 > 七斗 (.7) > 四升 (.04) > 壹合 (.001) > 六勺 (.0006), terminating at 勺. NOTE: MASTER labels this row 正租; the page prints 正税 (禾 + 兌, with the 丷 top and the outward-hooking 儿 leg), not 租 (禾 + 且). Verified at 9x against reference renderings of both glyphs — trusting the scan."
+      },
+      {
+        "purpose": "identifying",
+        "value": "正税（島原藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:986,1051,91,1929"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第七（島原）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第七（島原）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header (柱) in the outer margin: 'Table of Domain Institutions, Fascicle 7 — (Shimabara)'. 覽 is the kyūjitai of 覧. This is PROVENANCE, not data: it names Shimabara because Shimabara's entry begins on this page, even though ten of the fourteen data columns belong to 新發田藩. 第七 is a fascicle number, not a data theme."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page header（藩制一覧表）（島原藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:874,1306,68,574"
+      }
+    }
+  },
+  {
+    "id": "anno-shibata_lower_p083_left-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百四十三"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百四十三（143）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the outer margin below the running header: 143. Page furniture, not domain data — the bottom-margin kanji numeral is a folio number and must never be read as a value."
+      },
+      {
+        "purpose": "identifying",
+        "value": "page number（百四十三）（島原藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p083_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:877,3144,68,215"
+      }
+    }
+  }
+]
