@@ -1,0 +1,812 @@
+[
+  {
+    "id": "anno-niiya_upper_p046_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（新谷）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第一（新谷）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Running header: Table of Domain Institutions, Fascicle 1 (Niiya). It names the domain whose marker opens on this half-leaf, not the 西大路藩 block that fills the right side."
+      },
+      {
+        "purpose": "identifying",
+        "value": "頁頭藩制一覽表第一（新谷）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2126,1372,74,574"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "六十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "六十六（66）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number in the bottom margin: 66."
+      },
+      {
+        "purpose": "identifying",
+        "value": "版心頁數六十六"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2109,3217,66,156"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　七百六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 七百六十八人（768人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the retainer households: 768 persons. Upper p045 left closes 西大路藩's entry with 内 士卒族 二百二十五戸（士族八十五戸、卒族百二十五戸）, and this column gives the population of those households — 379 male and 389 female, made up of 352 shizoku and 416 sotsu. The domain's whole population, 9,166, is printed on that earlier half-leaf, so the 768 here counts retainers only."
+      },
+      {
+        "purpose": "identifying",
+        "value": "西大路人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1989,1115,90,747"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百七十九人（内士族男百六十八人、女百八十四人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 三百七十九人（うち士族 男百六十八人、女百八十四人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male 379. The parenthetical prints the shizoku share of these 768 retainers: 168 men and 184 women. Checks: shizoku 168 + sotsu 211 = 379 male; 168 + 184 = 352 shizoku in all."
+      },
+      {
+        "purpose": "identifying",
+        "value": "西大路人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2027,1871,62,1527"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女三百八十九人（卒男二百十一人、女二百五人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 三百八十九人（卒 男二百十一人、女二百五人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female 389. The parenthetical prints the sotsu (lower retainer) share of the 768: 211 men and 205 women. Checks: shizoku 184 + sotsu 205 = 389 female; 352 shizoku + 416 sotsu = 768."
+      },
+      {
+        "purpose": "identifying",
+        "value": "西大路人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1958,1871,68,1527"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數　四十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数 四十戸（40戸）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) households: 40."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多戸數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1856,1114,87,667"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　百七十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 百七十一人（171人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) population: 171 persons. The male and female counts printed below sum to 172, so the printed source is inconsistent by one; both figures were checked at single-character magnification."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1846,1871,84,666"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男八十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男 八十三人（83人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) males: 83."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口男（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1886,2544,58,338"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 八十九人（89人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcaste (eta) females: 89. With 83 males this gives 172 against the printed total of 171."
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多人口女（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1825,2544,60,338"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　五十六社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社 五十六社（56社）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 56."
+      },
+      {
+        "purpose": "identifying",
+        "value": "神社數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1725,1112,86,581"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人戸數十戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人戸数 十戸（10戸）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households of shrine personnel: 10."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人戸數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1759,1702,57,406"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口男二十二人、女十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口 男二十二人、女十九人（男22人・女19人、計41人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-personnel population: 22 men and 19 women, 41 persons in all, living in the 10 households recorded alongside."
+      },
+      {
+        "purpose": "identifying",
+        "value": "社人人口男女（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1693,1702,65,818"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　五十寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺 五十寺（50寺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 50."
+      },
+      {
+        "purpose": "identifying",
+        "value": "寺數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1599,1114,80,496"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "僧八十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "僧 八十六人（86人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Monks: 86."
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧人數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1634,1618,58,338"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女 二十七人（27人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Women of religion (nuns) attached to the temples: 27."
+      },
+      {
+        "purpose": "identifying",
+        "value": "尼女人數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1573,1618,60,338"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村　二十九村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村 二十九村（29村）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages: 29."
+      },
+      {
+        "purpose": "identifying",
+        "value": "村數（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1463,1108,89,590"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "兵員　二小隊"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "兵員 二小隊（2小隊）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Troops: two platoons (shōtai)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1333,1111,86,497"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "但役員共八十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "但し 役員共 八十人（役員を含めて80人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Note printed as a two-line warichu under the troop figure: 80 men, officers included."
+      },
+      {
+        "purpose": "identifying",
+        "value": "兵員但書（西大路藩分）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1311,1616,121,271"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○新谷藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○新谷藩（にいやはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Niiya domain (Iyo province). Columns to its right close the preceding 西大路藩 entry; columns to its left are Niiya's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新谷藩標識"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1177,1447,108,563"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　九千六百九十二石六斗七升五合七勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高 九千六百九十二石六斗七升五合七勺八才（9,692.67578石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Gross assessed yield (kusadaka): 9,692.67578 koku. The project's MASTER row reads 九千六百九十二石六斗七升五勺八才 (9,692.67058); the scan prints 五合七勺 where MASTER has only 五勺, so the scan reading is used here."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新谷草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1049,1106,102,1767"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "高　一萬石"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "高 一万石（10,000石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Rated kokudaka: 10,000 koku — the nominal figure by which Niiya ranked as a domain, against a surveyed yield of 9,692.67578 koku."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新谷高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:938,1189,80,419"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "正税米　三千八百二十四石二斗二合八勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "正税米 三千八百二十四石二斗二合八勺（3,824.2028石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Regular land tax paid in rice: 3,824.2028 koku, about 39 percent of the 9,692.67578-koku surveyed yield."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新谷正税米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:788,1191,103,1515"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "諸雜税"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "諸雑税"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Heading: sundry taxes. It carries no figure of its own; the soybean entry to its left is the item printed under it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税標目"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:548,1185,84,248"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五ケ年平均"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五ヶ年平均"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Small-type note occupying a column of its own between the 正税米 entry and the 諸雜税 heading: the tax figures are a five-year average. On the preceding half-leaf (upper p045 left) the same note prints inside the 正租 column for 西大路藩, so it qualifies a tax return rather than any single commodity; which of the two neighbouring entries it attaches to cannot be settled from the printing alone."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税五ケ年平均註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:671,1508,69,354"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "明治二己巳ノ調"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "明治二年己巳の調（1869年の調査による）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Second note in the sundry-tax column, printed below the heading: taken from the survey of Meiji 2, the kishi (earth-snake) year, that is 1869."
+      },
+      {
+        "purpose": "identifying",
+        "value": "諸雜税明治二己巳ノ調註"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:553,1857,70,476"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "大豆　千貳百九十五石四斗一合八勺八才"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "大豆 千二百九十五石四斗一合八勺八才（1,295.40188石）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Soybeans, listed under the 諸雜税 heading: 1,295.40188 koku. The 升 place is skipped, so it is zero. The conversion note below confirms the figure: 1,295.40188 x 0.8 = 1,036.3215."
+      },
+      {
+        "purpose": "identifying",
+        "value": "新谷大豆"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:393,1269,101,1503"
+      }
+    }
+  },
+  {
+    "id": "anno-niiya_upper_p046_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "米ニ直シ千三十六石三斗二升一合五勺　但シ八分掛"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "米に直し 千三十六石三斗二升一合五勺（1,036.3215石）、但し八分掛（8割換算）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Two-line warichu note: converted to rice, 1,036.3215 koku, reckoned at eight-tenths. The arithmetic is exact — 1,295.40188 x 0.8 = 1,036.321504, printed to the 勺 place with the 才 place zero and omitted."
+      },
+      {
+        "purpose": "identifying",
+        "value": "大豆米換算但書"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p046_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:365,2781,129,815"
+      }
+    }
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "id": "anno-hakata_upper_p041_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第一（林田）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表　第一（林田）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Table of Domain Institutions, Fascicle One — (Hayashida). Running head in the outer margin; provenance for the leaf. It names Hayashida because Hayashida's block opens here, not because the page's data is Hayashida's."
+      },
+      {
+        "purpose": "identifying",
+        "value": "柱題藩制一覽表第一林田"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2165,1353,77,575"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "五十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "五十六"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "56 — the printed book-page number in the bottom margin. It fits the neighbouring leaves already recorded: p042_right = 五十八 (58) and p043_right = 六十 (60)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "丁付五十六"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2132,3189,69,163"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-02",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同　金　四十三兩壹分三朱永五十三文壹分八厘"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（雑税）　金　四十三両一分三朱　永五十三文一分八厘"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Miscellaneous tax (同 = ditto, continuing the 雜税米 line that ends the facing earlier leaf, upper_p040_left), paid in gold: 43 ryō 1 bu 3 shu, together with 53.18 mon in ei-denominated cash. At 4 bu to the ryō and 4 shu to the bu the gold alone is 43.4375 ryō; adding the ei-cash gives 43.49068 ryō, which is exactly what the 此米 conversion in the next column uses."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太雜税金"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2012,1180,115,1754"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-03",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（此米五石四斗三升六合三勺）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（此の米　五石四斗三升六合三勺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "\"This in rice\": the gold tax above converted to rice, 5.4363 koku. The conversion closes exactly at the eight-ryō-per-koku rate that Hachinohe's entry prints explicitly two half-leaves earlier (upper_p040_right) — 43.4375 ryō of gold plus 53.18 mon of ei-cash makes 43.49068 ryō, and 43.49068 divided by 8 is 5.4363."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太雜税金此米"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1891,1496,100,1040"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-04",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（合現石六千七十三石二斗九升一合七勺）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（合現石　六千七十三石二斗九升一合七勺）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Combined current rice: 6,073.2917 koku — the domain's tax receipts in rice and rice-equivalents added together. It closes exactly against the two tax lines on the facing earlier leaf (upper_p040_left): regular tax rice 5,995.3023 koku plus miscellaneous tax rice 72.5531 koku plus the 5.4363 koku rice equivalent of the gold in the two columns to the right = 6,073.2917. Sub-units run strictly descending: 二斗 (0.2), 九升 (0.09), 一合 (0.001), 七勺 (0.0007)."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太合現石"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1757,1158,110,1460"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-05",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "戸數　二千百九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "戸数　二千百九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Households: 2,109."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1643,1092,92,663"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-06",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　壹萬四百三十九人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　一万四百三十九人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population: 10,439. The small structural 内 (\"of which\") prints just right of this box and is left unboxed. The male and female runs below sum to 10,145, which is 294 short of this total — exactly the 穢多人口 recorded two columns to the left, so the printed total appears to include the outcast population that the male/female split omits."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1503,1090,95,913"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-07",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五千六十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　五千六十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Male population: 5,068. Right-hand run of the two-column split under 内."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1536,2011,60,474"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-08",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女五千七十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　五千七十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Female population: 5,077. Left-hand run of the two-column split under 内. 5,068 + 5,077 = 10,145."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1473,2012,63,473"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-09",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多戸數　七拾一戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多戸数　七十一戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast (eta) households: 71."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太穢多戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1367,1087,94,748"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-10",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "穢多人口　二百九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "穢多人口　二百九十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast (eta) population: 294. The male and female runs below sum exactly to this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太穢多人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1345,1923,98,919"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-11",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男百四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast males: 147. Right-hand run of the split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太穢多人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1379,2850,57,404"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-12",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女百四十七人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　百四十七人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Outcast females: 147. Left-hand run of the split; 147 + 147 = 294, matching the printed total."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太穢多人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1318,2853,61,400"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-13",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士卒族戸數　百四十九戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士卒族戸数　百四十九戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Samurai-and-sotsu households: 149. The two-run note below divides them 86 and 63, which sums exactly to this figure."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太士卒族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1230,1088,97,915"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-14",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "士族八十六戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "士族　八十六戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku (full samurai) households: 86. Right-hand run of the two-column note."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太内訳士族戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1261,2010,65,406"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒六十三戸"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒　六十三戸"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu (lower retainer) households: 63. Left-hand run of the note; 86 + 63 = 149."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太内訳卒戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1204,2010,57,404"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口　六百拾五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　六百十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Population of the samurai-and-sotsu households: 615. Neither breakdown below closes on it: the male and female runs give 315 + 298 = 613, and the bracketed status note gives 367 shizoku plus 207 sotsu = 574. Both gaps are printed as they stand in the source; I re-read every component at single-character magnification."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太士卒族人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1109,1083,86,663"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-17",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男三百十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男　三百十五人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Males among the samurai-and-sotsu households: 315. Right-hand run of the split."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太士卒族人口男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1142,1756,57,399"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二百九十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女　二百九十八人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Females among the samurai-and-sotsu households: 298. Left-hand run of the split; 315 + 298 = 613, two short of the printed 615."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太士卒族人口女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1078,1756,64,465"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-19",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（士族　男百七十三人、女百九十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（士族　男　百七十三人、女　百九十四人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which shizoku: 173 men and 194 women, 367 in all. Right-hand run of the bracketed status note; the opening bracket prints as a wide arc across the top of both runs."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太内訳士族人口男女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1128,2221,64,999"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-20",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "卒　男百四人、女百三人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "卒　男　百四人、女　百三人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which sotsu: 104 men and 103 women, 207 in all. Left-hand run of the bracketed status note, closing with the arc-shaped bracket at its foot. Shizoku 367 plus sotsu 207 gives 574, forty-one short of the printed 615."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太内訳卒人口男女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1060,2221,68,1002"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-21",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "神社　八十二社"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "神社　八十二社"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shinto shrines: 82."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太神社"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:977,1080,92,577"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-22",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "社人人口二十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "社人人口　二十二人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant population: 22. Right-hand run of the two-column note under the shrine count; the 14 men and 8 women recorded in the left-hand run sum exactly to it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太社人人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1013,1669,62,538"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-23",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "（社人戸數八戸、男十四人、女八人）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "（社人戸数　八戸、男　十四人、女　八人）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine-attendant households: 8, with 14 men and 8 women. Left-hand run of the note. 14 + 8 = 22, matching the shrine-attendant population in the run to its right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太社人戸數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:934,1657,79,915"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "寺　七十六寺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "寺　七十六寺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist temples: 76."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太寺"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:852,1078,85,579"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "人口百三十一人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "人口　百三十一人"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Temple population (resident clergy and their households): 131. No male/female split is printed for this group."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太寺人口"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:830,1754,93,579"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "村數　七十五村"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "村数　七十五村"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Villages: 75. This is the last column of Hakata's block; the ○林田藩 marker follows immediately to its left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "伯太村數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:717,1075,93,584"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "○林田藩"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "○林田藩（はやしだはん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Maru-marker opening the entry for Hayashida domain (林田藩), a 10,000-koku holding of the Takebe (建部) house in Harima province. Everything to the right of this circle was read earlier and belongs to Hakata (伯太藩); everything to its left belongs to Hayashida."
+      },
+      {
+        "purpose": "identifying",
+        "value": "林田藩丸印"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:563,1413,109,558"
+      }
+    }
+  },
+  {
+    "id": "anno-hakata_upper_p041_right-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "草高　壹萬四千八百八十九石六斗七升一合九勺"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "草高　一万四千八百八十九石六斗七升一合九勺"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Assessed yield (kusadaka) of Hayashida domain: 14,889.6719 koku. Sub-units descend in order — 六斗 (0.6), 七升 (0.07), 一合 (0.001), 九勺 (0.0009). This is the only Hayashida figure on the leaf and it matches MASTER's single row for this page character for character; Hayashida's remaining fascicle-1 columns continue on upper_p041_left and upper_p042_right."
+      },
+      {
+        "purpose": "identifying",
+        "value": "林田草高"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p041_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:418,1072,119,1768"
+      }
+    }
+  }
+]

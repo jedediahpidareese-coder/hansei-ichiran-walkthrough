@@ -47,37 +47,121 @@ A page is DONE when its `(volume,pdf_page,page_side)` is present in `pages.json`
 running out mid-batch leaves the workflow's finished pages cached; re-launch to finish the batch, or just run
 the next `--batch` (pages.json already has the applied ones).
 
-## ▶ ✅ EXPANSION COMPLETE — STATE AS OF 2026-08-29 (read this first)
+## ⏸ PAUSED MID-BATCH 2026-08-30 — the fascicle-1 gap batch (READ THIS FIRST)
+
+Jed approved annotating all 21 un-imaged fascicle-1 half-leaves (see "the residual is 21 fascicle-1
+half-leaves" below). The batch was launched and then **stopped for a machine restart**, not because
+anything went wrong.
+
+**Nothing is lost — the completed agent output is banked on disk**, independent of whether the
+session survives:
+`_expansion/_BANKED_fasc1gap_2026-08-30.json` (628 KB) holds **all 21 proposals** and **12 verifies**.
+- `complete[]` — 12 pages with BOTH halves, ready to apply:
+  lower p031L, p202L, p215R, p219R, p228L, p236R, p237L, p241R, p242L; upper p032R, p040L, **p044L**.
+- `proposal_only[]` — 9 pages still needing their adversarial-verify half:
+  upper p027R, p041R, p045L, p045R, p046R, p047R, p048L, p049L, p100R.
+
+**To resume:**
+1. Same session still alive → `Workflow({scriptPath: "outputs/scripts/_batch_fasc1gap.js",
+   resumeFromRunId: "wf_c57b521a-757"})`. The 33 finished agents replay from cache; only the 9
+   missing verifies run live.
+2. Session gone → re-run `Workflow({scriptPath: "outputs/scripts/_batch_fasc1gap.js"})`. It re-runs
+   all 21 from scratch, so prefer applying the 12 banked pages FIRST — the generator's
+   `located_in_viewer()` guard then skips them and only the remaining 9 are annotated.
+
+Batch inputs (both committed, both reusable):
+- seed `outputs/scripts/new_pages_fasc1_gap.json` (21 pages, built from MASTER)
+- script `outputs/scripts/_batch_fasc1gap.js` (generated; LF-only, 21 pages verified in-script)
+
+**Jed's ruling on what to do with the values these agents return** (asked and answered 2026-08-30):
+a value that lands in an EMPTY dataset cell goes straight in — there is nothing to disagree with;
+only a reading that CONFLICTS with a value MASTER already holds gets collected for adjudication,
+like the existing 301 candidates. Expect very few conflicts: MASTER holds one row per page and the
+pages print about fifteen values each.
+
+After the batch: the normal chain — apply → QA sweep → integrate → crops → VER bump → robocopy →
+push → force Pages build → verify live. Live now is VER `20260711hi90`, 834 pages / 281 domains;
+these 21 pages should take it to 855 / 283 (庭瀬藩 and 西大路藩 are the two new domains).
+
+## ▶ ✅ EXPANSION COMPLETE — STATE AS OF 2026-08-30 (read this first)
 - **The 647-page worklist is at ZERO: 647/647 done.** `hi_expand_gen_newpages_wf.py --batch=1`
   reports `remaining=0`. There are no more batches to run.
-- **834 pages / 283 domains — DEPLOYED and live-verified at VER `20260711hi89`**
-  (deploy commit `289af704`). Volume split vol1:401 / vol2:433.
+- **834 pages / 281 domains — DEPLOYED and live-verified at VER `20260711hi90`**
+  (deploy commit `f77b87de`). Volume split vol1:401 / vol2:433. The count fell 283→281 because two
+  viewer domains were the same han under a second name; see "Coverage reconciled" below.
 - **Final verification, all passing:** 834 pages == 834 annotations == 834 crops-manifest entries;
-  sequences contiguous 1-834; no empty `volume`; no missing images; QA CLEAN first pass
-  (structural 0/0/0/0, numeric 0/5,532, fascicle 0, book_page 0); ZERO orthographic duplicate
-  domains; zero positional parentheticals.
+  sequences contiguous 1-834; no empty `volume`; no missing images; QA CLEAN (structural 0/0/0/0,
+  numeric 0/5,532, fascicle 0, book_page 0); ZERO orthographic duplicate domains; zero positional
+  parentheticals.
+- **`analytic_wide.csv` is BACK IN SYNC with MASTER — 286 rows, rebuilt 2026-08-29** (commit
+  `803a047`). `build_analytic_wide.py` is SAFE TO RUN again; see "The build dropped every
+  hand-adjudicated correction" below.
 - **MASTER candidates: 301** (213 substantive + 88 precision_only). COLLECT-ONLY except the 5 applied 2026-08-05 and the 15 applied
   2026-08-16 — see `MASTER_ADJUDICATION_2026-08-05.md` and `CORRECTIONS_LOG.md`.
 
-### ⚠️ WHAT IS *NOT* DONE — two items, neither solvable by more batches
-1. **The "300 domains" in the goal line was an ESTIMATE, not a count — do not measure against it.**
-   The 2026-07-11 approval was of the substance (every data-bearing HI page); 803/300 were the
-   planning session's round figures, and the 647-page worklist was the real scope. It delivered 834
-   pages / 283 domains. The grounded residual comes from diffing the viewer's domains against
-   `analytic_wide.csv`'s 286 rows (2026-08-29, aliases and kanji variants folded):
-   - **6 dataset domains have NO viewer page**: 大山領, 平戸新田藩, 庭瀬藩, 牟原藩, 芝山藩, 西大路藩.
-     Check whether HI carries data-bearing pages for them that `worklist_full.json` missed, or their
-     data sits on neighbours' pages already annotated under another primary domain.
-   - **3 viewer domains are not dataset rows**: 大網藩 (pending the 龍崎 merge, item 2), 刈屋藩, and
-     松川藩 — 松川 may be another rename pair, since 守山藩 took that name in 1871. Verify before merging.
-   - The apparent 21/18 mismatch beyond these is one domain under two names: aliases 久保田=秋田,
-     加賀=金澤, 尾張=名古屋, 庄内=大泉, 対馬府中=嚴原, 小倉=香春, 伊予松山=松山, 伊予吉田=吉田, and
-     kanji-variant pairs the folding map must include: 与/與, 峰/峯, 発/發, 桜/櫻, 狭/狹, 条/條.
-2. **`build_analytic_wide.py` is still UNSAFE TO RUN** — three regressions, written up in
-   CORRECTIONS_LOG 2026-08-16 (later). So `analytic_wide.csv` is OUT OF SYNC with MASTER's
-   batch-AA corrections and the 2026-08-09 unit canonicalisation. The blocking piece is that
-   fixing the 大網藩 resurrection needs a MASTER domain-key edit (re-key its 8 rows to 龍崎藩 the way
-   本庄→本荘 was done), which is Jed's call.
+### Coverage reconciled — the viewer and the dataset now agree (2026-08-30)
+The "300 domains" in the old goal line was a PLANNING ESTIMATE, never a count; do not measure
+against it. The grounded measure is the viewer's domains diffed against `analytic_wide.csv`'s 286
+rows, aliases and kanji variants folded:
+- **Viewer domains with NO dataset row: 0.** The three former orphans are resolved:
+  - **大網藩 → 龍崎藩.** Same han; MASTER re-keyed, crossref and locator folded, viewer page
+    `oami_lower_p147_left` re-keyed.
+  - **松川藩 → 守山藩.** Source-confirmed, not inferred: MASTER's marker row at `upper_p215_right`
+    transcribes **○守山藩 (松川ト改)** — the compilers recorded the rename on the marker itself.
+    Viewer page `matsukawa_lower_p213_right` re-keyed.
+  - **刈屋藩 = 刈谷藩**, a 屋/谷 variant pair. ADD IT TO THE FOLDING MAP.
+  In all three the page keeps `domain_hi_name` exactly as HI prints it.
+- **6 dataset domains have no viewer page of their own**: 大山領, 平戸新田藩, 庭瀬藩, 牟原藩,
+  芝山藩, 西大路藩. Checked one by one — every one of them DOES appear in the viewer, on a page
+  annotated under a neighbouring primary domain, so no HI data is missing from the site.
+- **The residual is 21 fascicle-1 half-leaves that were never imaged — and they hold UNEXTRACTED
+  DATA. This is a data gap, not a display gap.** Measured 2026-08-30.
+  MASTER references 831 half-leaves; 23 of them had no `.jpg` in `images/` (2 of the 23 carry only a
+  metadata row — `目次・頁番號` and `異動註記` — leaving **21 data-bearing pages**). All 21 have now
+  been rendered from the source PDFs with `hi_expand_extract_pdf_pages.py`, so the images exist;
+  none of the 21 is in `pages.json` yet.
+  **They are absent from `worklist_full.json` because MASTER holds exactly ONE row for each** — and
+  the worklist was built from MASTER's own page references, so a page MASTER barely transcribed
+  looks like a page with nothing on it.
+  Reading `upper_p044_left` (庭瀬藩) shows how wrong that is. MASTER has its 草高 alone; the page
+  prints, in fascicle-1 order: 草高 貳萬五百七十三石七斗八升二合六勺五才 (20,573.78265 — the one row
+  MASTER has), 高 二萬石, 正租米, 雜税金, 合米, 戸數 四千七百二十三, 人口 二萬三百八十一
+  (男 10,596 / 女 9,785), 士族戸數 162, 卒族戸數 168, 士族人口 502, 卒族人口 416, 穢多戸數 163 /
+  人口 861, 非人戸數 19 / 人口 81, 神社 58社 — about fifteen values, of which MASTER carries one.
+  `analytic_wide` confirms the loss: 庭瀬藩's `hi_kosuu` and `hi_jinkou` are EMPTY while the page
+  prints 4,723 and 20,381; its `hi_sotsu_jinin` is empty while the page prints 416.
+  **The 21 pages, and the domain whose entry each one carries:**
+  `lower` p031L 足守 · p202L 黒石 · p215R 福山 · p219R 挙母 · p228L 佐伯 · p236R 峯山 · p237L 静岡 ·
+  p241R 下妻 · p242L 弘前 — `upper` p027R 出石 · p032R 飯田 · p040L 伯太 · p041R 林田 ·
+  **p044L 庭瀬** · **p045L 西大路** · p045R 新見 · p046R 新谷 · p047R 西端 · p048L 本荘 ·
+  p049L 堀江 · p100R 上ノ山.
+  **庭瀬藩 and 西大路藩 are the only two domains with NO other viewer page**, so annotating just
+  those two closes the domain-coverage gap (281 → 283); the other 19 belong to domains already in
+  the viewer and would add a source page plus the missing fascicle-1 values.
+  ⚠️ New values found this way are a MASTER ADDITION, so the collect-only rule applies: present
+  them for adjudication, do not bulk-apply.
+- One domain under two names accounts for the rest of the apparent gap: aliases 久保田=秋田,
+  加賀=金澤, 尾張=名古屋, 庄内=大泉, 対馬府中=嚴原, 小倉=香春, 伊予松山=松山, 伊予吉田=吉田, and
+  kanji-variant pairs the folding map must include: 与/與, 峰/峯, 発/發, 桜/櫻, 狭/狹, 条/條, 屋/谷.
+
+### ⚠️ The build dropped every hand-adjudicated correction (root cause, FIXED 2026-08-29)
+`build_analytic_wide.py`'s loader filtered MASTER on `confidence in {"high","medium"}`. The
+adjudication passes stamp corrected cells `verified_scan_<date>` — a value in NEITHER set — so all
+20 such rows were silently discarded and the corrections never reached `analytic_wide.csv`. This is
+what made the file look "out of sync" and what produced the 2026-08-16 regressions.
+Fixed with two helpers next to `CONFIDENCE_RANK`: `conf_admitted()` (admits a `verified_scan`
+PREFIX, because the value carries the pass's date) and `conf_rank()` (ranks it 4, above `high`).
+**Any future confidence value must be added to both, or its rows vanish without a warning.**
+Backup: `build_analytic_wide.py.bak_pre_confidence_fix_2026_08_29`.
+A 2026-08-16 note blamed the PRESERVE_FROM_EXISTING overlay for this; that diagnosis was WRONG —
+the affected column is fill-only and its whitelist already held the exact label.
+
+### The 大網/龍崎 merge needed THREE files, not one
+The Aug 5 merge was applied to `analytic_wide.csv` alone, so the next rebuild resurrected the row
+(286→287). A domain fold has to touch every file the build enumerates domains from:
+`MASTER_hansei_ichiran.csv` (re-key the rows), `domain_name_crossref.csv`, and
+`han_page_locator.csv` (whose `extraction_status='extracted'` feeds `extracted_canons`).
+Backups all stamped `.bak_pre_ryugasaki_*_2026_08_29`.
 
 ### Name distinctions that must NOT be collapsed
 - **鶴舞藩 (Tsurumai, Kazusa) vs 舞鶴藩 (Maizuru, Tango)** — HI prints the Kazusa name TRANSPOSED as
@@ -121,26 +205,9 @@ sweep before a deploy. Useful trick when re-measuring an M/F pair: derive the pa
 from its OTHER M/F pairs (渡守/華族 here) and check the rule reproduces a known-good box to the
 pixel before trusting it on the broken one.
 
-### NEXT ACTIONS (in order)
-0. **Batch AG DEPLOYED (818 @ hi88, commit `3b993942`, live-verified). 16 pages remain — ONE FINAL BATCH.**
-   Next: launch **batch AH** (`--batch=16` takes the remainder), one workflow only.
-
-   **⚠️ WHEN THE WORKLIST HITS ZERO, THE JOB IS STILL NOT FINISHED.** Two open items, both scoped
-   and neither solvable by more batches:
-   - **The 300-domain goal is out of reach from this worklist.** 281 now; the last 16 pages add
-     almost nothing. The remaining ~17 domains are NOT in `worklist_full.json`, so closing that gap
-     needs a fresh scoping pass over HI for domains the worklist never covered.
-   - **`build_analytic_wide.py` is still unsafe to run** (three regressions, CORRECTIONS_LOG
-     2026-08-16), so `analytic_wide.csv` is out of sync with MASTER's batch-AA corrections and the
-     2026-08-09 unit canonicalisation. Fixing it needs a MASTER domain-key edit for the 龍崎/大網
-     merge, which is Jed's call.
-
-   **The orthographic sweep has now caught a real duplicate in THREE CONSECUTIVE batches** — Asao
-   (淺/浅) in AD, Yajima (嶋/島) in AF, Marugame (亀/龜) in AG. **MASTER decides the canonical, and
-   its choice is NOT consistent by script style**: Yajima consolidated to the KYUJITAI 矢嶋藩,
-   Marugame to the SHINJITAI 丸亀藩. A prefer-the-modern-form heuristic would have got Yajima wrong.
-   `domain_hi_name` always keeps the form HI prints. A DROP in the domain count is often the correct
-   outcome.
+### Durable lessons from the batch runs
+(The batch worklist is closed — the current state is the block above. Everything below
+is what the 34 batches taught, kept because it still governs any future annotation work.)
 
    **The post-integrate ORTHOGRAPHIC SWEEP has now caught two real duplicate domains in three
    batches** — Asao (淺/浅) in AD and Yajima (嶋/島) in AF — so it is not a one-off cleanup, it belongs
