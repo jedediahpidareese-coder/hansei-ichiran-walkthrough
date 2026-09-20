@@ -1,0 +1,302 @@
+[
+ {
+  "id": "anno-lower_p248_left-00",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "昭和四年一月二十日印刷"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "昭和四年（一九二九年）一月二十日印刷（いんさつ）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Printed on 20 January of Shōwa 4, that is 1929. This is the rightmost column of the colophon."
+   },
+   {
+    "purpose": "identifying",
+    "value": "印刷年月日"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2274,1644,82,752"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-01",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "昭和四年一月廿五日發行"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "昭和四年（一九二九年）一月二十五日発行（はっこう）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Published on 25 January of Shōwa 4, that is 1929, five days after printing. The day is written 廿, the old single character for twenty."
+   },
+   {
+    "purpose": "identifying",
+    "value": "發行年月日"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2167,1641,84,749"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-02",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "不許覆製"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "覆製（ふくせい）を許さず"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Reproduction not permitted. The four characters sit inside a dashed square, 2 by 2: the right column reads 不許 and the left column 覆製."
+   },
+   {
+    "purpose": "identifying",
+    "value": "不許覆製"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1483,1781,384,398"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-03",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "藩制一覽表下卷"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "藩制一覧表（はんせいいちらんひょう）下巻（げかん）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "The book's title, in a ruled panel: Hansei ichiran-hyō, lower volume — the second of the two volumes."
+   },
+   {
+    "purpose": "identifying",
+    "value": "書名"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2264,2679,87,551"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-04",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "非賣品"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "非売品（ひばいひん）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Not for sale. This ruled panel stands where a price would otherwise be printed."
+   },
+   {
+    "purpose": "identifying",
+    "value": "非賣品"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2163,2795,101,370"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-05",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "東京府豐多摩郡杉並町大字高圓寺四百十八番地　編輯者　大塚武松"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "東京府豊多摩郡杉並町大字高円寺四百十八番地　編輯者（へんしゅうしゃ）　大塚武松（おおつかたけまつ）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Editor: Ōtsuka Takematsu, of 418 Ōaza Kōenji, Suginami-chō, Toyotama-gun, Tokyo Prefecture. The address is set in small type in two columns to the right of the label, and the name hangs below the label in the same column."
+   },
+   {
+    "purpose": "identifying",
+    "value": "編輯者"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1848,2381,206,958"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-06",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "東京市四谷區新堀江町三番地　日本史籍協會代表者　發行者　早川純三郎"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "東京市四谷区新堀江町三番地　日本史籍協会代表者　発行者（はっこうしゃ）　早川純三郎（はやかわじゅんざぶろう）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Publisher of record: Hayakawa Junzaburō, representative of the Nihon Shiseki Kyōkai, of 3 Shinborie-chō, Yotsuya ward, Tokyo City."
+   },
+   {
+    "purpose": "identifying",
+    "value": "發行者"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1631,2382,200,963"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-07",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "東京市京橋區新湊町五丁目一番地　印刷者　高橋赤次郎"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "東京市京橋区新湊町五丁目一番地　印刷者（いんさつしゃ）　高橋赤次郎（たかはしあかじろう）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Printer: Takahashi Akajirō, of 5-chōme 1, Shinminato-chō, Kyōbashi ward, Tokyo City."
+   },
+   {
+    "purpose": "identifying",
+    "value": "印刷者"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1469,2382,145,959"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-08",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "東京市四谷區新堀江町三番地　發行所　日本史籍協會"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "東京市四谷区新堀江町三番地　発行所（はっこうしょ）　日本史籍協会（にほんしせききょうかい）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Publishing office: the Nihon Shiseki Kyōkai, the Japan Historical Records Association, at 3 Shinborie-chō, Yotsuya ward, Tokyo City — the same street address the publisher of record gives."
+   },
+   {
+    "purpose": "identifying",
+    "value": "發行所"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1281,2382,166,963"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p248_left-09",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "電話四谷三二八七番　振替東京三九四五番"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "電話　四谷三二八七番　振替　東京三九四五番"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "The association's telephone number, Yotsuya 3287, and its postal transfer account, Tokyo 3945. Two small-type columns at the left edge of the colophon frame."
+   },
+   {
+    "purpose": "identifying",
+    "value": "電話・振替"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p248_left.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:1161,2872,119,477"
+   }
+  }
+ }
+]

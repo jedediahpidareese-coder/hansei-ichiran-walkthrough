@@ -1,0 +1,62 @@
+[
+ {
+  "id": "anno-lower_p012_right-00",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "目次"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "目次（もくじ）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Heading: Mokuji — 'Table of contents'. The running head, printed in the fore-edge margin, as on the two preceding contents leaves. Not a domain entry."
+   },
+   {
+    "purpose": "identifying",
+    "value": "目次"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p012_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2239,1309,72,324"
+   }
+  }
+ },
+ {
+  "id": "anno-lower_p012_right-01",
+  "type": "Annotation",
+  "body": [
+   {
+    "purpose": "transcribing",
+    "value": "十六"
+   },
+   {
+    "purpose": "modern_jp_reading",
+    "value": "十六（じゅうろく）＝十六頁（16頁）"
+   },
+   {
+    "purpose": "english_translation",
+    "value": "Printed page number of this contents leaf: 16. Page furniture in the fore-edge margin, not a domain entry."
+   },
+   {
+    "purpose": "identifying",
+    "value": "十六（頁番号）"
+   }
+  ],
+  "target": {
+   "source": "images/lower_p012_right.jpg",
+   "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=pixel:2207,3129,78,115"
+   }
+  }
+ }
+]
