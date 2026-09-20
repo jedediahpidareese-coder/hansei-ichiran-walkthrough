@@ -1,0 +1,62 @@
+[
+  {
+    "id": "anno-kasama_upper_p096_right-00",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "藩制一覽表第二（笠間）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "藩制一覧表 第二（笠間）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Han-sei ichiran-hyō (Survey of Domain Systems), Fascicle 2 (Kasama) — running header in the outer margin; provenance, not data"
+      },
+      {
+        "purpose": "identifying",
+        "value": "藩制一覽表第二（笠間）"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2087,1300,72,581"
+      }
+    }
+  },
+  {
+    "id": "anno-kasama_upper_p096_right-01",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "百六十六"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "百六十六（166）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Printed book-page number 166, in the bottom outer margin"
+      },
+      {
+        "purpose": "identifying",
+        "value": "印刷頁番號百六十六"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p096_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2077,3144,69,214"
+      }
+    }
+  }
+]

@@ -47,38 +47,40 @@ A page is DONE when its `(volume,pdf_page,page_side)` is present in `pages.json`
 running out mid-batch leaves the workflow's finished pages cached; re-launch to finish the batch, or just run
 the next `--batch` (pages.json already has the applied ones).
 
-## ▶ ✅ EXPANSION COMPLETE — STATE AS OF 2026-08-30 (read this first)
-- **855 pages / 283 domains — DEPLOYED and live-verified at VER `20260711hi91`**
-  (deploy commit `e51dbdce`). The 647-page worklist is at zero AND the 21 fascicle-1 pages it
-  could never see are now in too.
-- **The fascicle-1 gap is CLOSED.** 21 half-leaves were invisible to `worklist_full.json` because
-  MASTER held exactly one row for each — the worklist was built from MASTER's own page references,
-  so a page MASTER had barely transcribed looked like a page with nothing on it. Reading them
-  recovered **284 values MASTER never carried** and filled **90 empty `analytic_wide` cells**.
-  庭瀬藩 and 西大路藩 entered the viewer for the first time (281 → 283).
-- **Every viewer domain has a dataset row, and every MASTER domain key resolves.**
-  `build_analytic_wide.py` reports `Unresolved master-CSV domain names: []`.
-- **Verification:** 855 pages == 855 annotations == 855 crops; sequences contiguous; QA CLEAN
-  first pass (structural 0/0/0/0, numeric 0/5532, fascicle 0, book_page 0); orthographic duplicate
-  groups 0; positional parentheticals 0; persons-per-household 4.03–5.55 across every domain the
-  batch touched.
-- **Held back for adjudication, NOT applied:** `outputs/hansei_ichiran_reocr/_ADJUDICATE_2026-08-30_fasc1gap.md`
-  — 4 value conflicts, 2 cross-page disagreements, 3 `hi_infantry_persons` moves.
+## ▶ ✅ TRANSCRIPTION COMPLETE — STATE AS OF 2026-09-10 (read this first)
+- **881 pages / 283 domains — DEPLOYED and live-verified at VER `20260711hi92`** (deploy commit
+  `b9ad19c4`). MASTER 8,277 rows.
+- **EVERY DATA PAGE IN BOTH VOLUMES IS NOW TRANSCRIBED.** Verified by rendering every page outside
+  the transcribed span at both ends of both PDFs: upper p8–p11 and lower p5–p11 are the 目次,
+  upper p228 is the colophon, and upper p230/p233 and lower p249/p250/p252 are blanks and covers.
+  Nothing else in either volume holds domain data.
+- `build_analytic_wide.py` reports `Unresolved master-CSV domain names: []`.
 
-### ⚠️ Three import traps this batch exposed — re-read before any future bulk MASTER import
-1. **Agents emit `parsed` with comma thousands ("3,071"); MASTER stores bare numbers** and the
-   build truncates at the comma, so 3,071 silently becomes 3. Strip commas and assert none survive.
-2. **Never dedup on (domain, field) without the page.** 西大路人口 appears on two pages with two
-   different values (9,106 and 768); a page-blind key discarded the real population. Keep both and
-   report the disagreement.
-3. **A page's `合計人口` / bare `人口` is sometimes the SHIZOKU+SOTSU sub-total, not the domain
-   total** — and `合計人口` outranks `人口` in the `hi_jinkou` whitelist, so it captures the column.
-   新見藩 read 0.39 persons/household and 西大路藩 0.34 before this was caught. **Test every
-   candidate against 士族+卒族, and sanity-check persons-per-household (expect ~4–6).**
-   Relabel to `士卒族*`; never change the value.
+### ⚠️ THE BUG THAT HID 47 PAGES — do not rebuild a worklist this way again
+`worklist_full.json` was generated from **MASTER's own page references**. So any page MASTER had
+never transcribed was invisible to it: not skipped, never on the list. It never checked itself
+against the PDFs' page count. Two batches were needed to undo this:
+- 2026-08-30, 21 half-leaves where MASTER held exactly ONE row and the page printed ~15 values;
+- 2026-09-10, 26 half-leaves of which **25 had zero MASTER rows**.
+**Any future worklist must be built from the PDF page count and then subtracted from, never built
+up from what MASTER happens to contain.**
 
-Also: **the build's fill-only overlay reads the EXISTING `analytic_wide.csv`**, so one bad rebuild
-contaminates the next even after MASTER is rolled back. Restore a known-clean copy before rebuilding.
+### What the last 26 pages turned out to be
+Eight are 嚴原藩 (Tsushima) fascicle-1 leaves recording the running cost of the **Wakan**, its walled
+trading and diplomatic compound at Pusan — 61 values MASTER had never held (annual 77.26988 koku of
+rice, 5,935 kan 143 mon cash, with an internally reconciling breakdown). The rest are fascicle-9
+officials and military rosters plus 郡山藩's fascicle-6 temple stipends.
+194 values written to MASTER; **only 6 `analytic_wide` cells filled**, because trade accounts and
+office rosters have no columns in the wide table. 1 conflict held back (安志藩 兵隊: MASTER 50
+persons against the page's 1, a platoon-versus-persons scope difference).
+
+### ⚠️ A domain fold has to touch the MASTER ROWS too, not just the viewer pages
+Three pages came in under the printed form (嶋原藩, 淺尾藩, 靜岡藩). Folding only `pages.json` left
+10 MASTER rows under keys the build could not resolve, and it dropped them silently — the rebuild
+reported them as unresolved. MASTER's canonicals decided it: 島原藩 46 rows vs 0, 浅尾藩 23 vs 0,
+静岡藩 46 vs 0. `domain_hi_name` keeps the printed form.
+Also: integrate's longest-wins promoted a verbose `Kōriyama (Yamato-Kōriyama)` across six pages;
+`domain_en` was reset from MASTER (郡山藩 = Koriyama, 32 rows) and integrate re-run to 0 changes.
 
 ### Coverage reconciled — the viewer and the dataset now agree (2026-08-30)
 The "300 domains" in the old goal line was a PLANNING ESTIMATE, never a count; do not measure
