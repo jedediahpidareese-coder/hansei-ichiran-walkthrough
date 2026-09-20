@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260920hi93';
+const VER = '20260920hi94';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -72,6 +72,10 @@ function pageType(p) {
   const tn = p.table_number || 0;
   const off = /official|officer|職員|councill|governor|chiji|shokuin|参事|san.?ji|roster|appointee|shosanji|personnel|administrative/.test(t);
   const mil = /militar|兵隊|\btroop|\barmy|battalion|platoon|artiller|warship|\bnavy\b|heitai|銃|砲|\bcorps\b|soldier|standing army/.test(t);
+  /* table_number 0 = the leaves that belong to no fascicle: each volume's table of contents and
+     the colophon closing volume 2. Without this branch they fall through to the 'Civil register'
+     default at the end of this function, which a contents leaf plainly is not. */
+  if (tn === 0) return /colophon|imprint|奥付/.test(t) ? 'Colophon' : 'Front matter';
   if (tn >= 8) {
     if (mil && !off) return 'Military';
     if (off && !mil) return 'Officials';
@@ -110,7 +114,7 @@ function renderPageMeta(page) {
       <span class="summary-domain">${escapeHtml(page.domain_canonical)} <span class="summary-domain-en">(${escapeHtml(page.domain_en)})</span></span>
       ${page.book_page ? `<span class="summary-bookpage">book p. ${escapeHtml(page.book_page)}</span>` : ''}
     </div>
-    <div class="summary-topic">Table ${escapeHtml(String(page.table_number))} — ${escapeHtml(page.page_topic)}</div>
+    <div class="summary-topic">${Number(page.table_number) ? `Table ${escapeHtml(String(page.table_number))} — ` : ''}${escapeHtml(page.page_topic)}</div>
     <span class="summary-kanji">${escapeHtml(page.page_header_kanji)}</span>
     <span class="summary-en-head">${escapeHtml(page.page_header_en)}</span>
     <p>${escapeHtml(page.page_summary_en)}</p>
