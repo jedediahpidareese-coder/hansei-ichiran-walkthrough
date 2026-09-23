@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Running page-header: Domain Survey Table, fascicle 2 (Kanazawa). Printed book/fascicle header in the right margin identifying the page's provenance, not domain data; the (金澤) section name confirms the whole page is Kanazawa's own entry."
+        "value": "Running page-header: Domain Survey Table, fascicle 2 (Kanazawa). It names the domain whose ○ marker stands on this page; every column to the right of that marker continues the previous entry, Wakayama (和歌山藩)."
       },
       {
         "purpose": "identifying",
@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Domain-boundary marker ○金澤藩 ('Kanazawa domain') at the far left of the page; the ○ opens Kanazawa's fascicle-2 register and all data columns on this page belong to Kanazawa (Kaga, the Maeda house)."
+        "value": "Domain-boundary marker ○金澤藩 ('Kanazawa domain') at the far left of the page. Every data column on this page stands to its right, so it continues the previous entry, Wakayama (和歌山藩), which opened on the preceding leaf. Kanazawa's own figures begin on the next leaf."
       },
       {
         "purpose": "identifying",
@@ -103,7 +103,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Population of the directly-governed land = 26,064 (男 13,077 + 女 12,987 = 26,064, checks)."
+        "value": "Population (人口) = 26,064 (男 13,077 + 女 12,987 = 26,064). It follows Wakayama's 外 穢多戸數, 5,326 households, the last column of the preceding leaf."
       },
       {
         "purpose": "identifying",
@@ -155,15 +155,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "寺院 二千三百三十寺 僧 一千八百九十九人 尼 百九十二人"
+        "value": "寺院 二千三百三十寺 僧 二千八百九十九人 尼 百九十二人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "寺院（じいん）二千三百三十寺 — 僧 1,899人・尼 192人"
+        "value": "寺院（じいん）二千三百三十寺 — 僧 2,899人・尼 192人"
       },
       {
         "purpose": "english_translation",
-        "value": "Buddhist temples = 2,330 (二千三百三十寺), staffed by 1,899 monks (僧) and 192 nuns (尼)."
+        "value": "Buddhist temples = 2,330 (二千三百三十寺), with 2,899 monks (僧) and 192 nuns (尼)."
       },
       {
         "purpose": "identifying",
@@ -185,15 +185,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士卒族戸數 一萬六千七百八十戸"
+        "value": "士卒族戸數 一萬六百七十八戸"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士卒族戸数（しそつぞく こすう）一万六千七百八十戸"
+        "value": "士卒族戸数（しそつぞく こすう）一万六百七十八戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Samurai/soldier-clan household count = 16,780 households (一萬六千七百八十戸)."
+        "value": "Samurai/soldier-clan household count = 10,678 households (一萬六百七十八戸)."
       },
       {
         "purpose": "identifying",
@@ -223,7 +223,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Population of the samurai-soldier-clan households = 37,793 (男 19,008 + 女 18,785 = 37,793, checks). The master dataset's 77,853 is wrong: the source first glyph is plainly 三 (37,793), confirmed by the M/F split."
+        "value": "Population of the samurai-soldier-clan households = 37,793 (男 19,008 + 女 18,785 = 37,793)."
       },
       {
         "purpose": "identifying",
@@ -305,19 +305,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "戎兵 十二大隊 五千七十六人"
+        "value": "戍兵 十二大隊 五千七十六人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "戎兵（じゅうへい＝歩兵）十二大隊 五千七十六人"
+        "value": "戍兵（じゅへい）十二大隊 五千七十六人"
       },
       {
         "purpose": "english_translation",
-        "value": "Infantry (戎兵) — 12 battalions, 5,076 men total. (Per-battalion composition given in the adjacent note column.)"
+        "value": "Garrison troops (戍兵) — 12 battalions, 5,076 men. (Per-battalion composition given in the adjacent note column.)"
       },
       {
         "purpose": "identifying",
-        "value": "戎兵"
+        "value": "戍兵"
       }
     ],
     "target": {
@@ -343,11 +343,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Small-print breakdown of the infantry: each battalion = 423 men (但一大隊四百二十三人), comprising 93 commanders/officers (隊長士官) and 330 rank-and-file (兵). Check: 423 x 12 = 5,076; 93 + 330 = 423."
+        "value": "Small-print breakdown of the garrison troops: each battalion = 423 men (但一大隊四百二十三人), comprising 93 commanders and officers (隊長士官) and 330 rank-and-file (兵). Check: 423 x 12 = 5,076; 93 + 330 = 423."
       },
       {
         "purpose": "identifying",
-        "value": "Kanazawa 戎兵 breakdown notes"
+        "value": "戍兵 breakdown notes"
       }
     ],
     "target": {
@@ -463,7 +463,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Baggage/transport corps (輜重隊) = 89 men. The master dataset's 889 is wrong: the source plainly prints 八十九人 (89, no 百)."
+        "value": "Baggage/transport corps (輜重隊) = 89 men (八十九人)."
       },
       {
         "purpose": "identifying",

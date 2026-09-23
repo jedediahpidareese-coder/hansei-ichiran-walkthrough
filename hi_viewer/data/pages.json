@@ -799,10 +799,10 @@
       "page_side": "R",
       "book_page": "",
       "page_header_kanji": "藩制一覧表第二（金澤）",
-      "page_header_en": "Domain Survey (藩制一覧表), Fascicle 2 — Kanazawa (金澤藩): population, temples, and standing army",
+      "page_header_en": "Domain Survey (藩制一覧表), Fascicle 2 — the close of Wakayama's (和歌山藩) entry, then the ○金澤藩 marker",
       "table_number": 2,
-      "page_topic": "Kanazawa (Kaga) population, religious institutions, retainer-class register, and standing army",
-      "page_summary_en": "This facing half of Kanazawa's (金澤藩) fascicle-2 entry opens at the ○金澤藩 domain-boundary marker at the far left; the whole leaf is Kanazawa's own data. Reading right to left it records the directly-governed population (人口, 26,064), 3,247 Shinto shrines (神社) and 2,330 Buddhist temples (寺院), and the samurai-and-soldier households (士卒族戸數, 16,780) with their population of 37,793 (19,008 male, 18,785 female). The left third lays out Kanazawa's standing army: 12 infantry battalions totalling 5,076 men (戎兵), one cavalry squadron (騎兵, 165), an artillery regiment (砲兵, 270), an engineer corps (工兵隊, 572), and a baggage and transport corps (輜重隊, 89)."
+      "page_topic": "Wakayama (和歌山藩): population, religious institutions, retainer-class register and standing army, ending at the ○金澤藩 marker",
+      "page_summary_en": "The running head names Kanazawa (金澤) because the ○金澤藩 marker stands at the far left of this leaf, but every column on it lies to the right of that marker, so it continues the previous entry, Wakayama (和歌山藩), which opened on the preceding leaf. Reading right to left it records a population of 26,064 following Wakayama's 外 穢多戸數 (5,326 households), 3,247 Shinto shrines (神社) and 2,330 Buddhist temples (寺院), and the samurai-and-soldier households (士卒族戸數, 10,678) with their population of 37,793 (19,008 male, 18,785 female). The left third lays out Wakayama's standing army: 12 garrison battalions totalling 5,076 men (戍兵), one cavalry squadron (騎兵, 165), an artillery regiment (砲兵, 270), an engineer corps (工兵隊, 572), and a baggage and transport corps (輜重隊, 89). Kanazawa's own entry begins on the next leaf."
     },
     {
       "id": "kanazawa_kokudaka",
@@ -1295,7 +1295,7 @@
       "page_header_en": "Domain Survey (藩制一覧表), Fascicle 8 — Okayama (岡山藩): officials and military",
       "table_number": 8,
       "page_topic": "Okayama-han officials roster (fascicle 8): governor and senior councillor appointees, with the preceding domain's junior-councillors and military tally overflowing to the right of the marker.",
-      "page_summary_en": "This leaf opens the officials-and-military entry for Okayama domain (岡山藩) in Fascicle 8, headed by the ○岡山藩 boundary marker. Reading right-to-left, Okayama's own roster lists the governor (知事), the senior councillors (大参事) Tokura and Ikeda, and the associate senior councillors (権大参事), continued on the facing leaf. The military figures to the right of the ○岡山藩 marker — 121 samurai riflemen (銃士), 110 lower-rank riflemen (銃卒), 20 artillery soldiers (砲士), and 2 cannon (大砲) — belong to the previous domain sharing this leaf, Toyotsu (豐津藩), not Okayama. The printed page number in the bottom margin is 273."
+      "page_summary_en": "This leaf opens the officials-and-military entry for Okayama domain (岡山藩) in Fascicle 8, headed by the ○岡山藩 boundary marker. Reading right-to-left, Okayama's own roster lists the governor (知事), the senior councillors (大参事) Tokura and Ikeda, and the associate senior councillors (権大参事), continued on the facing leaf. The military figures to the right of the ○岡山藩 marker — 121 samurai riflemen (銃士), 110 lower-rank riflemen (銃卒), 20 artillery soldiers (砲士), and 2 cannon (大砲) — belong to the previous domain, Numata (沼田藩), not Okayama: Numata's entry opens at the ○沼田藩 marker on lower_p147_left, and the four figures break down its 兵隊 of 251 men printed on lower_p148_right (121 + 110 + 20 = 251). The printed page number in the bottom margin is 273."
     },
     {
       "id": "tottori_upper_p051_right",
@@ -3032,8 +3032,25 @@
       "page_summary_en": "This leaf opens the entry for the next domain, Ozu, with its ○ domain-boundary marker and land figures, but most of the page — everything to the right of that marker, read right to left — is the demographic close of the previous domain, Oshi (忍藩). It records the 穢多 (outcaste) population at 2,723 (1,386 male, 1,337 female), the 非人 (outcast) population at 42 (23 male, 19 female), the population on shrine and temple lands at 473 (233 male, 240 female), and the 寺 (temple) population, along with a small governor's household and a shrine tally."
     },
     {
-      "id": "ozu_upper_p072_left",
+      "id": "ozu_lower_p152_right",
       "sequence": 179,
+      "domain_canonical": "忍藩",
+      "domain_hi_name": "忍藩",
+      "domain_en": "Oshi",
+      "image": "images/lower_p152_right.jpg",
+      "volume": "vol2",
+      "pdf_page": 152,
+      "page_side": "R",
+      "book_page": "二百八十",
+      "page_header_kanji": "藩制一覧表第八（忍）",
+      "page_header_en": "Domain Survey (藩制一覧表), Fascicle 8 — Oka (岡藩) troops and officials’ names; Oshi (忍藩) opening",
+      "table_number": 8,
+      "page_topic": "officials_and_military",
+      "page_summary_en": "This is an officials-and-military page (fascicle 8, 職員兵隊) that carries two domains on one leaf. Reading right to left, the material to the right of the single ○忍藩 (Oshi domain) marker completes Oka domain (岡藩), whose entry opens at ○岡藩 on lower_p151_left: its military establishment — an infantry force of two battalions, one artillery company (大砲一隊), and six cannon (大砲) — together with its named councillors. The columns to the left of the ○忍藩 marker open Oshi's own entry, listing one governor (知事), two senior councillors (大参事), two acting senior councillors (権大参事), and four junior councillors (少参事). The running header reads 忍 and the printed page number in the bottom margin is 二百八十 (280)."
+    },
+    {
+      "id": "ozu_upper_p072_left",
+      "sequence": 180,
       "domain_canonical": "大洲藩",
       "domain_hi_name": "大洲藩",
       "domain_en": "Ozu",
@@ -3050,7 +3067,7 @@
     },
     {
       "id": "ozu_upper_p073_right",
-      "sequence": 180,
+      "sequence": 181,
       "domain_canonical": "大洲藩",
       "domain_hi_name": "大洲藩",
       "domain_en": "Ozu",
@@ -3067,7 +3084,7 @@
     },
     {
       "id": "ozu_upper_p073_left",
-      "sequence": 181,
+      "sequence": 182,
       "domain_canonical": "大洲藩",
       "domain_hi_name": "大洲藩",
       "domain_en": "Ozu",
@@ -3081,23 +3098,6 @@
       "table_number": 2,
       "page_topic": "Ozu domain civil register: households by status class, population totals with male/female splits, plus shrines, temples, and troops",
       "page_summary_en": "This half-page continues the civil and demographic register (fascicle 2) for Ozu domain (大洲藩) in Iyo province; the running header 藩制一覧表第二（大洲）confirms the domain, and with no ○ domain-boundary marker on the leaf it carries on from the preceding page. It gives household and population counts by status class — 士族 (samurai) 263 households / 1,130 people, 卒族 (lower retainers) 352 / 1,368, 輕卒 (light foot soldiers) 630 / 2,520 — each with a male/female split, and a whole-domain total of 22,771 households and 93,603 people (男 47,791 / 女 45,812). The sheet also records 921 outcaste (穢多) households, 1,342 shrines (神社), 1,045 temples (寺), and 730 troops (兵隊), with priest and clergy sub-counts noted in the margins."
-    },
-    {
-      "id": "ozu_lower_p152_right",
-      "sequence": 182,
-      "domain_canonical": "大洲藩",
-      "domain_hi_name": "大洲藩",
-      "domain_en": "Ozu",
-      "image": "images/lower_p152_right.jpg",
-      "volume": "vol2",
-      "pdf_page": 152,
-      "page_side": "R",
-      "book_page": "二百八十",
-      "page_header_kanji": "藩制一覧表第八（忍）",
-      "page_header_en": "Domain Survey (藩制一覧表), Fascicle 8 — Ozu (大洲藩) officials and troops; Oshi (忍藩) opening",
-      "table_number": 8,
-      "page_topic": "officials_and_military",
-      "page_summary_en": "This is an officials-and-military page (fascicle 8, 職員兵隊) that carries two domains on one leaf. Reading right to left, the material to the right of the single ○忍藩 (Oshi domain) marker completes Ozu domain (大洲藩): its military establishment — an infantry force of two battalions, one artillery company (大砲一隊), and six cannon (大砲) — together with its named councillors. The columns to the left of the ○忍藩 marker open Oshi's own entry, listing one governor (知事), two senior councillors (大参事), two acting senior councillors (権大参事), and four junior councillors (少参事). The running header reads 忍 and the printed page number in the bottom margin is 二百八十 (280)."
     },
     {
       "id": "ozu_lower_p152_left",
@@ -3352,7 +3352,7 @@
       "page_header_en": "Domain Survey (藩制一覧表), Fascicle 8 — Kasama (笠間藩): officials and military",
       "table_number": 8,
       "page_topic": "Domain officials (councillors) and troop strength of Kasama domain",
-      "page_summary_en": "This is the Fascicle 8 officials-and-military entry for Kasama (笠間藩), marked by its ○ domain-boundary marker. The top band lists the councillor establishment: 大参事 (senior councillor) 2, 権大参事 (acting senior councillor) 1, 少参事 (junior councillor) 3, and 権少参事 (acting junior councillor) 3, under a 知事 (governor) heading left unfilled here. A note at the right gives the troop strength as 597 line troops (横兵) and 212 reserve troops (聚合兵). Beneath the rank headings hangs a roster of ten named appointees."
+      "page_summary_en": "This is the Fascicle 8 officials-and-military entry for Kasama (笠間藩), marked by its ○ domain-boundary marker. The top band lists the councillor establishment: 大参事 (senior councillor) 2, 権大参事 (acting senior councillor) 1, 少参事 (junior councillor) 3, and 権少参事 (acting junior councillor) 3, under a 知事 (governor) heading left unfilled here. A note at the right edge, before the ○笠間藩 marker, closes the previous entry, Kawagoe (川越藩): 597 picked troops (精兵) and 212 assembled troops (聚合兵). Beneath the rank headings hangs a roster of ten named appointees."
     },
     {
       "id": "takasaki_upper_p120_right",
@@ -8639,7 +8639,7 @@
       "page_header_en": "Hansei Ichiran, Table (Fascicle) 7 — (Sekiyado)",
       "table_number": 7,
       "page_topic": "Sekiyado domain — households, status populations, temples/shrines, and tax totals",
-      "page_summary_en": "This is a continuation leaf for Sekiyado domain (關宿藩) in fascicle 7 of the Hansei Ichiran (1870 domain survey). It records 9,605 total households; the shizoku (230 households / 1,185 persons), sotsu (324 households / 1,016 persons) and shrine-attendant (272 persons) sub-populations with male/female splits; 191 town-watchman and outcaste (eta) dwellings; and 292 temple-and-shrine buildings (38 of them prayer-halls and yamabushi residences) holding 642.3 koku of temple-shrine land. A combined regular-plus-miscellaneous tax total of 15,552.11009 koku is annotated as actual-rice tax (朱黒印 grant lands not separately distinguished), and a monetary figure of 2,146 ryō (plus ei-cash) carries over from the preceding page. The 人口 grand total (27,805 with its male/female breakdown) is NOT printed on this leaf — only the section header and the status sub-counts appear here."
+      "page_summary_en": "This is a continuation leaf for Sekiyado domain (關宿藩) in fascicle 7 of the Hansei Ichiran (1870 domain survey). It records 9,605 total households; the shizoku (230 households / 1,185 persons), sotsu (324 households / 1,016 persons) and shrine-attendant (272 persons) sub-populations with male/female splits; 191 town-watchman and outcaste (eta) dwellings; and 292 temple-and-shrine buildings (38 of them prayer-halls and yamabushi residences) holding 642.3 koku of temple-shrine land. A combined regular-plus-miscellaneous tax total of 15,552.11009 koku is annotated as actual-rice tax (朱黒印 grant lands not separately distinguished), and a monetary figure of 2,146 ryō (plus ei-cash) carries over from the preceding page. No population total is printed on this leaf, only the 人口 heading and the status sub-counts; Sekiyado's total, 人口合計 49,058, is printed on the next page-side (lower_p119_right)."
     },
     {
       "id": "sekiyado_lower_p247_left",
