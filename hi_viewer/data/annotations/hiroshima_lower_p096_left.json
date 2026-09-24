@@ -39,11 +39,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "人口 九十一万四千五百十七人（じんこう きゅうじゅういちまんよんせんごひゃくじゅうしちにん）＝914,517人"
+        "value": "人口 九十一万四千百五十七人（じんこう きゅうじゅういちまんよんせんひゃくごじゅうしちにん）＝914,157人"
       },
       {
         "purpose": "english_translation",
-        "value": "Population: 914,517 people"
+        "value": "Population: 914,157 persons"
       },
       {
         "purpose": "identifying",
@@ -69,11 +69,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "内 男四十六万八千九百七十七人（うち おとこ よんじゅうろくまんはっせんきゅうひゃくななじゅうしちにん）＝468,977人"
+        "value": "内 男四十六万八千百八十人（うち おとこ よんじゅうろくまんはっせんひゃくはちじゅうにん）＝468,180人"
       },
       {
         "purpose": "english_translation",
-        "value": "Of which male: 468,977"
+        "value": "Total population, of which male: 468,180 persons"
       },
       {
         "purpose": "identifying",
@@ -99,11 +99,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女四十四万五千四百三十七人（おんな よんじゅうよんまんごせんよんひゃくさんじゅうしちにん）＝445,437人"
+        "value": "女四十四万五千九百七十七人（おんな よんじゅうよんまんごせんきゅうひゃくななじゅうしちにん）＝445,977人"
       },
       {
         "purpose": "english_translation",
-        "value": "Female: 445,437"
+        "value": "Total population, female: 445,977 persons"
       },
       {
         "purpose": "identifying",
@@ -185,7 +185,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男壹萬千八百五十二人"
+        "value": "內男壹萬千八百五十二人"
       },
       {
         "purpose": "modern_jp_reading",
@@ -193,11 +193,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of which male: 11,852"
+        "value": "Sotsu (foot-soldier) population, of which male: 11,852 persons"
       },
       {
         "purpose": "identifying",
-        "value": "男（卒族）"
+        "value": "男"
       }
     ],
     "target": {
@@ -215,19 +215,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女壹萬千百九十四人"
+        "value": "內女壹萬千百九十四人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女一万千百九十四人（おんな いちまんせんひゃくきゅうじゅうよにん）＝11,194人"
+        "value": "内 女一万千百九十四人（うち おんな いちまんせんひゃくきゅうじゅうよにん）＝11,194人"
       },
       {
         "purpose": "english_translation",
-        "value": "Female: 11,194"
+        "value": "Sotsu (foot-soldier) population, of which female: 11,194 persons"
       },
       {
         "purpose": "identifying",
-        "value": "女（卒族）"
+        "value": "女"
       }
     ],
     "target": {
@@ -275,7 +275,7 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男千三百六十六人"
+        "value": "內男千三百六十六人"
       },
       {
         "purpose": "modern_jp_reading",
@@ -283,11 +283,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of which male: 1,366"
+        "value": "Shrine-office personnel (社務人), of which male: 1,366 persons"
       },
       {
         "purpose": "identifying",
-        "value": "男（社務人）"
+        "value": "男"
       }
     ],
     "target": {
@@ -305,19 +305,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女千七百七十一人"
+        "value": "內女千七百七十一人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女千七百七十一人（おんな せんななひゃくななじゅういちにん）＝1,771人"
+        "value": "内 女千七百七十一人（うち おんな せんななひゃくななじゅういちにん）＝1,771人"
       },
       {
         "purpose": "english_translation",
-        "value": "Female: 1,771 (MASTER misread the tens digit as 六/six; scan shows 七/seven)"
+        "value": "Shrine-office personnel (社務人), of which female: 1,771 persons"
       },
       {
         "purpose": "identifying",
-        "value": "女（社務人）"
+        "value": "女"
       }
     ],
     "target": {
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:917,2128,48,484"
+        "value": "xywh=pixel:915,2128,51,575"
       }
     }
   },
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total households: 185,104 (MASTER raw had a phantom 七; scan shows 十八萬五千百四, parse 185,104 correct)"
+        "value": "Total households: 185,104"
       },
       {
         "purpose": "identifying",
@@ -489,11 +489,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒（族）四千七百二十戸（そつ よんせんななひゃくにじっこ）＝4,720戸"
+        "value": "卒 四千七百三十戸（そつ よんせんななひゃくさんじっこ）＝4,730戸"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu households: 4,720"
+        "value": "Sotsu households: 4,730"
       },
       {
         "purpose": "identifying",
@@ -639,11 +639,15 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population, male"
+        "value": "Shizoku (samurai) population, of which male: 4,640 persons"
       },
       {
         "purpose": "identifying",
         "value": "士族人口（男）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男四千六百四十人（おとこ よんせんろっぴゃくよんじゅうにん）＝4,640人"
       }
     ],
     "target": {
@@ -665,11 +669,15 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population, female"
+        "value": "Shizoku (samurai) population, of which female: 4,896 persons"
       },
       {
         "purpose": "identifying",
         "value": "士族人口（女）"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女四千八百九十六人（おんな よんせんはっぴゃくきゅうじゅうろくにん）＝4,896人"
       }
     ],
     "target": {

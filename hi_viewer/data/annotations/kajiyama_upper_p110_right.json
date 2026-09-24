@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Principal assessed yield: 13,969.89746 koku (MASTER read 13969.89701; corrected — the tail is 七合四勺六才)"
+        "value": "Principal assessed yield (本高): 13,969.89746 koku."
       },
       {
         "purpose": "identifying",
@@ -133,7 +133,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Current (actual) tax-rice, 5-yr avg: 4,560.11585 koku (MASTER conflated as 正租米 4560.18997; corrected)"
+        "value": "Current (actual) tax-rice, five-year average: 4,560.11585 koku."
       },
       {
         "purpose": "identifying",
@@ -189,11 +189,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "げんまい くと にしょう ごごう さんしゃく いっさい／現米 0.925311石"
+        "value": "げんまい くと にしょう ごごう さんしゃく いっさい／現米 0.92531石"
       },
       {
         "purpose": "english_translation",
-        "value": "Reclamation myōga current-rice: 0.925311 koku (MASTER logged this value under 雜税米; label is 開發冥加米)"
+        "value": "Current rice from the reclamation myōga levy (開發冥加米): 0.92531 koku."
       },
       {
         "purpose": "identifying",
@@ -219,11 +219,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文528"
+        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文5分2厘8毛"
       },
       {
         "purpose": "english_translation",
-        "value": "Ei (cash) 274.867528 kan-mon — MASTER MISSED this column; identical value repeated at the 合 subtotal (see other 永 box)"
+        "value": "Ei (cash): 274 kan 867 mon 5 bu 2 rin 8 mō (274.867528 kan). The same figure is printed again in the 永 line beside the ○合現米 subtotal."
       },
       {
         "purpose": "identifying",
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Combined current-rice subtotal: 4,620.58677 koku (○ here is a subtotal marker, not a domain boundary; MASTER value correct)"
+        "value": "Combined current-rice subtotal: 4,620.58677 koku. The ○ here marks a subtotal, not a domain boundary."
       },
       {
         "purpose": "identifying",
@@ -313,7 +313,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total households: 3,181 (MASTER value correct)"
+        "value": "Total households: 3,181 (counted in 軒)."
       },
       {
         "purpose": "identifying",
@@ -343,7 +343,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Population: 16,102 persons (8,031 male / 8,071 female); MASTER had 16102 but MISSED the male/female split"
+        "value": "Population: 16,102 persons (8,031 male / 8,071 female)."
       },
       {
         "purpose": "identifying",
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shrine families: 16 households (MASTER value correct; 外二 = 'separately' note introduces the household-population line below)"
+        "value": "Shrine families (shake): 16 households, entered separately under 外ニ ('in addition'). Their population is given in the line below."
       },
       {
         "purpose": "identifying",
@@ -463,7 +463,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Same (shrine-family) population: 83 persons (41 male / 42 female); MASTER MISSED this entire field"
+        "value": "Population of the same (shrine-family) households: 83 persons (41 male / 42 female)."
       },
       {
         "purpose": "identifying",
@@ -575,15 +575,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "永貳百七拾四貫八百六十七文五分貳厘八毛"
+        "value": "永二百七拾四貫八百六十七文五分貳厘八毛"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文528"
+        "value": "えい にひゃくななじゅうよんかん はっぴゃくろくじゅうななもん ごぶ にりん はちもう／永 274貫867文5分2厘8毛"
       },
       {
         "purpose": "english_translation",
-        "value": "Ei (cash) subtotal at the ○合現米 line: 274.867528 kan-mon. This cash-tax column sits in the gap between ○合現米 (x971-1075) and 總戸數 (x698-805) and was previously unboxed; it repeats the identical value of the field-level 永 (anno-07), the reclamation-myoga cash addition being negligible."
+        "value": "Ei (cash) at the ○合現米 subtotal line: 274 kan 867 mon 5 bu 2 rin 8 mō (274.867528 kan), the same figure as the 永 line further right."
       },
       {
         "purpose": "identifying",

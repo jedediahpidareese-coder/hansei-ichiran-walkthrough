@@ -253,11 +253,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Main land tax in copper cash: 23,633 kan 300 mon. NOTE: corrects MASTER's 23,632 — the character before 貫 is 三 (33), not 貳 (32)."
+        "value": "Main land tax (shoso) in copper cash: 23,633 kan 300 mon. The column begins with 錢 alone; it is the fourth line under 正租, after rice, soybeans and gold."
       },
       {
         "purpose": "identifying",
-        "value": "雜稅錢"
+        "value": "正租錢"
       }
     ],
     "target": {
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Miscellaneous tax in gold: 6,817 ryo 1 bu. NOTE: corrects MASTER's 6,818 — the digit is 拾七 (17), not 拾八 (18)."
+        "value": "Miscellaneous tax (zatsuzei) in gold: 6,817 ryo 1 bu."
       },
       {
         "purpose": "identifying",
@@ -433,11 +433,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Miscellaneous tax paid in copper cash (雜稅錢): 38,605 kan 600 mon. This is the cash levy of the miscellaneous-tax (雜稅) group, paired with 雜稅金 (box 09) immediately to its right, just as the main-tax group pairs 正租金 (box 07) with the 錢 column (box 08). The printed head glyph is 錢; the 雜稅 attribution is structural (it is the second, left-most 錢 column, sitting left of 雜稅金). Belongs to Morioka (盛岡藩); no maru-marker on this left half-page. Absent from MASTER, which records only the one 錢 row (box 08's 23,633貫). Verified glyph-by-glyph at 3x: 錢 三 萬 八 千 六 百 五 貫 六 百 文; ink span x1339-1407, y1299-2281, clean gutters both sides (box 10 ends x1277, box 09 begins x1480), no clip, no overlap."
+        "value": "Miscellaneous tax (zatsuzei) in copper cash: 38,605 kan 600 mon. The column begins with 錢 alone; it follows the 雜稅金 column, so it is the cash part of the miscellaneous tax."
       },
       {
         "purpose": "identifying",
-        "value": "盛岡雜稅錢"
+        "value": "雜稅錢"
       }
     ],
     "target": {

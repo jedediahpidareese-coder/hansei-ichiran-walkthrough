@@ -43,7 +43,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Current assessed yield: 325,606.037 koku (Hitachi main holding), including newly-developed fields. MASTER misread as 325,663.07."
+        "value": "Current assessed yield (當高): 325,606.037 koku, new fields included (新田共). The two columns to its left give the part of this administered by Nakayama Bitchū-no-kami: 高 20,000 koku, with a current assessed yield of 18,652.845 koku."
       },
       {
         "purpose": "identifying",
@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of which 20,000 koku is territory administered by Nakayama Bitchū-no-kami (a sub-fief steward). MASTER wrongly appended 新田共 to this note."
+        "value": "Of which (內): 高 20,000 koku, territory administered by Nakayama Bitchū-no-kami (中山備中守支配地). The current assessed yield of this territory, 18,652.845 koku, is printed in the column to the left."
       },
       {
         "purpose": "identifying",
@@ -103,7 +103,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Assessed yield (combined subtotal): 297,875.297 koku. MASTER read the final unit as 五合 (.295); it is 七合 (.297)."
+        "value": "Assessed yield (高): 297,875.297 koku; the last unit is 七合. With the new-field yield in the next column (9,077.895 koku) it makes the 合高 of 306,953.192 koku."
       },
       {
         "purpose": "identifying",
@@ -163,7 +163,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Aggregate holding: 306,953.192 koku. MASTER misread as 306,775.895; the digits are 六千九百五十三石一斗九升二合."
+        "value": "Aggregate holding (合高): 306,953.192 koku. It equals 高 297,875.297 plus new fields 9,077.895, and also the 當高 of 325,606.037 less the 18,652.845 koku of Nakayama Bitchū-no-kami's territory."
       },
       {
         "purpose": "identifying",
@@ -189,11 +189,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "正租米（せいそまい）四万二千八百五十九石九斗九升二合　常陸（ひたち）"
+        "value": "正租米（せいそまい）四万二千八百五石九斗九合　常陸（ひたち）"
       },
       {
         "purpose": "english_translation",
-        "value": "True land tax in rice (Hitachi province): 42,859.992 koku."
+        "value": "Regular land tax in rice (Hitachi 常陸 province): 42,805.909 koku (九斗 = .9 and 九合 = .009; the 升 place is skipped)."
       },
       {
         "purpose": "identifying",
@@ -219,11 +219,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "正租金（せいそきん）二万八千二百九十七両三分（りょうさんぶ）本銭（ほんせん）八百十九文"
+        "value": "金（きん）二万八千二百九十七両三分（りょうさんぶ）本鐚（ほんびた）八百十九文"
       },
       {
         "purpose": "english_translation",
-        "value": "True land tax in money: 28,297 ryō 3 bu, plus 819 mon in base coin. MASTER read the coin tail as 八百九拾文 (890); it is 八百十九文 (819)."
+        "value": "Regular land tax (正租) in money: 28,297 ryō 3 bu, plus 819 mon in base coin."
       },
       {
         "purpose": "identifying",
@@ -253,7 +253,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Miscellaneous tax paid — a category heading spanning the four columns to its left (millet, Hitachi money, Shimotsuke rice, Shimotsuke money)."
+        "value": "Miscellaneous tax paid — a category heading over the two columns to its left: barnyard millet (稗) and money (金). The column after those two is the Shimotsuke (下野) regular land-tax rice."
       },
       {
         "purpose": "identifying",
@@ -309,11 +309,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "金（きん）一万九十両二分（りょうにぶ）銭（ぜに）一万三百十六貫七百七十二文"
+        "value": "金（きん）一万九十両二分（りょうにぶ）鐚（びた）一万三百十六貫七百七十二文"
       },
       {
         "purpose": "english_translation",
-        "value": "Money (Shimotsuke): 10,090 ryō 2 bu, plus 10,316 kan 772 mon in coin. MASTER's raw 一萬九千八十二兩 is wrong; the text reads 一萬九十兩 (10,090 ryō)."
+        "value": "Miscellaneous tax in money: 10,090 ryō 2 bu, plus 10,316 kan 772 mon in coin."
       },
       {
         "purpose": "identifying",
@@ -395,19 +395,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "金　千三百四十六兩三分本鎰三百三十九文"
+        "value": "金 千三百四十六兩三分本鐚三百三十九文"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "金（下野）（きん（しもつけ））"
+        "value": "金（きん）千三百四十六両三分（りょうさんぶ）本鐚（ほんびた）三百三十九文"
       },
       {
         "purpose": "english_translation",
-        "value": "Regular land-tax cash/gold, in ryo (Shimotsuke portion); 1,346 ryo 3 bu, plus 339 mon in copper cash"
+        "value": "Money, following the Shimotsuke (下野) land-tax rice in the column to its right: 1,346 ryō 3 bu, plus 339 mon in base coin (本鐚)."
       },
       {
         "purpose": "identifying",
-        "value": "金（下野）"
+        "value": "金"
       }
     ],
     "target": {
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Current assessed yield (Shimotsuke 下野 portion): 18,652.845 koku, including newly-developed fields (新田共). This pairs with the Hitachi (常陸) current yield of 325,606.037 koku in the adjacent column to the right (anno-01); both belong to Mito domain."
+        "value": "Current assessed yield of the 20,000 koku administered by Nakayama Bitchū-no-kami, named in the column to the right: 18,652.845 koku, new fields included (新田共)."
       },
       {
         "purpose": "identifying",
@@ -446,6 +446,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:2318,1312,120,1832"
+      }
+    }
+  },
+  {
+    "id": "anno-mito_lower_p069_left-15",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "內 高二萬石 當高一萬八千六百五十二石八斗四升五合 中山備中守支配地"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "内（うち）高二万石（たかにまんごく）　当高（とうだか）一万八千六百五十二石八斗四升五合　中山備中守支配地（なかやまびっちゅうのかみしはいち）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Of which (內), the territory administered by Nakayama Bitchū-no-kami (中山備中守支配地): 高 20,000 koku, with a current assessed yield (當高) of 18,652.845 koku. This box outlines the 當高 figure; 內 高二萬石 and 中山備中守支配地 are printed in the column to its right, and 新田共 ('new fields included') below the figure. 325,606.037 less 18,652.845 is 306,953.192, the 合高 printed three columns to the left."
+      },
+      {
+        "purpose": "identifying",
+        "value": "內當高（中山備中守支配地）"
+      }
+    ],
+    "target": {
+      "source": "images/lower_p069_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2324,1311,120,1501"
       }
     }
   }

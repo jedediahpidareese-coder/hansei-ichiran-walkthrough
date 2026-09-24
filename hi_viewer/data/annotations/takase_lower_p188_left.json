@@ -103,7 +103,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Troops: not detailed (no figure returned). Takatomi's military line, not Takase's — it prints to the RIGHT of the ○高瀨藩 marker (兵隊 at x2617-2684 vs marker at x2463-2557), so by the boundary rule it closes the preceding entry. Verified against the facing recto lower_p188_right, which carries the running header 藩制一覽表第八（高富）, folio 三百五十二 (352), and whose leftmost four columns are Takatomi's own 大參事 二人 / 權大參事 一人 / 少參事 一人 / 權少參事 一人 with no military line — the standard vol2 fascicle-8 overflow, and the same pattern visible one domain earlier on that recto, where 第一小隊/第二小隊 print right of the ○高富藩 marker. MASTER files this row under 高瀬藩; the scan disagrees and the scan governs. MASTER's separate KEY_PATTERN = 不詳 row has no independent printed column and duplicates this value."
+        "value": "Troops: not detailed (no figure returned). Takatomi's military line, not Takase's — it prints to the RIGHT of the ○高瀨藩 marker, so by the boundary rule it closes the preceding entry. The facing page, folio 三百五十二 (352), has the running header 藩制一覽表第八（高富）, and its leftmost four columns are Takatomi's own 大參事 二人 / 權大參事 一人 / 少參事 一人 / 權少參事 一人 with no military line. This is the usual fascicle-8 overflow, and the same pattern appears one domain earlier on that page, where 第一小隊/第二小隊 print right of the ○高富藩 marker."
       },
       {
         "purpose": "identifying",
@@ -133,7 +133,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shissei (chief executive councillors) — 3 men: Komeno Kakuemon, Kurosawa Tange, Mitomo Ichirōemon. The heading sits at the rightmost of the three name columns it governs, and the group runs leftward from there. Matches MASTER exactly. Ink measured x2043-2391, y2343-3507; box pads 8px all round, no overlap with any neighbour (nearest gap 30px to the 參政 box)."
+        "value": "Shissei (chief executive councillors): the heading 執政 with the names Komeno Kakuemon, Kurosawa Tange and Mitomo Ichirōemon; no count is printed. The heading sits at the rightmost of the three name columns it governs, and the group runs leftward from there."
       },
       {
         "purpose": "identifying",
@@ -163,7 +163,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sansei (councillors) — 7 men: Ōno Tsuka, Togawa Chūemon, Hara San'emon, Ōtsuki Yazaemon, Shibata Tsushima, Hirano Iwanojō, Nishi Ichitarō. Heading printed with the formal 參. The eleven name columns sit on a uniform 133.8px pitch with no wider gap anywhere, so the grouping is set solely by heading position: label centres are 2358 / 1964 / 1020 against name-column centres 2342.5 (R1) / 1944.5 (R4) / 1004 (R11), a constant +15 to +20px offset, and each heading therefore opens at its rightmost name and runs leftward to the next heading. The same rule is verified on the facing recto, where 權少參事 (centre 1529) opens at 高橋文平 (centre 1521, +8) and governs 高橋・奧田・乙幡 before 公用人 (centre 1139) opens at 松下健治 (centre 1125.5, +13.5). Under that rule 參政 begins at 大野束 and ends at 西市太郎. Third glyph of the first name confirmed as 束 not 東 by counter analysis: exactly two enclosed white counters side by side at y3462-3474, i.e. 口 crossed by the 木 stem; 東 would give four in two rows."
+        "value": "Sansei (councillors): the heading 參政, printed with the formal 參, followed by the names Ōno Tsuka, Togawa Chūemon, Hara San'emon, Ōtsuki Yazaemon, Shibata Tsushima, Hirano Iwanojō and Nishi Ichitarō; no count is printed. The name columns are evenly spaced, so the grouping follows the headings: each heading stands over its first name and its group runs leftward to the next heading, which places 參政 from 大野束 to 西市太郎. The third glyph of the first name is 束, not 東."
       },
       {
         "purpose": "identifying",
@@ -193,7 +193,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Kōgijin (the domain's delegate to the Kōgisho, the 1869 public deliberative assembly) — 1 man: Kasama Einoshin. The heading (centre x1020) aligns with the eleventh and leftmost name column (centre x1004), not with 柴田津司馬 at centre x1406.5, so the office takes a single name — also the expected number, one delegate per domain. Ink measured x969-1052, y2320-3487; box pads 7-8px, 35px clear of the 參政 box on the right and 4px clear of the header box on the left."
+        "value": "Kōgijin (the domain's delegate to the Kōgisho, the public deliberative assembly): the heading 公議人 with the name Kasama Einoshin; no count is printed. The heading aligns with the leftmost name column, not with 柴田津司馬, so this is the only name under the office."
       },
       {
         "purpose": "identifying",

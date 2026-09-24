@@ -613,11 +613,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Infantry (hohei): 1,551 persons — an upper-band military sub-count of the 2,153 troop total; the 歩兵 label (existing box anno-13) sits to the right, this is its unboxed value; MASTER decomposition lists 步兵 千五百五十一人"
+        "value": "1,551 persons — a sub-count of the 2,153 troops (兵員); the label printed below this figure in the same column is 輕卒 (light foot soldiers)"
       },
       {
         "purpose": "identifying",
-        "value": "歩兵員数"
+        "value": "輕卒兵員内訳"
       }
     ],
     "target": {
@@ -625,7 +625,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1302,1190,94,559"
+        "value": "xywh=pixel:1302,1190,94,579"
       }
     }
   },
@@ -643,11 +643,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "18 persons — an upper-band military sub-count of the 2,153 troop total, printed between the 338 (anno-09) and 1,551 (infantry) columns, aligned above the 士分並/輕卒 labels; currently unboxed"
+        "value": "18 persons — a sub-count of the 2,153 troops (兵員); the label printed below this figure in the same column is 士分並 (quasi-samurai rank)"
       },
       {
         "purpose": "identifying",
-        "value": "兵員内訳十八"
+        "value": "士分並兵員内訳"
       }
     ],
     "target": {
@@ -716,6 +716,246 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:1388,3205,82,330"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-24",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男五百三十人內猪熊雅夫家來二十八人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）五百三十人（ごひゃくさんじゅうにん）、内（うち）猪熊雅夫（いのくま まさお）家来（けらい）二十八人（にじゅうはちにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine families (shake), male: 530 persons, of which 28 are retainers (kerai) of Inokuma Masao"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2541,1624,70,1159"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-25",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百八十六人內猪熊雅夫家來之分三十五人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四百八十六人（よんひゃくはちじゅうろくにん）、内（うち）猪熊雅夫（いのくま まさお）家来（けらい）の分（ぶん）三十五人（さんじゅうごにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Shrine families (shake), female: 486 persons, of which 35 are counted under Inokuma Masao's retainers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "社家女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2472,1624,68,1363"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-26",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男千二百二十八人內法然寺家來四十四人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）千二百二十八人（せんにひゃくにじゅうはちにん）、内（うち）法然寺（ほうねんじ）家来（けらい）四十四人（よんじゅうよにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy (sō) category, male: 1,228 persons, of which 44 are retainers (kerai) of the temple Hōnen-ji (法然寺)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2404,1796,64,1226"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-27",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女四百八十三人內法然寺家來之分二十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）四百八十三人（よんひゃくはちじゅうさんにん）、内（うち）法然寺（ほうねんじ）家来（けらい）の分（ぶん）二十三人（にじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Buddhist clergy (sō) category, female: 483 persons, of which 23 are counted under the Hōnen-ji retainers"
+      },
+      {
+        "purpose": "identifying",
+        "value": "僧女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2329,1796,74,1293"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-28",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男二千百七人內僧十人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）二千百七人（にせんひゃくななにん）、内（うち）僧（そう）十人（じゅうにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste group), male: 2,107 persons, of which 10 are clergy (僧)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2134,1957,58,676"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-29",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女二千百八十六人內僧之分十二人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）二千百八十六人（にせんひゃくはちじゅうろくにん）、内（うち）僧（そう）の分（ぶん）十二人（じゅうににん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Eta (outcaste group), female: 2,186 persons, of which 12 are counted under the clergy (僧)"
+      },
+      {
+        "purpose": "identifying",
+        "value": "穢多女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:2058,1957,75,1021"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-30",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "男六百六十六人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "男（おとこ）六百六十六人（ろっぴゃくろくじゅうろくにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste group), male: 666 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人男"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1998,1870,59,472"
+      }
+    }
+  },
+  {
+    "id": "anno-takamatsu_upper_p118_left-31",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "女八百十三人"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "女（おんな）八百十三人（はっぴゃくじゅうさんにん）"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Hinin (outcaste group), female: 813 persons"
+      },
+      {
+        "purpose": "identifying",
+        "value": "非人女"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p118_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1938,1870,59,403"
       }
     }
   }

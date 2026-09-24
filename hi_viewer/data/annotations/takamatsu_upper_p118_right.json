@@ -193,11 +193,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Nuns: 3 households (printed lower in the temple column)"
+        "value": "Nuns (尼): 3 households, printed lower in the temple column, with 三戸 set below 尼 in the same column."
       },
       {
         "purpose": "identifying",
-        "value": "尼"
+        "value": "尼戸數"
       }
     ],
     "target": {
@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1539,2369,64,68"
+        "value": "xywh=pixel:1533,2364,78,331"
       }
     }
   },
@@ -579,11 +579,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族（しぞく）壹萬百二十二人／10,122人"
+        "value": "士族（しぞく） 一万百二十二人／10,122人"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (samurai-class) population total: 10,122 persons. Distinct from the shizoku household count (701, boxed separately as 士族戸數). The M/F split below reconciles exactly: male 5,133 + female 4,989 = 10,122. Cross-verified against MASTER (士族=壹萬百二十二人=10122, includes 地士); the older lead-note figures 男5,929/女4,949 are a misread — the scan clearly reads 男五千百三十三/女四千九百八拾九."
+        "value": "Shizoku (samurai-class) population total: 10,122 persons. It is distinct from the shizoku household count (701), which is boxed separately. The male/female split below reconciles exactly: male 5,133 + female 4,989 = 10,122."
       },
       {
         "purpose": "identifying",
@@ -609,11 +609,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "卒族（そつぞく）壹萬七千八百五十一人／17,851人"
+        "value": "卒族（そつぞく） 一万七千八百五十一人／17,851人"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu (lower samurai / foot-soldier class) population total: 17,851 persons. Distinct from the sotsu household count (4,486, boxed separately as 卒族戸數). The M/F split below reconciles exactly: male 9,348 + female 8,503 = 17,851. Cross-verified against MASTER enrichment cell 卒族人口=壹萬七千八百五十一人=17851."
+        "value": "Sotsu (lower samurai / foot-soldier class) population total: 17,851 persons. It is distinct from the sotsu household count (4,486), which is boxed separately. The male/female split below reconciles exactly: male 9,348 + female 8,503 = 17,851."
       },
       {
         "purpose": "identifying",
@@ -643,7 +643,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Printed book-page number in the bottom margin: 210 (page marker, not a data value). Consistent with MASTER, which records the adjacent domain-marker page (upper_p117_left) as 本書頁番号 二百九=209; Takamatsu spans book pages 209-210."
+        "value": "Printed book-page number in the bottom margin: 210 (page marker, not a data value)."
       },
       {
         "purpose": "identifying",

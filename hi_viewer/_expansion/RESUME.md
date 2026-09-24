@@ -48,6 +48,9 @@ running out mid-batch leaves the workflow's finished pages cached; re-launch to 
 the next `--batch` (pages.json already has the applied ones).
 
 ## ▶ ✅ TRANSCRIPTION COMPLETE — STATE AS OF 2026-09-10 (read this first)
+> **2026-09-23:** "transcribed" below means the VIEWER has every page. MASTER does not: 3,805 numeric
+> figures the viewer read have no MASTER row (list and method in
+> `outputs/hansei_ichiran_reocr/_RESUME_2026-09-22_hi_corrections.md`, update of 2026-09-23 (later)).
 - **881 pages / 283 domains — DEPLOYED and live-verified at VER `20260711hi92`** (deploy commit
   `b9ad19c4`). MASTER 8,277 rows.
 - **EVERY DATA PAGE IN BOTH VOLUMES IS NOW TRANSCRIBED.** Verified by rendering every page outside

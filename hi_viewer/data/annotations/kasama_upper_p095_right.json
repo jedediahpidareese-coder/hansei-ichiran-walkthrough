@@ -335,15 +335,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士族人口 三千二百五十五人"
+        "value": "内士卒族人口　三千二百五十五人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士族人口 三千二百五十五人｜しぞくじんこう さんぜんにひゃくごじゅうごにん"
+        "value": "うち士卒族人口 三千二百五十五人｜うち しそつぞくじんこう さんぜんにひゃくごじゅうごにん"
       },
       {
         "purpose": "english_translation",
-        "value": "Samurai (shizoku) population: 3,255 persons"
+        "value": "Of which, samurai and sotsu (shisotsuzoku) population: 3,255 persons. 士 and 卒 are printed side by side at the head of the column, with a small 內 ('of which') beside them."
       },
       {
         "purpose": "identifying",
@@ -355,7 +355,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:848,1041,126,1005"
+        "value": "xywh=pixel:814,1045,164,1083"
       }
     }
   },

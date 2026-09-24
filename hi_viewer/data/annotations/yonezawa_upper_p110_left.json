@@ -463,7 +463,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Kusadaka (assessed grass-yield / gross registered koku): 147,248.72323 koku. [MASTER read 147,148.7232 in error.]"
+        "value": "Kusadaka (assessed yield, gross registered koku): 147,248.72323 koku."
       },
       {
         "purpose": "identifying",
@@ -485,19 +485,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "外 込高新田高改出高"
+        "value": "高貳萬八千八百拾八石八斗七升貳合"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "外（ほか） 込高（こみだか）・新田高（しんでんだか）・改出高（あらためだしだか）"
+        "value": "高（たか） 二万八千八百十八石八斗七升二合（28,818.872石）"
       },
       {
         "purpose": "english_translation",
-        "value": "Separately (外): combined komidaka (subsumed yield) + new-paddy yield + re-surveyed added yield. [Label; value in adjacent column.]"
+        "value": "Separately (外), the komidaka, new-field and re-surveyed yield (込高新田高改出高): 28,818.872 koku. This box encloses two columns: the label 外 込高新田高改出高 on the right and the figure 高貳萬八千八百拾八石八斗七升貳合 on the left."
       },
       {
         "purpose": "identifying",
-        "value": "外 込高新田高改出高 (label)"
+        "value": "外込高新田高改出高"
       }
     ],
     "target": {
@@ -505,7 +505,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1164,1233,115,684"
+        "value": "xywh=pixel:1009,1162,296,1339"
       }
     }
   },
@@ -519,11 +519,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "高（だか） 二万八千八百十八石八斗七升二合（28,818.872石）"
+        "value": "高（たか） 二万八千八百十八石八斗七升二合（28,818.872石）"
       },
       {
         "purpose": "english_translation",
-        "value": "Yield of the above added/new lands: 28,818.872 koku. [Field not captured by MASTER.]"
+        "value": "Yield (高) of the komidaka, new-field and re-surveyed land named in the label column to the right: 28,818.872 koku."
       },
       {
         "purpose": "identifying",

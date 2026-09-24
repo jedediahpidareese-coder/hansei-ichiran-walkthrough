@@ -538,5 +538,35 @@
         "value": "xywh=pixel:936,2355,66,736"
       }
     }
+  },
+  {
+    "id": "anno-nagoya_kokudaka_demographics-18",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "升數四千百八石七斗四升四合"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "升數（しょうすう）四千百八石七斗四升四合"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "Levy / assessed measure (shōsū): 4,108 koku 7 to 4 sho 4 go (4,108.744 koku), the second 升數 figure on the page. It follows the 租納 line, and the 此八分出 note printed to its right applies to it."
+      },
+      {
+        "purpose": "identifying",
+        "value": "升數"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p157_left.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1637,1343,100,1094"
+      }
+    }
   }
 ]

@@ -26,9 +26,9 @@
   },
   {
    "field_jp": "現穀",
-   "parsed": "26,986.48",
+   "parsed": "26,986.048",
    "unit": "koku",
-   "raw": "二萬六千九百八拾六石四升八合"
+   "raw": "現穀 二萬六千九百八拾六石四升八合（但士族知行一斛ニ付現穀八升一合チ税米トス）"
   },
   {
    "field_jp": "砂糖",
@@ -668,15 +668,15 @@
   },
   {
    "field_jp": "人口 男",
-   "parsed": "469,468",
+   "parsed": "489,460",
    "unit": "persons",
-   "raw": "四十六萬九千四百六十八人"
+   "raw": "男四十八萬九千四百六十人"
   },
   {
    "field_jp": "人口 女",
-   "parsed": "427,340",
+   "parsed": "407,348",
    "unit": "persons",
-   "raw": "四十二萬七千三百四十人"
+   "raw": "女四十萬七千三百四十八人"
   },
   {
    "field_jp": "内 士族戸數",
@@ -716,15 +716,15 @@
   },
   {
    "field_jp": "足輕以下 男",
-   "parsed": "305,447",
+   "parsed": "305,448",
    "unit": "persons",
-   "raw": "三十萬五千四百四十七人"
+   "raw": "男三十萬五千四百四十八人"
   },
   {
    "field_jp": "足輕以下 女",
-   "parsed": "273,958",
+   "parsed": "273,957",
    "unit": "persons",
-   "raw": "二十七萬三千九百五十八人"
+   "raw": "女二十七萬三千九百五十七人"
   },
   {
    "field_jp": "琉球國高税米 現石",
@@ -758,9 +758,9 @@
   },
   {
    "field_jp": "琉球 士分以上戸數",
-   "parsed": "10,558",
+   "parsed": "10,158",
    "unit": "households",
-   "raw": "壹萬五百五十八戸"
+   "raw": "士分以上戸數 壹萬百五十八戸 前同斷"
   },
   {
    "field_jp": "琉球 士分以上人口",
@@ -912,15 +912,15 @@
   },
   {
    "field_jp": "僧人員 男",
-   "parsed": "3,192",
+   "parsed": "3,190",
    "unit": "persons",
-   "raw": "三千百九十二人"
+   "raw": "男三千百九十人"
   },
   {
    "field_jp": "僧人員 女",
-   "parsed": "1,220",
+   "parsed": "1,222",
    "unit": "persons",
-   "raw": "千二百二十人"
+   "raw": "女千貳百貳十貳人"
   },
   {
    "field_jp": "高",
@@ -1166,7 +1166,7 @@
   },
   {
    "field_jp": "神風丸",
-   "parsed": "1",
+   "parsed": "",
    "unit": "ship",
    "raw": "神風丸 原名カゴシマ 英國製造木質"
   },
@@ -1914,9 +1914,9 @@
   },
   {
    "field_jp": "升數",
-   "parsed": "4,808.744",
+   "parsed": "4,108.744",
    "unit": "koku",
-   "raw": "升數 四千八百八石七斗四升四合"
+   "raw": "升數四千百八石七斗四升四合"
   },
   {
    "field_jp": "高",
@@ -2201,7 +2201,7 @@
    "raw": "金百八拾貳兩永八百七拾七文"
   },
   {
-   "field_jp": "雜税 同",
+   "field_jp": "正租 同",
    "parsed": "20,279",
    "unit": "ryō",
    "raw": "同貳萬貳百七拾九兩永六百五拾文"
@@ -2662,7 +2662,7 @@
   },
   {
    "field_jp": "知事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "知事 前田従三位菅原朝臣慶寧"
   },
@@ -2674,7 +2674,7 @@
   },
   {
    "field_jp": "権大参事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "権大参事 陸原慎太郎源惟厚"
   },
@@ -2884,9 +2884,9 @@
   },
   {
    "field_jp": "少参事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
-   "raw": "少参事 一人 佐藤保之"
+   "raw": "少参事 佐藤保之"
   },
   {
    "field_jp": "大参事",
@@ -2898,7 +2898,7 @@
  "asao_civil_tail": [
   {
    "field_jp": "非人",
-   "parsed": "0",
+   "parsed": "",
    "unit": "persons",
    "raw": "非人 ナシ"
   },
@@ -2946,9 +2946,9 @@
   },
   {
    "field_jp": "現石",
-   "parsed": "4,139.8921",
+   "parsed": "4,139.89211",
    "unit": "koku",
-   "raw": "現石 四千百三十九石八斗九升二合一勺〇才"
+   "raw": "現石四千百三十九石八斗九升二合一勺一才"
   },
   {
    "field_jp": "正税 米",
@@ -3320,13 +3320,13 @@
    "field_jp": "男",
    "parsed": "11,852",
    "unit": "persons",
-   "raw": "男四十六萬八千百八十人"
+   "raw": "內男壹萬千八百五十二人"
   },
   {
    "field_jp": "女",
    "parsed": "11,194",
    "unit": "persons",
-   "raw": "女四十四萬五千九百七十七人"
+   "raw": "內女壹萬千百九十四人"
   },
   {
    "field_jp": "社務人",
@@ -3338,13 +3338,13 @@
    "field_jp": "男",
    "parsed": "1,366",
    "unit": "persons",
-   "raw": "男四十六萬八千百八十人"
+   "raw": "內男千三百六十六人"
   },
   {
    "field_jp": "女",
    "parsed": "1,771",
    "unit": "persons",
-   "raw": "女四十四萬五千九百七十七人"
+   "raw": "內女千七百七十一人"
   },
   {
    "field_jp": "寺院",
@@ -3508,13 +3508,13 @@
   },
   {
    "field_jp": "権大参事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "権大参事"
   },
   {
    "field_jp": "少参事",
-   "parsed": "4",
+   "parsed": "",
    "unit": "persons",
    "raw": "少参事"
   },
@@ -3522,7 +3522,7 @@
    "field_jp": "権少参事",
    "parsed": "4",
    "unit": "persons",
-   "raw": "権少参事　四人　三人"
+   "raw": "權少參事四人"
   },
   {
    "field_jp": "兵員",
@@ -3551,13 +3551,13 @@
    "raw": "同 人口 七千七百九十九人"
   },
   {
-   "field_jp": "男",
+   "field_jp": "卒族人口男",
    "parsed": "5,820",
    "unit": "persons",
    "raw": "男五千八百二十人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "卒族人口女",
    "parsed": "1,979",
    "unit": "persons",
    "raw": "女千九百七十九人"
@@ -3573,18 +3573,6 @@
    "parsed": "9,738",
    "unit": "persons",
    "raw": "同 人口 九千七百三拾八人"
-  },
-  {
-   "field_jp": "男",
-   "parsed": "5,304",
-   "unit": "persons",
-   "raw": "男五千八百二十人"
-  },
-  {
-   "field_jp": "女",
-   "parsed": "4,434",
-   "unit": "persons",
-   "raw": "女千九百七十九人"
   },
   {
    "field_jp": "士族戸數",
@@ -3620,16 +3608,16 @@
    "field_jp": "合",
    "parsed": "188,298.7914",
    "unit": "koku",
-   "raw": "合 五千七百七十五石七斗五升一合"
+   "raw": "合 十八萬八千二百九十八石七斗九升一合四勺"
   },
   {
-   "field_jp": "人口（男）",
+   "field_jp": "士族人口男",
    "parsed": "5,304",
    "unit": "persons",
    "raw": "男五千三百四人"
   },
   {
-   "field_jp": "人口（女）",
+   "field_jp": "士族人口女",
    "parsed": "4,434",
    "unit": "persons",
    "raw": "女四千四百三十四人"
@@ -3980,7 +3968,7 @@
   },
   {
    "field_jp": "大参事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "大參事"
   },
@@ -4005,16 +3993,16 @@
    "raw": "外二高拾五石　社寺領"
   },
   {
-   "field_jp": "社寺領",
+   "field_jp": "社寺領（鹿島明神）",
    "parsed": "10",
    "unit": "koku",
-   "raw": "外二高拾五石　社寺領"
+   "raw": "內 拾石 吳松邨鹿島明神 此正租納米七石六斗三升六合二才"
   },
   {
-   "field_jp": "社寺領",
+   "field_jp": "社寺領（宿蘆寺）",
    "parsed": "5",
    "unit": "koku",
-   "raw": "外二高拾五石　社寺領"
+   "raw": "五石 堀江村宿蘆寺 此正租納米三石四斗四升貳合"
   },
   {
    "field_jp": "戸數",
@@ -4307,12 +4295,6 @@
    "parsed": "41",
    "unit": "人",
    "raw": "男 四十一人"
-  },
-  {
-   "field_jp": "永",
-   "parsed": "274.867528",
-   "unit": "kanmon",
-   "raw": "永貳百七拾四貫八百六十七文五分貳厘八毛"
   }
  ],
  "yonezawa_upper_p110_left": [
@@ -4326,7 +4308,7 @@
    "field_jp": "外込高新田高改出高",
    "parsed": "28,818.872",
    "unit": "koku",
-   "raw": "外 込高新田高改出高"
+   "raw": "高貳萬八千八百拾八石八斗七升貳合"
   }
  ],
  "yonezawa_upper_p111_right": [
@@ -4608,15 +4590,15 @@
   },
   {
    "field_jp": "男",
-   "parsed": "7565",
+   "parsed": "7,565",
    "unit": "persons",
-   "raw": "男六萬四千九百七十七人"
+   "raw": "男七千五百六十五人"
   },
   {
    "field_jp": "女",
-   "parsed": "8236",
+   "parsed": "8,236",
    "unit": "persons",
-   "raw": "女六萬二千二百七十二人"
+   "raw": "女八千二百三十六人"
   },
   {
    "field_jp": "卒族",
@@ -4626,15 +4608,15 @@
   },
   {
    "field_jp": "男",
-   "parsed": "11980",
+   "parsed": "11,980",
    "unit": "persons",
-   "raw": "男六萬四千九百七十七人"
+   "raw": "男壹萬千九百八十人"
   },
   {
    "field_jp": "女",
-   "parsed": "10458",
+   "parsed": "10,458",
    "unit": "persons",
-   "raw": "女六萬二千二百七十二人"
+   "raw": "女壹萬四百五十八人"
   }
  ],
  "yoshii_upper_p117_right": [
@@ -4763,7 +4745,7 @@
    "raw": "寺院 三百四十七戸 內家來十戸"
   },
   {
-   "field_jp": "尼",
+   "field_jp": "尼戸數",
    "parsed": "3",
    "unit": "households",
    "raw": "尼 三戸"
@@ -4891,16 +4873,16 @@
    "raw": "社家千十六人"
   },
   {
-   "field_jp": "男",
+   "field_jp": "社家男",
    "parsed": "530",
    "unit": "persons",
-   "raw": "男十三萬八千七百九十八人"
+   "raw": "男五百三十人內猪熊雅夫家來二十八人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "社家女",
    "parsed": "486",
    "unit": "persons",
-   "raw": "女十二萬九千四百四十人"
+   "raw": "女四百八十六人內猪熊雅夫家來之分三十五人"
   },
   {
    "field_jp": "僧",
@@ -4909,16 +4891,16 @@
    "raw": "僧千七百十一人"
   },
   {
-   "field_jp": "男",
+   "field_jp": "僧男",
    "parsed": "1,228",
    "unit": "persons",
-   "raw": "男十三萬八千七百九十八人"
+   "raw": "男千二百二十八人內法然寺家來四十四人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "僧女",
    "parsed": "483",
    "unit": "persons",
-   "raw": "女十二萬九千四百四十人"
+   "raw": "女四百八十三人內法然寺家來之分二十三人"
   },
   {
    "field_jp": "尼",
@@ -4933,16 +4915,16 @@
    "raw": "穢多四千二百九十三人"
   },
   {
-   "field_jp": "男",
+   "field_jp": "穢多男",
    "parsed": "2,107",
    "unit": "persons",
-   "raw": "男十三萬八千七百九十八人"
+   "raw": "男二千百七人內僧十人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "穢多女",
    "parsed": "2,186",
    "unit": "persons",
-   "raw": "女十二萬九千四百四十人"
+   "raw": "女二千百八十六人內僧之分十二人"
   },
   {
    "field_jp": "非人",
@@ -4951,16 +4933,16 @@
    "raw": "非人千四百七拾九人"
   },
   {
-   "field_jp": "男",
+   "field_jp": "非人男",
    "parsed": "666",
    "unit": "persons",
-   "raw": "男十三萬八千七百九十八人"
+   "raw": "男六百六十六人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "非人女",
    "parsed": "813",
    "unit": "persons",
-   "raw": "女十二萬九千四百四十人"
+   "raw": "女八百十三人"
   },
   {
    "field_jp": "兵員",
@@ -4978,13 +4960,13 @@
    "field_jp": "兵員内訳",
    "parsed": "18",
    "unit": "persons",
-   "raw": "三百三十八人"
+   "raw": "十八人"
   },
   {
    "field_jp": "兵員内訳",
    "parsed": "1,551",
    "unit": "persons",
-   "raw": "三百三十八人"
+   "raw": "千五百五十壹人"
   },
   {
    "field_jp": "藩士",
@@ -5563,16 +5545,16 @@
    "raw": "華族　五人"
   },
   {
-   "field_jp": "女",
+   "field_jp": "華族女",
    "parsed": "3",
    "unit": "persons",
-   "raw": "女三千八百三十五人"
+   "raw": "女三人"
   },
   {
    "field_jp": "男",
    "parsed": "2",
    "unit": "persons",
-   "raw": "男三千九百三十一人"
+   "raw": "男二人"
   },
   {
    "field_jp": "社",
@@ -5601,10 +5583,10 @@
    "raw": "當高 三拾二萬五千六百六石三升七合　新田共"
   },
   {
-   "field_jp": "當高",
+   "field_jp": "內當高（中山備中守支配地）",
    "parsed": "18,652.845",
    "unit": "koku",
-   "raw": "當高 三拾二萬五千六百六石三升七合　新田共"
+   "raw": "內 高二萬石 當高一萬八千六百五十二石八斗四升五合 中山備中守支配地"
   },
   {
    "field_jp": "高",
@@ -5658,7 +5640,7 @@
    "field_jp": "金",
    "parsed": "1,346",
    "unit": "ryō",
-   "raw": "金 一萬九十兩二分鑯一萬三百十六貫七百七十二文"
+   "raw": "金 千三百四十六兩三分本鐚三百三十九文"
   }
  ],
  "hikone_lower_p098_right": [
@@ -6033,8 +6015,8 @@
    "raw": "金六千六百六拾兩三分"
   },
   {
-   "field_jp": "雜稅錢",
-   "parsed": "23633300",
+   "field_jp": "正租錢",
+   "parsed": "23,633,300",
    "unit": "mon",
    "raw": "錢貳萬三千六百三拾三貫三百文"
   },
@@ -6043,12 +6025,6 @@
    "parsed": "6,817.25",
    "unit": "ryō",
    "raw": "雜稅金六千八百拾七兩壹分"
-  },
-  {
-   "field_jp": "雜稅錢",
-   "parsed": "38605600",
-   "unit": "mon",
-   "raw": "錢貳萬三千六百三拾三貫三百文"
   },
   {
    "field_jp": "檜柾",
@@ -6414,13 +6390,13 @@
    "field_jp": "明礬",
    "parsed": "1,400",
    "unit": "",
-   "raw": "明礬石千四百斤　代壹斤…"
+   "raw": "明礬石千四百斤　代"
   },
   {
    "field_jp": "日本朱",
    "parsed": "8",
    "unit": "",
-   "raw": "日本朱八斤　代壹斤百…"
+   "raw": "日本朱八斤　代"
   },
   {
    "field_jp": "紋紙",
@@ -6572,13 +6548,13 @@
    "field_jp": "吹銅",
    "parsed": "313.950",
    "unit": "kan",
-   "raw": "同五百三拾壹貫三百匁　吹銅壹萬千斤　黑角價銅"
+   "raw": "同三百拾三貫九百五拾匁 吹銅六千五百斤 鐵代銅"
   },
   {
    "field_jp": "吹銅",
    "parsed": "175.2807",
    "unit": "kan",
-   "raw": "同五百三拾壹貫三百匁　吹銅壹萬千斤　黑角價銅"
+   "raw": "同百七拾五貫貳百八拾匁七分 吹銅三千六百貳拾九斤"
   },
   {
    "field_jp": "〆錢",
@@ -6588,9 +6564,9 @@
   },
   {
    "field_jp": "〆錢",
-   "parsed": "7813.342703",
+   "parsed": "7,813.342703",
    "unit": "kan",
-   "raw": "〆六錢六千八百七拾九貫三百拾四匁六分五厘七毛"
+   "raw": "〆六錢七千八百拾三貫三百四拾貳匁七分三毛"
   }
  ],
  "nishio_upper_p043_right": [
@@ -6682,15 +6658,15 @@
   },
   {
    "field_jp": "収納金 銭",
-   "parsed": "28871",
+   "parsed": "28,871",
    "unit": "mon",
-   "raw": "一錢貳拾八貫八百七十壹文壹り"
+   "raw": "錢貳拾八貫八百七十壹文壹リ"
   },
   {
    "field_jp": "諸税金 金",
    "parsed": "150",
    "unit": "ryō",
-   "raw": "一金百五拾兩三分"
+   "raw": "金百五拾兩三分"
   },
   {
    "field_jp": "諸税金 銭",
@@ -6818,7 +6794,7 @@
    "field_jp": "金",
    "parsed": "5,210",
    "unit": "ryō",
-   "raw": "金 三百七十兩三朱"
+   "raw": "金 五千二百十兩永九十一文"
   },
   {
    "field_jp": "戸數",
@@ -7285,16 +7261,16 @@
    "raw": "人口 千百三十人"
   },
   {
-   "field_jp": "人口男",
+   "field_jp": "卒族人口男",
    "parsed": "675",
    "unit": "persons",
-   "raw": "男五百四十四人"
+   "raw": "男六百七十五人"
   },
   {
    "field_jp": "人口女",
    "parsed": "693",
    "unit": "persons",
-   "raw": "女五百八十六人"
+   "raw": "女六百九十三人"
   },
   {
    "field_jp": "輕卒戸",
@@ -7312,13 +7288,13 @@
    "field_jp": "人口男",
    "parsed": "1,322",
    "unit": "persons",
-   "raw": "男五百四十四人"
+   "raw": "男千三百二十二人"
   },
   {
    "field_jp": "人口女",
    "parsed": "1,198",
    "unit": "persons",
-   "raw": "女五百八十六人"
+   "raw": "女千百九十八人"
   },
   {
    "field_jp": "戸數",
@@ -7336,13 +7312,13 @@
    "field_jp": "人口男",
    "parsed": "47,791",
    "unit": "persons",
-   "raw": "男五百四十四人"
+   "raw": "男四萬七千七百九十一人"
   },
   {
    "field_jp": "人口女",
    "parsed": "45,812",
    "unit": "persons",
-   "raw": "女五百八十六人"
+   "raw": "女四萬五千八百十二人"
   },
   {
    "field_jp": "穢多戸數",
@@ -7360,13 +7336,13 @@
    "field_jp": "人口男",
    "parsed": "2,434",
    "unit": "persons",
-   "raw": "男五百四十四人"
+   "raw": "男二千四百三十四人"
   },
   {
    "field_jp": "人口女",
    "parsed": "2,317",
    "unit": "persons",
-   "raw": "女五百八十六人"
+   "raw": "女二千三百十七人"
   },
   {
    "field_jp": "神社",
@@ -7555,7 +7531,7 @@
  ],
  "kawagoe_upper_p094_right": [
   {
-   "field_jp": "正租 永",
+   "field_jp": "雜稅永",
    "parsed": "446.10044",
    "unit": "kan",
    "raw": "永 四百四十六貫百文四分四厘"
@@ -7742,7 +7718,7 @@
    "field_jp": "士族人口",
    "parsed": "3,255",
    "unit": "persons",
-   "raw": "士族人口 三千二百五十五人"
+   "raw": "内士卒族人口　三千二百五十五人"
   },
   {
    "field_jp": "士族人口 男",
@@ -8000,7 +7976,7 @@
    "field_jp": "錢",
    "parsed": "345.249",
    "unit": "kan",
-   "raw": "錢貳千四拾八貫六百四拾六文"
+   "raw": "錢三百四十五貫貳百四十九文"
   },
   {
    "field_jp": "戸數",
@@ -8270,7 +8246,7 @@
    "field_jp": "平民",
    "parsed": "14,551",
    "unit": "households",
-   "raw": "平民 一萬四千五百五十一戸"
+   "raw": "平民 一萬四千五十一戸"
   },
   {
    "field_jp": "修驗",
@@ -8324,9 +8300,9 @@
   },
   {
    "field_jp": "卒族人口 女",
-   "parsed": "1540",
+   "parsed": "1,534",
    "unit": "persons",
-   "raw": "卒族 二千九百八十人 男千四百四十人 女千五百四十人"
+   "raw": "卒族 二千九百八十人 男千四百四十六人 女千五百三十四人"
   },
   {
    "field_jp": "社家人口 女",
@@ -8462,7 +8438,7 @@
    "field_jp": "兵卒 右家族 男",
    "parsed": "35,056",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "內 男三萬五千五十六人"
   },
   {
    "field_jp": "兵卒 右家族 女",
@@ -8471,52 +8447,52 @@
    "raw": "女三萬五千七百九十四人"
   },
   {
-   "field_jp": "兵卒 右家族 男",
+   "field_jp": "猿牽人員男",
    "parsed": "9",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "內 男九人"
   },
   {
-   "field_jp": "兵卒 右家族 女",
+   "field_jp": "猿牽人員女",
    "parsed": "5",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女五人"
   },
   {
    "field_jp": "兵卒 右家族 男",
-   "parsed": "22",
+   "parsed": "25",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "內 男二十五人"
   },
   {
    "field_jp": "兵卒 右家族 女",
-   "parsed": "25",
+   "parsed": "22",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女二十二人"
   },
   {
    "field_jp": "兵卒 右家族 男",
    "parsed": "209",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "內 男二百九人"
   },
   {
    "field_jp": "兵卒 右家族 女",
    "parsed": "189",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女百八十九人"
   },
   {
    "field_jp": "兵卒 右家族 男",
    "parsed": "720",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "內 男七百廿人"
   },
   {
    "field_jp": "兵卒 右家族 女",
    "parsed": "762",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女七百六十二人"
   },
   {
    "field_jp": "士族",
@@ -8528,13 +8504,13 @@
    "field_jp": "兵卒 右家族 男",
    "parsed": "263",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "男二百六十三人"
   },
   {
    "field_jp": "兵卒 右家族 女",
    "parsed": "626",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女六百二十六人"
   },
   {
    "field_jp": "卒族",
@@ -8543,16 +8519,16 @@
    "raw": "卒族 二百六十八人"
   },
   {
-   "field_jp": "兵卒 右家族 男",
+   "field_jp": "卒族右家族男",
    "parsed": "113",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "男百十三人"
   },
   {
    "field_jp": "兵卒 右家族 女",
    "parsed": "430",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女四百三十人"
   },
   {
    "field_jp": "兵卒",
@@ -8564,13 +8540,13 @@
    "field_jp": "兵卒 右家族 男",
    "parsed": "31",
    "unit": "persons",
-   "raw": "内 男三萬五千五十六人"
+   "raw": "男三十一人"
   },
   {
    "field_jp": "兵卒 右家族 女",
    "parsed": "131",
    "unit": "persons",
-   "raw": "女三萬五千七百九十四人"
+   "raw": "女百三十一人"
   }
  ],
  "nagaoka_upper_p161_left": [
@@ -8894,7 +8870,7 @@
   },
   {
    "field_jp": "知事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "知事"
   },
@@ -9462,19 +9438,19 @@
  "tsuyama_lower_p190_left": [
   {
    "field_jp": "大参事",
-   "parsed": "2",
+   "parsed": "",
    "unit": "persons",
    "raw": "大参事"
   },
   {
    "field_jp": "権大参事",
-   "parsed": "2",
+   "parsed": "",
    "unit": "persons",
    "raw": "権大参事"
   },
   {
    "field_jp": "権少参事",
-   "parsed": "11",
+   "parsed": "",
    "unit": "persons",
    "raw": "権少参事"
   },
@@ -9560,7 +9536,7 @@
   },
   {
    "field_jp": "権大参事",
-   "parsed": "4",
+   "parsed": "",
    "unit": "persons",
    "raw": "権大参事　梛野嘉平　秋田求馬　原一平　武部静藏"
   }
@@ -9592,7 +9568,7 @@
   },
   {
    "field_jp": "砲兵",
-   "parsed": "32",
+   "parsed": "",
    "unit": "guns",
    "raw": "砲兵四砲隊ト三十四人 一砲隊砲八門 頬手四 十八人 外役々附屬"
   },
@@ -9632,19 +9608,19 @@
    "field_jp": "大参事",
    "parsed": "3",
    "unit": "persons",
-   "raw": "大参事 三人"
+   "raw": "大參事 三人"
   },
   {
    "field_jp": "権大参事",
    "parsed": "3",
    "unit": "persons",
-   "raw": "権大参事 三人"
+   "raw": "權大參事 三人"
   },
   {
    "field_jp": "少参事",
    "parsed": "3",
    "unit": "persons",
-   "raw": "少参事 三人"
+   "raw": "少參事 三人"
   },
   {
    "field_jp": "歩兵",
@@ -9718,7 +9694,7 @@
   },
   {
    "field_jp": "大参事",
-   "parsed": "4",
+   "parsed": "3",
    "unit": "persons",
    "raw": "大參事　三人（四人）"
   },
@@ -9730,7 +9706,7 @@
   },
   {
    "field_jp": "少参事",
-   "parsed": "5",
+   "parsed": "7",
    "unit": "persons",
    "raw": "少參事　七人（五）"
   },
@@ -10022,37 +9998,37 @@
    "field_jp": "卒族人口（男）",
    "parsed": "14,564",
    "unit": "persons",
-   "raw": "内 男14564人"
+   "raw": "男一萬四千五百六十四人"
   },
   {
    "field_jp": "卒族人口（女）",
    "parsed": "11,441",
    "unit": "persons",
-   "raw": "女11441人"
+   "raw": "女一萬千四百四十一人"
   },
   {
    "field_jp": "神職人口（男）",
    "parsed": "2,422",
    "unit": "persons",
-   "raw": "内 男2422人"
+   "raw": "男貳千四百貳拾貳人"
   },
   {
    "field_jp": "神職人口（女）",
    "parsed": "1,630",
    "unit": "persons",
-   "raw": "女1630人"
+   "raw": "女千六百三十人"
   },
   {
    "field_jp": "僧徒人口（男）",
    "parsed": "1,948",
    "unit": "persons",
-   "raw": "内 男1948人"
+   "raw": "内 男千九百四十八人"
   },
   {
    "field_jp": "僧徒人口（女）",
    "parsed": "51",
    "unit": "persons",
-   "raw": "女51人"
+   "raw": "女五十一人"
   },
   {
    "field_jp": "皮多人口（男）",
@@ -10064,7 +10040,7 @@
    "field_jp": "皮多人口（女）",
    "parsed": "10,280",
    "unit": "persons",
-   "raw": "女10280人"
+   "raw": "女壹萬貳百八十人"
   }
  ],
  "obama_upper_p067_left": [
@@ -10574,19 +10550,19 @@
  "otawara_lower_p161_right": [
   {
    "field_jp": "知事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "知事"
   },
   {
    "field_jp": "大参事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "大參事"
   },
   {
    "field_jp": "権大参事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "權大參事"
   },
@@ -11502,9 +11478,9 @@
   },
   {
    "field_jp": "権大参事",
-   "parsed": "3",
+   "parsed": "1",
    "unit": "persons",
-   "raw": "権大参事 三人"
+   "raw": "權大參事　一人（一の右に小字 三）"
   },
   {
    "field_jp": "少参事",
@@ -14548,15 +14524,15 @@
   },
   {
    "field_jp": "社務人男",
-   "parsed": "1879",
+   "parsed": "1,870",
    "unit": "persons",
-   "raw": "男千八百七拾九人"
+   "raw": "男千八百七拾人"
   },
   {
    "field_jp": "社務人女",
-   "parsed": "1340",
+   "parsed": "1,349",
    "unit": "persons",
-   "raw": "女千三百四拾人"
+   "raw": "女千三百四拾九人"
   },
   {
    "field_jp": "僧",
@@ -29052,9 +29028,9 @@
   },
   {
    "field_jp": "外藩士社寺地方渡置改増高",
-   "parsed": "2509.36841",
+   "parsed": "2,509.36841",
    "unit": "koku",
-   "raw": "貳千五百九石三斗六升八合四勺壹才　藩士社寺ヘ地方ニテ渡置候分改増高"
+   "raw": "貳千五百九石三斗六升八合四壹 藩士社寺ヘ地方ニ / テ渡置候分改增高"
   },
   {
    "field_jp": "合高",
@@ -33232,7 +33208,7 @@
   },
   {
    "field_jp": "飯田藩官員名高原七兵衞",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "高原七兵衞"
   },
@@ -33244,7 +33220,7 @@
   },
   {
    "field_jp": "知事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "知事　安藤從五位"
   },
@@ -33264,7 +33240,7 @@
    "field_jp": "權大參事加茂下仲治",
    "parsed": "1",
    "unit": "persons",
-   "raw": "一二權大參事　加茂下仲治"
+   "raw": "一ニ權大參事 / 加茂下仲治"
   },
   {
    "field_jp": "權大參事村上一",
@@ -33480,7 +33456,7 @@
   },
   {
    "field_jp": "小參事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "人（富岡一・長屋保次郎・五十嵐來）",
    "raw": "小參事　富岡一　長屋保次郎　五十嵐來"
   },
@@ -33518,7 +33494,7 @@
    "field_jp": "一二大參事",
    "parsed": "1",
    "unit": "人（中村甚兵衛）",
-   "raw": "一二大參事　中村甚兵衛"
+   "raw": "一ニ大參事 中村甚兵衞"
   },
   {
    "field_jp": "權大參事",
@@ -33622,7 +33598,7 @@
   },
   {
    "field_jp": "泉藩小參事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "小參事 龜田橘章 瀧川大伴一正 山内藤原山彦"
   },
@@ -33826,7 +33802,7 @@
   },
   {
    "field_jp": "岩村田兵隊",
-   "parsed": "94",
+   "parsed": "2",
    "unit": "persons",
    "raw": "兵隊　二小隊（士四十三人　卒五十一人）"
   },
@@ -34232,7 +34208,7 @@
   },
   {
    "field_jp": "兵隊",
-   "parsed": "85",
+   "parsed": "",
    "unit": "persons",
    "raw": "兵隊　士三十七人　卒四十八人"
   },
@@ -34588,7 +34564,7 @@
   },
   {
    "field_jp": "鳥羽大参事",
-   "parsed": "0",
+   "parsed": "",
    "unit": "persons",
    "raw": "大參事　（欠）"
   },
@@ -35422,7 +35398,7 @@
   },
   {
    "field_jp": "知事",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "知事"
   },
@@ -35780,7 +35756,7 @@
   },
   {
    "field_jp": "鹿島権大参事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "權大参事　永野恪一　清水協一　嬉野一齋"
   }
@@ -35832,13 +35808,13 @@
   },
   {
    "field_jp": "少参事",
-   "parsed": "0",
+   "parsed": "",
    "unit": "員 (vacant — 欠)",
    "raw": "少参事"
   },
   {
    "field_jp": "欠",
-   "parsed": "0",
+   "parsed": "",
    "unit": "員 (vacant)",
    "raw": "欠"
   },
@@ -36746,7 +36722,7 @@
   },
   {
    "field_jp": "田原藩兵隊",
-   "parsed": "3",
+   "parsed": "",
    "unit": "小隊 (platoons)",
    "raw": "兵隊　士卒隊　二小隊　農卒隊　一小隊"
   }
@@ -37124,13 +37100,13 @@
   },
   {
    "field_jp": "参政",
-   "parsed": "7",
+   "parsed": "",
    "unit": "persons",
    "raw": "參政　大野　束・戸川忠右衞門・原　三右衞門・大槻彌左衞門・柴田　津司馬・平野岩之丞・西　市太郎"
   },
   {
    "field_jp": "公議人",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "公議人　笠間英之進"
   }
@@ -37486,7 +37462,7 @@
   },
   {
    "field_jp": "成羽藩大參事",
-   "parsed": "3",
+   "parsed": "1",
    "unit": "人",
    "raw": "大參事　一人（三人）"
   },
@@ -37498,7 +37474,7 @@
   },
   {
    "field_jp": "成羽藩少參事",
-   "parsed": "4",
+   "parsed": "1",
    "unit": "人",
    "raw": "少參事　一人（四）"
   },
@@ -37630,7 +37606,7 @@
   },
   {
    "field_jp": "執政",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "﹁執政　山口旬　山口誠　會美四郎"
   },
@@ -37672,7 +37648,7 @@
   },
   {
    "field_jp": "少參事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "少參事　野尻傳八　青木又　小川傳右衞門"
   },
@@ -38130,7 +38106,7 @@
   },
   {
    "field_jp": "矢島藩少參事",
-   "parsed": "5",
+   "parsed": "1",
    "unit": "人",
    "raw": "少參事　一人（五人）"
   },
@@ -38290,7 +38266,7 @@
   },
   {
    "field_jp": "松代藩砲兵（今闕）",
-   "parsed": "0",
+   "parsed": "",
    "unit": "persons",
    "raw": "砲兵今闕"
   },
@@ -38486,7 +38462,7 @@
  "maruoka_lower_p211_left": [
   {
    "field_jp": "舞鶴權少參事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "權少參事"
   },
@@ -38564,7 +38540,7 @@
   },
   {
    "field_jp": "丸岡權少參事",
-   "parsed": "4",
+   "parsed": "",
    "unit": "persons",
    "raw": "權少參事"
   },
@@ -38818,7 +38794,7 @@
   },
   {
    "field_jp": "少參事",
-   "parsed": "6",
+   "parsed": "7",
    "unit": "persons",
    "raw": "少參事　七人（六人）"
   },
@@ -38836,13 +38812,13 @@
   },
   {
    "field_jp": "權大參事牧野年二郎",
-   "parsed": "1",
+   "parsed": "",
    "unit": "person",
    "raw": "牧野年二郎"
   },
   {
    "field_jp": "權大參事平井四郎左衞門",
-   "parsed": "1",
+   "parsed": "",
    "unit": "person",
    "raw": "平井四郎左衞門"
   },
@@ -39362,7 +39338,7 @@
   },
   {
    "field_jp": "少参事",
-   "parsed": "6",
+   "parsed": "2",
    "unit": "persons",
    "raw": "少參事　二人（六人）"
   },
@@ -39618,7 +39594,7 @@
   },
   {
    "field_jp": "菰野少參事",
-   "parsed": "4",
+   "parsed": "2",
    "unit": "persons",
    "raw": "少參事　（四人）二人"
   },
@@ -39682,7 +39658,7 @@
   },
   {
    "field_jp": "少参事",
-   "parsed": "9",
+   "parsed": "5",
    "unit": "persons",
    "raw": "少參事　五員（九員）"
   },
@@ -39982,7 +39958,7 @@
   },
   {
    "field_jp": "礮兵",
-   "parsed": "96",
+   "parsed": "",
    "unit": "人",
    "raw": "礮兵二隊一隊四十八人"
   }
@@ -40100,13 +40076,13 @@
   },
   {
    "field_jp": "富永兎毛",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "富永兎毛"
   },
   {
    "field_jp": "向坂晉",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "向坂晉"
   },
@@ -40242,7 +40218,7 @@
  "sakurai_lower_p230_left": [
   {
    "field_jp": "佐貫藩権少参事",
-   "parsed": "3",
+   "parsed": "",
    "unit": "persons",
    "raw": "權少參事"
   },
@@ -40254,13 +40230,13 @@
   },
   {
    "field_jp": "櫻井藩大参事",
-   "parsed": "2",
+   "parsed": "",
    "unit": "persons",
    "raw": "大參事"
   },
   {
    "field_jp": "櫻井藩少参事",
-   "parsed": "2",
+   "parsed": "",
    "unit": "persons",
    "raw": "少參事"
   },
@@ -40320,7 +40296,7 @@
   },
   {
    "field_jp": "佐貫藩権少参事石井孫八郎",
-   "parsed": "1",
+   "parsed": "",
    "unit": "person",
    "raw": "石井孫八郎"
   },
@@ -40402,7 +40378,7 @@
   },
   {
    "field_jp": "岸和田權少參事",
-   "parsed": "2",
+   "parsed": "1",
    "unit": "persons",
    "raw": "權少參事　一人（二人）"
   },
@@ -40432,7 +40408,7 @@
   },
   {
    "field_jp": "菊間大參事",
-   "parsed": "1",
+   "parsed": "2",
    "unit": "persons",
    "raw": "大參事　二人（一人）"
   },
@@ -40444,7 +40420,7 @@
   },
   {
    "field_jp": "菊間少參事",
-   "parsed": "4",
+   "parsed": "1",
    "unit": "persons",
    "raw": "少參事　一人（四人）"
   },
@@ -40484,7 +40460,7 @@
   },
   {
    "field_jp": "杵築卒族隊",
-   "parsed": "200",
+   "parsed": "",
    "unit": "persons",
    "raw": "卒族隊　五小隊　同斷"
   },
@@ -40758,7 +40734,7 @@
   },
   {
    "field_jp": "峰山大參事三上宗左衞門",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "三上宗左衞門"
   },
@@ -40788,7 +40764,7 @@
   },
   {
    "field_jp": "峰山權大參事四人目辻八太郎",
-   "parsed": "1",
+   "parsed": "",
    "unit": "persons",
    "raw": "辻八太郎"
   }
@@ -40796,7 +40772,7 @@
  "miyagawa_lower_p237_right": [
   {
    "field_jp": "宮川權大參事",
-   "parsed": "3",
+   "parsed": "1",
    "unit": "persons",
    "raw": "權大參事　一人　三人"
   },
@@ -41098,7 +41074,7 @@
   },
   {
    "field_jp": "久居内銃手十小隊",
-   "parsed": "480",
+   "parsed": "",
    "unit": "人",
    "raw": "内銃手十小隊　但一小隊四十八人"
   },
@@ -41326,7 +41302,7 @@
   },
   {
    "field_jp": "森正權大參事",
-   "parsed": "0",
+   "parsed": "",
    "unit": "persons",
    "raw": "正權大參事"
   },
@@ -41338,7 +41314,7 @@
   },
   {
    "field_jp": "森兵制",
-   "parsed": "164",
+   "parsed": "",
    "unit": "persons",
    "raw": "兵制　三小隊〈毎隊兵卒四十人　監軍一人〉　大銃一隊〈人員同斷〉"
   },
@@ -44268,7 +44244,7 @@
   },
   {
    "field_jp": "穢多非人無之（今尾藩分）",
-   "parsed": "0",
+   "parsed": "",
    "unit": "persons",
    "raw": "穢多非人無之"
   },
@@ -44476,7 +44452,7 @@
   },
   {
    "field_jp": "新田高",
-   "parsed": "537.76404",
+   "parsed": "",
    "unit": "koku",
    "raw": "新田高　五百三拾七石七升六升四合四才"
   },
@@ -45024,7 +45000,7 @@
   },
   {
    "field_jp": "本高租額",
-   "parsed": "22,573.77235",
+   "parsed": "21,050",
    "unit": "koku (石)",
    "raw": "租額　貳萬千五拾石幷叚米口米千五百貳拾三石七斗七升貳合三勺五才"
   },
@@ -48456,7 +48432,7 @@
   },
   {
    "field_jp": "社人人口",
-   "parsed": "82",
+   "parsed": "",
    "unit": "人",
    "raw": "同人口男四十八人女三十四人"
   }
@@ -49716,7 +49692,7 @@
   },
   {
    "field_jp": "込高新田改出",
-   "parsed": "5,360.68506",
+   "parsed": "5,360.00006",
    "unit": "koku",
    "raw": "込高新田改出　五千三百六十石六才（斗八升五合六才）"
   },
@@ -51118,9 +51094,9 @@
   },
   {
    "field_jp": "非人人口女（大多喜藩分）",
-   "parsed": "36",
+   "parsed": "",
    "unit": "persons",
-   "raw": "女三十六人"
+   "raw": "女十三六人"
   },
   {
    "field_jp": "穢多人口",
@@ -51938,7 +51914,7 @@
   },
   {
    "field_jp": "柳條隊",
-   "parsed": "1",
+   "parsed": "",
    "unit": "military company",
    "raw": "柳條隊"
   },
@@ -54852,9 +54828,9 @@
   },
   {
    "field_jp": "尼僧",
-   "parsed": "22",
+   "parsed": "21",
    "unit": "persons",
-   "raw": "尼僧　二十二人"
+   "raw": "尼僧二十一人"
   },
   {
    "field_jp": "兵士",
@@ -56156,7 +56132,7 @@
   },
   {
    "field_jp": "小國鄉",
-   "parsed": "4",
+   "parsed": "",
    "unit": "村 (villages, plus one 鄉)",
    "raw": "小國鄉　鮎貝村　荒砥村　中山村　糖野目村"
   },
@@ -60624,7 +60600,7 @@
   },
   {
    "field_jp": "雜稅",
-   "parsed": "7.25",
+   "parsed": "",
    "unit": "kan",
    "raw": "雜稅　永七貫貳軒五拾文"
   },
@@ -63400,7 +63376,7 @@
   },
   {
    "field_jp": "寺院人員",
-   "parsed": "106",
+   "parsed": "",
    "unit": "persons",
    "raw": "人員　僧七十七人　坊守十一人　女十四人　下男四人"
   },
@@ -63412,7 +63388,7 @@
   },
   {
    "field_jp": "修驗院人員",
-   "parsed": "26",
+   "parsed": "",
    "unit": "persons",
    "raw": "人員　修驗九人　男八人　女九人"
   },
@@ -64214,7 +64190,7 @@
   },
   {
    "field_jp": "庵男",
-   "parsed": "0",
+   "parsed": "",
    "unit": "人 (persons)",
    "raw": "男"
   },
@@ -64484,15 +64460,15 @@
   },
   {
    "field_jp": "永拾ノ分",
-   "parsed": "1286.3961",
+   "parsed": "1,286.3961",
    "unit": "koku",
-   "raw": "永拾ノ分　千二百八十六石三斗九升六合壹勺"
+   "raw": "永捨ノ分 千二百八十六石三斗九升六合壹勺"
   },
   {
    "field_jp": "當拾ノ分",
-   "parsed": "1612.7813",
+   "parsed": "1,612.7813",
    "unit": "koku",
-   "raw": "當拾ノ分　千六百十二石七斗八升一合三勺"
+   "raw": "當捨ノ分 千六百十二石七斗八升一合三勺"
   },
   {
    "field_jp": "残高",
@@ -71488,7 +71464,7 @@
   },
   {
    "field_jp": "軍艦等 不所持（久留米藩分）",
-   "parsed": "0",
+   "parsed": "",
    "unit": "ships",
    "raw": "軍艦等　不所持"
   },
@@ -72732,9 +72708,9 @@
   },
   {
    "field_jp": "朱書此米",
-   "parsed": "19.24052",
+   "parsed": "18.24052",
    "unit": "koku",
-   "raw": "此米十九石二斗四升五勺貳才"
+   "raw": "此米十八石二斗四升五勺貳才"
   },
   {
    "field_jp": "都合",
@@ -72880,7 +72856,7 @@
   },
   {
    "field_jp": "改出新田幷畑田直増高",
-   "parsed": "1823.7055",
+   "parsed": "1,823",
    "unit": "koku",
    "raw": "改出新田幷ニ畑田直増高共千八百二十三石"
   },
@@ -74960,7 +74936,7 @@
   },
   {
    "field_jp": "社寺領",
-   "parsed": "0",
+   "parsed": "",
    "unit": "石",
    "raw": "社寺領無之"
   },
@@ -76374,7 +76350,7 @@
   },
   {
    "field_jp": "村數",
-   "parsed": "249",
+   "parsed": "",
    "unit": "villages",
    "raw": "筑七拾ヶ村／安百七拾九ヶ村"
   },
@@ -84582,21 +84558,21 @@
  "lower_p061_left": [
   {
    "field_jp": "藩卒　男",
-   "parsed": "676",
+   "parsed": "679",
    "unit": "persons",
-   "raw": "男六百七十六人"
+   "raw": "男六百七十九人"
   },
   {
    "field_jp": "藩卒　女",
-   "parsed": "679",
+   "parsed": "676",
    "unit": "persons",
-   "raw": "女六百七十九人"
+   "raw": "女六百七十六人"
   },
   {
    "field_jp": "倍卒　男",
-   "parsed": "12",
+   "parsed": "10",
    "unit": "persons",
-   "raw": "男十二人"
+   "raw": "男十人"
   },
   {
    "field_jp": "倍卒　女",
@@ -84606,15 +84582,15 @@
   },
   {
    "field_jp": "社家　男",
-   "parsed": "257",
+   "parsed": "254",
    "unit": "persons",
-   "raw": "男二百五十七人"
+   "raw": "男二百五十四人"
   },
   {
    "field_jp": "社家　女",
-   "parsed": "244",
+   "parsed": "247",
    "unit": "persons",
-   "raw": "女二百四十四人"
+   "raw": "女二百四十七人"
   },
   {
    "field_jp": "淸僧",
@@ -84793,7 +84769,7 @@
    "raw": "女五十六人"
   },
   {
-   "field_jp": "寺院人員",
+   "field_jp": "寺院",
    "parsed": "38",
    "unit": "temples",
    "raw": "寺院 三十八ヶ寺 人員"
@@ -85806,9 +85782,9 @@
   },
   {
    "field_jp": "戸數",
-   "parsed": "1,790",
+   "parsed": "1,709",
    "unit": "households",
-   "raw": "戸數　千七百九十軒"
+   "raw": "戸數　千七百九軒"
   },
   {
    "field_jp": "人口",
@@ -86048,9 +86024,9 @@
   },
   {
    "field_jp": "寺人男内僧",
-   "parsed": "3,916",
+   "parsed": "3,096",
    "unit": "persons",
-   "raw": "內僧三千九百十六人"
+   "raw": "內僧三千九十六人"
   },
   {
    "field_jp": "寺人男内僧内穢僧",

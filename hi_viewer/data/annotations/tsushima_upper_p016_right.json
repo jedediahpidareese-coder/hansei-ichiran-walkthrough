@@ -133,7 +133,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Pepper: 3,100 kin; [代 = appraised value follows]. (MASTER field 胡椒, raw 三千百斤 = 3100 — verified.)"
+        "value": "Pepper: 3,100 kin; [代 = appraised value follows]."
       },
       {
         "purpose": "identifying",
@@ -163,7 +163,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sappanwood (dyewood): 7,005 kin; appraised value (代) per 1 kin [rate]. (MASTER field 丹木, raw 七千五斤 = 7005 — verified.)"
+        "value": "Sappanwood (dyewood): 7,005 kin; appraised value (代) per 1 kin [rate]."
       },
       {
         "purpose": "identifying",
@@ -185,19 +185,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "明礬石千四百斤　代壹斤…"
+        "value": "明礬石千四百斤　代"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "明礬 石千四百斤 代 一斤…／みょうばん 1400きん…"
+        "value": "明礬石　千四百斤　代／みょうばんせき　1400きん　だい"
       },
       {
         "purpose": "english_translation",
-        "value": "Alum: 1,400 kin; appraised value (代) per 1 kin [rate]."
+        "value": "Alum stone (明礬石): 1,400 kin, followed by 代 (appraised value). The price per kin is printed below this box, in the lower part of the same column, and has its own box."
       },
       {
         "purpose": "identifying",
-        "value": "明礬（嚴原）"
+        "value": "明礬"
       }
     ],
     "target": {
@@ -205,7 +205,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1413,1890,79,609"
+        "value": "xywh=pixel:1413,1890,79,664"
       }
     }
   },
@@ -215,19 +215,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "日本朱八斤　代壹斤百…"
+        "value": "日本朱八斤　代"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "日本朱 八斤 代 一斤 百…／にほんしゅ 8きん だい 1きん…"
+        "value": "日本朱　八斤　代／にほんしゅ　8きん　だい"
       },
       {
         "purpose": "english_translation",
-        "value": "Japanese vermilion (cinnabar): 8 kin; appraised value (代) per 1 kin [rate]."
+        "value": "Japanese vermilion (nihon-shu): 8 kin, followed by 代 (appraised value). The price per kin is printed below this box, in the lower part of the same column, and has its own box."
       },
       {
         "purpose": "identifying",
-        "value": "日本朱（嚴原）"
+        "value": "日本朱"
       }
     ],
     "target": {

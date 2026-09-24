@@ -103,11 +103,11 @@
       },
       {
         "purpose": "english_translation",
-        "value": "First miscellaneous-tax column. 同 ('ditto', i.e. also reckoned in 金/money): 22,279 ryō and 650 mon. By far the largest single tax figure on the page."
+        "value": "同 ('ditto', i.e. also reckoned in 金, money, like the column to its right): 20,279 ryō and 650 mon (永, eisen). The column stands to the right of the 雜稅 heading, which is printed at the head of the rice column to its left, so it belongs to the regular land tax (正租) that begins in the last column of the preceding page. That group runs 米, 金, 同, in the same order as the three miscellaneous-tax columns 米, 金, 同 that follow."
       },
       {
         "purpose": "identifying",
-        "value": "雜税 同"
+        "value": "正租 同"
       }
     ],
     "target": {
@@ -476,6 +476,36 @@
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
         "value": "xywh=pixel:374,1113,64,914"
+      }
+    }
+  },
+  {
+    "id": "anno-nakatsu_taxes_demographics-16",
+    "type": "Annotation",
+    "body": [
+      {
+        "purpose": "transcribing",
+        "value": "同六百八拾五兩永三百五拾文"
+      },
+      {
+        "purpose": "modern_jp_reading",
+        "value": "同（金）六百八十五両 永（えい）三百五十文"
+      },
+      {
+        "purpose": "english_translation",
+        "value": "同 ('ditto', i.e. also reckoned in 金, money): 685 ryō and 350 mon (永, eisen). The third column of the miscellaneous taxes (雜税), after the rice and the first money column."
+      },
+      {
+        "purpose": "identifying",
+        "value": "雜税 同"
+      }
+    ],
+    "target": {
+      "source": "images/upper_p159_right.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1443,1397,86,1118"
       }
     }
   }

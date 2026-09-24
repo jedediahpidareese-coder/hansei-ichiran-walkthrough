@@ -251,7 +251,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "A second household/population sub-block printed within Satsuma's entry (households ≈ 13,513), following the Ryūkyū tribute column — apparently a Ryūkyū-administration count. Not separately carried in the analytic dataset."
+        "value": "A second household and population block printed in Satsuma's appendix (附録), after the Ryūkyū tax-rice column: households = 13,513, followed in small type by 但前惣計之內 ('included within the preceding grand total'). The page does not name the group these figures count."
       },
       {
         "purpose": "identifying",
@@ -281,7 +281,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Population of that sub-block ≈ 72,703 (male / female sub-totals below). Not separately carried in the analytic dataset."
+        "value": "Population of that sub-block = 72,703 (male and female sub-totals printed below)."
       },
       {
         "purpose": "identifying",
@@ -303,15 +303,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "士分以上戸數 壹萬五百五十八戸（前同断）"
+        "value": "士分以上戸數 壹萬百五十八戸 前同斷"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "士分以上 戸数（しぶんいじょう こすう）一万五百五十八戸"
+        "value": "士分以上 戸数（しぶんいじょう こすう）一万百五十八戸　前同断（ぜんどうだん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Of which: households of samurai rank and above (士分以上) ≈ 10,558, annotated 前同断 ('as before') — the gentry portion of the preceding sub-block. Not separately carried in the analytic dataset."
+        "value": "Households of samurai rank and above (士分以上) = 10,158, annotated 前同斷 ('same as the preceding'), which repeats the note printed after the 13,513 households two columns to the right: 但前惣計之內, 'included within the preceding grand total'."
       },
       {
         "purpose": "identifying",
@@ -337,11 +337,11 @@
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "同 人口（どう じんこう）五万千七百一人"
+        "value": "同 人口（どう じんこう）五万千七百五十一人"
       },
       {
         "purpose": "english_translation",
-        "value": "Population of the samurai-and-above (士分以上) sub-block = 51,751. Not separately carried in the analytic dataset."
+        "value": "Population of the samurai-and-above (士分以上) sub-block = 51,751 (male and female sub-totals printed below)."
       },
       {
         "purpose": "identifying",
@@ -423,15 +423,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男 四十六萬九千四百六十八人"
+        "value": "男四十八萬九千四百六十人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "男（だん）四十六万九千四百六十八人"
+        "value": "男（だん）四十八万九千四百六十人"
       },
       {
         "purpose": "english_translation",
-        "value": "Total population — male = 469,468."
+        "value": "Total population — male = 489,460."
       },
       {
         "purpose": "extracted_value",
@@ -447,7 +447,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1849,2120,52,843"
+        "value": "xywh=pixel:1845,2149,59,817"
       }
     }
   },
@@ -457,15 +457,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女 四十二萬七千三百四十人"
+        "value": "女四十萬七千三百四十八人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女（じょ）四十二万七千三百四十人"
+        "value": "女（じょ）四十万七千三百四十八人"
       },
       {
         "purpose": "english_translation",
-        "value": "Total population — female = 427,340."
+        "value": "Total population — female = 407,348."
       },
       {
         "purpose": "extracted_value",
@@ -481,7 +481,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1790,2120,49,843"
+        "value": "xywh=pixel:1782,2149,62,817"
       }
     }
   },
@@ -559,15 +559,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "男 三十萬五千四百四十七人"
+        "value": "男三十萬五千四百四十八人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "男（だん）三十万五千四百四十七人"
+        "value": "男（だん）三十万五千四百四十八人"
       },
       {
         "purpose": "english_translation",
-        "value": "Ashigaru-and-below population — male = 305,447."
+        "value": "Ashigaru-and-below population — male = 305,448."
       },
       {
         "purpose": "extracted_value",
@@ -583,7 +583,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1306,2330,48,797"
+        "value": "xywh=pixel:1302,2312,62,816"
       }
     }
   },
@@ -593,15 +593,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女 二十七萬三千九百五十八人"
+        "value": "女二十七萬三千九百五十七人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "女（じょ）二十七万三千九百五十八人"
+        "value": "女（じょ）二十七万三千九百五十七人"
       },
       {
         "purpose": "english_translation",
-        "value": "Ashigaru-and-below population — female = 273,958."
+        "value": "Ashigaru-and-below population — female = 273,957."
       },
       {
         "purpose": "extracted_value",
@@ -617,7 +617,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1248,2330,48,865"
+        "value": "xywh=pixel:1235,2312,66,885"
       }
     }
   },

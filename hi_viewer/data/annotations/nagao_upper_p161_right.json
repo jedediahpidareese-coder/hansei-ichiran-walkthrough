@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Running header / provenance: Han System Overview Table, Fascicle 4 (Nagao). NOTE: reads 長尾 (Nagao), NOT 長岡 (Nagaoka) as the MASTER prep file labels this page."
+        "value": "Running header: Table of Domain Institutions (藩制一覧表), Fascicle 4 (Nagao, 長尾). It records provenance, not data."
       },
       {
         "purpose": "identifying",
@@ -95,19 +95,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "內 男三萬五千五十六人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち おとこ さんまんごせんごじゅうろくにん（35,056人）"
+        "value": "内 男三万五千五十六人（うち おとこ さんまんごせんごじゅうろくにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Total population, of which male: 35,056 persons"
+        "value": "Total population (人員), of which male: 35,056 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "人員男"
       }
     ],
     "target": {
@@ -185,19 +185,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "內 男九人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち おとこ きゅうにん（9人）"
+        "value": "内 男九人（うち おとこ きゅうにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Monkey-showmen, of which male: 9 persons"
+        "value": "Monkey-trainers (sarubiki, 猿牽), of which male: 9 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "猿牽人員男"
       }
     ],
     "target": {
@@ -215,19 +215,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女五人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな ごにん（5人）"
+        "value": "女五人（おんな ごにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Monkey-showmen, of which female: 5 persons"
+        "value": "Monkey-trainers (sarubiki, 猿牽), of which female: 5 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "猿牽人員女"
       }
     ],
     "target": {
@@ -235,7 +235,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1655,2316,56,119"
+        "value": "xywh=pixel:1707,2089,56,196"
       }
     }
   },
@@ -253,7 +253,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Chori (outcaste constables/leaders): 7 households, population 47 persons (male 22 / female 25)"
+        "value": "Chōri (outcaste headmen): 7 households, population 47 persons (male 25 / female 22)."
       },
       {
         "purpose": "identifying",
@@ -275,19 +275,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "內 男二十五人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち おとこ にじゅうににん（22人）"
+        "value": "内 男二十五人（うち おとこ にじゅうごにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Chori, of which male: 22 persons"
+        "value": "Chōri (outcaste headmen, 長吏), of which male: 25 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "長吏人員男"
       }
     ],
     "target": {
@@ -295,7 +295,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1628,2012,24,492"
+        "value": "xywh=pixel:1627,2175,59,335"
       }
     }
   },
@@ -305,19 +305,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女二十二人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな にじゅうごにん（25人）"
+        "value": "女二十二人（おんな にじゅうににん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Chori, of which female: 25 persons"
+        "value": "Chōri (outcaste headmen, 長吏), of which female: 22 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "長吏人員女"
       }
     ],
     "target": {
@@ -325,7 +325,7 @@
       "selector": {
         "type": "FragmentSelector",
         "conformsTo": "http://www.w3.org/TR/media-frags/",
-        "value": "xywh=pixel:1573,2012,55,493"
+        "value": "xywh=pixel:1568,2175,59,335"
       }
     }
   },
@@ -343,7 +343,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto (shrine) households: 89 households, population 398 persons (male 209 / female 189). NOTE: MASTER records male 199 / female 199, which is WRONG — the scan reads 男二百九人 / 女百八十九人 (209 + 189 = 398)."
+        "value": "Shrine-priest families (shake): 89 households, population 398 persons (male 209 / female 189, in the sub-columns below)."
       },
       {
         "purpose": "identifying",
@@ -365,19 +365,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "內 男二百九人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち おとこ にひゃくきゅうにん（209人）"
+        "value": "内 男二百九人（うち おとこ にひゃくきゅうにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto households, of which male: 209 persons (MASTER's 199 is a misread)"
+        "value": "Shrine-priest families (shake, 社家), of which male: 209 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "社家人員男"
       }
     ],
     "target": {
@@ -395,19 +395,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女百八十九人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな ひゃくはちじゅうきゅうにん（189人）"
+        "value": "女百八十九人（おんな ひゃくはちじゅうきゅうにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Shinto households, of which female: 189 persons (MASTER's 199 is a misread)"
+        "value": "Shrine-priest families (shake, 社家), of which female: 189 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "社家人員女"
       }
     ],
     "target": {
@@ -485,19 +485,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "內 男七百廿人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "うち おとこ ななひゃくにじゅうにん（720人）"
+        "value": "内 男七百二十人（うち おとこ ななひゃくにじゅうにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Temple-land peasants, of which male: 720 persons"
+        "value": "Temple-land peasants (寺領百姓), of which male: 720 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "寺領百姓人員男"
       }
     ],
     "target": {
@@ -515,19 +515,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女七百六十二人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな ななひゃくろくじゅうににん（762人）"
+        "value": "女七百六十二人（おんな ななひゃくろくじゅうににん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Temple-land peasants, of which female: 762 persons"
+        "value": "Temple-land peasants (寺領百姓), of which female: 762 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "寺領百姓人員女"
       }
     ],
     "target": {
@@ -553,7 +553,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (former samurai): 310 persons. NOTE: the value ends in 人 (persons), not 軒 (households); MASTER's unit 'households' is incorrect. Dependents boxed as the adjacent 右家族 field."
+        "value": "Shizoku (former samurai): 310 persons. Their families are given in the 右家族 columns to the left."
       },
       {
         "purpose": "identifying",
@@ -605,19 +605,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "男二百六十三人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おとこ にひゃくろくじゅうさんにん（263人）"
+        "value": "男二百六十三人（おとこ にひゃくろくじゅうさんにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku dependents, of which male: 263 persons"
+        "value": "Families of the shizoku (士族 右家族), male: 263 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "士族右家族男"
       }
     ],
     "target": {
@@ -635,19 +635,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女六百二十六人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな ろっぴゃくにじゅうろくにん（626人）"
+        "value": "女六百二十六人（おんな ろっぴゃくにじゅうろくにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku dependents, of which female: 626 persons"
+        "value": "Families of the shizoku (士族 右家族), female: 626 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "士族右家族女"
       }
     ],
     "target": {
@@ -673,7 +673,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu (lower retainers): 268 persons. NOTE: the value ends in 人 (persons), not 軒 (households); MASTER's unit 'households' is incorrect. Dependents boxed as the adjacent 右家族 field."
+        "value": "Sotsu (lower retainers): 268 persons. Their families are given in the 右家族 columns to the left."
       },
       {
         "purpose": "identifying",
@@ -725,19 +725,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "男百十三人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おとこ ひゃくじゅうさんにん（113人）"
+        "value": "男百十三人（おとこ ひゃくじゅうさんにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu dependents, of which male: 113 persons"
+        "value": "Families of the sotsu (卒族 右家族), male: 113 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 男"
+        "value": "卒族右家族男"
       }
     ],
     "target": {
@@ -755,19 +755,19 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女四百三十人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな よんひゃくさんじゅうにん（430人）"
+        "value": "女四百三十人（おんな よんひゃくさんじゅうにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu dependents, of which female: 430 persons"
+        "value": "Families of the sotsu (卒族 右家族), female: 430 persons"
       },
       {
         "purpose": "identifying",
-        "value": "兵卒 右家族 女"
+        "value": "卒族右家族女"
       }
     ],
     "target": {
@@ -845,15 +845,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "内 男三萬五千五十六人"
+        "value": "男三十一人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おとこ さんじゅういちにん（31人）"
+        "value": "男三十一人（おとこ さんじゅういちにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Soldier dependents, of which male: 31 persons"
+        "value": "Families of the soldiers (兵卒 右家族), male: 31 persons"
       },
       {
         "purpose": "identifying",
@@ -875,15 +875,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "女三萬五千七百九十四人"
+        "value": "女百三十一人"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "おんな ひゃくさんじゅういちにん（131人）"
+        "value": "女百三十一人（おんな ひゃくさんじゅういちにん）"
       },
       {
         "purpose": "english_translation",
-        "value": "Soldier dependents, of which female: 131 persons"
+        "value": "Families of the soldiers (兵卒 右家族), female: 131 persons"
       },
       {
         "purpose": "identifying",

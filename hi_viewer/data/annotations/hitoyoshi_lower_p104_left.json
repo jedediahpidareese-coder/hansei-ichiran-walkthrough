@@ -133,7 +133,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Supplementary yield (soto/hoka): 35,446 koku 9 to 0 shō 8 gō 3 shaku (= 35,446.9083; the shō place is zero). Note: komidaka (added assessed increments) plus shinden (newly-opened field) yield. NOTE: the project dataset's 35,446.90803 carries a phantom place; the print reads 三勺 (35,446.9083)."
+        "value": "Supplementary yield (soto/hoka): 35,446 koku 9 to 0 shō 8 gō 3 shaku (= 35,446.9083; the shō place is zero). Note: komidaka (added assessed increments) plus shinden (newly-opened field) yield."
       },
       {
         "purpose": "identifying",
@@ -185,15 +185,15 @@
     "body": [
       {
         "purpose": "transcribing",
-        "value": "貳千五百九石三斗六升八合四勺壹才　藩士社寺ヘ地方ニテ渡置候分改増高"
+        "value": "貳千五百九石三斗六升八合四壹 藩士社寺ヘ地方ニ / テ渡置候分改增高"
       },
       {
         "purpose": "modern_jp_reading",
-        "value": "外（ほか）二千五百九石三斗六升八合四勺一才　藩士・社寺へ地方にて渡し置き候分、改め増高（はんし・しゃじ へ じかた にて わたしおきそうろう ぶん、あらため ぞうだか）"
+        "value": "外（ほか）二千五百九石三斗六升八合四一（勺・才の字は無し）　藩士・社寺へ地方にて渡し置き候分、改め増高（はんし・しゃじ へ じかた にて わたしおきそうろう ぶん、あらため ぞうだか）"
       },
       {
         "purpose": "english_translation",
-        "value": "Supplementary yield: 2,509 koku 3 to 6 shō 8 gō 4 shaku 1 sai (= 2,509.36841). Note (warichu): the portion granted as land (jikata) to domain retainers (hanshi) and shrines/temples (shaji), reclassified as increase-yield (zōdaka). NOTE: the dataset's 2,509.3684 drops the closing 壹才; the print and the assessed-yield net require 2,509.36841."
+        "value": "Supplementary yield: 2,509 koku 3 to 6 shō 8 gō, followed by the numerals 四 and 壹 with no 勺 or 才 unit glyph after them. Read as 4 shaku 1 sai, the figure is 2,509.36841 koku, and with it the 草高 of 22,100 and the three supplementary figures add to the printed 合高 of 63,419.33486 koku. Note (warichu): the portion granted as land (jikata) to domain retainers (hanshi) and shrines/temples (shaji), reclassified as increase-yield (zōdaka)."
       },
       {
         "purpose": "identifying",
@@ -223,7 +223,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total assessed yield (gōdaka): 63,419 koku 3 to 3 shō 4 gō 8 shaku 6 sai (= 63,419.33486). Arithmetic check exact: 草高 22,100 + 外 35,446.9083 + 外 3,363.05815 + 外 2,509.36841 = 63,419.33486. NOTE: the project dataset's 63,419.3408 is wrong (its raw string was garbled '…八勺九才六才'); the correct value is 63,419.33486."
+        "value": "Total assessed yield (gōdaka): 63,419 koku 3 to 3 shō 4 gō 8 shaku 6 sai (= 63,419.33486). Arithmetic check exact: 草高 22,100 + 外 35,446.9083 + 外 3,363.05815 + 外 2,509.36841 = 63,419.33486."
       },
       {
         "purpose": "identifying",
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Regular land-tax rice (ten-year average): 23,995 koku 5 to 7 shō 3 gō 5 shaku 6 sai (= 23,995.57356). NOTE: the project dataset records 23,895.97356 (八百…九斗); single-glyph inspection shows 九百 (995) and 五斗 (.5…), and Hitoyoshi's own 正租高 entry on the next page (p105R) reads 二萬三千九百九十五石五斗七升三合五勺六才 — independently confirming 23,995.57356."
+        "value": "Regular land-tax rice (ten-year average): 23,995 koku 5 to 7 shō 3 gō 5 shaku 6 sai (= 23,995.57356). Hitoyoshi's 正租高 entry on the next page prints the same figure, 貳萬三千九百九十五石五斗七升三合五勺六才."
       },
       {
         "purpose": "identifying",
@@ -313,7 +313,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Soybean tax (ten-year average): 1,179 koku 6 to 2 shō 7 gō 5 shaku 1 sai (= 1,179.62751). Matches the project dataset exactly."
+        "value": "Soybean tax (ten-year average): 1,179 koku 6 to 2 shō 7 gō 5 shaku 1 sai (= 1,179.62751)."
       },
       {
         "purpose": "identifying",
