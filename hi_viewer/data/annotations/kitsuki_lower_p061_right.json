@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Residual rice: 19,885.6211 koku. The figure is the arithmetic remainder of the previous book page: page 97 prints 正租 米貳萬百貳拾四石貳斗八升四合四勺 (20,124.2844) less 内 米貳百三十八石六斗六升三合三勺 (238.6633), and 20,124.2844 − 238.6633 = 19,885.6211 exactly. (MASTER parses this same raw string as 19885.62211 — a spurious fifth decimal; the printed sub-units are only 六斗貳升壹合壹勺 = .6211.)"
+        "value": "Residual rice: 19,885.6211 koku. The figure is the arithmetic remainder of the previous book page: page 97 prints 正租 米貳萬百貳拾四石貳斗八升四合四勺 (20,124.2844) less 内 米貳百三十八石六斗六升三合三勺 (238.6633), and 20,124.2844 − 238.6633 = 19,885.6211 exactly. The printed sub-koku units are 六斗貳升壹合壹勺 (.6211)."
       },
       {
         "purpose": "identifying",
@@ -223,7 +223,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Domain sotsu, the lower-rank retainer stratum: 300 households. MASTER records 5 for this field; the scan plainly reads 三百戸, and the household sum only closes on 12,251 with 300 here — MASTER's 5 belongs to the adjacent 倍卒 column. The next book page (99) gives this group 男六百七十九人・女六百七十六人 = 1,355 persons, which is exactly analytic_wide's sotsu_persons for Kitsuki and implies 4.5 persons per household across 300 households; 1,355 persons in 5 households would be impossible."
+        "value": "Domain sotsu, the lower-rank retainer stratum: 300 households. With 300 here, the ten status sub-counts sum exactly to the 12,251 total. The next book page (99) gives this group 男六百七十九人・女六百七十六人 = 1,355 persons, about 4.5 persons per household."
       },
       {
         "purpose": "identifying",
@@ -253,7 +253,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "\"Baisotsu\" (attendant / sub-sotsu): 5 households. A small マヽ (mama, \"sic\") stands beside 倍 — the compiler marking the graph as it appears in the manuscript, apparently an error for 陪卒. Absent from MASTER, but required for the household total to close."
+        "value": "\"Baisotsu\" (attendant / sub-sotsu): 5 households. A small マヽ (mama, \"sic\") stands beside 倍 — the compiler marking the graph as it appears in the manuscript, apparently an error for 陪卒. The ten status sub-counts sum to the 12,251 total only with these 5 households included."
       },
       {
         "purpose": "identifying",
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shrine households (shake — hereditary Shinto priestly families): 115 households. Absent from MASTER."
+        "value": "Shrine households (shake — hereditary Shinto priestly families): 115 households."
       },
       {
         "purpose": "identifying",
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Farmers: 10,771 households — 88 percent of the domain's 12,251 households. Absent from MASTER."
+        "value": "Farmers: 10,771 households — 88 percent of the domain's 12,251 households."
       },
       {
         "purpose": "identifying",
@@ -463,7 +463,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Merchants: 487 households. Absent from MASTER. This is the last of the ten status sub-counts; they sum to exactly 12,251."
+        "value": "Merchants: 487 households. This is the last of the ten status sub-counts; they sum to exactly 12,251."
       },
       {
         "purpose": "identifying",

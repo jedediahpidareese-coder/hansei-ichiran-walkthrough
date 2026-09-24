@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Infantry: 5 shōtai (platoons). The smaller gloss 一隊六十人 (set in visibly smaller type, ~48px wide against ~64px for the main run) gives the establishment as 60 men per platoon, i.e. 300 troops in all. MASTER records only the 60-man per-platoon gloss as the value, which understates Miharu's infantry fivefold."
+        "value": "Infantry: 5 shōtai (platoons). The smaller gloss 一隊六十人 (set in visibly smaller type than the main run) gives the establishment as 60 men per platoon, i.e. 300 troops in all. The 60 is the per-platoon figure, not Miharu's infantry total."
       },
       {
         "purpose": "identifying",
@@ -163,7 +163,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu (lower retainers): 459 households, population 1,137. The scan reads 千百三十七 — glyph segmentation shows 千, then 百, with no 三 between them. MASTER's 千三百三十七 (1,337) is a misreading: only 1,137 satisfies both 630 + 507 = 1,137 and 1,587 + 1,137 = 2,724, the aggregate p071R gives for Miharu. Note that the sotsu households (459) slightly outnumber the shizoku households (445) while their population is markedly smaller — sotsu houses were smaller."
+        "value": "Sotsu (lower retainers): 459 households, population 1,137. The page reads 千百三十七 — 千, then 百, with no 三 between them. The male and female figures sum to this total (630 + 507 = 1,137), and 1,587 shizoku + 1,137 sotsu = 2,724, the aggregate p071R gives for Miharu. Note that the sotsu households (459) slightly outnumber the shizoku households (445) while their population is markedly smaller — sotsu houses were smaller."
       },
       {
         "purpose": "identifying",
@@ -223,7 +223,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Female sotsu: 507. Five glyphs — 女五百七人, with no 十 between 七 and 人. MASTER's raw value 女五百七十人 (570) is wrong, though MASTER's own stray viewer row 卒族(女)=507 had it right; 630 + 507 = 1,137 matches the printed total. The sotsu sex ratio (630 M : 507 F) is markedly more male-skewed than the shizoku's (783 M : 804 F)."
+        "value": "Female sotsu: 507. Five glyphs — 女五百七人, with no 十 between 七 and 人. 630 + 507 = 1,137 matches the printed total. The sotsu sex ratio (630 M : 507 F) is markedly more male-skewed than the shizoku's (783 M : 804 F)."
       },
       {
         "purpose": "identifying",
@@ -253,7 +253,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Juryōdaka ('amount received'): 20 koku — Miharu's last field, printed in plain numerals (二十石, not MASTER's 貳拾石). OWNERSHIP: it sits at x2048-2117, right of the ○宮津藩 marker (x1900-1987), so by the right-to-left rule it is Miharu's; MASTER assigns it to Miyazu. Its indent (top at y1186, one register below the y~1016 top-level fields) matches the previous domain's trailing 當高 sub-fields that print right of the ○三春藩 marker on p070L at y1184/y1186 — the same right-of-marker overflow pattern. The comparison that settles it is 母里藩 (p114L, same fascicle): there 受領高 opens the domain's own entry, prints immediately LEFT of its ○母里藩 marker, and equals that domain's own rating (10,000 koku). Miyazu's entry instead opens with 草高 to the left of its marker and contains no 受領高 at all, so the field on the right of the marker cannot be Miyazu's. Elsewhere in HI the field marks grants to religious houses (鶴牧藩 ○受領高 二十五石二斗 壹社 'one shrine'; 足利藩 寺院受領高 232.846), which fits a sum this small against Miharu's scale."
+        "value": "Juryōdaka ('amount received'): 20 koku — Miharu's last field, printed in plain numerals (二十石). It stands to the right of the ○宮津藩 marker, so by the right-to-left rule it is Miharu's. It is set one register below the top-level fields, like the previous domain's trailing 當高 sub-fields that print right of the ○三春藩 marker on p070L — the same right-of-marker overflow pattern. In 母里藩 (p114L, same fascicle), 受領高 opens the domain's own entry, prints immediately LEFT of its ○母里藩 marker, and equals that domain's own rating (10,000 koku). Miyazu's entry instead opens with 草高 to the left of its marker and contains no 受領高 at all, so the field on the right of the marker cannot be Miyazu's. Elsewhere in the survey the field marks grants to religious houses (鶴牧藩 ○受領高 二十五石二斗 壹社 'one shrine'; 足利藩 寺院受領高 232.836), which fits a sum this small against Miharu's scale."
       },
       {
         "purpose": "identifying",
@@ -343,7 +343,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Kusadaka (gross assessed yield): 70,718.194 koku. It resolves exactly against the two columns to its left: 高 70,000 + 新田改出高 718.194 = 70,718.194 ✓. Printed with the formal 拾 in 拾八 but the plain 一斗 (MASTER transcribes 壹斗). Miyazu's new-field increment is strikingly small — only ~1% above the formal rating, unlike heavy-reclamation domains such as Saga."
+        "value": "Kusadaka (gross assessed yield): 70,718.194 koku. It resolves exactly against the two columns to its left: 高 70,000 + 新田改出高 718.194 = 70,718.194. Printed with the formal 拾 in 拾八 but the plain 一斗. Miyazu's new-field increment is strikingly small — only ~1% above the formal rating, unlike heavy-reclamation domains such as Saga."
       },
       {
         "purpose": "identifying",
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "5,402.784 koku deducted for permanently waste land (永荒地) and kuwashita remission on newly-broken ground (鍬下引) — the two terms printed as a two-column warichu, with 五ヶ年平均 (five-year average) below at full width. This is the first and much the larger of the two deductions under 内. MASTER records this row as 70,718.194 koku, a duplication of the 草高 that is arithmetically impossible: it would make the deductions (70,845.267) exceed the gross yield and drive the remainder negative. The printed figure is 五千四百二石七斗八升四合, and 5,402.784 + 127.073 = 5,529.857 = the 合 ✓."
+        "value": "5,402.784 koku deducted for permanently waste land (永荒地) and kuwashita remission on newly-broken ground (鍬下引) — the two terms printed as a two-column warichu, with 五ヶ年平均 (five-year average) below at full width. This is the first and much the larger of the two deductions under 内. The printed figure is 五千四百二石七斗八升四合, and 5,402.784 + 127.073 = 5,529.857, the figure printed as the 合."
       },
       {
         "purpose": "identifying",

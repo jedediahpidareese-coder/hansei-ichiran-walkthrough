@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of which, paddy-field (tagata) yield: 5,694.4276 koku. The 田方 qualifier prints at the foot of the same column. MASTER's parsed_value 5694.42776 carries a spurious extra 7; the printed string parses to 5,694.4276, which is what makes the components sum to the 高 total."
+        "value": "Of which, paddy-field (tagata) yield: 5,694.4276 koku. The 田方 qualifier prints at the foot of the same column. At 5,694.4276 koku, the two components sum exactly to the 高 total."
       },
       {
         "purpose": "identifying",
@@ -103,7 +103,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of which, upland-field (hatakegata) yield: 4,515.0919 koku (同 = 'ditto', i.e. 高). Arithmetic check: 5,694.4276 + 4,515.0919 = 10,209.5195, matching the printed 高 exactly. SCAN CORRECTS MASTER, which reads 二勺九才 (4,515.09129) and fails the sum by 0.00061 koku; the glyphs after 壹合 are 九勺 with nothing following."
+        "value": "Of which, upland-field (hatakegata) yield: 4,515.0919 koku (同 = 'ditto', i.e. 高). Arithmetic check: 5,694.4276 + 4,515.0919 = 10,209.5195, matching the printed 高 exactly. The glyphs after 壹合 are 九勺 with nothing following."
       },
       {
         "purpose": "identifying",
@@ -163,7 +163,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Average land tax in rice: 1,788.40984 koku (= 31.4% of the 5,694.4276-koku paddy assessment). The 升 place is skipped, so it reads 4 to, 0 shō, 9 gō, 8 shaku, 4 sai. SCAN CORRECTS MASTER, which reads 千七百八拾石 (1,780.40984), dropping the 八 before 石; at 8x the sequence 八拾八石 is unambiguous, and the column segments into 16 glyph positions, not 15."
+        "value": "Average land tax in rice: 1,788.40984 koku (= 31.4% of the 5,694.4276-koku paddy assessment). The 升 place is skipped, so it reads 4 to, 0 shō, 9 gō, 8 shaku, 4 sai. The sequence 八拾八石 is unambiguous, giving 1,788 whole koku."
       },
       {
         "purpose": "identifying",
@@ -193,7 +193,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Average land tax in eiraku cash (ei): 102 kan 926.8623 mon = 102.9268623 kan. The 分/厘/毛/糸 are sub-divisions of 文 (1 mon = 10 bu = 100 rin = 1,000 mō = 10,000 shi). MASTER records 102.92686, truncating at the 厘 place."
+        "value": "Average land tax in eiraku cash (ei): 102 kan 926.8623 mon = 102.9268623 kan. The 分/厘/毛/糸 are sub-divisions of 文 (1 mon = 10 bu = 100 rin = 1,000 mō = 10,000 shi)."
       },
       {
         "purpose": "identifying",

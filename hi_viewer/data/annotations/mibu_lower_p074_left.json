@@ -73,7 +73,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of the 84 clergy, 75 are male. The RIGHT sub-column of the 内 split under 僧 (male right, female left), ink x2492-2541, sharing its top y1771 with the female run: 男(1773-1816) 七(1840-1883) 十(1906-1953) 五(1979-2019) 人(2045-2091). The 七 shows the horizontal-plus-hooked-vertical, distinguishing it from 九. 75 + 9 = 84 ✓. MASTER reads 男九十五人, which is impossible against an 84 total; the scan is unambiguous at single-character zoom."
+        "value": "Of the 84 clergy, 75 are male. This is the right-hand sub-column of the 内 split under 僧 (male right, female left); its top is level with the female run. The 七 shows the horizontal stroke and hooked vertical that distinguish it from 九. 75 + 9 = 84 ✓."
       },
       {
         "purpose": "identifying",
@@ -193,7 +193,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shugen (yamabushi mountain ascetics): 6 households, population 25. Two-glyph label 修(1016-1078) 驗(1100-1161) sits at the top right of the column (x2074-2143); the value runs slightly left of it (x2056-2135): 六(1268-1328, projection splits its 亠 lid from the 八 base) 戸(1353-1413), then 人(1522-1579) 口(1613-1660) 二(1697-1742) 十(1774-1833) 五(1860-1915) 人(1939-1999). Population validated by the split below: 男十一人 + 女十四人 = 25 ✓. Parsed as households to match MASTER's convention for this field."
+        "value": "Shugen (yamabushi mountain ascetics): 6 households, population 25. The two-glyph label 修驗 sits at the top right of the column, and the value runs slightly to its left. The split below gives 男十一人 + 女十四人 = 25 ✓."
       },
       {
         "purpose": "identifying",
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Gong-beaters (itinerant nenbutsu mendicants who beat a small 鉦): 6 households, population 10. Label 鉦(1017-1072) 打(1102-1159); value 六(1267-1327) 戸(1353-1413), then exactly FOUR glyphs 人(1520-1579) 口(1611-1659) 十(1690-1747) 人(1773-1829). MASTER reads 人口十八人; the scan has no 八 — compare the parallel 修驗 column, whose six-glyph 人口二十五人 runs to y1999 while this one ends at y1829, and the 十 here is a plain cross with no slanted top stroke. The split below confirms it: 男七人 + 女三人 = 10 ✓. Parsed as households per MASTER's convention."
+        "value": "Gong-beaters (itinerant nenbutsu mendicants who beat a small 鉦): 6 households, population 10. The population figure is exactly four glyphs, 人口十人, and ends well above the six-glyph 人口二十五人 of the parallel 修驗 column; the 十 is a plain cross with no slanted top stroke. The split below gives 男七人 + 女三人 = 10 ✓."
       },
       {
         "purpose": "identifying",
@@ -343,7 +343,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of the 10 gong-beater household people, 3 are female. LEFT sub-column of the 内 split under 鉦打, ink x1898-1948, shared top y1856: 女 三(three clean horizontals) 人. MASTER's main 鉦打 row reads 女十一人 — that is actually the 修驗 column's MALE value, apparently mis-carried; MASTER's separate 「鉦打 女」row (3) agrees with the scan. 3 + 7 = 10 ✓."
+        "value": "Of the 10 gong-beater household people, 3 are female. This is the left-hand sub-column of the 内 split under 鉦打, level at the top with the male run: 女, 三 (three clean horizontals), 人. 3 + 7 = 10 ✓."
       },
       {
         "purpose": "identifying",
@@ -583,7 +583,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Main land tax (shōso), rice component: 7,498.10954 koku. 正租 is the group label (正 y1096-1151, 租 y1180-1235) heading both this column and the 大豆 column to its left. Value: 米(1348-1406) 七(1430-1490) 千(1516-1572) 四(1601-1655) 百(1683-1743) 九(1767-1826) 十(1851-1911) 八(1937-1991) 石(2019-2077) 一(2124-2135) 斗(2182-2243) 九(2272-2329) 合(2354-2415) 五(2441-2495) 勺(2522-2584) 四(2610-2664) 才(2691-2749). The 升 place is SKIPPED (= 0), so 7498 + 0.1 + 0.009 + 0.0005 + 0.00004; order stays descending ✓. Agrees with MASTER."
+        "value": "Main land tax (shōso), rice component: 7,498.10954 koku. 正租 is the group label heading both this column and the 大豆 column to its left. The 升 place is skipped (= 0), so the figure is 7,498 + 0.1 + 0.009 + 0.0005 + 0.00004 koku."
       },
       {
         "purpose": "identifying",
@@ -613,7 +613,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Main land tax (正租), soybean component: 1,397.8906 koku. The column carries no label of its own — 正租 heads the 米 column to its right and governs both. Value: 大(1344-1403) 豆(1431-1486) 千(1515-1570) 三(1600-1652) 百(1681-1742) 九(1766-1827) 十(1848-1907) 七(1931-1992) 石(2017-2075) 八(2099-2153) 斗(2180-2241) 九(2268-2326) 升(2356-2415) 六(2438-2497) 勺(2523-2586). The 合 place is SKIPPED (= 0), so 1397 + 0.8 + 0.09 + 0.0006. MASTER's raw string matches but its parse (1397.89006) puts the 6 in the 才 place: the final glyph is 勺, identical in shape to and at the same y as the 五勺 of the 正租米 column (y2522-2584), and 正租米 then has one MORE glyph (四才, y2691-2749) that this column does not. So 六勺 = 0.0006 and the value is 1,397.8906."
+        "value": "Main land tax (正租), soybean component: 1,397.8906 koku. The column has no label of its own: 正租 heads the 米 column to its right and governs both. The 合 place is skipped (= 0), so the figure is 1,397 + 0.8 + 0.09 + 0.0006 koku. The final glyph is 勺, identical in shape to the 五勺 of the rice column and level with it; the rice column then has one more glyph, 四才, which this column lacks. So 六勺 = 0.0006 koku."
       },
       {
         "purpose": "identifying",
@@ -643,7 +643,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Running header (柱) in the leaf's left/outer margin: 'Domain Survey, Fascicle 7 (Mikazuki)'. Provenance, not data. Glyphs 藩(y1262-1309) 制(1313-1357) 一(1382-1389) 覽(1415-1461) 表(1465-1511) 第(1518-1563) 七(1570-1612) ︵(1671-1694) 三(1701-1738) 日(1750-1792) 月(1801-1844) ︶(1849-1871). Note the header names 三日月, the domain that merely OPENS on this leaf, while most of the page is Mibu's tail — a textbook case of the header naming a different domain than the page's main data. Confirms table_number 7, matching MASTER."
+        "value": "Running header (柱) in the leaf's left/outer margin: 'Domain Survey, Fascicle 7 (Mikazuki)'. It is provenance, not data. The header names 三日月, the domain that only opens on this leaf, while most of the page is the end of Mibu's entry."
       },
       {
         "purpose": "identifying",

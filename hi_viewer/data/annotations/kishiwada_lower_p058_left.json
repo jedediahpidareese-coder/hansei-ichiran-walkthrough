@@ -43,7 +43,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Regular land tax, paid in rice: 29,099.633 koku, averaged (see the 平均 heading to the right). Against the 合高 of 59,028.3232 koku printed on the facing recto this is a headline rate of about 49%. IMPORTANT: the page prints 正稅 — at 8x the second label glyph is 禾+兌 (丷 over 口 over 儿), the very same glyph MASTER transcribes as 稅 in the adjacent 雜稅 row. MASTER records this field as 正租; the scan does not support that reading."
+        "value": "Regular land tax, paid in rice: 29,099.633 koku, averaged (see the 平均 heading to the right). Against the 合高 of 59,028.3232 koku printed on the facing recto this is a headline rate of about 49%. The label is printed 正稅: its second glyph is 禾+兌 (丷 over 口 over 儿), the same glyph as the 稅 of the adjacent 雜稅 column."
       },
       {
         "purpose": "identifying",
@@ -193,7 +193,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku (former samurai) households: 552. The printed label is the bare 士族 — unlike the 卒戸數 and 平民戸數 columns further left, this one does not spell out 戸數 — but the counter 軒 ('houses') fixes it as a household count, with the 人員 column immediately to its left giving the matching persons. MASTER transcribes the final digit as 貳; the page prints the plain 二 (the value 552 is unaffected)."
+        "value": "Shizoku (former samurai) households: 552. The printed label is the bare 士族 — unlike the 卒戸數 and 平民戸數 columns further left, this one does not spell out 戸數 — but the counter 軒 ('houses') shows it is a household count, and the 人員 column immediately to its left gives the matching persons. The final digit is printed as the plain 二."
       },
       {
         "purpose": "identifying",
@@ -223,7 +223,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku population: 2,212 persons living in the 552 households of the column to the right — about 4.0 persons per house. The 内 introduces the split boxed below: 男千七拾五人 / 女千百三十七人 = 1,075 + 1,137 = 2,212, an exact reconciliation. This is the one demographic split on the page that MASTER records correctly."
+        "value": "Shizoku population: 2,212 persons living in the 552 households of the column to the right — about 4.0 persons per house. The 内 introduces the split boxed below: 男千七拾五人 / 女千百三十七人 = 1,075 + 1,137 = 2,212, which equals the total exactly."
       },
       {
         "purpose": "identifying",
@@ -253,7 +253,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku males: 1,075. The RIGHT-hand run of the 内 split (6 glyphs), sharing its top row with 女千百三十七人 to its left. 1,075 + 1,137 = 2,212, matching the 人員 total. Agrees with MASTER."
+        "value": "Shizoku males: 1,075. The RIGHT-hand run of the 内 split (6 glyphs), sharing its top row with 女千百三十七人 to its left. 1,075 + 1,137 = 2,212, matching the 人員 total."
       },
       {
         "purpose": "identifying",
@@ -283,7 +283,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shizoku females: 1,137. The LEFT-hand run of the 内 split and the longer of the pair (7 glyphs, running lower than the male run beside it). 1,137 + 1,075 = 2,212, matching the 人員 total. Agrees with MASTER."
+        "value": "Shizoku females: 1,137. The LEFT-hand run of the 内 split and the longer of the pair (7 glyphs, running lower than the male run beside it). 1,137 + 1,075 = 2,212, matching the 人員 total."
       },
       {
         "purpose": "identifying",
@@ -343,7 +343,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu population: 2,393 persons across the 851 households to the right — about 2.8 per house, notably smaller than the shizoku figure of 4.0. The 内 introduces the split boxed below: 男千三百十八人 / 女千七十五人 = 1,318 + 1,075 = 2,393. MASTER has this split's male and female values CROSSED (see the two boxes below)."
+        "value": "Sotsu population: 2,393 persons across the 851 households to the right — about 2.8 per house, smaller than the shizoku figure of 4.0. The 内 introduces the split boxed below: 男千三百十八人 / 女千七十五人 = 1,318 + 1,075 = 2,393."
       },
       {
         "purpose": "identifying",
@@ -373,7 +373,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu males: 1,318 — the RIGHT-hand run of the 内 split, as 男 always is in HI. MASTER records 男千七拾八人 (1,078) here, which is wrong. Because MASTER's pair also sums to 2,393, arithmetic alone cannot adjudicate; glyph counts do. This run measurably holds 7 glyphs (男千三百十八人), whereas MASTER's 1,078 would need only 6 — so its value cannot sit in this run. Read at 5x: 千 has the slanted top stroke, 十 is a plain cross, and the last two glyphs are 八 (strokes separate and splayed) then 人 (strokes touching at the apex)."
+        "value": "Sotsu males: 1,318 — the RIGHT-hand run of the 内 split, as 男 always is in HI. The run has 7 glyphs (男千三百十八人): 千 has the slanted top stroke, 十 is a plain cross, and the last two glyphs are 八 (strokes separate and splayed) then 人 (strokes touching at the apex)."
       },
       {
         "purpose": "identifying",
@@ -403,7 +403,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Sotsu females: 1,075 — the LEFT-hand run of the 内 split, as 女 always is in HI. MASTER records 女千三百十五人 (1,315) here, which is wrong: this run measurably holds only 6 glyphs, while MASTER's value would need 7. 1,318 + 1,075 = 2,393, reconciling with the printed 人員 total."
+        "value": "Sotsu females: 1,075 — the LEFT-hand run of the 内 split, as 女 always is in HI. The run has 6 glyphs (女千七十五人). 1,318 + 1,075 = 2,393, which equals the printed 人員 total."
       },
       {
         "purpose": "identifying",
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Villages: 93. The page prints the formal 拾 (hand radical 扌 + 合), verified at 7x; MASTER transcribes the plain 十 (the value 93 is unaffected). No counter glyph follows the number in this column."
+        "value": "Villages: 93. The page prints the formal 拾 (hand radical 扌 + 合). No counter glyph follows the number in this column."
       },
       {
         "purpose": "identifying",
@@ -493,7 +493,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Commoner population: 58,748 persons across 12,459 households — about 4.7 per house. This is the bulk of the domain: with 華族 8, 士族 2,212 and 卒 2,393 the page totals 63,361 people. The 内 introduces the split boxed below: 男貳萬九千三十三人 / 女貳萬九千七百十五人 = 29,033 + 29,715 = 58,748. MASTER has this split's male and female values CROSSED (see the two boxes below)."
+        "value": "Commoner population: 58,748 persons across 12,459 households — about 4.7 per house. This is the bulk of the domain: with 華族 8, 士族 2,212 and 卒 2,393 the page totals 63,361 people. The 内 introduces the split boxed below: 男貳萬九千三十三人 / 女貳萬九千七百十五人 = 29,033 + 29,715 = 58,748."
       },
       {
         "purpose": "identifying",
@@ -523,7 +523,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Commoner males: 29,033 — the RIGHT-hand run of the 内 split. MASTER records 男貳萬九千七百拾三人 (29,713) here, which is wrong. As with the sotsu split, MASTER's pair also sums to 58,748, so only glyph counts decide: this run measurably holds 9 glyphs (男貳萬九千三十三人), while MASTER's 29,713 would need 10. Read at 5x the tail is 三 十 三 人, and the run visibly ends higher than the female run beside it."
+        "value": "Commoner males: 29,033 — the RIGHT-hand run of the 内 split. The run has 9 glyphs (男貳萬九千三十三人); its tail is 三 十 三 人, and it ends higher than the female run beside it."
       },
       {
         "purpose": "identifying",
@@ -553,7 +553,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Commoner females: 29,715 — the LEFT-hand run of the 内 split and the longer of the pair (10 glyphs, running lower than the male run). MASTER records 女貳萬九千三十五人 (29,035) here, which is wrong: that value would need only 9 glyphs. 29,033 + 29,715 = 58,748, reconciling with the printed 人員 total. Females slightly outnumber males among commoners, the reverse of the sotsu pattern on this page."
+        "value": "Commoner females: 29,715 — the LEFT-hand run of the 内 split and the longer of the pair (10 glyphs, running lower than the male run). 29,033 + 29,715 = 58,748, which equals the printed 人員 total. Females slightly outnumber males among commoners, the reverse of the sotsu pattern on this page."
       },
       {
         "purpose": "identifying",
@@ -643,7 +643,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "An editorial note in five small-type columns, read right to left, set high above the table body. （原朱）marks the passage as written in vermilion ink in the manuscript original — an interpolation, not a printed table field, which is why it is boxed as a note rather than as data. It records the domain's Shinto shrine-priest households: 社家 17 households, 50 persons, of whom 35 male; the female count (15 by subtraction) is not printed. The final item is indented one glyph below the first two and wraps across the last two columns (男子三十 | 五人). These counts are not among MASTER's twelve rows for this page."
+        "value": "An editorial note in five small-type columns, read right to left, set high above the table body. （原朱）marks the passage as written in vermilion ink in the manuscript original — an interpolation, not a printed table field, which is why it is boxed as a note rather than as data. It records the domain's Shinto shrine-priest households: 社家 17 households, 50 persons, of whom 35 male; the female count (15 by subtraction) is not printed. The final item is indented one glyph below the first two and wraps across the last two columns (男子三十 | 五人)."
       },
       {
         "purpose": "identifying",
@@ -673,7 +673,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Running header: 'Han Institutions Overview Table, Fascicle 6 (Kishiwada)'. 第六 is the FASCICLE number of the nine-fascicle 1869–70 Dajōkan survey — a provenance pointer, not a data theme. The header's parenthetical domain name can disagree with the data on a page, but here it agrees: this verso carries Kishiwada only. The page prints the kyūjitai 覽 (MASTER normalises to 覧)."
+        "value": "Running header: 'Han Institutions Overview Table, Fascicle 6 (Kishiwada)'. 第六 is the FASCICLE number of the nine-fascicle 1869–70 Dajōkan survey — a provenance pointer, not a data theme. The header's parenthetical domain name can disagree with the data on a page, but here it agrees: this verso has Kishiwada's entry only. The page prints the kyūjitai 覽."
       },
       {
         "purpose": "identifying",

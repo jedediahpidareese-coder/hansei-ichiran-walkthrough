@@ -193,7 +193,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Structural marker: 'besides / in addition'. Printed one glyph-step lower than the field labels, it closes the 内 ('of which') list of groups counted INSIDE the commoner population and opens the registers counted OUTSIDE it — the 鉦打 and 穢多 households that follow to its left. MASTER folds this glyph into its field label as '外 鉦打戸數'; it is boxed separately here because it scopes both following registers, not just one."
+        "value": "Structural marker: 'besides / in addition'. Printed one glyph-step lower than the field labels, it closes the 内 ('of which') list of groups counted INSIDE the commoner population and opens the registers counted OUTSIDE it — the 鉦打 and 穢多 households that follow to its left. It applies to both of these registers, not only to 鉦打."
       },
       {
         "purpose": "identifying",
@@ -313,7 +313,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Eta (穢多, hereditary outcaste) households = 60, persons = 278 (男 146 + 女 132 = 278 ✓) — about 4.6 persons per household, the larger of the two registers recorded under 外. MASTER ERROR: MASTER assigns this 278-person figure and its M/F split to 士卒戸數 instead, and gives 穢多戸數 the value '六十軒 人員百三十三人 士族' — the '百三十三人 士族' is actually 百三十三軒 士族, a household count printed four columns to the left in the 士卒 breakdown. On the scan 人員 貳百七十八人 sits unambiguously in this column (x 1881–2006)."
+        "value": "Eta (穢多, hereditary outcaste) households = 60, persons = 278 (男 146 + 女 132 = 278 ✓) — about 4.6 persons per household, the larger of the two registers recorded under 外. The figure 人員 貳百七十八人 is printed in this column."
       },
       {
         "purpose": "identifying",
@@ -403,7 +403,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Shi-sotsu (samurai + lower-retainer) households = 231, written with the formal numerals 貳百三拾壹 (拾 carries the 扌 hand radical; 壹 is the formal 1). The 内 breakdown immediately to the left itemises them as 133 shizoku + 74 sotsu + 24 under house-arrest = 231 ✓. MASTER ERROR: MASTER appends '人員 貳百七十八人 内男百四十六人女百三十貳人' to this field — that population belongs to 穢多戸數, the column to the RIGHT. This column prints the household count only and is blank below y≈1882."
+        "value": "Shi-sotsu (samurai + lower-retainer) households = 231, written with the formal numerals 貳百三拾壹 (拾 has the 扌 hand radical; 壹 is the formal 1). The 内 breakdown immediately to the left itemises them as 133 shizoku + 74 sotsu + 24 under house-arrest = 231 ✓. This column prints the household count only and is blank below it."
       },
       {
         "purpose": "identifying",
@@ -433,7 +433,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Of the 231 shi-sotsu households, 133 are shizoku (former samurai). The count is printed in the upper register with its category label 士族 below it in the lower register of the same column — the value-above / label-below convention used throughout this page. MASTER has no row for this figure; it instead appears, garbled, inside MASTER's 穢多戸數 and 謹愼ノ者 value strings."
+        "value": "Of the 231 shi-sotsu households, 133 are shizoku (former samurai). The count is printed in the upper register with its category label 士族 below it in the lower register of the same column — the value-above / label-below convention used throughout this page."
       },
       {
         "purpose": "identifying",
@@ -523,7 +523,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Persons in the 231 shi-sotsu households = 950 (≈4.1 per household). The status lines that break this total down reconcile exactly: 士族妻子 613 (男 289 + 女 324, printed on this page) + 卒族同斷 256 (男 144 + 女 112) + 謹愼同斷 81 (男 40 + 女 41) = 950 ✓. The latter two print on p068R to the right of the ○湯長谷藩 marker and therefore still belong to Yūki. MASTER ERROR: MASTER conflates this entry with the 士族妻子 pair into a single row, '人員 (士族妻子) = 九百五十人 男貳百八拾九人 女三百貳十四人'. They are two distinct entries a full column apart — 289 + 324 = 613, not 950 — and the M/F pair carries no 内 marker, so it is not a split of this total."
+        "value": "Persons in the 231 shi-sotsu households = 950 (≈4.1 per household). The status lines that break this total down reconcile exactly: 士族妻子 613 (男 289 + 女 324, printed on this page) + 卒族同斷 256 (男 144 + 女 112) + 謹愼同斷 81 (男 40 + 女 41) = 950 ✓. The latter two are printed on the next page (printed page 112), to the right of the ○湯長谷藩 marker, and therefore still belong to Yūki. The 士族妻子 pair (289 + 324 = 613) is a separate entry a full column away, not a split of this total; it has no 内 marker."
       },
       {
         "purpose": "identifying",

@@ -23,7 +23,7 @@ let currentLang = 'english_translation';
 
 const $ = (sel) => document.querySelector(sel);
 const xywhRe = /xywh=pixel:([0-9.]+),([0-9.]+),([0-9.]+),([0-9.]+)/;
-const VER = '20260924hi98';
+const VER = '20260924hi99';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -57,6 +57,8 @@ function normField(s) {
   return [...s].map(c => KANJI_VARIANTS[c] || c).join('');
 }
 function findAnnotationByField(f) { const k = normField(f); return currentAnnotations.find(a => normField(identOf(a)) === k); }
+/* a page listed under a second domain points at the original page's boxes, rows and crops */
+const dataId = p => (p && p.data_id) || (p && p.id);
 function findCropByField(pageId, f) { const k = normField(f); return (cropsManifest[pageId] || []).find(e => normField(e.ident) === k); }
 
 /* ---------------- page selector + meta ---------------- */
@@ -185,7 +187,7 @@ function renderExtractTable(pageId) {
   tbody.innerHTML = '';
   const allRows = extracts[pageId] || [];
   if (!allRows.length) {
-    tbody.innerHTML = '<tr><td colspan="4" style="color:#9a8d76;text-align:center;padding:22px">No MASTER extract rows for this page.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="4" style="color:#9a8d76;text-align:center;padding:22px">No figures recorded for this page.</td></tr>';
     return;
   }
   // de-duplicate ONLY exact-duplicate rows (same label + value + unit). Distinct fields
@@ -279,8 +281,8 @@ function openDetailFor(fieldJp) {
   const ann = findAnnotationByField(fieldJp);
   const body = {};
   if (ann) (ann.body || []).forEach(b => { body[b.purpose] = b.value; });
-  const crop = findCropByField(pages[currentPage].id, fieldJp);
-  const extractRow = (extracts[pages[currentPage].id] || []).find(r => r.field_jp === fieldJp);
+  const crop = findCropByField(dataId(pages[currentPage]), fieldJp);
+  const extractRow = (extracts[dataId(pages[currentPage])] || []).find(r => r.field_jp === fieldJp);
   const gloss = glossary[fieldJp] || {};
 
   $('#detail-master').textContent = body.identifying || fieldJp;
@@ -318,7 +320,7 @@ function loadPage(idx) {
   hideTip();
   renderPageMeta(page);
   currentAnnotations = annotationsByPage[page.id] || [];
-  renderExtractTable(page.id);
+  renderExtractTable(dataId(page));
   viewer.clearOverlays();
   overlaysByField = {};
   viewer.open({ type: 'image', url: `${page.image}?v=${VER}` });
@@ -332,10 +334,17 @@ async function init() {
     extracts = await loadJson(`data/master_extracts.json?v=${VER}`);
     glossary = await loadJson(`data/hi_field_glossary.json?v=${VER}`);
     cropsManifest = await loadJson(`data/crops_manifest.json?v=${VER}`);
-    await Promise.all(pages.map(async p => {
-      try { annotationsByPage[p.id] = await loadJson(`data/annotations/${p.id}.json?v=${VER}`); }
-      catch (e) { annotationsByPage[p.id] = []; }
-    }));
+    // each page's annotation file is fetched once (a page listed under two domains shares one file),
+    // 40 at a time: fetching all of them at once exhausts the browser's connections
+    const ids = [...new Set(pages.map(dataId))];
+    const loaded = {};
+    for (let i = 0; i < ids.length; i += 40) {
+      await Promise.all(ids.slice(i, i + 40).map(async id => {
+        try { loaded[id] = await loadJson(`data/annotations/${id}.json?v=${VER}`); }
+        catch (e) { loaded[id] = []; }
+      }));
+    }
+    pages.forEach(p => { annotationsByPage[p.id] = loaded[dataId(p)] || []; });
   } catch (e) {
     document.body.innerHTML = `<p style="padding:40px;color:#a8362a;font-family:Georgia,serif">Failed to load viewer data: ${e.message}</p>`;
     return;
@@ -416,7 +425,7 @@ async function init() {
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('is-active'));
       btn.classList.add('is-active');
       currentLang = btn.dataset.lang;
-      if (pages[currentPage]) renderExtractTable(pages[currentPage].id);
+      if (pages[currentPage]) renderExtractTable(dataId(pages[currentPage]));
     });
   });
 

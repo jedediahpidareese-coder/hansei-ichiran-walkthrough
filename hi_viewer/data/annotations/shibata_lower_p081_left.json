@@ -13,7 +13,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total population of Shizuoka domain: 777,011 persons. This column opens the leaf and completes a pair that straddles the leaf break — the matching 戸數 (157,297 households) is the last column of the preceding page (lower_p081_right), giving 4.94 persons per household. The 内 ('of which') at the foot introduces the male/female split boxed below, which reconciles exactly: 391,788 + 385,223 = 777,011. The printed label is 人員; MASTER records this row as 人口, which is an interpretive rename rather than what the page prints."
+        "value": "Total population of Shizuoka domain: 777,011 persons. This column opens the leaf and completes a pair that straddles the leaf break — the matching 戸數 (157,297 households) is the last column of the preceding page (lower_p081_right), giving 4.94 persons per household. The 内 ('of which') at the foot introduces the male/female split boxed below, which reconciles exactly: 391,788 + 385,223 = 777,011. The printed label is 人員."
       },
       {
         "purpose": "identifying",
@@ -373,7 +373,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Warichu (split-column inline note) attached to the domain name: Shibata's lands lie 'within Kanbara district of Echigo and Shinobu district of Iwashiro'. Read right sub-column first (越後蒲原郡), then left (岩代信夫郡), then the centred 之内 below. It is printed in the MARKER's column (x1827-1933), not in the 高 column (x1704-1789), so it modifies the domain name rather than the kokudaka figure — MASTER folds this text into its 高 row instead. MASTER's transcription also drops one 郡; the page prints 郡 in both half-columns. These two districts are exactly the two components itemised under 此譯 below."
+        "value": "Warichu (split-column inline note) attached to the domain name: Shibata's lands lie 'within Kanbara district of Echigo and Shinobu district of Iwashiro'. Read right sub-column first (越後蒲原郡), then left (岩代信夫郡), then the centred 之内 below. It is printed in the MARKER's column, not in the 高 column, so it modifies the domain name rather than the kokudaka figure. The page prints 郡 in both half-columns. These two districts are exactly the two components itemised under 此譯 below."
       },
       {
         "purpose": "identifying",
@@ -403,7 +403,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Total assessed kokudaka of Shibata domain: 139,102.18735 koku (139,102 koku, 1 to, 8 shō, 7 gō, 3 shaku, 5 sai). Sub-units run strictly descending 石>斗>升>合>勺>才 with no place skipped. Every glyph was re-zoomed at 6-8x because the arithmetic below is 0.9 koku short: the glyph after 百 is unmistakably 貳 (二 over 貝 with the 弋 hook) and the one after 石 is unmistakably 壹 (士 over 冖 over 豆), ruling out the 壹/貳 transposition that would have closed the gap. The 此譯 breakdown to the left splits this between the two districts named in the warichu. MASTER carries two 高 rows for this page, both valued 139,102.18735; only this one is that figure."
+        "value": "Total assessed kokudaka of Shibata domain: 139,102.18735 koku (139,102 koku, 1 to, 8 shō, 7 gō, 3 shaku, 5 sai). Sub-units run strictly descending 石>斗>升>合>勺>才 with no place skipped. The 此譯 breakdown to the left splits this total between the two districts named in the warichu, and its two district figures sum to 0.9 koku less. The glyph after 百 is 貳 (二 over 貝 with the 弋 hook) and the glyph after 石 is 壹 (士 over 冖 over 豆), so the page does not print the 壹/貳 transposition that would close the gap."
       },
       {
         "purpose": "identifying",
@@ -463,7 +463,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "First component under 此譯: the Echigo (Kanbara district) portion of Shibata's kokudaka, 132,399.04313 koku — 95.2% of the domain total. The 斗 place is genuinely SKIPPED (石→升→合→勺→才, still strictly descending), so the reading is .04313 and not .4313; a 20-glyph montage confirms it. MASTER records this row's value as 139,102.18735, duplicating the total — the scan clearly disagrees and is trusted here. The remaining Iwashiro portion prints on the next leaf (lower_p082_right) as 6,702.24422 koku; the two components sum to 139,101.28735, which falls 0.9 koku short of the printed total — a genuine internal inconsistency in the source, not a misread (all three figures were re-verified glyph-by-glyph)."
+        "value": "First component under 此譯: the Echigo (Kanbara district) portion of Shibata's kokudaka, 132,399.04313 koku — 95.2% of the domain total. The 斗 place is skipped (石→升→合→勺→才, still strictly descending), so the reading is .04313 and not .4313. The remaining Iwashiro portion prints on the next leaf (lower_p082_right) as 6,702.24422 koku; the two components sum to 139,101.28735, which falls 0.9 koku short of the printed total, an inconsistency in the source itself."
       },
       {
         "purpose": "identifying",
@@ -613,7 +613,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Eiraku-sen (cash) component of the miscellaneous tax on Shibata's Echigo holding: 308.677985 kan (308 kan, 677 mon, 9 bu, 8 rin, 5 mō — where 文=.001, 分=.0001, 厘=.00001, 毛=.000001 of a kan). MASTER parses 308.67798, dropping the 毛. The scan's full reading is confirmed by an exact cross-check: the next leaf prints a domain-total 永 of 四百三十壹貫百六十九文六分四厘五毛 = 431.169645, and 308.677985 + 122.49166 (that leaf's Iwashiro 永) = 431.169645 precisely. Last column of the page's data."
+        "value": "Eiraku-sen (cash) component of the miscellaneous tax on Shibata's Echigo holding: 308.677985 kan (308 kan, 677 mon, 9 bu, 8 rin, 5 mō — where 文=.001, 分=.0001, 厘=.00001, 毛=.000001 of a kan). The next leaf prints a domain-total 永 of 四百三十壹貫百六十九文六分四厘五毛 = 431.169645, and 308.677985 + 122.49166 (that leaf's Iwashiro 永) = 431.169645 exactly. Last column of the page's data."
       },
       {
         "purpose": "identifying",
@@ -643,7 +643,7 @@
       },
       {
         "purpose": "english_translation",
-        "value": "Editorial note in the head margin, set in three short columns read right to left: （原朱）| 庚午二月ノ | 調ニ據ル — '(in the original, in red ink) Based on the survey of the second month of the kanoe-uma year.' Kanoe-uma = Meiji 3 = 1870, dating Shibata's return to the second month of that year. Note the page prints 庚午 alone, without 年 (MASTER's field label supplies it; the scan shows exactly five glyph slots in this sub-column — 庚 午 二 月 ノ — at a uniform ~50px pitch). 原朱 flags that the note stood in vermilion in the manuscript the 1928 movable-type edition reproduces; the scan is grayscale, so it reads as ordinary black here. It sits left of the ○新發田藩 marker and above Shibata's 高 and 此譯 columns, and so belongs to Shibata's entry."
+        "value": "Editorial note in the head margin, set in three short columns read right to left: （原朱）| 庚午二月ノ | 調ニ據ル — '(in the original, in red ink) Based on the survey of the second month of the kanoe-uma year.' Kanoe-uma = Meiji 3 = 1870, dating Shibata's return to the second month of that year. The page prints 庚午 alone, without 年: the middle sub-column holds five glyphs, 庚 午 二 月 ノ. 原朱 indicates that the note stood in vermilion in the manuscript the 1928 movable-type edition reproduces; the page image is grayscale, so it reads as ordinary black here. It sits left of the ○新發田藩 marker and above Shibata's 高 and 此譯 columns, and so belongs to Shibata's entry."
       },
       {
         "purpose": "identifying",
